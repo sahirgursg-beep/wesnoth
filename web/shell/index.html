@@ -64,7 +64,8 @@
       // Saves, preferences and add-ons live in IndexedDB.
       const FS = Module.FS;
       FS.mkdir("/userdata");
-      FS.mount(FS.filesystems.IDBFS, { autoPersist: true }, "/userdata");
+      const IDBFS = Module.IDBFS || (FS.filesystems && FS.filesystems.IDBFS) || window.IDBFS;
+      FS.mount(IDBFS, { autoPersist: true }, "/userdata");
       Module.addRunDependency("syncfs-userdata");
       FS.syncfs(true, (err) => {
         if (err) { console.warn("Could not load saved data:", err); }
