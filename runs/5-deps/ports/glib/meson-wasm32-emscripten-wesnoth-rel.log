@@ -1,0 +1,55 @@
+[binaries]
+cmake = ['/usr/local/bin/cmake']
+ninja = ['/usr/local/bin/ninja']
+pkg-config = ['/bin/pkg-config']
+
+ar = ['/home/runner/webbuild/emsdk/upstream/emscripten/emar']
+
+c = ['/home/runner/webbuild/emsdk/upstream/emscripten/emcc', '-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-O3', '-DNDEBUG']
+c_ld = ['/usr/bin/ld']
+cpp = ['/home/runner/webbuild/emsdk/upstream/emscripten/em++', '-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-O3', '-DNDEBUG']
+cpp_ld = ['/usr/bin/ld']
+
+
+
+
+
+
+
+
+[properties]
+cmake_toolchain_file  = '/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake'
+
+[cmake]
+CMAKE_BUILD_TYPE = 'Release'
+VCPKG_TARGET_TRIPLET = 'wasm32-emscripten-wesnoth'
+VCPKG_HOST_TRIPLET = 'x64-linux'
+VCPKG_CHAINLOAD_TOOLCHAIN_FILE = '/home/runner/webbuild/vcpkg/scripts/toolchains/emscripten.cmake'
+VCPKG_CRT_LINKAGE = 'dynamic'
+_VCPKG_INSTALLED_DIR = '/home/runner/webbuild/vcpkg/installed'
+[build_machine]
+endian = 'little'
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+[host_machine]
+endian = 'little'
+system = 'emscripten'
+cpu_family = 'wasm32'
+cpu = 'wasm32'
+[built-in options]
+default_library = 'static'
+werror = false
+c_args = ['-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include']
+c_link_args = ['-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib']
+
+cpp_args = ['-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include']
+cpp_link_args = ['-fwasm-exceptions', '-sSUPPORT_LONGJMP=wasm', '-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib']
+
+
+
+
+# b_vscrt
+
+# c_winlibs/cpp_winlibs
+

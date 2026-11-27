@@ -1,0 +1,490 @@
+[
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "thread_dep"
+    ]
+  },
+  {
+    "name": "iconv",
+    "type": "builtin",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libiconv"
+    ]
+  },
+  {
+    "name": "libpcre2-8",
+    "type": "pkgconfig",
+    "version": "10.47",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/libpcre2-8.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pcre2"
+    ]
+  },
+  {
+    "name": "libffi",
+    "type": "pkgconfig",
+    "version": "3.8.0",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/libffi.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libffi_dep"
+    ]
+  },
+  {
+    "name": "zlib",
+    "type": "pkgconfig",
+    "version": "1.3.2",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libz_dep"
+    ]
+  },
+  {
+    "name": "intl",
+    "type": "builtin",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libintl"
+    ]
+  },
+  {
+    "name": "bash-completion",
+    "type": "pkgconfig",
+    "version": "2.16.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "bash_comp_dep"
+    ]
+  },
+  {
+    "name": "gvdb",
+    "type": "internal",
+    "version": "0.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/subprojects/gvdb/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/subprojects/gvdb/."
+    ],
+    "sources": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/subprojects/gvdb/gvdb/gvdb-builder.c",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/subprojects/gvdb/gvdb/gvdb-reader.c"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gvdb_dep"
+    ]
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libm"
+    ]
+  },
+  {
+    "name": "atomic",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-latomic"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "atomic_dep"
+    ]
+  },
+  {
+    "name": "dep60628796304576454284990308283708852436",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "app_profile_dep"
+    ]
+  },
+  {
+    "name": "dep327912552567949437603416569774056199866",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "test_profile_dep"
+    ]
+  },
+  {
+    "name": "dep77175626656209641882266696196606411899",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/glib",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/glib"
+    ],
+    "sources": [
+      "gversionmacros.h",
+      "glib-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "intl"
+    ],
+    "depends": [
+      "4430778@@glib-2.0@sta"
+    ],
+    "meson_variables": [
+      "libglib_dep"
+    ]
+  },
+  {
+    "name": "dep140065565921841463132638646897335076365",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [
+      "-DGLIB_STATIC_COMPILATION"
+    ],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/glib",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/glib"
+    ],
+    "sources": [
+      "gversionmacros.h",
+      "glib-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "atomic",
+      "iconv",
+      "intl",
+      "m",
+      "sysprof-capture-4",
+      "libpcre2-8",
+      "threads"
+    ],
+    "depends": [
+      "6e4c96c@@charset@sta"
+    ],
+    "meson_variables": [
+      "libglib_static_dep"
+    ]
+  },
+  {
+    "name": "dep272828306957747790493291989614749627726",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/gobject",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gobject"
+    ],
+    "sources": [
+      "gobject-visibility.h",
+      "glib-enumtypes.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "dep77175626656209641882266696196606411899"
+    ],
+    "depends": [
+      "6270cfe@@gobject-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgobject_dep"
+    ]
+  },
+  {
+    "name": "dep305088731287242446059362231090466709111",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "7fc3d67@@gthread-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgthread_dep"
+    ]
+  },
+  {
+    "name": "dep30947284134687360008992272769585848078",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/gmodule",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gmodule"
+    ],
+    "sources": [
+      "gmodule-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gmodule_inc_dep"
+    ]
+  },
+  {
+    "name": "dep220436833368886534136011849086088143388",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep77175626656209641882266696196606411899",
+      "dep30947284134687360008992272769585848078"
+    ],
+    "depends": [
+      "75acf41@@gmodule-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgmodule_dep"
+    ]
+  },
+  {
+    "name": "dep251978627785971537833457062769162750416",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "gioenumtypes.h",
+      "glib-enumtypes.h",
+      "gio-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gioenumtypes_dep"
+    ]
+  },
+  {
+    "name": "dep217330057347507979319227323428416707809",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/gio",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gio"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep220436833368886534136011849086088143388",
+      "dep272828306957747790493291989614749627726",
+      "dep251978627785971537833457062769162750416"
+    ],
+    "depends": [
+      "6ae6c9e@@gio-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgio_dep",
+      "libgiounix_dep"
+    ]
+  },
+  {
+    "name": "dep210818301160276642654439686598018331812",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/girepository/cmph/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/girepository/cmph/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "6cca4a0@@cmph@sta"
+    ],
+    "meson_variables": [
+      "cmph_dep"
+    ]
+  },
+  {
+    "name": "dep180012860359641960512314564978231473799",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/girepository"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep77175626656209641882266696196606411899",
+      "dep220436833368886534136011849086088143388",
+      "dep272828306957747790493291989614749627726"
+    ],
+    "depends": [
+      "667a256@@girepository-gthash@sta"
+    ],
+    "meson_variables": [
+      "girepo_gthash_dep"
+    ]
+  },
+  {
+    "name": "dep259105267709520365051693027324334600008",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/girepository"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "libffi"
+    ],
+    "depends": [
+      "667a256@@girepository-internals@sta"
+    ],
+    "meson_variables": [
+      "libgirepository_internals_dep"
+    ]
+  },
+  {
+    "name": "dep250313315146661195285831253779053443428",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/girepository"
+    ],
+    "sources": [
+      "gi-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "dep77175626656209641882266696196606411899",
+      "dep272828306957747790493291989614749627726",
+      "dep217330057347507979319227323428416707809",
+      "dep220436833368886534136011849086088143388"
+    ],
+    "depends": [
+      "667a256@@girepository-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgirepository_dep"
+    ]
+  }
+]

@@ -1,0 +1,2122 @@
+                  ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:23:
+../src/glib-2-5cb0ae2525.clean/glib/grcboxprivate.h:56:1: warning: '_Static_assert' is a C11 extension [-Wc11-extensions]
+   56 | G_STATIC_ASSERT (sizeof (GRcBox) == sizeof (GArcBox));
+      | ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:910:31: note: expanded from macro 'G_STATIC_ASSERT'
+  910 | #define G_STATIC_ASSERT(expr) _Static_assert (expr, "Expression evaluates to false")
+      |                               ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:25:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:25:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:25:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:25:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:25:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:58:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   58 |   g_return_val_if_fail (block_size > 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:85:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   85 |   g_return_val_if_fail (block_size > 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:145:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  145 |   g_return_val_if_fail (block_size > 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:146:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  146 |   g_return_val_if_fail (mem_block != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:170:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  170 |   g_return_val_if_fail (mem_block != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:172:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  172 |   g_return_val_if_fail (real_box->magic == G_BOX_MAGIC, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:223:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  223 |   g_return_if_fail (mem_block != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:225:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  225 |   g_return_if_fail (real_box->magic == G_BOX_MAGIC);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:257:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  257 |   g_return_val_if_fail (mem_block != NULL, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garcbox.c:259:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  259 |   g_return_val_if_fail (real_box->magic == G_BOX_MAGIC, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+19 warnings generated.
+[38/698] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/deprecated_grel.c.o -MF glib/libglib-2.0.a.p/deprecated_grel.c.o.d -o glib/libglib-2.0.a.p/deprecated_grel.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:41:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:204:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   g_return_val_if_fail (fields == 2, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:216:39: warning: unused parameter 'tuple_key' [-Wunused-parameter]
+  216 | relation_delete_value_tuple (gpointer tuple_key,
+      |                                       ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:226:33: warning: unused parameter 'key' [-Wunused-parameter]
+  226 | g_relation_free_array (gpointer key, gpointer value, gpointer user_data)
+      |                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:226:63: warning: unused parameter 'user_data' [-Wunused-parameter]
+  226 | g_relation_free_array (gpointer key, gpointer value, gpointer user_data)
+      |                                                               ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:281:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  281 |   g_return_if_fail (relation != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:283:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  283 |   g_return_if_fail (relation->count == 0 && relation->hashed_tuple_tables[field] == NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:349:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  349 |   g_assert (tuple_key == tuple_value);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:400:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  400 |   g_return_val_if_fail (relation != NULL, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:401:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  401 |   g_return_val_if_fail (field >= 0 && (size_t) field < relation->fields, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:407:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  407 |   g_return_val_if_fail (table != NULL, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:436:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  436 |   g_assert (tuple_key == tuple_value);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:470:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  470 |   g_return_val_if_fail (relation != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:471:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  471 |   g_return_val_if_fail (field >= 0 && (size_t) field < relation->fields, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:476:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  476 |   g_return_val_if_fail (table != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:491:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  491 |   g_assert (count == (size_t) tuples->len);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:504:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  504 |   g_return_val_if_fail (relation != NULL, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:505:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  505 |   g_return_val_if_fail (field < relation->fields, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:509:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  509 |   g_return_val_if_fail (table != NULL, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:539:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  539 |   g_return_val_if_fail (field >= 0 && (size_t) field < relation->fields, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:543:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  543 |   g_return_val_if_fail (n_matches <= G_MAXINT, G_MAXINT);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:627:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  627 |   g_return_val_if_fail (tuples0 != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:628:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  628 |   g_return_val_if_fail (index >= 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:629:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  629 |   g_return_val_if_fail (field >= 0 && (size_t) field < tuples->width, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:641:32: warning: unused parameter 'tuple_key' [-Wunused-parameter]
+  641 | g_relation_print_one (gpointer tuple_key,
+      |                                ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:691:82: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+  691 |   g_log (G_LOG_DOMAIN, G_LOG_LEVEL_INFO, "*** all tuples (%" G_GSIZE_FORMAT ")", relation->count);
+      |                                                           ~~~~~~~~~~~~~~~~~      ^~~~~~~~~~~~~~~
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/grel.c:702:76: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+  702 |       g_log (G_LOG_DOMAIN, G_LOG_LEVEL_INFO, "*** index %" G_GSIZE_FORMAT, i);
+      |                                                         ~~~~~~~~~~~~~~~~~  ^
+34 warnings generated.
+[39/698] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/deprecated_gthread-deprecated.c.o -MF glib/libglib-2.0.a.p/deprecated_gthread-deprecated.c.o.d -o glib/libglib-2.0.a.p/deprecated_gthread-deprecated.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstring.h:37:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gstrfuncs.h:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:31:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:223:41: warning: unused parameter 'thread' [-Wunused-parameter]
+  223 | g_thread_set_priority (GThread         *thread,
+      |                                         ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:224:41: warning: unused parameter 'priority' [-Wunused-parameter]
+  224 |                        GThreadPriority  priority)
+      |                                         ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:257:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  257 |   g_return_if_fail (thread_func != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:367:41: warning: unused parameter 'bound' [-Wunused-parameter]
+  367 |                       gboolean          bound,
+      |                                         ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:368:41: warning: unused parameter 'priority' [-Wunused-parameter]
+  368 |                       GThreadPriority   priority,
+      |                                         ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:472:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  472 |   g_return_if_fail (mutex);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:591:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  591 |   g_return_if_fail (mutex);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:658:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  658 |   g_return_if_fail (mutex);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:838:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  838 |   g_return_if_fail (mutex);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:958:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  958 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1001:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1001 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1034:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1034 |   g_return_val_if_fail (lock, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1062:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1062 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1091:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1091 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1123:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1123 |   g_return_val_if_fail (lock, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1154:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1154 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1181:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1181 |   g_return_if_fail (lock);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/deprecated/gthread-deprecated.c:1332:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1332 |       if (G_UNLIKELY (node->owner != private_key))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+26 warnings generated.
+[40/698] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/garray.c.o -MF glib/libglib-2.0.a.p/garray.c.o.d -o glib/libglib-2.0.a.p/garray.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/garray.c
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/ghash.h:36:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/glist.h:34:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/ghash.h:36:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/glist.h:34:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:40:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/ghash.h:36:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/glist.h:34:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+../src/glib-2-5cb0ae2525.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:43:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:28:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:43:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:28:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:43:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:28:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:43:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:28:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:43:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:28:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:38:
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/gvariant.h:31:
+../src/glib-2-5cb0ae2525.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-5cb0ae2525.clean/glib/garray.c:48:
+../src/glib-2-5cb0ae2525.clean/glib/gutilsprivate.h:45:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   45 |   g_assert (num > 0 && num <= G_MAXSIZE / 2);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:139:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  139 |   g_return_val_if_fail (elt_size > 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:186:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  186 |   g_return_val_if_fail (data != NULL || len == 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:187:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  187 |   g_return_val_if_fail (len <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:188:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  188 |   g_return_val_if_fail (element_size > 0 && element_size <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:240:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |   g_return_val_if_fail (element_size > 0 && element_size <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:258:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  258 |   g_return_val_if_fail (len < G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:263:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  263 |   if (G_LIKELY (rarray->data != NULL))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:306:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  306 |   g_return_val_if_fail (array != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:344:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  344 |   g_return_val_if_fail (elt_size > 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:364:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  364 |       g_assert (array->data != NULL);
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:416:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  416 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:436:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  436 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:466:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  466 |   g_return_if_fail (array);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:487:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  487 |   g_return_val_if_fail (array, 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:522:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  522 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:603:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  603 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:662:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  662 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:726:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  726 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:770:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  770 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:784:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  784 |   if (G_LIKELY (array->data != NULL))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:806:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  806 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:808:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  808 |   g_return_val_if_fail (index_ < array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:820:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  820 |   if (G_UNLIKELY (g_mem_gc_friendly))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:846:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  846 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:848:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  848 |   g_return_val_if_fail (index_ < array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:860:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  860 |   if (G_UNLIKELY (g_mem_gc_friendly))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:888:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  888 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:889:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  889 |   g_return_val_if_fail (index_ <= array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:890:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  890 |   g_return_val_if_fail (index_ <= G_MAXUINT - length, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:891:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  891 |   g_return_val_if_fail (index_ + length <= array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:910:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  910 |   if (G_UNLIKELY (g_mem_gc_friendly))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:936:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  936 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:943:19: warning: cast from 'GCompareFunc' (aka 'int (*)(const void *, const void *)') to 'GCompareDataFunc' (aka 'int (*)(const void *, const void *, void *)') converts to incompatible function type [-Wcast-function-type-mismatch]
+  943 |                   (GCompareDataFunc) compare_func,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:969:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  969 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1029:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1029 |   g_return_val_if_fail (_array != NULL, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1030:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1030 |   g_return_val_if_fail (compare_func != NULL, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1032:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1032 |   if (G_LIKELY(_array->len))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1076:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1076 |   if G_UNLIKELY ((max_len - array->len) < len)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1083:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1083 |       g_assert (want_alloc >= g_array_elt_len (array, want_len));
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1088:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1088 |       if (G_UNLIKELY (g_mem_gc_friendly))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1135:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1135 |   if (G_UNLIKELY (rarray->null_terminated))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1159:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1159 |       g_assert (array->pdata != NULL);
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1222:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1222 |   g_return_val_if_fail (data != NULL || len == 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1223:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1223 |   g_return_val_if_fail (len <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1280:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1280 |   g_return_val_if_fail (len < G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1285:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1285 |   if (G_LIKELY (rarray->pdata != NULL))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1302:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1302 |   g_assert (data != NULL || len == 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1303:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1303 |   g_assert (len <= G_MAXUINT - (null_terminated ? 1 : 0));
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1365:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1365 |   g_return_val_if_fail (data != NULL || len == 0, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1366:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1366 |   g_return_val_if_fail (len <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1414:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1414 |   g_assert (data != NULL || len == 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1415:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1415 |   g_return_val_if_fail (len < G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1484:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1484 |   g_return_val_if_fail (array != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1533:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1533 |   g_return_val_if_fail (array != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1601:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1601 |   g_return_val_if_fail (rarray != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1716:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1716 |   g_return_if_fail (array);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1739:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1739 |   g_return_val_if_fail (array, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1760:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1760 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1785:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1785 |   g_return_if_fail (array);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1825:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1825 |   g_return_val_if_fail (rarray, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1905:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1905 |   if G_UNLIKELY ((max_len - array->len) < len)
+      |      ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1916:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1916 |       if (G_UNLIKELY (g_mem_gc_friendly))
+      |           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1939:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1939 |   g_return_if_fail (rarray);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1940:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1940 |   g_return_if_fail (rarray->len == 0 || (rarray->len != 0 && rarray->pdata != NULL));
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1941:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1941 |   g_return_if_fail (length >= 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1977:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1977 |   g_return_val_if_fail (rarray, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1978:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1978 |   g_return_val_if_fail (rarray->len == 0 || (rarray->len != 0 && rarray->pdata != NULL), NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1980:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1980 |   g_return_val_if_fail (index_ < rarray->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:1995:34: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 1995 |   if (rarray->null_terminated || G_UNLIKELY (g_mem_gc_friendly))
+      |                                  ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2113:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2113 |   g_return_val_if_fail (rarray != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2114:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2114 |   g_return_val_if_fail (rarray->len == 0 || (rarray->len != 0 && rarray->pdata != NULL), NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2115:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2115 |   g_return_val_if_fail (index_ <= rarray->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2116:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2116 |   g_return_val_if_fail (index_ <= G_MAXUINT - length, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2117:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2117 |   g_return_val_if_fail (length == 0 || index_ + length <= rarray->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2136:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2136 |   if (G_UNLIKELY (g_mem_gc_friendly))
+      |       ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2168:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2168 |   g_return_val_if_fail (array, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2169:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2169 |   g_return_val_if_fail (array->len == 0 || (array->len != 0 && array->pdata != NULL), FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2206:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2206 |   g_return_val_if_fail (rarray, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2207:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2207 |   g_return_val_if_fail (rarray->len == 0 || (rarray->len != 0 && rarray->pdata != NULL), FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2235:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2235 |   g_return_if_fail (rarray);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2236:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2236 |   g_return_if_fail (rarray->len == 0 || (rarray->len != 0 && rarray->pdata != NULL));
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2278:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2278 |   g_return_if_fail (array_to_extend != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2279:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2279 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2327:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2327 |   g_return_if_fail (array_to_extend != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2328:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2328 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2360:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2360 |   g_return_if_fail (rarray);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2361:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2361 |   g_return_if_fail (index_ >= -1);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2362:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2362 |   g_return_if_fail (index_ < 0 || (guint) index_ <= rarray->len);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2430:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2430 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2437:19: warning: cast from 'GCompareFunc' (aka 'int (*)(const void *, const void *)') to 'GCompareDataFunc' (aka 'int (*)(const void *, const void *, void *)') converts to incompatible function type [-Wcast-function-type-mismatch]
+ 2437 |                   (GCompareDataFunc) compare_func,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2512:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2512 |   g_return_if_fail (array != NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2527:16: warning: initializing 'GCompareFunc' (aka 'int (*)(const void *, const void *)') with an expression of type 'gpointer' (aka 'void *') converts between void pointer and function pointer [-Wpedantic]
+ 2527 |   GCompareFunc compare_func = user_data;
+      |                ^              ~~~~~~~~~
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2550:64: warning: passing 'GCompareFunc' (aka 'int (*)(const void *, const void *)') to parameter of type 'gpointer' (aka 'void *') converts between void pointer and function pointer [-Wpedantic]
+ 2550 |   g_ptr_array_sort_with_data (array, compare_ptr_array_values, compare_func);
+      |                                                                ^~~~~~~~~~~~
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2510:47: note: passing argument to parameter 'user_data' here
+ 2510 |                             gpointer          user_data)
+      |                                               ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2614:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2614 |   g_return_if_fail (array);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+  654 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2678:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2678 |   g_return_val_if_fail (haystack != NULL, FALSE);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2764:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2764 |   g_return_val_if_fail (len <= G_MAXUINT, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2767:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2767 |   g_assert (real->data == NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2768:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2768 |   g_assert (real->len == 0);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2838:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2838 |   g_return_val_if_fail (array != NULL, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2986:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2986 |   g_return_val_if_fail (array, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2987:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2987 |   g_return_val_if_fail (index_ <= array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2988:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2988 |   g_return_val_if_fail (index_ <= G_MAXUINT - length, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-5cb0ae2525.clean/glib/garray.c:2989:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+ 2989 |   g_return_val_if_fail (index_ + length <= array->len, NULL);
+      |   ^
+../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+  667 |     if (G_LIKELY (expr)) \
+      |         ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+112 warnings generated.
+ninja: build stopped: subcommand failed.
