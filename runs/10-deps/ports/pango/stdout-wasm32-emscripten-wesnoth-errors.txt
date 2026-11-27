@@ -1,0 +1,12 @@
+15--- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/lib/pkgconfig/pangofc.pc
+16--- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/lib/pkgconfig/pangoft2.pc
+17--- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/lib/pkgconfig/pangoot.pc
+18:CMake Error at scripts/cmake/vcpkg_copy_tools.cmake:36 (message):
+19-  Couldn't find tool "pango-view":
+20-
+21-      "/home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/bin/pango-view" does not exist
+22-Call Stack (most recent call first):
+23-  ports/pango/portfile.cmake:51 (vcpkg_copy_tools)
+24-  scripts/ports.cmake:209 (include)
+25-
+26-

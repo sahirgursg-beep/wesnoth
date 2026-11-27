@@ -1,0 +1,19 @@
+167------------
+168-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp7qe8lcm5/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp7qe8lcm5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 1
+169-stderr:
+170:/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp7qe8lcm5/testfile.cpp:3:39: error: 'a' declared as an array with a negative size
+171-    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+172-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+173:1 error generated.
+174------------
+175-Running compile:
+176-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp0v23zui2
+177-Code:
+178-
+179-        #include <stddef.h>
+180-        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+181------------
+182-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp0v23zui2/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmp0v23zui2/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+183-Running compile:
+184-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/meson-private/tmpv9z2c8u4
+185-Code:
