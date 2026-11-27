@@ -1,0 +1,1991 @@
+270------------
+271-Command line: `/usr/bin/c++ -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpm8ddkf6_/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpm8ddkf6_/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++latest` -> 1
+272-stderr:
+273:c++: error: unrecognized command-line option '-std=c++latest'; did you mean '-std=c++2a'?
+274------------
+275-Compiler for C++ supports arguments -std=c++latest: NO 
+276-Running compile:
+277-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9t15yfz
+278-Code:
+279-#include <stdlib.h>
+280-  #if defined __GLIBC__ || defined __UCLIBC__
+281:  #error "Not in glibc or uclibc"
+282-  #endif
+283------------
+284-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9t15yfz/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9t15yfz/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+285-stderr:
+286:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9t15yfz/testfile.c:3:4: error: #error "Not in glibc or uclibc"
+287:    3 |   #error "Not in glibc or uclibc"
+288-      |    ^~~~~
+289------------
+290-Checking if "building for musl libc" compiles: NO 
+291-Program ./.gitlab-ci/thorough-test-wrapper.sh found: YES (/bin/bash /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-e686bf4a8e.clean/./.gitlab-ci/thorough-test-wrapper.sh)
+292-Program valgrind found: NO
+293-Running compile:
+294-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8y27f00d
+295-Code:
+296-extern int i;
+297-int i;
+298-
+299------------
+--
+306-
+307-        #ifdef __has_include
+308-         #if !__has_include("alloca.h")
+309:          #error "Header 'alloca.h' could not be found"
+310-         #endif
+311-        #else
+312-         #include <alloca.h>
+313-        #endif
+314------------
+315-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2lr3vg07/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+316-Has header "alloca.h" : YES 
+317-Running compile:
+318-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgugl_8_f
+319-Code:
+320-
+321-        #ifdef __has_include
+322-         #if !__has_include("afunix.h")
+323:          #error "Header 'afunix.h' could not be found"
+324-         #endif
+325-        #else
+326-         #include <afunix.h>
+327-        #endif
+328------------
+329-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgugl_8_f/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+330-stderr:
+331:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgugl_8_f/testfile.c:4:12: error: #error "Header 'afunix.h' could not be found"
+332:    4 |           #error "Header 'afunix.h' could not be found"
+333-      |            ^~~~~
+334------------
+335-Has header "afunix.h" : NO 
+336-Running compile:
+337-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6xxduah2
+338-Code:
+339-
+340-        #ifdef __has_include
+341-         #if !__has_include("crt_externs.h")
+342:          #error "Header 'crt_externs.h' could not be found"
+343-         #endif
+344-        #else
+345-         #include <crt_externs.h>
+346-        #endif
+347------------
+348-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6xxduah2/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+349-stderr:
+350:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6xxduah2/testfile.c:4:12: error: #error "Header 'crt_externs.h' could not be found"
+351:    4 |           #error "Header 'crt_externs.h' could not be found"
+352-      |            ^~~~~
+353------------
+354-Has header "crt_externs.h" : NO 
+355-Running compile:
+356-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn4g9lmm9
+357-Code:
+358-
+359-        #ifdef __has_include
+360-         #if !__has_include("dirent.h")
+361:          #error "Header 'dirent.h' could not be found"
+362-         #endif
+363-        #else
+364-         #include <dirent.h>
+365-        #endif
+366------------
+367-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn4g9lmm9/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+368-Has header "dirent.h" : YES 
+369-Running compile:
+370-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn8aev1zz
+371-Code:
+372-
+373-        #ifdef __has_include
+374-         #if !__has_include("float.h")
+375:          #error "Header 'float.h' could not be found"
+376-         #endif
+377-        #else
+378-         #include <float.h>
+379-        #endif
+380------------
+381-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn8aev1zz/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+382-Has header "float.h" : YES 
+383-Running compile:
+384-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpebul53a1
+385-Code:
+386-
+387-        #ifdef __has_include
+388-         #if !__has_include("fstab.h")
+389:          #error "Header 'fstab.h' could not be found"
+390-         #endif
+391-        #else
+392-         #include <fstab.h>
+393-        #endif
+394------------
+395-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpebul53a1/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+396-Has header "fstab.h" : YES 
+397-Running compile:
+398-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpakwf053d
+399-Code:
+400-
+401-        #ifdef __has_include
+402-         #if !__has_include("ftw.h")
+403:          #error "Header 'ftw.h' could not be found"
+404-         #endif
+405-        #else
+406-         #include <ftw.h>
+407-        #endif
+408------------
+409-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpakwf053d/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+410-Has header "ftw.h" : YES 
+411-Running compile:
+412-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpyp8s1ruh
+413-Code:
+414-
+415-        #ifdef __has_include
+416-         #if !__has_include("grp.h")
+417:          #error "Header 'grp.h' could not be found"
+418-         #endif
+419-        #else
+420-         #include <grp.h>
+421-        #endif
+422------------
+423-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpyp8s1ruh/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+424-Has header "grp.h" : YES 
+425-Running compile:
+426-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpaj8jdyvx
+427-Code:
+428-
+429-        #ifdef __has_include
+430-         #if !__has_include("intsafe.h")
+431:          #error "Header 'intsafe.h' could not be found"
+432-         #endif
+433-        #else
+434-         #include <intsafe.h>
+435-        #endif
+436------------
+437-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpaj8jdyvx/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+438-stderr:
+439:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpaj8jdyvx/testfile.c:4:12: error: #error "Header 'intsafe.h' could not be found"
+440:    4 |           #error "Header 'intsafe.h' could not be found"
+441-      |            ^~~~~
+442------------
+443-Has header "intsafe.h" : NO 
+444-Running compile:
+445-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgpb5j2xn
+446-Code:
+447-
+448-        #ifdef __has_include
+449-         #if !__has_include("inttypes.h")
+450:          #error "Header 'inttypes.h' could not be found"
+451-         #endif
+452-        #else
+453-         #include <inttypes.h>
+454-        #endif
+455------------
+456-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgpb5j2xn/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+457-Has header "inttypes.h" : YES 
+458-Running compile:
+459-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpur9d_896
+460-Code:
+461-
+462-        #ifdef __has_include
+463-         #if !__has_include("libproc.h")
+464:          #error "Header 'libproc.h' could not be found"
+465-         #endif
+466-        #else
+467-         #include <libproc.h>
+468-        #endif
+469------------
+470-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpur9d_896/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+471-stderr:
+472:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpur9d_896/testfile.c:4:12: error: #error "Header 'libproc.h' could not be found"
+473:    4 |           #error "Header 'libproc.h' could not be found"
+474-      |            ^~~~~
+475------------
+476-Has header "libproc.h" : NO 
+477-Running compile:
+478-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpevud57b7
+479-Code:
+480-
+481-        #ifdef __has_include
+482-         #if !__has_include("limits.h")
+483:          #error "Header 'limits.h' could not be found"
+484-         #endif
+485-        #else
+486-         #include <limits.h>
+487-        #endif
+488------------
+489-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpevud57b7/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+490-Has header "limits.h" : YES 
+491-Running compile:
+492-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmv898x1t
+493-Code:
+494-
+495-        #ifdef __has_include
+496-         #if !__has_include("linux/netlink.h")
+497:          #error "Header 'linux/netlink.h' could not be found"
+498-         #endif
+499-        #else
+500-         #include <linux/netlink.h>
+501-        #endif
+502------------
+503-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmv898x1t/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+504-Has header "linux/netlink.h" : YES 
+505-Running compile:
+506-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3l4hvrjo
+507-Code:
+508-
+509-        #ifdef __has_include
+510-         #if !__has_include("locale.h")
+511:          #error "Header 'locale.h' could not be found"
+512-         #endif
+513-        #else
+514-         #include <locale.h>
+515-        #endif
+516------------
+517-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3l4hvrjo/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+518-Has header "locale.h" : YES 
+519-Running compile:
+520-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkz5tbr_c
+521-Code:
+522-
+523-        #ifdef __has_include
+524-         #if !__has_include("mach/mach_time.h")
+525:          #error "Header 'mach/mach_time.h' could not be found"
+526-         #endif
+527-        #else
+528-         #include <mach/mach_time.h>
+529-        #endif
+530------------
+531-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkz5tbr_c/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+532-stderr:
+533:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkz5tbr_c/testfile.c:4:12: error: #error "Header 'mach/mach_time.h' could not be found"
+534:    4 |           #error "Header 'mach/mach_time.h' could not be found"
+535-      |            ^~~~~
+536------------
+537-Has header "mach/mach_time.h" : NO 
+538-Running compile:
+539-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvlyppzvc
+540-Code:
+541-
+542-        #ifdef __has_include
+543-         #if !__has_include("memory.h")
+544:          #error "Header 'memory.h' could not be found"
+545-         #endif
+546-        #else
+547-         #include <memory.h>
+548-        #endif
+549------------
+550-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvlyppzvc/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+551-Has header "memory.h" : YES 
+552-Running compile:
+553-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjnsc81a0
+554-Code:
+555-
+556-        #ifdef __has_include
+557-         #if !__has_include("mntent.h")
+558:          #error "Header 'mntent.h' could not be found"
+559-         #endif
+560-        #else
+561-         #include <mntent.h>
+562-        #endif
+563------------
+564-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjnsc81a0/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+565-Has header "mntent.h" : YES 
+566-Running compile:
+567-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpixzn82oj
+568-Code:
+569-
+570-        #ifdef __has_include
+571-         #if !__has_include("netlink/netlink.h")
+572:          #error "Header 'netlink/netlink.h' could not be found"
+573-         #endif
+574-        #else
+575-         #include <netlink/netlink.h>
+576-        #endif
+577------------
+578-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpixzn82oj/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+579-stderr:
+580:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpixzn82oj/testfile.c:4:12: error: #error "Header 'netlink/netlink.h' could not be found"
+581:    4 |           #error "Header 'netlink/netlink.h' could not be found"
+582-      |            ^~~~~
+583------------
+584-Has header "netlink/netlink.h" : NO 
+585-Running compile:
+586-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp87pr7ev3
+587-Code:
+588-
+589-        #ifdef __has_include
+590-         #if !__has_include("netlink/netlink_route.h")
+591:          #error "Header 'netlink/netlink_route.h' could not be found"
+592-         #endif
+593-        #else
+594-         #include <netlink/netlink_route.h>
+595-        #endif
+596------------
+597-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp87pr7ev3/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+598-stderr:
+599:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp87pr7ev3/testfile.c:4:12: error: #error "Header 'netlink/netlink_route.h' could not be found"
+600:    4 |           #error "Header 'netlink/netlink_route.h' could not be found"
+601-      |            ^~~~~
+602------------
+603-Has header "netlink/netlink_route.h" : NO 
+604-Running compile:
+605-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmprkvnoqq8
+606-Code:
+607-
+608-        #ifdef __has_include
+609-         #if !__has_include("poll.h")
+610:          #error "Header 'poll.h' could not be found"
+611-         #endif
+612-        #else
+613-         #include <poll.h>
+614-        #endif
+615------------
+616-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmprkvnoqq8/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+617-Has header "poll.h" : YES 
+618-Running compile:
+619-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgungyc9c
+620-Code:
+621-
+622-        #ifdef __has_include
+623-         #if !__has_include("pwd.h")
+624:          #error "Header 'pwd.h' could not be found"
+625-         #endif
+626-        #else
+627-         #include <pwd.h>
+628-        #endif
+629------------
+630-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgungyc9c/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+631-Has header "pwd.h" : YES 
+632-Running compile:
+633-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmtno5k49
+634-Code:
+635-
+636-        #ifdef __has_include
+637-         #if !__has_include("sched.h")
+638:          #error "Header 'sched.h' could not be found"
+639-         #endif
+640-        #else
+641-         #include <sched.h>
+642-        #endif
+643------------
+644-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmtno5k49/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+645-Has header "sched.h" : YES 
+646-Running compile:
+647-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsb5l4s9i
+648-Code:
+649-
+650-        #ifdef __has_include
+651-         #if !__has_include("spawn.h")
+652:          #error "Header 'spawn.h' could not be found"
+653-         #endif
+654-        #else
+655-         #include <spawn.h>
+656-        #endif
+657------------
+658-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsb5l4s9i/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+659-Has header "spawn.h" : YES 
+660-Running compile:
+661-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8ga5srm_
+662-Code:
+663-
+664-        #ifdef __has_include
+665-         #if !__has_include("stdatomic.h")
+666:          #error "Header 'stdatomic.h' could not be found"
+667-         #endif
+668-        #else
+669-         #include <stdatomic.h>
+670-        #endif
+671------------
+672-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8ga5srm_/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+673-Has header "stdatomic.h" : YES 
+674-Running compile:
+675-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpeir25utl
+676-Code:
+677-
+678-        #ifdef __has_include
+679-         #if !__has_include("stdckdint.h")
+680:          #error "Header 'stdckdint.h' could not be found"
+681-         #endif
+682-        #else
+683-         #include <stdckdint.h>
+684-        #endif
+685------------
+686-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpeir25utl/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+687-Has header "stdckdint.h" : YES 
+688-Running compile:
+689-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf7qz0qg5
+690-Code:
+691-
+692-        #ifdef __has_include
+693-         #if !__has_include("stdint.h")
+694:          #error "Header 'stdint.h' could not be found"
+695-         #endif
+696-        #else
+697-         #include <stdint.h>
+698-        #endif
+699------------
+700-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf7qz0qg5/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+701-Has header "stdint.h" : YES 
+702-Running compile:
+703-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvsz3p9ox
+704-Code:
+705-
+706-        #ifdef __has_include
+707-         #if !__has_include("stdlib.h")
+708:          #error "Header 'stdlib.h' could not be found"
+709-         #endif
+710-        #else
+711-         #include <stdlib.h>
+712-        #endif
+713------------
+714-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvsz3p9ox/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+715-Has header "stdlib.h" : YES 
+716-Running compile:
+717-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvcdm8l_j
+718-Code:
+719-
+720-        #ifdef __has_include
+721-         #if !__has_include("string.h")
+722:          #error "Header 'string.h' could not be found"
+723-         #endif
+724-        #else
+725-         #include <string.h>
+726-        #endif
+727------------
+728-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvcdm8l_j/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+729-Has header "string.h" : YES 
+730-Running compile:
+731-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpbb4ay3zs
+732-Code:
+733-
+734-        #ifdef __has_include
+735-         #if !__has_include("strings.h")
+736:          #error "Header 'strings.h' could not be found"
+737-         #endif
+738-        #else
+739-         #include <strings.h>
+740-        #endif
+741------------
+742-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpbb4ay3zs/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+743-Has header "strings.h" : YES 
+744-Running compile:
+745-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6to98i0d
+746-Code:
+747-
+748-        #ifdef __has_include
+749-         #if !__has_include("sys/auxv.h")
+750:          #error "Header 'sys/auxv.h' could not be found"
+751-         #endif
+752-        #else
+753-         #include <sys/auxv.h>
+754-        #endif
+755------------
+756-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6to98i0d/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+757-Has header "sys/auxv.h" : YES 
+758-Running compile:
+759-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkbv1wj0o
+760-Code:
+761-
+762-        #ifdef __has_include
+763-         #if !__has_include("sys/event.h")
+764:          #error "Header 'sys/event.h' could not be found"
+765-         #endif
+766-        #else
+767-         #include <sys/event.h>
+768-        #endif
+769------------
+770-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkbv1wj0o/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+771-stderr:
+772:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkbv1wj0o/testfile.c:4:12: error: #error "Header 'sys/event.h' could not be found"
+773:    4 |           #error "Header 'sys/event.h' could not be found"
+774-      |            ^~~~~
+775------------
+776-Has header "sys/event.h" : NO 
+777-Running compile:
+778-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpt4h9mu5p
+779-Code:
+780-
+781-        #ifdef __has_include
+782-         #if !__has_include("sys/uio.h")
+783:          #error "Header 'sys/uio.h' could not be found"
+784-         #endif
+785-        #else
+786-         #include <sys/uio.h>
+787-        #endif
+788------------
+789-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpt4h9mu5p/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+790-Has header "sys/uio.h" : YES 
+791-Running compile:
+792-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn7gfigp0
+793-Code:
+794-
+795-        #ifdef __has_include
+796-         #if !__has_include("sys/filio.h")
+797:          #error "Header 'sys/filio.h' could not be found"
+798-         #endif
+799-        #else
+800-         #include <sys/filio.h>
+801-        #endif
+802------------
+803-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn7gfigp0/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+804-stderr:
+805:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpn7gfigp0/testfile.c:4:12: error: #error "Header 'sys/filio.h' could not be found"
+806:    4 |           #error "Header 'sys/filio.h' could not be found"
+807-      |            ^~~~~
+808------------
+809-Has header "sys/filio.h" : NO 
+810-Running compile:
+811-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp_73yxqh7
+812-Code:
+813-
+814-        #ifdef __has_include
+815-         #if !__has_include("sys/inotify.h")
+816:          #error "Header 'sys/inotify.h' could not be found"
+817-         #endif
+818-        #else
+819-         #include <sys/inotify.h>
+820-        #endif
+821------------
+822-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp_73yxqh7/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+823-Has header "sys/inotify.h" : YES 
+824-Running compile:
+825-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpu_u4myko
+826-Code:
+827-
+828-        #ifdef __has_include
+829-         #if !__has_include("sys/mkdev.h")
+830:          #error "Header 'sys/mkdev.h' could not be found"
+831-         #endif
+832-        #else
+833-         #include <sys/mkdev.h>
+834-        #endif
+835------------
+836-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpu_u4myko/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+837-stderr:
+838:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpu_u4myko/testfile.c:4:12: error: #error "Header 'sys/mkdev.h' could not be found"
+839:    4 |           #error "Header 'sys/mkdev.h' could not be found"
+840-      |            ^~~~~
+841------------
+842-Has header "sys/mkdev.h" : NO 
+843-Running compile:
+844-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpj6d4fsfy
+845-Code:
+846-
+847-        #ifdef __has_include
+848-         #if !__has_include("sys/mntctl.h")
+849:          #error "Header 'sys/mntctl.h' could not be found"
+850-         #endif
+851-        #else
+852-         #include <sys/mntctl.h>
+853-        #endif
+854------------
+855-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpj6d4fsfy/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+856-stderr:
+857:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpj6d4fsfy/testfile.c:4:12: error: #error "Header 'sys/mntctl.h' could not be found"
+858:    4 |           #error "Header 'sys/mntctl.h' could not be found"
+859-      |            ^~~~~
+860------------
+861-Has header "sys/mntctl.h" : NO 
+862-Running compile:
+863-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpilxfgszu
+864-Code:
+865-
+866-        #ifdef __has_include
+867-         #if !__has_include("sys/mnttab.h")
+868:          #error "Header 'sys/mnttab.h' could not be found"
+869-         #endif
+870-        #else
+871-         #include <sys/mnttab.h>
+872-        #endif
+873------------
+874-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpilxfgszu/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+875-stderr:
+876:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpilxfgszu/testfile.c:4:12: error: #error "Header 'sys/mnttab.h' could not be found"
+877:    4 |           #error "Header 'sys/mnttab.h' could not be found"
+878-      |            ^~~~~
+879------------
+880-Has header "sys/mnttab.h" : NO 
+881-Running compile:
+882-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5gubck9b
+883-Code:
+884-
+885-        #ifdef __has_include
+886-         #if !__has_include("sys/mount.h")
+887:          #error "Header 'sys/mount.h' could not be found"
+888-         #endif
+889-        #else
+890-         #include <sys/mount.h>
+891-        #endif
+892------------
+893-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5gubck9b/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+894-Has header "sys/mount.h" : YES 
+895-Running compile:
+896-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkmlbfi80
+897-Code:
+898-
+899-        #ifdef __has_include
+900-         #if !__has_include("sys/param.h")
+901:          #error "Header 'sys/param.h' could not be found"
+902-         #endif
+903-        #else
+904-         #include <sys/param.h>
+905-        #endif
+906------------
+907-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkmlbfi80/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+908-Has header "sys/param.h" : YES 
+909-Running compile:
+910-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpbz8j7f99
+911-Code:
+912-
+913-        #ifdef __has_include
+914-         #if !__has_include("sys/prctl.h")
+915:          #error "Header 'sys/prctl.h' could not be found"
+916-         #endif
+917-        #else
+918-         #include <sys/prctl.h>
+919-        #endif
+920------------
+921-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpbz8j7f99/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+922-Has header "sys/prctl.h" : YES 
+923-Running compile:
+924-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpwgqqu2y8
+925-Code:
+926-
+927-        #ifdef __has_include
+928-         #if !__has_include("sys/resource.h")
+929:          #error "Header 'sys/resource.h' could not be found"
+930-         #endif
+931-        #else
+932-         #include <sys/resource.h>
+933-        #endif
+934------------
+935-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpwgqqu2y8/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+936-Has header "sys/resource.h" : YES 
+937-Running compile:
+938-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp88ebf2z7
+939-Code:
+940-
+941-        #ifdef __has_include
+942-         #if !__has_include("sys/select.h")
+943:          #error "Header 'sys/select.h' could not be found"
+944-         #endif
+945-        #else
+946-         #include <sys/select.h>
+947-        #endif
+948------------
+949-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp88ebf2z7/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+950-Has header "sys/select.h" : YES 
+951-Running compile:
+952-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmprhw8p9fb
+953-Code:
+954-
+955-        #ifdef __has_include
+956-         #if !__has_include("sys/statfs.h")
+957:          #error "Header 'sys/statfs.h' could not be found"
+958-         #endif
+959-        #else
+960-         #include <sys/statfs.h>
+961-        #endif
+962------------
+963-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmprhw8p9fb/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+964-Has header "sys/statfs.h" : YES 
+965-Running compile:
+966-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsehsh55n
+967-Code:
+968-
+969-        #ifdef __has_include
+970-         #if !__has_include("sys/stat.h")
+971:          #error "Header 'sys/stat.h' could not be found"
+972-         #endif
+973-        #else
+974-         #include <sys/stat.h>
+975-        #endif
+976------------
+977-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsehsh55n/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+978-Has header "sys/stat.h" : YES 
+979-Running compile:
+980-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpqfquqtlk
+981-Code:
+982-
+983-        #ifdef __has_include
+984-         #if !__has_include("sys/statvfs.h")
+985:          #error "Header 'sys/statvfs.h' could not be found"
+986-         #endif
+987-        #else
+988-         #include <sys/statvfs.h>
+989-        #endif
+990------------
+991-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpqfquqtlk/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+992-Has header "sys/statvfs.h" : YES 
+993-Running compile:
+994-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp18_1pidz
+995-Code:
+996-
+997-        #ifdef __has_include
+998-         #if !__has_include("sys/sysctl.h")
+999:          #error "Header 'sys/sysctl.h' could not be found"
+1000-         #endif
+1001-        #else
+1002-         #include <sys/sysctl.h>
+1003-        #endif
+1004------------
+1005-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp18_1pidz/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1006-stderr:
+1007:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp18_1pidz/testfile.c:4:12: error: #error "Header 'sys/sysctl.h' could not be found"
+1008:    4 |           #error "Header 'sys/sysctl.h' could not be found"
+1009-      |            ^~~~~
+1010------------
+1011-Has header "sys/sysctl.h" : NO 
+1012-Running compile:
+1013-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8y_69j4t
+1014-Code:
+1015-
+1016-        #ifdef __has_include
+1017-         #if !__has_include("sys/time.h")
+1018:          #error "Header 'sys/time.h' could not be found"
+1019-         #endif
+1020-        #else
+1021-         #include <sys/time.h>
+1022-        #endif
+1023------------
+1024-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8y_69j4t/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1025-Has header "sys/time.h" : YES 
+1026-Running compile:
+1027-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmptsdd6sd1
+1028-Code:
+1029-
+1030-        #ifdef __has_include
+1031-         #if !__has_include("sys/times.h")
+1032:          #error "Header 'sys/times.h' could not be found"
+1033-         #endif
+1034-        #else
+1035-         #include <sys/times.h>
+1036-        #endif
+1037------------
+1038-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmptsdd6sd1/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1039-Has header "sys/times.h" : YES 
+1040-Running compile:
+1041-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3z_1o3qg
+1042-Code:
+1043-
+1044-        #ifdef __has_include
+1045-         #if !__has_include("sys/types.h")
+1046:          #error "Header 'sys/types.h' could not be found"
+1047-         #endif
+1048-        #else
+1049-         #include <sys/types.h>
+1050-        #endif
+1051------------
+1052-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3z_1o3qg/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1053-Has header "sys/types.h" : YES 
+1054-Running compile:
+1055-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4lbmqpt3
+1056-Code:
+1057-
+1058-        #ifdef __has_include
+1059-         #if !__has_include("sys/ucred.h")
+1060:          #error "Header 'sys/ucred.h' could not be found"
+1061-         #endif
+1062-        #else
+1063-         #include <sys/ucred.h>
+1064-        #endif
+1065------------
+1066-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4lbmqpt3/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1067-stderr:
+1068:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4lbmqpt3/testfile.c:4:12: error: #error "Header 'sys/ucred.h' could not be found"
+1069:    4 |           #error "Header 'sys/ucred.h' could not be found"
+1070-      |            ^~~~~
+1071------------
+1072-Has header "sys/ucred.h" : NO 
+1073-Using cached compile:
+1074-Cached command line:  /usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpt4h9mu5p/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99 
+1075-
+1076-Code:
+1077- 
+1078-        #ifdef __has_include
+1079-         #if !__has_include("sys/uio.h")
+1080:          #error "Header 'sys/uio.h' could not be found"
+1081-         #endif
+1082-        #else
+1083-         #include <sys/uio.h>
+1084-        #endif
+1085-Cached compiler stdout:
+1086- 
+1087-Cached compiler stderr:
+1088- 
+1089-Has header "sys/uio.h" : YES (cached)
+1090-Running compile:
+1091-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp62x_75jc
+1092-Code:
+1093-
+1094-        #ifdef __has_include
+1095-         #if !__has_include("sys/vfs.h")
+1096:          #error "Header 'sys/vfs.h' could not be found"
+1097-         #endif
+1098-        #else
+1099-         #include <sys/vfs.h>
+1100-        #endif
+1101------------
+1102-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp62x_75jc/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1103-Has header "sys/vfs.h" : YES 
+1104-Running compile:
+1105-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe4jmld_8
+1106-Code:
+1107-
+1108-        #ifdef __has_include
+1109-         #if !__has_include("sys/vfstab.h")
+1110:          #error "Header 'sys/vfstab.h' could not be found"
+1111-         #endif
+1112-        #else
+1113-         #include <sys/vfstab.h>
+1114-        #endif
+1115------------
+1116-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe4jmld_8/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1117-stderr:
+1118:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe4jmld_8/testfile.c:4:12: error: #error "Header 'sys/vfstab.h' could not be found"
+1119:    4 |           #error "Header 'sys/vfstab.h' could not be found"
+1120-      |            ^~~~~
+1121------------
+1122-Has header "sys/vfstab.h" : NO 
+1123-Running compile:
+1124-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvr8h26pc
+1125-Code:
+1126-
+1127-        #ifdef __has_include
+1128-         #if !__has_include("sys/vmount.h")
+1129:          #error "Header 'sys/vmount.h' could not be found"
+1130-         #endif
+1131-        #else
+1132-         #include <sys/vmount.h>
+1133-        #endif
+1134------------
+1135-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvr8h26pc/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1136-stderr:
+1137:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvr8h26pc/testfile.c:4:12: error: #error "Header 'sys/vmount.h' could not be found"
+1138:    4 |           #error "Header 'sys/vmount.h' could not be found"
+1139-      |            ^~~~~
+1140------------
+1141-Has header "sys/vmount.h" : NO 
+1142-Running compile:
+1143-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpid9afnjk
+1144-Code:
+1145-
+1146-        #ifdef __has_include
+1147-         #if !__has_include("sys/wait.h")
+1148:          #error "Header 'sys/wait.h' could not be found"
+1149-         #endif
+1150-        #else
+1151-         #include <sys/wait.h>
+1152-        #endif
+1153------------
+1154-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpid9afnjk/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1155-Has header "sys/wait.h" : YES 
+1156-Running compile:
+1157-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpnpr840g3
+1158-Code:
+1159-
+1160-        #ifdef __has_include
+1161-         #if !__has_include("syslog.h")
+1162:          #error "Header 'syslog.h' could not be found"
+1163-         #endif
+1164-        #else
+1165-         #include <syslog.h>
+1166-        #endif
+1167------------
+1168-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpnpr840g3/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1169-Has header "syslog.h" : YES 
+1170-Running compile:
+1171-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9434n5u
+1172-Code:
+1173-
+1174-        #ifdef __has_include
+1175-         #if !__has_include("termios.h")
+1176:          #error "Header 'termios.h' could not be found"
+1177-         #endif
+1178-        #else
+1179-         #include <termios.h>
+1180-        #endif
+1181------------
+1182-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpg9434n5u/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1183-Has header "termios.h" : YES 
+1184-Running compile:
+1185-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsrn7uenn
+1186-Code:
+1187-
+1188-        #ifdef __has_include
+1189-         #if !__has_include("unistd.h")
+1190:          #error "Header 'unistd.h' could not be found"
+1191-         #endif
+1192-        #else
+1193-         #include <unistd.h>
+1194-        #endif
+1195------------
+1196-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpsrn7uenn/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1197-Has header "unistd.h" : YES 
+1198-Running compile:
+1199-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpyutqrxud
+1200-Code:
+1201-
+1202-        #ifdef __has_include
+1203-         #if !__has_include("values.h")
+1204:          #error "Header 'values.h' could not be found"
+1205-         #endif
+1206-        #else
+1207-         #include <values.h>
+1208-        #endif
+1209------------
+1210-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpyutqrxud/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1211-Has header "values.h" : YES 
+1212-Running compile:
+1213-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3e5x4kff
+1214-Code:
+1215-
+1216-        #ifdef __has_include
+1217-         #if !__has_include("vcruntime.h")
+1218:          #error "Header 'vcruntime.h' could not be found"
+1219-         #endif
+1220-        #else
+1221-         #include <vcruntime.h>
+1222-        #endif
+1223------------
+1224-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3e5x4kff/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1225-stderr:
+1226:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3e5x4kff/testfile.c:4:12: error: #error "Header 'vcruntime.h' could not be found"
+1227:    4 |           #error "Header 'vcruntime.h' could not be found"
+1228-      |            ^~~~~
+1229------------
+1230-Has header "vcruntime.h" : NO 
+1231-Running compile:
+1232-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmps2obltr0
+1233-Code:
+1234-
+1235-        #ifdef __has_include
+1236-         #if !__has_include("wchar.h")
+1237:          #error "Header 'wchar.h' could not be found"
+1238-         #endif
+1239-        #else
+1240-         #include <wchar.h>
+1241-        #endif
+1242------------
+1243-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmps2obltr0/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+1244-Has header "wchar.h" : YES 
+1245-Running compile:
+1246-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp5brv1fr
+1247-Code:
+1248-
+1249-        #ifdef __has_include
+1250-         #if !__has_include("xlocale.h")
+1251:          #error "Header 'xlocale.h' could not be found"
+1252-         #endif
+1253-        #else
+1254-         #include <xlocale.h>
+1255-        #endif
+1256------------
+1257-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp5brv1fr/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+1258-stderr:
+1259:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp5brv1fr/testfile.c:4:12: error: #error "Header 'xlocale.h' could not be found"
+1260:    4 |           #error "Header 'xlocale.h' could not be found"
+1261-      |            ^~~~~
+1262------------
+1263-Has header "xlocale.h" : NO 
+1264-Running compile:
+1265-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp29gaf8a
+1266-Code:
+1267-
+1268-        #include <malloc.h>
+1269------------
+1270-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp29gaf8a/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpp29gaf8a/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+1271-Check usable header "malloc.h" : YES 
+1272-Running compile:
+--
+1361-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5jhs_8gf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5jhs_8gf/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1362-stderr:
+1363-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5jhs_8gf/testfile.c: In function 'bar':
+1364:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5jhs_8gf/testfile.c:49:21: error: 'struct stat' has no member named 'st_mtimensec'
+1365-   49 |         (void) ( foo.st_mtimensec );
+1366-      |                     ^
+1367------------
+1368-Checking if "type "struct stat" has member "st_mtimensec"" compiles: NO 
+1369-Running compile:
+1370-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf79l_dmq
+1371-Code:
+1372-#define HAVE_ALLOCA_H 1
+1373-#define HAVE_DIRENT_H 1
+1374-#define HAVE_FLOAT_H 1
+1375-#define HAVE_FSTAB_H 1
+1376-#define HAVE_FTW_H 1
+--
+1484-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe15q7zgm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe15q7zgm/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1485-stderr:
+1486-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe15q7zgm/testfile.c: In function 'bar':
+1487:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpe15q7zgm/testfile.c:50:21: error: 'struct stat' has no member named 'st_atimensec'
+1488-   50 |         (void) ( foo.st_atimensec );
+1489-      |                     ^
+1490------------
+1491-Checking if "type "struct stat" has member "st_atimensec"" compiles: NO 
+1492-Running compile:
+1493-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp6z6w6221
+1494-Code:
+1495-#define HAVE_ALLOCA_H 1
+1496-#define HAVE_DIRENT_H 1
+1497-#define HAVE_FLOAT_H 1
+1498-#define HAVE_FSTAB_H 1
+1499-#define HAVE_FTW_H 1
+--
+1609-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjlvo00cf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjlvo00cf/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1610-stderr:
+1611-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjlvo00cf/testfile.c: In function 'bar':
+1612:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpjlvo00cf/testfile.c:51:21: error: 'struct stat' has no member named 'st_ctimensec'
+1613-   51 |         (void) ( foo.st_ctimensec );
+1614-      |                     ^
+1615------------
+1616-Checking if "type "struct stat" has member "st_ctimensec"" compiles: NO 
+1617-Running compile:
+1618-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmposhyledg
+1619-Code:
+1620-#define HAVE_ALLOCA_H 1
+1621-#define HAVE_DIRENT_H 1
+1622-#define HAVE_FLOAT_H 1
+1623-#define HAVE_FSTAB_H 1
+1624-#define HAVE_FTW_H 1
+--
+1736-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8l77e3yn/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8l77e3yn/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1737-stderr:
+1738-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8l77e3yn/testfile.c: In function 'bar':
+1739:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp8l77e3yn/testfile.c:52:21: error: 'struct stat' has no member named 'st_birthtime'
+1740-   52 |         (void) ( foo.st_birthtime );
+1741-      |                     ^
+1742------------
+1743-Checking if "type "struct stat" has member "st_birthtime"" compiles: NO 
+1744-Running compile:
+1745-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4e1te3t1
+1746-Code:
+1747-#define HAVE_ALLOCA_H 1
+1748-#define HAVE_DIRENT_H 1
+1749-#define HAVE_FLOAT_H 1
+1750-#define HAVE_FSTAB_H 1
+1751-#define HAVE_FTW_H 1
+--
+1803-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4e1te3t1/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4e1te3t1/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1804-stderr:
+1805-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4e1te3t1/testfile.c: In function 'bar':
+1806:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp4e1te3t1/testfile.c:52:21: error: 'struct stat' has no member named 'st_birthtimensec'
+1807-   52 |         (void) ( foo.st_birthtimensec );
+1808-      |                     ^
+1809------------
+1810-Checking if "type "struct stat" has member "st_birthtimensec"" compiles: NO 
+1811-Running compile:
+1812-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvh8fuzsb
+1813-Code:
+1814-#define HAVE_ALLOCA_H 1
+1815-#define HAVE_DIRENT_H 1
+1816-#define HAVE_FLOAT_H 1
+1817-#define HAVE_FSTAB_H 1
+1818-#define HAVE_FTW_H 1
+--
+1870-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvh8fuzsb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvh8fuzsb/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1871-stderr:
+1872-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvh8fuzsb/testfile.c: In function 'bar':
+1873:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvh8fuzsb/testfile.c:52:21: error: 'struct stat' has no member named 'st_birthtim'
+1874-   52 |         (void) ( foo.st_birthtim );
+1875-      |                     ^
+1876------------
+1877-Checking if "type "struct stat" has member "st_birthtim"" compiles: NO 
+1878-Running compile:
+1879-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzzrtjv9r
+1880-Code:
+1881-#define HAVE_ALLOCA_H 1
+1882-#define HAVE_DIRENT_H 1
+1883-#define HAVE_FLOAT_H 1
+1884-#define HAVE_FSTAB_H 1
+1885-#define HAVE_FTW_H 1
+--
+1937-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzzrtjv9r/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzzrtjv9r/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+1938-stderr:
+1939-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzzrtjv9r/testfile.c: In function 'bar':
+1940:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzzrtjv9r/testfile.c:52:21: error: 'struct stat' has no member named 'st_birthtim'
+1941-   52 |         (void) ( foo.st_birthtim.tv_nsec );
+1942-      |                     ^
+1943------------
+1944-Checking if "type "struct stat" has member "st_birthtim.tv_nsec"" compiles: NO 
+1945-Running compile:
+1946-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpih4174lb
+1947-Code:
+1948-#define HAVE_ALLOCA_H 1
+1949-#define HAVE_DIRENT_H 1
+1950-#define HAVE_FLOAT_H 1
+1951-#define HAVE_FSTAB_H 1
+1952-#define HAVE_FTW_H 1
+--
+2174-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvifufwj5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvifufwj5/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+2175-stderr:
+2176-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvifufwj5/testfile.c: In function 'bar':
+2177:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvifufwj5/testfile.c:69:21: error: 'struct statfs' has no member named 'f_fstypename'
+2178-   69 |         (void) ( foo.f_fstypename );
+2179-      |                     ^
+2180------------
+2181-Checking if "type "struct statfs" has member "f_fstypename"" compiles: NO 
+2182-Running compile:
+2183-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp39kqeoen
+2184-Code:
+2185-#define HAVE_ALLOCA_H 1
+2186-#define HAVE_DIRENT_H 1
+2187-#define HAVE_FLOAT_H 1
+2188-#define HAVE_FSTAB_H 1
+2189-#define HAVE_FTW_H 1
+--
+2388-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw8uyvv58/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw8uyvv58/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+2389-stderr:
+2390-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw8uyvv58/testfile.c: In function 'bar':
+2391:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw8uyvv58/testfile.c:56:22: error: 'struct statvfs' has no member named 'f_basetype'; did you mean 'f_type'?
+2392-   56 |         (void) ( foo.f_basetype );
+2393-      |                      ^~~~~~~~~~
+2394-      |                      f_type
+2395------------
+2396-Checking if "type "struct statvfs" has member "f_basetype"" compiles: NO 
+2397-Running compile:
+2398-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpig50h03x
+2399-Code:
+2400-#define HAVE_ALLOCA_H 1
+2401-#define HAVE_DIRENT_H 1
+2402-#define HAVE_FLOAT_H 1
+2403-#define HAVE_FSTAB_H 1
+--
+2460-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpig50h03x/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpig50h03x/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+2461-stderr:
+2462-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpig50h03x/testfile.c: In function 'bar':
+2463:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpig50h03x/testfile.c:56:21: error: 'struct statvfs' has no member named 'f_fstypename'
+2464-   56 |         (void) ( foo.f_fstypename );
+2465-      |                     ^
+2466------------
+2467-Checking if "type "struct statvfs" has member "f_fstypename"" compiles: NO 
+2468-Running compile:
+2469-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3hrbw3z
+2470-Code:
+2471-#define HAVE_ALLOCA_H 1
+2472-#define HAVE_DIRENT_H 1
+2473-#define HAVE_FLOAT_H 1
+2474-#define HAVE_FSTAB_H 1
+2475-#define HAVE_FTW_H 1
+--
+2664-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5mz45717/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5mz45717/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+2665-stderr:
+2666-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5mz45717/testfile.c: In function 'bar':
+2667:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp5mz45717/testfile.c:58:22: error: 'struct tm' has no member named '__tm_gmtoff'; did you mean 'tm_gmtoff'?
+2668-   58 |         (void) ( foo.__tm_gmtoff );
+2669-      |                      ^~~~~~~~~~~
+2670-      |                      tm_gmtoff
+2671------------
+2672-Checking if "type "struct tm" has member "__tm_gmtoff"" compiles: NO 
+2673-Running compile:
+2674-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl2ouae9n
+2675-Code:
+2676-extern int i;
+2677-int i;
+2678-
+2679------------
+--
+2886------------
+2887-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgqizudli/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgqizudli/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wstring-plus-int -Wno-string-plus-int` -> 1
+2888-stderr:
+2889:cc: error: unrecognized command-line option '-Wstring-plus-int'
+2890------------
+2891-Compiler for C supports arguments -Wno-string-plus-int: NO 
+2892-Running compile:
+2893-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpfmv4gwve
+2894-Code:
+2895-extern int i;
+2896-int i;
+2897-
+2898------------
+2899-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpfmv4gwve/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpfmv4gwve/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wtypedef-redefinition -Wno-typedef-redefinition` -> 1
+2900-stderr:
+2901:cc: error: unrecognized command-line option '-Wtypedef-redefinition'
+2902------------
+2903-Compiler for C supports arguments -Wno-typedef-redefinition: NO 
+2904-Running compile:
+2905-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq3r40m2d
+2906-Code:
+2907-extern int i;
+2908-int i;
+2909-
+2910------------
+2911-Command line: `/usr/bin/c++ -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq3r40m2d/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq3r40m2d/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wduplicated-branches` -> 0
+2912-Compiler for C++ supports arguments -Wduplicated-branches: YES 
+2913-Running compile:
+--
+3081------------
+3082-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpnpddsw2f/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpnpddsw2f/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wshorten-64-to-32` -> 1
+3083-stderr:
+3084:cc: error: unrecognized command-line option '-Wshorten-64-to-32'
+3085------------
+3086-Compiler for C supports arguments -Wshorten-64-to-32: NO 
+3087-Running compile:
+3088-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp48mjgzsc
+3089-Code:
+3090-int main(void) { return 0; }
+3091-
+3092------------
+3093-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp48mjgzsc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp48mjgzsc/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,nodelete` -> 0
+3094-Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+3095-Running compile:
+3096-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpklhtmzyh
+--
+3366-stderr:
+3367-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccqJ3NM0.o: in function `main':
+3368-testfile.c:(.text+0x9): undefined reference to `fdwalk'
+3369:collect2: error: ld returned 1 exit status
+3370------------
+3371-Running compile:
+3372-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmphk1qpdmd
+3373-Code:
+3374-
+3375-        int main(void) {
+3376-
+3377-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3378-         * provides various builtins which are not really implemented and
+3379-         * fall back to the stdlib where they aren't provided and fail at
+3380-         * build/link time. In case the user provides a header, including
+3381-         * the header didn't lead to the function being defined, and the
+3382-         * function we are checking isn't a builtin itself we assume the
+3383:         * builtin is not functional and we just error out. */
+3384-        #if !1 && !defined(fdwalk) && !0
+3385:            #error "No definition for __builtin_fdwalk found in the prefix"
+3386-        #endif
+3387-
+3388-        #ifdef __has_builtin
+3389-            #if !__has_builtin(__builtin_fdwalk)
+3390:                #error "__builtin_fdwalk not found"
+3391-            #endif
+3392-        #elif ! defined(fdwalk)
+3393-            __builtin_fdwalk;
+3394-        #endif
+3395-        return 0;
+3396-        }
+3397------------
+3398-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmphk1qpdmd/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmphk1qpdmd/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+3399-stderr:
+3400-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmphk1qpdmd/testfile.c: In function 'main':
+3401:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmphk1qpdmd/testfile.c:17:18: error: #error "__builtin_fdwalk not found"
+3402:   17 |                 #error "__builtin_fdwalk not found"
+3403-      |                  ^~~~~
+3404------------
+3405-Checking for function "fdwalk" : NO 
+3406-Running compile:
+3407-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr4pnxj9c
+3408-Code:
+3409-
+3410-        #define free_aligned_sized meson_disable_define_of_free_aligned_sized
+3411-        
+3412-        #include <limits.h>
+3413-        #undef free_aligned_sized
+3414-        
+--
+3597-stderr:
+3598-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccvprMDQ.o: in function `main':
+3599-testfile.c:(.text+0x9): undefined reference to `getfsstat'
+3600:collect2: error: ld returned 1 exit status
+3601------------
+3602-Running compile:
+3603-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv30aqqlk
+3604-Code:
+3605-
+3606-        int main(void) {
+3607-
+3608-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3609-         * provides various builtins which are not really implemented and
+3610-         * fall back to the stdlib where they aren't provided and fail at
+3611-         * build/link time. In case the user provides a header, including
+3612-         * the header didn't lead to the function being defined, and the
+3613-         * function we are checking isn't a builtin itself we assume the
+3614:         * builtin is not functional and we just error out. */
+3615-        #if !1 && !defined(getfsstat) && !0
+3616:            #error "No definition for __builtin_getfsstat found in the prefix"
+3617-        #endif
+3618-
+3619-        #ifdef __has_builtin
+3620-            #if !__has_builtin(__builtin_getfsstat)
+3621:                #error "__builtin_getfsstat not found"
+3622-            #endif
+3623-        #elif ! defined(getfsstat)
+3624-            __builtin_getfsstat;
+3625-        #endif
+3626-        return 0;
+3627-        }
+3628------------
+3629-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv30aqqlk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv30aqqlk/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+3630-stderr:
+3631-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv30aqqlk/testfile.c: In function 'main':
+3632:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv30aqqlk/testfile.c:17:18: error: #error "__builtin_getfsstat not found"
+3633:   17 |                 #error "__builtin_getfsstat not found"
+3634-      |                  ^~~~~
+3635------------
+3636-Checking for function "getfsstat" : NO 
+3637-Running compile:
+3638-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp58k2k0po
+3639-Code:
+3640-
+3641-        #define getgrgid_r meson_disable_define_of_getgrgid_r
+3642-        
+3643-        #include <limits.h>
+3644-        #undef getgrgid_r
+3645-        
+--
+3804-stderr:
+3805-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/cc8QXnlt.o: in function `main':
+3806-testfile.c:(.text+0x9): undefined reference to `getvfsstat'
+3807:collect2: error: ld returned 1 exit status
+3808------------
+3809-Running compile:
+3810-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2t4lqmad
+3811-Code:
+3812-
+3813-        int main(void) {
+3814-
+3815-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3816-         * provides various builtins which are not really implemented and
+3817-         * fall back to the stdlib where they aren't provided and fail at
+3818-         * build/link time. In case the user provides a header, including
+3819-         * the header didn't lead to the function being defined, and the
+3820-         * function we are checking isn't a builtin itself we assume the
+3821:         * builtin is not functional and we just error out. */
+3822-        #if !1 && !defined(getvfsstat) && !0
+3823:            #error "No definition for __builtin_getvfsstat found in the prefix"
+3824-        #endif
+3825-
+3826-        #ifdef __has_builtin
+3827-            #if !__has_builtin(__builtin_getvfsstat)
+3828:                #error "__builtin_getvfsstat not found"
+3829-            #endif
+3830-        #elif ! defined(getvfsstat)
+3831-            __builtin_getvfsstat;
+3832-        #endif
+3833-        return 0;
+3834-        }
+3835------------
+3836-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2t4lqmad/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2t4lqmad/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+3837-stderr:
+3838-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2t4lqmad/testfile.c: In function 'main':
+3839:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp2t4lqmad/testfile.c:17:18: error: #error "__builtin_getvfsstat not found"
+3840:   17 |                 #error "__builtin_getvfsstat not found"
+3841-      |                  ^~~~~
+3842------------
+3843-Checking for function "getvfsstat" : NO 
+3844-Running compile:
+3845-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp9s5ic7i2
+3846-Code:
+3847-
+3848-        #define gmtime_r meson_disable_define_of_gmtime_r
+3849-        
+3850-        #include <limits.h>
+3851-        #undef gmtime_r
+3852-        
+--
+3939-stderr:
+3940-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccRccnCs.o: in function `main':
+3941-testfile.c:(.text+0x9): undefined reference to `issetugid'
+3942:collect2: error: ld returned 1 exit status
+3943------------
+3944-Running compile:
+3945-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3gx97zf
+3946-Code:
+3947-
+3948-        int main(void) {
+3949-
+3950-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3951-         * provides various builtins which are not really implemented and
+3952-         * fall back to the stdlib where they aren't provided and fail at
+3953-         * build/link time. In case the user provides a header, including
+3954-         * the header didn't lead to the function being defined, and the
+3955-         * function we are checking isn't a builtin itself we assume the
+3956:         * builtin is not functional and we just error out. */
+3957-        #if !1 && !defined(issetugid) && !0
+3958:            #error "No definition for __builtin_issetugid found in the prefix"
+3959-        #endif
+3960-
+3961-        #ifdef __has_builtin
+3962-            #if !__has_builtin(__builtin_issetugid)
+3963:                #error "__builtin_issetugid not found"
+3964-            #endif
+3965-        #elif ! defined(issetugid)
+3966-            __builtin_issetugid;
+3967-        #endif
+3968-        return 0;
+3969-        }
+3970------------
+3971-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3gx97zf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3gx97zf/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+3972-stderr:
+3973-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3gx97zf/testfile.c: In function 'main':
+3974:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpk3gx97zf/testfile.c:17:18: error: #error "__builtin_issetugid not found"
+3975:   17 |                 #error "__builtin_issetugid not found"
+3976-      |                  ^~~~~
+3977------------
+3978-Checking for function "issetugid" : NO 
+3979-Running compile:
+3980-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb0o64ohr
+3981-Code:
+3982-
+3983-        #define kevent meson_disable_define_of_kevent
+3984-        
+3985-        #include <limits.h>
+3986-        #undef kevent
+3987-        
+--
+4002-stderr:
+4003-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccrCNTz1.o: in function `main':
+4004-testfile.c:(.text+0x9): undefined reference to `kevent'
+4005:collect2: error: ld returned 1 exit status
+4006------------
+4007-Running compile:
+4008-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmnguw1ck
+4009-Code:
+4010-
+4011-        int main(void) {
+4012-
+4013-        /* With some toolchains (MSYS2/mingw for example) the compiler
+4014-         * provides various builtins which are not really implemented and
+4015-         * fall back to the stdlib where they aren't provided and fail at
+4016-         * build/link time. In case the user provides a header, including
+4017-         * the header didn't lead to the function being defined, and the
+4018-         * function we are checking isn't a builtin itself we assume the
+4019:         * builtin is not functional and we just error out. */
+4020-        #if !1 && !defined(kevent) && !0
+4021:            #error "No definition for __builtin_kevent found in the prefix"
+4022-        #endif
+4023-
+4024-        #ifdef __has_builtin
+4025-            #if !__has_builtin(__builtin_kevent)
+4026:                #error "__builtin_kevent not found"
+4027-            #endif
+4028-        #elif ! defined(kevent)
+4029-            __builtin_kevent;
+4030-        #endif
+4031-        return 0;
+4032-        }
+4033------------
+4034-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmnguw1ck/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmnguw1ck/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+4035-stderr:
+4036-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmnguw1ck/testfile.c: In function 'main':
+4037:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmnguw1ck/testfile.c:17:18: error: #error "__builtin_kevent not found"
+4038:   17 |                 #error "__builtin_kevent not found"
+4039-      |                  ^~~~~
+4040------------
+4041-Checking for function "kevent" : NO 
+4042-Running compile:
+4043-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3nyf8_nv
+4044-Code:
+4045-
+4046-        #define kqueue meson_disable_define_of_kqueue
+4047-        
+4048-        #include <limits.h>
+4049-        #undef kqueue
+4050-        
+--
+4065-stderr:
+4066-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/cc0sxzzg.o: in function `main':
+4067-testfile.c:(.text+0x9): undefined reference to `kqueue'
+4068:collect2: error: ld returned 1 exit status
+4069------------
+4070-Running compile:
+4071-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpa9455gwt
+4072-Code:
+4073-
+4074-        int main(void) {
+4075-
+4076-        /* With some toolchains (MSYS2/mingw for example) the compiler
+4077-         * provides various builtins which are not really implemented and
+4078-         * fall back to the stdlib where they aren't provided and fail at
+4079-         * build/link time. In case the user provides a header, including
+4080-         * the header didn't lead to the function being defined, and the
+4081-         * function we are checking isn't a builtin itself we assume the
+4082:         * builtin is not functional and we just error out. */
+4083-        #if !1 && !defined(kqueue) && !0
+4084:            #error "No definition for __builtin_kqueue found in the prefix"
+4085-        #endif
+4086-
+4087-        #ifdef __has_builtin
+4088-            #if !__has_builtin(__builtin_kqueue)
+4089:                #error "__builtin_kqueue not found"
+4090-            #endif
+4091-        #elif ! defined(kqueue)
+4092-            __builtin_kqueue;
+4093-        #endif
+4094-        return 0;
+4095-        }
+4096------------
+4097-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpa9455gwt/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpa9455gwt/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+4098-stderr:
+4099-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpa9455gwt/testfile.c: In function 'main':
+4100:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpa9455gwt/testfile.c:17:18: error: #error "__builtin_kqueue not found"
+4101:   17 |                 #error "__builtin_kqueue not found"
+4102-      |                  ^~~~~
+4103------------
+4104-Checking for function "kqueue" : NO 
+4105-Running compile:
+4106-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpdeqyjxt5
+4107-Code:
+4108-
+4109-        #define lchmod meson_disable_define_of_lchmod
+4110-        
+4111-        #include <limits.h>
+4112-        #undef lchmod
+4113-        
+--
+5006-stderr:
+5007-/usr/bin/x86_64-linux-gnu-ld.bfd: /tmp/ccrfgQES.o: in function `main':
+5008-testfile.c:(.text+0x9): undefined reference to `sysctlbyname'
+5009:collect2: error: ld returned 1 exit status
+5010------------
+5011-Running compile:
+5012-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpx79po67n
+5013-Code:
+5014-
+5015-        int main(void) {
+5016-
+5017-        /* With some toolchains (MSYS2/mingw for example) the compiler
+5018-         * provides various builtins which are not really implemented and
+5019-         * fall back to the stdlib where they aren't provided and fail at
+5020-         * build/link time. In case the user provides a header, including
+5021-         * the header didn't lead to the function being defined, and the
+5022-         * function we are checking isn't a builtin itself we assume the
+5023:         * builtin is not functional and we just error out. */
+5024-        #if !1 && !defined(sysctlbyname) && !0
+5025:            #error "No definition for __builtin_sysctlbyname found in the prefix"
+5026-        #endif
+5027-
+5028-        #ifdef __has_builtin
+5029-            #if !__has_builtin(__builtin_sysctlbyname)
+5030:                #error "__builtin_sysctlbyname not found"
+5031-            #endif
+5032-        #elif ! defined(sysctlbyname)
+5033-            __builtin_sysctlbyname;
+5034-        #endif
+5035-        return 0;
+5036-        }
+5037------------
+5038-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpx79po67n/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpx79po67n/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5039-stderr:
+5040-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpx79po67n/testfile.c: In function 'main':
+5041:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpx79po67n/testfile.c:17:18: error: #error "__builtin_sysctlbyname not found"
+5042:   17 |                 #error "__builtin_sysctlbyname not found"
+5043-      |                  ^~~~~
+5044------------
+5045-Checking for function "sysctlbyname" : NO 
+5046-Running compile:
+5047-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3mn7vusv
+5048-Code:
+5049-
+5050-        #define statvfs meson_disable_define_of_statvfs
+5051-        
+5052-        #include <limits.h>
+5053-        #undef statvfs
+5054-        
+--
+5284-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb3ebpym4/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb3ebpym4/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5285-stderr:
+5286-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb3ebpym4/testfile.c: In function 'main':
+5287:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb3ebpym4/testfile.c:9:32: error: '_aligned_malloc' undeclared (first use in this function)
+5288-    9 |             void *a = (void*) &_aligned_malloc;
+5289-      |                                ^~~~~~~~~~~~~~~
+5290-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb3ebpym4/testfile.c:9:32: note: each undeclared identifier is reported only once for each function it appears in
+5291------------
+5292-Running compile:
+5293-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u
+5294-Code:
+5295-#include <malloc.h>
+5296-        int main(void) {
+5297-
+5298-        /* With some toolchains (MSYS2/mingw for example) the compiler
+5299-         * provides various builtins which are not really implemented and
+--
+5301-         * build/link time. In case the user provides a header, including
+5302-         * the header didn't lead to the function being defined, and the
+5303-         * function we are checking isn't a builtin itself we assume the
+5304:         * builtin is not functional and we just error out. */
+5305-        #if !0 && !defined(_aligned_malloc) && !0
+5306:            #error "No definition for __builtin__aligned_malloc found in the prefix"
+5307-        #endif
+5308-
+5309-        #ifdef __has_builtin
+5310-            #if !__has_builtin(__builtin__aligned_malloc)
+5311:                #error "__builtin__aligned_malloc not found"
+5312-            #endif
+5313-        #elif ! defined(_aligned_malloc)
+5314-            __builtin__aligned_malloc;
+5315-        #endif
+5316-        return 0;
+5317-        }
+5318------------
+5319-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5320-stderr:
+5321-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u/testfile.c: In function 'main':
+5322:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u/testfile.c:12:14: error: #error "No definition for __builtin__aligned_malloc found in the prefix"
+5323:   12 |             #error "No definition for __builtin__aligned_malloc found in the prefix"
+5324-      |              ^~~~~
+5325:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpy3rldv5u/testfile.c:17:18: error: #error "__builtin__aligned_malloc not found"
+5326:   17 |                 #error "__builtin__aligned_malloc not found"
+5327-      |                  ^~~~~
+5328------------
+5329-Checking for function "_aligned_malloc" : NO 
+5330-Running compile:
+5331-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl
+5332-Code:
+5333-#include <stdlib.h>
+5334-#include <limits.h>
+5335-
+5336-        #if defined __stub_aligned_alloc || defined __stub___aligned_alloc
+5337-        fail fail fail this function is not going to work
+5338-        #endif
+--
+5346-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5347-stderr:
+5348-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl/testfile.c: In function 'main':
+5349:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl/testfile.c:9:32: error: 'aligned_alloc' undeclared (first use in this function)
+5350-    9 |             void *a = (void*) &aligned_alloc;
+5351-      |                                ^~~~~~~~~~~~~
+5352-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpkr3345fl/testfile.c:9:32: note: each undeclared identifier is reported only once for each function it appears in
+5353------------
+5354-Running compile:
+5355-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpd7cecglb
+5356-Code:
+5357-#include <stdlib.h>
+5358-        int main(void) {
+5359-
+5360-        /* With some toolchains (MSYS2/mingw for example) the compiler
+5361-         * provides various builtins which are not really implemented and
+--
+5363-         * build/link time. In case the user provides a header, including
+5364-         * the header didn't lead to the function being defined, and the
+5365-         * function we are checking isn't a builtin itself we assume the
+5366:         * builtin is not functional and we just error out. */
+5367-        #if !0 && !defined(aligned_alloc) && !0
+5368:            #error "No definition for __builtin_aligned_alloc found in the prefix"
+5369-        #endif
+5370-
+5371-        #ifdef __has_builtin
+5372-            #if !__has_builtin(__builtin_aligned_alloc)
+5373:                #error "__builtin_aligned_alloc not found"
+5374-            #endif
+5375-        #elif ! defined(aligned_alloc)
+5376-            __builtin_aligned_alloc;
+5377-        #endif
+5378-        return 0;
+5379-        }
+5380------------
+5381-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpd7cecglb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpd7cecglb/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5382-stderr:
+5383-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpd7cecglb/testfile.c: In function 'main':
+5384:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpd7cecglb/testfile.c:12:14: error: #error "No definition for __builtin_aligned_alloc found in the prefix"
+5385:   12 |             #error "No definition for __builtin_aligned_alloc found in the prefix"
+5386-      |              ^~~~~
+5387------------
+5388-Checking for function "aligned_alloc" : NO 
+5389-Running compile:
+5390-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp_06ndg66
+5391-Code:
+5392-#include <stdlib.h>
+5393-#include <limits.h>
+5394-
+5395-        #if defined __stub_posix_memalign || defined __stub___posix_memalign
+5396-        fail fail fail this function is not going to work
+5397-        #endif
+--
+5656-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf237nvn7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf237nvn7/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5657-stderr:
+5658-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf237nvn7/testfile.c: In function 'main':
+5659:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf237nvn7/testfile.c:5:27: error: '__NR_futex_time64' undeclared (first use in this function)
+5660-    5 |                  syscall (__NR_futex_time64, NULL, FUTEX_WAKE, FUTEX_WAIT);
+5661-      |                           ^~~~~~~~~~~~~~~~~
+5662-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf237nvn7/testfile.c:5:27: note: each undeclared identifier is reported only once for each function it appears in
+5663------------
+5664-Checking if "futex_time64(2) system call" compiles: NO 
+5665-Running compile:
+5666-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpnkgmksp4
+5667-Code:
+5668-#include <sys/eventfd.h>
+5669-               #include <unistd.h>
+5670-               int main (int argc, char ** argv) {
+5671-                 eventfd (0, EFD_CLOEXEC);
+--
+5926-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl9wu7u7y/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl9wu7u7y/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+5927-stderr:
+5928-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl9wu7u7y/testfile.c: In function 'some_func':
+5929:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl9wu7u7y/testfile.c:5:30: error: 'F_FULLFSYNC' undeclared (first use in this function)
+5930-    5 |                     fcntl(0, F_FULLFSYNC, 0);
+5931-      |                              ^~~~~~~~~~~
+5932-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpl9wu7u7y/testfile.c:5:30: note: each undeclared identifier is reported only once for each function it appears in
+5933------------
+5934-Checking if "fcntl() option F_FULLFSYNC" compiles: NO 
+5935-Running compile:
+5936-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpi47fqp4e
+5937-Code:
+5938-
+5939-#include <stdio.h>
+5940-#include <stdarg.h>
+5941-#include <stdlib.h>
+--
+6505-#if defined(_AIX) && !defined(__GNUC__)
+6506-                    #pragma options langlvl=stdc99
+6507-                    #endif
+6508:                    #pragma GCC diagnostic error "-Wincompatible-pointer-types"
+6509-                    #include <stdint.h>
+6510-                    #include <stdio.h>
+6511-                    int main () {
+6512-                      int64_t i1 = 1;
+6513-                      long *i2 = &i1;
+6514-                      (void) i2;
+6515-                      return 1;
+6516-                    }
+6517------------
+6518-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb0coupsr/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpb0coupsr/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+6519-Checking if "int64_t is long" compiles: YES 
+6520-Running compile:
+--
+6725-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw_kkbouw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw_kkbouw/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -Werror` -> 1
+6726-stderr:
+6727-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw_kkbouw/testfile.c: In function 'main':
+6728:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw_kkbouw/testfile.c:5:14: error: passing argument 1 of 'f' from incompatible pointer type [-Wincompatible-pointer-types]
+6729-    5 |           f (&i);
+6730-      |              ^~
+6731-      |              |
+6732-      |              long long unsigned int *
+6733-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpw_kkbouw/testfile.c:2:34: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'long long unsigned int *'
+6734-    2 |         static size_t f (size_t *i) { return *i + 1; }
+6735-      |                          ~~~~~~~~^
+6736------------
+6737-Checking if "GCC size_t typedef is long long" compiles: NO 
+6738-Running compile:
+6739-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws
+6740-Code:
+--
+6757-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+6758-stderr:
+6759-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws/testfile.c: In function 'f':
+6760:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws/testfile.c:7:11: error: assignment to expression with array type
+6761-    7 |     args2 = args1;
+6762-      |           ^
+6763------------
+6764-Could not compile test file /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpq_ncxkws/testfile.c: 1
+6765-
+6766-Checking if "va_lists can be copied as values" runs: DID NOT COMPILE
+6767-Running compile:
+6768-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpv38lw1o_
+6769-Code:
+6770-
+6771-  void some_func (void) {
+6772-    int a(int p1, int p2, int p3);
+--
+6807- 
+6808-        #ifdef __has_include
+6809-         #if !__has_include("alloca.h")
+6810:          #error "Header 'alloca.h' could not be found"
+6811-         #endif
+6812-        #else
+6813-         #include <alloca.h>
+6814-        #endif
+6815-Cached compiler stdout:
+6816- 
+6817-Cached compiler stderr:
+6818- 
+6819-Has header "alloca.h" : YES (cached)
+6820-Running compile:
+6821-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgy6mtbm8
+6822-Code:
+6823-
+6824-        #ifdef __has_include
+6825-         #if !__has_include("sys/poll.h")
+6826:          #error "Header 'sys/poll.h' could not be found"
+6827-         #endif
+6828-        #else
+6829-         #include <sys/poll.h>
+6830-        #endif
+6831------------
+6832-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgy6mtbm8/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+6833-Has header "sys/poll.h" : YES 
+6834-Using cached compile:
+6835-Cached command line:  /usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp3z_1o3qg/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99 
+6836-
+6837-Code:
+6838- 
+6839-        #ifdef __has_include
+6840-         #if !__has_include("sys/types.h")
+6841:          #error "Header 'sys/types.h' could not be found"
+6842-         #endif
+6843-        #else
+6844-         #include <sys/types.h>
+6845-        #endif
+6846-Cached compiler stdout:
+6847- 
+6848-Cached compiler stderr:
+6849- 
+6850-Has header "sys/types.h" : YES (cached)
+6851-Running compile:
+6852-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpxs_3ivl0
+6853-Code:
+6854-
+6855-        #ifdef __has_include
+6856-         #if !__has_include("winsock2.h")
+6857:          #error "Header 'winsock2.h' could not be found"
+6858-         #endif
+6859-        #else
+6860-         #include <winsock2.h>
+6861-        #endif
+6862------------
+6863-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpxs_3ivl0/testfile.c -E -P -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+6864-stderr:
+6865:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpxs_3ivl0/testfile.c:4:12: error: #error "Header 'winsock2.h' could not be found"
+6866:    4 |           #error "Header 'winsock2.h' could not be found"
+6867-      |            ^~~~~
+6868------------
+6869-Has header "winsock2.h" : NO 
+6870-Running compile:
+6871-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvurdkyzi
+6872-Code:
+6873-
+6874-      #include<sys/poll.h>
+6875-      #include<sys/types.h>
+6876-        #include<stddef.h>
+6877-        #include<stdio.h>
+6878-        int main(void) {
+--
+7158-Code:
+7159-
+7160-#ifndef __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4
+7161:#error "compiler has atomic ops, but doesn't define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4"
+7162-#endif
+7163-
+7164------------
+7165-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmel937xr/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpmel937xr/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+7166-Checking if "atomic ops define" compiles: YES 
+7167-Running compile:
+7168-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf6vuqd63
+7169-Code:
+7170-
+7171-      int main() {
+7172-        int atomic = 2;
+7173-        __sync_swap (&atomic, 2);
+--
+7178-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf6vuqd63/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf6vuqd63/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+7179-stderr:
+7180-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf6vuqd63/testfile.c: In function 'main':
+7181:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpf6vuqd63/testfile.c:4:9: error: implicit declaration of function '__sync_swap' [-Wimplicit-function-declaration]
+7182-    4 |         __sync_swap (&atomic, 2);
+7183-      |         ^~~~~~~~~~~
+7184------------
+7185-Checking if "sync swap" links: NO 
+7186-Run-time dependency threads found: YES
+7187-Running compile:
+7188-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpugknabz6
+7189-Code:
+7190-
+7191-        #include <pthread.h>
+7192-        int main(void) {
+7193-            /* If it's not defined as a macro, try to use as a symbol */
+--
+7245-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmppt36gr9r/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmppt36gr9r/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+7246-stderr:
+7247-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmppt36gr9r/testfile.c: In function 'main':
+7248:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmppt36gr9r/testfile.c:6:17: error: 'pthread_cond_timedwait_relative_np' undeclared (first use in this function); did you mean 'pthread_cond_timedwait'?
+7249-    6 |                 pthread_cond_timedwait_relative_np;
+7250-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7251-      |                 pthread_cond_timedwait
+7252-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmppt36gr9r/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+7253------------
+7254-Header "pthread.h" has symbol "pthread_cond_timedwait_relative_np" : NO 
+7255-Running compile:
+7256-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpfvgcdxq0
+7257-Code:
+7258-
+7259-      #ifndef _GNU_SOURCE
+7260-      # define _GNU_SOURCE
+--
+7306-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/output.exe -pthread -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+7307-stderr:
+7308-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/testfile.c: In function 'main':
+7309:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/testfile.c:7:36: error: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
+7310-    7 |                 pthread_setname_np("example");
+7311-      |                                    ^~~~~~~~~
+7312-      |                                    |
+7313-      |                                    char *
+7314-In file included from /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/testfile.c:5:
+7315-/usr/include/pthread.h:463:42: note: expected 'pthread_t' {aka 'long unsigned int'} but argument is of type 'char *'
+7316-  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+7317-      |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
+7318:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpr1rt3mcr/testfile.c:7:17: error: too few arguments to function 'pthread_setname_np'; expected 2, have 1
+7319-    7 |                 pthread_setname_np("example");
+7320-      |                 ^~~~~~~~~~~~~~~~~~
+7321-/usr/include/pthread.h:463:12: note: declared here
+7322-  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+7323-      |            ^~~~~~~~~~~~~~~~~~
+7324------------
+7325-Checking if "pthread_setname_np(const char*)" with dependency threads links: NO 
+7326-Running compile:
+7327-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpyz58k7bq
+7328-Code:
+7329-
+7330-      #ifndef _GNU_SOURCE
+--
+7771-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvx26rzoy
+7772-Code:
+7773-
+7774:        #define dlerror meson_disable_define_of_dlerror
+7775-        
+7776-        #include <limits.h>
+7777-        #undef dlerror
+7778-        
+7779-        #ifdef __cplusplus
+7780-        extern "C"
+7781-        #endif
+7782:        char dlerror (void);
+7783-        
+7784:        #if defined __stub_dlerror || defined __stub___dlerror
+7785-        fail fail fail this function is not going to work
+7786-        #endif
+7787-        
+7788-        int main(void) {
+7789:          return dlerror ();
+7790-        }
+7791------------
+7792-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvx26rzoy/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpvx26rzoy/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+7793-Checking for function "dlerror" : YES 
+7794-Configuring gmoduleconf.h using configuration
+7795-Running compile:
+7796-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpzj415jo6
+7797-Code:
+7798-#include <sys/types.h>
+7799-                        #include <arpa/nameser.h>
+7800-                        int qclass = C_IN;
+7801------------
+--
+7866-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp596ey1rk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp596ey1rk/output.exe -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+7867-stderr:
+7868-/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp596ey1rk/testfile.c: In function 'main':
+7869:/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp596ey1rk/testfile.c:7:20: error: implicit declaration of function 'res_ndestroy' [-Wimplicit-function-declaration]
+7870-    7 |                    res_ndestroy(&res);
+7871-      |                    ^~~~~~~~~~~~
+7872------------
+7873-Checking if "res_ndestroy()" links: NO 
+7874-Running compile:
+7875-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpgnmnfwmk
+7876-Code:
+7877-#include <sys/types.h>
+7878-                 #include <netinet/in.h>
+7879-                 #include <arpa/nameser.h>
+7880-                 #include <resolv.h>
+7881-                 int main (int argc, char ** argv) {
+--
+8105------------
+8106-Command line: `/usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpj5t4a28r/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmpj5t4a28r/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wsometimes-uninitialized -Wno-sometimes-uninitialized` -> 1
+8107-stderr:
+8108:cc: error: unrecognized command-line option '-Wsometimes-uninitialized'; did you mean '-Wmaybe-uninitialized'?
+8109------------
+8110-Compiler for C supports arguments -Wno-sometimes-uninitialized: NO 
+8111-Using cached compile:
+8112-Cached command line:  /usr/bin/cc -fPIC -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp_iwxmfkr/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-rel/meson-private/tmp_iwxmfkr/output.obj -c -fPIC -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+8113-
+8114-Code:
+8115- extern int i;
+8116-int i;
+8117-
+8118-Cached compiler stdout:
+8119- 
+8120-Cached compiler stderr:

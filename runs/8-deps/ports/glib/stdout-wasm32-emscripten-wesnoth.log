@@ -1,0 +1,30 @@
+Downloading https://github.com/mesonbuild/meson/archive/1.9.0.tar.gz -> meson-1.9.0.tar.gz
+Successfully downloaded meson-1.9.0.tar.gz
+-- Applying patch /home/runner/webbuild/vcpkg/installed/x64-linux/share/vcpkg-tool-meson/meson-intl.patch
+-- Applying patch /home/runner/webbuild/vcpkg/installed/x64-linux/share/vcpkg-tool-meson/adjust-python-dep.patch
+-- Applying patch /home/runner/webbuild/vcpkg/installed/x64-linux/share/vcpkg-tool-meson/adjust-args.patch
+-- Applying patch /home/runner/webbuild/vcpkg/installed/x64-linux/share/vcpkg-tool-meson/remove-pkgconfig-specialization.patch
+-- Applying patch /home/runner/webbuild/vcpkg/installed/x64-linux/share/vcpkg-tool-meson/meson-56879d5.diff
+-- Found Python version '3.14.4 at /usr/bin/python3'
+-- Using meson: /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-633807/meson.py
+Downloading glib-2.88.3.tar.xz, trying https://download.gnome.org/sources/glib/2.88/glib-2.88.3.tar.xz
+Successfully downloaded glib-2.88.3.tar.xz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/glib-2.88.3.tar.xz
+-- Applying patch use-libiconv-on-windows.patch
+-- Applying patch libintl.patch
+-- Applying patch emscripten.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-e686bf4a8e.clean
+-- Configuring wasm32-emscripten-wesnoth-rel
+-- Getting CMake variables for wasm32-emscripten-wesnoth
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/glib/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth.cmake.log
+-- Configuring wasm32-emscripten-wesnoth-rel done
+-- Package wasm32-emscripten-wesnoth-rel
+CMake Error at scripts/cmake/vcpkg_copy_tools.cmake:36 (message):
+  Couldn't find tool "gapplication":
+
+      "/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/bin/gapplication" does not exist
+Call Stack (most recent call first):
+  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib/portfile.cmake:119 (vcpkg_copy_tools)
+  scripts/ports.cmake:209 (include)
+
+

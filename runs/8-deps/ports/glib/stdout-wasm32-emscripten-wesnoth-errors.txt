@@ -1,0 +1,12 @@
+19--- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/glib/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth.cmake.log
+20--- Configuring wasm32-emscripten-wesnoth-rel done
+21--- Package wasm32-emscripten-wesnoth-rel
+22:CMake Error at scripts/cmake/vcpkg_copy_tools.cmake:36 (message):
+23-  Couldn't find tool "gapplication":
+24-
+25-      "/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/bin/gapplication" does not exist
+26-Call Stack (most recent call first):
+27-  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib/portfile.cmake:119 (vcpkg_copy_tools)
+28-  scripts/ports.cmake:209 (include)
+29-
+30-

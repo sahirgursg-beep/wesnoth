@@ -1,0 +1,2082 @@
+LY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_string.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[530/697] Compiling C object fuzzing/fuzz_uri_escape.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[531/697] Compiling C object fuzzing/fuzz_uri_parse.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[532/697] Compiling C object fuzzing/fuzz_uri_parse_params.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[533/697] Compiling C object fuzzing/fuzz_uri_escape.js.p/fuzz_uri_escape.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_escape.c:37:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   37 |       g_assert_nonnull (error);
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:255:49: note: expanded from macro 'g_assert_nonnull'
+  255 |                                              if G_LIKELY ((expr) != NULL) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+11 warnings generated.
+[534/697] Compiling C object fuzzing/fuzz_uri_parse.js.p/fuzz_uri_parse.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[535/697] Compiling C object fuzzing/fuzz_utf8_normalize.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[536/697] Compiling C object fuzzing/fuzz_uri_parse_params.js.p/fuzz_uri_parse_params.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uri_parse_params.c:38:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   38 |       g_assert (error);
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+11 warnings generated.
+[537/697] Compiling C object fuzzing/fuzz_uuid_string_is_valid.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[538/697] Compiling C object fuzzing/fuzz_variant_binary.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[539/697] Compiling C object fuzzing/fuzz_utf8_validate.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[540/697] Compiling C object fuzzing/fuzz_utf8_validate.js.p/fuzz_utf8_validate.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[541/697] Compiling C object fuzzing/fuzz_utf8_normalize.js.p/fuzz_utf8_normalize.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:40:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   40 |       g_assert (strcmp (terminated, bounded) == 0);
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_utf8_normalize.c:45:5: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+   45 |     g_assert (!(terminated || bounded));
+      |     ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:276:49: note: expanded from macro 'g_assert'
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+12 warnings generated.
+[542/697] Compiling C object fuzzing/fuzz_uuid_string_is_valid.js.p/fuzz_uuid_string_is_valid.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[543/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[544/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.js.p/fuzz_variant_binary_byteswap.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[545/697] Linking static target glib/libcharset/libcharset.a
+[546/697] Compiling C object fuzzing/fuzz_variant_text.js.p/driver.c.o
+../src/glib-2-e686bf4a8e.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[547/697] Linking static target glib/gnulib/libgnulib.a
+[548/697] Linking static target gthread/libgthread-2.0.a
+[549/697] Compiling C object fuzzing/fuzz_variant_binary.js.p/fuzz_variant_binary.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[550/697] Linking static target gio/xdgmime/libxdgmime.a
+[551/697] Compiling C object fuzzing/fuzz_variant_text.js.p/fuzz_variant_text.c.o
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/gthread.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib.h:56:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/giochannel.h:36:
+../src/glib-2-e686bf4a8e.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gio.h:28:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-e686bf4a8e.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-e686bf4a8e.clean/gobject/gbinding.h:31:
+../src/glib-2-e686bf4a8e.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-e686bf4a8e.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-e686bf4a8e.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[552/697] Linking target gio/gio-launch-desktop.js
+[553/697] Linking target glib/gtester.js
+[554/697] Linking target gobject/gobject-query.js
+[555/697] Linking target gio/gresource.js
+[556/697] Linking target gio/gio-querymodules.js
+[557/697] Linking target gio/glib-compile-schemas.js
+[558/697] Linking target gio/gio.js
+[559/697] Linking target gio/glib-compile-resources.js
+[560/697] Linking target girepository/gi-dump-types.js
+[561/697] Linking target gio/gdbus.js
+[562/697] Linking target girepository/decompiler/gi-decompile-typelib.js
+[563/697] Linking target gio/gapplication.js
+[564/697] Linking target girepository/inspector/gi-inspect-typelib.js
+[565/697] Linking target fuzzing/fuzz_bookmark.js
+[566/697] Linking target gio/gsettings.js
+[567/697] Linking target fuzzing/fuzz_canonicalize_filename.js
+[568/697] Linking target girepository/compiler/gi-compile-repository.js
+[569/697] Linking target fuzzing/fuzz_data_input_stream_read_line.js
+[570/697] Linking target fuzzing/fuzz_data_input_stream_read_line_utf8.js
+[571/697] Linking target fuzzing/fuzz_date_parse.js
+[572/697] Linking target fuzzing/fuzz_data_input_stream_read_upto.js
+[573/697] Linking target fuzzing/fuzz_date_time_new_from_iso8601.js
+[574/697] Linking target fuzzing/fuzz_filename_from_uri.js
+[575/697] Linking target fuzzing/fuzz_filename_to_uri.js
+[576/697] Linking target fuzzing/fuzz_dbus_message.js
+[577/697] Linking target fuzzing/fuzz_get_locale_variants.js
+[578/697] Linking target fuzzing/fuzz_inet_address_mask_new_from_string.js
+[579/697] Linking target fuzzing/fuzz_key.js
+[580/697] Linking target fuzzing/fuzz_inet_address_new_from_string.js
+[581/697] Linking target fuzzing/fuzz_inet_socket_address_new_from_string.js
+[582/697] Linking target fuzzing/fuzz_special_dirs.js
+[583/697] Linking target fuzzing/fuzz_paths.js
+[584/697] Linking target fuzzing/fuzz_resolver.js
+[585/697] Linking target fuzzing/fuzz_network_address_parse.js
+[586/697] Linking target fuzzing/fuzz_network_address_parse_uri.js
+[587/697] Linking target fuzzing/fuzz_string.js
+[588/697] Linking target fuzzing/fuzz_uri_escape.js
+[589/697] Linking target fuzzing/fuzz_uri_parse.js
+[590/697] Linking target fuzzing/fuzz_utf8_validate.js
+[591/697] Linking target fuzzing/fuzz_uri_parse_params.js
+[592/697] Building translation po/ab/LC_MESSAGES/glib20-ab.mo
+[593/697] Building translation po/af/LC_MESSAGES/glib20-af.mo
+[594/697] Building translation po/am/LC_MESSAGES/glib20-am.mo
+[595/697] Building translation po/an/LC_MESSAGES/glib20-an.mo
+[596/697] Building translation po/ar/LC_MESSAGES/glib20-ar.mo
+[597/697] Building translation po/as/LC_MESSAGES/glib20-as.mo
+[598/697] Building translation po/ast/LC_MESSAGES/glib20-ast.mo
+[599/697] Building translation po/az/LC_MESSAGES/glib20-az.mo
+[600/697] Building translation po/be/LC_MESSAGES/glib20-be.mo
+[601/697] Building translation po/be@latin/LC_MESSAGES/glib20-be@latin.mo
+[602/697] Building translation po/bg/LC_MESSAGES/glib20-bg.mo
+[603/697] Building translation po/bn/LC_MESSAGES/glib20-bn.mo
+[604/697] Building translation po/bn_IN/LC_MESSAGES/glib20-bn_IN.mo
+[605/697] Building translation po/bs/LC_MESSAGES/glib20-bs.mo
+[606/697] Building translation po/ca/LC_MESSAGES/glib20-ca.mo
+[607/697] Building translation po/ca@valencia/LC_MESSAGES/glib20-ca@valencia.mo
+[608/697] Building translation po/cs/LC_MESSAGES/glib20-cs.mo
+[609/697] Building translation po/cy/LC_MESSAGES/glib20-cy.mo
+[610/697] Building translation po/da/LC_MESSAGES/glib20-da.mo
+[611/697] Building translation po/de/LC_MESSAGES/glib20-de.mo
+[612/697] Building translation po/dz/LC_MESSAGES/glib20-dz.mo
+[613/697] Building translation po/el/LC_MESSAGES/glib20-el.mo
+[614/697] Building translation po/en_CA/LC_MESSAGES/glib20-en_CA.mo
+[615/697] Building translation po/en_GB/LC_MESSAGES/glib20-en_GB.mo
+[616/697] Building translation po/en@shaw/LC_MESSAGES/glib20-en@shaw.mo
+[617/697] Building translation po/eo/LC_MESSAGES/glib20-eo.mo
+[618/697] Building translation po/es/LC_MESSAGES/glib20-es.mo
+[619/697] Building translation po/et/LC_MESSAGES/glib20-et.mo
+[620/697] Building translation po/eu/LC_MESSAGES/glib20-eu.mo
+[621/697] Building translation po/fa/LC_MESSAGES/glib20-fa.mo
+[622/697] Building translation po/fi/LC_MESSAGES/glib20-fi.mo
+[623/697] Building translation po/fr/LC_MESSAGES/glib20-fr.mo
+[624/697] Building translation po/fur/LC_MESSAGES/glib20-fur.mo
+[625/697] Building translation po/ga/LC_MESSAGES/glib20-ga.mo
+[626/697] Building translation po/gd/LC_MESSAGES/glib20-gd.mo
+[627/697] Building translation po/gl/LC_MESSAGES/glib20-gl.mo
+[628/697] Linking target fuzzing/fuzz_utf8_normalize.js
+[629/697] Building translation po/gu/LC_MESSAGES/glib20-gu.mo
+[630/697] Building translation po/he/LC_MESSAGES/glib20-he.mo
+[631/697] Building translation po/hr/LC_MESSAGES/glib20-hr.mo
+[632/697] Building translation po/hi/LC_MESSAGES/glib20-hi.mo
+[633/697] Building translation po/hu/LC_MESSAGES/glib20-hu.mo
+[634/697] Building translation po/hy/LC_MESSAGES/glib20-hy.mo
+[635/697] Building translation po/ie/LC_MESSAGES/glib20-ie.mo
+[636/697] Building translation po/id/LC_MESSAGES/glib20-id.mo
+[637/697] Building translation po/is/LC_MESSAGES/glib20-is.mo
+[638/697] Building translation po/it/LC_MESSAGES/glib20-it.mo
+[639/697] Building translation po/ja/LC_MESSAGES/glib20-ja.mo
+[640/697] Building translation po/kab/LC_MESSAGES/glib20-kab.mo
+[641/697] Building translation po/ka/LC_MESSAGES/glib20-ka.mo
+[642/697] Building translation po/kk/LC_MESSAGES/glib20-kk.mo
+[643/697] Building translation po/kn/LC_MESSAGES/glib20-kn.mo
+[644/697] Building translation po/ku/LC_MESSAGES/glib20-ku.mo
+[645/697] Building translation po/lt/LC_MESSAGES/glib20-lt.mo
+[646/697] Building translation po/ko/LC_MESSAGES/glib20-ko.mo
+[647/697] Building translation po/lv/LC_MESSAGES/glib20-lv.mo
+[648/697] Building translation po/mai/LC_MESSAGES/glib20-mai.mo
+[649/697] Building translation po/mg/LC_MESSAGES/glib20-mg.mo
+[650/697] Building translation po/mk/LC_MESSAGES/glib20-mk.mo
+[651/697] Building translation po/mn/LC_MESSAGES/glib20-mn.mo
+[652/697] Building translation po/ml/LC_MESSAGES/glib20-ml.mo
+[653/697] Building translation po/ms/LC_MESSAGES/glib20-ms.mo
+[654/697] Building translation po/nb/LC_MESSAGES/glib20-nb.mo
+[655/697] Building translation po/mr/LC_MESSAGES/glib20-mr.mo
+[656/697] Building translation po/nds/LC_MESSAGES/glib20-nds.mo
+[657/697] Building translation po/nl/LC_MESSAGES/glib20-nl.mo
+[658/697] Building translation po/ne/LC_MESSAGES/glib20-ne.mo
+[659/697] Building translation po/nn/LC_MESSAGES/glib20-nn.mo
+[660/697] Building translation po/oc/LC_MESSAGES/glib20-oc.mo
+[661/697] Building translation po/or/LC_MESSAGES/glib20-or.mo
+[662/697] Building translation po/pl/LC_MESSAGES/glib20-pl.mo
+[663/697] Building translation po/pa/LC_MESSAGES/glib20-pa.mo
+[664/697] Building translation po/ps/LC_MESSAGES/glib20-ps.mo
+[665/697] Building translation po/pt/LC_MESSAGES/glib20-pt.mo
+[666/697] Building translation po/ro/LC_MESSAGES/glib20-ro.mo
+[667/697] Building translation po/ru/LC_MESSAGES/glib20-ru.mo
+[668/697] Building translation po/pt_BR/LC_MESSAGES/glib20-pt_BR.mo
+[669/697] Building translation po/rw/LC_MESSAGES/glib20-rw.mo
+[670/697] Building translation po/si/LC_MESSAGES/glib20-si.mo
+[671/697] Building translation po/sk/LC_MESSAGES/glib20-sk.mo
+[672/697] Building translation po/sq/LC_MESSAGES/glib20-sq.mo
+[673/697] Building translation po/sl/LC_MESSAGES/glib20-sl.mo
+[674/697] Building translation po/sr/LC_MESSAGES/glib20-sr.mo
+[675/697] Building translation po/sr@ije/LC_MESSAGES/glib20-sr@ije.mo
+[676/697] Building translation po/sr@latin/LC_MESSAGES/glib20-sr@latin.mo
+[677/697] Building translation po/sv/LC_MESSAGES/glib20-sv.mo
+[678/697] Building translation po/te/LC_MESSAGES/glib20-te.mo
+[679/697] Building translation po/ta/LC_MESSAGES/glib20-ta.mo
+[680/697] Building translation po/tg/LC_MESSAGES/glib20-tg.mo
+[681/697] Building translation po/tl/LC_MESSAGES/glib20-tl.mo
+[682/697] Building translation po/tr/LC_MESSAGES/glib20-tr.mo
+[683/697] Building translation po/th/LC_MESSAGES/glib20-th.mo
+[684/697] Building translation po/tt/LC_MESSAGES/glib20-tt.mo
+[685/697] Building translation po/uk/LC_MESSAGES/glib20-uk.mo
+[686/697] Building translation po/ug/LC_MESSAGES/glib20-ug.mo
+[687/697] Linking target fuzzing/fuzz_uuid_string_is_valid.js
+[688/697] Building translation po/wa/LC_MESSAGES/glib20-wa.mo
+[689/697] Building translation po/vi/LC_MESSAGES/glib20-vi.mo
+[690/697] Building translation po/xh/LC_MESSAGES/glib20-xh.mo
+[691/697] Building translation po/yi/LC_MESSAGES/glib20-yi.mo
+[692/697] Building translation po/zh_CN/LC_MESSAGES/glib20-zh_CN.mo
+[693/697] Building translation po/zh_HK/LC_MESSAGES/glib20-zh_HK.mo
+[694/697] Building translation po/zh_TW/LC_MESSAGES/glib20-zh_TW.mo
+[695/697] Linking target fuzzing/fuzz_variant_binary.js
+[696/697] Linking target fuzzing/fuzz_variant_text.js
+[697/697] Linking target fuzzing/fuzz_variant_binary_byteswap.js

@@ -1,0 +1,16 @@
+87-//Path to a program.
+88-CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
+89-
+90://Error when cmake_install.cmake encounters absolute INSTALL DESTINATION.
+91-CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION:UNINITIALIZED=ON
+92-
+93-//Flags used by the linker during all build types.
+94-CMAKE_EXE_LINKER_FLAGS:STRING=
+95-
+96-//Flags used by the linker during DEBUG builds.
+97-CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
+98-
+99-//Flags used by the linker during MINSIZEREL builds.
+100-CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
+101-
+102-//Flags used by the linker during RELEASE builds.

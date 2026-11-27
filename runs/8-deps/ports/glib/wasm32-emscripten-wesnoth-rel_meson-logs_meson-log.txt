@@ -1,0 +1,1930 @@
+28fecbe
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(AF_INET6 <= 11)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpl28fecbe/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpl28fecbe/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbhn81mpi
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(AF_INET6 <= 9)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbhn81mpi/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbhn81mpi/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbhn81mpi/testfile.c:5:39: error: 'a' declared as an array with a negative size
+    5 |         int main(void) { static int a[1-2*!(AF_INET6 <= 9)]; a[0]=0; return 0; }
+      |                                       ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyjm9uof9
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(AF_INET6 <= 10)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyjm9uof9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyjm9uof9/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Computing int of "AF_INET6" : 10
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp76dw78ux
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(MSG_OOB == 1)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp76dw78ux/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp76dw78ux/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Computing int of "MSG_OOB" : 1
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpjt2tr1hv
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(MSG_PEEK == 2)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpjt2tr1hv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpjt2tr1hv/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Computing int of "MSG_PEEK" : 2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgdeujx_7
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(MSG_DONTROUTE == 4)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgdeujx_7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgdeujx_7/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Computing int of "MSG_DONTROUTE" : 4
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rxzoelg
+Code:
+#include <netinet/in.h>
+        void bar(void) {
+            (void) sizeof(struct in6_addr);
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rxzoelg/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rxzoelg/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Checking for type "struct in6_addr" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_notyyor
+Code:
+int main() {
+  int atomic = 2;
+  __sync_bool_compare_and_swap (&atomic, 2, 3);
+  return 0;
+}
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_notyyor/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_notyyor/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking if "atomic ops" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0jz2eyx5
+Code:
+
+      int main() {
+        int atomic = 2;
+        __sync_swap (&atomic, 2);
+        return 0;
+      }
+    
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0jz2eyx5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0jz2eyx5/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking if "sync swap" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpo8gr120l
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_attr_setstacksize
+                pthread_attr_setstacksize;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpo8gr120l/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpo8gr120l/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpo8gr120l/testfile.c:6:17: warning: expression result unused [-Wunused-value]
+    6 |                 pthread_attr_setstacksize;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+-----------
+Header "pthread.h" has symbol "pthread_attr_setstacksize" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpoa3ku8mp
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_attr_setinheritsched
+                pthread_attr_setinheritsched;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpoa3ku8mp/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpoa3ku8mp/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpoa3ku8mp/testfile.c:6:17: warning: expression result unused [-Wunused-value]
+    6 |                 pthread_attr_setinheritsched;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+-----------
+Header "pthread.h" has symbol "pthread_attr_setinheritsched" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9s65pr8k
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_condattr_setclock
+                pthread_condattr_setclock;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9s65pr8k/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9s65pr8k/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9s65pr8k/testfile.c:6:17: warning: expression result unused [-Wunused-value]
+    6 |                 pthread_condattr_setclock;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+-----------
+Header "pthread.h" has symbol "pthread_condattr_setclock" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpuc3_zxjd
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_cond_timedwait_relative_np
+                pthread_cond_timedwait_relative_np;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpuc3_zxjd/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpuc3_zxjd/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpuc3_zxjd/testfile.c:6:17: error: use of undeclared identifier 'pthread_cond_timedwait_relative_np'
+    6 |                 pthread_cond_timedwait_relative_np;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+-----------
+Header "pthread.h" has symbol "pthread_cond_timedwait_relative_np" : NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+              int main() {
+                pthread_setname_np("example");
+                return 0;
+              }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7/testfile.c:7:45: error: too few arguments to function call, expected 2, have 1
+    7 |                 pthread_setname_np("example");
+      |                 ~~~~~~~~~~~~~~~~~~          ^
+/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h:223:5: note: 'pthread_setname_np' declared here
+  223 | int pthread_setname_np(pthread_t, const char *);
+      |     ^                  ~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7/testfile.c -o /tmp/emscripten_temp_3jpcp33c/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpv1x9rkk7/output.js-' failed (returned 1)
+-----------
+Checking if "pthread_setname_np(const char*)" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8k_o3lh2
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+                int main() {
+                  pthread_setname_np(pthread_self(), "example");
+                  return 0;
+                }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8k_o3lh2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8k_o3lh2/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+wasm-ld: error: /tmp/emscripten_temp_ukrv7m33/testfile.o: undefined symbol: pthread_setname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8k_o3lh2/output.wasm /tmp/tmp08nt98r7libemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__trap --export=__wasm_call_ctors --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib /tmp/emscripten_temp_ukrv7m33/testfile.o -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc-legacysjlj -lclang_rt.builtins -lunwind-legacyexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+-----------
+Checking if "pthread_setname_np(pthread_t, const char*)" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+                int main() {
+                  pthread_setname_np(pthread_self(), "%s", "example");
+                  return 0;
+                }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki/testfile.c:7:60: error: too many arguments to function call, expected 2, have 3
+    7 |                   pthread_setname_np(pthread_self(), "%s", "example");
+      |                   ~~~~~~~~~~~~~~~~~~                       ^~~~~~~~~
+/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h:223:5: note: 'pthread_setname_np' declared here
+  223 | int pthread_setname_np(pthread_t, const char *);
+      |     ^                  ~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki/testfile.c -o /tmp/emscripten_temp_dg41yapi/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp567y28ki/output.js-' failed (returned 1)
+-----------
+Checking if "pthread_setname_np(pthread_t, const char*, void*)" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+                #include <pthread_np.h>
+                int main() {
+                  pthread_set_name_np(pthread_self(), "example");
+                  return 0;
+                }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm/testfile.c:6:26: fatal error: 'pthread_np.h' file not found
+    6 |                 #include <pthread_np.h>
+      |                          ^~~~~~~~~~~~~~
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm/testfile.c -o /tmp/emscripten_temp_zgogsncv/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpngx3j1dm/output.js-' failed (returned 1)
+-----------
+Checking if "pthread_set_name_np(pthread_t, const char*)" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpghtxkjxs
+Code:
+#include <iconv.h>
+
+int main() {
+    iconv_open("","");
+}
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpghtxkjxs/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpghtxkjxs/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang++: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Run-time dependency iconv found: YES
+Pkg-config binary for host machine specified from cross file, native file, or env var as ['/bin/pkg-config']
+Found pkg-config: YES (/bin/pkg-config) 2.5.1
+Determining dependency 'libpcre2-8' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libpcre2-8` -> 0
+stdout:
+10.47
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags libpcre2-8` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -DPCRE2_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libpcre2-8` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lpcre2-8
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libpcre2-8` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lpcre2-8
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3tokz24o
+Code:
+
+        #include <stddef.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3tokz24o/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3tokz24o/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpndqfbljs
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpndqfbljs/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpndqfbljs/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpy_3i36yp
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpy_3i36yp/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpy_3i36yp/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyptc0dps
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyptc0dps/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpyptc0dps/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1x3qnovp
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1x3qnovp/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1x3qnovp/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1on1_e5b
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1on1_e5b/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1on1_e5b/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1on1_e5b/testfile.cpp:3:39: error: 'a' declared as an array with a negative size
+    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9atdfugz
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9atdfugz/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9atdfugz/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3ubwbaq6
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3ubwbaq6/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp3ubwbaq6/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9pmrpkon
+Code:
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9pmrpkon/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp9pmrpkon/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/home/runner/webbuild/emsdk/upstream/bin
+libraries: =/home/runner/webbuild/emsdk/upstream/lib/clang/24:/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten
+-----------
+Run-time dependency libpcre2-8 found: YES 10.47
+
+Executing subproject gvdb 
+
+Project name: gvdb
+Project version: 0.0
+C compiler for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG (emscripten 7.0.1 "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)")
+C linker for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG ld.wasm 24.0.0
+-----------
+Detecting compiler via: `false --version` -> 1
+stdout:
+false (uutils coreutils) 0.10.0
+-----------
+Compiler for language c for the build machine not found.
+Build targets in project: 0
+Subproject gvdb finished.
+
+Dependency gvdb found: YES 0.0 (overridden)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgt06zj0b
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgt06zj0b/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgt06zj0b/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -lm -sERROR_ON_UNDEFINED_SYMBOLS=0 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Library m found: YES
+Determining dependency 'libffi' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libffi` -> 0
+stdout:
+3.8.0
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags libffi` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lffi
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lffi
+-----------
+Run-time dependency libffi found: YES 3.8.0
+Determining dependency 'zlib' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion zlib` -> 0
+stdout:
+1.3.2
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags zlib` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib -lz
+-----------
+Run-time dependency zlib found: YES 1.3.2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptvbw2xar
+Code:
+
+  int main (int argc, char ** argv) {
+    return 0;
+  }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptvbw2xar/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptvbw2xar/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -latomic -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+wasm-ld: error: unable to find library -latomic
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptvbw2xar/output.wasm /tmp/tmpho5kpauulibemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__trap --export=__wasm_call_ctors --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib /tmp/emscripten_temp_lmipnjul/testfile.o -latomic -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc-legacysjlj -lclang_rt.builtins -lunwind-legacyexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+-----------
+Checking if "check for -latomic" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rwan82i
+Code:
+#include <libintl.h>
+
+int main() {
+    gettext("Hello world");
+}
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rwan82i/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rwan82i/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang++: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+wasm-ld: error: /tmp/emscripten_temp_yy_fof6z/testfile.o: undefined symbol: libintl_gettext
+em++: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0rwan82i/output.wasm /tmp/tmp27e3eht6libemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__trap --export=__wasm_call_ctors --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib /tmp/emscripten_temp_yy_fof6z/testfile.o -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc-legacysjlj -lclang_rt.builtins -lc++-debug-legacyexcept -lc++abi-debug-legacyexcept -lunwind-legacyexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4ri0ab7f
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("libintl.h")
+          #error "Header 'libintl.h' could not be found"
+         #endif
+        #else
+         #include <libintl.h>
+        #endif
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4ri0ab7f/testfile.cpp -E -P -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -Werror=implicit-function-declaration` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxu5_0g34
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxu5_0g34/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxu5_0g34/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -lintl -sERROR_ON_UNDEFINED_SYMBOLS=0 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang++: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Run-time dependency intl found: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0957jak8
+Code:
+#include <libintl.h>
+#include <limits.h>
+
+        #if defined __stub_bind_textdomain_codeset || defined __stub___bind_textdomain_codeset
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &bind_textdomain_codeset;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0957jak8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp0957jak8/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lintl -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking for function "bind_textdomain_codeset" with dependency intl: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp949nm1me
+Code:
+
+        #define strlcpy meson_disable_define_of_strlcpy
+        
+        #include <limits.h>
+        #undef strlcpy
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strlcpy (void);
+        
+        #if defined __stub_strlcpy || defined __stub___strlcpy
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strlcpy ();
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp949nm1me/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp949nm1me/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp949nm1me/testfile.c:10:14: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+   10 |         char strlcpy (void);
+      |              ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp949nm1me/testfile.c:10:14: note: 'strlcpy' is a builtin with type '__size_t (char *, const char *, __size_t)' (aka 'unsigned long (char *, const char *, unsigned long)')
+1 warning generated.
+wasm-ld: warning: function signature mismatch: strlcpy
+>>> defined as () -> i32 in /tmp/emscripten_temp_vf30_ajd/testfile.o
+>>> defined as (i32, i32, i32) -> i32 in /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(strlcpy.o)
+-----------
+Checking for function "strlcpy" : YES 
+Program python3 found: YES (/usr/bin/python3)
+Program bash found: YES (/usr/bin/bash)
+Determining dependency 'bash-completion' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion bash-completion` -> 0
+stdout:
+2.16.0
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags bash-completion` -> 0
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs bash-completion` -> 0
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs bash-completion` -> 0
+Run-time dependency bash-completion found: YES 2.16.0
+Program sh found: YES (/usr/bin/sh)
+Program pkg-config found: YES
+Program env found: YES (/usr/bin/env)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpzl4cyt9m
+Code:
+
+        #include <sys/ptrace.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef PTRACE_O_EXITKILL
+                PTRACE_O_EXITKILL;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpzl4cyt9m/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpzl4cyt9m/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpzl4cyt9m/testfile.c:2:18: fatal error: 'sys/ptrace.h' file not found
+    2 |         #include <sys/ptrace.h>
+      |                  ^~~~~~~~~~~~~~
+1 error generated.
+-----------
+Header "sys/ptrace.h" has symbol "PTRACE_O_EXITKILL" : NO 
+Program g-ir-scanner skipped: feature introspection disabled
+Dependency gobject-introspection-1.0 skipped: feature introspection disabled
+Configuring glib-gettextize using configuration
+Program gen-visibility-macros.py found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-e686bf4a8e.clean/tools/gen-visibility-macros.py)
+Configuring glibconfig.h using configuration
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp73vi4ghm
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp73vi4ghm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp73vi4ghm/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wsign-conversion -Wno-sign-conversion` -> 0
+Compiler for C supports arguments -Wno-sign-conversion: YES 
+Dependency sysprof-capture-4 skipped: feature sysprof disabled
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpr5nfby91
+Code:
+
+#include <float.h>
+int main ()
+{
+  typedef int check[sizeof (long double) == sizeof (double)
+                    && LDBL_MANT_DIG == DBL_MANT_DIG
+                    && LDBL_MAX_EXP == DBL_MAX_EXP
+                    && LDBL_MIN_EXP == DBL_MIN_EXP
+                    ? 1 : -1];
+  return check;
+}
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpr5nfby91/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpr5nfby91/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpr5nfby91/testfile.c:5:21: error: 'check' declared as an array with a negative size
+    5 |   typedef int check[sizeof (long double) == sizeof (double)
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    6 |                     && LDBL_MANT_DIG == DBL_MANT_DIG
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    7 |                     && LDBL_MAX_EXP == DBL_MAX_EXP
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    8 |                     && LDBL_MIN_EXP == DBL_MIN_EXP
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    9 |                     ? 1 : -1];
+      |                     ~~~~~~~~
+1 error generated.
+-----------
+Running compile:
+Working directory:  /tmp/tmp_1t2zr90
+Code:
+
+        
+        #ifndef arm
+        # define arm "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+arm
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /tmp/tmp_1t2zr90/testfile.c -E -P -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu99` -> 0
+stdout:
+"MESON_GET_DEFINE_DELIMITER_START"
+"MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "arm" : (undefined) 
+Running compile:
+Working directory:  /tmp/tmp5mw5a_06
+Code:
+
+        
+        #ifndef __arm
+        # define __arm "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+__arm
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /tmp/tmp5mw5a_06/testfile.c -E -P -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu99` -> 0
+stdout:
+"MESON_GET_DEFINE_DELIMITER_START"
+"MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "__arm" : (undefined) 
+Running compile:
+Working directory:  /tmp/tmp0z670qib
+Code:
+
+        
+        #ifndef __arm__
+        # define __arm__ "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+__arm__
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /tmp/tmp0z670qib/testfile.c -E -P -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu99` -> 0
+stdout:
+"MESON_GET_DEFINE_DELIMITER_START"
+"MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "__arm__" : (undefined) 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfvpapjdn
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfvpapjdn/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfvpapjdn/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wformat-nonliteral -Wno-format-nonliteral` -> 0
+Compiler for C supports arguments -Wno-format-nonliteral: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp55rpu4f7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp55rpu4f7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp55rpu4f7/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wfloat-conversion -Wno-float-conversion` -> 0
+Compiler for C supports arguments -Wno-float-conversion: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches` -> 1
+stderr:
+error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+-----------
+Compiler for C supports arguments -Wno-duplicated-branches: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpw3n0j078
+Code:
+#include <math.h>
+                            int main ()
+                            {
+                              (void) frexpl;
+                              return 0;
+                            }
+                         
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpw3n0j078/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpw3n0j078/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpm14_rmp2
+Code:
+#include <math.h>
+                            int main ()
+                            {
+                              (void) ldexpl;
+                              return 0;
+                            }
+                         
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpm14_rmp2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpm14_rmp2/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbnyx948l
+Code:
+#include <math.h>
+              #if __GNUC__ >= 4
+              # undef isnand
+              # define isnand(x) __builtin_isnan ((double)(x))
+              #else
+              # undef isnand
+              # define isnand(x) isnan ((double)(x))
+              #endif
+              double x;
+              int main () {return isnand (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbnyx948l/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpbnyx948l/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw
+Code:
+#include <math.h>
+              #if __GNUC__ >= 4
+              # undef isnanf
+              # define isnanf(x) __builtin_isnanf ((float)(x))
+              #else
+              # undef isnanf
+              # define isnanf(x) isnan ((float)(x))
+              #endif
+              double x;
+              int main () {return isnanf (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/testfile.c:10:35: error: use of unknown builtin '__builtin_isnanf' [-Wimplicit-function-declaration]
+   10 |               int main () {return isnanf (x);}
+      |                                   ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/testfile.c:4:34: note: expanded from macro 'isnanf'
+    4 |               # define isnanf(x) __builtin_isnanf ((float)(x))
+      |                                  ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/testfile.c -o /tmp/emscripten_temp_y6pxy8ba/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpk1hfu_bw/output.js-' failed (returned 1)
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_
+Code:
+#include <math.h>
+              #if __GNUC__ >= 4
+              # undef isnanl
+              # define isnanl(x) __builtin_isnanl ((long double)(x))
+              #else
+              # undef isnanl
+              # define isnanl(x) isnan ((long double)(x))
+              #endif
+              double x;
+              int main () {return isnanl (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/testfile.c:10:35: error: use of unknown builtin '__builtin_isnanl' [-Wimplicit-function-declaration]
+   10 |               int main () {return isnanl (x);}
+      |                                   ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/testfile.c:4:34: note: expanded from macro 'isnanl'
+    4 |               # define isnanl(x) __builtin_isnanl ((long double)(x))
+      |                                  ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/testfile.c -o /tmp/emscripten_temp_26k5k3lt/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2esm7a7_/output.js-' failed (returned 1)
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpcmmeacnn
+Code:
+#include <math.h>
+                     double x;
+                     int y;
+                     int main () {return ldexp (x, y) < 1;}
+                  
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpcmmeacnn/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpcmmeacnn/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp5zdenxky
+Code:
+#include <math.h>
+                     long double x;
+                     int main () {return ldexpl (x, -1) > 0;}
+                  
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp5zdenxky/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp5zdenxky/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmplzvl3xk7
+Code:
+#include <math.h>
+                     double x;
+                     int main () {int e; return frexp (x, &e) > 0;}
+                  
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmplzvl3xk7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmplzvl3xk7/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp83rs603o
+Code:
+#include <math.h>
+                     long double x;
+                     int main () {int e; return frexpl (x, &e) > 0;}
+                  
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp83rs603o/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp83rs603o/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxey8o_2r
+Code:
+
+#include <math.h>
+/* Solaris 10 has a broken definition of NAN.  Other platforms
+        fail to provide NAN, or provide it only in C99 mode; this
+        test only needs to fail when NAN is provided but wrong.  */
+int main () {
+         float f = 1.0f;
+#ifdef NAN
+         f = NAN;
+#endif
+         return f == 0;
+}
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxey8o_2r/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpxey8o_2r/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1humy2og
+Code:
+
+#define TEST_FREXPL_DECL 1
+
+#include <float.h>
+#include <math.h>
+/* Override the values of <float.h>, like done in float.in.h.  */
+#if defined __i386__ && (defined __BEOS__ || defined __OpenBSD__)
+# undef LDBL_MIN_EXP
+# define LDBL_MIN_EXP    (-16381)
+#endif
+#if defined __i386__ && (defined __FreeBSD__ || defined __DragonFly__)
+# undef LDBL_MIN_EXP
+# define LDBL_MIN_EXP    (-16381)
+#endif
+#if (defined _ARCH_PPC || defined _POWER) && defined _AIX && (LDBL_MANT_DIG == 106) && defined __GNUC__
+# undef LDBL_MIN_EXP
+# define LDBL_MIN_EXP DBL_MIN_EXP
+#endif
+#if defined __sgi && (LDBL_MANT_DIG >= 106)
+# if defined __GNUC__
+#  undef LDBL_MIN_EXP
+#  define LDBL_MIN_EXP DBL_MIN_EXP
+# endif
+#endif
+extern
+#ifdef __cplusplus
+"C"
+#endif
+
+#if !defined (_MSC_VER) || defined (TEST_FREXPL_DECL)
+long double frexpl (long double, int *);
+#endif
+
+int main()
+{
+  int result = 0;
+  volatile long double x;
+  /* Test on finite numbers that fails on AIX 5.1.  */
+  x = 16.0L;
+  {
+    int exp = -9999;
+    frexpl (x, &exp);
+    if (exp != 5)
+      result |= 1;
+  }
+  /* Test on finite numbers that fails on Mac OS X 10.4, because its frexpl
+     function returns an invalid (incorrectly normalized) value: it returns
+               y = { 0x3fe028f5, 0xc28f5c28, 0x3c9eb851, 0xeb851eb8 }
+     but the correct result is
+          0.505L = { 0x3fe028f5, 0xc28f5c29, 0xbc547ae1, 0x47ae1480 }  */
+  x = 1.01L;
+  {
+    int exp = -9999;
+    long double y = frexpl (x, &exp);
+    if (!(exp == 1 && y == 0.505L))
+      result |= 2;
+  }
+  /* Test on large finite numbers.  This fails on BeOS at i = 16322, while
+     LDBL_MAX_EXP = 16384.
+     In the loop end test, we test x against Infinity, rather than comparing
+     i with LDBL_MAX_EXP, because BeOS <float.h> has a wrong LDBL_MAX_EXP.  */
+  {
+    int i;
+    for (i = 1, x = 1.0L; x != x + x; i++, x *= 2.0L)
+      {
+        int exp = -9999;
+        frexpl (x, &exp);
+        if (exp != i)
+          {
+            result |= 4;
+            break;
+          }
+      }
+  }
+  /* Test on denormalized numbers.  */
+  {
+    int i;
+    for (i = 1, x = 1.0L; i >= LDBL_MIN_EXP; i--, x *= 0.5L)
+      ;
+    if (x > 0.0L)
+      {
+        int exp;
+        long double y = frexpl (x, &exp);
+        /* On machines with IEEE854 arithmetic: x = 1.68105e-4932,
+           exp = -16382, y = 0.5.  On Mac OS X 10.5: exp = -16384, y = 0.5.  */
+        (void) y;
+        if (exp != LDBL_MIN_EXP - 1)
+          result |= 8;
+      }
+  }
+  /* Test on infinite numbers.  */
+  /* The dance around 0.0L is an attempt to prevent MSVC from erroring out */
+  x = 0.0L;
+  x = 1.0L / x;
+  {
+    int exp;
+    long double y = frexpl (x, &exp);
+    if (y != x)
+      result |= 16;
+  }
+  return result;
+}
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1humy2og/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1humy2og/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1humy2og/testfile.c:64:32: warning: unsequenced accesses to volatile qualified 'x' [-Wunsequenced-volatile]
+   64 |     for (i = 1, x = 1.0L; x != x + x; i++, x *= 2.0L)
+      |                           ~    ^
+1 warning generated.
+-----------
+Checking if "frexpl prototype can be re-listed" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpb_i13rzb
+Code:
+
+#define TEST_LDEXPL_DECL 1
+
+#include <math.h>
+extern
+#ifdef __cplusplus
+"C"
+#endif
+
+#if !defined (_MSC_VER) || defined (TEST_LDEXPL_DECL)
+long double ldexpl (long double, int);
+#endif
+
+int main()
+{
+  int result = 0;
+  {
+    volatile long double x = 1.0;
+    volatile long double y = ldexpl (x, -1);
+    if (y != 0.5L)
+      result |= 1;
+  }
+  {
+    volatile long double x = 1.73205L;
+    volatile long double y = ldexpl (x, 0);
+    if (y != x)
+      result |= 2;
+  }
+  return result;
+}
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpb_i13rzb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpb_i13rzb/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Checking if "ldexpl prototype can be re-listed" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8dl95qoc
+Code:
+#include <math.h>
+              double x;
+              int main () {return isfinite (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8dl95qoc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp8dl95qoc/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp14uqk1v3
+Code:
+#include <math.h>
+              double x;
+              int main () {return isinf (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp14uqk1v3/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp14uqk1v3/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpkis0tfrv
+Code:
+#include <math.h>
+              double x;
+              int main () {return signbit (x);}
+           
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpkis0tfrv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpkis0tfrv/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -lm -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Configuring gnulib_math.h using configuration
+Configuring gtester-report using configuration
+Configuring libglib-2.0.so.0.8800.3-gdb.py using configuration
+Configuring glib-genmarshal using configuration
+Program glib-genmarshal found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gobject/glib-genmarshal)
+Configuring glib-mkenums using configuration
+Program glib-mkenums found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gobject/glib-mkenums)
+Configuring libgobject-2.0.so.0.8800.3-gdb.py using configuration
+Message: Cross-compiling: assuming that symbols aren't prefixed with underscore
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpu42lgdib
+Code:
+
+        #define dlerror meson_disable_define_of_dlerror
+        
+        #include <limits.h>
+        #undef dlerror
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char dlerror (void);
+        
+        #if defined __stub_dlerror || defined __stub___dlerror
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return dlerror ();
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpu42lgdib/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpu42lgdib/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking for function "dlerror" : YES 
+Configuring gmoduleconf.h using configuration
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa6aru8az
+Code:
+#include <sys/types.h>
+                        #include <arpa/nameser.h>
+                        int qclass = C_IN;
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa6aru8az/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa6aru8az/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Checking if "C_IN in public headers (no arpa/nameser_compat.h needed)" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpow3fztzx
+Code:
+#include <sys/types.h>
+                   #include <sys/socket.h>
+                   int main (int argc, char ** argv) {
+                     return socket(1, 2, 3);
+                   }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpow3fztzx/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpow3fztzx/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking if "socket()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp44ae60e0
+Code:
+#include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   return dn_comp(NULL, NULL, 0, NULL, NULL) == -1;
+                 } 
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp44ae60e0/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp44ae60e0/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking if "dn_comp()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   res_nclose(&res);
+                   return 0;
+                 }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv/testfile.c:7:20: error: call to undeclared function 'res_nclose'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    7 |                    res_nclose(&res);
+      |                    ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv/testfile.c -o /tmp/emscripten_temp__9yv0k3e/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1xbgojqv/output.js-' failed (returned 1)
+-----------
+Checking if "res_nclose()" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   res_ndestroy(&res);
+                   return 0;
+                 }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp/testfile.c:7:20: error: call to undeclared function 'res_ndestroy'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    7 |                    res_ndestroy(&res);
+      |                    ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp/testfile.c -o /tmp/emscripten_temp_3ukvodch/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpa7asq3tp/output.js-' failed (returned 1)
+-----------
+Checking if "res_ndestroy()" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   return res_ninit(&res);
+                 }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/testfile.c:7:27: error: call to undeclared function 'res_ninit'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    7 |                    return res_ninit(&res);
+      |                           ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/testfile.c:7:27: note: did you mean 'res_init'?
+/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/resolv.h:128:5: note: 'res_init' declared here
+  128 | int res_init(void);
+      |     ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/testfile.c -o /tmp/emscripten_temp_uxm7h7v4/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp166ejdsh/output.js-' failed (returned 1)
+-----------
+Checking if "res_ninit()" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   return res_nquery(&res, "test", 0, 0, (void *)0, 0);
+                 }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/output.js -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld` -> 1
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/testfile.c:7:27: error: call to undeclared function 'res_nquery'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    7 |                    return res_nquery(&res, "test", 0, 0, (void *)0, 0);
+      |                           ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/testfile.c:7:27: note: did you mean 'res_query'?
+/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/resolv.h:129:5: note: 'res_query' declared here
+  129 | int res_query(const char *, int, int, unsigned char *, int);
+      |     ^
+1 error generated.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fwasm-exceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fwasm-exceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu99 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/testfile.c -o /tmp/emscripten_temp_jcye0y3h/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpi21vq4cl/output.js-' failed (returned 1)
+-----------
+Checking if "res_nquery()" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpl75t240p
+Code:
+#include <netinet/in.h>
+        void bar(void) {
+            (void) sizeof(struct ip_mreqn);
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpl75t240p/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpl75t240p/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Checking for type "struct ip_mreqn" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpt5igscds
+Code:
+#include <sys/ioctl.h>
+                    #include <net/if.h>
+                    int main (int argc, char ** argv) {
+                      struct ifreq ifr;
+                      ioctl(0, SIOCGIFADDR, &ifr);
+                      return 0;
+                    }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpt5igscds/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpt5igscds/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu99` -> 0
+Checking if "ioctl with request SIOCGIFADDR" compiles: YES 
+Configuring gnetworking.h using configuration
+Configuring gdbus-codegen using configuration
+Program gdbus-codegen found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gio/gdbus-2.0/codegen/gdbus-codegen)
+Configuring config.py using configuration
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp73vi4ghm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp73vi4ghm/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wsign-conversion -Wno-sign-conversion 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-conversion: YES (cached)
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --define-variable=datadir=share --variable=completionsdir bash-completion` -> 0
+stdout:
+share/bash-completion/completions
+-----------
+Got pkg-config variable completionsdir : share/bash-completion/completions
+Determining dependency 'libelf' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libelf` -> 1
+stderr:
+Package libelf was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libelf.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libelf' not found
+-----------
+CMake binary for host machine is not cached
+CMake binary for host machine specified from cross file, native file, or env var as ['/usr/local/bin/cmake']
+Found CMake: /usr/local/bin/cmake (4.5.0)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/debug"
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-110yrD/CMakeLists.txt:24 add_executable(['cmTC_4d122'])
+CMake trace warning: target_link_libraries() TARGET cmTC_4d122 not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-110yrD/CMakeLists.txt:30 target_link_libraries(['cmTC_4d122', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-cpEr9D/CMakeLists.txt:24 add_executable(['cmTC_1f766'])
+CMake trace warning: target_link_libraries() TARGET cmTC_1f766 not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-cpEr9D/CMakeLists.txt:30 target_link_libraries(['cmTC_1f766', ''])
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/cmake_libelf/CMakeMesonToolchainFile.cmake"
+Try CMake generator: auto
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/cmake_libelf/CMakeLists.txt"
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/cmake_libelf with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/cmake_libelf/CMakeMesonToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/debug"
+  -- Module search paths:    ['/', '/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot', '/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth']
+  -- CMake root:             /usr/local/share/cmake-4.5
+  -- CMake architectures:    []
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', '']
+Preliminary CMake check failed. Aborting.
+Run-time dependency libelf found: NO (tried pkgconfig and cmake)
+Library elf skipped: feature libelf disabled
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4gl6saky
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4gl6saky/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4gl6saky/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wimplicit-fallthrough -Wno-implicit-fallthrough` -> 0
+Compiler for C supports arguments -Wno-implicit-fallthrough: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition` -> 0
+Compiler for C supports arguments -Wno-old-style-definition: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpp2_xgdpo
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpp2_xgdpo/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpp2_xgdpo/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wsuggest-attribute=noreturn -Wno-suggest-attribute=noreturn` -> 1
+stderr:
+error: unknown warning option '-Wsuggest-attribute=noreturn' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-suggest-attribute=noreturn' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+-----------
+Compiler for C supports arguments -Wno-suggest-attribute=noreturn: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wtype-limits -Wno-type-limits` -> 0
+Compiler for C supports arguments -Wno-type-limits: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp75oklf3r
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp75oklf3r/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp75oklf3r/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wundef -Wno-undef` -> 0
+Compiler for C supports arguments -Wno-undef: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter` -> 0
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align` -> 0
+Compiler for C supports arguments -Wno-cast-align: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgda6_lky
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgda6_lky/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpgda6_lky/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-function -Wno-unused-function` -> 0
+Compiler for C supports arguments -Wno-unused-function: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2wwxvpkg
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2wwxvpkg/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp2wwxvpkg/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wreturn-type -Wno-return-type` -> 0
+Compiler for C supports arguments -Wno-return-type: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1vk6sljv
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1vk6sljv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp1vk6sljv/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wsometimes-uninitialized -Wno-sometimes-uninitialized` -> 0
+Compiler for C supports arguments -Wno-sometimes-uninitialized: YES 
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+
+Compiler for C supports arguments -Wno-duplicated-branches: NO (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+
+Compiler for C supports arguments -Wno-duplicated-branches: NO (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4327iq6u/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_gmm00mc
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_gmm00mc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp_gmm00mc/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wmissing-field-initializers -Wno-missing-field-initializers` -> 0
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+
+Compiler for C supports arguments -Wno-duplicated-branches: NO (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+
+Compiler for C supports arguments -Wno-duplicated-branches: NO (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmptdrhxit8/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmp4iz4e8nk/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmprj7s37a5/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpfve08bym/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ error: unknown warning option '-Wduplicated-branches' [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Wno-duplicated-branches' [-Werror,-Wunknown-warning-option]
+2 errors generated.
+
+Compiler for C supports arguments -Wno-duplicated-branches: NO (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpctf2s2hs
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpctf2s2hs/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpctf2s2hs/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Werror=unused-function` -> 0
+Compiler for C supports arguments -Werror=unused-function: YES 
+Library FuzzingEngine skipped: feature oss_fuzz disabled
+Program xgettext found: YES (/usr/bin/xgettext)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Program rst2man rst2man.py skipped: feature man-pages disabled
+Program rst2html5 rst2html5.py found: NO
+Build targets in project: 183
+
+glib 2.88.3
+
+  Build environment
+    host cpu             : wasm32
+    host endian          : little
+    host system          : emscripten
+    C Compiler           : emscripten
+    C++ Compiler         : emscripten
+    shared build         : false
+    static build         : true
+    build cpu            : x86_64
+    build endian         : little
+    build system         : linux
+
+  Directories
+    prefix               : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth
+    bindir               : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/bin
+    libexecdir           : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/libexec
+    pkgdatadir           : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share/glib-2.0
+    datadir              : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share
+    localedir            : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share/locale
+    includedir           : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/include/glib-2.0
+    giomodulesdir        : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/lib/gio/modules
+    localstatedir        : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/var
+    runstatedir          : /run
+
+  Options
+    xattr                : false
+    man-pages            : disabled
+    dtrace               : false
+    systemtap            : false
+    sysprof              : false
+    documentation        : false
+    bsymbolic_functions  : true
+    force_posix_threads  : false
+    tests                : false
+    installed_tests      : false
+    nls                  : auto
+    oss_fuzz             : disabled
+    glib_debug           : enabled
+    glib_assert          : true
+    glib_checks          : true
+    libelf               : disabled
+    multiarch            : false
+    introspection        : false
+    file_monitor_backend : auto
+
+  Subprojects
+    gvdb                 : YES
+
+  User defined options
+    Cross files          : /home/runner/webbuild/vcpkg/buildtrees/glib/meson-wasm32-emscripten-wesnoth-rel.log
+    Native files         : /home/runner/webbuild/vcpkg/scripts/buildsystems/meson/none.txt
+    backend              : ninja
+    cmake_prefix_path    : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/debug']
+    debug                : false
+    documentation        : false
+    dtrace               : disabled
+    installed_tests      : false
+    introspection        : disabled
+    libdir               : lib
+    libelf               : disabled
+    libmount             : disabled
+    man-pages            : disabled
+    optimization         : plain
+    pkg_config_path      : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig']
+    pkgconfig.relocatable: true
+    prefix               : /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth
+    selinux              : disabled
+    sysprof              : disabled
+    tests                : false
+    wrap_mode            : nodownload
+    xattr                : false
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpumz5uyuh
+Code:
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpumz5uyuh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/meson-private/tmpumz5uyuh/output.o -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/home/runner/webbuild/emsdk/upstream/bin
+libraries: =/home/runner/webbuild/emsdk/upstream/lib/clang/24:/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten
+-----------
+WARNING: Cross file does not specify strip binary, result will not be stripped.
+Failed to guess install tag for /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/lib/gio/modules
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/build.ninja"
+WARNING: Cross file does not specify strip binary, result will not be stripped.
+Failed to guess install tag for /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/lib/gio/modules
