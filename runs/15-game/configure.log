@@ -1,0 +1,55 @@
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found ZLIB: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libz.a (found version "1.3.2")
+-- Found BZip2: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libbz2.a (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found LibLZMA: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/liblzma.a (found version "5.8.3")
+-- Performing Test Iconv_IS_BUILT_IN
+-- Performing Test Iconv_IS_BUILT_IN - Success
+-- Found Iconv: built in to C library
+-- Found ICU: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include (found version "78.3") found components: i18n uc data
+-- Lua submodule found.
+-- Found OpenSSL: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libcrypto.a (found suitable version "3.6.4", minimum required is "1.0")
+-- Found ICU: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include (found version "78.3") found components: data i18n uc
+-- Found Gettext: /bin/msgmerge (found version "0.23.2")
+-- Found Python: /bin/python3.14 (found version "3.14.4") found components: Interpreter
+-- Could NOT find X11 (missing: X11_X11_LIB) 
+-- Looking for include file sys/sendfile.h
+-- Looking for include file sys/sendfile.h - not found
+-- Environment compiler flags set to »«
+-- CMake compiler flags set to »-Wall -Wextra -Wno-c++20-extensions -Werror=non-virtual-dtor -Wno-unused-local-typedefs -Wno-maybe-uninitialized -Wold-style-cast -Wtrampolines -Qunused-arguments -Wno-unknown-warning-option -Wmismatched-tags -Wno-conditional-uninitialized -Wno-unused-lambda-capture «
+Removing -DNDEBUG flag from CMAKE_CXX_FLAGS_RELWITHDEBINFO
+Removing -DNDEBUG flag from CMAKE_C_FLAGS_RELWITHDEBINFO
+Removing -DNDEBUG flag from CMAKE_CXX_FLAGS_MINSIZEREL
+Removing -DNDEBUG flag from CMAKE_C_FLAGS_MINSIZEREL
+Replacing default flags used for Release build with   
+Replacing flags used for Debug build  -DDEBUG -ggdb3  
+-- Found OpenSSL: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libcrypto.a (found suitable version "3.6.4", minimum required is "3")
+-- Found ZLIB: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libz.a (found suitable version "1.3.2", minimum required is "1")
+-- Found VorbisFile: optimized;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libvorbisfile.a;debug;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libvorbisfile.a
+-- Found PkgConfig: /bin/pkg-config (found version "2.5.1")
+-- Found Fontconfig: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libfontconfig.a (found version "2.17.1")
+-- Found ZLIB: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libz.a (found version "1.3.2")
+-- Found PNG: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libpng16.a (found version "1.6.58")
+-- Found EXPAT: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libexpat.a (found version "2.8.3")
+-- Found JPEG: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/libjpeg.a (found version "62")
+-- Checking for module 'cairo>=1.10'
+--   Found cairo, version 1.18.4
+-- Checking for module 'pangocairo>=1.50.0'
+--   Found pangocairo, version 1.58.0
+-- Checking for module 'pango>=1.50.0'
+--   Found pango, version 1.58.0
+-- Checking for module 'readline'
+--   Package 'readline' not found
+-- Could NOT find History (missing: HISTORY_LIBRARY HISTORY_INCLUDE_DIR) 
+-- Configuring done (5.2s)
+-- Generating done (0.1s)
+CMake Warning (unused-cli):
+  Manually-specified variables were not used by the project:
+
+    VCPKG_OVERLAY_TRIPLETS
+
+
+-- Build files have been written to: /home/runner/webbuild/build
