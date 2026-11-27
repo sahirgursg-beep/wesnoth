@@ -1,0 +1,3 @@
+  BUILD_FAILED: 1
+  pango:wasm32-emscripten-wesnoth: BUILD_FAILED: 10 s
+error: building pango:wasm32-emscripten-wesnoth failed with: BUILD_FAILED

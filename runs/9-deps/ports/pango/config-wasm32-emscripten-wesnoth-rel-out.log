@@ -1,0 +1,109 @@
+DEPRECATION: "pkgconfig" entry is deprecated and should be replaced by "pkg-config"
+The Meson build system
+Version: 1.9.0
+Source dir: /home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-5cb02b5781.clean
+Build dir: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel
+Build type: cross build
+Project name: pango
+Project version: 1.58.0
+C compiler for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG (emscripten 7.0.1 "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)")
+C linker for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG ld.wasm 24.0.0
+C++ compiler for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG (emscripten 7.0.1 "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)")
+C++ linker for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG ld.wasm 24.0.0
+Compiler for language c for the build machine not found.
+Compiler for language cpp for the build machine not found.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: wasm32
+Host machine cpu: wasm32
+Target machine cpu family: wasm32
+Target machine cpu: wasm32
+Library m found: YES
+Found pkg-config: YES (/bin/pkg-config) 2.5.1
+Run-time dependency glib-2.0 found: YES 2.88.3
+Run-time dependency gobject-2.0 found: YES 2.88.3
+Run-time dependency gio-2.0 found: YES 2.88.3
+Found CMake: /usr/local/bin/cmake (4.5.0)
+Run-time dependency gobject-introspection-1.0 found: NO (tried pkgconfig and cmake)
+Run-time dependency fribidi found: YES 1.0.16
+Dependency libthai skipped: feature libthai disabled
+Run-time dependency harfbuzz found: YES 14.4.0
+Run-time dependency fontconfig found: YES 2.17.1
+Run-time dependency freetype2 found: YES 26.6.20
+Dependency xft skipped: feature xft disabled
+Run-time dependency cairo found: YES 1.18.4
+Run-time dependency cairo-ft found: YES 1.18.4
+Checking if "Cairo is built with FreeType and FontConfig support" with dependency cairo-ft links: YES 
+Run-time dependency cairo-win32 found: NO (tried pkgconfig and cmake)
+Run-time dependency cairo-quartz found: NO (tried pkgconfig and cmake)
+Run-time dependency cairo-png found: YES 1.18.4
+Run-time dependency cairo-ps found: YES 1.18.4
+Run-time dependency cairo-pdf found: YES 1.18.4
+Run-time dependency cairo-xlib found: NO (tried pkgconfig and cmake)
+Program g-ir-scanner skipped: feature introspection disabled
+Dependency sysprof-capture-4 skipped: feature sysprof disabled
+Configuring config.h using configuration
+Configuring pango-features.h using configuration
+Program gi-docgen found: NO
+Program rst2man rst2man.py found: NO
+Program rst2html5 rst2html5.py found: NO
+Build targets in project: 9
+
+pango 1.58.0
+
+  Font backends
+    Fontconfig           : true
+    DirectWrite          : false
+    CoreText             : false
+
+  Features
+    Cairo                : true
+    Thai                 : false
+    Sysprof              : false
+
+  Toolchain
+    Compiler             : emscripten
+    Linker               : ld.wasm
+
+  Build
+    Debugging            : false
+    Optimization         : plain
+    Introspection        : false
+    Documentation        : false
+    Man pages            : false
+    Tests                : false
+    Examples             : false
+
+  Directories
+    prefix               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth
+    includedir           : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/include
+    libdir               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/lib
+    datadir              : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth/share
+
+  User defined options
+    Cross files          : /home/runner/webbuild/vcpkg/buildtrees/pango/meson-wasm32-emscripten-wesnoth-rel.log
+    Native files         : /home/runner/webbuild/vcpkg/scripts/buildsystems/meson/none.txt
+    backend              : ninja
+    build-examples       : false
+    build-testsuite      : false
+    cairo                : enabled
+    cmake_prefix_path    : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/debug']
+    debug                : false
+    documentation        : false
+    fontconfig           : enabled
+    freetype             : enabled
+    introspection        : disabled
+    libdir               : lib
+    libthai              : disabled
+    man-pages            : false
+    optimization         : plain
+    pkg_config_path      : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig']
+    pkgconfig.relocatable: true
+    prefix               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth
+    sysprof              : disabled
+    wrap_mode            : nodownload
+    xft                  : disabled
+
+Found ninja-1.13.2 at /usr/bin/ninja
+WARNING: Cross file does not specify strip binary, result will not be stripped.
+WARNING: Cross file does not specify strip binary, result will not be stripped.

@@ -1,0 +1,486 @@
+[
+  {
+    "name": "glib-2.0",
+    "type": "pkgconfig",
+    "version": "2.88.3",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/glib-2.0",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/glib-2.0/include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libglib-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libintl.a",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "glib_dep"
+    ]
+  },
+  {
+    "name": "gobject-2.0",
+    "type": "pkgconfig",
+    "version": "2.88.3",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/glib-2.0",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/glib-2.0/include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libgobject-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libglib-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libintl.a",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gobject_dep"
+    ]
+  },
+  {
+    "name": "gio-2.0",
+    "type": "pkgconfig",
+    "version": "2.88.3",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/glib-2.0",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/glib-2.0/include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libgio-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libgobject-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libgmodule-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libglib-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libintl.a",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gio_dep"
+    ]
+  },
+  {
+    "name": "fribidi",
+    "type": "pkgconfig",
+    "version": "1.0.16",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/fribidi"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfribidi.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "fribidi_dep"
+    ]
+  },
+  {
+    "name": "harfbuzz",
+    "type": "pkgconfig",
+    "version": "14.4.0",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/harfbuzz",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libharfbuzz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "harfbuzz_dep"
+    ]
+  },
+  {
+    "name": "fontconfig",
+    "type": "pkgconfig",
+    "version": "2.17.1",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-pthread",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16",
+      "-DXML_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "-sPTHREAD_POOL_SIZE=4",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "fontconfig_dep"
+    ]
+  },
+  {
+    "name": "freetype2",
+    "type": "pkgconfig",
+    "version": "26.6.20",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "freetype_dep"
+    ]
+  },
+  {
+    "name": "cairo",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/cairo",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-DXML_STATIC",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/pixman-1",
+      "-pthread"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libcairo.a",
+      "-ldl",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "cairo_dep"
+    ]
+  },
+  {
+    "name": "cairo-ft",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/cairo",
+      "-DXML_STATIC",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/pixman-1",
+      "-pthread",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libcairo.a",
+      "-ldl",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "cairo-png",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/cairo",
+      "-DXML_STATIC",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/pixman-1",
+      "-pthread",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libcairo.a",
+      "-ldl",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "cairo-ps",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/cairo",
+      "-DXML_STATIC",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/pixman-1",
+      "-pthread"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libcairo.a",
+      "-ldl",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "cairo-pdf",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/cairo",
+      "-DXML_STATIC",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/libpng16",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/pixman-1",
+      "-pthread"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libcairo.a",
+      "-ldl",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfontconfig.a",
+      "-sPTHREAD_POOL_SIZE=4",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libexpat.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "mathlib_dep"
+    ]
+  },
+  {
+    "name": "dep34118870532924956291227354568852056926",
+    "type": "internal",
+    "version": "1.58.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-5cb02b5781.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/."
+    ],
+    "sources": [
+      "pango-enum-types.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "fribidi",
+      "harfbuzz",
+      "fontconfig",
+      "freetype2",
+      "cairo",
+      "sysprof-capture-4"
+    ],
+    "depends": [
+      "82b5c0c@@pango-1.0@sta"
+    ],
+    "meson_variables": [
+      "libpango_dep"
+    ]
+  },
+  {
+    "name": "dep309935056115249733603808460398074277760",
+    "type": "internal",
+    "version": "1.58.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-5cb02b5781.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "fribidi",
+      "harfbuzz",
+      "fontconfig",
+      "freetype2",
+      "cairo",
+      "sysprof-capture-4",
+      "dep34118870532924956291227354568852056926"
+    ],
+    "depends": [
+      "82b5c0c@@pangoft2-1.0@sta"
+    ],
+    "meson_variables": [
+      "libpangoft2_dep"
+    ]
+  },
+  {
+    "name": "dep127288308712115107251997462047845164901",
+    "type": "internal",
+    "version": "1.58.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-5cb02b5781.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "fribidi",
+      "harfbuzz",
+      "fontconfig",
+      "freetype2",
+      "cairo",
+      "sysprof-capture-4",
+      "dep34118870532924956291227354568852056926"
+    ],
+    "depends": [
+      "82b5c0c@@pangocairo-1.0@sta"
+    ],
+    "meson_variables": [
+      "libpangocairo_dep"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+10--- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/pango/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth.cmake.log
+11--- Configuring wasm32-emscripten-wesnoth-rel done
+12--- Package wasm32-emscripten-wesnoth-rel
+13:CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+14-    Command failed: /usr/local/bin/ninja install -v
+15-    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-rel
+16:    Error code: 1
+17-    See logs for more information:
+18-      /home/runner/webbuild/vcpkg/buildtrees/pango/package-wasm32-emscripten-wesnoth-rel-out.log
+19-
+20-Call Stack (most recent call first):
+21-  installed/x64-linux/share/vcpkg-tool-meson/vcpkg_install_meson.cmake:33 (vcpkg_execute_required_process)
+22-  ports/pango/portfile.cmake:47 (vcpkg_install_meson)
+23-  scripts/ports.cmake:209 (include)
+24-
+25-
