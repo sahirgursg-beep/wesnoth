@@ -1,0 +1,16 @@
+     62 /home/runner/work/wesnoth/wesnoth/src/map/location.hpp:175:28: error: use of undeclared identifier 'abs'
+     62 /home/runner/work/wesnoth/wesnoth/src/map/location.hpp:169:24: error: use of undeclared identifier 'abs'
+     17 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/boost/asio/detail/signal_blocker.hpp:27:3: error: Only Windows and POSIX are supported!
+     17 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/boost/asio/detail/impl/scheduler.ipp:136:5: error: unknown type name 'signal_blocker'
+      8 /home/runner/work/wesnoth/wesnoth/src/utils/math.hpp:186:18: error: no member named 'div' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/widgets/scrollarea.cpp:197:8: error: use of undeclared identifier 'abs'
+      1 /home/runner/work/wesnoth/wesnoth/src/utils/general.hpp:166:21: error: 'T' does not refer to a value
+      1 /home/runner/work/wesnoth/wesnoth/src/utils/general.hpp:166:14: error: no member named 'vector' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/utils/general.hpp:164:13: error: no template named 'vector' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/utils/general.cpp:32:8: error: no type named 'free' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/gui/dialogs/multiplayer/lobby_player_list_helper.hpp:41:25: error: no template named 'vector' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/gui/dialogs/multiplayer/lobby_player_list_helper.cpp:63:32: error: out-of-line definition of 'update' does not match any declaration in 'gui2::lobby_player_list_helper'
+      1 /home/runner/work/wesnoth/wesnoth/src/gui/core/placer/vertical_list.cpp:45:7: error: no member named 'fill' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/gui/core/placer/horizontal_list.cpp:43:7: error: no member named 'fill' in namespace 'std'
+      1 /home/runner/work/wesnoth/wesnoth/src/game_initialization/multiplayer.hpp:82:6: error: no template named 'vector' in namespace 'std'
+      1 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include/boost/asio/detail/impl/signal_set_service.ipp:272:28: error: no type named 'signal_blocker' in namespace 'boost::asio::detail'
