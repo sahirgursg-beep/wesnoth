@@ -176,6 +176,7 @@ if(ENABLE_GAME)
 		# Browser build, see web/README.md
 		set(WESNOTH_WEB_STACK_SIZE "8MB" CACHE STRING "Main thread stack size of the browser build")
 		target_link_options(wesnoth PRIVATE
+			-sINITIAL_MEMORY=128MB
 			-sALLOW_MEMORY_GROWTH=1
 			-sMAXIMUM_MEMORY=4GB
 			-sSTACK_SIZE=${WESNOTH_WEB_STACK_SIZE}
