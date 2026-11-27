@@ -116,7 +116,12 @@ if(VCPKG_TARGET_IS_WINDOWS)
 elseif(VCPKG_TARGET_IS_OSX)
     list(REMOVE_ITEM GLIB_TOOLS gapplication)
 endif()
-vcpkg_copy_tools(TOOL_NAMES ${GLIB_TOOLS} AUTO_CLEAN)
+if(VCPKG_TARGET_IS_EMSCRIPTEN)
+    # wesnoth-web: the tools are built as .js/.wasm and are of no use; drop them
+    file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/bin" "${CURRENT_PACKAGES_DIR}/debug/bin")
+else()
+    vcpkg_copy_tools(TOOL_NAMES ${GLIB_TOOLS} AUTO_CLEAN)
+endif()
 
 vcpkg_fixup_pkgconfig()
 
