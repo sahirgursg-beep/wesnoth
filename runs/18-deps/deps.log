@@ -1,0 +1,1051 @@
+== emsdk 7.0.1
+Cloning into '/home/runner/webbuild/emsdk'...
+Resolving SDK version '7.0.1' to 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'
+Installing SDK 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'..
+Installing tool 'node-24.19.0-64bit'..
+Downloading: /home/runner/webbuild/emsdk/downloads/node-v24.19.0-linux-x64.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/node-v24.19.0-linux-x64.tar.xz, 31633904 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking '/home/runner/webbuild/emsdk/downloads/node-v24.19.0-linux-x64.tar.xz' to '/home/runner/webbuild/emsdk/node/24.19.0_64bit'
+Done installing tool 'node-24.19.0-64bit'.
+Installing tool 'releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'..
+Downloading: /home/runner/webbuild/emsdk/downloads/9146b21a8350e85c9934cf570f7a6ceb7470623b-wasm-binaries.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/linux/9146b21a8350e85c9934cf570f7a6ceb7470623b/wasm-binaries.tar.xz, 306625968 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking '/home/runner/webbuild/emsdk/downloads/9146b21a8350e85c9934cf570f7a6ceb7470623b-wasm-binaries.tar.xz' to '/home/runner/webbuild/emsdk/upstream'
+Done installing tool 'releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'.
+Done installing SDK 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'.
+Resolving SDK version '7.0.1' to 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'
+Setting the following tools as active:
+   node-24.19.0-64bit
+   releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit
+
+Next steps:
+- To conveniently access emsdk tools from the command line,
+  consider adding the following directories to your PATH:
+    /home/runner/webbuild/emsdk
+    /home/runner/webbuild/emsdk/upstream/emscripten
+- This can be done for the current shell by running:
+    source "/home/runner/webbuild/emsdk/emsdk_env.sh"
+- Configure emsdk in your shell startup scripts by running:
+    echo 'source "/home/runner/webbuild/emsdk/emsdk_env.sh"' >> $HOME/.bash_profile
+Setting up EMSDK environment (suppress these messages with EMSDK_QUIET=1)
+Adding directories to PATH:
+PATH += /home/runner/webbuild/emsdk
+PATH += /home/runner/webbuild/emsdk/upstream/emscripten
+
+Setting environment variables:
+PATH = /home/runner/webbuild/emsdk:/home/runner/webbuild/emsdk/upstream/emscripten:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+EMSDK = /home/runner/webbuild/emsdk
+EMSDK_NODE = /home/runner/webbuild/emsdk/node/24.19.0_64bit/bin/node
+Clearing existing environment variable: EMSDK_VERSION
+shared:INFO: (Emscripten: Running sanity checks)
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)
+== vcpkg 04a9d8e5212d01ee1dd9478eadd9caade4f8b0d4
+Downloading vcpkg-glibc...
+vcpkg package management program version 2026-07-27-98d7cb0cf1f4686a3e43aa5672b6230c1d56bce8
+
+See LICENSE.txt for license information.
+== vcpkg install (32 packages)
+Computing installation plan...
+warning: boost-process is only supported on '!uwp & !emscripten & !android', which does not match wasm32-emscripten-wesnoth. This usually means that there are known build failures, or runtime problems, when building other platforms. Proceeding anyway due to `--allow-unsupported`.
+The following packages will be built and installed:
+  * boost-algorithm:wasm32-emscripten-wesnoth@1.92.0
+  * boost-align:wasm32-emscripten-wesnoth@1.92.0
+  * boost-any:wasm32-emscripten-wesnoth@1.92.0
+  * boost-array:wasm32-emscripten-wesnoth@1.92.0
+    boost-asio[core,deadline-timer]:wasm32-emscripten-wesnoth@1.92.0
+  * boost-assert:wasm32-emscripten-wesnoth@1.92.0
+  * boost-atomic:wasm32-emscripten-wesnoth@1.92.0
+    boost-bimap:wasm32-emscripten-wesnoth@1.92.0
+  * boost-bind:wasm32-emscripten-wesnoth@1.92.0
+  * boost-charconv:wasm32-emscripten-wesnoth@1.92.0
+  * boost-chrono:wasm32-emscripten-wesnoth@1.92.0
+    boost-circular-buffer:wasm32-emscripten-wesnoth@1.92.0
+  * boost-cmake:wasm32-emscripten-wesnoth@1.92.0
+  * boost-compat:wasm32-emscripten-wesnoth@1.92.0
+  * boost-concept-check:wasm32-emscripten-wesnoth@1.92.0
+  * boost-config:wasm32-emscripten-wesnoth@1.92.0
+  * boost-container:wasm32-emscripten-wesnoth@1.92.0
+  * boost-container-hash:wasm32-emscripten-wesnoth@1.92.0
+  * boost-conversion:wasm32-emscripten-wesnoth@1.92.0
+  * boost-core:wasm32-emscripten-wesnoth@1.92.0
+  * boost-date-time:wasm32-emscripten-wesnoth@1.92.0
+  * boost-describe:wasm32-emscripten-wesnoth@1.92.0
+  * boost-detail:wasm32-emscripten-wesnoth@1.92.0
+  * boost-dynamic-bitset:wasm32-emscripten-wesnoth@1.92.0
+  * boost-endian:wasm32-emscripten-wesnoth@1.92.0
+  * boost-exception:wasm32-emscripten-wesnoth@1.92.0
+    boost-filesystem:wasm32-emscripten-wesnoth@1.92.0
+  * boost-foreach:wasm32-emscripten-wesnoth@1.92.0
+    boost-format:wasm32-emscripten-wesnoth@1.92.0
+  * boost-function:wasm32-emscripten-wesnoth@1.92.0
+  * boost-function-types:wasm32-emscripten-wesnoth@1.92.0
+  * boost-functional:wasm32-emscripten-wesnoth@1.92.0
+  * boost-fusion:wasm32-emscripten-wesnoth@1.92.0
+    boost-graph:wasm32-emscripten-wesnoth@1.92.0
+  * boost-headers:wasm32-emscripten-wesnoth@1.92.0
+  * boost-integer:wasm32-emscripten-wesnoth@1.92.0
+  * boost-intrusive:wasm32-emscripten-wesnoth@1.92.0
+  * boost-io:wasm32-emscripten-wesnoth@1.92.0
+    boost-iostreams[bzip2,core,lzma,zlib,zstd]:wasm32-emscripten-wesnoth@1.92.0
+  * boost-iterator:wasm32-emscripten-wesnoth@1.92.0
+  * boost-lambda:wasm32-emscripten-wesnoth@1.92.0
+  * boost-lexical-cast:wasm32-emscripten-wesnoth@1.92.0
+    boost-locale[core,icu]:wasm32-emscripten-wesnoth@1.92.0 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/boost-locale
+    boost-logic:wasm32-emscripten-wesnoth@1.92.0
+    boost-math:wasm32-emscripten-wesnoth@1.92.0
+  * boost-move:wasm32-emscripten-wesnoth@1.92.0
+  * boost-mp11:wasm32-emscripten-wesnoth@1.92.0
+  * boost-mpl:wasm32-emscripten-wesnoth@1.92.0
+    boost-multi-array:wasm32-emscripten-wesnoth@1.92.0
+  * boost-multi-index:wasm32-emscripten-wesnoth@1.92.0
+  * boost-multiprecision:wasm32-emscripten-wesnoth@1.92.0
+  * boost-numeric-conversion:wasm32-emscripten-wesnoth@1.92.0
+  * boost-optional:wasm32-emscripten-wesnoth@1.92.0
+  * boost-parameter:wasm32-emscripten-wesnoth@1.92.0
+  * boost-phoenix:wasm32-emscripten-wesnoth@1.92.0
+  * boost-pool:wasm32-emscripten-wesnoth@1.92.0
+  * boost-predef:wasm32-emscripten-wesnoth@1.92.0
+  * boost-preprocessor:wasm32-emscripten-wesnoth@1.92.0
+    boost-process:wasm32-emscripten-wesnoth@1.92.0
+    boost-program-options:wasm32-emscripten-wesnoth@1.92.0
+  * boost-property-map:wasm32-emscripten-wesnoth@1.92.0
+  * boost-property-tree:wasm32-emscripten-wesnoth@1.92.0
+  * boost-proto:wasm32-emscripten-wesnoth@1.92.0
+    boost-ptr-container:wasm32-emscripten-wesnoth@1.92.0
+    boost-random:wasm32-emscripten-wesnoth@1.92.0
+  * boost-range:wasm32-emscripten-wesnoth@1.92.0
+  * boost-ratio:wasm32-emscripten-wesnoth@1.92.0
+    boost-regex[core,icu]:wasm32-emscripten-wesnoth@1.92.0
+  * boost-scope:wasm32-emscripten-wesnoth@1.92.0
+    boost-scope-exit:wasm32-emscripten-wesnoth@1.92.0
+  * boost-serialization:wasm32-emscripten-wesnoth@1.92.0
+  * boost-smart-ptr:wasm32-emscripten-wesnoth@1.92.0
+    boost-spirit:wasm32-emscripten-wesnoth@1.92.0
+  * boost-static-assert:wasm32-emscripten-wesnoth@1.92.0
+    boost-system:wasm32-emscripten-wesnoth@1.92.0
+  * boost-thread:wasm32-emscripten-wesnoth@1.92.0
+  * boost-throw-exception:wasm32-emscripten-wesnoth@1.92.0
+  * boost-tokenizer:wasm32-emscripten-wesnoth@1.92.0
+  * boost-tti:wasm32-emscripten-wesnoth@1.92.0
+  * boost-tuple:wasm32-emscripten-wesnoth@1.92.0
+  * boost-type-index:wasm32-emscripten-wesnoth@1.92.0
+  * boost-type-traits:wasm32-emscripten-wesnoth@1.92.0
+  * boost-typeof:wasm32-emscripten-wesnoth@1.92.0
+  * boost-uninstall:wasm32-emscripten-wesnoth@1.92.0
+  * boost-unordered:wasm32-emscripten-wesnoth@1.92.0
+  * boost-utility:wasm32-emscripten-wesnoth@1.92.0
+  * boost-variant:wasm32-emscripten-wesnoth@1.92.0
+  * boost-variant2:wasm32-emscripten-wesnoth@1.92.0
+  * boost-winapi:wasm32-emscripten-wesnoth@1.92.0
+  * boost-xpressive:wasm32-emscripten-wesnoth@1.92.0
+  * brotli:wasm32-emscripten-wesnoth@1.2.0
+    bzip2[core,tool]:wasm32-emscripten-wesnoth@1.0.8#6
+    cairo[core,fontconfig,freetype,gobject]:wasm32-emscripten-wesnoth@1.18.4#1
+    curl[core,openssl]:wasm32-emscripten-wesnoth@8.22.0
+  * dirent:x64-linux@1.26
+  * dirent:wasm32-emscripten-wesnoth@1.26
+  * expat:wasm32-emscripten-wesnoth@2.8.3
+    fontconfig[core,iconv]:wasm32-emscripten-wesnoth@2.17.1#2
+  * freetype[brotli,bzip2,core,png,zlib]:wasm32-emscripten-wesnoth@2.14.3
+  * fribidi:x64-linux@1.0.16
+  * fribidi:wasm32-emscripten-wesnoth@1.0.16
+  * gettext[core,tools]:x64-linux@0.22.5#4
+  * gettext-libintl:wasm32-emscripten-wesnoth@0.22.5#4
+  * gettext-libintl:x64-linux@0.22.5#4
+  * glib:x64-linux@2.88.3 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib
+  * glib:wasm32-emscripten-wesnoth@2.88.3 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib
+  * gperf:x64-linux@3.3
+  * harfbuzz[core,freetype]:wasm32-emscripten-wesnoth@14.4.0
+  * icu:wasm32-emscripten-wesnoth@78.3#2
+  * icu[core,tools]:x64-linux@78.3#2
+  * libffi:x64-linux@3.8.0
+  * libffi:wasm32-emscripten-wesnoth@3.8.0
+  * libiconv:x64-linux@1.19
+  * libiconv:wasm32-emscripten-wesnoth@1.19
+  * libjpeg-turbo:wasm32-emscripten-wesnoth@3.2.0
+  * liblzma:wasm32-emscripten-wesnoth@5.8.3
+    libogg:wasm32-emscripten-wesnoth@1.3.6#1
+  * libpng:wasm32-emscripten-wesnoth@1.6.58
+  * libuuid:wasm32-emscripten-wesnoth@1.0.3#17
+    libvorbis:wasm32-emscripten-wesnoth@1.3.7#4
+    libwebp[core,libwebpmux,nearlossless]:wasm32-emscripten-wesnoth@1.6.0#3
+    openssl:wasm32-emscripten-wesnoth@3.6.4
+    pango:wasm32-emscripten-wesnoth@1.58.0 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/pango
+  * pcre2[core,platform-default-features]:wasm32-emscripten-wesnoth@10.47#1
+  * pcre2[core,jit,platform-default-features]:x64-linux@10.47#1
+  * pixman:wasm32-emscripten-wesnoth@0.46.4#1
+  * pthread:wasm32-emscripten-wesnoth@3.0.0#2
+  * pthreads:wasm32-emscripten-wesnoth@3.0.0#14
+    sdl3:wasm32-emscripten-wesnoth@3.4.16
+    sdl3-image[core,jpeg,png,webp]:wasm32-emscripten-wesnoth@3.4.4#1
+    sdl3-mixer[core,libvorbis]:wasm32-emscripten-wesnoth@3.2.4
+  * vcpkg-boost:x64-linux@2026-08-21
+  * vcpkg-cmake:x64-linux@2025-08-07
+  * vcpkg-cmake-config:x64-linux@2026-07-21
+  * vcpkg-cmake-get-vars:x64-linux@2025-05-29
+  * vcpkg-make:x64-linux@2026-07-09
+  * vcpkg-tool-meson:x64-linux@1.9.0#10 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/vcpkg-tool-meson
+  * zlib:x64-linux@1.3.2#2
+    zlib:wasm32-emscripten-wesnoth@1.3.2#2
+  * zstd:wasm32-emscripten-wesnoth@1.5.7
+Additional packages (*) will be modified to complete this operation.
+Detecting compiler hash for triplet wasm32-emscripten-wesnoth...
+Compiler found: /home/runner/webbuild/emsdk/upstream/emscripten/em++
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Restored 140 package(s) from /home/runner/webbuild/vcpkg-bincache in 1.9 s. Use --debug to see more details.
+Installing 1/140 boost-uninstall:wasm32-emscripten-wesnoth@1.92.0...
+boost-uninstall:wasm32-emscripten-wesnoth@1.92.0 package ABI: 975df10f3ab166e7af19d32e0acdf1a0b70da7c0bd7ca496b0aef946600c8f4f
+Elapsed time to handle boost-uninstall:wasm32-emscripten-wesnoth: 1.09 ms
+Installing 2/140 vcpkg-cmake:x64-linux@2025-08-07...
+vcpkg-cmake:x64-linux@2025-08-07 package ABI: 01f21732fe7a05b2b37ec89dda90b5910b934988f7ff99467c189c65f6ccab3f
+Elapsed time to handle vcpkg-cmake:x64-linux: 819 us
+Installing 3/140 vcpkg-cmake-config:x64-linux@2026-07-21...
+vcpkg-cmake-config:x64-linux@2026-07-21 package ABI: a74b09acb6cc39f426fea7f4d1c72c94ee675931ccb175cdf807dcc20b50fbde
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 746 us
+Installing 4/140 vcpkg-boost:x64-linux@2026-08-21...
+vcpkg-boost:x64-linux@2026-08-21 package ABI: 58686b58cf03cdab035b626e3620a29897c53bbafb45901c35d541d35c79fd33
+Elapsed time to handle vcpkg-boost:x64-linux: 732 us
+Installing 5/140 boost-cmake:wasm32-emscripten-wesnoth@1.92.0...
+boost-cmake:wasm32-emscripten-wesnoth@1.92.0 package ABI: e474da24c62301115e5d9503eebddd7944c944c9f129f9154eb2c7a74d5c1681
+Elapsed time to handle boost-cmake:wasm32-emscripten-wesnoth: 869 us
+Installing 6/140 boost-headers:wasm32-emscripten-wesnoth@1.92.0...
+boost-headers:wasm32-emscripten-wesnoth@1.92.0 package ABI: 6c81485d6fd1052bad07186f1246249a20e67badb0ba5f292467d46bd61a0099
+Elapsed time to handle boost-headers:wasm32-emscripten-wesnoth: 946 us
+Installing 7/140 boost-config:wasm32-emscripten-wesnoth@1.92.0...
+boost-config:wasm32-emscripten-wesnoth@1.92.0 package ABI: 32e4c5d58edc097eb943b241f178caf7e7d21e846646b7c769e43c0b207e431a
+Elapsed time to handle boost-config:wasm32-emscripten-wesnoth: 5.97 ms
+Installing 8/140 boost-assert:wasm32-emscripten-wesnoth@1.92.0...
+boost-assert:wasm32-emscripten-wesnoth@1.92.0 package ABI: 4652f7a800a6fa7645d15ed821cefbb6bed839a32a4d0828a715fc0155418f8c
+Elapsed time to handle boost-assert:wasm32-emscripten-wesnoth: 1.2 ms
+Installing 9/140 boost-throw-exception:wasm32-emscripten-wesnoth@1.92.0...
+boost-throw-exception:wasm32-emscripten-wesnoth@1.92.0 package ABI: c8a25b268fe2e40cf876f80e8a8840131a22cdb387623c7fa69134edc3f7fd34
+Elapsed time to handle boost-throw-exception:wasm32-emscripten-wesnoth: 1.07 ms
+Installing 10/140 boost-array:wasm32-emscripten-wesnoth@1.92.0...
+boost-array:wasm32-emscripten-wesnoth@1.92.0 package ABI: eacd8acd732b0045a759d195ecde1c551f2359e8b428ac4201283e0b8cca6c3e
+Elapsed time to handle boost-array:wasm32-emscripten-wesnoth: 1.29 ms
+Installing 11/140 boost-core:wasm32-emscripten-wesnoth@1.92.0...
+boost-core:wasm32-emscripten-wesnoth@1.92.0 package ABI: 0c0bbbbbd67cb0d438ff6996bba0b6746725574ec02b47766b402b682756918f
+Elapsed time to handle boost-core:wasm32-emscripten-wesnoth: 2.38 ms
+Installing 12/140 boost-bind:wasm32-emscripten-wesnoth@1.92.0...
+boost-bind:wasm32-emscripten-wesnoth@1.92.0 package ABI: 96bea425faf49d77701eaa035862b13a1b34535bb82255e17b2097fbfa31296b
+Elapsed time to handle boost-bind:wasm32-emscripten-wesnoth: 1.43 ms
+Installing 13/140 boost-preprocessor:wasm32-emscripten-wesnoth@1.92.0...
+boost-preprocessor:wasm32-emscripten-wesnoth@1.92.0 package ABI: 380ffc8a195b0c2d509671e7000fe11628996212fe9958e1251e37af91f3ba41
+Elapsed time to handle boost-preprocessor:wasm32-emscripten-wesnoth: 8.36 ms
+Installing 14/140 boost-type-traits:wasm32-emscripten-wesnoth@1.92.0...
+boost-type-traits:wasm32-emscripten-wesnoth@1.92.0 package ABI: 2d5f7e2b6aae238eeec08aa38b236a2bf343fa2e60661d0a47498c434e3f31fa
+Elapsed time to handle boost-type-traits:wasm32-emscripten-wesnoth: 6.07 ms
+Installing 15/140 boost-concept-check:wasm32-emscripten-wesnoth@1.92.0...
+boost-concept-check:wasm32-emscripten-wesnoth@1.92.0 package ABI: 2fc4502ceb129eb4d425d2341578e8866e8597b65d89e04744b18fb9dd6ef9cb
+Elapsed time to handle boost-concept-check:wasm32-emscripten-wesnoth: 1.95 ms
+Installing 16/140 boost-smart-ptr:wasm32-emscripten-wesnoth@1.92.0...
+boost-smart-ptr:wasm32-emscripten-wesnoth@1.92.0 package ABI: 015f53a144311ba8c4fb27834b8c96479625b376de39d69b6969bdfc7a922dd1
+Elapsed time to handle boost-smart-ptr:wasm32-emscripten-wesnoth: 2.9 ms
+Installing 17/140 boost-tuple:wasm32-emscripten-wesnoth@1.92.0...
+boost-tuple:wasm32-emscripten-wesnoth@1.92.0 package ABI: c70493f453d9c8f40b9b37391d26fbbcea50684739c66831040335835cd56371
+Elapsed time to handle boost-tuple:wasm32-emscripten-wesnoth: 1.97 ms
+Installing 18/140 boost-exception:wasm32-emscripten-wesnoth@1.92.0...
+boost-exception:wasm32-emscripten-wesnoth@1.92.0 package ABI: 413cf518a4ef180e350f13ef731f38ca90f8b9918ae65b3d54fcbc8200079f64
+Elapsed time to handle boost-exception:wasm32-emscripten-wesnoth: 2.27 ms
+Installing 19/140 boost-function:wasm32-emscripten-wesnoth@1.92.0...
+boost-function:wasm32-emscripten-wesnoth@1.92.0 package ABI: 40a765b2592ab710509d2da3af4a13db256d1443d49e10e8186a7c3bf423caa9
+Elapsed time to handle boost-function:wasm32-emscripten-wesnoth: 2.17 ms
+Installing 20/140 boost-detail:wasm32-emscripten-wesnoth@1.92.0...
+boost-detail:wasm32-emscripten-wesnoth@1.92.0 package ABI: 71e7822e16abc509eadc288457ee2e1ac18eab178117e0367aa322d3f70a04f5
+Elapsed time to handle boost-detail:wasm32-emscripten-wesnoth: 2.48 ms
+Installing 21/140 boost-mp11:wasm32-emscripten-wesnoth@1.92.0...
+boost-mp11:wasm32-emscripten-wesnoth@1.92.0 package ABI: 480ee2f6523c0222aac44d0059b4a1445bfb72943a019226548b39d217e8f79f
+Elapsed time to handle boost-mp11:wasm32-emscripten-wesnoth: 2.62 ms
+Installing 22/140 boost-describe:wasm32-emscripten-wesnoth@1.92.0...
+boost-describe:wasm32-emscripten-wesnoth@1.92.0 package ABI: 5bbd9052a63975ef4d70b62cf12ab7c3853d955118bd7d4bc3e0556174692c06
+Elapsed time to handle boost-describe:wasm32-emscripten-wesnoth: 2.46 ms
+Installing 23/140 boost-container-hash:wasm32-emscripten-wesnoth@1.92.0...
+boost-container-hash:wasm32-emscripten-wesnoth@1.92.0 package ABI: f44bb2583d514d3b25ccf8b95a48f0b9ce8743f77b3d3a20bb7d04630cb41a06
+Elapsed time to handle boost-container-hash:wasm32-emscripten-wesnoth: 2.54 ms
+Installing 24/140 boost-predef:wasm32-emscripten-wesnoth@1.92.0...
+boost-predef:wasm32-emscripten-wesnoth@1.92.0 package ABI: 6a3a38c2875a064853bcc986323505c252b43de842f457d91d8d61fc2f7b505a
+Elapsed time to handle boost-predef:wasm32-emscripten-wesnoth: 4.82 ms
+Installing 25/140 boost-io:wasm32-emscripten-wesnoth@1.92.0...
+boost-io:wasm32-emscripten-wesnoth@1.92.0 package ABI: e050be598ff9799075255fbe89eaa2d298d404efe8b4471d8989084cb7b3fb70
+Elapsed time to handle boost-io:wasm32-emscripten-wesnoth: 2.39 ms
+Installing 26/140 boost-utility:wasm32-emscripten-wesnoth@1.92.0...
+boost-utility:wasm32-emscripten-wesnoth@1.92.0 package ABI: 916123bf7f251a48cd117f4521c3ccfe68767a4edc4f8cc755261d800f06415e
+Elapsed time to handle boost-utility:wasm32-emscripten-wesnoth: 2.65 ms
+Installing 27/140 boost-mpl:wasm32-emscripten-wesnoth@1.92.0...
+boost-mpl:wasm32-emscripten-wesnoth@1.92.0 package ABI: 1f70fbf1b61c1b657cc5398c535a2842d57ed10a8f1cba154968f4a512297f34
+Elapsed time to handle boost-mpl:wasm32-emscripten-wesnoth: 21.9 ms
+Installing 28/140 boost-function-types:wasm32-emscripten-wesnoth@1.92.0...
+boost-function-types:wasm32-emscripten-wesnoth@1.92.0 package ABI: a99e33722c0104f9197122f697e972decbe7f052faa212cd444da362c3689192
+Elapsed time to handle boost-function-types:wasm32-emscripten-wesnoth: 4.49 ms
+Installing 29/140 boost-typeof:wasm32-emscripten-wesnoth@1.92.0...
+boost-typeof:wasm32-emscripten-wesnoth@1.92.0 package ABI: 01268a97dea8e3fed0b1ea3b6969b2a3602fe822c1642f0c49a0b4ab1a396a78
+Elapsed time to handle boost-typeof:wasm32-emscripten-wesnoth: 3.74 ms
+Installing 30/140 boost-fusion:wasm32-emscripten-wesnoth@1.92.0...
+boost-fusion:wasm32-emscripten-wesnoth@1.92.0 package ABI: 58538c2e9d54ef8ad1f45acdbc24f67c046b8ac56d07cdaa66c312f6e4ef3f4a
+Elapsed time to handle boost-fusion:wasm32-emscripten-wesnoth: 22.5 ms
+Installing 31/140 boost-optional:wasm32-emscripten-wesnoth@1.92.0...
+boost-optional:wasm32-emscripten-wesnoth@1.92.0 package ABI: 6cd0bcea9ce90c3b0c8b1fe98caa792b7f8b14c01496d5f6b661aa888ae3b463
+Elapsed time to handle boost-optional:wasm32-emscripten-wesnoth: 5.06 ms
+Installing 32/140 boost-iterator:wasm32-emscripten-wesnoth@1.92.0...
+boost-iterator:wasm32-emscripten-wesnoth@1.92.0 package ABI: 09302f877948b43d32da663951252ee29b838b127cbb4488a59313e77ccdd85d
+Elapsed time to handle boost-iterator:wasm32-emscripten-wesnoth: 5.21 ms
+Installing 33/140 boost-conversion:wasm32-emscripten-wesnoth@1.92.0...
+boost-conversion:wasm32-emscripten-wesnoth@1.92.0 package ABI: c3ac317386df3f51c8d95a97bb75a3c40fbe9f9defd0877a9ada41c944a35aa9
+Elapsed time to handle boost-conversion:wasm32-emscripten-wesnoth: 4.87 ms
+Installing 34/140 vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+vcpkg-cmake-get-vars:x64-linux@2025-05-29 package ABI: b1c1aea1524f21a754ee56d7573c64e0c53c4d05ec0d0acb7d84d6599adc5e8a
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 1.52 ms
+Installing 35/140 vcpkg-make:x64-linux@2026-07-09...
+vcpkg-make:x64-linux@2026-07-09 package ABI: bc306b213b345fd4b11e238c546663a0ea9d0ff94a0dcf762a018d26d3bdb266
+Elapsed time to handle vcpkg-make:x64-linux: 1.63 ms
+Installing 36/140 icu[core,tools]:x64-linux@78.3#2...
+icu[core,tools]:x64-linux@78.3#2 package ABI: cd719cce735f9b50716ad412a4befda93e38b9fbbf418edb284d84fb79538dfb
+Elapsed time to handle icu:x64-linux: 7.61 ms
+Installing 37/140 icu:wasm32-emscripten-wesnoth@78.3#2...
+icu:wasm32-emscripten-wesnoth@78.3#2 package ABI: 7a389f90cebc9364a932a41584fd2a4c21b83f432ab5e6c8481cfc085e0662f0
+Elapsed time to handle icu:wasm32-emscripten-wesnoth: 10.1 ms
+Installing 38/140 boost-regex[core,icu]:wasm32-emscripten-wesnoth@1.92.0...
+boost-regex[core,icu]:wasm32-emscripten-wesnoth@1.92.0 package ABI: 28aa97ebfc885df6bd2ee0694557e4315207f4f1835574234096138be48bddbf
+Elapsed time to handle boost-regex:wasm32-emscripten-wesnoth: 6.06 ms
+Installing 39/140 boost-range:wasm32-emscripten-wesnoth@1.92.0...
+boost-range:wasm32-emscripten-wesnoth@1.92.0 package ABI: 82036e948284f90470c4892f0e9d2515d90ec03199b6d731f24b0ed0b0e987dd
+Elapsed time to handle boost-range:wasm32-emscripten-wesnoth: 7.7 ms
+Installing 40/140 boost-unordered:wasm32-emscripten-wesnoth@1.92.0...
+boost-unordered:wasm32-emscripten-wesnoth@1.92.0 package ABI: 216cef34528e553997826594631085af9cff11b259af303aa95dd2425263a68d
+Elapsed time to handle boost-unordered:wasm32-emscripten-wesnoth: 5.91 ms
+Installing 41/140 boost-algorithm:wasm32-emscripten-wesnoth@1.92.0...
+boost-algorithm:wasm32-emscripten-wesnoth@1.92.0 package ABI: 30d4e42d27d649061a36e6eae8fae80a96336b3810df50e17266dd82e83fb7ba
+Elapsed time to handle boost-algorithm:wasm32-emscripten-wesnoth: 6.48 ms
+Installing 42/140 boost-align:wasm32-emscripten-wesnoth@1.92.0...
+boost-align:wasm32-emscripten-wesnoth@1.92.0 package ABI: b8f9d9a87d9b6fabb1af65bde6876a5571e58aa234fce8e7aeaaf79f7f2f3df7
+Elapsed time to handle boost-align:wasm32-emscripten-wesnoth: 6.17 ms
+Installing 43/140 boost-type-index:wasm32-emscripten-wesnoth@1.92.0...
+boost-type-index:wasm32-emscripten-wesnoth@1.92.0 package ABI: c866d3ff8b2be5d8dc07ae94f2c6ffb9a661cfb8771be41ab27b576fe57aa2b6
+Elapsed time to handle boost-type-index:wasm32-emscripten-wesnoth: 6.03 ms
+Installing 44/140 boost-any:wasm32-emscripten-wesnoth@1.92.0...
+boost-any:wasm32-emscripten-wesnoth@1.92.0 package ABI: 84a9b94cd046542f6ca1eeb9e0237e5aa06752af9c97b25e0a865f4163ba2c20
+Elapsed time to handle boost-any:wasm32-emscripten-wesnoth: 5.22 ms
+Installing 45/140 boost-move:wasm32-emscripten-wesnoth@1.92.0...
+boost-move:wasm32-emscripten-wesnoth@1.92.0 package ABI: 9c16323431167ef4dcc3436c260d4067d16ca22954eef2b7142b563198c15ac0
+Elapsed time to handle boost-move:wasm32-emscripten-wesnoth: 6.08 ms
+Installing 46/140 boost-intrusive:wasm32-emscripten-wesnoth@1.92.0...
+boost-intrusive:wasm32-emscripten-wesnoth@1.92.0 package ABI: b35c43e2c44f81bac4140a3d72f7cedd78732ec1f6ebbb226f2a26f9e48f327d
+Elapsed time to handle boost-intrusive:wasm32-emscripten-wesnoth: 7.17 ms
+Installing 47/140 boost-container:wasm32-emscripten-wesnoth@1.92.0...
+boost-container:wasm32-emscripten-wesnoth@1.92.0 package ABI: e593260efa6b00c10929d2e4b34e172f33dfb9b8b4f451ff0bb04ca563d61eb3
+Elapsed time to handle boost-container:wasm32-emscripten-wesnoth: 8.19 ms
+Installing 48/140 boost-lexical-cast:wasm32-emscripten-wesnoth@1.92.0...
+boost-lexical-cast:wasm32-emscripten-wesnoth@1.92.0 package ABI: 859f3021d314f7d9f793cd68c424e1281337e058e51ca4655ed573c59d55423e
+Elapsed time to handle boost-lexical-cast:wasm32-emscripten-wesnoth: 5.94 ms
+Installing 49/140 boost-numeric-conversion:wasm32-emscripten-wesnoth@1.92.0...
+boost-numeric-conversion:wasm32-emscripten-wesnoth@1.92.0 package ABI: 5d116b3c51c04226fb32fd0c75f8d945a50b21f33263b856b5ad4592babdd4d7
+Elapsed time to handle boost-numeric-conversion:wasm32-emscripten-wesnoth: 5.9 ms
+Installing 50/140 boost-static-assert:wasm32-emscripten-wesnoth@1.92.0...
+boost-static-assert:wasm32-emscripten-wesnoth@1.92.0 package ABI: 39af4aa924bf0d6d94e4e5ef4659877b95b9632fd3b87f62247d8a419cbca496
+Elapsed time to handle boost-static-assert:wasm32-emscripten-wesnoth: 5.77 ms
+Installing 51/140 boost-tokenizer:wasm32-emscripten-wesnoth@1.92.0...
+boost-tokenizer:wasm32-emscripten-wesnoth@1.92.0 package ABI: 3ed7e3351b6bb2e54c6de7140895d4b1681d9aff0929e0432a40c689c92af1ee
+Elapsed time to handle boost-tokenizer:wasm32-emscripten-wesnoth: 6.05 ms
+Installing 52/140 boost-winapi:wasm32-emscripten-wesnoth@1.92.0...
+boost-winapi:wasm32-emscripten-wesnoth@1.92.0 package ABI: e48765d17a3ea20364d628ee0b97bb469f2518b3af9c69a902665618d0a2d3f1
+Elapsed time to handle boost-winapi:wasm32-emscripten-wesnoth: 7.91 ms
+Installing 53/140 boost-date-time:wasm32-emscripten-wesnoth@1.92.0...
+boost-date-time:wasm32-emscripten-wesnoth@1.92.0 package ABI: e254a2e05f0e042631b85aff95fe721a81662072498bda9bf4809aa80178378e
+Elapsed time to handle boost-date-time:wasm32-emscripten-wesnoth: 7.54 ms
+Installing 54/140 boost-compat:wasm32-emscripten-wesnoth@1.92.0...
+boost-compat:wasm32-emscripten-wesnoth@1.92.0 package ABI: b769140f333616db9c1304748721aad2823228774d2fa0c4fa74f034b06e1452
+Elapsed time to handle boost-compat:wasm32-emscripten-wesnoth: 5.88 ms
+Installing 55/140 boost-variant2:wasm32-emscripten-wesnoth@1.92.0...
+boost-variant2:wasm32-emscripten-wesnoth@1.92.0 package ABI: 4caec2f89a70167fd43a60a4f5ff2098f0955dd1285d59053cc6a0ed712fc936
+Elapsed time to handle boost-variant2:wasm32-emscripten-wesnoth: 5.97 ms
+Installing 56/140 boost-system:wasm32-emscripten-wesnoth@1.92.0...
+boost-system:wasm32-emscripten-wesnoth@1.92.0 package ABI: a1bcfae459ce99587f5d84c0eb51322367fa59f32c52a9d22e2ed5f89ee2c052
+Elapsed time to handle boost-system:wasm32-emscripten-wesnoth: 6.43 ms
+Installing 57/140 boost-asio[core,deadline-timer]:wasm32-emscripten-wesnoth@1.92.0...
+boost-asio[core,deadline-timer]:wasm32-emscripten-wesnoth@1.92.0 package ABI: a8f6fa993d973e8ed532f466885387d192edb3bf757a407a68f4eb9de6e6296c
+Elapsed time to handle boost-asio:wasm32-emscripten-wesnoth: 19.3 ms
+Installing 58/140 boost-atomic:wasm32-emscripten-wesnoth@1.92.0...
+boost-atomic:wasm32-emscripten-wesnoth@1.92.0 package ABI: 5b10b0f0d4a2d3e4ea969eab906402389175b7fc15c69a15469affbba57c2fa6
+Elapsed time to handle boost-atomic:wasm32-emscripten-wesnoth: 9.77 ms
+Installing 59/140 boost-lambda:wasm32-emscripten-wesnoth@1.92.0...
+boost-lambda:wasm32-emscripten-wesnoth@1.92.0 package ABI: b194e9e89c237f57568148cd883b698a7c1005dbc3985fd3b38cf0efde9785f9
+Elapsed time to handle boost-lambda:wasm32-emscripten-wesnoth: 7 ms
+Installing 60/140 boost-integer:wasm32-emscripten-wesnoth@1.92.0...
+boost-integer:wasm32-emscripten-wesnoth@1.92.0 package ABI: b4bedc3485ee3249243cf50029fecefa2ae57154cf26ecc268a6c087e9c5ba06
+Elapsed time to handle boost-integer:wasm32-emscripten-wesnoth: 6.83 ms
+Installing 61/140 boost-multi-index:wasm32-emscripten-wesnoth@1.92.0...
+boost-multi-index:wasm32-emscripten-wesnoth@1.92.0 package ABI: 9cbaf86aa18790743439535eab28a3455375f67fcca8ff385c62d710af4037a6
+Elapsed time to handle boost-multi-index:wasm32-emscripten-wesnoth: 8.37 ms
+Installing 62/140 boost-bimap:wasm32-emscripten-wesnoth@1.92.0...
+boost-bimap:wasm32-emscripten-wesnoth@1.92.0 package ABI: 5649cabd1adf6bac9728224fb5e2c02ad00391aafc36608e9147e33e7c1524e3
+Elapsed time to handle boost-bimap:wasm32-emscripten-wesnoth: 8.66 ms
+Installing 63/140 boost-charconv:wasm32-emscripten-wesnoth@1.92.0...
+boost-charconv:wasm32-emscripten-wesnoth@1.92.0 package ABI: 82927369c6ba68bef97946ef14f658cfe939ff3e3b87c9a406dd301a3ea371cd
+Elapsed time to handle boost-charconv:wasm32-emscripten-wesnoth: 7.39 ms
+Installing 64/140 boost-ratio:wasm32-emscripten-wesnoth@1.92.0...
+boost-ratio:wasm32-emscripten-wesnoth@1.92.0 package ABI: 24b46e49abcaae6ed525184acdd9bcdd7b0c87b498bd56a34fda34b1cb97ce6c
+Elapsed time to handle boost-ratio:wasm32-emscripten-wesnoth: 6.97 ms
+Installing 65/140 boost-chrono:wasm32-emscripten-wesnoth@1.92.0...
+boost-chrono:wasm32-emscripten-wesnoth@1.92.0 package ABI: 7dcaa3b55e4fa002407b59b1e144af37c0af6ebee60019451eabb0d61a73b67f
+Elapsed time to handle boost-chrono:wasm32-emscripten-wesnoth: 7.97 ms
+Installing 66/140 boost-circular-buffer:wasm32-emscripten-wesnoth@1.92.0...
+boost-circular-buffer:wasm32-emscripten-wesnoth@1.92.0 package ABI: bdbfd4d6cc07e27972f3e417df6d658ab1664e98f000add851c91c55b0d3ec5e
+Elapsed time to handle boost-circular-buffer:wasm32-emscripten-wesnoth: 6.8 ms
+Installing 67/140 boost-dynamic-bitset:wasm32-emscripten-wesnoth@1.92.0...
+boost-dynamic-bitset:wasm32-emscripten-wesnoth@1.92.0 package ABI: e1c9428196ae1262d4f21023b9c8ecb6ad708924674d2639827d1c67b30fc9f3
+Elapsed time to handle boost-dynamic-bitset:wasm32-emscripten-wesnoth: 6.89 ms
+Installing 68/140 boost-endian:wasm32-emscripten-wesnoth@1.92.0...
+boost-endian:wasm32-emscripten-wesnoth@1.92.0 package ABI: d817176f1825f6a3671841768ba2e24fd99258ca159562c8f6fa7ca9aeb502a2
+Elapsed time to handle boost-endian:wasm32-emscripten-wesnoth: 7.03 ms
+Installing 69/140 boost-scope:wasm32-emscripten-wesnoth@1.92.0...
+boost-scope:wasm32-emscripten-wesnoth@1.92.0 package ABI: 6fe245f4463c29a0c87cba46d8a039af2c2b502ab22080950f7972c6afabbf9d
+Elapsed time to handle boost-scope:wasm32-emscripten-wesnoth: 7.15 ms
+Installing 70/140 boost-filesystem:wasm32-emscripten-wesnoth@1.92.0...
+boost-filesystem:wasm32-emscripten-wesnoth@1.92.0 package ABI: 16238567fd6fac9522a0dab190142435eabeab877c4d9bf9fede8104034448d8
+Elapsed time to handle boost-filesystem:wasm32-emscripten-wesnoth: 7.69 ms
+Installing 71/140 boost-foreach:wasm32-emscripten-wesnoth@1.92.0...
+boost-foreach:wasm32-emscripten-wesnoth@1.92.0 package ABI: 00f25dd063205f9c30d1d212bcf7d4473564c47ec8b00bc101b473794fc42d1d
+Elapsed time to handle boost-foreach:wasm32-emscripten-wesnoth: 7.37 ms
+Installing 72/140 boost-format:wasm32-emscripten-wesnoth@1.92.0...
+boost-format:wasm32-emscripten-wesnoth@1.92.0 package ABI: b87ce5f976b5c8c16e56452e5e2f01ee022fc30c6e375692f48028df68859735
+Elapsed time to handle boost-format:wasm32-emscripten-wesnoth: 7.24 ms
+Installing 73/140 boost-functional:wasm32-emscripten-wesnoth@1.92.0...
+boost-functional:wasm32-emscripten-wesnoth@1.92.0 package ABI: 983ebeb24e44e288846255eb4a2f19d26aa20f09e994c1310045f0af36122827
+Elapsed time to handle boost-functional:wasm32-emscripten-wesnoth: 7.53 ms
+Installing 74/140 boost-random:wasm32-emscripten-wesnoth@1.92.0...
+boost-random:wasm32-emscripten-wesnoth@1.92.0 package ABI: 03bc50f79d98d75ae6127e493929321dbd222dde42a809f17464b0916e67737e
+Elapsed time to handle boost-random:wasm32-emscripten-wesnoth: 8.7 ms
+Installing 75/140 boost-math:wasm32-emscripten-wesnoth@1.92.0...
+boost-math:wasm32-emscripten-wesnoth@1.92.0 package ABI: 1673a0fd4e07a3f7e7b2df83ce636b8199bbe410ff5b188e2da98296359f1d4f
+Elapsed time to handle boost-math:wasm32-emscripten-wesnoth: 16.9 ms
+Installing 76/140 boost-multiprecision:wasm32-emscripten-wesnoth@1.92.0...
+boost-multiprecision:wasm32-emscripten-wesnoth@1.92.0 package ABI: eb58e94a4c831e0a5ddb3b37cc6bbf0b9a5f4d040dad7a61b7342eca5b5cf2d8
+Elapsed time to handle boost-multiprecision:wasm32-emscripten-wesnoth: 9.49 ms
+Installing 77/140 boost-parameter:wasm32-emscripten-wesnoth@1.92.0...
+boost-parameter:wasm32-emscripten-wesnoth@1.92.0 package ABI: 9f7369069029edb5921918c9ed55b7a916f7017175bd14b185b62065768cef32
+Elapsed time to handle boost-parameter:wasm32-emscripten-wesnoth: 9.63 ms
+Installing 78/140 boost-property-map:wasm32-emscripten-wesnoth@1.92.0...
+boost-property-map:wasm32-emscripten-wesnoth@1.92.0 package ABI: 1559e8d0e383bfd0da9870364ef0a372740dbb79276dee130a8ff7a54c55f802
+Elapsed time to handle boost-property-map:wasm32-emscripten-wesnoth: 8.47 ms
+Installing 79/140 boost-proto:wasm32-emscripten-wesnoth@1.92.0...
+boost-proto:wasm32-emscripten-wesnoth@1.92.0 package ABI: 816a7223bb1bef365dc48b525891101a0fac7b0b70aa148c523c0864ed5e2cba
+Elapsed time to handle boost-proto:wasm32-emscripten-wesnoth: 10.9 ms
+Installing 80/140 boost-phoenix:wasm32-emscripten-wesnoth@1.92.0...
+boost-phoenix:wasm32-emscripten-wesnoth@1.92.0 package ABI: 879a4abdeea26b732bdc919ceedb33aee4bfaa44ae7c32b6c04878c0154c679f
+Elapsed time to handle boost-phoenix:wasm32-emscripten-wesnoth: 14.4 ms
+Installing 81/140 boost-pool:wasm32-emscripten-wesnoth@1.92.0...
+boost-pool:wasm32-emscripten-wesnoth@1.92.0 package ABI: eb047d7908bbc378a362fea780e76089c636754b018039c76a653c8874a55d55
+Elapsed time to handle boost-pool:wasm32-emscripten-wesnoth: 8.88 ms
+Installing 82/140 boost-thread:wasm32-emscripten-wesnoth@1.92.0...
+boost-thread:wasm32-emscripten-wesnoth@1.92.0 package ABI: 08f824fd1ef27fe2b909a16369b8175024fa7b9fb0b8f4445ed081e3bd57816c
+Elapsed time to handle boost-thread:wasm32-emscripten-wesnoth: 11.6 ms
+Installing 83/140 boost-variant:wasm32-emscripten-wesnoth@1.92.0...
+boost-variant:wasm32-emscripten-wesnoth@1.92.0 package ABI: 9f77bc518719f0d5fc882ec77566ca5f566f90d2c6c7463382d6a2159d64ea48
+Elapsed time to handle boost-variant:wasm32-emscripten-wesnoth: 9.35 ms
+Installing 84/140 boost-spirit:wasm32-emscripten-wesnoth@1.92.0...
+boost-spirit:wasm32-emscripten-wesnoth@1.92.0 package ABI: 78ab8d4f7a0f87dd64ff5cd5a202c2f4cbaef34c577fe2b6769297d8fe80064a
+Elapsed time to handle boost-spirit:wasm32-emscripten-wesnoth: 31.4 ms
+Installing 85/140 boost-serialization:wasm32-emscripten-wesnoth@1.92.0...
+boost-serialization:wasm32-emscripten-wesnoth@1.92.0 package ABI: 2df10c034f8ffdfa0dafd6e1b7336a392a2f9db9ffdb00828895e280c741aa3e
+Elapsed time to handle boost-serialization:wasm32-emscripten-wesnoth: 14.1 ms
+Installing 86/140 boost-property-tree:wasm32-emscripten-wesnoth@1.92.0...
+boost-property-tree:wasm32-emscripten-wesnoth@1.92.0 package ABI: fd94ed943775653e6db826b02387e5fe347c0a4cbbb707ecf2fb98330a7e90e0
+Elapsed time to handle boost-property-tree:wasm32-emscripten-wesnoth: 11 ms
+Installing 87/140 boost-tti:wasm32-emscripten-wesnoth@1.92.0...
+boost-tti:wasm32-emscripten-wesnoth@1.92.0 package ABI: eefaf9dcc551a2df3ab67a09bc4f848ce09d0bb644d3aae10652a25e9ad4a2c6
+Elapsed time to handle boost-tti:wasm32-emscripten-wesnoth: 11.4 ms
+Installing 88/140 boost-xpressive:wasm32-emscripten-wesnoth@1.92.0...
+boost-xpressive:wasm32-emscripten-wesnoth@1.92.0 package ABI: faaf92f61dcbee8938aaea10111682616e2c446bd15add2788daf085fd6a4f6c
+Elapsed time to handle boost-xpressive:wasm32-emscripten-wesnoth: 11.9 ms
+Installing 89/140 boost-graph:wasm32-emscripten-wesnoth@1.92.0...
+boost-graph:wasm32-emscripten-wesnoth@1.92.0 package ABI: 8e1f71738e242b2f77c69a003d535c28b02135f8a468315986c7791113f91899
+Elapsed time to handle boost-graph:wasm32-emscripten-wesnoth: 14.9 ms
+Installing 90/140 bzip2[core,tool]:wasm32-emscripten-wesnoth@1.0.8#6...
+bzip2[core,tool]:wasm32-emscripten-wesnoth@1.0.8#6 package ABI: fdfa61517343e057902126eeb07f4aabeb00a4cdb7496dd9689f190742a25947
+Elapsed time to handle bzip2:wasm32-emscripten-wesnoth: 11 ms
+Installing 91/140 liblzma:wasm32-emscripten-wesnoth@5.8.3...
+liblzma:wasm32-emscripten-wesnoth@5.8.3 package ABI: 56e673cf398dc873bb7d60707318002ab133b12d7d2214fd297b9e8b763c302f
+Elapsed time to handle liblzma:wasm32-emscripten-wesnoth: 10.9 ms
+Installing 92/140 zlib:wasm32-emscripten-wesnoth@1.3.2#2...
+zlib:wasm32-emscripten-wesnoth@1.3.2#2 package ABI: fbba45b263278be54a5507d906844b721e18c5d753a8b1724317c0b7345a8bb4
+Elapsed time to handle zlib:wasm32-emscripten-wesnoth: 11.7 ms
+Installing 93/140 zstd:wasm32-emscripten-wesnoth@1.5.7...
+zstd:wasm32-emscripten-wesnoth@1.5.7 package ABI: 40b8485b39c7585e14b3a0283fd487dffed339900844ae55f3d6d30f22c85986
+Elapsed time to handle zstd:wasm32-emscripten-wesnoth: 11 ms
+Installing 94/140 boost-iostreams[bzip2,core,lzma,zlib,zstd]:wasm32-emscripten-wesnoth@1.92.0...
+boost-iostreams[bzip2,core,lzma,zlib,zstd]:wasm32-emscripten-wesnoth@1.92.0 package ABI: 6eaf699e9dcca14b3e22d0f5c2db016155f4eeaee19b64516558d755aa0b6f2d
+Elapsed time to handle boost-iostreams:wasm32-emscripten-wesnoth: 13.8 ms
+Installing 95/140 libiconv:wasm32-emscripten-wesnoth@1.19...
+libiconv:wasm32-emscripten-wesnoth@1.19 package ABI: bbbb61e762edfceb44603825e8220711f699c6951fe799c607443ef5280db967
+Elapsed time to handle libiconv:wasm32-emscripten-wesnoth: 10.6 ms
+Installing 96/140 boost-locale[core,icu]:wasm32-emscripten-wesnoth@1.92.0...
+boost-locale[core,icu]:wasm32-emscripten-wesnoth@1.92.0 package ABI: e7e00228921d3e08ad9323e31b0fca9904fe5236dc28fe90a41b51699f4ff58e
+Elapsed time to handle boost-locale:wasm32-emscripten-wesnoth: 12.1 ms
+Installing 97/140 boost-logic:wasm32-emscripten-wesnoth@1.92.0...
+boost-logic:wasm32-emscripten-wesnoth@1.92.0 package ABI: bad7467b13cdd627e393bf7e37c5e32b71c854e52a1be1ddb2554d7d5f40b5f7
+Elapsed time to handle boost-logic:wasm32-emscripten-wesnoth: 10.5 ms
+Installing 98/140 boost-multi-array:wasm32-emscripten-wesnoth@1.92.0...
+boost-multi-array:wasm32-emscripten-wesnoth@1.92.0 package ABI: 3cbbafe7fa00bbb231b0c5f7bee990659c901d463e439ac5f731408947bde478
+Elapsed time to handle boost-multi-array:wasm32-emscripten-wesnoth: 11.2 ms
+Installing 99/140 boost-process:wasm32-emscripten-wesnoth@1.92.0...
+boost-process:wasm32-emscripten-wesnoth@1.92.0 package ABI: dbc3a0636c460e04c6b8d21d65ccb7b63a48928de6704bb0ac153a566e395521
+Elapsed time to handle boost-process:wasm32-emscripten-wesnoth: 14.1 ms
+Installing 100/140 boost-program-options:wasm32-emscripten-wesnoth@1.92.0...
+boost-program-options:wasm32-emscripten-wesnoth@1.92.0 package ABI: 9c647655244916d2709771d475fd189f1576468e0073bf4e2d65e8ec0b3efd5c
+Elapsed time to handle boost-program-options:wasm32-emscripten-wesnoth: 12 ms
+Installing 101/140 boost-ptr-container:wasm32-emscripten-wesnoth@1.92.0...
+boost-ptr-container:wasm32-emscripten-wesnoth@1.92.0 package ABI: ced5e58f8547c4ccaca0b524ce018984057a170cef77551df38e66d05f157a35
+Elapsed time to handle boost-ptr-container:wasm32-emscripten-wesnoth: 13 ms
+Installing 102/140 boost-scope-exit:wasm32-emscripten-wesnoth@1.92.0...
+boost-scope-exit:wasm32-emscripten-wesnoth@1.92.0 package ABI: 4e76cd9e1c99e2441c527266f40134ea18f163f31ba3435316197f161baceb2e
+Elapsed time to handle boost-scope-exit:wasm32-emscripten-wesnoth: 11.5 ms
+Installing 103/140 brotli:wasm32-emscripten-wesnoth@1.2.0...
+brotli:wasm32-emscripten-wesnoth@1.2.0 package ABI: 8fb510b206ee6e25a48911762e4d13a5dcf432fd684b97d2a78ceb37984c1399
+Elapsed time to handle brotli:wasm32-emscripten-wesnoth: 11.4 ms
+Installing 104/140 dirent:wasm32-emscripten-wesnoth@1.26...
+dirent:wasm32-emscripten-wesnoth@1.26 package ABI: dc5501b7644b586a422c265951af128363ec56d281c1d5bda0622235ab323489
+Elapsed time to handle dirent:wasm32-emscripten-wesnoth: 11.7 ms
+Installing 105/140 expat:wasm32-emscripten-wesnoth@2.8.3...
+expat:wasm32-emscripten-wesnoth@2.8.3 package ABI: 4c66725414174d81da034ce56d7a161d73f36c7b3ec45b69641122bbbd200243
+Elapsed time to handle expat:wasm32-emscripten-wesnoth: 12 ms
+Installing 106/140 libpng:wasm32-emscripten-wesnoth@1.6.58...
+libpng:wasm32-emscripten-wesnoth@1.6.58 package ABI: 3e3844ca00925d0bfa387a0e26315cca02e2c6a3c9ec36b72d877f8e4804b1d9
+Elapsed time to handle libpng:wasm32-emscripten-wesnoth: 11.6 ms
+Installing 107/140 freetype[brotli,bzip2,core,png,zlib]:wasm32-emscripten-wesnoth@2.14.3...
+freetype[brotli,bzip2,core,png,zlib]:wasm32-emscripten-wesnoth@2.14.3 package ABI: 4e311250ba2c74a84b3430676b282ca694a3546e0f077d39d840eabf6888c9e7
+Elapsed time to handle freetype:wasm32-emscripten-wesnoth: 13.2 ms
+Installing 108/140 gperf:x64-linux@3.3...
+gperf:x64-linux@3.3 package ABI: 125d2ff5389fdd7e8997c2de8d807535dbf73767715794f2223322c2706e824f
+Elapsed time to handle gperf:x64-linux: 3.1 ms
+Installing 109/140 libuuid:wasm32-emscripten-wesnoth@1.0.3#17...
+libuuid:wasm32-emscripten-wesnoth@1.0.3#17 package ABI: cf8ed2c90fad7379dd03621266a7368ad71ec1e1ebf35512c5472c77c5b14307
+Elapsed time to handle libuuid:wasm32-emscripten-wesnoth: 11.3 ms
+Installing 110/140 vcpkg-tool-meson:x64-linux@1.9.0#10...
+vcpkg-tool-meson:x64-linux@1.9.0#10 package ABI: 805a606d19ba115f595288ab5ac94b8e477b5732b868df768c0fd35be37db2ba
+Elapsed time to handle vcpkg-tool-meson:x64-linux: 3.17 ms
+Installing 111/140 fontconfig[core,iconv]:wasm32-emscripten-wesnoth@2.17.1#2...
+fontconfig[core,iconv]:wasm32-emscripten-wesnoth@2.17.1#2 package ABI: edf9c9f4917d70ab7397e745dd24dbd6ac2f4809421ba663e5880197ae5942c5
+Elapsed time to handle fontconfig:wasm32-emscripten-wesnoth: 12.8 ms
+Installing 112/140 gettext-libintl:x64-linux@0.22.5#4...
+gettext-libintl:x64-linux@0.22.5#4 package ABI: a753a591fc2cee2e8124ad1dec1ee32cf089b881199231e70f105fbd5aa5c89f
+Elapsed time to handle gettext-libintl:x64-linux: 3 ms
+Installing 113/140 libiconv:x64-linux@1.19...
+libiconv:x64-linux@1.19 package ABI: 7920c306119f2d392d64d0563733fc31ccd3400def5a48cab58b2732c4ec861a
+Elapsed time to handle libiconv:x64-linux: 2.97 ms
+Installing 114/140 gettext[core,tools]:x64-linux@0.22.5#4...
+gettext[core,tools]:x64-linux@0.22.5#4 package ABI: 931f6b71e0b6121d6abaf3b3f6efe1325385c6bed3bc8c18609e480d24daf248
+Elapsed time to handle gettext:x64-linux: 8.15 ms
+Installing 115/140 gettext-libintl:wasm32-emscripten-wesnoth@0.22.5#4...
+gettext-libintl:wasm32-emscripten-wesnoth@0.22.5#4 package ABI: f70474ee0cbf125011972a149cfc4e1525fe17cd91de8747e1e69efc9a8a5ecf
+Elapsed time to handle gettext-libintl:wasm32-emscripten-wesnoth: 12 ms
+Installing 116/140 libffi:wasm32-emscripten-wesnoth@3.8.0...
+libffi:wasm32-emscripten-wesnoth@3.8.0 package ABI: fffcebce576b63d296b072dbb5957ba552b8bfb3552f0a34ca0ce2fe78aae809
+Elapsed time to handle libffi:wasm32-emscripten-wesnoth: 12 ms
+Installing 117/140 pcre2[core,platform-default-features]:wasm32-emscripten-wesnoth@10.47#1...
+pcre2[core,platform-default-features]:wasm32-emscripten-wesnoth@10.47#1 package ABI: 7443a345feeb6d883e581b6a1ca00715fc510cd87d1cb823c264d3f354abaa96
+Elapsed time to handle pcre2:wasm32-emscripten-wesnoth: 14.5 ms
+Installing 118/140 glib:wasm32-emscripten-wesnoth@2.88.3...
+glib:wasm32-emscripten-wesnoth@2.88.3 package ABI: 27511482d0fe0a5bbdd211ef4d2de1e94a80e74dd379607ff149fe9ad7cca899
+Elapsed time to handle glib:wasm32-emscripten-wesnoth: 28.3 ms
+Installing 119/140 pixman:wasm32-emscripten-wesnoth@0.46.4#1...
+pixman:wasm32-emscripten-wesnoth@0.46.4#1 package ABI: 8940d67d7d58d55479690fba45a710bedc69b4494598342e9aba5dbb901715ee
+Elapsed time to handle pixman:wasm32-emscripten-wesnoth: 12.2 ms
+Installing 120/140 pthreads:wasm32-emscripten-wesnoth@3.0.0#14...
+pthreads:wasm32-emscripten-wesnoth@3.0.0#14 package ABI: e25942041fe860ab509a228686efe9e68078142d0211a299e5e8e7ef7552340c
+Elapsed time to handle pthreads:wasm32-emscripten-wesnoth: 11.6 ms
+Installing 121/140 pthread:wasm32-emscripten-wesnoth@3.0.0#2...
+pthread:wasm32-emscripten-wesnoth@3.0.0#2 package ABI: e83435197ed86204c0dc8b45443cfa0c3fb0baa03081ac97ee91855cfe9f2787
+Elapsed time to handle pthread:wasm32-emscripten-wesnoth: 13.2 ms
+Installing 122/140 cairo[core,fontconfig,freetype,gobject]:wasm32-emscripten-wesnoth@1.18.4#1...
+cairo[core,fontconfig,freetype,gobject]:wasm32-emscripten-wesnoth@1.18.4#1 package ABI: 11c5e422dfb29567964f9156c062b99731a10a71921d65b3f363ebcf5ef8256f
+Elapsed time to handle cairo:wasm32-emscripten-wesnoth: 13.4 ms
+Installing 123/140 openssl:wasm32-emscripten-wesnoth@3.6.4...
+openssl:wasm32-emscripten-wesnoth@3.6.4 package ABI: 947d830d358a799e0d29927ad06bd80d372a9637cbb479804d6a68242e0ad3e5
+Elapsed time to handle openssl:wasm32-emscripten-wesnoth: 15.3 ms
+Installing 124/140 curl[core,openssl]:wasm32-emscripten-wesnoth@8.22.0...
+curl[core,openssl]:wasm32-emscripten-wesnoth@8.22.0 package ABI: 3aff938442b42ae1e6d2ddebf19df6e16e05f80ac9ff3545fe386ac4415fe9c5
+Elapsed time to handle curl:wasm32-emscripten-wesnoth: 13.6 ms
+Installing 125/140 dirent:x64-linux@1.26...
+dirent:x64-linux@1.26 package ABI: a89e4515e57ba2a23e92feece12a40d6f5c7ba894c1a24c7cd642852c46d3cbf
+Elapsed time to handle dirent:x64-linux: 3.26 ms
+Installing 126/140 fribidi:x64-linux@1.0.16...
+fribidi:x64-linux@1.0.16 package ABI: 0e2f511f66c849387709ba4e159f4108bb4dd1994a586e1123859fd7ed0c7e95
+Elapsed time to handle fribidi:x64-linux: 4.15 ms
+Installing 127/140 fribidi:wasm32-emscripten-wesnoth@1.0.16...
+fribidi:wasm32-emscripten-wesnoth@1.0.16 package ABI: 9d5bad3a0311552d6a55adeb949fed62479926975a205842293df939febb0708
+Elapsed time to handle fribidi:wasm32-emscripten-wesnoth: 12.3 ms
+Installing 128/140 libffi:x64-linux@3.8.0...
+libffi:x64-linux@3.8.0 package ABI: 12498d26fac80c3fb179ef029387b6b6ab7ad1669f76527db6854e6dbcf4da33
+Elapsed time to handle libffi:x64-linux: 3.61 ms
+Installing 129/140 pcre2[core,jit,platform-default-features]:x64-linux@10.47#1...
+pcre2[core,jit,platform-default-features]:x64-linux@10.47#1 package ABI: 6a5da45d7189cc0df56390c397e25b17597638d104dcd92591a52b072e71a6a2
+Elapsed time to handle pcre2:x64-linux: 6.19 ms
+Installing 130/140 zlib:x64-linux@1.3.2#2...
+zlib:x64-linux@1.3.2#2 package ABI: 7f1fcc6a96ff5102db0c3795921b7f9845043d5b96234445bdf5200fe80c93c6
+Elapsed time to handle zlib:x64-linux: 4.02 ms
+Installing 131/140 glib:x64-linux@2.88.3...
+glib:x64-linux@2.88.3 package ABI: 0c7d0106e31016242f055725757f840e9c2e5483f146ad44532e5ffb881ad3f1
+Elapsed time to handle glib:x64-linux: 20.5 ms
+Installing 132/140 harfbuzz[core,freetype]:wasm32-emscripten-wesnoth@14.4.0...
+harfbuzz[core,freetype]:wasm32-emscripten-wesnoth@14.4.0 package ABI: dcee1c3018e1e5216a94758711938f2b78d7d3a16bdafdf4e90b0d1d7865276f
+Elapsed time to handle harfbuzz:wasm32-emscripten-wesnoth: 14.3 ms
+Installing 133/140 libjpeg-turbo:wasm32-emscripten-wesnoth@3.2.0...
+libjpeg-turbo:wasm32-emscripten-wesnoth@3.2.0 package ABI: 8c36b5067781edc2bebca2a702ce56c08f9381aafbc5557b5e4dafeb44658221
+Elapsed time to handle libjpeg-turbo:wasm32-emscripten-wesnoth: 12.9 ms
+Installing 134/140 libogg:wasm32-emscripten-wesnoth@1.3.6#1...
+libogg:wasm32-emscripten-wesnoth@1.3.6#1 package ABI: e13aa7d90f6e74ac1036018b327fa49cc7a27e4ec1590d79a151516dd95ccedb
+Elapsed time to handle libogg:wasm32-emscripten-wesnoth: 13.3 ms
+Installing 135/140 libvorbis:wasm32-emscripten-wesnoth@1.3.7#4...
+libvorbis:wasm32-emscripten-wesnoth@1.3.7#4 package ABI: 739c79213e7292663bb360d2210e7469703e1c3a24dabb636c05594835b2f9b5
+Elapsed time to handle libvorbis:wasm32-emscripten-wesnoth: 13 ms
+Installing 136/140 libwebp[core,libwebpmux,nearlossless]:wasm32-emscripten-wesnoth@1.6.0#3...
+libwebp[core,libwebpmux,nearlossless]:wasm32-emscripten-wesnoth@1.6.0#3 package ABI: addfe14debe511496e19db519b2571b550107b2358651166f65e3d301e4bce8a
+Elapsed time to handle libwebp:wasm32-emscripten-wesnoth: 13.5 ms
+Installing 137/140 pango:wasm32-emscripten-wesnoth@1.58.0...
+pango:wasm32-emscripten-wesnoth@1.58.0 package ABI: ce9e412ccd4a6296cdc98dfa45ce3b637cc9eaaf021b119e56e9b119bc0759fe
+Elapsed time to handle pango:wasm32-emscripten-wesnoth: 13.1 ms
+Installing 138/140 sdl3:wasm32-emscripten-wesnoth@3.4.16...
+sdl3:wasm32-emscripten-wesnoth@3.4.16 package ABI: e6db31ac550b4abdf16c03915be8c606d52af89da723f21df047ad50997858e3
+Elapsed time to handle sdl3:wasm32-emscripten-wesnoth: 14.3 ms
+Installing 139/140 sdl3-image[core,jpeg,png,webp]:wasm32-emscripten-wesnoth@3.4.4#1...
+sdl3-image[core,jpeg,png,webp]:wasm32-emscripten-wesnoth@3.4.4#1 package ABI: 8ada9cc2686a0f7a0e186fea628eb8f716d0cf99c638b0a0fca3555661276db3
+Elapsed time to handle sdl3-image:wasm32-emscripten-wesnoth: 13.1 ms
+Installing 140/140 sdl3-mixer[core,libvorbis]:wasm32-emscripten-wesnoth@3.2.4...
+sdl3-mixer[core,libvorbis]:wasm32-emscripten-wesnoth@3.2.4 package ABI: df5a5c73491f2f2151ee05ddd8826132e68322c475c2df937a99b96716e4a37f
+Elapsed time to handle sdl3-mixer:wasm32-emscripten-wesnoth: 12.6 ms
+Total install time: 1.2 s
+RESULTS
+  boost-uninstall:wasm32-emscripten-wesnoth: SUCCEEDED: 1.09 ms
+  vcpkg-cmake:x64-linux: SUCCEEDED: 819 us
+  vcpkg-cmake-config:x64-linux: SUCCEEDED: 746 us
+  vcpkg-boost:x64-linux: SUCCEEDED: 732 us
+  boost-cmake:wasm32-emscripten-wesnoth: SUCCEEDED: 869 us
+  boost-headers:wasm32-emscripten-wesnoth: SUCCEEDED: 946 us
+  boost-config:wasm32-emscripten-wesnoth: SUCCEEDED: 5.97 ms
+  boost-assert:wasm32-emscripten-wesnoth: SUCCEEDED: 1.2 ms
+  boost-throw-exception:wasm32-emscripten-wesnoth: SUCCEEDED: 1.07 ms
+  boost-array:wasm32-emscripten-wesnoth: SUCCEEDED: 1.29 ms
+  boost-core:wasm32-emscripten-wesnoth: SUCCEEDED: 2.38 ms
+  boost-bind:wasm32-emscripten-wesnoth: SUCCEEDED: 1.43 ms
+  boost-preprocessor:wasm32-emscripten-wesnoth: SUCCEEDED: 8.36 ms
+  boost-type-traits:wasm32-emscripten-wesnoth: SUCCEEDED: 6.07 ms
+  boost-concept-check:wasm32-emscripten-wesnoth: SUCCEEDED: 1.95 ms
+  boost-smart-ptr:wasm32-emscripten-wesnoth: SUCCEEDED: 2.9 ms
+  boost-tuple:wasm32-emscripten-wesnoth: SUCCEEDED: 1.97 ms
+  boost-exception:wasm32-emscripten-wesnoth: SUCCEEDED: 2.27 ms
+  boost-function:wasm32-emscripten-wesnoth: SUCCEEDED: 2.17 ms
+  boost-detail:wasm32-emscripten-wesnoth: SUCCEEDED: 2.48 ms
+  boost-mp11:wasm32-emscripten-wesnoth: SUCCEEDED: 2.62 ms
+  boost-describe:wasm32-emscripten-wesnoth: SUCCEEDED: 2.46 ms
+  boost-container-hash:wasm32-emscripten-wesnoth: SUCCEEDED: 2.54 ms
+  boost-predef:wasm32-emscripten-wesnoth: SUCCEEDED: 4.82 ms
+  boost-io:wasm32-emscripten-wesnoth: SUCCEEDED: 2.39 ms
+  boost-utility:wasm32-emscripten-wesnoth: SUCCEEDED: 2.65 ms
+  boost-mpl:wasm32-emscripten-wesnoth: SUCCEEDED: 21.9 ms
+  boost-function-types:wasm32-emscripten-wesnoth: SUCCEEDED: 4.49 ms
+  boost-typeof:wasm32-emscripten-wesnoth: SUCCEEDED: 3.74 ms
+  boost-fusion:wasm32-emscripten-wesnoth: SUCCEEDED: 22.5 ms
+  boost-optional:wasm32-emscripten-wesnoth: SUCCEEDED: 5.06 ms
+  boost-iterator:wasm32-emscripten-wesnoth: SUCCEEDED: 5.21 ms
+  boost-conversion:wasm32-emscripten-wesnoth: SUCCEEDED: 4.87 ms
+  vcpkg-cmake-get-vars:x64-linux: SUCCEEDED: 1.52 ms
+  vcpkg-make:x64-linux: SUCCEEDED: 1.63 ms
+  icu:x64-linux: SUCCEEDED: 7.61 ms
+  icu:wasm32-emscripten-wesnoth: SUCCEEDED: 10.1 ms
+  boost-regex:wasm32-emscripten-wesnoth: SUCCEEDED: 6.06 ms
+  boost-range:wasm32-emscripten-wesnoth: SUCCEEDED: 7.7 ms
+  boost-unordered:wasm32-emscripten-wesnoth: SUCCEEDED: 5.91 ms
+  boost-algorithm:wasm32-emscripten-wesnoth: SUCCEEDED: 6.48 ms
+  boost-align:wasm32-emscripten-wesnoth: SUCCEEDED: 6.17 ms
+  boost-type-index:wasm32-emscripten-wesnoth: SUCCEEDED: 6.03 ms
+  boost-any:wasm32-emscripten-wesnoth: SUCCEEDED: 5.22 ms
+  boost-move:wasm32-emscripten-wesnoth: SUCCEEDED: 6.08 ms
+  boost-intrusive:wasm32-emscripten-wesnoth: SUCCEEDED: 7.17 ms
+  boost-container:wasm32-emscripten-wesnoth: SUCCEEDED: 8.19 ms
+  boost-lexical-cast:wasm32-emscripten-wesnoth: SUCCEEDED: 5.94 ms
+  boost-numeric-conversion:wasm32-emscripten-wesnoth: SUCCEEDED: 5.9 ms
+  boost-static-assert:wasm32-emscripten-wesnoth: SUCCEEDED: 5.77 ms
+  boost-tokenizer:wasm32-emscripten-wesnoth: SUCCEEDED: 6.05 ms
+  boost-winapi:wasm32-emscripten-wesnoth: SUCCEEDED: 7.91 ms
+  boost-date-time:wasm32-emscripten-wesnoth: SUCCEEDED: 7.54 ms
+  boost-compat:wasm32-emscripten-wesnoth: SUCCEEDED: 5.88 ms
+  boost-variant2:wasm32-emscripten-wesnoth: SUCCEEDED: 5.97 ms
+  boost-system:wasm32-emscripten-wesnoth: SUCCEEDED: 6.43 ms
+  boost-asio:wasm32-emscripten-wesnoth: SUCCEEDED: 19.3 ms
+  boost-atomic:wasm32-emscripten-wesnoth: SUCCEEDED: 9.77 ms
+  boost-lambda:wasm32-emscripten-wesnoth: SUCCEEDED: 7 ms
+  boost-integer:wasm32-emscripten-wesnoth: SUCCEEDED: 6.83 ms
+  boost-multi-index:wasm32-emscripten-wesnoth: SUCCEEDED: 8.37 ms
+  boost-bimap:wasm32-emscripten-wesnoth: SUCCEEDED: 8.66 ms
+  boost-charconv:wasm32-emscripten-wesnoth: SUCCEEDED: 7.39 ms
+  boost-ratio:wasm32-emscripten-wesnoth: SUCCEEDED: 6.97 ms
+  boost-chrono:wasm32-emscripten-wesnoth: SUCCEEDED: 7.97 ms
+  boost-circular-buffer:wasm32-emscripten-wesnoth: SUCCEEDED: 6.8 ms
+  boost-dynamic-bitset:wasm32-emscripten-wesnoth: SUCCEEDED: 6.89 ms
+  boost-endian:wasm32-emscripten-wesnoth: SUCCEEDED: 7.03 ms
+  boost-scope:wasm32-emscripten-wesnoth: SUCCEEDED: 7.15 ms
+  boost-filesystem:wasm32-emscripten-wesnoth: SUCCEEDED: 7.69 ms
+  boost-foreach:wasm32-emscripten-wesnoth: SUCCEEDED: 7.37 ms
+  boost-format:wasm32-emscripten-wesnoth: SUCCEEDED: 7.24 ms
+  boost-functional:wasm32-emscripten-wesnoth: SUCCEEDED: 7.53 ms
+  boost-random:wasm32-emscripten-wesnoth: SUCCEEDED: 8.7 ms
+  boost-math:wasm32-emscripten-wesnoth: SUCCEEDED: 16.9 ms
+  boost-multiprecision:wasm32-emscripten-wesnoth: SUCCEEDED: 9.49 ms
+  boost-parameter:wasm32-emscripten-wesnoth: SUCCEEDED: 9.63 ms
+  boost-property-map:wasm32-emscripten-wesnoth: SUCCEEDED: 8.47 ms
+  boost-proto:wasm32-emscripten-wesnoth: SUCCEEDED: 10.9 ms
+  boost-phoenix:wasm32-emscripten-wesnoth: SUCCEEDED: 14.4 ms
+  boost-pool:wasm32-emscripten-wesnoth: SUCCEEDED: 8.88 ms
+  boost-thread:wasm32-emscripten-wesnoth: SUCCEEDED: 11.6 ms
+  boost-variant:wasm32-emscripten-wesnoth: SUCCEEDED: 9.35 ms
+  boost-spirit:wasm32-emscripten-wesnoth: SUCCEEDED: 31.4 ms
+  boost-serialization:wasm32-emscripten-wesnoth: SUCCEEDED: 14.1 ms
+  boost-property-tree:wasm32-emscripten-wesnoth: SUCCEEDED: 11 ms
+  boost-tti:wasm32-emscripten-wesnoth: SUCCEEDED: 11.4 ms
+  boost-xpressive:wasm32-emscripten-wesnoth: SUCCEEDED: 11.9 ms
+  boost-graph:wasm32-emscripten-wesnoth: SUCCEEDED: 14.9 ms
+  bzip2:wasm32-emscripten-wesnoth: SUCCEEDED: 11 ms
+  liblzma:wasm32-emscripten-wesnoth: SUCCEEDED: 10.9 ms
+  zlib:wasm32-emscripten-wesnoth: SUCCEEDED: 11.7 ms
+  zstd:wasm32-emscripten-wesnoth: SUCCEEDED: 11 ms
+  boost-iostreams:wasm32-emscripten-wesnoth: SUCCEEDED: 13.8 ms
+  libiconv:wasm32-emscripten-wesnoth: SUCCEEDED: 10.6 ms
+  boost-locale:wasm32-emscripten-wesnoth: SUCCEEDED: 12.1 ms
+  boost-logic:wasm32-emscripten-wesnoth: SUCCEEDED: 10.5 ms
+  boost-multi-array:wasm32-emscripten-wesnoth: SUCCEEDED: 11.2 ms
+  boost-process:wasm32-emscripten-wesnoth: SUCCEEDED: 14.1 ms
+  boost-program-options:wasm32-emscripten-wesnoth: SUCCEEDED: 12 ms
+  boost-ptr-container:wasm32-emscripten-wesnoth: SUCCEEDED: 13 ms
+  boost-scope-exit:wasm32-emscripten-wesnoth: SUCCEEDED: 11.5 ms
+  brotli:wasm32-emscripten-wesnoth: SUCCEEDED: 11.4 ms
+  dirent:wasm32-emscripten-wesnoth: SUCCEEDED: 11.7 ms
+  expat:wasm32-emscripten-wesnoth: SUCCEEDED: 12 ms
+  libpng:wasm32-emscripten-wesnoth: SUCCEEDED: 11.6 ms
+  freetype:wasm32-emscripten-wesnoth: SUCCEEDED: 13.2 ms
+  gperf:x64-linux: SUCCEEDED: 3.1 ms
+  libuuid:wasm32-emscripten-wesnoth: SUCCEEDED: 11.3 ms
+  vcpkg-tool-meson:x64-linux: SUCCEEDED: 3.17 ms
+  fontconfig:wasm32-emscripten-wesnoth: SUCCEEDED: 12.8 ms
+  gettext-libintl:x64-linux: SUCCEEDED: 3 ms
+  libiconv:x64-linux: SUCCEEDED: 2.97 ms
+  gettext:x64-linux: SUCCEEDED: 8.15 ms
+  gettext-libintl:wasm32-emscripten-wesnoth: SUCCEEDED: 12 ms
+  libffi:wasm32-emscripten-wesnoth: SUCCEEDED: 12 ms
+  pcre2:wasm32-emscripten-wesnoth: SUCCEEDED: 14.5 ms
+  glib:wasm32-emscripten-wesnoth: SUCCEEDED: 28.3 ms
+  pixman:wasm32-emscripten-wesnoth: SUCCEEDED: 12.2 ms
+  pthreads:wasm32-emscripten-wesnoth: SUCCEEDED: 11.6 ms
+  pthread:wasm32-emscripten-wesnoth: SUCCEEDED: 13.2 ms
+  cairo:wasm32-emscripten-wesnoth: SUCCEEDED: 13.4 ms
+  openssl:wasm32-emscripten-wesnoth: SUCCEEDED: 15.3 ms
+  curl:wasm32-emscripten-wesnoth: SUCCEEDED: 13.6 ms
+  dirent:x64-linux: SUCCEEDED: 3.26 ms
+  fribidi:x64-linux: SUCCEEDED: 4.15 ms
+  fribidi:wasm32-emscripten-wesnoth: SUCCEEDED: 12.3 ms
+  libffi:x64-linux: SUCCEEDED: 3.61 ms
+  pcre2:x64-linux: SUCCEEDED: 6.19 ms
+  zlib:x64-linux: SUCCEEDED: 4.02 ms
+  glib:x64-linux: SUCCEEDED: 20.5 ms
+  harfbuzz:wasm32-emscripten-wesnoth: SUCCEEDED: 14.3 ms
+  libjpeg-turbo:wasm32-emscripten-wesnoth: SUCCEEDED: 12.9 ms
+  libogg:wasm32-emscripten-wesnoth: SUCCEEDED: 13.3 ms
+  libvorbis:wasm32-emscripten-wesnoth: SUCCEEDED: 13 ms
+  libwebp:wasm32-emscripten-wesnoth: SUCCEEDED: 13.5 ms
+  pango:wasm32-emscripten-wesnoth: SUCCEEDED: 13.1 ms
+  sdl3:wasm32-emscripten-wesnoth: SUCCEEDED: 14.3 ms
+  sdl3-image:wasm32-emscripten-wesnoth: SUCCEEDED: 13.1 ms
+  sdl3-mixer:wasm32-emscripten-wesnoth: SUCCEEDED: 12.6 ms
+
+SUMMARY FOR wasm32-emscripten-wesnoth
+  SUCCEEDED: 123
+SUMMARY FOR x64-linux
+  SUCCEEDED: 17
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+Packages installed in this vcpkg installation declare the following licenses:
+(BSD-3-Clause OR GPL-2.0-only)
+(FTL OR GPL-2.0-or-later)
+(LGPL-2.1-only OR MPL-1.1)
+Apache-2.0
+BSD-2-Clause
+BSD-3-Clause
+BSL-1.0
+GPL-3.0-only
+GPL-3.0-or-later
+ICU
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-or-later
+MIT
+MIT-Modern-Variant
+Zlib
+bzip2-1.0.6
+curl
+libpng-2.0
+boost-regex provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_regex CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::regex)
+
+boost-system provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_system CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::system)
+
+boost-asio provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_asio CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::asio)
+
+  find_package(boost_asio_core CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::asio_core)
+
+  find_package(boost_asio_deadline_timer CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::asio_deadline_timer)
+
+boost-bimap provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_bimap CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::bimap)
+
+boost-circular-buffer provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_circular_buffer CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::circular_buffer)
+
+boost-filesystem provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_filesystem CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::filesystem)
+
+boost-format provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_format CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::format)
+
+boost-random provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_random CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::random)
+
+boost-math provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_math CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::math)
+
+boost-spirit provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_spirit CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::spirit)
+
+boost-graph provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_graph CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::graph)
+
+The package bzip2 is compatible with built-in CMake targets:
+
+    find_package(BZip2 REQUIRED)
+    target_link_libraries(main PRIVATE BZip2::BZip2)
+
+zlib is compatible with built-in CMake targets:
+
+  find_package(ZLIB REQUIRED)
+  target_link_libraries(main PRIVATE ZLIB::ZLIB)
+
+zlib provides pkg-config modules:
+
+  # zlib compression library
+  zlib
+
+boost-iostreams provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_iostreams CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::iostreams)
+
+boost-locale provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_locale CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::locale)
+
+boost-logic provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_logic CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::logic)
+
+boost-multi-array provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_multi_array CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::multi_array)
+
+boost-process provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_process CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::process)
+
+boost-program-options provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_program_options CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::program_options)
+
+boost-ptr-container provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_ptr_container CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::ptr_container)
+
+boost-scope-exit provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(boost_scope_exit CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Boost::scope_exit)
+
+fontconfig is compatible with built-in CMake targets:
+
+  find_package(Fontconfig REQUIRED) # since CMake 3.14
+  target_link_libraries(main PRIVATE Fontconfig::Fontconfig)
+
+fontconfig provides pkg-config modules:
+
+  # Font configuration and customization library
+  fontconfig
+
+cairo provides pkg-config modules:
+
+  # Fontconfig font backend for cairo graphics library
+  cairo-fc
+
+  # FreeType font backend for cairo graphics library
+  cairo-ft
+
+  # cairo-gobject for cairo graphics library
+  cairo-gobject
+
+  # PDF surface backend for cairo graphics library
+  cairo-pdf
+
+  # PNG functions for cairo graphics library
+  cairo-png
+
+  # PostScript surface backend for cairo graphics library
+  cairo-ps
+
+  # script surface backend for cairo graphics library
+  cairo-script-interpreter
+
+  # script surface backend for cairo graphics library
+  cairo-script
+
+  # SVG surface backend for cairo graphics library
+  cairo-svg
+
+  # Tee surface backend for cairo graphics library
+  cairo-tee
+
+  # Multi-platform 2D graphics library
+  cairo
+
+openssl is compatible with built-in CMake targets:
+
+  find_package(OpenSSL REQUIRED)
+  target_link_libraries(main PRIVATE OpenSSL::SSL)
+  target_link_libraries(main PRIVATE OpenSSL::Crypto)
+
+curl is compatible with built-in CMake targets:
+
+    find_package(CURL REQUIRED)
+    target_link_libraries(main PRIVATE CURL::libcurl)
+
+libogg provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Ogg CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Ogg::ogg)
+
+libogg provides pkg-config modules:
+
+  # ogg is a library for manipulating ogg bitstreams
+  ogg
+
+The package libvorbis provides CMake targets:
+
+    # Vorbis reference encoder and decoder, low-level API
+    find_package(Vorbis CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Vorbis::vorbis)
+
+    # Audio stream decoding and basic manipulation, high-level API
+    find_package(Vorbis CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Vorbis::vorbisfile)
+
+    # Convenience API for setting up an encoding environment
+    find_package(Vorbis CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Vorbis::vorbisenc)
+
+libwebp provides CMake targets:
+
+    find_package(WebP CONFIG REQUIRED)
+    # basic usage
+    target_link_libraries(main PRIVATE WebP::webp WebP::webpdecoder WebP::webpdemux)
+    # for manipulating the WebP graphics format container (port feature libwebpmux)
+    target_link_libraries(main PRIVATE WebP::libwebpmux)
+    # for sharp RGB to YUV conversion
+    target_link_libraries(main PRIVATE WebP::sharpyuv)
+
+pango provides pkg-config modules:
+
+  # Internationalized text handling
+  pango
+
+  # Cairo rendering support for Pango
+  pangocairo
+
+  # Fontconfig support for Pango
+  pangofc
+
+  # FreeType 2.0 and fontconfig font support for Pango
+  pangoft2
+
+  # OpenType font support for Pango (deprecated)
+  pangoot
+
+sdl3 provides CMake targets:
+
+  find_package(SDL3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL3::SDL3)
+
+sdl3-image provides CMake targets:
+
+  find_package(SDL3_image CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL3_image::SDL3_image-shared>,SDL3_image::SDL3_image-shared,SDL3_image::SDL3_image-static>)
+
+sdl3-image provides pkg-config modules:
+
+  # image loading library for Simple DirectMedia Layer
+  sdl3-image
+
+sdl3-mixer provides CMake targets:
+
+  find_package(SDL3_mixer CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL3_mixer::SDL3_mixer>,SDL3_mixer::SDL3_mixer,SDL3_mixer::SDL3_mixer-static>)
+
+All requested installations completed successfully in: 1.2 s
+== collecting logs
+vcpkg exit status: 0
