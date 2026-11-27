@@ -18,7 +18,7 @@ vcpkg_extract_source_archive(SOURCE_PATH
     PATCHES
         use-libiconv-on-windows.patch
         libintl.patch
-        emscripten-no-res-query.patch # wesnoth-web
+        emscripten.patch # wesnoth-web: Emscripten support
 )
 
 set(LANGUAGES C CXX)
