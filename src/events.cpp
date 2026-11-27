@@ -41,6 +41,11 @@
 
 #include <SDL3/SDL_events.h>
 
+#ifdef __EMSCRIPTEN__
+#include <chrono>
+#include <emscripten.h>
+#endif
+
 #define ERR_GEN LOG_STREAM(err, lg::general)
 
 static lg::log_domain log_display("display");
@@ -477,12 +482,36 @@ bool is_in_main_thread()
 	return std::this_thread::get_id() == main_thread;
 }
 
+#ifdef __EMSCRIPTEN__
+namespace {
+/**
+ * Browser build: the game runs its own blocking loops, so it must hand control
+ * back to the browser regularly, or nothing is drawn and no input arrives.
+ * With JSPI, emscripten_sleep() suspends the C++ stack and resumes it later.
+ * Yield at most about once per frame, since every yield costs a few ms.
+ */
+void yield_to_browser()
+{
+	static auto last_yield = std::chrono::steady_clock::now();
+	const auto now = std::chrono::steady_clock::now();
+	if(now - last_yield >= std::chrono::milliseconds(12)) {
+		emscripten_sleep(0);
+		last_yield = std::chrono::steady_clock::now();
+	}
+}
+} // namespace
+#endif
+
 void pump()
 {
 	if(!is_in_main_thread()) {
 		// Can only call this on the main thread!
 		return;
 	}
+
+#ifdef __EMSCRIPTEN__
+	yield_to_browser();
+#endif
 
 	SDL_Event temp_event;
 	int poll_count = 0;

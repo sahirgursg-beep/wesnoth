@@ -184,7 +184,7 @@ if(ENABLE_GAME)
 			-sFORCE_FILESYSTEM=1
 			-sEXIT_RUNTIME=0
 			-sENVIRONMENT=web
-			-sEXPORTED_RUNTIME_METHODS=FS,callMain
+			-sEXPORTED_RUNTIME_METHODS=FS,callMain,addRunDependency,removeRunDependency
 			-lidbfs.js
 		)
 	endif()
