@@ -1,0 +1,25 @@
+[1/1] "/usr/local/bin/cmake" -E chdir ".." "/usr/local/bin/cmake" "/home/runner/webbuild/vcpkg/buildtrees/boost-locale/src/ost-1.92.0-c7896e8153.clean" "-G" "Ninja" "-DCMAKE_BUILD_TYPE=Release" "-DCMAKE_INSTALL_PREFIX=/home/runner/webbuild/vcpkg/packages/boost-locale_wasm32-emscripten-wesnoth" "-DFETCHCONTENT_FULLY_DISCONNECTED=ON" "-DBOOST_INCLUDE_LIBRARIES=locale" "-DBOOST_RUNTIME_LINK=dynamic" "-DBOOST_INSTALL_INCLUDE_SUBDIR=" "-DCMAKE_MSVC_DEBUG_INFORMATION_FORMAT=" "-DBOOST_LOCALE_ENABLE_ICU=ON" "-DBOOST_LOCALE_ENABLE_ICONV=on" "-DBOOST_LOCALE_ENABLE_POSIX=on" "-DCMAKE_MAKE_PROGRAM=/usr/local/bin/ninja" "-DCMAKE_SYSTEM_NAME=Emscripten" "-DBUILD_SHARED_LIBS=OFF" "-DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/toolchains/emscripten.cmake" "-DVCPKG_TARGET_TRIPLET=wasm32-emscripten-wesnoth" "-DVCPKG_SET_CHARSET_FLAG=ON" "-DVCPKG_PLATFORM_TOOLSET=external" "-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON" "-DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DVCPKG_APPLOCAL_DEPS=OFF" "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON" "-DVCPKG_CXX_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_CXX_FLAGS_RELEASE=" "-DVCPKG_CXX_FLAGS_DEBUG=" "-DVCPKG_C_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_C_FLAGS_RELEASE=" "-DVCPKG_C_FLAGS_DEBUG=" "-DVCPKG_CRT_LINKAGE=dynamic" "-DVCPKG_LINKER_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_LINKER_FLAGS_RELEASE=" "-DVCPKG_LINKER_FLAGS_DEBUG=" "-DVCPKG_TARGET_ARCHITECTURE=wasm32" "-DCMAKE_INSTALL_LIBDIR:STRING=lib" "-DCMAKE_INSTALL_BINDIR:STRING=bin" "-D_VCPKG_ROOT_DIR=/home/runner/webbuild/vcpkg" "-D_VCPKG_INSTALLED_DIR=/home/runner/webbuild/vcpkg/installed" "-DVCPKG_MANIFEST_INSTALL=OFF"
+FAILED: [code=1] ../CMakeCache.txt 
+"/usr/local/bin/cmake" -E chdir ".." "/usr/local/bin/cmake" "/home/runner/webbuild/vcpkg/buildtrees/boost-locale/src/ost-1.92.0-c7896e8153.clean" "-G" "Ninja" "-DCMAKE_BUILD_TYPE=Release" "-DCMAKE_INSTALL_PREFIX=/home/runner/webbuild/vcpkg/packages/boost-locale_wasm32-emscripten-wesnoth" "-DFETCHCONTENT_FULLY_DISCONNECTED=ON" "-DBOOST_INCLUDE_LIBRARIES=locale" "-DBOOST_RUNTIME_LINK=dynamic" "-DBOOST_INSTALL_INCLUDE_SUBDIR=" "-DCMAKE_MSVC_DEBUG_INFORMATION_FORMAT=" "-DBOOST_LOCALE_ENABLE_ICU=ON" "-DBOOST_LOCALE_ENABLE_ICONV=on" "-DBOOST_LOCALE_ENABLE_POSIX=on" "-DCMAKE_MAKE_PROGRAM=/usr/local/bin/ninja" "-DCMAKE_SYSTEM_NAME=Emscripten" "-DBUILD_SHARED_LIBS=OFF" "-DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/toolchains/emscripten.cmake" "-DVCPKG_TARGET_TRIPLET=wasm32-emscripten-wesnoth" "-DVCPKG_SET_CHARSET_FLAG=ON" "-DVCPKG_PLATFORM_TOOLSET=external" "-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON" "-DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DVCPKG_APPLOCAL_DEPS=OFF" "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON" "-DVCPKG_CXX_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_CXX_FLAGS_RELEASE=" "-DVCPKG_CXX_FLAGS_DEBUG=" "-DVCPKG_C_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_C_FLAGS_RELEASE=" "-DVCPKG_C_FLAGS_DEBUG=" "-DVCPKG_CRT_LINKAGE=dynamic" "-DVCPKG_LINKER_FLAGS=-fwasm-exceptions -sSUPPORT_LONGJMP=wasm" "-DVCPKG_LINKER_FLAGS_RELEASE=" "-DVCPKG_LINKER_FLAGS_DEBUG=" "-DVCPKG_TARGET_ARCHITECTURE=wasm32" "-DCMAKE_INSTALL_LIBDIR:STRING=lib" "-DCMAKE_INSTALL_BINDIR:STRING=bin" "-D_VCPKG_ROOT_DIR=/home/runner/webbuild/vcpkg" "-D_VCPKG_INSTALLED_DIR=/home/runner/webbuild/vcpkg/installed" "-DVCPKG_MANIFEST_INSTALL=OFF"
+-- Boost: using system layout: include, bin, lib, lib/cmake, share
+-- Boost: using CMake 4.5.0
+-- Boost: Release build, static libraries, MPI OFF, Python OFF, testing OFF
+-- Boost: libraries included: locale
+-- boost required: assertconfigcoreiteratorcharconvpredefthread
+-- boost optional: 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test Iconv_IS_BUILT_IN
+-- Performing Test Iconv_IS_BUILT_IN - Success
+-- Found Iconv: built in to C library
+-- Found ICU: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include (found suitable version "78.3", minimum required is "4.8.1") found components: data i18n uc
+CMake Error at libs/locale/CMakeLists.txt:236 (source_group):
+  source_group
+  "/home/runner/webbuild/vcpkg/buildtrees/boost-locale/src/ost-1.92.0-c7896e8153.clean/libs/locale/include/boost/locale"
+  is not a prefix of file
+  "/home/runner/webbuild/vcpkg/buildtrees/boost-locale/src/ost-1.92.0-c7896e8153.clean/libs/locale/include/boost/locale.hpp"
+
+
+-- Configuring incomplete, errors occurred!
+ninja: build stopped: subcommand failed.

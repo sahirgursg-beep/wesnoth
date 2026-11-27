@@ -1,0 +1,10 @@
+  BUILD_FAILED: 2
+  CASCADED_DUE_TO_MISSING_DEPENDENCIES: 2
+  boost-locale:wasm32-emscripten-wesnoth: BUILD_FAILED: 2.2 s
+  cairo:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 17.6 us
+  glib:wasm32-emscripten-wesnoth: BUILD_FAILED: 50 s
+  pango:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 23.9 us
+error: building boost-locale:wasm32-emscripten-wesnoth failed with: BUILD_FAILED
+error: building cairo:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building glib:wasm32-emscripten-wesnoth failed with: BUILD_FAILED
+error: building pango:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES

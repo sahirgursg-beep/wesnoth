@@ -1,0 +1,21 @@
+Downloading https://github.com/boostorg/locale/archive/boost-1.92.0.tar.gz -> boostorg-locale-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-locale-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-locale-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-locale/src/ost-1.92.0-c7896e8153.clean
+-- Configuring wasm32-emscripten-wesnoth
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /usr/local/bin/ninja -v
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/boost-locale/wasm32-emscripten-wesnoth-rel/vcpkg-parallel-configure
+    Error code: 1
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/boost-locale/config-wasm32-emscripten-wesnoth-rel-CMakeCache.txt.log
+      /home/runner/webbuild/vcpkg/buildtrees/boost-locale/config-wasm32-emscripten-wesnoth-rel-CMakeConfigureLog.yaml.log
+      /home/runner/webbuild/vcpkg/buildtrees/boost-locale/config-wasm32-emscripten-wesnoth-out.log
+
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:271 (vcpkg_execute_required_process)
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-locale/portfile.cmake:17 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
