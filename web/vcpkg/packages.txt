@@ -1,0 +1,36 @@
+# Dependencies of the Wesnoth game client for the browser build.
+# One vcpkg package spec per line; '#' starts a comment.
+# Compared to the desktop vcpkg.json: no boost-coroutine / boost-test
+# (only used by the servers and unit tests).
+sdl3
+sdl3-image[core,png,jpeg,webp]
+sdl3-mixer[core,libvorbis]
+libwebp
+libvorbis
+libogg
+zlib
+bzip2
+fontconfig
+cairo
+pango
+openssl
+curl[core,openssl]
+boost-filesystem
+boost-graph
+boost-iostreams
+boost-locale[icu]
+boost-random
+boost-regex[icu]
+boost-asio
+boost-program-options
+boost-system
+boost-bimap
+boost-math
+boost-logic
+boost-format
+boost-scope-exit
+boost-circular-buffer
+boost-ptr-container
+boost-spirit
+boost-process
+boost-multi-array
