@@ -48,9 +48,17 @@ if(ENABLE_SYSTEM_LUA)
 	set(common-external-libs ${common-external-libs} ${LUA_LIBRARIES})
 endif()
 
+if(EMSCRIPTEN)
+	# Browser build: everything is linked statically, so the private
+	# dependencies of pango/cairo (glib, harfbuzz, fontconfig, ...) are needed too.
+	set(PANGOCAIRO_LINK_LIBS ${PANGOCAIRO_STATIC_LDFLAGS})
+else()
+	set(PANGOCAIRO_LINK_LIBS ${PANGOCAIRO_LIBRARIES})
+endif()
+
 set(game-external-libs
 	${common-external-libs}
-	${PANGOCAIRO_LIBRARIES}
+	${PANGOCAIRO_LINK_LIBS}
 	${LIBDBUS_LIBRARIES}
 	VorbisFile::VorbisFile
 )
@@ -163,6 +171,22 @@ if(ENABLE_GAME)
 	endif()
 
 	set_target_properties(wesnoth PROPERTIES OUTPUT_NAME ${BINARY_PREFIX}wesnoth${BINARY_SUFFIX})
+
+	if(EMSCRIPTEN)
+		# Browser build, see web/README.md
+		set(WESNOTH_WEB_STACK_SIZE "8MB" CACHE STRING "Main thread stack size of the browser build")
+		target_link_options(wesnoth PRIVATE
+			-sALLOW_MEMORY_GROWTH=1
+			-sMAXIMUM_MEMORY=4GB
+			-sSTACK_SIZE=${WESNOTH_WEB_STACK_SIZE}
+			-sJSPI=1
+			-sFORCE_FILESYSTEM=1
+			-sEXIT_RUNTIME=0
+			-sENVIRONMENT=web
+			-sEXPORTED_RUNTIME_METHODS=FS,callMain
+			-lidbfs.js
+		)
+	endif()
 
 	install(TARGETS wesnoth DESTINATION ${CMAKE_INSTALL_BINDIR})
 endif()

@@ -58,6 +58,10 @@ option(ENABLE_NLS "Enable building of translations" ${ENABLE_GAME})
 # The next line is the minimum version of Boost. The version that's actually found will be put in Boost_VERSION.
 set(MIN_USABLE_BOOST_VERSION "1.70")
 set(BOOST_REQ_COMPONENTS iostreams program_options regex thread random coroutine locale filesystem graph)
+if(EMSCRIPTEN)
+	# Browser build: Boost.Coroutine is only used by the servers and has no wasm support.
+	list(REMOVE_ITEM BOOST_REQ_COMPONENTS coroutine)
+endif()
 
 if(ENABLE_TESTS)
   list(APPEND BOOST_REQ_COMPONENTS unit_test_framework)
@@ -184,7 +188,7 @@ option(ENABLE_POT_UPDATE_TARGET "Enables the tools to update the pot files and m
 option(FORCE_COLOR_OUTPUT "Always produce ANSI-colored output (GNU/Clang only)." FALSE)
 option(CLANG_TIDY "Enable clang-tidy linter checks." OFF)
 
-if(UNIX AND NOT APPLE AND NOT CYGWIN)
+if(UNIX AND NOT APPLE AND NOT CYGWIN AND NOT EMSCRIPTEN)
 	option(ENABLE_NOTIFICATIONS "Enable Window manager notification messages" ON)
 endif()
 

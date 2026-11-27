@@ -29,7 +29,7 @@ WebAssembly with Emscripten, so the game runs in a web browser.
 
 `.github/workflows/web.yml` runs on every push to `web`.
 
-* `deps` builds all dependencies listed in `web/vcpkg/packages.txt` with
+* `deps` (the only job) first builds all dependencies listed in `web/vcpkg/packages.txt` with
   `--keep-going`, so one run shows every failing port. Built ports are kept in
   the Actions cache.
 * Logs of every run are pushed to the **`ci-logs`** branch
@@ -39,11 +39,22 @@ WebAssembly with Emscripten, so the game runs in a web browser.
   git fetch --depth 1 origin ci-logs && git show origin/ci-logs:LATEST-deps
   ```
 
-Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports).
+* `web/ci/game.sh` then compiles the game with `ninja -k 0` (all errors in one
+  run; logs under `runs/<n>-game/`, see `errors-unique.txt`). ccache keeps
+  successful objects between runs.
+
+Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports):
+
+| Port | Why |
+|---|---|
+| `vcpkg-tool-meson` | never add `-pthread` with emcc, so all libraries are single threaded |
+| `glib` | `res_query()` stub, `size_t` detection with emcc, no `pthread_*_np`, no tools |
+| `pango` | no tools |
+| `boost-locale` | CMake `source_group` error |
 
 ## Status
 
-- [ ] dependencies build for wasm32
+- [x] dependencies build for wasm32
 - [ ] game client compiles
 - [ ] game starts and shows the main menu
 - [ ] tutorial is playable
