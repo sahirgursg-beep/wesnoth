@@ -110,7 +110,21 @@
   }, 15000);
 
   window.addEventListener("error", (e) => { logLine("js-error", String(e.message || e)); showError(String(e.message || e)); });
-  window.addEventListener("unhandledrejection", (e) => { logLine("js-rejection", String(e.reason && (e.reason.stack || e.reason))); });
+  function describeError(err) {
+    if (err instanceof WebAssembly.Exception && Module.getExceptionMessage) {
+      try {
+        const [type, message] = Module.getExceptionMessage(err);
+        return "C++ exception " + type + ": " + message + "\n" + (err.stack || "");
+      } catch (e) { /* fall through */ }
+    }
+    return String(err && (err.stack || err));
+  }
+  window.addEventListener("unhandledrejection", (e) => {
+    const text = describeError(e.reason);
+    logLine("js-rejection", text);
+    showError(text);
+    overlay.style.display = "flex";
+  });
 </script>
 <!-- PACKAGES -->
 <script src="wesnoth.js"></script>

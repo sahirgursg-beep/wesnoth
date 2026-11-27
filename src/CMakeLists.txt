@@ -185,6 +185,8 @@ if(ENABLE_GAME)
 			-sEXIT_RUNTIME=0
 			-sENVIRONMENT=web
 			-sEXPORTED_RUNTIME_METHODS=FS,IDBFS,callMain,addRunDependency,removeRunDependency
+			-sEXPORT_EXCEPTION_HANDLING_HELPERS=1
+			-sEXCEPTION_STACK_TRACES=1
 			-lidbfs.js
 		)
 	endif()
