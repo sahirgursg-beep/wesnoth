@@ -14,10 +14,12 @@
   #bar > div { height: 100%; width: 0; background: #c9a85a; transition: width 0.2s; }
   #error { display: none; max-width: 640px; font-size: 14px; color: #f0a0a0; white-space: pre-wrap; text-align: left; }
   #note { font-size: 12px; opacity: 0.55; max-width: 520px; }
+  #debuglog { display: none; position: fixed; right: 0; bottom: 0; width: 50vw; height: 40vh; overflow: auto; background: rgba(0,0,0,0.85); color: #9f9; font: 11px monospace; white-space: pre-wrap; z-index: 10; padding: 6px; }
 </style>
 </head>
 <body>
 <canvas id="canvas" tabindex="-1" oncontextmenu="event.preventDefault()"></canvas>
+<div id="debuglog"></div>
 <div id="overlay">
   <h1>The Battle for Wesnoth</h1>
   <div id="status">Loading…</div>
@@ -33,6 +35,20 @@
   const barEl = document.querySelector("#bar > div");
   const errorEl = document.getElementById("error");
 
+  // Every line the game prints is kept in window.wesnothLog (and shown with ?debug).
+  window.wesnothLog = [];
+  const debugEl = document.getElementById("debuglog");
+  const debugOn = new URLSearchParams(location.search).has("debug");
+  if (debugOn) { debugEl.style.display = "block"; }
+  function logLine(kind, text) {
+    window.wesnothLog.push(kind + " " + text);
+    if (window.wesnothLog.length > 5000) { window.wesnothLog.shift(); }
+    if (debugOn) {
+      debugEl.textContent += kind + " " + text + "\n";
+      debugEl.scrollTop = debugEl.scrollHeight;
+    }
+  }
+
   function showError(text) {
     errorEl.style.display = "block";
     errorEl.textContent = text;
@@ -45,9 +61,9 @@
 
   var Module = {
     canvas: document.getElementById("canvas"),
-    arguments: ["--data-dir=/wesnoth", "--userdata-dir=/userdata", "--nomusic", "--windowed"],
-    print: (text) => console.log(text),
-    printErr: (text) => console.warn(text),
+    arguments: ["--data-dir=/wesnoth", "--userdata-dir=/userdata", "--nomusic", "--windowed", "--no-log-to-file"],
+    print: (text) => { logLine("out", text); console.log(text); },
+    printErr: (text) => { logLine("err", text); console.warn(text); },
     setStatus: (text) => {
       if (!text) { return; }
       // "Downloading data... (12345/67890)"
@@ -78,7 +94,9 @@
       barEl.style.width = "100%";
       setTimeout(() => { overlay.style.display = "none"; }, 300);
     },
+    onExit: (code) => { logLine("exit", String(code)); },
     onAbort: (what) => {
+      logLine("abort", String(what));
       overlay.style.display = "flex";
       showError("The game stopped: " + what + "\nOpen the browser console (F12) for details.");
     },
@@ -91,7 +109,8 @@
     }
   }, 15000);
 
-  window.addEventListener("error", (e) => showError(String(e.message || e)));
+  window.addEventListener("error", (e) => { logLine("js-error", String(e.message || e)); showError(String(e.message || e)); });
+  window.addEventListener("unhandledrejection", (e) => { logLine("js-rejection", String(e.reason && (e.reason.stack || e.reason))); });
 </script>
 <!-- PACKAGES -->
 <script src="wesnoth.js"></script>
