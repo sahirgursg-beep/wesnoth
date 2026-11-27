@@ -1,0 +1,10 @@
+In file included from /usr/include/string.h:580,
+                 from ../lib/string.h:41,
+                 from .././../src/gperf-3-b814f52c10.clean/src/input.cc:28:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘void Input<KT>::read_input() [with KT = KeywordExt]’ at .././../src/gperf-3-b814f52c10.clean/src/input.cc:953:30:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: ‘void* __builtin___memcpy_chk(void*, const void*, long unsigned int, long unsigned int)’ specified size between 9223372036854775808 and 18446744073709551615 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~

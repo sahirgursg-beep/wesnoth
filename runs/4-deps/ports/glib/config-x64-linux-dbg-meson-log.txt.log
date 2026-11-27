@@ -1,0 +1,3063 @@
+vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp46r5xqvg/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp46r5xqvg/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "strerror_r() returns char *" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4ppxtrfk
+Code:
+
+        #define snprintf meson_disable_define_of_snprintf
+        
+        #include <limits.h>
+        #undef snprintf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char snprintf (void);
+        
+        #if defined __stub_snprintf || defined __stub___snprintf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return snprintf ();
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4ppxtrfk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4ppxtrfk/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4ppxtrfk/testfile.c:10:14: warning: conflicting types for built-in function 'snprintf'; expected 'int(char *, long unsigned int,  const char *, ...)' [-Wbuiltin-declaration-mismatch]
+   10 |         char snprintf (void);
+      |              ^~~~~~~~
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4ppxtrfk/testfile.c:5:1: note: 'snprintf' is declared in header '<stdio.h>'
+    4 |         #include <limits.h>
+  +++ |+#include <stdio.h>
+    5 |         #undef snprintf
+-----------
+Checking for function "snprintf" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqu50sk4g
+Code:
+#include <strings.h>
+#include <limits.h>
+
+        #if defined __stub_strcasecmp || defined __stub___strcasecmp
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strcasecmp;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqu50sk4g/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqu50sk4g/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "strcasecmp" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprugcjz3q
+Code:
+#include <strings.h>
+#include <limits.h>
+
+        #if defined __stub_strncasecmp || defined __stub___strncasecmp
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &strncasecmp;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprugcjz3q/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprugcjz3q/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "strncasecmp" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmph20hiy1d
+Code:
+
+        #include <sys/sysmacros.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef major
+                major;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmph20hiy1d/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmph20hiy1d/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "sys/sysmacros.h" has symbol "major" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdk0yt5l0
+Code:
+
+        #include <dlfcn.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef RTLD_LAZY
+                RTLD_LAZY;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdk0yt5l0/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdk0yt5l0/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "dlfcn.h" has symbol "RTLD_LAZY" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp851vsaji
+Code:
+
+        #include <dlfcn.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef RTLD_NOW
+                RTLD_NOW;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp851vsaji/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp851vsaji/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "dlfcn.h" has symbol "RTLD_NOW" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_qndvvch
+Code:
+
+        #include <dlfcn.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef RTLD_GLOBAL
+                RTLD_GLOBAL;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_qndvvch/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_qndvvch/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "dlfcn.h" has symbol "RTLD_GLOBAL" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8d4bz66l
+Code:
+
+        #include <dlfcn.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef RTLD_NEXT
+                RTLD_NEXT;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8d4bz66l/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8d4bz66l/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -D_GNU_SOURCE` -> 0
+Header "dlfcn.h" has symbol "RTLD_NEXT" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpex6hliwe
+Code:
+#include <sys/types.h>
+        void bar(void) {
+            (void) sizeof(loff_t);
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpex6hliwe/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpex6hliwe/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for type "loff_t" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpeg_o0p3y
+Code:
+#include <sched.h>
+#include <limits.h>
+
+        #if defined __stub_unshare || defined __stub___unshare
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &unshare;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpeg_o0p3y/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpeg_o0p3y/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -D_GNU_SOURCE` -> 0
+Checking for function "unshare" : YES 
+Message: Checking whether to use statfs or statvfs .. statfs
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7ipvjjz8
+Code:
+#define _GNU_SOURCE
+                                #include <stdlib.h>
+#include <limits.h>
+
+        #if defined __stub_mkostemp || defined __stub___mkostemp
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &mkostemp;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7ipvjjz8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7ipvjjz8/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "mkostemp" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwiz_4v2
+Code:
+#include <linux/futex.h>
+               #include <sys/syscall.h>
+               #include <unistd.h>
+               int main (int argc, char ** argv) {
+                 syscall (__NR_futex, NULL, FUTEX_WAKE, FUTEX_WAIT);
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwiz_4v2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwiz_4v2/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "futex(2) system call" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq
+Code:
+#include <linux/futex.h>
+               #include <sys/syscall.h>
+               #include <unistd.h>
+               int main (int argc, char ** argv) {
+                 syscall (__NR_futex_time64, NULL, FUTEX_WAKE, FUTEX_WAIT);
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq/testfile.c:5:27: error: '__NR_futex_time64' undeclared (first use in this function)
+    5 |                  syscall (__NR_futex_time64, NULL, FUTEX_WAKE, FUTEX_WAIT);
+      |                           ^~~~~~~~~~~~~~~~~
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp24g6rfzq/testfile.c:5:27: note: each undeclared identifier is reported only once for each function it appears in
+-----------
+Checking if "futex_time64(2) system call" compiles: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpamc0j62b
+Code:
+#include <sys/eventfd.h>
+               #include <unistd.h>
+               int main (int argc, char ** argv) {
+                 eventfd (0, EFD_CLOEXEC);
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpamc0j62b/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpamc0j62b/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "eventfd(2) system call" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb7cklt9j
+Code:
+#define _GNU_SOURCE
+               #include <poll.h>
+               #include <stddef.h>
+               int main (int argc, char ** argv) {
+                 struct pollfd fds[1] = {{0}};
+                 struct timespec ts = {0};
+                 ppoll (fds, 1, NULL, NULL);
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb7cklt9j/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb7cklt9j/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "ppoll(2) system call" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa7z4zegk
+Code:
+#include <sys/syscall.h>
+               #include <sys/wait.h>
+               #include <linux/wait.h>
+               #include <unistd.h>
+               int main (int argc, char ** argv) {
+                 siginfo_t child_info = { 0, };
+                 syscall (SYS_pidfd_open, 0, 0);
+                 waitid (P_PIDFD, 0, &child_info, WEXITED | WNOHANG);
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa7z4zegk/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa7z4zegk/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "pidfd_open(2) system call" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6kv2ih74
+Code:
+int main() {
+static __uint128_t v1 = 100;
+static __uint128_t v2 = 10;
+static __uint128_t u;
+u = v1 / v2;
+(void) u;
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6kv2ih74/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6kv2ih74/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "__uint128_t available" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpen0w0gsi
+Code:
+
+  #include <time.h>
+  struct timespec t;
+  int main (int argc, char ** argv) {
+    return clock_gettime(CLOCK_REALTIME, &t);
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpen0w0gsi/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpen0w0gsi/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "clock_gettime" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppojuiu1e
+Code:
+
+#include <dlfcn.h>
+#include <stdio.h>
+int r;
+int glib_underscore_test (void) { return 42; }
+int main (int argc, char ** argv) {
+  void *f1 = (void*)0, *f2 = (void*)0, *handle;
+  handle = dlopen ((void*)0, 0);
+  if (handle) {
+    f1 = dlsym (handle, "glib_underscore_test");
+    f2 = dlsym (handle, "_glib_underscore_test");
+  }
+  r = (!f2 || f1) ? puts ("1") : puts ("0");
+  return r > 0 ? 0 : r;
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppojuiu1e/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppojuiu1e/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "dlopen() and dlsym() in system libraries" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoue4qouz
+Code:
+#define HAVE_ALLOCA_H 1
+#define HAVE_DIRENT_H 1
+#define HAVE_FLOAT_H 1
+#define HAVE_FSTAB_H 1
+#define HAVE_FTW_H 1
+#define HAVE_GRP_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_LIMITS_H 1
+#define HAVE_LINUX_NETLINK_H 1
+#define HAVE_LOCALE_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_MNTENT_H 1
+#define HAVE_POLL_H 1
+#define HAVE_PWD_H 1
+#define HAVE_SCHED_H 1
+#define HAVE_SPAWN_H 1
+#define HAVE_STDATOMIC_H 1
+#define HAVE_STDCKDINT_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_SYS_AUXV_H 1
+#define HAVE_SYS_UIO_H 1
+#define HAVE_SYS_INOTIFY_H 1
+#define HAVE_SYS_MOUNT_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE_SYS_PRCTL_H 1
+#define HAVE_SYS_RESOURCE_H 1
+#define HAVE_SYS_SELECT_H 1
+#define HAVE_SYS_STATFS_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_STATVFS_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_SYS_TIMES_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_UIO_H 1
+#define HAVE_SYS_VFS_H 1
+#define HAVE_SYS_WAIT_H 1
+#define HAVE_SYSLOG_H 1
+#define HAVE_TERMIOS_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_VALUES_H 1
+#define HAVE_WCHAR_H 1
+#define HAVE_MALLOC_H 1
+#define HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC 1
+#define HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC 1
+#define HAVE_STRUCT_STAT_ST_CTIM_TV_NSEC 1
+#define HAVE_STRUCT_STAT_ST_BLKSIZE 1
+#define HAVE_STRUCT_STAT_ST_BLOCKS 1
+#define HAVE_STRUCT_STATFS_F_BAVAIL 1
+#define HAVE_STRUCT_DIRENT_D_TYPE 1
+#define HAVE_STRUCT_STATVFS_F_TYPE 1
+#define HAVE_STRUCT_TM_TM_GMTOFF 1
+#define HAVE_ACCEPT4 1
+#define HAVE_CLOSE_RANGE 1
+#define HAVE_COPY_FILE_RANGE 1
+#define HAVE_ENDMNTENT 1
+#define HAVE_ENDSERVENT 1
+#define HAVE_EPOLL_CREATE1 1
+#define HAVE_FACCESSAT 1
+#define HAVE_FALLOCATE 1
+#define HAVE_FCHMOD 1
+#define HAVE_FCHOWN 1
+#define HAVE_FREE_ALIGNED_SIZED 1
+#define HAVE_FREE_SIZED 1
+#define HAVE_FSYNC 1
+#define HAVE_FTRUNCATE64 1
+#define HAVE_GETAUXVAL 1
+#define HAVE_GETC_UNLOCKED 1
+#define HAVE_GETFSENT 1
+#define HAVE_GETGRGID_R 1
+#define HAVE_GETIFADDRS 1
+#define HAVE_GETMNTENT_R 1
+#define HAVE_GETPWNAM_R 1
+#define HAVE_GETPWUID_R 1
+#define HAVE_GETRESUID 1
+#define HAVE_GMTIME_R 1
+#define HAVE_HASMNTOPT 1
+#define HAVE_INOTIFY_INIT1 1
+#define HAVE_LCHMOD 1
+#define HAVE_LCHOWN 1
+#define HAVE_LINK 1
+#define HAVE_LOCALTIME_R 1
+#define HAVE_LSTAT 1
+#define HAVE_MBRTOWC 1
+#define HAVE_MEMALIGN 1
+#define HAVE_MEMMEM 1
+#define HAVE_MMAP 1
+#define HAVE_NEWLOCALE 1
+#define HAVE_PIPE2 1
+#define HAVE_POLL 1
+#define HAVE_PRLIMIT 1
+#define HAVE_READLINK 1
+#define HAVE_RECVMMSG 1
+#define HAVE_SENDMMSG 1
+#define HAVE_SETENV 1
+#define HAVE_SETMNTENT 1
+#define HAVE_STRERROR_R 1
+#define HAVE_STRNLEN 1
+#define HAVE_STRSIGNAL 1
+#define HAVE_STRTOD_L 1
+#define HAVE_STRTOLL_L 1
+#define HAVE_STRTOULL_L 1
+#define HAVE_SYMLINK 1
+#define HAVE_TIMEGM 1
+#define HAVE_UNSETENV 1
+#define HAVE_USELOCALE 1
+#define HAVE_UTIMES 1
+#define HAVE_UTIMENSAT 1
+#define HAVE_VALLOC 1
+#define HAVE_VASPRINTF 1
+#define HAVE_VSNPRINTF 1
+#define HAVE_WCRTOMB 1
+#define HAVE_WCSLEN 1
+#define HAVE_WCSNLEN 1
+#define HAVE_STATVFS 1
+#define HAVE_STATFS 1
+#define HAVE_PRCTL 1
+#define HAVE_IF_INDEXTONAME 1
+#define HAVE_IF_NAMETOINDEX 1
+#define HAVE_SPLICE 1
+#define HAVE_SYSINFO 1
+#define HAVE_SNPRINTF 1
+#define HAVE_STRCASECMP 1
+#define HAVE_STRNCASECMP 1
+
+                 #include <unistd.h>
+                        #ifdef HAVE_SYS_PARAM_H
+                        #include <sys/param.h>
+                        #endif
+                        #ifdef HAVE_SYS_VFS_H
+                        #include <sys/vfs.h>
+                        #endif
+                        #ifdef HAVE_SYS_MOUNT_H
+                        #include <sys/mount.h>
+                        #endif
+                        #ifdef HAVE_SYS_STATFS_H
+                        #include <sys/statfs.h>
+                        #endif
+                        void some_func (void) {
+                          struct statfs st;
+                          statfs("/", &st);
+                        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoue4qouz/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoue4qouz/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "number of arguments to statfs() (n=2)" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcgm12h0v
+Code:
+#include <fcntl.h>
+                  #include <sys/types.h>
+                  #include <sys/stat.h>
+                  void some_func (void) {
+                    open(".", O_DIRECTORY, 0);
+                  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcgm12h0v/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcgm12h0v/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "open() option O_DIRECTORY" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0
+Code:
+#include <fcntl.h>
+                  #include <sys/types.h>
+                  #include <sys/stat.h>
+                  void some_func (void) {
+                    fcntl(0, F_FULLFSYNC, 0);
+                  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0/testfile.c: In function 'some_func':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0/testfile.c:5:30: error: 'F_FULLFSYNC' undeclared (first use in this function)
+    5 |                     fcntl(0, F_FULLFSYNC, 0);
+      |                              ^~~~~~~~~~~
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkz50lfs0/testfile.c:5:30: note: each undeclared identifier is reported only once for each function it appears in
+-----------
+Checking if "fcntl() option F_FULLFSYNC" compiles: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7zk9jtzw
+Code:
+
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
+
+int
+doit(char * s, ...)
+{
+  char buffer[32];
+  va_list args;
+  int r;
+
+  va_start(args, s);
+  r = vsnprintf(buffer, 5, s, args);
+  va_end(args);
+
+  if (r != 7)
+    exit(1);
+
+  /* AIX 5.1 and Solaris seems to have a half-baked vsnprintf()
+     implementation. The above will return 7 but if you replace
+     the size of the buffer with 0, it borks! */
+  va_start(args, s);
+  r = vsnprintf(buffer, 0, s, args);
+  va_end(args);
+
+  if (r != 7)
+    exit(1);
+
+  exit(0);
+}
+
+int
+main(void)
+{
+  doit("1234567");
+  exit(1);
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7zk9jtzw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7zk9jtzw/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "C99 vsnprintf" runs: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq
+Code:
+
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
+
+int
+doit()
+{
+  char buffer[32];
+  int r;
+
+  r = snprintf(buffer, 5, "1234567");
+
+  if (r != 7)
+    exit(1);
+
+  r = snprintf(buffer, 0, "1234567");
+
+  if (r != 7)
+    exit(1);
+
+  r = snprintf(NULL, 0, "1234567");
+
+  if (r != 7)
+    exit(1);
+
+  exit(0);
+}
+
+int
+main(void)
+{
+  doit();
+  exit(1);
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq/testfile.c: In function 'doit':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq/testfile.c:12:33: warning: '1234567' directive output truncated writing 7 bytes into a region of size 5 [-Wformat-truncation=]
+   12 |   r = snprintf(buffer, 5, "1234567");
+      |                            ~~~~~^~
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_v2c37sq/testfile.c:12:7: note: 'snprintf' output 8 bytes into a destination of size 5
+   12 |   r = snprintf(buffer, 5, "1234567");
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "C99 snprintf" runs: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s
+Code:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int
+main (void)
+{
+  char buffer[128];
+
+  sprintf (buffer, "%2\$d %3\$d %1\$d", 1, 2, 3);
+  if (strcmp ("2 3 1", buffer) == 0)
+    exit (0);
+  exit (1);
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/testfile.c:11:39: warning: unknown escape sequence: '\$'
+   11 |   sprintf (buffer, "%2\$d %3\$d %1\$d", 1, 2, 3);
+      |                                       ^
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/testfile.c:11:39: warning: unknown escape sequence: '\$'
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdmc_ni9s/testfile.c:11:39: warning: unknown escape sequence: '\$'
+-----------
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "Unix98 printf positional parameters" runs: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpj617u3or
+Code:
+#include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *codeset = nl_langinfo (CODESET);
+                 (void) codeset;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpj617u3or/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpj617u3or/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo and CODESET" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0yuq7gn3
+Code:
+#include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *str;
+                 str = nl_langinfo (PM_STR);
+                 str = nl_langinfo (D_T_FMT);
+                 str = nl_langinfo (D_FMT);
+                 str = nl_langinfo (T_FMT);
+                 str = nl_langinfo (T_FMT_AMPM);
+                 str = nl_langinfo (MON_1);
+                 str = nl_langinfo (ABMON_12);
+                 str = nl_langinfo (DAY_1);
+                 str = nl_langinfo (ABDAY_7);
+                 (void) str;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0yuq7gn3/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0yuq7gn3/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo (PM_STR)" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqsd8172q
+Code:
+#include <langinfo.h>
+               int main (int argc, char **argv) {
+                 char *str;
+                 str = nl_langinfo (ERA);
+                 str = nl_langinfo (ERA_D_T_FMT);
+                 str = nl_langinfo (ERA_D_FMT);
+                 str = nl_langinfo (ERA_T_FMT);
+                 str = nl_langinfo (_NL_TIME_ERA_NUM_ENTRIES);
+                 (void) str;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqsd8172q/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpqsd8172q/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo (ERA)" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpr2p9sp5i
+Code:
+#include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *str;
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT0_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT1_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT2_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT3_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT4_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT5_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT6_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT7_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT8_MB);
+                 str = nl_langinfo (_NL_CTYPE_OUTDIGIT9_MB);
+                 (void) str;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpr2p9sp5i/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpr2p9sp5i/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo (_NL_CTYPE_OUTDIGITn_MB)" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpd8qvw2zb
+Code:
+#ifndef _GNU_SOURCE
+              # define _GNU_SOURCE
+              #endif
+              #include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *str;
+                 str = nl_langinfo (ALTMON_1);
+                 str = nl_langinfo (ALTMON_2);
+                 str = nl_langinfo (ALTMON_3);
+                 str = nl_langinfo (ALTMON_4);
+                 str = nl_langinfo (ALTMON_5);
+                 str = nl_langinfo (ALTMON_6);
+                 str = nl_langinfo (ALTMON_7);
+                 str = nl_langinfo (ALTMON_8);
+                 str = nl_langinfo (ALTMON_9);
+                 str = nl_langinfo (ALTMON_10);
+                 str = nl_langinfo (ALTMON_11);
+                 str = nl_langinfo (ALTMON_12);
+                 (void) str;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpd8qvw2zb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpd8qvw2zb/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo (ALTMON_n)" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjlb85uu_
+Code:
+#ifndef _GNU_SOURCE
+              # define _GNU_SOURCE
+              #endif
+              #include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *str;
+                 str = nl_langinfo (_NL_ABALTMON_1);
+                 str = nl_langinfo (_NL_ABALTMON_2);
+                 str = nl_langinfo (_NL_ABALTMON_3);
+                 str = nl_langinfo (_NL_ABALTMON_4);
+                 str = nl_langinfo (_NL_ABALTMON_5);
+                 str = nl_langinfo (_NL_ABALTMON_6);
+                 str = nl_langinfo (_NL_ABALTMON_7);
+                 str = nl_langinfo (_NL_ABALTMON_8);
+                 str = nl_langinfo (_NL_ABALTMON_9);
+                 str = nl_langinfo (_NL_ABALTMON_10);
+                 str = nl_langinfo (_NL_ABALTMON_11);
+                 str = nl_langinfo (_NL_ABALTMON_12);
+                 (void) str;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjlb85uu_/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjlb85uu_/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo (_NL_ABALTMON_n)" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpiwqfjgi7
+Code:
+#include <langinfo.h>
+               int main (int argc, char ** argv) {
+                 char *codeset = nl_langinfo (_NL_TIME_CODESET);
+                 (void) codeset;
+                 return 0;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpiwqfjgi7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpiwqfjgi7/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "nl_langinfo and _NL_TIME_CODESET" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp3r6bmyw2
+Code:
+signed char x;
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp3r6bmyw2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp3r6bmyw2/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "signed" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmp74c4j6
+Code:
+
+        #include <stddef.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef ptrdiff_t
+                ptrdiff_t;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmp74c4j6/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmp74c4j6/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmp74c4j6/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmp74c4j6/testfile.c:6:17: warning: useless type name in empty declaration
+    6 |                 ptrdiff_t;
+      |                 ^~~~~~~~~
+-----------
+Header "stddef.h" has symbol "ptrdiff_t" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprtlfg4u5
+Code:
+#include <signal.h>
+               #include <sys/types.h>
+               sig_atomic_t val = 42;
+               int main (int argc, char ** argv) {
+                 return val == 42 ? 0 : 1;
+               }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprtlfg4u5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprtlfg4u5/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "sig_atomic_t" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyt5ukped
+Code:
+long long ll = 1LL;
+                  int i = 63;
+                  int some_func (void) {
+                    long long llmax = (long long) -1;
+                    return ll << i | ll >> i | llmax / ll | llmax % ll;
+                  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyt5ukped/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyt5ukped/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "long long" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk6bfedjo
+Code:
+/* The Stardent Vistra knows sizeof(long double), but does not support it.  */
+                  long double foo = 0.0;
+                  /* On Ultrix 4.3 cc, long double is 4 and double is 8.  */
+                  int array [2*(sizeof(long double) >= sizeof(double)) - 1];
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk6bfedjo/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk6bfedjo/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "long double" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5se2_ogv
+Code:
+
+        #include <stddef.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef wchar_t
+                wchar_t;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5se2_ogv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5se2_ogv/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5se2_ogv/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5se2_ogv/testfile.c:6:17: warning: useless type name in empty declaration
+    6 |                 wchar_t;
+      |                 ^~~~~~~
+-----------
+Header "stddef.h" has symbol "wchar_t" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphjj176av
+Code:
+
+        #include <wchar.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef wint_t
+                wint_t;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphjj176av/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphjj176av/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphjj176av/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphjj176av/testfile.c:6:17: warning: useless type name in empty declaration
+    6 |                 wint_t;
+      |                 ^~~~~~
+-----------
+Header "wchar.h" has symbol "wint_t" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx15b2e_x
+Code:
+#include <sys/types.h>
+                  #include <inttypes.h>
+                  void some_func (void) {
+                    uintmax_t i = (uintmax_t) -1;
+                    (void) i;
+                  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx15b2e_x/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx15b2e_x/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "uintmax_t in inttypes.h" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp73kiv7v7
+Code:
+#include <sys/types.h>
+                  #include <stdint.h>
+                  void some_func (void) {
+                    uintmax_t i = (uintmax_t) -1;
+                    (void) i;
+                  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp73kiv7v7/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp73kiv7v7/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "uintmax_t in stdint.h" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmposcmriqe
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(char)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmposcmriqe/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmposcmriqe/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+1
+
+Program stderr:
+
+
+Checking for size of "char" : 1 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdjdd_aan
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(short)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdjdd_aan/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdjdd_aan/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+2
+
+Program stderr:
+
+
+Checking for size of "short" : 2 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzo3ozaqu
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(int)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzo3ozaqu/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzo3ozaqu/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Checking for size of "int" : 4 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprpkp_4sd
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void*)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprpkp_4sd/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprpkp_4sd/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "void*" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1et6b_dz
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(long)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1et6b_dz/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1et6b_dz/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "long" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphcej4ws4
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(long long)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphcej4ws4/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphcej4ws4/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "long long" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8parqc46
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(size_t)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8parqc46/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp8parqc46/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "size_t" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn99ax5ju
+Code:
+#include <unistd.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(ssize_t)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn99ax5ju/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn99ax5ju/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "ssize_t" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpffdgzv49
+Code:
+#if defined(_AIX) && !defined(__GNUC__)
+                    #pragma options langlvl=stdc99
+                    #endif
+                    #pragma GCC diagnostic error "-Wincompatible-pointer-types"
+                    #include <stdint.h>
+                    #include <stdio.h>
+                    int main () {
+                      int64_t i1 = 1;
+                      long *i2 = &i1;
+                      (void) i2;
+                      return 1;
+                    }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpffdgzv49/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpffdgzv49/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "int64_t is long" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy80yq2jl
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            char target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy80yq2jl/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy80yq2jl/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+1
+Program stderr:
+
+
+Checking for alignment of "char" : 1 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwwvrgpeh
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            short target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwwvrgpeh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwwvrgpeh/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+2
+Program stderr:
+
+
+Checking for alignment of "short" : 2 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn3nnsvfx
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            int target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn3nnsvfx/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpn3nnsvfx/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+4
+Program stderr:
+
+
+Checking for alignment of "int" : 4 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo08fw3kw
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            void* target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo08fw3kw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo08fw3kw/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+Program stderr:
+
+
+Checking for alignment of "void*" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdbvqpxvh
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            long target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdbvqpxvh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdbvqpxvh/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+Program stderr:
+
+
+Checking for alignment of "long" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwtnq94sy
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            long long target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwtnq94sy/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwtnq94sy/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+Program stderr:
+
+
+Checking for alignment of "long long" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp54wa852u
+Code:
+
+        #include <stdio.h>
+        #include <stddef.h>
+        struct tmp {
+            char c;
+            size_t target;
+        };
+        int main(void) {
+            printf("%d", (int)offsetof(struct tmp, target));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp54wa852u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp54wa852u/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+Program stderr:
+
+
+Checking for alignment of "size_t" : 8 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9ryr2hvh
+Code:
+#include <stddef.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(wchar_t)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9ryr2hvh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9ryr2hvh/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Checking for size of "wchar_t" : 4 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpsswk9bb_
+Code:
+#include <stddef.h>
+        static size_t f (size_t *i) { return *i + 1; }
+        int main (void) {
+          unsigned long i = 0;
+          f (&i);
+          return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpsswk9bb_/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpsswk9bb_/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -Werror` -> 0
+Checking if "GCC size_t typedef is long" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d
+Code:
+#include <stddef.h>
+        static size_t f (size_t *i) { return *i + 1; }
+        int main (void) {
+          unsigned long long i = 0;
+          f (&i);
+          return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -Werror` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d/testfile.c:5:14: error: passing argument 1 of 'f' from incompatible pointer type [-Wincompatible-pointer-types]
+    5 |           f (&i);
+      |              ^~
+      |              |
+      |              long long unsigned int *
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzi4if68d/testfile.c:2:34: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'long long unsigned int *'
+    2 |         static size_t f (size_t *i) { return *i + 1; }
+      |                          ~~~~~~~~^
+-----------
+Checking if "GCC size_t typedef is long long" compiles: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq
+Code:
+
+  #include <stdarg.h>
+  #include <stdlib.h>
+  void f (int i, ...) {
+    va_list args1, args2;
+    va_start (args1, i);
+    args2 = args1;
+    if (va_arg (args2, int) != 42 || va_arg (args1, int) != 42)
+      exit (1);
+    va_end (args1); va_end (args2);
+  }
+  int main() {
+    f (0, 42);
+    return 0;
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq/testfile.c: In function 'f':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq/testfile.c:7:11: error: assignment to expression with array type
+    7 |     args2 = args1;
+      |           ^
+-----------
+Could not compile test file /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpk_ix33hq/testfile.c: 1
+
+Checking if "va_lists can be copied as values" runs: DID NOT COMPILE
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1rm3s47l
+Code:
+
+  void some_func (void) {
+    int a(int p1, int p2, int p3);
+    #define call_a(...) a(1,__VA_ARGS__)
+    call_a(2,3);
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1rm3s47l/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1rm3s47l/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "ISO C99 varargs macros in C" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi5i38r2c
+Code:
+
+    void some_func (void) {
+      int a(int p1, int p2, int p3);
+      #define call_a(...) a(1,__VA_ARGS__)
+      call_a(2,3);
+    }
+-----------
+Command line: `/usr/bin/c++ -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi5i38r2c/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi5i38r2c/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -fpermissive` -> 0
+Checking if "ISO C99 varargs macros in C++" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzrmmr_1h
+Code:
+
+  void some_func (void) {
+    int a(int p1, int p2, int p3);
+    #define call_a(params...) a(1,params)
+    call_a(2,3);
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzrmmr_1h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzrmmr_1h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "GNUC varargs macros" compiles: YES 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdj57bo6c/testfile.c -E -P -fPIC -g -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("alloca.h")
+          #error "Header 'alloca.h' could not be found"
+         #endif
+        #else
+         #include <alloca.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "alloca.h" : YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwtve4bye
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("sys/poll.h")
+          #error "Header 'sys/poll.h' could not be found"
+         #endif
+        #else
+         #include <sys/poll.h>
+        #endif
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpwtve4bye/testfile.c -E -P -fPIC -g -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 0
+Has header "sys/poll.h" : YES 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo38fdki7/testfile.c -E -P -fPIC -g -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/types.h")
+          #error "Header 'sys/types.h' could not be found"
+         #endif
+        #else
+         #include <sys/types.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/types.h" : YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7mmulv5
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("winsock2.h")
+          #error "Header 'winsock2.h' could not be found"
+         #endif
+        #else
+         #include <winsock2.h>
+        #endif
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7mmulv5/testfile.c -E -P -fPIC -g -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7mmulv5/testfile.c:4:12: error: #error "Header 'winsock2.h' could not be found"
+    4 |           #error "Header 'winsock2.h' could not be found"
+      |            ^~~~~
+-----------
+Has header "winsock2.h" : NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjbhavjhb
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLIN));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjbhavjhb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpjbhavjhb/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+1
+
+Program stderr:
+
+
+Computing int of "POLLIN" : 1
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0v8_5lp4
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLOUT));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0v8_5lp4/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0v8_5lp4/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Computing int of "POLLOUT" : 4
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0ljlwyii
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLPRI));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0ljlwyii/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0ljlwyii/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+2
+
+Program stderr:
+
+
+Computing int of "POLLPRI" : 2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo2mxjiec
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLERR));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo2mxjiec/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpo2mxjiec/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Computing int of "POLLERR" : 8
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp89vf2rwy
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLHUP));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp89vf2rwy/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp89vf2rwy/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+16
+
+Program stderr:
+
+
+Computing int of "POLLHUP" : 16
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu4f04h69
+Code:
+
+      #include<sys/poll.h>
+      #include<sys/types.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(POLLNVAL));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu4f04h69/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu4f04h69/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+32
+
+Program stderr:
+
+
+Computing int of "POLLNVAL" : 32
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyk5_o92a
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(AF_UNIX));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyk5_o92a/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyk5_o92a/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+1
+
+Program stderr:
+
+
+Computing int of "AF_UNIX" : 1
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphzkrlmea
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(AF_INET));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphzkrlmea/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmphzkrlmea/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+2
+
+Program stderr:
+
+
+Computing int of "AF_INET" : 2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy9q85vh1
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(AF_INET6));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy9q85vh1/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpy9q85vh1/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+10
+
+Program stderr:
+
+
+Computing int of "AF_INET6" : 10
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp95qs6oiv
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(MSG_OOB));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp95qs6oiv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp95qs6oiv/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+1
+
+Program stderr:
+
+
+Computing int of "MSG_OOB" : 1
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkphsqwxm
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(MSG_PEEK));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkphsqwxm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkphsqwxm/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+2
+
+Program stderr:
+
+
+Computing int of "MSG_PEEK" : 2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuklq7ue1
+Code:
+
+      #include <sys/types.h>
+      #include <sys/socket.h>
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(MSG_DONTROUTE));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuklq7ue1/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuklq7ue1/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Computing int of "MSG_DONTROUTE" : 4
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkfcqxdem
+Code:
+#include <netinet/in.h>
+        void bar(void) {
+            (void) sizeof(struct in6_addr);
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkfcqxdem/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkfcqxdem/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for type "struct in6_addr" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprjzt9j8j
+Code:
+int main() {
+  int atomic = 2;
+  __sync_bool_compare_and_swap (&atomic, 2, 3);
+  return 0;
+}
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprjzt9j8j/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprjzt9j8j/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "atomic ops" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1g32i69f
+Code:
+
+#ifndef __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4
+#error "compiler has atomic ops, but doesn't define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4"
+#endif
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1g32i69f/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1g32i69f/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "atomic ops define" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7c16kpv
+Code:
+
+      int main() {
+        int atomic = 2;
+        __sync_swap (&atomic, 2);
+        return 0;
+      }
+    
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7c16kpv/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7c16kpv/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7c16kpv/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpv7c16kpv/testfile.c:4:9: error: implicit declaration of function '__sync_swap' [-Wimplicit-function-declaration]
+    4 |         __sync_swap (&atomic, 2);
+      |         ^~~~~~~~~~~
+-----------
+Checking if "sync swap" links: NO 
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb9t0bnjy
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_attr_setstacksize
+                pthread_attr_setstacksize;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb9t0bnjy/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb9t0bnjy/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "pthread.h" has symbol "pthread_attr_setstacksize" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi23o8rec
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_attr_setinheritsched
+                pthread_attr_setinheritsched;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi23o8rec/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpi23o8rec/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "pthread.h" has symbol "pthread_attr_setinheritsched" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa354rb3c
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_condattr_setclock
+                pthread_condattr_setclock;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa354rb3c/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpa354rb3c/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "pthread.h" has symbol "pthread_condattr_setclock" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc
+Code:
+
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_cond_timedwait_relative_np
+                pthread_cond_timedwait_relative_np;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc/testfile.c:6:17: error: 'pthread_cond_timedwait_relative_np' undeclared (first use in this function); did you mean 'pthread_cond_timedwait'?
+    6 |                 pthread_cond_timedwait_relative_np;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 pthread_cond_timedwait
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpf65na6yc/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+-----------
+Header "pthread.h" has symbol "pthread_cond_timedwait_relative_np" : NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvdjydoq3
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_getname_np
+                pthread_getname_np;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvdjydoq3/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvdjydoq3/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "pthread.h" has symbol "pthread_getname_np" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpbvi7ctp8
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+        #include <pthread.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef pthread_getaffinity_np
+                pthread_getaffinity_np;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpbvi7ctp8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpbvi7ctp8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "pthread.h" has symbol "pthread_getaffinity_np" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+              int main() {
+                pthread_setname_np("example");
+                return 0;
+              }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/output.exe -pthread -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/testfile.c:7:36: error: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
+    7 |                 pthread_setname_np("example");
+      |                                    ^~~~~~~~~
+      |                                    |
+      |                                    char *
+In file included from /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/testfile.c:5:
+/usr/include/pthread.h:463:42: note: expected 'pthread_t' {aka 'long unsigned int'} but argument is of type 'char *'
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4rgbykek/testfile.c:7:17: error: too few arguments to function 'pthread_setname_np'; expected 2, have 1
+    7 |                 pthread_setname_np("example");
+      |                 ^~~~~~~~~~~~~~~~~~
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+-----------
+Checking if "pthread_setname_np(const char*)" with dependency threads links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmplw2mneui
+Code:
+
+      #ifndef _GNU_SOURCE
+      # define _GNU_SOURCE
+      #endif
+      #include <pthread.h>
+                int main() {
+                  pthread_setname_np(pthread_self(), "example");
+                  return 0;
+                }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmplw2mneui/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmplw2mneui/output.exe -pthread -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "pthread_setname_np(pthread_t, const char*)" with dependency threads links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzkuojqdf
+Code:
+
+  volatile int *a = 0, *b = 0;
+  void f (int i) {
+    volatile int x = 5;
+    if (i == 0)
+      b = &x;
+    else
+      f (i - 1);
+  }
+  int main () {
+    volatile int y = 7;
+    a = &y;
+    f (100);
+    return b > a ? 0 : 1;
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzkuojqdf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzkuojqdf/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "stack grows check" runs: NO (1)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1gt5ufjw
+Code:
+#include <iconv.h>
+
+int main() {
+    iconv_open("","");
+}
+-----------
+Command line: `/usr/bin/c++ -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1gt5ufjw/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1gt5ufjw/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -fpermissive` -> 0
+Run-time dependency iconv found: YES
+Pkg-config binary for host machine specified from cross file, native file, or env var as ['/bin/pkg-config']
+Found pkg-config: YES (/bin/pkg-config) 2.5.1
+Determining dependency 'libpcre2-8' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libpcre2-8` -> 0
+stdout:
+10.47
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags libpcre2-8` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include -DPCRE2_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libpcre2-8` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lpcre2-8
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libpcre2-8` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lpcre2-8
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu6fevrdg
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/c++ -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu6fevrdg/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpu6fevrdg/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -fpermissive` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpgwuq4s9i
+Code:
+
+-----------
+Command line: `/usr/bin/c++ -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpgwuq4s9i/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpgwuq4s9i/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/15/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/15/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/15/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency libpcre2-8 found: YES 10.47
+
+Executing subproject gvdb 
+
+Project name: gvdb
+Project version: 0.0
+C compiler for the host machine: /usr/bin/cc -fPIC -g (gcc 15.2.0 "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0")
+C linker for the host machine: /usr/bin/cc -fPIC -g ld.bfd 2.46
+C compiler for the build machine: /usr/bin/cc -fPIC -g (gcc 15.2.0 "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0")
+C linker for the build machine: /usr/bin/cc -fPIC -g ld.bfd 2.46
+Build targets in project: 0
+Subproject gvdb finished.
+
+Dependency gvdb found: YES 0.0 (overridden)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp30ai2r9s
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp30ai2r9s/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp30ai2r9s/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+Determining dependency 'libffi' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libffi` -> 0
+stdout:
+3.8.0
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags libffi` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lffi
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs libffi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lffi
+-----------
+Run-time dependency libffi found: YES 3.8.0
+Determining dependency 'zlib' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion zlib` -> 0
+stdout:
+1.3.2
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags zlib` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs zlib` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib -lz
+-----------
+Run-time dependency zlib found: YES 1.3.2
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1d4xn0__
+Code:
+
+  int main (int argc, char ** argv) {
+    return 0;
+  }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1d4xn0__/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp1d4xn0__/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99 -latomic` -> 0
+Checking if "check for -latomic" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpl8iyxwtg
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpl8iyxwtg/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpl8iyxwtg/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -latomic -Wl,--allow-shlib-undefined` -> 0
+Library atomic found: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6l2nfdp_
+Code:
+#include <libintl.h>
+
+int main() {
+    gettext("Hello world");
+}
+-----------
+Command line: `/usr/bin/c++ -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6l2nfdp_/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6l2nfdp_/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -fpermissive` -> 0
+Run-time dependency intl found: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6r9qyjtb
+Code:
+#include <libintl.h>
+#include <limits.h>
+
+        #if defined __stub_bind_textdomain_codeset || defined __stub___bind_textdomain_codeset
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &bind_textdomain_codeset;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6r9qyjtb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp6r9qyjtb/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "bind_textdomain_codeset" with dependency intl: YES 
+Dependency mount skipped: feature libmount disabled
+Dependency libselinux skipped: feature selinux disabled
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpss0hj6my
+Code:
+
+        #define strlcpy meson_disable_define_of_strlcpy
+        
+        #include <limits.h>
+        #undef strlcpy
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strlcpy (void);
+        
+        #if defined __stub_strlcpy || defined __stub___strlcpy
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strlcpy ();
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpss0hj6my/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpss0hj6my/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "strlcpy" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp91e2t2hs
+Code:
+#include <stdlib.h>
+                    #include <string.h>
+                    int main() {
+                      char p[10];
+                      (void) strlcpy (p, "hi", 10);
+                      if (strlcat (p, "bye", 0) != 3)
+                        return 1;
+                      return 0;
+                    }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp91e2t2hs/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp91e2t2hs/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "OpenBSD strlcpy/strlcat" runs: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzy03bxsr
+Code:
+
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+static int
+__getcmdline (void)
+{
+/* This code is a dumbed-down version of g_file_get_contents() */
+#ifndef O_BINARY
+#define O_BINARY 0
+#endif
+#define BUFSIZE 1024
+  char result[BUFSIZE];
+  struct stat stat_buf;
+
+  int fd = open ("/proc/self/cmdline", O_RDONLY|O_BINARY);
+  if (fd < 0)
+    exit (1);
+  if (fstat (fd, &stat_buf))
+    exit (1);
+
+  if (stat_buf.st_size > 0 && S_ISREG (stat_buf.st_mode))
+    {
+      if (read (fd, result, BUFSIZE) <= 0)
+        exit (1);
+    }
+  else
+    {
+      FILE *f = fdopen (fd, "r");
+      if (f == NULL)
+        exit (1);
+
+      if (fread (result, 1, BUFSIZE, f) <= 0)
+        exit (1);
+    }
+
+  return 0;
+}
+
+int
+main (void)
+{
+  exit (__getcmdline ());
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzy03bxsr/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpzy03bxsr/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+
+Program stderr:
+
+
+Checking if "/proc/self/cmdline" runs: YES
+Program python3 found: YES (/usr/bin/python3)
+Program bash found: YES (/usr/bin/bash)
+Determining dependency 'bash-completion' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion bash-completion` -> 0
+stdout:
+2.16.0
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags bash-completion` -> 0
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs bash-completion` -> 0
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs bash-completion` -> 0
+Run-time dependency bash-completion found: YES 2.16.0
+Program sh found: YES (/usr/bin/sh)
+Program pkg-config found: YES
+Program env found: YES (/usr/bin/env)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4m2a34s4
+Code:
+
+        #include <sys/ptrace.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef PTRACE_O_EXITKILL
+                PTRACE_O_EXITKILL;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4m2a34s4/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp4m2a34s4/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Header "sys/ptrace.h" has symbol "PTRACE_O_EXITKILL" : YES 
+Program g-ir-scanner skipped: feature introspection disabled
+Dependency gobject-introspection-1.0 skipped: feature introspection disabled
+Configuring glib-gettextize using configuration
+Program gen-visibility-macros.py found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-230aca9a3a.clean/tools/gen-visibility-macros.py)
+Configuring glibconfig.h using configuration
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyngor34b
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyngor34b/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyngor34b/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wsign-conversion -Wno-sign-conversion` -> 0
+Compiler for C supports arguments -Wno-sign-conversion: YES 
+Dependency sysprof-capture-4 skipped: feature sysprof disabled
+Configuring gtester-report using configuration
+Configuring libglib-2.0.so.0.8800.3-gdb.py using configuration
+Configuring glib-genmarshal using configuration
+Program glib-genmarshal found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gobject/glib-genmarshal)
+Configuring glib-mkenums using configuration
+Program glib-mkenums found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gobject/glib-mkenums)
+Configuring libgobject-2.0.so.0.8800.3-gdb.py using configuration
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9zvif8hf
+Code:
+
+#include <dlfcn.h>
+#include <stdio.h>
+int r;
+int glib_underscore_test (void) { return 42; }
+int main (int argc, char ** argv) {
+  void *f1 = (void*)0, *f2 = (void*)0, *handle;
+  handle = dlopen ((void*)0, 0);
+  if (handle) {
+    f1 = dlsym (handle, "glib_underscore_test");
+    f2 = dlsym (handle, "_glib_underscore_test");
+  }
+  r = (!f2 || f1) ? puts ("1") : puts ("0");
+  return r > 0 ? 0 : r;
+}
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9zvif8hf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9zvif8hf/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Program stdout:
+
+1
+
+Program stderr:
+
+
+Checking if "dlsym() preceding underscores" runs: YES
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyq25kovm
+Code:
+
+        #define dlerror meson_disable_define_of_dlerror
+        
+        #include <limits.h>
+        #undef dlerror
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char dlerror (void);
+        
+        #if defined __stub_dlerror || defined __stub___dlerror
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return dlerror ();
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyq25kovm/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyq25kovm/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for function "dlerror" : YES 
+Configuring gmoduleconf.h using configuration
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoxalq4wf
+Code:
+#include <sys/types.h>
+                        #include <arpa/nameser.h>
+                        int qclass = C_IN;
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoxalq4wf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpoxalq4wf/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "C_IN in public headers (no arpa/nameser_compat.h needed)" compiles: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkm97rb_0
+Code:
+#include <sys/types.h>
+                           #include <netinet/in.h>
+                           #include <arpa/nameser.h>
+                        #include <resolv.h>
+                      int main (int argc, char ** argv) {
+                        return res_query("test", 0, 0, (void *)0, 0);
+                      }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkm97rb_0/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkm97rb_0/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "res_query()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmlktka9x
+Code:
+#include <sys/types.h>
+                   #include <sys/socket.h>
+                   int main (int argc, char ** argv) {
+                     return socket(1, 2, 3);
+                   }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmlktka9x/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpmlktka9x/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "socket()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpri5ncvqf
+Code:
+#include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   return dn_comp(NULL, NULL, 0, NULL, NULL) == -1;
+                 } 
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpri5ncvqf/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpri5ncvqf/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "dn_comp()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppnfzt61p
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   res_nclose(&res);
+                   return 0;
+                 }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppnfzt61p/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppnfzt61p/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "res_nclose()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_x25nywh
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   res_ndestroy(&res);
+                   return 0;
+                 }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_x25nywh/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_x25nywh/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_x25nywh/testfile.c: In function 'main':
+/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp_x25nywh/testfile.c:7:20: error: implicit declaration of function 'res_ndestroy' [-Wimplicit-function-declaration]
+    7 |                    res_ndestroy(&res);
+      |                    ^~~~~~~~~~~~
+-----------
+Checking if "res_ndestroy()" links: NO 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx76kur0h
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   return res_ninit(&res);
+                 }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx76kur0h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpx76kur0h/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "res_ninit()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0qn6t__y
+Code:
+#include <sys/types.h>
+                 #include <netinet/in.h>
+                 #include <arpa/nameser.h>
+                 #include <resolv.h>
+                 int main (int argc, char ** argv) {
+                   struct __res_state res;
+                   return res_nquery(&res, "test", 0, 0, (void *)0, 0);
+                 }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0qn6t__y/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp0qn6t__y/output.exe -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "res_nquery()" links: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp46mjzyz5
+Code:
+#include <netinet/in.h>
+        void bar(void) {
+            (void) sizeof(struct ip_mreqn);
+        }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp46mjzyz5/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp46mjzyz5/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking for type "struct ip_mreqn" : YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyg6_2__u
+Code:
+#include <sys/ioctl.h>
+                    #include <net/if.h>
+                    int main (int argc, char ** argv) {
+                      struct ifreq ifr;
+                      ioctl(0, SIOCGIFADDR, &ifr);
+                      return 0;
+                    }
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyg6_2__u/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyg6_2__u/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -std=gnu99` -> 0
+Checking if "ioctl with request SIOCGIFADDR" compiles: YES 
+Configuring gnetworking.h using configuration
+Configuring gdbus-codegen using configuration
+Program gdbus-codegen found: YES (/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/gio/gdbus-2.0/codegen/gdbus-codegen)
+Configuring config.py using configuration
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyngor34b/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpyngor34b/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wsign-conversion -Wno-sign-conversion 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-conversion: YES (cached)
+Determining dependency 'libinotify' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libinotify` -> 1
+stderr:
+Package libinotify was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libinotify.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libinotify' not found
+-----------
+CMake binary for host machine is not cached
+CMake binary for host machine specified from cross file, native file, or env var as ['/usr/local/bin/cmake']
+Found CMake: /usr/local/bin/cmake (4.5.1)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/x64-linux/debug;/home/runner/webbuild/vcpkg/installed/x64-linux"
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-i2nGlp/CMakeLists.txt:24 add_executable(['cmTC_2b2a6'])
+CMake trace warning: target_link_libraries() TARGET cmTC_2b2a6 not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-i2nGlp/CMakeLists.txt:30 target_link_libraries(['cmTC_2b2a6', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-QD8gDA/CMakeLists.txt:24 add_executable(['cmTC_1bc6d'])
+CMake trace warning: target_link_libraries() TARGET cmTC_1bc6d not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-QD8gDA/CMakeLists.txt:30 target_link_libraries(['cmTC_1bc6d', ''])
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/cmake_libinotify/CMakeMesonToolchainFile.cmake"
+Try CMake generator: auto
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/cmake_libinotify/CMakeLists.txt"
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/cmake_libinotify with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/cmake_libinotify/CMakeMesonToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/x64-linux/debug;/home/runner/webbuild/vcpkg/installed/x64-linux"
+  -- Module search paths:    ['/', '/home/runner/webbuild/vcpkg/installed/x64-linux', '/home/runner/webbuild/vcpkg/installed/x64-linux/debug', '/opt', '/usr', '/usr/local']
+  -- CMake root:             /usr/local/share/cmake-4.5
+  -- CMake architectures:    ['x86_64-linux-gnu']
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', '', 'lib/x86_64-linux-gnu']
+Preliminary CMake check failed. Aborting.
+Run-time dependency libinotify found: NO (tried pkgconfig and cmake)
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --define-variable=datadir=share --variable=completionsdir bash-completion` -> 0
+stdout:
+share/bash-completion/completions
+-----------
+Got pkg-config variable completionsdir : share/bash-completion/completions
+Determining dependency 'libelf' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion libelf` -> 1
+stderr:
+Package libelf was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libelf.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libelf' not found
+-----------
+CMake binary for host machine is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency libelf found: NO (tried pkgconfig and cmake)
+Library elf skipped: feature libelf disabled
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp57_wpqxw
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp57_wpqxw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp57_wpqxw/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough -Wno-implicit-fallthrough` -> 0
+Compiler for C supports arguments -Wno-implicit-fallthrough: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition` -> 0
+Compiler for C supports arguments -Wno-old-style-definition: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9x09wjim
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9x09wjim/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp9x09wjim/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wsuggest-attribute=noreturn -Wno-suggest-attribute=noreturn` -> 0
+Compiler for C supports arguments -Wno-suggest-attribute=noreturn: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits -Wno-type-limits` -> 0
+Compiler for C supports arguments -Wno-type-limits: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpprubpg7m
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpprubpg7m/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpprubpg7m/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wundef -Wno-undef` -> 0
+Compiler for C supports arguments -Wno-undef: YES 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align` -> 0
+Compiler for C supports arguments -Wno-cast-align: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprm0gkm52
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprm0gkm52/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmprm0gkm52/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-function -Wno-unused-function` -> 0
+Compiler for C supports arguments -Wno-unused-function: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdgbh_8z9
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdgbh_8z9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpdgbh_8z9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wreturn-type -Wno-return-type` -> 0
+Compiler for C supports arguments -Wno-return-type: YES 
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7bd33zjl
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7bd33zjl/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp7bd33zjl/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wsometimes-uninitialized -Wno-sometimes-uninitialized` -> 1
+stderr:
+cc: error: unrecognized command-line option '-Wsometimes-uninitialized'; did you mean '-Wmaybe-uninitialized'?
+-----------
+Compiler for C supports arguments -Wno-sometimes-uninitialized: NO 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches -Wno-duplicated-branches` -> 0
+Compiler for C supports arguments -Wno-duplicated-branches: YES 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-duplicated-branches: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmp5dben29g/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwqnbarc
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwqnbarc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmppwqnbarc/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-field-initializers -Wno-missing-field-initializers` -> 0
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-duplicated-branches: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-duplicated-branches: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpuu8zb75h/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition -Wno-old-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-old-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpz2oc1ar8/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align -Wno-cast-align 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-align: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpvd2sg093/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  /usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpb29nmsq9/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Wduplicated-branches -Wno-duplicated-branches 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-duplicated-branches: YES (cached)
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkpjchfij
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkpjchfij/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpkpjchfij/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 -Werror=unused-function` -> 0
+Compiler for C supports arguments -Werror=unused-function: YES 
+Library FuzzingEngine skipped: feature oss_fuzz disabled
+Program xgettext found: YES (/usr/bin/xgettext)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring config.h using configuration
+Program rst2man rst2man.py skipped: feature man-pages disabled
+Program rst2html5 rst2html5.py found: NO
+Build targets in project: 183
+
+glib 2.88.3
+
+  Build environment
+    host cpu             : x86_64
+    host endian          : little
+    host system          : linux
+    C Compiler           : gcc
+    C++ Compiler         : gcc
+    shared build         : false
+    static build         : true
+
+  Directories
+    prefix               : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug
+    bindir               : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/bin
+    libexecdir           : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/libexec
+    pkgdatadir           : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/share/glib-2.0
+    datadir              : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/share
+    localedir            : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/share/locale
+    includedir           : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/../include/glib-2.0
+    giomodulesdir        : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/gio/modules
+    localstatedir        : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/var
+    runstatedir          : /run
+
+  Options
+    selinux              : false
+    libmount             : false
+    xattr                : false
+    man-pages            : disabled
+    dtrace               : false
+    systemtap            : false
+    sysprof              : false
+    documentation        : false
+    bsymbolic_functions  : true
+    force_posix_threads  : false
+    tests                : false
+    installed_tests      : false
+    nls                  : auto
+    oss_fuzz             : disabled
+    glib_debug           : enabled
+    glib_assert          : true
+    glib_checks          : true
+    libelf               : disabled
+    multiarch            : false
+    introspection        : false
+    file_monitor_backend : auto
+
+  Subprojects
+    gvdb                 : YES
+
+  User defined options
+    Native files         : /home/runner/webbuild/vcpkg/buildtrees/glib/meson-x64-linux-dbg.log
+    backend              : ninja
+    cmake_prefix_path    : ['/home/runner/webbuild/vcpkg/installed/x64-linux/debug','/home/runner/webbuild/vcpkg/installed/x64-linux']
+    debug                : true
+    documentation        : false
+    dtrace               : disabled
+    includedir           : ../include
+    installed_tests      : false
+    introspection        : disabled
+    libdir               : lib
+    libelf               : disabled
+    libmount             : disabled
+    man-pages            : disabled
+    optimization         : plain
+    pkg_config_path      : ['/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig','/home/runner/webbuild/vcpkg/installed/x64-linux/share/pkgconfig']
+    pkgconfig.relocatable: true
+    prefix               : /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug
+    selinux              : disabled
+    sysprof              : disabled
+    tests                : false
+    wrap_mode            : nodownload
+    xattr                : false
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcwxanuul
+Code:
+
+-----------
+Command line: `/usr/bin/cc -fPIC -g -I/home/runner/webbuild/vcpkg/installed/x64-linux/include /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcwxanuul/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/meson-private/tmpcwxanuul/output.obj -c -fPIC -g -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/15/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/15/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/15/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
+-----------
+Failed to guess install tag for /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/gio/modules
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/glib/x64-linux-dbg/build.ninja"
+Failed to guess install tag for /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/gio/modules

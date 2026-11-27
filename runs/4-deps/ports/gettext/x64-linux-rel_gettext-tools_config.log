@@ -1,0 +1,4675 @@
+es
+ac_cv_lib_rt_sched_yield=yes
+ac_cv_member_struct_lconv_decimal_point=yes
+ac_cv_member_struct_sigaction_sa_sigaction=yes
+ac_cv_member_struct_sockaddr_sa_len=no
+ac_cv_member_struct_sockaddr_storage_ss_family=yes
+ac_cv_member_struct_stat_st_atim_tv_nsec=yes
+ac_cv_member_struct_stat_st_birthtim_tv_nsec=no
+ac_cv_member_struct_stat_st_birthtimensec=no
+ac_cv_member_struct_stat_st_birthtimespec_tv_nsec=no
+ac_cv_objext=o
+ac_cv_path_DVIPS='/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/libtextstyle/build-aux/missing dvips'
+ac_cv_path_EGREP='/usr/bin/grep -E'
+ac_cv_path_EGREP_TRADITIONAL='/usr/bin/grep -E'
+ac_cv_path_FGREP='/usr/bin/grep -F'
+ac_cv_path_GMSGFMT=/usr/bin/msgfmt
+ac_cv_path_GREP=/usr/bin/grep
+ac_cv_path_MSGFMT=/usr/bin/msgfmt
+ac_cv_path_MSGMERGE=/usr/bin/msgmerge
+ac_cv_path_PERL=/usr/bin/perl
+ac_cv_path_SED=/usr/bin/sed
+ac_cv_path_TEXI2DVI=/usr/bin/texi2dvi
+ac_cv_path_TEXI2PDF=/usr/bin/texi2pdf
+ac_cv_path_XGETTEXT=/usr/bin/xgettext
+ac_cv_path_install='/usr/bin/install -c'
+ac_cv_path_lt_DD=/usr/bin/dd
+ac_cv_path_mkdir=/usr/bin/mkdir
+ac_cv_prog_AWK=gawk
+ac_cv_prog_CPP='/usr/bin/cc -E'
+ac_cv_prog_CXXCPP='/usr/bin/c++ -E'
+ac_cv_prog_INTLBISON=bison
+ac_cv_prog_TOOLS_BISON=bison
+ac_cv_prog_ac_ct_AR=/usr/bin/ar
+ac_cv_prog_ac_ct_CC=/usr/bin/cc
+ac_cv_prog_ac_ct_FILECMD=file
+ac_cv_prog_ac_ct_MANIFEST_TOOL=mt
+ac_cv_prog_ac_ct_OBJDUMP=/usr/bin/objdump
+ac_cv_prog_ac_ct_RANLIB=/usr/bin/ranlib
+ac_cv_prog_ac_ct_STRIP=/usr/bin/strip
+ac_cv_prog_cc_c11=
+ac_cv_prog_cc_g=yes
+ac_cv_prog_cc_stdc=
+ac_cv_prog_cxx_g=yes
+ac_cv_prog_make_make_set=yes
+ac_cv_safe_to_define___extensions__=yes
+ac_cv_search_clock_gettime='none required'
+ac_cv_search_getaddrinfo='none required'
+ac_cv_search_gethostbyname='none required'
+ac_cv_search_getservbyname='none required'
+ac_cv_search_inet_ntop='none required'
+ac_cv_search_inet_pton='none required'
+ac_cv_search_nanosleep='none required'
+ac_cv_search_posix_spawn='none required'
+ac_cv_should_define__xopen_source=no
+ac_cv_sys_largefile_opts='none needed'
+ac_cv_sys_long_file_names=yes
+ac_cv_type_gid_t=yes
+ac_cv_type_mbstate_t=yes
+ac_cv_type_mode_t=yes
+ac_cv_type_nlink_t=yes
+ac_cv_type_off_t=yes
+ac_cv_type_pid_t=yes
+ac_cv_type_posix_spawn_file_actions_t=yes
+ac_cv_type_posix_spawnattr_t=yes
+ac_cv_type_pthread_rwlock_t=yes
+ac_cv_type_pthread_spinlock_t=yes
+ac_cv_type_pthread_t=yes
+ac_cv_type_ptrdiff_t=yes
+ac_cv_type_sa_family_t=yes
+ac_cv_type_sig_atomic_t=yes
+ac_cv_type_sighandler_t=yes
+ac_cv_type_sigset_t=yes
+ac_cv_type_size_t=yes
+ac_cv_type_socklen_t=yes
+ac_cv_type_struct_addrinfo=yes
+ac_cv_type_struct_random_data=yes
+ac_cv_type_struct_sched_param=yes
+ac_cv_type_struct_sockaddr_storage=yes
+ac_cv_type_uid_t=yes
+ac_cv_type_unsigned_long_long_int=yes
+ac_cv_type_useconds_t=yes
+ac_cv_type_volatile_sig_atomic_t=yes
+ac_cv_typeof_struct_stat_st_atim_is_struct_timespec=yes
+ac_cv_working_alloca_h=yes
+acl_cv_hardcode_direct=no
+acl_cv_hardcode_libdir_flag_spec='${wl}-rpath ${wl}$libdir'
+acl_cv_hardcode_libdir_separator=
+acl_cv_hardcode_minus_L=no
+acl_cv_libdirstems=lib,lib,lib64
+acl_cv_libext=a
+acl_cv_libname_spec='lib$name'
+acl_cv_libpath=LD_LIBRARY_PATH
+acl_cv_library_names_spec='$libname$shrext'
+acl_cv_prog_gnu_ld=yes
+acl_cv_rpath=done
+acl_cv_shlibext=so
+acl_cv_shlibpath_var=LD_LIBRARY_PATH
+acl_cv_wl=-Wl,
+am_cv_CC_dependencies_compiler_type=none
+am_cv_CXX_dependencies_compiler_type=none
+am_cv_func_iconv=yes
+am_cv_func_iconv_summary='yes, in libc'
+am_cv_func_iconv_works=yes
+am_cv_func_working_getline=yes
+am_cv_langinfo_codeset=yes
+am_cv_lib_iconv=no
+am_cv_make_support_nested_variables=yes
+am_cv_prog_cc_c_o=yes
+am_cv_prog_tar_ustar=gnutar
+gl_cv___builtin_expect=yes
+gl_cv_bitsizeof_wchar_t=32
+gl_cv_builtin_sync_bool_compare_and_swap=yes
+gl_cv_c___inline=yes
+gl_cv_c_amsterdam_compiler=no
+gl_cv_c_bool=yes
+gl_cv_c_cplusplus=no
+gl_cv_c_inline_effective=yes
+gl_cv_c_multiarch=no
+gl_cv_cc_double_expbit0='word 1 bit 20'
+gl_cv_cc_float_expbit0='word 0 bit 23'
+gl_cv_cc_long_double_expbit0='word 2 bit 0'
+gl_cv_cc_vis_werror=yes
+gl_cv_cc_visibility=yes
+gl_cv_cc_wallow=-Wno-error
+gl_cv_cc_winhibit=-w
+gl_cv_compiler_check_decl_option=none
+gl_cv_compiler_clang=no
+gl_cv_const_PTHREAD_CREATE_DETACHED=yes
+gl_cv_const_PTHREAD_MUTEX_RECURSIVE=yes
+gl_cv_const_PTHREAD_MUTEX_ROBUST=yes
+gl_cv_const_PTHREAD_PROCESS_SHARED=yes
+gl_cv_cxx_wallow=-Wno-error
+gl_cv_decl_HOST_NAME_MAX=yes
+gl_cv_decl_ioctl_in_sys_ioctl_h=yes
+gl_cv_decl_null_works=yes
+gl_cv_decl_readlink_works=yes
+gl_cv_double_slash_root=no
+gl_cv_elf=yes
+gl_cv_func_access_slash_works=yes
+gl_cv_func_btowc_consistent=no
+gl_cv_func_btowc_eof='guessing yes'
+gl_cv_func_btowc_nul=yes
+gl_cv_func_c32rtomb=yes
+gl_cv_func_c32rtomb_retval=yes
+gl_cv_func_copy_file_range=yes
+gl_cv_func_dirfd_macro=no
+gl_cv_func_dup2_works=yes
+gl_cv_func_dup_works=yes
+gl_cv_func_fabs_in_libm=yes
+gl_cv_func_fabs_no_libm=no
+gl_cv_func_fclose_stdin=yes
+gl_cv_func_fcntl_f_dupfd_cloexec=no
+gl_cv_func_fcntl_f_dupfd_works=yes
+gl_cv_func_fdopen_works=yes
+gl_cv_func_fdopendir_works=yes
+gl_cv_func_fflush_stdin=yes
+gl_cv_func_fnmatch_posix=yes
+gl_cv_func_fopen_mode_e=yes
+gl_cv_func_fopen_mode_x=yes
+gl_cv_func_fopen_slash=yes
+gl_cv_func_free_preserves_errno=yes
+gl_cv_func_freopen_works_on_closed=yes
+gl_cv_func_frexp_no_libm=yes
+gl_cv_func_frexp_works=yes
+gl_cv_func_frexpl_no_libm=yes
+gl_cv_func_frexpl_works=yes
+gl_cv_func_fseeko=yes
+gl_cv_func_fstatat_zero_flag=yes
+gl_cv_func_ftello=yes
+gl_cv_func_ftello_works=yes
+gl_cv_func_gai_strerror_posix_signature=yes
+gl_cv_func_getaddrinfo=yes
+gl_cv_func_getcwd_null=yes
+gl_cv_func_getcwd_path_max=yes
+gl_cv_func_getcwd_posix_signature=yes
+gl_cv_func_getcwd_succeeds_beyond_4k=yes
+gl_cv_func_getdtablesize_works=yes
+gl_cv_func_getopt_gnu=yes
+gl_cv_func_getopt_long_gnu=yes
+gl_cv_func_getopt_posix=yes
+gl_cv_func_getpagesize=yes
+gl_cv_func_getrandom_ok=yes
+gl_cv_func_gettimeofday_posix_signature=yes
+gl_cv_func_ioctl_posix_signature=no
+gl_cv_func_isinfl_works=yes
+gl_cv_func_isnand_no_libm=yes
+gl_cv_func_isnanf_no_libm=yes
+gl_cv_func_isnanf_works=yes
+gl_cv_func_isnanl_no_libm=yes
+gl_cv_func_isnanl_works=yes
+gl_cv_func_iswcntrl_works=yes
+gl_cv_func_iswdigit_works='guessing yes'
+gl_cv_func_iswpunct_works=yes
+gl_cv_func_iswxdigit_works='guessing yes'
+gl_cv_func_itold_works=yes
+gl_cv_func_ldexp_no_libm=yes
+gl_cv_func_ldexpl_no_libm=yes
+gl_cv_func_ldexpl_works=yes
+gl_cv_func_localeconv_works=yes
+gl_cv_func_log10_works=yes
+gl_cv_func_lseek_pipe=yes
+gl_cv_func_lseek_works_but_incompatible=no
+gl_cv_func_lstat_dereferences_slashed_symlink=yes
+gl_cv_func_malloc_0_nonnull=1
+gl_cv_func_malloc_posix=yes
+gl_cv_func_mbrtoc32=yes
+gl_cv_func_mbrtoc32_C_locale_sans_EILSEQ=no
+gl_cv_func_mbrtoc32_empty_input=yes
+gl_cv_func_mbrtoc32_sanitycheck='guessing yes'
+gl_cv_func_mbrtowc_C_locale_sans_EILSEQ=no
+gl_cv_func_mbrtowc_empty_input=yes
+gl_cv_func_mbrtowc_incomplete_state='guessing yes'
+gl_cv_func_mbrtowc_nul_retval='guessing yes'
+gl_cv_func_mbrtowc_null_arg1='guessing yes'
+gl_cv_func_mbrtowc_null_arg2='guessing yes'
+gl_cv_func_mbrtowc_retval='guessing yes'
+gl_cv_func_mbrtowc_sanitycheck='guessing yes'
+gl_cv_func_mbrtowc_stores_incomplete='guessing no'
+gl_cv_func_mbsrtowcs_works='guessing yes'
+gl_cv_func_memchr_works=yes
+gl_cv_func_memmem_works_always=yes
+gl_cv_func_memmem_works_fast=yes
+gl_cv_func_mkdir_trailing_dot_works=yes
+gl_cv_func_mkdir_trailing_slash_works=yes
+gl_cv_func_nanosleep='no (mishandles large arguments)'
+gl_cv_func_nl_langinfo_yesexpr_works=yes
+gl_cv_func_obstack=no
+gl_cv_func_open_slash=yes
+gl_cv_func_perror_works=yes
+gl_cv_func_posix_spawn_file_actions_addclose_works=yes
+gl_cv_func_posix_spawn_file_actions_adddup2_works=yes
+gl_cv_func_posix_spawn_file_actions_addopen_works=yes
+gl_cv_func_posix_spawn_secure_exec=yes
+gl_cv_func_posix_spawn_works=yes
+gl_cv_func_posix_spawnp_secure_exec=yes
+gl_cv_func_pow_in_libm=yes
+gl_cv_func_pow_no_libm=no
+gl_cv_func_printf_attribute_flavor=system
+gl_cv_func_printf_directive_a=yes
+gl_cv_func_printf_directive_b=yes
+gl_cv_func_printf_directive_f=yes
+gl_cv_func_printf_directive_lc=yes
+gl_cv_func_printf_directive_ls=yes
+gl_cv_func_printf_directive_n=no
+gl_cv_func_printf_enomem=yes
+gl_cv_func_printf_flag_alt_precision_zero=yes
+gl_cv_func_printf_flag_grouping=yes
+gl_cv_func_printf_flag_leftadjust=yes
+gl_cv_func_printf_flag_zero=yes
+gl_cv_func_printf_infinite=yes
+gl_cv_func_printf_infinite_long_double=yes
+gl_cv_func_printf_long_double=yes
+gl_cv_func_printf_positions=yes
+gl_cv_func_printf_precision=yes
+gl_cv_func_printf_sizes_c23=yes
+gl_cv_func_printf_sizes_c99=yes
+gl_cv_func_pselect_detects_ebadf=yes
+gl_cv_func_pthread_create=yes
+gl_cv_func_pthread_sigmask_in_libc_works=yes
+gl_cv_func_pthread_sigmask_macro=no
+gl_cv_func_pthread_sigmask_return_works=yes
+gl_cv_func_pthread_sigmask_unblock_works='guessing yes'
+gl_cv_func_random=yes
+gl_cv_func_re_compile_pattern_working=yes
+gl_cv_func_readlink_trailing_slash=yes
+gl_cv_func_readlink_truncate=yes
+gl_cv_func_realpath_works=yes
+gl_cv_func_rmdir_works=yes
+gl_cv_func_select_detects_ebadf=yes
+gl_cv_func_select_supports0=yes
+gl_cv_func_setenv_works=yes
+gl_cv_func_setlocale_null_all_mtsafe=yes
+gl_cv_func_setlocale_null_one_mtsafe=yes
+gl_cv_func_setlocale_works=yes
+gl_cv_func_signbit=yes
+gl_cv_func_signbit_builtins=yes
+gl_cv_func_sleep_works=yes
+gl_cv_func_snprintf_directive_n=no
+gl_cv_func_snprintf_posix=no
+gl_cv_func_snprintf_retval_c99=yes
+gl_cv_func_snprintf_size1=yes
+gl_cv_func_snprintf_truncation_c99=yes
+gl_cv_func_snprintf_usable=yes
+gl_cv_func_spawnattr_setschedparam=yes
+gl_cv_func_spawnattr_setschedpolicy=yes
+gl_cv_func_stat_file_slash=yes
+gl_cv_func_stpncpy=yes
+gl_cv_func_strchrnul_works=yes
+gl_cv_func_strerror_0_works=yes
+gl_cv_func_strerror_r_posix_signature=no
+gl_cv_func_strerror_r_works=yes
+gl_cv_func_strstr_linear=yes
+gl_cv_func_strstr_works_always=yes
+gl_cv_func_strtol_works=yes
+gl_cv_func_strtoul_works=yes
+gl_cv_func_svid_putenv=yes
+gl_cv_func_swprintf_directive_la=yes
+gl_cv_func_swprintf_directive_lc=yes
+gl_cv_func_swprintf_works=yes
+gl_cv_func_symlink_works=yes
+gl_cv_func_tcgetattr=yes
+gl_cv_func_tdelete_works=yes
+gl_cv_func_time_works='guessing no'
+gl_cv_func_timespec_get=yes
+gl_cv_func_ungetc_works=yes
+gl_cv_func_unlink_honors_slashes=yes
+gl_cv_func_unlink_parent_fails='guessing yes'
+gl_cv_func_unreachable=yes
+gl_cv_func_unsetenv_works=yes
+gl_cv_func_usleep_works=yes
+gl_cv_func_utime_file_slash=yes
+gl_cv_func_va_copy=yes
+gl_cv_func_vasnprintf_posix=no
+gl_cv_func_vasnwprintf_posix=no
+gl_cv_func_vasprintf_posix=no
+gl_cv_func_vsnprintf_usable=yes
+gl_cv_func_vsnprintf_zerosize_c99=yes
+gl_cv_func_wcrtomb_retval='guessing yes'
+gl_cv_func_wcrtomb_works=yes
+gl_cv_func_wctob_works='guessing yes'
+gl_cv_func_wctype_works=yes
+gl_cv_func_wcwidth_works=yes
+gl_cv_func_wmemchr=yes
+gl_cv_func_wmemcpy=yes
+gl_cv_func_wmemset=yes
+gl_cv_func_working_error=yes
+gl_cv_func_working_getdelim=yes
+gl_cv_func_working_strerror=yes
+gl_cv_func_working_utimes=yes
+gl_cv_have___header_inline=no
+gl_cv_have_include_next=yes
+gl_cv_have_unlimited_file_name_length=no
+gl_cv_have_weak=yes
+gl_cv_header_errno_h_complete=yes
+gl_cv_header_inttypes_h=yes
+gl_cv_header_langinfo_altmon=yes
+gl_cv_header_langinfo_codeset=yes
+gl_cv_header_langinfo_era=yes
+gl_cv_header_langinfo_t_fmt_ampm=yes
+gl_cv_header_langinfo_yesexpr=yes
+gl_cv_header_limits_ssize_max=yes
+gl_cv_header_limits_width=yes
+gl_cv_header_locale_h_needs_xlocale_h=no
+gl_cv_header_locale_h_posix2001=yes
+gl_cv_header_locale_has_locale_t=yes
+gl_cv_header_math_huge_val_works=yes
+gl_cv_header_math_nan_works=yes
+gl_cv_header_netinet_in_h_selfcontained=yes
+gl_cv_header_signal_h_SIGPIPE=yes
+gl_cv_header_stdint_h=yes
+gl_cv_header_stdint_width=yes
+gl_cv_header_stdint_without_STDC_macros=yes
+gl_cv_header_sys_select_h_selfcontained=yes
+gl_cv_header_sys_socket_h_selfcontained=yes
+gl_cv_header_sys_socket_h_shut=yes
+gl_cv_header_wchar_h_correct_inline=yes
+gl_cv_header_working_fcntl_h=yes
+gl_cv_header_working_stdalign_h='yes, keywords'
+gl_cv_header_working_stdint_h=yes
+gl_cv_host_cpu_c_abi_32bit=no
+gl_cv_iconv_nonconst=yes
+gl_cv_lib_socket='none needed'
+gl_cv_libcroco_force_included=yes
+gl_cv_libcroco_use_included=yes
+gl_cv_libglib_force_included=yes
+gl_cv_libglib_use_included=yes
+gl_cv_libxml_force_included=yes
+gl_cv_libxml_use_included=yes
+gl_cv_long_double_equals_double=no
+gl_cv_macro_MB_CUR_MAX_good='guessing yes'
+gl_cv_macro_O_CLOEXEC=yes
+gl_cv_malloc_ptrdiff=yes
+gl_cv_minmax_in_limits_h=no
+gl_cv_minmax_in_sys_param_h=yes
+gl_cv_next_arpa_inet_h='<arpa/inet.h>'
+gl_cv_next_ctype_h='<ctype.h>'
+gl_cv_next_dirent_h='<dirent.h>'
+gl_cv_next_error_h='<error.h>'
+gl_cv_next_fcntl_h='<fcntl.h>'
+gl_cv_next_fnmatch_h='<fnmatch.h>'
+gl_cv_next_getopt_h='<getopt.h>'
+gl_cv_next_iconv_h='<iconv.h>'
+gl_cv_next_inttypes_h='<inttypes.h>'
+gl_cv_next_langinfo_h='<langinfo.h>'
+gl_cv_next_limits_h='<limits.h>'
+gl_cv_next_locale_h='<locale.h>'
+gl_cv_next_math_h='<math.h>'
+gl_cv_next_netdb_h='<netdb.h>'
+gl_cv_next_omp_h='<omp.h>'
+gl_cv_next_pthread_h='<pthread.h>'
+gl_cv_next_sched_h='<sched.h>'
+gl_cv_next_search_h='<search.h>'
+gl_cv_next_signal_h='<signal.h>'
+gl_cv_next_spawn_h='<spawn.h>'
+gl_cv_next_stdint_h='<stdint.h>'
+gl_cv_next_stdio_h='<stdio.h>'
+gl_cv_next_stdlib_h='<stdlib.h>'
+gl_cv_next_string_h='<string.h>'
+gl_cv_next_sys_ioctl_h='<sys/ioctl.h>'
+gl_cv_next_sys_random_h='<sys/random.h>'
+gl_cv_next_sys_select_h='<sys/select.h>'
+gl_cv_next_sys_socket_h='<sys/socket.h>'
+gl_cv_next_sys_stat_h='<sys/stat.h>'
+gl_cv_next_sys_time_h='<sys/time.h>'
+gl_cv_next_sys_types_h='<sys/types.h>'
+gl_cv_next_sys_uio_h='<sys/uio.h>'
+gl_cv_next_sys_wait_h='<sys/wait.h>'
+gl_cv_next_time_h='<time.h>'
+gl_cv_next_uchar_h='<uchar.h>'
+gl_cv_next_unistd_h='<unistd.h>'
+gl_cv_next_utime_h='<utime.h>'
+gl_cv_next_wchar_h='<wchar.h>'
+gl_cv_next_wctype_h='<wctype.h>'
+gl_cv_onwards_func___fpurge=yes
+gl_cv_onwards_func___freading=yes
+gl_cv_onwards_func_catgets=yes
+gl_cv_onwards_func_close_range=yes
+gl_cv_onwards_func_copy_file_range=yes
+gl_cv_onwards_func_duplocale=yes
+gl_cv_onwards_func_error=yes
+gl_cv_onwards_func_faccessat=yes
+gl_cv_onwards_func_freelocale=yes
+gl_cv_onwards_func_ftruncate=yes
+gl_cv_onwards_func_futimens=yes
+gl_cv_onwards_func_futimes=yes
+gl_cv_onwards_func_futimesat=yes
+gl_cv_onwards_func_getdelim=yes
+gl_cv_onwards_func_getline=yes
+gl_cv_onwards_func_getprogname=no
+gl_cv_onwards_func_getrandom=yes
+gl_cv_onwards_func_initstate=yes
+gl_cv_onwards_func_iswblank=yes
+gl_cv_onwards_func_lutimes=yes
+gl_cv_onwards_func_mbtowc=yes
+gl_cv_onwards_func_mempcpy=yes
+gl_cv_onwards_func_memset_explicit=yes
+gl_cv_onwards_func_newlocale=yes
+gl_cv_onwards_func_nl_langinfo=yes
+gl_cv_onwards_func_pipe2=yes
+gl_cv_onwards_func_posix_spawn=yes
+gl_cv_onwards_func_posix_spawn_file_actions_addchdir_np=yes
+gl_cv_onwards_func_pthread_atfork=yes
+gl_cv_onwards_func_readlinkat=yes
+gl_cv_onwards_func_reallocarray=yes
+gl_cv_onwards_func_setstate=yes
+gl_cv_onwards_func_stpcpy=yes
+gl_cv_onwards_func_stpncpy=yes
+gl_cv_onwards_func_strchrnul=yes
+gl_cv_onwards_func_strerror_r=yes
+gl_cv_onwards_func_timespec_get=yes
+gl_cv_onwards_func_tsearch=yes
+gl_cv_onwards_func_twalk=yes
+gl_cv_onwards_func_uselocale=yes
+gl_cv_onwards_func_utimensat=yes
+gl_cv_onwards_func_wmempcpy=yes
+gl_cv_prog_ansicxx_cross=no
+gl_cv_prog_ansicxx_namespaces=yes
+gl_cv_prog_ansicxx_works=yes
+gl_cv_prog_as_underscore=no
+gl_cv_promoted_mode_t=mode_t
+gl_cv_pthread_rwlock_rdlock_prefer_writer=no
+gl_cv_rpl_alloca=yes
+gl_cv_semaphore_lib=none
+gl_cv_sig_pselect=yes
+gl_cv_size_max=yes
+gl_cv_socket_ipv4=yes
+gl_cv_socket_ipv6=yes
+gl_cv_source_line_length_unlimited=yes
+gl_cv_ssize_t=yes
+gl_cv_static_assert='yes, a keyword'
+gl_cv_struct_dirent_d_ino=yes
+gl_cv_sys_struct_lconv_ok=yes
+gl_cv_sys_struct_timespec_in_time_h=yes
+gl_cv_sys_struct_timeval=yes
+gl_cv_sys_struct_timeval_tv_sec=yes
+gl_cv_termcap='not found, consider installing GNU ncurses'
+gl_cv_terminfo='not found, consider installing GNU ncurses'
+gl_cv_terminfo_tparam=no
+gl_cv_terminfo_tparm=no
+gl_cv_test_INT32_MAX_LT_INTMAX_MAX=yes
+gl_cv_test_INT64_MAX_EQ_LONG_MAX=yes
+gl_cv_test_UINT32_MAX_LT_UINTMAX_MAX=yes
+gl_cv_test_UINT64_MAX_EQ_ULONG_MAX=yes
+gl_cv_time_h_has_TIME_UTC=yes
+gl_cv_type_VISIT=yes
+gl_cv_type_char16_t_works=yes
+gl_cv_type_char32_t_works=yes
+gl_cv_type_char8_t_works=yes
+gl_cv_type_max_align_t=yes
+gl_cv_type_sigset_t=yes
+gl_cv_type_wctrans_t=yes
+gl_cv_type_wctype_t=yes
+gl_cv_type_wint_t_large_enough=yes
+gl_cv_var_stdin_large_offset=yes
+gl_cv_warn_c__Werror__Wunknown_warning_option=no
+gl_cv_warn_c__fno_analyzer=yes
+gl_cv_xattr_lib=no
+gt_cv_c_intmax_t=yes
+gt_cv_c_wchar_t=yes
+gt_cv_c_wint_t=yes
+gt_cv_func_CFLocaleCopyPreferredLanguages=no
+gt_cv_func_CFPreferencesCopyAppValue=no
+gt_cv_func_gnugettext2_libc=yes
+gt_cv_func_printf_posix=yes
+gt_cv_func_unsetenv_ret=int
+gt_cv_func_uselocale_works=yes
+gt_cv_int_divbyzero_sigfpe=yes
+gt_cv_locale_de_utf8=none
+gt_cv_locale_fake=no
+gt_cv_locale_fr=none
+gt_cv_locale_fr_utf8=none
+gt_cv_locale_ja=none
+gt_cv_locale_solaris114=no
+gt_cv_locale_tr_utf8=none
+gt_cv_locale_zh_CN=none
+gt_cv_siginfo_t=yes
+gt_cv_socket_ipv6=yes
+gt_cv_val_LC_MESSAGES=yes
+gt_cv_var_environ_declaration=yes
+lt_cv_ar_at_file=@
+lt_cv_deplibs_check_method=pass_all
+lt_cv_file_magic_cmd='$MAGIC_CMD'
+lt_cv_file_magic_test_file=
+lt_cv_ld_reload_flag=-r
+lt_cv_nm_interface='BSD nm'
+lt_cv_objdir=.libs
+lt_cv_path_LD=/usr/bin/ld
+lt_cv_path_LDCXX='/usr/bin/ld -m elf_x86_64'
+lt_cv_path_NM=/usr/bin/nm
+lt_cv_path_mainfest_tool=no
+lt_cv_prog_compiler_c_o=yes
+lt_cv_prog_compiler_c_o_CXX=yes
+lt_cv_prog_compiler_c_o_RC=yes
+lt_cv_prog_compiler_pic='-fPIC -DPIC'
+lt_cv_prog_compiler_pic_CXX='-fPIC -DPIC'
+lt_cv_prog_compiler_pic_works=yes
+lt_cv_prog_compiler_pic_works_CXX=yes
+lt_cv_prog_compiler_rtti_exceptions=no
+lt_cv_prog_compiler_static_works=yes
+lt_cv_prog_compiler_static_works_CXX=yes
+lt_cv_prog_gnu_ld=yes
+lt_cv_prog_gnu_ldcxx=yes
+lt_cv_sharedlib_from_linklib_cmd='printf %s\n'
+lt_cv_shlibpath_overrides_runpath=yes
+lt_cv_sys_global_symbol_pipe='/usr/bin/sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | /usr/bin/sed '\''/ __gnu_lto/d'\'''
+lt_cv_sys_global_symbol_to_c_name_address='/usr/bin/sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"\1", (void *) \&\1},/p'\'''
+lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='/usr/bin/sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(lib.*\)$/  {"\1", (void *) \&\1},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"lib\1", (void *) \&\1},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl='/usr/bin/sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''
+lt_cv_sys_global_symbol_to_import=
+lt_cv_sys_max_cmd_len=3145728
+lt_cv_to_host_file_cmd=func_convert_file_noop
+lt_cv_to_tool_file_cmd=func_convert_file_noop
+lt_cv_truncate_bin='/usr/bin/dd bs=4096 count=1'
+nls_cv_force_use_gnu_gettext=no
+nls_cv_use_gnu_gettext=no
+
+## ----------------- ##
+## Output variables. ##
+## ----------------- ##
+
+ACLOCAL='${SHELL} '\''/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/missing'\'' aclocal-1.16'
+ALLOCA=''
+ALLOCA_H='alloca.h'
+AMDEPBACKSLASH=''
+AMDEP_FALSE=''
+AMDEP_TRUE='#'
+AMTAR='$${TAR-tar}'
+AM_BACKSLASH='\'
+AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
+AM_DEFAULT_VERBOSITY='1'
+AM_V='$(V)'
+ANSICXX_FALSE='#'
+ANSICXX_TRUE=''
+APPLE_UNIVERSAL_BUILD='0'
+AR='/usr/bin/ar'
+ARCHIVE_FORMAT='dirxz'
+ARCHIVE_VERSION='0.22.5'
+ARFLAGS='cr'
+AS='as'
+ASM_SYMBOL_PREFIX='""'
+ASSERT_H=''
+AUTOCONF='${SHELL} '\''/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/missing'\'' autoconf'
+AUTOHEADER='${SHELL} '\''/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/missing'\'' autoheader'
+AUTOMAKE='${SHELL} '\''/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/missing'\'' automake-1.16'
+AWK='gawk'
+BISON_LOCALEDIR='/usr/share/locale'
+BITSIZEOF_PTRDIFF_T=''
+BITSIZEOF_SIG_ATOMIC_T=''
+BITSIZEOF_SIZE_T=''
+BITSIZEOF_WCHAR_T='32'
+BITSIZEOF_WINT_T=''
+BUILDCSHARP='no'
+BUILDJAVA='no'
+BYTESWAP_H=''
+CATOBJEXT='.gmo'
+CC='/usr/bin/cc'
+CCDEPMODE='depmode=none'
+CFLAGS='-fPIC -O3'
+CFLAG_VISIBILITY=''
+CLASSPATH=''
+CLASSPATH_SEPARATOR=''
+CLIX_PATH=''
+CLIX_PATH_VAR=''
+CLOCK_TIME_LIB=''
+CONF_JAVA=''
+CONF_JAVAC=''
+CPP='/usr/bin/cc -E'
+CPPFLAGS='-DNDEBUG'
+CROSS_COMPILING='no'
+CSCOPE='cscope'
+CSHARPCOMPFLAGS='-O -g'
+CSHARP_CHOICE='no'
+CTAGS='ctags'
+CXX='/usr/bin/c++'
+CXXCPP='/usr/bin/c++ -E'
+CXXDEPMODE='depmode=none'
+CXXFLAGS='-fPIC -O3'
+CXX_CHOICE='yes'
+CXX_HAS_CHAR8_TYPE='0'
+CXX_HAS_UCHAR_TYPES='0'
+CYGPATH_W='echo'
+DEFS='-DHAVE_CONFIG_H'
+DEPDIR='.deps'
+DIR_HAS_FD_MEMBER='1'
+DLLTOOL='false'
+DSYMUTIL=''
+DUMPBIN=''
+DVIPS='/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/libtextstyle/build-aux/missing dvips'
+ECHO_C=''
+ECHO_N='-n'
+ECHO_T=''
+EGREP='/usr/bin/grep -E'
+EMACS='no'
+EMACSLOADPATH=''
+EMULTIHOP_HIDDEN=''
+EMULTIHOP_VALUE=''
+ENOLINK_HIDDEN=''
+ENOLINK_VALUE=''
+EOVERFLOW_HIDDEN=''
+EOVERFLOW_VALUE=''
+ERRNO_H=''
+ETAGS='etags'
+EXEEXT=''
+FABS_LIBM='-lm'
+FGREP='/usr/bin/grep -F'
+FILECMD='file'
+FILE_HAS_ACL_LIB=''
+FLOAT_H=''
+FNMATCH_H='fnmatch.h'
+FOREIGN_WARN_CFLAGS=''
+GETADDRINFO_LIB=''
+GETOPT_CDEFS_H=''
+GETOPT_H=''
+GETRANDOM_LIB=''
+GETTEXTLIB_EXPORTS_FLAGS=''
+GETTEXT_MACRO_VERSION='0.20'
+GLIBC2='yes'
+GLOBAL_SYMBOL_PIPE='/usr/bin/sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | /usr/bin/sed '\''/ __gnu_lto/d'\'''
+GL_CFLAG_ALLOW_WARNINGS='-Wno-error'
+GL_CFLAG_GNULIB_WARNINGS=' -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants'
+GL_CFLAG_INHIBIT_WARNINGS='-w -fno-analyzer'
+GL_COND_LIBTOOL_FALSE='#'
+GL_COND_LIBTOOL_TRUE=''
+GL_COND_OBJ_ACCEPT_FALSE=''
+GL_COND_OBJ_ACCEPT_TRUE='#'
+GL_COND_OBJ_ACCESS_FALSE=''
+GL_COND_OBJ_ACCESS_TRUE='#'
+GL_COND_OBJ_ATEXIT_FALSE=''
+GL_COND_OBJ_ATEXIT_TRUE='#'
+GL_COND_OBJ_BIND_FALSE=''
+GL_COND_OBJ_BIND_TRUE='#'
+GL_COND_OBJ_BTOWC_FALSE='#'
+GL_COND_OBJ_BTOWC_TRUE=''
+GL_COND_OBJ_C32RTOMB_FALSE=''
+GL_COND_OBJ_C32RTOMB_TRUE='#'
+GL_COND_OBJ_CANONICALIZE_LGPL_FALSE=''
+GL_COND_OBJ_CANONICALIZE_LGPL_TRUE='#'
+GL_COND_OBJ_CHDIR_LONG_FALSE='#'
+GL_COND_OBJ_CHDIR_LONG_TRUE=''
+GL_COND_OBJ_CLOSEDIR_FALSE=''
+GL_COND_OBJ_CLOSEDIR_TRUE='#'
+GL_COND_OBJ_CLOSE_FALSE=''
+GL_COND_OBJ_CLOSE_TRUE='#'
+GL_COND_OBJ_CONNECT_FALSE=''
+GL_COND_OBJ_CONNECT_TRUE='#'
+GL_COND_OBJ_COPY_FILE_RANGE_FALSE='#'
+GL_COND_OBJ_COPY_FILE_RANGE_TRUE=''
+GL_COND_OBJ_CREAT_FALSE=''
+GL_COND_OBJ_CREAT_TRUE='#'
+GL_COND_OBJ_DIRFD_FALSE=''
+GL_COND_OBJ_DIRFD_TRUE='#'
+GL_COND_OBJ_DUP2_FALSE=''
+GL_COND_OBJ_DUP2_TRUE='#'
+GL_COND_OBJ_DUP_FALSE=''
+GL_COND_OBJ_DUP_TRUE='#'
+GL_COND_OBJ_ERROR_FALSE=''
+GL_COND_OBJ_ERROR_TRUE='#'
+GL_COND_OBJ_FCHDIR_FALSE=''
+GL_COND_OBJ_FCHDIR_TRUE='#'
+GL_COND_OBJ_FCNTL_FALSE='#'
+GL_COND_OBJ_FCNTL_TRUE=''
+GL_COND_OBJ_FDOPENDIR_FALSE=''
+GL_COND_OBJ_FDOPENDIR_TRUE='#'
+GL_COND_OBJ_FDOPEN_FALSE=''
+GL_COND_OBJ_FDOPEN_TRUE='#'
+GL_COND_OBJ_FFLUSH_FALSE=''
+GL_COND_OBJ_FFLUSH_TRUE='#'
+GL_COND_OBJ_FLOAT_FALSE=''
+GL_COND_OBJ_FLOAT_TRUE='#'
+GL_COND_OBJ_FPURGE_FALSE='#'
+GL_COND_OBJ_FPURGE_TRUE=''
+GL_COND_OBJ_FREE_FALSE=''
+GL_COND_OBJ_FREE_TRUE='#'
+GL_COND_OBJ_FREOPEN_FALSE=''
+GL_COND_OBJ_FREOPEN_TRUE='#'
+GL_COND_OBJ_FSEEKO_FALSE=''
+GL_COND_OBJ_FSEEKO_TRUE='#'
+GL_COND_OBJ_FSEEK_FALSE=''
+GL_COND_OBJ_FSEEK_TRUE='#'
+GL_COND_OBJ_FSTATAT_FALSE=''
+GL_COND_OBJ_FSTATAT_TRUE='#'
+GL_COND_OBJ_FSTAT_FALSE=''
+GL_COND_OBJ_FSTAT_TRUE='#'
+GL_COND_OBJ_FSYNC_FALSE=''
+GL_COND_OBJ_FSYNC_TRUE='#'
+GL_COND_OBJ_FTELLO_FALSE=''
+GL_COND_OBJ_FTELLO_TRUE='#'
+GL_COND_OBJ_FTELL_FALSE=''
+GL_COND_OBJ_FTELL_TRUE='#'
+GL_COND_OBJ_FTRUNCATE_FALSE=''
+GL_COND_OBJ_FTRUNCATE_TRUE='#'
+GL_COND_OBJ_GAI_STRERROR_FALSE=''
+GL_COND_OBJ_GAI_STRERROR_TRUE='#'
+GL_COND_OBJ_GETADDRINFO_FALSE=''
+GL_COND_OBJ_GETADDRINFO_TRUE='#'
+GL_COND_OBJ_GETCWD_FALSE=''
+GL_COND_OBJ_GETCWD_LGPL_FALSE=''
+GL_COND_OBJ_GETCWD_LGPL_TRUE='#'
+GL_COND_OBJ_GETCWD_TRUE='#'
+GL_COND_OBJ_GETDELIM_FALSE=''
+GL_COND_OBJ_GETDELIM_TRUE='#'
+GL_COND_OBJ_GETDTABLESIZE_FALSE=''
+GL_COND_OBJ_GETDTABLESIZE_TRUE='#'
+GL_COND_OBJ_GETLINE_FALSE=''
+GL_COND_OBJ_GETLINE_TRUE='#'
+GL_COND_OBJ_GETOPT_FALSE=''
+GL_COND_OBJ_GETOPT_TRUE='#'
+GL_COND_OBJ_GETPAGESIZE_FALSE=''
+GL_COND_OBJ_GETPAGESIZE_TRUE='#'
+GL_COND_OBJ_GETPROGNAME_FALSE='#'
+GL_COND_OBJ_GETPROGNAME_TRUE=''
+GL_COND_OBJ_GETRANDOM_FALSE=''
+GL_COND_OBJ_GETRANDOM_TRUE='#'
+GL_COND_OBJ_GETTIMEOFDAY_FALSE=''
+GL_COND_OBJ_GETTIMEOFDAY_TRUE='#'
+GL_COND_OBJ_ICONV_FALSE=''
+GL_COND_OBJ_ICONV_OPEN_FALSE=''
+GL_COND_OBJ_ICONV_OPEN_TRUE='#'
+GL_COND_OBJ_ICONV_TRUE='#'
+GL_COND_OBJ_INET_NTOP_FALSE=''
+GL_COND_OBJ_INET_NTOP_TRUE='#'
+GL_COND_OBJ_INET_PTON_FALSE=''
+GL_COND_OBJ_INET_PTON_TRUE='#'
+GL_COND_OBJ_IOCTL_FALSE='#'
+GL_COND_OBJ_IOCTL_TRUE=''
+GL_COND_OBJ_ISBLANK_FALSE=''
+GL_COND_OBJ_ISBLANK_TRUE='#'
+GL_COND_OBJ_ISINF_FALSE=''
+GL_COND_OBJ_ISINF_TRUE='#'
+GL_COND_OBJ_ISWBLANK_FALSE=''
+GL_COND_OBJ_ISWBLANK_TRUE='#'
+GL_COND_OBJ_ISWCTYPE_FALSE=''
+GL_COND_OBJ_ISWCTYPE_TRUE='#'
+GL_COND_OBJ_ISWDIGIT_FALSE=''
+GL_COND_OBJ_ISWDIGIT_TRUE='#'
+GL_COND_OBJ_ISWPUNCT_FALSE=''
+GL_COND_OBJ_ISWPUNCT_TRUE='#'
+GL_COND_OBJ_ISWXDIGIT_FALSE=''
+GL_COND_OBJ_ISWXDIGIT_TRUE='#'
+GL_COND_OBJ_ITOLD_FALSE=''
+GL_COND_OBJ_ITOLD_TRUE='#'
+GL_COND_OBJ_LISTEN_FALSE=''
+GL_COND_OBJ_LISTEN_TRUE='#'
+GL_COND_OBJ_LOCALECONV_FALSE=''
+GL_COND_OBJ_LOCALECONV_TRUE='#'
+GL_COND_OBJ_LOCALENAME_UNSAFE_LIMITED_FALSE=''
+GL_COND_OBJ_LOCALENAME_UNSAFE_LIMITED_TRUE='#'
+GL_COND_OBJ_LOCALTIME_FALSE=''
+GL_COND_OBJ_LOCALTIME_TRUE='#'
+GL_COND_OBJ_LOG10_FALSE=''
+GL_COND_OBJ_LOG10_TRUE='#'
+GL_COND_OBJ_LSEEK_FALSE=''
+GL_COND_OBJ_LSEEK_TRUE='#'
+GL_COND_OBJ_LSTAT_FALSE=''
+GL_COND_OBJ_LSTAT_TRUE='#'
+GL_COND_OBJ_MBRLEN_FALSE='#'
+GL_COND_OBJ_MBRLEN_TRUE=''
+GL_COND_OBJ_MBRTOC32_FALSE='#'
+GL_COND_OBJ_MBRTOC32_TRUE=''
+GL_COND_OBJ_MBRTOWC_FALSE='#'
+GL_COND_OBJ_MBRTOWC_TRUE=''
+GL_COND_OBJ_MBSINIT_FALSE=''
+GL_COND_OBJ_MBSINIT_TRUE='#'
+GL_COND_OBJ_MBSRTOWCS_FALSE='#'
+GL_COND_OBJ_MBSRTOWCS_TRUE=''
+GL_COND_OBJ_MBTOWC_FALSE=''
+GL_COND_OBJ_MBTOWC_TRUE='#'
+GL_COND_OBJ_MEMCHR_FALSE=''
+GL_COND_OBJ_MEMCHR_TRUE='#'
+GL_COND_OBJ_MEMMOVE_FALSE=''
+GL_COND_OBJ_MEMMOVE_TRUE='#'
+GL_COND_OBJ_MEMPCPY_FALSE=''
+GL_COND_OBJ_MEMPCPY_TRUE='#'
+GL_COND_OBJ_MEMRCHR_FALSE=''
+GL_COND_OBJ_MEMRCHR_TRUE='#'
+GL_COND_OBJ_MEMSET_EXPLICIT_FALSE=''
+GL_COND_OBJ_MEMSET_EXPLICIT_TRUE='#'
+GL_COND_OBJ_MEMSET_FALSE=''
+GL_COND_OBJ_MEMSET_TRUE='#'
+GL_COND_OBJ_MKDIR_FALSE=''
+GL_COND_OBJ_MKDIR_TRUE='#'
+GL_COND_OBJ_MKDTEMP_FALSE=''
+GL_COND_OBJ_MKDTEMP_TRUE='#'
+GL_COND_OBJ_MSVC_INVAL_FALSE=''
+GL_COND_OBJ_MSVC_INVAL_TRUE='#'
+GL_COND_OBJ_MSVC_NOTHROW_FALSE=''
+GL_COND_OBJ_MSVC_NOTHROW_TRUE='#'
+GL_COND_OBJ_NANOSLEEP_FALSE='#'
+GL_COND_OBJ_NANOSLEEP_TRUE=''
+GL_COND_OBJ_NL_LANGINFO_FALSE=''
+GL_COND_OBJ_NL_LANGINFO_LOCK_FALSE=''
+GL_COND_OBJ_NL_LANGINFO_LOCK_TRUE='#'
+GL_COND_OBJ_NL_LANGINFO_TRUE='#'
+GL_COND_OBJ_OBSTACK_FALSE='#'
+GL_COND_OBJ_OBSTACK_TRUE=''
+GL_COND_OBJ_OPENAT_FALSE=''
+GL_COND_OBJ_OPENAT_TRUE='#'
+GL_COND_OBJ_OPENDIR_FALSE=''
+GL_COND_OBJ_OPENDIR_TRUE='#'
+GL_COND_OBJ_OPEN_FALSE=''
+GL_COND_OBJ_OPEN_TRUE='#'
+GL_COND_OBJ_OS2_SPAWN_FALSE=''
+GL_COND_OBJ_OS2_SPAWN_TRUE='#'
+GL_COND_OBJ_PERROR_FALSE=''
+GL_COND_OBJ_PERROR_TRUE='#'
+GL_COND_OBJ_PIPE_FALSE=''
+GL_COND_OBJ_PIPE_TRUE='#'
+GL_COND_OBJ_PROGRELOC_FALSE='#'
+GL_COND_OBJ_PROGRELOC_TRUE=''
+GL_COND_OBJ_PSELECT_FALSE=''
+GL_COND_OBJ_PSELECT_TRUE='#'
+GL_COND_OBJ_PTHREAD_SIGMASK_FALSE=''
+GL_COND_OBJ_PTHREAD_SIGMASK_TRUE='#'
+GL_COND_OBJ_PTHREAD_THREAD_FALSE=''
+GL_COND_OBJ_PTHREAD_THREAD_TRUE='#'
+GL_COND_OBJ_PUTENV_FALSE=''
+GL_COND_OBJ_PUTENV_TRUE='#'
+GL_COND_OBJ_RAISE_FALSE=''
+GL_COND_OBJ_RAISE_TRUE='#'
+GL_COND_OBJ_RANDOM_FALSE=''
+GL_COND_OBJ_RANDOM_R_FALSE=''
+GL_COND_OBJ_RANDOM_R_TRUE='#'
+GL_COND_OBJ_RANDOM_TRUE='#'
+GL_COND_OBJ_RAWMEMCHR_FALSE=''
+GL_COND_OBJ_RAWMEMCHR_TRUE='#'
+GL_COND_OBJ_READDIR_FALSE=''
+GL_COND_OBJ_READDIR_TRUE='#'
+GL_COND_OBJ_READLINK_FALSE=''
+GL_COND_OBJ_READLINK_TRUE='#'
+GL_COND_OBJ_READ_FALSE=''
+GL_COND_OBJ_READ_TRUE='#'
+GL_COND_OBJ_REALLOCARRAY_FALSE=''
+GL_COND_OBJ_REALLOCARRAY_TRUE='#'
+GL_COND_OBJ_REGEX_FALSE=''
+GL_COND_OBJ_REGEX_TRUE='#'
+GL_COND_OBJ_REWINDDIR_FALSE=''
+GL_COND_OBJ_REWINDDIR_TRUE='#'
+GL_COND_OBJ_RMDIR_FALSE=''
+GL_COND_OBJ_RMDIR_TRUE='#'
+GL_COND_OBJ_SCHED_YIELD_FALSE=''
+GL_COND_OBJ_SCHED_YIELD_TRUE='#'
+GL_COND_OBJ_SECURE_GETENV_FALSE=''
+GL_COND_OBJ_SECURE_GETENV_TRUE='#'
+GL_COND_OBJ_SELECT_FALSE=''
+GL_COND_OBJ_SELECT_TRUE='#'
+GL_COND_OBJ_SETENV_FALSE=''
+GL_COND_OBJ_SETENV_TRUE='#'
+GL_COND_OBJ_SETLOCALE_FALSE=''
+GL_COND_OBJ_SETLOCALE_LOCK_FALSE=''
+GL_COND_OBJ_SETLOCALE_LOCK_TRUE='#'
+GL_COND_OBJ_SETLOCALE_TRUE='#'
+GL_COND_OBJ_SETSOCKOPT_FALSE=''
+GL_COND_OBJ_SETSOCKOPT_TRUE='#'
+GL_COND_OBJ_SIGACTION_FALSE=''
+GL_COND_OBJ_SIGACTION_TRUE='#'
+GL_COND_OBJ_SIGNBIT3_FALSE=''
+GL_COND_OBJ_SIGNBIT3_TRUE='#'
+GL_COND_OBJ_SIGPROCMASK_FALSE=''
+GL_COND_OBJ_SIGPROCMASK_TRUE='#'
+GL_COND_OBJ_SLEEP_FALSE=''
+GL_COND_OBJ_SLEEP_TRUE='#'
+GL_COND_OBJ_SOCKET_FALSE=''
+GL_COND_OBJ_SOCKET_TRUE='#'
+GL_COND_OBJ_SPAWNATTR_DESTROY_FALSE=''
+GL_COND_OBJ_SPAWNATTR_DESTROY_TRUE='#'
+GL_COND_OBJ_SPAWNATTR_INIT_FALSE=''
+GL_COND_OBJ_SPAWNATTR_INIT_TRUE='#'
+GL_COND_OBJ_SPAWNATTR_SETFLAGS_FALSE=''
+GL_COND_OBJ_SPAWNATTR_SETFLAGS_TRUE='#'
+GL_COND_OBJ_SPAWNATTR_SETPGROUP_FALSE=''
+GL_COND_OBJ_SPAWNATTR_SETPGROUP_TRUE='#'
+GL_COND_OBJ_SPAWNATTR_SETSIGMASK_FALSE=''
+GL_COND_OBJ_SPAWNATTR_SETSIGMASK_TRUE='#'
+GL_COND_OBJ_SPAWNI_FALSE=''
+GL_COND_OBJ_SPAWNI_TRUE='#'
+GL_COND_OBJ_SPAWNP_FALSE=''
+GL_COND_OBJ_SPAWNP_TRUE='#'
+GL_COND_OBJ_SPAWN_FACTION_ADDCHDIR_FALSE='#'
+GL_COND_OBJ_SPAWN_FACTION_ADDCHDIR_TRUE=''
+GL_COND_OBJ_SPAWN_FACTION_ADDCLOSE_FALSE=''
+GL_COND_OBJ_SPAWN_FACTION_ADDCLOSE_TRUE='#'
+GL_COND_OBJ_SPAWN_FACTION_ADDDUP2_FALSE=''
+GL_COND_OBJ_SPAWN_FACTION_ADDDUP2_TRUE='#'
+GL_COND_OBJ_SPAWN_FACTION_ADDOPEN_FALSE=''
+GL_COND_OBJ_SPAWN_FACTION_ADDOPEN_TRUE='#'
+GL_COND_OBJ_SPAWN_FACTION_DESTROY_FALSE=''
+GL_COND_OBJ_SPAWN_FACTION_DESTROY_TRUE='#'
+GL_COND_OBJ_SPAWN_FACTION_INIT_FALSE=''
+GL_COND_OBJ_SPAWN_FACTION_INIT_TRUE='#'
+GL_COND_OBJ_SPAWN_FALSE=''
+GL_COND_OBJ_SPAWN_TRUE='#'
+GL_COND_OBJ_STAT_FALSE=''
+GL_COND_OBJ_STAT_TRUE='#'
+GL_COND_OBJ_STDIO_READ_FALSE=''
+GL_COND_OBJ_STDIO_READ_TRUE='#'
+GL_COND_OBJ_STDIO_WRITE_FALSE=''
+GL_COND_OBJ_STDIO_WRITE_TRUE='#'
+GL_COND_OBJ_STPCPY_FALSE=''
+GL_COND_OBJ_STPCPY_TRUE='#'
+GL_COND_OBJ_STPNCPY_FALSE=''
+GL_COND_OBJ_STPNCPY_TRUE='#'
+GL_COND_OBJ_STRCHRNUL_FALSE=''
+GL_COND_OBJ_STRCHRNUL_TRUE='#'
+GL_COND_OBJ_STRCSPN_FALSE=''
+GL_COND_OBJ_STRCSPN_TRUE='#'
+GL_COND_OBJ_STRDUP_FALSE=''
+GL_COND_OBJ_STRDUP_TRUE='#'
+GL_COND_OBJ_STRERROR_FALSE=''
+GL_COND_OBJ_STRERROR_OVERRIDE_FALSE=''
+GL_COND_OBJ_STRERROR_OVERRIDE_TRUE='#'
+GL_COND_OBJ_STRERROR_TRUE='#'
+GL_COND_OBJ_STRNLEN_FALSE=''
+GL_COND_OBJ_STRNLEN_TRUE='#'
+GL_COND_OBJ_STRPBRK_FALSE=''
+GL_COND_OBJ_STRPBRK_TRUE='#'
+GL_COND_OBJ_STRTOL_FALSE=''
+GL_COND_OBJ_STRTOL_TRUE='#'
+GL_COND_OBJ_STRTOUL_FALSE=''
+GL_COND_OBJ_STRTOUL_TRUE='#'
+GL_COND_OBJ_SYMLINK_FALSE=''
+GL_COND_OBJ_SYMLINK_TRUE='#'
+GL_COND_OBJ_TIME_FALSE='#'
+GL_COND_OBJ_TIME_TRUE=''
+GL_COND_OBJ_UNLINK_FALSE=''
+GL_COND_OBJ_UNLINK_TRUE='#'
+GL_COND_OBJ_UNSETENV_FALSE=''
+GL_COND_OBJ_UNSETENV_TRUE='#'
+GL_COND_OBJ_USLEEP_FALSE=''
+GL_COND_OBJ_USLEEP_TRUE='#'
+GL_COND_OBJ_UTIME_FALSE=''
+GL_COND_OBJ_UTIME_TRUE='#'
+GL_COND_OBJ_WAITPID_FALSE=''
+GL_COND_OBJ_WAITPID_TRUE='#'
+GL_COND_OBJ_WCRTOMB_FALSE=''
+GL_COND_OBJ_WCRTOMB_TRUE='#'
+GL_COND_OBJ_WCTOB_FALSE=''
+GL_COND_OBJ_WCTOB_TRUE='#'
+GL_COND_OBJ_WCTOMB_FALSE=''
+GL_COND_OBJ_WCTOMB_TRUE='#'
+GL_COND_OBJ_WCTYPE_FALSE=''
+GL_COND_OBJ_WCTYPE_TRUE='#'
+GL_COND_OBJ_WCWIDTH_FALSE=''
+GL_COND_OBJ_WCWIDTH_TRUE='#'
+GL_COND_OBJ_WINDOWS_MUTEX_FALSE=''
+GL_COND_OBJ_WINDOWS_MUTEX_TRUE='#'
+GL_COND_OBJ_WINDOWS_ONCE_FALSE=''
+GL_COND_OBJ_WINDOWS_ONCE_TRUE='#'
+GL_COND_OBJ_WINDOWS_RECMUTEX_FALSE=''
+GL_COND_OBJ_WINDOWS_RECMUTEX_TRUE='#'
+GL_COND_OBJ_WINDOWS_RWLOCK_FALSE=''
+GL_COND_OBJ_WINDOWS_RWLOCK_TRUE='#'
+GL_COND_OBJ_WINDOWS_SPAWN_FALSE=''
+GL_COND_OBJ_WINDOWS_SPAWN_TRUE='#'
+GL_COND_OBJ_WINDOWS_SPIN_FALSE=''
+GL_COND_OBJ_WINDOWS_SPIN_TRUE='#'
+GL_COND_OBJ_WINDOWS_THREAD_FALSE=''
+GL_COND_OBJ_WINDOWS_THREAD_TRUE='#'
+GL_COND_OBJ_WINDOWS_TLS_FALSE=''
+GL_COND_OBJ_WINDOWS_TLS_TRUE='#'
+GL_COND_OBJ_WMEMCHR_FALSE=''
+GL_COND_OBJ_WMEMCHR_TRUE='#'
+GL_COND_OBJ_WMEMPCPY_FALSE=''
+GL_COND_OBJ_WMEMPCPY_TRUE='#'
+GL_COND_OBJ_WRITE_FALSE=''
+GL_COND_OBJ_WRITE_TRUE='#'
+GL_CXXFLAG_ALLOW_WARNINGS='-Wno-error'
+GL_GENERATE_ALLOCA_H_FALSE='#'
+GL_GENERATE_ALLOCA_H_TRUE=''
+GL_GENERATE_ASSERT_H_FALSE=''
+GL_GENERATE_ASSERT_H_TRUE='#'
+GL_GENERATE_BYTESWAP_H_FALSE=''
+GL_GENERATE_BYTESWAP_H_TRUE='#'
+GL_GENERATE_ERRNO_H_FALSE=''
+GL_GENERATE_ERRNO_H_TRUE='#'
+GL_GENERATE_FLOAT_H_FALSE=''
+GL_GENERATE_FLOAT_H_TRUE='#'
+GL_GENERATE_FNMATCH_H_FALSE='#'
+GL_GENERATE_FNMATCH_H_TRUE=''
+GL_GENERATE_GETOPT_CDEFS_H_FALSE=''
+GL_GENERATE_GETOPT_CDEFS_H_TRUE='#'
+GL_GENERATE_GETOPT_H_FALSE=''
+GL_GENERATE_GETOPT_H_TRUE='#'
+GL_GENERATE_ICONV_H_FALSE='#'
+GL_GENERATE_ICONV_H_TRUE=''
+GL_GENERATE_LIMITS_H_FALSE='#'
+GL_GENERATE_LIMITS_H_TRUE=''
+GL_GENERATE_NETINET_IN_H_FALSE=''
+GL_GENERATE_NETINET_IN_H_TRUE='#'
+GL_GENERATE_OBSTACK_H_FALSE='#'
+GL_GENERATE_OBSTACK_H_TRUE=''
+GL_GENERATE_STDARG_H_FALSE=''
+GL_GENERATE_STDARG_H_TRUE='#'
+GL_GENERATE_STDCKDINT_H_FALSE=''
+GL_GENERATE_STDCKDINT_H_TRUE='#'
+GL_GENERATE_STDDEF_H_FALSE=''
+GL_GENERATE_STDDEF_H_TRUE='#'
+GL_GENERATE_STDINT_H_FALSE=''
+GL_GENERATE_STDINT_H_TRUE='#'
+GL_GNULIB_ACCEPT4='0'
+GL_GNULIB_ACCEPT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_ACCESS='1'
+GL_GNULIB_ACOSF='0'
+GL_GNULIB_ACOSL='0'
+GL_GNULIB_ALIGNED_ALLOC='0'
+GL_GNULIB_ALPHASORT='0'
+GL_GNULIB_ASINF='0'
+GL_GNULIB_ASINL='0'
+GL_GNULIB_ATAN2F='0'
+GL_GNULIB_ATANF='0'
+GL_GNULIB_ATANL='0'
+GL_GNULIB_ATOLL='0'
+GL_GNULIB_BIND='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_BTOC32='1'
+GL_GNULIB_BTOWC='1'
+GL_GNULIB_C32ISALNUM='1'
+GL_GNULIB_C32ISALPHA='1'
+GL_GNULIB_C32ISBLANK='1'
+GL_GNULIB_C32ISCNTRL='1'
+GL_GNULIB_C32ISDIGIT='1'
+GL_GNULIB_C32ISGRAPH='1'
+GL_GNULIB_C32ISLOWER='1'
+GL_GNULIB_C32ISPRINT='1'
+GL_GNULIB_C32ISPUNCT='1'
+GL_GNULIB_C32ISSPACE='1'
+GL_GNULIB_C32ISUPPER='1'
+GL_GNULIB_C32ISXDIGIT='1'
+GL_GNULIB_C32RTOMB='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_C32SNRTOMBS='0'
+GL_GNULIB_C32SRTOMBS='0'
+GL_GNULIB_C32STOMBS='0'
+GL_GNULIB_C32SWIDTH='0'
+GL_GNULIB_C32TOB='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_C32TOLOWER='1'
+GL_GNULIB_C32TOUPPER='0'
+GL_GNULIB_C32WIDTH='1'
+GL_GNULIB_C32_APPLY_MAPPING='0'
+GL_GNULIB_C32_APPLY_TYPE_TEST='1'
+GL_GNULIB_C32_GET_MAPPING='0'
+GL_GNULIB_C32_GET_TYPE_TEST='1'
+GL_GNULIB_CALLOC_GNU='1'
+GL_GNULIB_CALLOC_POSIX='1'
+GL_GNULIB_CANONICALIZE_FILE_NAME='1'
+GL_GNULIB_CBRT='0'
+GL_GNULIB_CBRTF='0'
+GL_GNULIB_CBRTL='0'
+GL_GNULIB_CEIL='0'
+GL_GNULIB_CEILF='0'
+GL_GNULIB_CEILL='0'
+GL_GNULIB_CHDIR='1'
+GL_GNULIB_CHMOD='0'
+GL_GNULIB_CHOWN='0'
+GL_GNULIB_CLOSE='1'
+GL_GNULIB_CLOSEDIR='1'
+GL_GNULIB_CONNECT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_COPYSIGN='0'
+GL_GNULIB_COPYSIGNF='0'
+GL_GNULIB_COPYSIGNL='0'
+GL_GNULIB_COPY_FILE_RANGE='1'
+GL_GNULIB_COSF='0'
+GL_GNULIB_COSHF='0'
+GL_GNULIB_COSL='0'
+GL_GNULIB_CREAT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_CTIME='0'
+GL_GNULIB_DIRFD='1'
+GL_GNULIB_DPRINTF='0'
+GL_GNULIB_DUP2='1'
+GL_GNULIB_DUP3='0'
+GL_GNULIB_DUP='1'
+GL_GNULIB_DUPLOCALE='0'
+GL_GNULIB_ENVIRON='1'
+GL_GNULIB_EUIDACCESS='0'
+GL_GNULIB_EXECL='0'
+GL_GNULIB_EXECLE='0'
+GL_GNULIB_EXECLP='0'
+GL_GNULIB_EXECV='0'
+GL_GNULIB_EXECVE='0'
+GL_GNULIB_EXECVP='0'
+GL_GNULIB_EXECVPE='0'
+GL_GNULIB_EXP2='0'
+GL_GNULIB_EXP2F='0'
+GL_GNULIB_EXP2L='0'
+GL_GNULIB_EXPF='0'
+GL_GNULIB_EXPL='0'
+GL_GNULIB_EXPLICIT_BZERO='0'
+GL_GNULIB_EXPM1='0'
+GL_GNULIB_EXPM1F='0'
+GL_GNULIB_EXPM1L='0'
+GL_GNULIB_FABSF='0'
+GL_GNULIB_FABSL='0'
+GL_GNULIB_FACCESSAT='0'
+GL_GNULIB_FCHDIR='1'
+GL_GNULIB_FCHMODAT='0'
+GL_GNULIB_FCHOWNAT='0'
+GL_GNULIB_FCLOSE='0'
+GL_GNULIB_FCNTL='1'
+GL_GNULIB_FDATASYNC='0'
+GL_GNULIB_FDOPEN='1'
+GL_GNULIB_FDOPENDIR='1'
+GL_GNULIB_FFLUSH='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FFSL='0'
+GL_GNULIB_FFSLL='0'
+GL_GNULIB_FGETC='1'
+GL_GNULIB_FGETS='1'
+GL_GNULIB_FLOOR='0'
+GL_GNULIB_FLOORF='0'
+GL_GNULIB_FLOORL='0'
+GL_GNULIB_FMA='0'
+GL_GNULIB_FMAF='0'
+GL_GNULIB_FMAL='0'
+GL_GNULIB_FMOD='0'
+GL_GNULIB_FMODF='0'
+GL_GNULIB_FMODL='0'
+GL_GNULIB_FNMATCH='1'
+GL_GNULIB_FOPEN='1'
+GL_GNULIB_FOPEN_GNU='1'
+GL_GNULIB_FPRINTF='1'
+GL_GNULIB_FPRINTF_POSIX='0'
+GL_GNULIB_FPURGE='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FPUTC='1'
+GL_GNULIB_FPUTS='1'
+GL_GNULIB_FREAD='1'
+GL_GNULIB_FREE_POSIX='1'
+GL_GNULIB_FREOPEN='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FREXP='0'
+GL_GNULIB_FREXPF='0'
+GL_GNULIB_FREXPL='0'
+GL_GNULIB_FSCANF='1'
+GL_GNULIB_FSEEK='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FSEEKO='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FSTAT='1'
+GL_GNULIB_FSTATAT='1'
+GL_GNULIB_FSYNC='0'
+GL_GNULIB_FTELL='1'
+GL_GNULIB_FTELLO='1'
+GL_GNULIB_FTRUNCATE='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_FUTIMENS='0'
+GL_GNULIB_FWRITE='1'
+GL_GNULIB_GETADDRINFO='1'
+GL_GNULIB_GETC='1'
+GL_GNULIB_GETCHAR='1'
+GL_GNULIB_GETCWD='1'
+GL_GNULIB_GETDELIM='1'
+GL_GNULIB_GETDOMAINNAME='0'
+GL_GNULIB_GETDTABLESIZE='1'
+GL_GNULIB_GETENTROPY='0'
+GL_GNULIB_GETGROUPS='0'
+GL_GNULIB_GETHOSTNAME='0'
+GL_GNULIB_GETLINE='1'
+GL_GNULIB_GETLOADAVG='0'
+GL_GNULIB_GETLOGIN='0'
+GL_GNULIB_GETLOGIN_R='0'
+GL_GNULIB_GETOPT_POSIX='1'
+GL_GNULIB_GETPAGESIZE='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_GETPASS='0'
+GL_GNULIB_GETPASS_GNU='0'
+GL_GNULIB_GETPEERNAME='0'
+GL_GNULIB_GETPROGNAME='1'
+GL_GNULIB_GETRANDOM='1'
+GL_GNULIB_GETSOCKNAME='0'
+GL_GNULIB_GETSOCKOPT='0'
+GL_GNULIB_GETSUBOPT='0'
+GL_GNULIB_GETTIMEOFDAY='1'
+GL_GNULIB_GETUMASK='0'
+GL_GNULIB_GETUSERSHELL='0'
+GL_GNULIB_GRANTPT='0'
+GL_GNULIB_GROUP_MEMBER='0'
+GL_GNULIB_HYPOT='0'
+GL_GNULIB_HYPOTF='0'
+GL_GNULIB_HYPOTL='0'
+GL_GNULIB_ICONV='1'
+GL_GNULIB_ILOGB='0'
+GL_GNULIB_ILOGBF='0'
+GL_GNULIB_ILOGBL='0'
+GL_GNULIB_IMAXABS='0'
+GL_GNULIB_IMAXDIV='0'
+GL_GNULIB_INET_NTOP='1'
+GL_GNULIB_INET_PTON='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_IOCTL='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_ISATTY='0'
+GL_GNULIB_ISBLANK='1'
+GL_GNULIB_ISFINITE='0'
+GL_GNULIB_ISINF='1'
+GL_GNULIB_ISNAN='1'
+GL_GNULIB_ISNAND='1'
+GL_GNULIB_ISNANF='1'
+GL_GNULIB_ISNANL='1'
+GL_GNULIB_ISWBLANK='1'
+GL_GNULIB_ISWCTYPE='1'
+GL_GNULIB_ISWDIGIT='1'
+GL_GNULIB_ISWPUNCT='1'
+GL_GNULIB_ISWXDIGIT='1'
+GL_GNULIB_LCHMOD='0'
+GL_GNULIB_LCHOWN='0'
+GL_GNULIB_LDEXP='0'
+GL_GNULIB_LDEXPF='0'
+GL_GNULIB_LDEXPL='0'
+GL_GNULIB_LINK='0'
+GL_GNULIB_LINKAT='0'
+GL_GNULIB_LISTEN='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_LOCALECONV='0'
+GL_GNULIB_LOCALENAME_UNSAFE='1'
+GL_GNULIB_LOCALTIME='1'
+GL_GNULIB_LOG10='1'
+GL_GNULIB_LOG10F='0'
+GL_GNULIB_LOG10L='0'
+GL_GNULIB_LOG1P='0'
+GL_GNULIB_LOG1PF='0'
+GL_GNULIB_LOG1PL='0'
+GL_GNULIB_LOG2='0'
+GL_GNULIB_LOG2F='0'
+GL_GNULIB_LOG2L='0'
+GL_GNULIB_LOG='0'
+GL_GNULIB_LOGB='0'
+GL_GNULIB_LOGBF='0'
+GL_GNULIB_LOGBL='0'
+GL_GNULIB_LOGF='0'
+GL_GNULIB_LOGL='0'
+GL_GNULIB_LSEEK='1'
+GL_GNULIB_LSTAT='1'
+GL_GNULIB_MALLOC_GNU='1'
+GL_GNULIB_MALLOC_POSIX='1'
+GL_GNULIB_MBRLEN='0'
+GL_GNULIB_MBRTOC16='0'
+GL_GNULIB_MBRTOC32='1'
+GL_GNULIB_MBRTOWC='1'
+GL_GNULIB_MBSCASECMP='0'
+GL_GNULIB_MBSCASESTR='0'
+GL_GNULIB_MBSCHR='0'
+GL_GNULIB_MBSCSPN='0'
+GL_GNULIB_MBSINIT='1'
+GL_GNULIB_MBSLEN='1'
+GL_GNULIB_MBSNCASECMP='0'
+GL_GNULIB_MBSNLEN='0'
+GL_GNULIB_MBSNRTOC32S='0'
+GL_GNULIB_MBSNRTOWCS='0'
+GL_GNULIB_MBSPBRK='0'
+GL_GNULIB_MBSPCASECMP='0'
+GL_GNULIB_MBSRCHR='0'
+GL_GNULIB_MBSRTOC32S='1'
+GL_GNULIB_MBSRTOWCS='1'
+GL_GNULIB_MBSSEP='0'
+GL_GNULIB_MBSSPN='0'
+GL_GNULIB_MBSSTR='1'
+GL_GNULIB_MBSTOC32S='0'
+GL_GNULIB_MBSTOK_R='0'
+GL_GNULIB_MBSTOWCS='0'
+GL_GNULIB_MBSZERO='1'
+GL_GNULIB_MBTOWC='1'
+GL_GNULIB_MDA_ACCESS='1'
+GL_GNULIB_MDA_CHDIR='1'
+GL_GNULIB_MDA_CHMOD='1'
+GL_GNULIB_MDA_CLOSE='1'
+GL_GNULIB_MDA_CREAT='1'
+GL_GNULIB_MDA_DUP2='1'
+GL_GNULIB_MDA_DUP='1'
+GL_GNULIB_MDA_ECVT='1'
+GL_GNULIB_MDA_EXECL='1'
+GL_GNULIB_MDA_EXECLE='1'
+GL_GNULIB_MDA_EXECLP='1'
+GL_GNULIB_MDA_EXECV='1'
+GL_GNULIB_MDA_EXECVE='1'
+GL_GNULIB_MDA_EXECVP='1'
+GL_GNULIB_MDA_EXECVPE='1'
+GL_GNULIB_MDA_FCLOSEALL='1'
+GL_GNULIB_MDA_FCVT='1'
+GL_GNULIB_MDA_FDOPEN='1'
+GL_GNULIB_MDA_FILENO='1'
+GL_GNULIB_MDA_GCVT='1'
+GL_GNULIB_MDA_GETCWD='1'
+GL_GNULIB_MDA_GETPID='1'
+GL_GNULIB_MDA_GETW='1'
+GL_GNULIB_MDA_ISATTY='1'
+GL_GNULIB_MDA_J0='1'
+GL_GNULIB_MDA_J1='1'
+GL_GNULIB_MDA_JN='1'
+GL_GNULIB_MDA_LSEEK='1'
+GL_GNULIB_MDA_MEMCCPY='1'
+GL_GNULIB_MDA_MKDIR='1'
+GL_GNULIB_MDA_MKTEMP='1'
+GL_GNULIB_MDA_OPEN='1'
+GL_GNULIB_MDA_PUTENV='1'
+GL_GNULIB_MDA_PUTW='1'
+GL_GNULIB_MDA_READ='1'
+GL_GNULIB_MDA_RMDIR='1'
+GL_GNULIB_MDA_STRDUP='1'
+GL_GNULIB_MDA_SWAB='1'
+GL_GNULIB_MDA_TEMPNAM='1'
+GL_GNULIB_MDA_TZSET='1'
+GL_GNULIB_MDA_UMASK='1'
+GL_GNULIB_MDA_UNLINK='1'
+GL_GNULIB_MDA_UTIME='1'
+GL_GNULIB_MDA_WCSDUP='1'
+GL_GNULIB_MDA_WRITE='1'
+GL_GNULIB_MDA_Y0='1'
+GL_GNULIB_MDA_Y1='1'
+GL_GNULIB_MDA_YN='1'
+GL_GNULIB_MEMCHR='1'
+GL_GNULIB_MEMMEM='1'
+GL_GNULIB_MEMPCPY='1'
+GL_GNULIB_MEMRCHR='1'
+GL_GNULIB_MEMSET_EXPLICIT='1'
+GL_GNULIB_MKDIR='1'
+GL_GNULIB_MKDIRAT='0'
+GL_GNULIB_MKDTEMP='1'
+GL_GNULIB_MKFIFO='0'
+GL_GNULIB_MKFIFOAT='0'
+GL_GNULIB_MKNOD='0'
+GL_GNULIB_MKNODAT='0'
+GL_GNULIB_MKOSTEMP='0'
+GL_GNULIB_MKOSTEMPS='0'
+GL_GNULIB_MKSTEMP='0'
+GL_GNULIB_MKSTEMPS='0'
+GL_GNULIB_MKTIME='0'
+GL_GNULIB_MODF='0'
+GL_GNULIB_MODFF='0'
+GL_GNULIB_MODFL='0'
+GL_GNULIB_NANOSLEEP='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_NL_LANGINFO='0'
+GL_GNULIB_NONBLOCKING='0'
+GL_GNULIB_OBSTACK_PRINTF='0'
+GL_GNULIB_OBSTACK_PRINTF_POSIX='0'
+GL_GNULIB_OPEN='1'
+GL_GNULIB_OPENAT='1'
+GL_GNULIB_OPENDIR='1'
+GL_GNULIB_OVERRIDES_STRUCT_STAT='0'
+GL_GNULIB_PCLOSE='0'
+GL_GNULIB_PERROR='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_PIPE2='1'
+GL_GNULIB_PIPE='1'
+GL_GNULIB_POPEN='0'
+GL_GNULIB_POSIX_MEMALIGN='0'
+GL_GNULIB_POSIX_OPENPT='0'
+GL_GNULIB_POSIX_SPAWN='1'
+GL_GNULIB_POSIX_SPAWNATTR_DESTROY='1'
+GL_GNULIB_POSIX_SPAWNATTR_GETFLAGS='0'
+GL_GNULIB_POSIX_SPAWNATTR_GETPGROUP='0'
+GL_GNULIB_POSIX_SPAWNATTR_GETSCHEDPARAM='0'
+GL_GNULIB_POSIX_SPAWNATTR_GETSCHEDPOLICY='0'
+GL_GNULIB_POSIX_SPAWNATTR_GETSIGDEFAULT='0'
+GL_GNULIB_POSIX_SPAWNATTR_GETSIGMASK='0'
+GL_GNULIB_POSIX_SPAWNATTR_INIT='1'
+GL_GNULIB_POSIX_SPAWNATTR_SETFLAGS='1'
+GL_GNULIB_POSIX_SPAWNATTR_SETPGROUP='1'
+GL_GNULIB_POSIX_SPAWNATTR_SETSCHEDPARAM='0'
+GL_GNULIB_POSIX_SPAWNATTR_SETSCHEDPOLICY='0'
+GL_GNULIB_POSIX_SPAWNATTR_SETSIGDEFAULT='0'
+GL_GNULIB_POSIX_SPAWNATTR_SETSIGMASK='1'
+GL_GNULIB_POSIX_SPAWNP='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDCLOSE='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDFCHDIR='0'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_ADDOPEN='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_DESTROY='1'
+GL_GNULIB_POSIX_SPAWN_FILE_ACTIONS_INIT='1'
+GL_GNULIB_POWF='0'
+GL_GNULIB_PREAD='0'
+GL_GNULIB_PRINTF='1'
+GL_GNULIB_PRINTF_POSIX='0'
+GL_GNULIB_PSELECT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_PTHREAD_COND='0'
+GL_GNULIB_PTHREAD_MUTEX='0'
+GL_GNULIB_PTHREAD_MUTEX_TIMEDLOCK='0'
+GL_GNULIB_PTHREAD_ONCE='0'
+GL_GNULIB_PTHREAD_RWLOCK='0'
+GL_GNULIB_PTHREAD_SIGMASK='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_PTHREAD_SPIN='0'
+GL_GNULIB_PTHREAD_THREAD='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_PTHREAD_TSS='0'
+GL_GNULIB_PTSNAME='0'
+GL_GNULIB_PTSNAME_R='0'
+GL_GNULIB_PUTC='1'
+GL_GNULIB_PUTCHAR='1'
+GL_GNULIB_PUTENV='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_PUTS='1'
+GL_GNULIB_PWRITE='0'
+GL_GNULIB_QSORT_R='0'
+GL_GNULIB_RAISE='1'
+GL_GNULIB_RAND='0'
+GL_GNULIB_RANDOM='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_RANDOM_R='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_RAWMEMCHR='1'
+GL_GNULIB_READ='1'
+GL_GNULIB_READDIR='1'
+GL_GNULIB_READLINK='1'
+GL_GNULIB_READLINKAT='0'
+GL_GNULIB_REALLOCARRAY='1'
+GL_GNULIB_REALLOC_GNU='1'
+GL_GNULIB_REALLOC_POSIX='1'
+GL_GNULIB_REALPATH='1'
+GL_GNULIB_RECV='0'
+GL_GNULIB_RECVFROM='0'
+GL_GNULIB_REMAINDER='0'
+GL_GNULIB_REMAINDERF='0'
+GL_GNULIB_REMAINDERL='0'
+GL_GNULIB_REMOVE='0'
+GL_GNULIB_RENAME='0'
+GL_GNULIB_RENAMEAT='0'
+GL_GNULIB_REWINDDIR='1'
+GL_GNULIB_RINT='0'
+GL_GNULIB_RINTF='0'
+GL_GNULIB_RINTL='0'
+GL_GNULIB_RMDIR='1'
+GL_GNULIB_ROUND='0'
+GL_GNULIB_ROUNDF='0'
+GL_GNULIB_ROUNDL='0'
+GL_GNULIB_RPMATCH='0'
+GL_GNULIB_SCANDIR='0'
+GL_GNULIB_SCANF='1'
+GL_GNULIB_SCHED_YIELD='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SECURE_GETENV='1'
+GL_GNULIB_SELECT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SEND='0'
+GL_GNULIB_SENDTO='0'
+GL_GNULIB_SETENV='1'
+GL_GNULIB_SETHOSTNAME='0'
+GL_GNULIB_SETLOCALE='1'
+GL_GNULIB_SETLOCALE_NULL='1'
+GL_GNULIB_SETSOCKOPT='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SHUTDOWN='0'
+GL_GNULIB_SIGABBREV_NP='0'
+GL_GNULIB_SIGACTION='1'
+GL_GNULIB_SIGDESCR_NP='0'
+GL_GNULIB_SIGNAL_H_SIGPIPE='1'
+GL_GNULIB_SIGNBIT='1'
+GL_GNULIB_SIGPROCMASK='1'
+GL_GNULIB_SINF='0'
+GL_GNULIB_SINHF='0'
+GL_GNULIB_SINL='0'
+GL_GNULIB_SLEEP='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SNPRINTF='1'
+GL_GNULIB_SOCKET='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SPRINTF_POSIX='0'
+GL_GNULIB_SQRTF='0'
+GL_GNULIB_SQRTL='0'
+GL_GNULIB_STAT='1'
+GL_GNULIB_STDIO_H_NONBLOCKING='0'
+GL_GNULIB_STDIO_H_SIGPIPE='1'
+GL_GNULIB_STPCPY='1'
+GL_GNULIB_STPNCPY='1'
+GL_GNULIB_STRCASESTR='0'
+GL_GNULIB_STRCHRNUL='1'
+GL_GNULIB_STRDUP='1'
+GL_GNULIB_STRERROR='1'
+GL_GNULIB_STRERRORNAME_NP='0'
+GL_GNULIB_STRERROR_R='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_STRFTIME='0'
+GL_GNULIB_STRNCAT='0'
+GL_GNULIB_STRNDUP='0'
+GL_GNULIB_STRNLEN='1'
+GL_GNULIB_STRPBRK='1'
+GL_GNULIB_STRPTIME='0'
+GL_GNULIB_STRSEP='0'
+GL_GNULIB_STRSIGNAL='0'
+GL_GNULIB_STRSTR='1'
+GL_GNULIB_STRTOD='0'
+GL_GNULIB_STRTOIMAX='0'
+GL_GNULIB_STRTOK_R='0'
+GL_GNULIB_STRTOL='1'
+GL_GNULIB_STRTOLD='0'
+GL_GNULIB_STRTOLL='0'
+GL_GNULIB_STRTOUL='1'
+GL_GNULIB_STRTOULL='0'
+GL_GNULIB_STRTOUMAX='0'
+GL_GNULIB_STRVERSCMP='0'
+GL_GNULIB_SYMLINK='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_SYMLINKAT='0'
+GL_GNULIB_SYSTEM_POSIX='0'
+GL_GNULIB_TANF='0'
+GL_GNULIB_TANHF='0'
+GL_GNULIB_TANL='0'
+GL_GNULIB_TIME='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_TIMEGM='0'
+GL_GNULIB_TIMESPEC_GET='0'
+GL_GNULIB_TIMESPEC_GETRES='0'
+GL_GNULIB_TIME_R='0'
+GL_GNULIB_TIME_RZ='0'
+GL_GNULIB_TMPFILE='0'
+GL_GNULIB_TOTALORDER='0'
+GL_GNULIB_TOTALORDERF='0'
+GL_GNULIB_TOTALORDERL='0'
+GL_GNULIB_TOWCTRANS='0'
+GL_GNULIB_TRUNC='0'
+GL_GNULIB_TRUNCATE='0'
+GL_GNULIB_TRUNCF='0'
+GL_GNULIB_TRUNCL='0'
+GL_GNULIB_TTYNAME_R='0'
+GL_GNULIB_TZSET='0'
+GL_GNULIB_UNICASE_EMPTY_PREFIX_CONTEXT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICASE_EMPTY_SUFFIX_CONTEXT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_CC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_CF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_CN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_CO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_CS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_C_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LM_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_LU_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_L_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_MC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_ME_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_MN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_M_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_ND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_NL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_NO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_N_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PD_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PI_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_PS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_P_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_SC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_SK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_SM_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_SO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_S_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_ZL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_ZP_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_ZS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_CATEGORY_Z_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ALPHABETIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ASCII_HEX_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_ARABIC_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_ARABIC_RIGHT_TO_LEFT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_BLOCK_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_BOUNDARY_NEUTRAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_COMMON_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_EMBEDDING_OR_OVERRIDE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_EUROPEAN_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_EUR_NUM_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_EUR_NUM_TERMINATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_HEBREW_RIGHT_TO_LEFT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_LEFT_TO_RIGHT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_NON_SPACING_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_OTHER_NEUTRAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_PDF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_SEGMENT_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_BIDI_WHITESPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CASE_IGNORABLE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_CASEFOLDED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_CASEMAPPED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_LOWERCASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_TITLECASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_UPPERCASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_COMBINING_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_COMPOSITE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_CURRENCY_SYMBOL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_DASH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_DECIMAL_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_DEFAULT_IGNORABLE_CODE_POINT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_DEPRECATED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_DIACRITIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EMOJI_COMPONENT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EMOJI_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EMOJI_MODIFIER_BASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EMOJI_MODIFIER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EMOJI_PRESENTATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EXTENDED_PICTOGRAPHIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_EXTENDER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_FORMAT_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_BASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_EXTEND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_LINK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_HEX_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_HYPHEN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_IDEOGRAPHIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_IDS_BINARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_IDS_TRINARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_IDS_UNARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ID_COMPAT_MATH_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ID_COMPAT_MATH_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_IGNORABLE_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ISO_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_JOIN_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_LEFT_OF_PAIR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_LINE_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_LOGICAL_ORDER_EXCEPTION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_LOWERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_MATH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_NON_BREAK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_NOT_A_CHARACTER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_NUMERIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_ALPHABETIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_DEFAULT_IGNORABLE_CODE_POINT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_GRAPHEME_EXTEND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_ID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_ID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_LOWERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_MATH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_OTHER_UPPERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PAIRED_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PARAGRAPH_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PATTERN_SYNTAX_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PATTERN_WHITE_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PREPENDED_CONCATENATION_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PRIVATE_USE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_QUOTATION_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_RADICAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_REGIONAL_INDICATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_SENTENCE_TERMINAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_SOFT_DOTTED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_TERMINAL_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_TITLECASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_UNASSIGNED_CODE_VALUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_UNIFIED_IDEOGRAPH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_UPPERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_VARIATION_SELECTOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_WHITE_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_XID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_XID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNICTYPE_PROPERTY_ZERO_WIDTH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNINORM_NFC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNINORM_NFD_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNINORM_NFKC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNINORM_NFKD_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GNULIB_UNISTD_H_GETOPT='0'
+GL_GNULIB_UNISTD_H_NONBLOCKING='0'
+GL_GNULIB_UNISTD_H_SIGPIPE='1'
+GL_GNULIB_UNLINK='1'
+GL_GNULIB_UNLINKAT='0'
+GL_GNULIB_UNLOCKPT='0'
+GL_GNULIB_UNSETENV='1'
+GL_GNULIB_USLEEP='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_UTIME='1'
+GL_GNULIB_UTIMENSAT='0'
+GL_GNULIB_VASPRINTF='1'
+GL_GNULIB_VDPRINTF='0'
+GL_GNULIB_VFPRINTF='1'
+GL_GNULIB_VFPRINTF_POSIX='0'
+GL_GNULIB_VFSCANF='0'
+GL_GNULIB_VPRINTF='1'
+GL_GNULIB_VPRINTF_POSIX='0'
+GL_GNULIB_VSCANF='0'
+GL_GNULIB_VSNPRINTF='1'
+GL_GNULIB_VSPRINTF_POSIX='0'
+GL_GNULIB_WAITPID='1'
+GL_GNULIB_WCPCPY='0'
+GL_GNULIB_WCPNCPY='0'
+GL_GNULIB_WCRTOMB='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_WCSCASECMP='0'
+GL_GNULIB_WCSCAT='0'
+GL_GNULIB_WCSCHR='0'
+GL_GNULIB_WCSCMP='0'
+GL_GNULIB_WCSCOLL='0'
+GL_GNULIB_WCSCPY='0'
+GL_GNULIB_WCSCSPN='0'
+GL_GNULIB_WCSDUP='0'
+GL_GNULIB_WCSFTIME='0'
+GL_GNULIB_WCSLEN='0'
+GL_GNULIB_WCSNCASECMP='0'
+GL_GNULIB_WCSNCAT='0'
+GL_GNULIB_WCSNCMP='0'
+GL_GNULIB_WCSNCPY='0'
+GL_GNULIB_WCSNLEN='0'
+GL_GNULIB_WCSNRTOMBS='0'
+GL_GNULIB_WCSPBRK='0'
+GL_GNULIB_WCSRCHR='0'
+GL_GNULIB_WCSRTOMBS='0'
+GL_GNULIB_WCSSPN='0'
+GL_GNULIB_WCSSTR='0'
+GL_GNULIB_WCSTOK='0'
+GL_GNULIB_WCSWIDTH='0'
+GL_GNULIB_WCSXFRM='0'
+GL_GNULIB_WCTOB='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_WCTOMB='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+GL_GNULIB_WCTRANS='0'
+GL_GNULIB_WCTYPE='1'
+GL_GNULIB_WCWIDTH='1'
+GL_GNULIB_WGETCWD='0'
+GL_GNULIB_WMEMCHR='1'
+GL_GNULIB_WMEMCMP='0'
+GL_GNULIB_WMEMCPY='0'
+GL_GNULIB_WMEMMOVE='0'
+GL_GNULIB_WMEMPCPY='1'
+GL_GNULIB_WMEMSET='0'
+GL_GNULIB_WRITE='1'
+GL_GNULIB__EXIT='0'
+GL_GRGL_GNULIB_ACCESS='0'
+GL_GRGL_GNULIB_ALIGNED_ALLOC='0'
+GL_GRGL_GNULIB_ATOLL='0'
+GL_GRGL_GNULIB_BTOWC='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_CALLOC_GNU='0'
+GL_GRGL_GNULIB_CALLOC_POSIX='0'
+GL_GRGL_GNULIB_CANONICALIZE_FILE_NAME='0'
+GL_GRGL_GNULIB_CHDIR='0'
+GL_GRGL_GNULIB_CHOWN='0'
+GL_GRGL_GNULIB_CLOSE='0'
+GL_GRGL_GNULIB_COPY_FILE_RANGE='0'
+GL_GRGL_GNULIB_DUP2='0'
+GL_GRGL_GNULIB_DUP3='0'
+GL_GRGL_GNULIB_DUP='0'
+GL_GRGL_GNULIB_DUPLOCALE='0'
+GL_GRGL_GNULIB_ENVIRON='0'
+GL_GRGL_GNULIB_EUIDACCESS='0'
+GL_GRGL_GNULIB_EXECL='0'
+GL_GRGL_GNULIB_EXECLE='0'
+GL_GRGL_GNULIB_EXECLP='0'
+GL_GRGL_GNULIB_EXECV='0'
+GL_GRGL_GNULIB_EXECVE='0'
+GL_GRGL_GNULIB_EXECVP='0'
+GL_GRGL_GNULIB_EXECVPE='0'
+GL_GRGL_GNULIB_FACCESSAT='0'
+GL_GRGL_GNULIB_FCHDIR='0'
+GL_GRGL_GNULIB_FCHOWNAT='0'
+GL_GRGL_GNULIB_FDATASYNC='0'
+GL_GRGL_GNULIB_FREE_POSIX='0'
+GL_GRGL_GNULIB_FSYNC='0'
+GL_GRGL_GNULIB_FTRUNCATE='0'
+GL_GRGL_GNULIB_GETCWD='0'
+GL_GRGL_GNULIB_GETDOMAINNAME='0'
+GL_GRGL_GNULIB_GETDTABLESIZE='0'
+GL_GRGL_GNULIB_GETENTROPY='0'
+GL_GRGL_GNULIB_GETGROUPS='0'
+GL_GRGL_GNULIB_GETHOSTNAME='0'
+GL_GRGL_GNULIB_GETLOADAVG='0'
+GL_GRGL_GNULIB_GETLOGIN='0'
+GL_GRGL_GNULIB_GETLOGIN_R='0'
+GL_GRGL_GNULIB_GETOPT_POSIX='0'
+GL_GRGL_GNULIB_GETPAGESIZE='0'
+GL_GRGL_GNULIB_GETPASS='0'
+GL_GRGL_GNULIB_GETPASS_GNU='0'
+GL_GRGL_GNULIB_GETPROGNAME='0'
+GL_GRGL_GNULIB_GETSUBOPT='0'
+GL_GRGL_GNULIB_GETUSERSHELL='0'
+GL_GRGL_GNULIB_GRANTPT='0'
+GL_GRGL_GNULIB_GROUP_MEMBER='0'
+GL_GRGL_GNULIB_IMAXABS='0'
+GL_GRGL_GNULIB_IMAXDIV='0'
+GL_GRGL_GNULIB_ISATTY='0'
+GL_GRGL_GNULIB_ISWBLANK='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_ISWCTYPE='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_ISWDIGIT='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_ISWPUNCT='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_ISWXDIGIT='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_LCHOWN='0'
+GL_GRGL_GNULIB_LINK='0'
+GL_GRGL_GNULIB_LINKAT='0'
+GL_GRGL_GNULIB_LOCALECONV='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_LOCALENAME_UNSAFE='0'
+GL_GRGL_GNULIB_LSEEK='0'
+GL_GRGL_GNULIB_MALLOC_GNU='0'
+GL_GRGL_GNULIB_MALLOC_POSIX='0'
+GL_GRGL_GNULIB_MBRLEN='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_MBRTOWC='0'
+GL_GRGL_GNULIB_MBSINIT='0'
+GL_GRGL_GNULIB_MBSNRTOWCS='0'
+GL_GRGL_GNULIB_MBSRTOWCS='0'
+GL_GRGL_GNULIB_MBSTOWCS='0'
+GL_GRGL_GNULIB_MBSZERO='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_MBTOWC='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_MDA_ACCESS='1'
+GL_GRGL_GNULIB_MDA_CHDIR='1'
+GL_GRGL_GNULIB_MDA_CLOSE='1'
+GL_GRGL_GNULIB_MDA_DUP2='1'
+GL_GRGL_GNULIB_MDA_DUP='1'
+GL_GRGL_GNULIB_MDA_ECVT='1'
+GL_GRGL_GNULIB_MDA_EXECL='1'
+GL_GRGL_GNULIB_MDA_EXECLE='1'
+GL_GRGL_GNULIB_MDA_EXECLP='1'
+GL_GRGL_GNULIB_MDA_EXECV='1'
+GL_GRGL_GNULIB_MDA_EXECVE='1'
+GL_GRGL_GNULIB_MDA_EXECVP='1'
+GL_GRGL_GNULIB_MDA_EXECVPE='1'
+GL_GRGL_GNULIB_MDA_FCVT='1'
+GL_GRGL_GNULIB_MDA_GCVT='1'
+GL_GRGL_GNULIB_MDA_GETCWD='1'
+GL_GRGL_GNULIB_MDA_GETPID='1'
+GL_GRGL_GNULIB_MDA_ISATTY='1'
+GL_GRGL_GNULIB_MDA_LSEEK='1'
+GL_GRGL_GNULIB_MDA_MKTEMP='1'
+GL_GRGL_GNULIB_MDA_PUTENV='1'
+GL_GRGL_GNULIB_MDA_READ='1'
+GL_GRGL_GNULIB_MDA_RMDIR='1'
+GL_GRGL_GNULIB_MDA_SWAB='1'
+GL_GRGL_GNULIB_MDA_UNLINK='1'
+GL_GRGL_GNULIB_MDA_WCSDUP='1'
+GL_GRGL_GNULIB_MDA_WRITE='1'
+GL_GRGL_GNULIB_MKDTEMP='0'
+GL_GRGL_GNULIB_MKOSTEMP='0'
+GL_GRGL_GNULIB_MKOSTEMPS='0'
+GL_GRGL_GNULIB_MKSTEMP='0'
+GL_GRGL_GNULIB_MKSTEMPS='0'
+GL_GRGL_GNULIB_NL_LANGINFO='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_PIPE2='0'
+GL_GRGL_GNULIB_PIPE='0'
+GL_GRGL_GNULIB_POSIX_MEMALIGN='0'
+GL_GRGL_GNULIB_POSIX_OPENPT='0'
+GL_GRGL_GNULIB_PREAD='0'
+GL_GRGL_GNULIB_PTSNAME='0'
+GL_GRGL_GNULIB_PTSNAME_R='0'
+GL_GRGL_GNULIB_PUTENV='0'
+GL_GRGL_GNULIB_PWRITE='0'
+GL_GRGL_GNULIB_QSORT_R='0'
+GL_GRGL_GNULIB_RAND='0'
+GL_GRGL_GNULIB_RANDOM='0'
+GL_GRGL_GNULIB_RANDOM_R='0'
+GL_GRGL_GNULIB_READ='0'
+GL_GRGL_GNULIB_READLINK='0'
+GL_GRGL_GNULIB_READLINKAT='0'
+GL_GRGL_GNULIB_REALLOCARRAY='0'
+GL_GRGL_GNULIB_REALLOC_GNU='0'
+GL_GRGL_GNULIB_REALLOC_POSIX='0'
+GL_GRGL_GNULIB_REALPATH='0'
+GL_GRGL_GNULIB_RMDIR='0'
+GL_GRGL_GNULIB_RPMATCH='0'
+GL_GRGL_GNULIB_SECURE_GETENV='0'
+GL_GRGL_GNULIB_SETENV='0'
+GL_GRGL_GNULIB_SETHOSTNAME='0'
+GL_GRGL_GNULIB_SETLOCALE='0'
+GL_GRGL_GNULIB_SETLOCALE_NULL='1'
+GL_GRGL_GNULIB_SLEEP='0'
+GL_GRGL_GNULIB_STRTOD='0'
+GL_GRGL_GNULIB_STRTOIMAX='0'
+GL_GRGL_GNULIB_STRTOL='0'
+GL_GRGL_GNULIB_STRTOLD='0'
+GL_GRGL_GNULIB_STRTOLL='0'
+GL_GRGL_GNULIB_STRTOUL='0'
+GL_GRGL_GNULIB_STRTOULL='0'
+GL_GRGL_GNULIB_STRTOUMAX='0'
+GL_GRGL_GNULIB_SYMLINK='0'
+GL_GRGL_GNULIB_SYMLINKAT='0'
+GL_GRGL_GNULIB_SYSTEM_POSIX='0'
+GL_GRGL_GNULIB_TOWCTRANS='0'
+GL_GRGL_GNULIB_TRUNCATE='0'
+GL_GRGL_GNULIB_TTYNAME_R='0'
+GL_GRGL_GNULIB_UNISTD_H_GETOPT='0'
+GL_GRGL_GNULIB_UNISTD_H_NONBLOCKING='0'
+GL_GRGL_GNULIB_UNISTD_H_SIGPIPE='0'
+GL_GRGL_GNULIB_UNLINK='0'
+GL_GRGL_GNULIB_UNLINKAT='0'
+GL_GRGL_GNULIB_UNLOCKPT='0'
+GL_GRGL_GNULIB_UNSETENV='0'
+GL_GRGL_GNULIB_USLEEP='0'
+GL_GRGL_GNULIB_WCPCPY='0'
+GL_GRGL_GNULIB_WCPNCPY='0'
+GL_GRGL_GNULIB_WCRTOMB='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_WCSCASECMP='0'
+GL_GRGL_GNULIB_WCSCAT='0'
+GL_GRGL_GNULIB_WCSCHR='0'
+GL_GRGL_GNULIB_WCSCMP='0'
+GL_GRGL_GNULIB_WCSCOLL='0'
+GL_GRGL_GNULIB_WCSCPY='0'
+GL_GRGL_GNULIB_WCSCSPN='0'
+GL_GRGL_GNULIB_WCSDUP='0'
+GL_GRGL_GNULIB_WCSFTIME='0'
+GL_GRGL_GNULIB_WCSLEN='0'
+GL_GRGL_GNULIB_WCSNCASECMP='0'
+GL_GRGL_GNULIB_WCSNCAT='0'
+GL_GRGL_GNULIB_WCSNCMP='0'
+GL_GRGL_GNULIB_WCSNCPY='0'
+GL_GRGL_GNULIB_WCSNLEN='0'
+GL_GRGL_GNULIB_WCSNRTOMBS='0'
+GL_GRGL_GNULIB_WCSPBRK='0'
+GL_GRGL_GNULIB_WCSRCHR='0'
+GL_GRGL_GNULIB_WCSRTOMBS='0'
+GL_GRGL_GNULIB_WCSSPN='0'
+GL_GRGL_GNULIB_WCSSTR='0'
+GL_GRGL_GNULIB_WCSTOK='0'
+GL_GRGL_GNULIB_WCSWIDTH='0'
+GL_GRGL_GNULIB_WCSXFRM='0'
+GL_GRGL_GNULIB_WCTOB='0'
+GL_GRGL_GNULIB_WCTOMB='0'
+GL_GRGL_GNULIB_WCTRANS='0'
+GL_GRGL_GNULIB_WCTYPE='IN_GETTEXT_TOOLS_LIBGREP'
+GL_GRGL_GNULIB_WCWIDTH='0'
+GL_GRGL_GNULIB_WGETCWD='0'
+GL_GRGL_GNULIB_WMEMCHR='0'
+GL_GRGL_GNULIB_WMEMCMP='0'
+GL_GRGL_GNULIB_WMEMCPY='0'
+GL_GRGL_GNULIB_WMEMMOVE='0'
+GL_GRGL_GNULIB_WMEMPCPY='0'
+GL_GRGL_GNULIB_WMEMSET='0'
+GL_GRGL_GNULIB_WRITE='0'
+GL_GRGL_GNULIB__EXIT='0'
+GL_GTPO_GNULIB_ACCESS='0'
+GL_GTPO_GNULIB_ALIGNED_ALLOC='0'
+GL_GTPO_GNULIB_ATOLL='0'
+GL_GTPO_GNULIB_BTOC32='0'
+GL_GTPO_GNULIB_BTOWC='0'
+GL_GTPO_GNULIB_C32ISALNUM='0'
+GL_GTPO_GNULIB_C32ISALPHA='0'
+GL_GTPO_GNULIB_C32ISBLANK='0'
+GL_GTPO_GNULIB_C32ISCNTRL='1'
+GL_GTPO_GNULIB_C32ISDIGIT='0'
+GL_GTPO_GNULIB_C32ISGRAPH='0'
+GL_GTPO_GNULIB_C32ISLOWER='0'
+GL_GTPO_GNULIB_C32ISPRINT='0'
+GL_GTPO_GNULIB_C32ISPUNCT='0'
+GL_GTPO_GNULIB_C32ISSPACE='0'
+GL_GTPO_GNULIB_C32ISUPPER='0'
+GL_GTPO_GNULIB_C32ISXDIGIT='0'
+GL_GTPO_GNULIB_C32RTOMB='0'
+GL_GTPO_GNULIB_C32SNRTOMBS='0'
+GL_GTPO_GNULIB_C32SRTOMBS='0'
+GL_GTPO_GNULIB_C32STOMBS='0'
+GL_GTPO_GNULIB_C32SWIDTH='0'
+GL_GTPO_GNULIB_C32TOB='0'
+GL_GTPO_GNULIB_C32TOLOWER='0'
+GL_GTPO_GNULIB_C32TOUPPER='0'
+GL_GTPO_GNULIB_C32WIDTH='1'
+GL_GTPO_GNULIB_C32_APPLY_MAPPING='0'
+GL_GTPO_GNULIB_C32_APPLY_TYPE_TEST='0'
+GL_GTPO_GNULIB_C32_GET_MAPPING='0'
+GL_GTPO_GNULIB_C32_GET_TYPE_TEST='0'
+GL_GTPO_GNULIB_CALLOC_GNU='1'
+GL_GTPO_GNULIB_CALLOC_POSIX='1'
+GL_GTPO_GNULIB_CANONICALIZE_FILE_NAME='0'
+GL_GTPO_GNULIB_CHDIR='0'
+GL_GTPO_GNULIB_CHMOD='0'
+GL_GTPO_GNULIB_CHOWN='0'
+GL_GTPO_GNULIB_CLOSE='1'
+GL_GTPO_GNULIB_COPY_FILE_RANGE='0'
+GL_GTPO_GNULIB_CREAT='0'
+GL_GTPO_GNULIB_CTIME='0'
+GL_GTPO_GNULIB_DPRINTF='0'
+GL_GTPO_GNULIB_DUP2='1'
+GL_GTPO_GNULIB_DUP3='0'
+GL_GTPO_GNULIB_DUP='0'
+GL_GTPO_GNULIB_DUPLOCALE='0'
+GL_GTPO_GNULIB_ENVIRON='0'
+GL_GTPO_GNULIB_EUIDACCESS='0'
+GL_GTPO_GNULIB_EXECL='0'
+GL_GTPO_GNULIB_EXECLE='0'
+GL_GTPO_GNULIB_EXECLP='0'
+GL_GTPO_GNULIB_EXECV='0'
+GL_GTPO_GNULIB_EXECVE='0'
+GL_GTPO_GNULIB_EXECVP='0'
+GL_GTPO_GNULIB_EXECVPE='0'
+GL_GTPO_GNULIB_EXPLICIT_BZERO='0'
+GL_GTPO_GNULIB_FACCESSAT='0'
+GL_GTPO_GNULIB_FCHDIR='0'
+GL_GTPO_GNULIB_FCHMODAT='0'
+GL_GTPO_GNULIB_FCHOWNAT='0'
+GL_GTPO_GNULIB_FCLOSE='0'
+GL_GTPO_GNULIB_FCNTL='1'
+GL_GTPO_GNULIB_FDATASYNC='0'
+GL_GTPO_GNULIB_FDOPEN='1'
+GL_GTPO_GNULIB_FFLUSH='0'
+GL_GTPO_GNULIB_FFSL='0'
+GL_GTPO_GNULIB_FFSLL='0'
+GL_GTPO_GNULIB_FGETC='1'
+GL_GTPO_GNULIB_FGETS='1'
+GL_GTPO_GNULIB_FOPEN='1'
+GL_GTPO_GNULIB_FOPEN_GNU='0'
+GL_GTPO_GNULIB_FPRINTF='1'
+GL_GTPO_GNULIB_FPRINTF_POSIX='0'
+GL_GTPO_GNULIB_FPURGE='0'
+GL_GTPO_GNULIB_FPUTC='1'
+GL_GTPO_GNULIB_FPUTS='1'
+GL_GTPO_GNULIB_FREAD='1'
+GL_GTPO_GNULIB_FREE_POSIX='1'
+GL_GTPO_GNULIB_FREOPEN='0'
+GL_GTPO_GNULIB_FSCANF='1'
+GL_GTPO_GNULIB_FSEEK='0'
+GL_GTPO_GNULIB_FSEEKO='0'
+GL_GTPO_GNULIB_FSTAT='1'
+GL_GTPO_GNULIB_FSTATAT='0'
+GL_GTPO_GNULIB_FSYNC='1'
+GL_GTPO_GNULIB_FTELL='0'
+GL_GTPO_GNULIB_FTELLO='0'
+GL_GTPO_GNULIB_FTRUNCATE='0'
+GL_GTPO_GNULIB_FUTIMENS='0'
+GL_GTPO_GNULIB_FWRITE='1'
+GL_GTPO_GNULIB_GETC='1'
+GL_GTPO_GNULIB_GETCHAR='1'
+GL_GTPO_GNULIB_GETCWD='0'
+GL_GTPO_GNULIB_GETDELIM='1'
+GL_GTPO_GNULIB_GETDOMAINNAME='0'
+GL_GTPO_GNULIB_GETDTABLESIZE='1'
+GL_GTPO_GNULIB_GETENTROPY='0'
+GL_GTPO_GNULIB_GETGROUPS='0'
+GL_GTPO_GNULIB_GETHOSTNAME='0'
+GL_GTPO_GNULIB_GETLINE='1'
+GL_GTPO_GNULIB_GETLOADAVG='0'
+GL_GTPO_GNULIB_GETLOGIN='0'
+GL_GTPO_GNULIB_GETLOGIN_R='0'
+GL_GTPO_GNULIB_GETOPT_POSIX='0'
+GL_GTPO_GNULIB_GETPAGESIZE='0'
+GL_GTPO_GNULIB_GETPASS='0'
+GL_GTPO_GNULIB_GETPASS_GNU='0'
+GL_GTPO_GNULIB_GETPROGNAME='1'
+GL_GTPO_GNULIB_GETSUBOPT='0'
+GL_GTPO_GNULIB_GETUMASK='0'
+GL_GTPO_GNULIB_GETUSERSHELL='0'
+GL_GTPO_GNULIB_GRANTPT='0'
+GL_GTPO_GNULIB_GROUP_MEMBER='0'
+GL_GTPO_GNULIB_ICONV='1'
+GL_GTPO_GNULIB_IMAXABS='0'
+GL_GTPO_GNULIB_IMAXDIV='0'
+GL_GTPO_GNULIB_ISATTY='0'
+GL_GTPO_GNULIB_ISWBLANK='0'
+GL_GTPO_GNULIB_ISWCTYPE='0'
+GL_GTPO_GNULIB_ISWDIGIT='0'
+GL_GTPO_GNULIB_ISWPUNCT='0'
+GL_GTPO_GNULIB_ISWXDIGIT='0'
+GL_GTPO_GNULIB_LCHMOD='0'
+GL_GTPO_GNULIB_LCHOWN='0'
+GL_GTPO_GNULIB_LINK='0'
+GL_GTPO_GNULIB_LINKAT='0'
+GL_GTPO_GNULIB_LOCALECONV='0'
+GL_GTPO_GNULIB_LOCALENAME_UNSAFE='0'
+GL_GTPO_GNULIB_LOCALTIME='0'
+GL_GTPO_GNULIB_LSEEK='0'
+GL_GTPO_GNULIB_LSTAT='0'
+GL_GTPO_GNULIB_MALLOC_GNU='1'
+GL_GTPO_GNULIB_MALLOC_POSIX='1'
+GL_GTPO_GNULIB_MBRLEN='0'
+GL_GTPO_GNULIB_MBRTOC16='0'
+GL_GTPO_GNULIB_MBRTOC32='1'
+GL_GTPO_GNULIB_MBRTOWC='1'
+GL_GTPO_GNULIB_MBSCASECMP='0'
+GL_GTPO_GNULIB_MBSCASESTR='0'
+GL_GTPO_GNULIB_MBSCHR='0'
+GL_GTPO_GNULIB_MBSCSPN='0'
+GL_GTPO_GNULIB_MBSINIT='1'
+GL_GTPO_GNULIB_MBSLEN='0'
+GL_GTPO_GNULIB_MBSNCASECMP='0'
+GL_GTPO_GNULIB_MBSNLEN='0'
+GL_GTPO_GNULIB_MBSNRTOC32S='0'
+GL_GTPO_GNULIB_MBSNRTOWCS='0'
+GL_GTPO_GNULIB_MBSPBRK='0'
+GL_GTPO_GNULIB_MBSPCASECMP='0'
+GL_GTPO_GNULIB_MBSRCHR='0'
+GL_GTPO_GNULIB_MBSRTOC32S='0'
+GL_GTPO_GNULIB_MBSRTOWCS='0'
+GL_GTPO_GNULIB_MBSSEP='0'
+GL_GTPO_GNULIB_MBSSPN='0'
+GL_GTPO_GNULIB_MBSSTR='0'
+GL_GTPO_GNULIB_MBSTOC32S='0'
+GL_GTPO_GNULIB_MBSTOK_R='0'
+GL_GTPO_GNULIB_MBSTOWCS='0'
+GL_GTPO_GNULIB_MBSZERO='1'
+GL_GTPO_GNULIB_MBTOWC='0'
+GL_GTPO_GNULIB_MDA_ACCESS='1'
+GL_GTPO_GNULIB_MDA_CHDIR='1'
+GL_GTPO_GNULIB_MDA_CHMOD='1'
+GL_GTPO_GNULIB_MDA_CLOSE='1'
+GL_GTPO_GNULIB_MDA_CREAT='1'
+GL_GTPO_GNULIB_MDA_DUP2='1'
+GL_GTPO_GNULIB_MDA_DUP='1'
+GL_GTPO_GNULIB_MDA_ECVT='1'
+GL_GTPO_GNULIB_MDA_EXECL='1'
+GL_GTPO_GNULIB_MDA_EXECLE='1'
+GL_GTPO_GNULIB_MDA_EXECLP='1'
+GL_GTPO_GNULIB_MDA_EXECV='1'
+GL_GTPO_GNULIB_MDA_EXECVE='1'
+GL_GTPO_GNULIB_MDA_EXECVP='1'
+GL_GTPO_GNULIB_MDA_EXECVPE='1'
+GL_GTPO_GNULIB_MDA_FCLOSEALL='1'
+GL_GTPO_GNULIB_MDA_FCVT='1'
+GL_GTPO_GNULIB_MDA_FDOPEN='1'
+GL_GTPO_GNULIB_MDA_FILENO='1'
+GL_GTPO_GNULIB_MDA_GCVT='1'
+GL_GTPO_GNULIB_MDA_GETCWD='1'
+GL_GTPO_GNULIB_MDA_GETPID='1'
+GL_GTPO_GNULIB_MDA_GETW='1'
+GL_GTPO_GNULIB_MDA_ISATTY='1'
+GL_GTPO_GNULIB_MDA_LSEEK='1'
+GL_GTPO_GNULIB_MDA_MEMCCPY='1'
+GL_GTPO_GNULIB_MDA_MKDIR='1'
+GL_GTPO_GNULIB_MDA_MKTEMP='1'
+GL_GTPO_GNULIB_MDA_OPEN='1'
+GL_GTPO_GNULIB_MDA_PUTENV='1'
+GL_GTPO_GNULIB_MDA_PUTW='1'
+GL_GTPO_GNULIB_MDA_READ='1'
+GL_GTPO_GNULIB_MDA_RMDIR='1'
+GL_GTPO_GNULIB_MDA_STRDUP='1'
+GL_GTPO_GNULIB_MDA_SWAB='1'
+GL_GTPO_GNULIB_MDA_TEMPNAM='1'
+GL_GTPO_GNULIB_MDA_TZSET='1'
+GL_GTPO_GNULIB_MDA_UMASK='1'
+GL_GTPO_GNULIB_MDA_UNLINK='1'
+GL_GTPO_GNULIB_MDA_WCSDUP='1'
+GL_GTPO_GNULIB_MDA_WRITE='1'
+GL_GTPO_GNULIB_MEMCHR='1'
+GL_GTPO_GNULIB_MEMMEM='1'
+GL_GTPO_GNULIB_MEMPCPY='0'
+GL_GTPO_GNULIB_MEMRCHR='1'
+GL_GTPO_GNULIB_MEMSET_EXPLICIT='0'
+GL_GTPO_GNULIB_MKDIR='0'
+GL_GTPO_GNULIB_MKDIRAT='0'
+GL_GTPO_GNULIB_MKDTEMP='0'
+GL_GTPO_GNULIB_MKFIFO='0'
+GL_GTPO_GNULIB_MKFIFOAT='0'
+GL_GTPO_GNULIB_MKNOD='0'
+GL_GTPO_GNULIB_MKNODAT='0'
+GL_GTPO_GNULIB_MKOSTEMP='0'
+GL_GTPO_GNULIB_MKOSTEMPS='0'
+GL_GTPO_GNULIB_MKSTEMP='0'
+GL_GTPO_GNULIB_MKSTEMPS='0'
+GL_GTPO_GNULIB_MKTIME='0'
+GL_GTPO_GNULIB_NANOSLEEP='0'
+GL_GTPO_GNULIB_NONBLOCKING='0'
+GL_GTPO_GNULIB_OBSTACK_PRINTF='0'
+GL_GTPO_GNULIB_OBSTACK_PRINTF_POSIX='0'
+GL_GTPO_GNULIB_OPEN='1'
+GL_GTPO_GNULIB_OPENAT='0'
+GL_GTPO_GNULIB_OVERRIDES_STRUCT_STAT='0'
+GL_GTPO_GNULIB_PCLOSE='0'
+GL_GTPO_GNULIB_PERROR='0'
+GL_GTPO_GNULIB_PIPE2='0'
+GL_GTPO_GNULIB_PIPE='0'
+GL_GTPO_GNULIB_POPEN='0'
+GL_GTPO_GNULIB_POSIX_MEMALIGN='0'
+GL_GTPO_GNULIB_POSIX_OPENPT='0'
+GL_GTPO_GNULIB_PREAD='0'
+GL_GTPO_GNULIB_PRINTF='1'
+GL_GTPO_GNULIB_PRINTF_POSIX='0'
+GL_GTPO_GNULIB_PTHREAD_SIGMASK='0'
+GL_GTPO_GNULIB_PTSNAME='0'
+GL_GTPO_GNULIB_PTSNAME_R='0'
+GL_GTPO_GNULIB_PUTC='1'
+GL_GTPO_GNULIB_PUTCHAR='1'
+GL_GTPO_GNULIB_PUTENV='0'
+GL_GTPO_GNULIB_PUTS='1'
+GL_GTPO_GNULIB_PWRITE='0'
+GL_GTPO_GNULIB_QSORT_R='0'
+GL_GTPO_GNULIB_RAISE='1'
+GL_GTPO_GNULIB_RAND='0'
+GL_GTPO_GNULIB_RANDOM='0'
+GL_GTPO_GNULIB_RANDOM_R='0'
+GL_GTPO_GNULIB_RAWMEMCHR='1'
+GL_GTPO_GNULIB_READ='0'
+GL_GTPO_GNULIB_READLINK='0'
+GL_GTPO_GNULIB_READLINKAT='0'
+GL_GTPO_GNULIB_REALLOCARRAY='1'
+GL_GTPO_GNULIB_REALLOC_GNU='1'
+GL_GTPO_GNULIB_REALLOC_POSIX='1'
+GL_GTPO_GNULIB_REALPATH='0'
+GL_GTPO_GNULIB_REMOVE='0'
+GL_GTPO_GNULIB_RENAME='0'
+GL_GTPO_GNULIB_RENAMEAT='0'
+GL_GTPO_GNULIB_RMDIR='0'
+GL_GTPO_GNULIB_RPMATCH='0'
+GL_GTPO_GNULIB_SCANF='1'
+GL_GTPO_GNULIB_SECURE_GETENV='0'
+GL_GTPO_GNULIB_SETENV='0'
+GL_GTPO_GNULIB_SETHOSTNAME='0'
+GL_GTPO_GNULIB_SETLOCALE='0'
+GL_GTPO_GNULIB_SETLOCALE_NULL='1'
+GL_GTPO_GNULIB_SIGABBREV_NP='0'
+GL_GTPO_GNULIB_SIGACTION='0'
+GL_GTPO_GNULIB_SIGDESCR_NP='0'
+GL_GTPO_GNULIB_SIGNAL_H_SIGPIPE='1'
+GL_GTPO_GNULIB_SIGPROCMASK='1'
+GL_GTPO_GNULIB_SLEEP='0'
+GL_GTPO_GNULIB_SNPRINTF='0'
+GL_GTPO_GNULIB_SPRINTF_POSIX='0'
+GL_GTPO_GNULIB_STAT='1'
+GL_GTPO_GNULIB_STDIO_H_NONBLOCKING='0'
+GL_GTPO_GNULIB_STDIO_H_SIGPIPE='1'
+GL_GTPO_GNULIB_STPCPY='1'
+GL_GTPO_GNULIB_STPNCPY='1'
+GL_GTPO_GNULIB_STRCASESTR='0'
+GL_GTPO_GNULIB_STRCHRNUL='1'
+GL_GTPO_GNULIB_STRDUP='0'
+GL_GTPO_GNULIB_STRERROR='1'
+GL_GTPO_GNULIB_STRERRORNAME_NP='0'
+GL_GTPO_GNULIB_STRERROR_R='0'
+GL_GTPO_GNULIB_STRFTIME='0'
+GL_GTPO_GNULIB_STRNCAT='0'
+GL_GTPO_GNULIB_STRNDUP='0'
+GL_GTPO_GNULIB_STRNLEN='0'
+GL_GTPO_GNULIB_STRPBRK='0'
+GL_GTPO_GNULIB_STRPTIME='0'
+GL_GTPO_GNULIB_STRSEP='0'
+GL_GTPO_GNULIB_STRSIGNAL='0'
+GL_GTPO_GNULIB_STRSTR='1'
+GL_GTPO_GNULIB_STRTOD='0'
+GL_GTPO_GNULIB_STRTOIMAX='0'
+GL_GTPO_GNULIB_STRTOK_R='0'
+GL_GTPO_GNULIB_STRTOL='0'
+GL_GTPO_GNULIB_STRTOLD='0'
+GL_GTPO_GNULIB_STRTOLL='0'
+GL_GTPO_GNULIB_STRTOUL='0'
+GL_GTPO_GNULIB_STRTOULL='0'
+GL_GTPO_GNULIB_STRTOUMAX='0'
+GL_GTPO_GNULIB_STRVERSCMP='0'
+GL_GTPO_GNULIB_SYMLINK='0'
+GL_GTPO_GNULIB_SYMLINKAT='0'
+GL_GTPO_GNULIB_SYSTEM_POSIX='0'
+GL_GTPO_GNULIB_TIME='0'
+GL_GTPO_GNULIB_TIMEGM='0'
+GL_GTPO_GNULIB_TIMESPEC_GET='0'
+GL_GTPO_GNULIB_TIMESPEC_GETRES='0'
+GL_GTPO_GNULIB_TIME_R='0'
+GL_GTPO_GNULIB_TIME_RZ='0'
+GL_GTPO_GNULIB_TMPFILE='0'
+GL_GTPO_GNULIB_TOWCTRANS='0'
+GL_GTPO_GNULIB_TRUNCATE='0'
+GL_GTPO_GNULIB_TTYNAME_R='0'
+GL_GTPO_GNULIB_TZSET='0'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_CC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_CF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_CN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_CO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_CS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_C_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LM_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_LU_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_L_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_MC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_ME_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_MN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_M_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_ND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_NL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_NO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_N_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PD_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PI_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_PS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_P_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_SC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_SK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_SM_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_SO_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_S_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_ZL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_ZP_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_ZS_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_CATEGORY_Z_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ALPHABETIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ASCII_HEX_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_ARABIC_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_ARABIC_RIGHT_TO_LEFT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_BLOCK_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_BOUNDARY_NEUTRAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_COMMON_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_EMBEDDING_OR_OVERRIDE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_EUROPEAN_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_EUR_NUM_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_EUR_NUM_TERMINATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_HEBREW_RIGHT_TO_LEFT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_LEFT_TO_RIGHT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_NON_SPACING_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_OTHER_NEUTRAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_PDF_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_SEGMENT_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_BIDI_WHITESPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CASE_IGNORABLE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_CASEFOLDED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_CASEMAPPED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_LOWERCASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_TITLECASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CHANGES_WHEN_UPPERCASED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_COMBINING_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_COMPOSITE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_CURRENCY_SYMBOL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_DASH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_DECIMAL_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_DEFAULT_IGNORABLE_CODE_POINT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_DEPRECATED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_DIACRITIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EMOJI_COMPONENT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EMOJI_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EMOJI_MODIFIER_BASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EMOJI_MODIFIER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EMOJI_PRESENTATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EXTENDED_PICTOGRAPHIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_EXTENDER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_FORMAT_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_BASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_EXTEND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_GRAPHEME_LINK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_HEX_DIGIT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_HYPHEN_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_IDEOGRAPHIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_IDS_BINARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_IDS_TRINARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_IDS_UNARY_OPERATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ID_COMPAT_MATH_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ID_COMPAT_MATH_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_IGNORABLE_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ISO_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_JOIN_CONTROL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_LEFT_OF_PAIR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_LINE_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_LOGICAL_ORDER_EXCEPTION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_LOWERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_MATH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_NON_BREAK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_NOT_A_CHARACTER_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_NUMERIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_ALPHABETIC_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_DEFAULT_IGNORABLE_CODE_POINT_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_GRAPHEME_EXTEND_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_ID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_ID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_LOWERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_MATH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_OTHER_UPPERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PAIRED_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PARAGRAPH_SEPARATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PATTERN_SYNTAX_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PATTERN_WHITE_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PREPENDED_CONCATENATION_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PRIVATE_USE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_QUOTATION_MARK_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_RADICAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_REGIONAL_INDICATOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_SENTENCE_TERMINAL_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_SOFT_DOTTED_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_TERMINAL_PUNCTUATION_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_TITLECASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_UNASSIGNED_CODE_VALUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_UNIFIED_IDEOGRAPH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_UPPERCASE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_VARIATION_SELECTOR_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_WHITE_SPACE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_XID_CONTINUE_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_XID_START_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNICTYPE_PROPERTY_ZERO_WIDTH_DLL_VARIABLE='LIBUNISTRING_DLL_VARIABLE'
+GL_GTPO_GNULIB_UNISTD_H_GETOPT='0'
+GL_GTPO_GNULIB_UNISTD_H_NONBLOCKING='0'
+GL_GTPO_GNULIB_UNISTD_H_SIGPIPE='1'
+GL_GTPO_GNULIB_UNLINK='0'
+GL_GTPO_GNULIB_UNLINKAT='0'
+GL_GTPO_GNULIB_UNLOCKPT='0'
+GL_GTPO_GNULIB_UNSETENV='0'
+GL_GTPO_GNULIB_USLEEP='0'
+GL_GTPO_GNULIB_UTIMENSAT='0'
+GL_GTPO_GNULIB_VASPRINTF='1'
+GL_GTPO_GNULIB_VDPRINTF='0'
+GL_GTPO_GNULIB_VFPRINTF='1'
+GL_GTPO_GNULIB_VFPRINTF_POSIX='0'
+GL_GTPO_GNULIB_VFSCANF='0'
+GL_GTPO_GNULIB_VPRINTF='1'
+GL_GTPO_GNULIB_VPRINTF_POSIX='0'
+GL_GTPO_GNULIB_VSCANF='0'
+GL_GTPO_GNULIB_VSNPRINTF='0'
+GL_GTPO_GNULIB_VSPRINTF_POSIX='0'
+GL_GTPO_GNULIB_WCPCPY='0'
+GL_GTPO_GNULIB_WCPNCPY='0'
+GL_GTPO_GNULIB_WCRTOMB='0'
+GL_GTPO_GNULIB_WCSCASECMP='0'
+GL_GTPO_GNULIB_WCSCAT='0'
+GL_GTPO_GNULIB_WCSCHR='0'
+GL_GTPO_GNULIB_WCSCMP='0'
+GL_GTPO_GNULIB_WCSCOLL='0'
+GL_GTPO_GNULIB_WCSCPY='0'
+GL_GTPO_GNULIB_WCSCSPN='0'
+GL_GTPO_GNULIB_WCSDUP='0'
+GL_GTPO_GNULIB_WCSFTIME='0'
+GL_GTPO_GNULIB_WCSLEN='0'
+GL_GTPO_GNULIB_WCSNCASECMP='0'
+GL_GTPO_GNULIB_WCSNCAT='0'
+GL_GTPO_GNULIB_WCSNCMP='0'
+GL_GTPO_GNULIB_WCSNCPY='0'
+GL_GTPO_GNULIB_WCSNLEN='0'
+GL_GTPO_GNULIB_WCSNRTOMBS='0'
+GL_GTPO_GNULIB_WCSPBRK='0'
+GL_GTPO_GNULIB_WCSRCHR='0'
+GL_GTPO_GNULIB_WCSRTOMBS='0'
+GL_GTPO_GNULIB_WCSSPN='0'
+GL_GTPO_GNULIB_WCSSTR='0'
+GL_GTPO_GNULIB_WCSTOK='0'
+GL_GTPO_GNULIB_WCSWIDTH='0'
+GL_GTPO_GNULIB_WCSXFRM='0'
+GL_GTPO_GNULIB_WCTOB='0'
+GL_GTPO_GNULIB_WCTOMB='0'
+GL_GTPO_GNULIB_WCTRANS='0'
+GL_GTPO_GNULIB_WCTYPE='0'
+GL_GTPO_GNULIB_WCWIDTH='1'
+GL_GTPO_GNULIB_WGETCWD='0'
+GL_GTPO_GNULIB_WMEMCHR='0'
+GL_GTPO_GNULIB_WMEMCMP='0'
+GL_GTPO_GNULIB_WMEMCPY='0'
+GL_GTPO_GNULIB_WMEMMOVE='0'
+GL_GTPO_GNULIB_WMEMPCPY='0'
+GL_GTPO_GNULIB_WMEMSET='0'
+GL_GTPO_GNULIB_WRITE='1'
+GL_GTPO_GNULIB__EXIT='0'
+GMSGFMT='/usr/bin/msgfmt'
+GMSGFMT_015='/usr/bin/msgfmt'
+GNULIBHEADERS_OVERRIDE_CHAR16_T='0'
+GNULIBHEADERS_OVERRIDE_CHAR32_T='0'
+GNULIBHEADERS_OVERRIDE_CHAR8_T='0'
+GNULIBHEADERS_OVERRIDE_WINT_T='0'
+GREP='/usr/bin/grep'
+HARD_LOCALE_LIB=''
+HAVE_ACCEPT4='1'
+HAVE_ACOSF='1'
+HAVE_ACOSL='1'
+HAVE_ALIGNED_ALLOC='1'
+HAVE_ALLOCA_H='1'
+HAVE_ALPHASORT='1'
+HAVE_ARPA_INET_H='1'
+HAVE_ASINF='1'
+HAVE_ASINL='1'
+HAVE_ATAN2F='1'
+HAVE_ATANF='1'
+HAVE_ATANL='1'
+HAVE_ATOLL='1'
+HAVE_BTOWC='1'
+HAVE_C32RTOMB='1'
+HAVE_C99_STDINT_H='1'
+HAVE_CANONICALIZE_FILE_NAME='1'
+HAVE_CBRT='1'
+HAVE_CBRTF='1'
+HAVE_CBRTL='1'
+HAVE_CHOWN='1'
+HAVE_CLIX=''
+HAVE_CLIX_IN_PATH=''
+HAVE_CLOSEDIR='1'
+HAVE_COPYSIGN='1'
+HAVE_COPYSIGNL='1'
+HAVE_COPY_FILE_RANGE='1'
+HAVE_COSF='1'
+HAVE_COSHF='1'
+HAVE_COSL='1'
+HAVE_CRTDEFS_H='0'
+HAVE_CSC=''
+HAVE_CSC_IN_PATH=''
+HAVE_DECL_ACOSL='1'
+HAVE_DECL_ASINL='1'
+HAVE_DECL_ATANL='1'
+HAVE_DECL_CBRTF='1'
+HAVE_DECL_CBRTL='1'
+HAVE_DECL_CEILF='1'
+HAVE_DECL_CEILL='1'
+HAVE_DECL_COPYSIGNF='1'
+HAVE_DECL_COSL='1'
+HAVE_DECL_DIRFD='1'
+HAVE_DECL_ECVT='1'
+HAVE_DECL_ENVIRON='1'
+HAVE_DECL_EXECVPE='1'
+HAVE_DECL_EXP2='1'
+HAVE_DECL_EXP2F='1'
+HAVE_DECL_EXP2L='1'
+HAVE_DECL_EXPL='1'
+HAVE_DECL_EXPM1L='1'
+HAVE_DECL_FCHDIR='1'
+HAVE_DECL_FCLOSEALL='1'
+HAVE_DECL_FCVT='1'
+HAVE_DECL_FDATASYNC='1'
+HAVE_DECL_FDOPENDIR='1'
+HAVE_DECL_FLOORF='1'
+HAVE_DECL_FLOORL='1'
+HAVE_DECL_FPURGE='0'
+HAVE_DECL_FREEADDRINFO='1'
+HAVE_DECL_FREXPL='1'
+HAVE_DECL_FSEEKO='1'
+HAVE_DECL_FTELLO='1'
+HAVE_DECL_GAI_STRERROR='1'
+HAVE_DECL_GCVT='1'
+HAVE_DECL_GETADDRINFO='1'
+HAVE_DECL_GETDELIM='1'
+HAVE_DECL_GETDOMAINNAME='1'
+HAVE_DECL_GETLINE='1'
+HAVE_DECL_GETLOADAVG='1'
+HAVE_DECL_GETLOGIN='1'
+HAVE_DECL_GETLOGIN_R='1'
+HAVE_DECL_GETNAMEINFO='1'
+HAVE_DECL_GETPAGESIZE='1'
+HAVE_DECL_GETUSERSHELL='1'
+HAVE_DECL_GETW='1'
+HAVE_DECL_IMAXABS='1'
+HAVE_DECL_IMAXDIV='1'
+HAVE_DECL_INET_NTOP='1'
+HAVE_DECL_INET_PTON='1'
+HAVE_DECL_INITSTATE='1'
+HAVE_DECL_LDEXPL='1'
+HAVE_DECL_LOCALTIME_R='1'
+HAVE_DECL_LOG10L='1'
+HAVE_DECL_LOG2='1'
+HAVE_DECL_LOG2F='1'
+HAVE_DECL_LOG2L='1'
+HAVE_DECL_LOGB='1'
+HAVE_DECL_LOGL='1'
+HAVE_DECL_MEMMEM='1'
+HAVE_DECL_MEMRCHR='1'
+HAVE_DECL_OBSTACK_PRINTF='1'
+HAVE_DECL_PROGRAM_INVOCATION_NAME='1'
+HAVE_DECL_PUTW='1'
+HAVE_DECL_REMAINDER='1'
+HAVE_DECL_REMAINDERL='1'
+HAVE_DECL_RINTF='1'
+HAVE_DECL_ROUND='1'
+HAVE_DECL_ROUNDF='1'
+HAVE_DECL_ROUNDL='1'
+HAVE_DECL_SETENV='1'
+HAVE_DECL_SETHOSTNAME='1'
+HAVE_DECL_SETSTATE='1'
+HAVE_DECL_SINL='1'
+HAVE_DECL_SNPRINTF='1'
+HAVE_DECL_SQRTL='1'
+HAVE_DECL_STRDUP='1'
+HAVE_DECL_STRERROR_R='1'
+HAVE_DECL_STRNDUP='1'
+HAVE_DECL_STRNLEN='1'
+HAVE_DECL_STRSIGNAL='1'
+HAVE_DECL_STRTOIMAX='1'
+HAVE_DECL_STRTOK_R='1'
+HAVE_DECL_STRTOUMAX='1'
+HAVE_DECL_TANL='1'
+HAVE_DECL_TRUNC='1'
+HAVE_DECL_TRUNCATE='1'
+HAVE_DECL_TRUNCF='1'
+HAVE_DECL_TRUNCL='1'
+HAVE_DECL_TTYNAME_R='1'
+HAVE_DECL_UNSETENV='1'
+HAVE_DECL_VSNPRINTF='1'
+HAVE_DECL_WCSDUP='1'
+HAVE_DECL_WCTOB='1'
+HAVE_DECL_WCWIDTH='1'
+HAVE_DIRENT_H='1'
+HAVE_DPRINTF='1'
+HAVE_DUP3='1'
+HAVE_DUPLOCALE='1'
+HAVE_ERROR='1'
+HAVE_ERROR_AT_LINE='1'
+HAVE_ERROR_H='1'
+HAVE_EUIDACCESS='1'
+HAVE_EXECVPE='1'
+HAVE_EXPF='1'
+HAVE_EXPL='1'
+HAVE_EXPLICIT_BZERO='1'
+HAVE_EXPM1='1'
+HAVE_EXPM1F='1'
+HAVE_FABSF='1'
+HAVE_FABSL='1'
+HAVE_FACCESSAT='1'
+HAVE_FCHDIR='1'
+HAVE_FCHMODAT='1'
+HAVE_FCHOWNAT='1'
+HAVE_FCNTL='1'
+HAVE_FDATASYNC='1'
+HAVE_FDOPENDIR='1'
+HAVE_FEATURES_H='1'
+HAVE_FFSL='1'
+HAVE_FFSLL='1'
+HAVE_FMA='1'
+HAVE_FMAF='1'
+HAVE_FMAL='1'
+HAVE_FMODF='1'
+HAVE_FMODL='1'
+HAVE_FNMATCH='1'
+HAVE_FNMATCH_H='1'
+HAVE_FREELOCALE='1'
+HAVE_FREXPF='1'
+HAVE_FSEEKO='1'
+HAVE_FSTATAT='1'
+HAVE_FSYNC='1'
+HAVE_FTELLO='1'
+HAVE_FTRUNCATE='1'
+HAVE_FUTIMENS='1'
+HAVE_GETDTABLESIZE='1'
+HAVE_GETENTROPY='1'
+HAVE_GETGROUPS='1'
+HAVE_GETHOSTNAME='1'
+HAVE_GETLOGIN='1'
+HAVE_GETOPT_H='1'
+HAVE_GETPAGESIZE='1'
+HAVE_GETPASS='1'
+HAVE_GETPROGNAME='0'
+HAVE_GETRANDOM='1'
+HAVE_GETSUBOPT='1'
+HAVE_GETTIMEOFDAY='1'
+HAVE_GETUMASK='1'
+HAVE_GLOBAL_SYMBOL_PIPE='1'
+HAVE_GRANTPT='1'
+HAVE_GROUP_MEMBER='1'
+HAVE_HYPOTF='1'
+HAVE_HYPOTL='1'
+HAVE_ILOGB='1'
+HAVE_ILOGBF='1'
+HAVE_ILOGBL='1'
+HAVE_IMAXABS='1'
+HAVE_IMAXDIV='1'
+HAVE_IMAXDIV_T='1'
+HAVE_INITSTATE='1'
+HAVE_INTTYPES_H='1'
+HAVE_ISBLANK='1'
+HAVE_ISNAND='1'
+HAVE_ISNANF='1'
+HAVE_ISNANL='1'
+HAVE_ISWBLANK='1'
+HAVE_ISWCNTRL='1'
+HAVE_JAVA=''
+HAVE_JAVAC=''
+HAVE_JAVAC_ENVVAR=''
+HAVE_JAVAC_IN_PATH=''
+HAVE_JAVA_ENVVAR=''
+HAVE_JAVA_IN_PATH=''
+HAVE_JRE=''
+HAVE_JRE_IN_PATH=''
+HAVE_LANGINFO_ALTMON='1'
+HAVE_LANGINFO_CODESET='1'
+HAVE_LANGINFO_ERA='1'
+HAVE_LANGINFO_H='1'
+HAVE_LANGINFO_T_FMT_AMPM='1'
+HAVE_LANGINFO_YESEXPR='1'
+HAVE_LCHMOD='1'
+HAVE_LCHOWN='1'
+HAVE_LDEXPF='1'
+HAVE_LIBTEXTSTYLE=''
+HAVE_LIBUNISTRING='no'
+HAVE_LINK='1'
+HAVE_LINKAT='1'
+HAVE_LOG10F='1'
+HAVE_LOG10L='1'
+HAVE_LOG1P='1'
+HAVE_LOG1PF='1'
+HAVE_LOG1PL='1'
+HAVE_LOGBF='1'
+HAVE_LOGBL='1'
+HAVE_LOGF='1'
+HAVE_LOGL='1'
+HAVE_LSTAT='1'
+HAVE_MAX_ALIGN_T='1'
+HAVE_MBRLEN='1'
+HAVE_MBRTOC16='1'
+HAVE_MBRTOC32='1'
+HAVE_MBRTOWC='1'
+HAVE_MBSINIT='1'
+HAVE_MBSLEN='0'
+HAVE_MBSNRTOWCS='1'
+HAVE_MBSRTOWCS='1'
+HAVE_MBTOWC='1'
+HAVE_MCS=''
+HAVE_MCS_IN_PATH=''
+HAVE_MEMPCPY='1'
+HAVE_MEMSET_EXPLICIT='1'
+HAVE_MKDIRAT='1'
+HAVE_MKDTEMP='1'
+HAVE_MKFIFO='1'
+HAVE_MKFIFOAT='1'
+HAVE_MKNOD='1'
+HAVE_MKNODAT='1'
+HAVE_MKOSTEMP='1'
+HAVE_MKOSTEMPS='1'
+HAVE_MKSTEMP='1'
+HAVE_MKSTEMPS='1'
+HAVE_MODFF='1'
+HAVE_MODFL='1'
+HAVE_MONO=''
+HAVE_MONO_IN_PATH=''
+HAVE_MSVC_INVALID_PARAMETER_HANDLER='0'
+HAVE_NANOSLEEP='1'
+HAVE_NETDB_H='1'
+HAVE_NETINET_IN_H=''
+HAVE_NEWLOCALE='1'
+HAVE_NL_LANGINFO='1'
+HAVE_OPENAT='1'
+HAVE_OPENDIR='1'
+HAVE_OS_H='0'
+HAVE_PCLOSE='1'
+HAVE_PIPE2='1'
+HAVE_PIPE='1'
+HAVE_POPEN='1'
+HAVE_POSIX_MEMALIGN='1'
+HAVE_POSIX_OPENPT='1'
+HAVE_POSIX_SIGNALBLOCKING='1'
+HAVE_POSIX_SPAWN='1'
+HAVE_POSIX_SPAWNATTR_T='1'
+HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR='0'
+HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDFCHDIR='1'
+HAVE_POSIX_SPAWN_FILE_ACTIONS_T='1'
+HAVE_POWF='1'
+HAVE_PREAD='1'
+HAVE_PSELECT='1'
+HAVE_PTHREAD_ATTR_DESTROY='1'
+HAVE_PTHREAD_ATTR_GETDETACHSTATE='1'
+HAVE_PTHREAD_ATTR_INIT='1'
+HAVE_PTHREAD_ATTR_SETDETACHSTATE='1'
+HAVE_PTHREAD_CONDATTR_DESTROY='1'
+HAVE_PTHREAD_CONDATTR_INIT='1'
+HAVE_PTHREAD_COND_BROADCAST='1'
+HAVE_PTHREAD_COND_DESTROY='1'
+HAVE_PTHREAD_COND_INIT='1'
+HAVE_PTHREAD_COND_SIGNAL='1'
+HAVE_PTHREAD_COND_TIMEDWAIT='1'
+HAVE_PTHREAD_COND_WAIT='1'
+HAVE_PTHREAD_CREATE='1'
+HAVE_PTHREAD_CREATE_DETACHED='1'
+HAVE_PTHREAD_DETACH='1'
+HAVE_PTHREAD_EQUAL='1'
+HAVE_PTHREAD_EXIT='1'
+HAVE_PTHREAD_GETSPECIFIC='1'
+HAVE_PTHREAD_H='1'
+HAVE_PTHREAD_JOIN='1'
+HAVE_PTHREAD_KEY_CREATE='1'
+HAVE_PTHREAD_KEY_DELETE='1'
+HAVE_PTHREAD_MUTEXATTR_DESTROY='1'
+HAVE_PTHREAD_MUTEXATTR_GETROBUST='1'
+HAVE_PTHREAD_MUTEXATTR_GETTYPE='1'
+HAVE_PTHREAD_MUTEXATTR_INIT='1'
+HAVE_PTHREAD_MUTEXATTR_SETROBUST='1'
+HAVE_PTHREAD_MUTEXATTR_SETTYPE='1'
+HAVE_PTHREAD_MUTEX_DESTROY='1'
+HAVE_PTHREAD_MUTEX_INIT='1'
+HAVE_PTHREAD_MUTEX_LOCK='1'
+HAVE_PTHREAD_MUTEX_RECURSIVE='1'
+HAVE_PTHREAD_MUTEX_ROBUST='1'
+HAVE_PTHREAD_MUTEX_TIMEDLOCK='1'
+HAVE_PTHREAD_MUTEX_TRYLOCK='1'
+HAVE_PTHREAD_MUTEX_UNLOCK='1'
+HAVE_PTHREAD_ONCE='1'
+HAVE_PTHREAD_PROCESS_SHARED='1'
+HAVE_PTHREAD_RWLOCKATTR_DESTROY='1'
+HAVE_PTHREAD_RWLOCKATTR_INIT='1'
+HAVE_PTHREAD_RWLOCK_DESTROY='1'
+HAVE_PTHREAD_RWLOCK_INIT='1'
+HAVE_PTHREAD_RWLOCK_RDLOCK='1'
+HAVE_PTHREAD_RWLOCK_TIMEDRDLOCK='1'
+HAVE_PTHREAD_RWLOCK_TIMEDWRLOCK='1'
+HAVE_PTHREAD_RWLOCK_TRYRDLOCK='1'
+HAVE_PTHREAD_RWLOCK_TRYWRLOCK='1'
+HAVE_PTHREAD_RWLOCK_UNLOCK='1'
+HAVE_PTHREAD_RWLOCK_WRLOCK='1'
+HAVE_PTHREAD_SELF='1'
+HAVE_PTHREAD_SETSPECIFIC='1'
+HAVE_PTHREAD_SIGMASK='1'
+HAVE_PTHREAD_SPINLOCK_T='1'
+HAVE_PTHREAD_SPIN_DESTROY='1'
+HAVE_PTHREAD_SPIN_INIT='1'
+HAVE_PTHREAD_SPIN_LOCK='1'
+HAVE_PTHREAD_SPIN_TRYLOCK='1'
+HAVE_PTHREAD_SPIN_UNLOCK='1'
+HAVE_PTHREAD_T='1'
+HAVE_PTSNAME='1'
+HAVE_PTSNAME_R='1'
+HAVE_PWRITE='1'
+HAVE_QSORT_R='1'
+HAVE_RAISE='1'
+HAVE_RANDOM='1'
+HAVE_RANDOM_H='0'
+HAVE_RANDOM_R='1'
+HAVE_RAWMEMCHR='1'
+HAVE_READDIR='1'
+HAVE_READLINK='1'
+HAVE_READLINKAT='1'
+HAVE_REALLOCARRAY='1'
+HAVE_REALPATH='1'
+HAVE_REMAINDER='1'
+HAVE_REMAINDERF='1'
+HAVE_RENAMEAT='1'
+HAVE_REWINDDIR='1'
+HAVE_RINT='1'
+HAVE_RINTL='1'
+HAVE_RPMATCH='1'
+HAVE_SAME_LONG_DOUBLE_AS_DOUBLE='0'
+HAVE_SA_FAMILY_T='1'
+HAVE_SCANDIR='1'
+HAVE_SCHED_H='1'
+HAVE_SCHED_YIELD='1'
+HAVE_SECURE_GETENV='1'
+HAVE_SETENV='1'
+HAVE_SETHOSTNAME='1'
+HAVE_SETSTATE='1'
+HAVE_SIGABBREV_NP='1'
+HAVE_SIGACTION='1'
+HAVE_SIGDESCR_NP='1'
+HAVE_SIGHANDLER_T='1'
+HAVE_SIGINFO_T='1'
+HAVE_SIGNED_SIG_ATOMIC_T=''
+HAVE_SIGNED_WCHAR_T=''
+HAVE_SIGNED_WINT_T=''
+HAVE_SIGSET_T='1'
+HAVE_SINF='1'
+HAVE_SINHF='1'
+HAVE_SINL='1'
+HAVE_SLEEP='1'
+HAVE_SPAWN_H='1'
+HAVE_SQRTF='1'
+HAVE_SQRTL='1'
+HAVE_STDINT_H='1'
+HAVE_STPCPY='1'
+HAVE_STPNCPY='1'
+HAVE_STRCASESTR='1'
+HAVE_STRCHRNUL='1'
+HAVE_STRERRORNAME_NP='1'
+HAVE_STRPBRK='1'
+HAVE_STRPTIME='1'
+HAVE_STRSEP='1'
+HAVE_STRTOD='1'
+HAVE_STRTOL='1'
+HAVE_STRTOLD='1'
+HAVE_STRTOLL='1'
+HAVE_STRTOUL='1'
+HAVE_STRTOULL='1'
+HAVE_STRUCT_ADDRINFO='1'
+HAVE_STRUCT_RANDOM_DATA='1'
+HAVE_STRUCT_SCHED_PARAM='1'
+HAVE_STRUCT_SIGACTION_SA_SIGACTION='1'
+HAVE_STRUCT_SOCKADDR_STORAGE='1'
+HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY='1'
+HAVE_STRUCT_TIMEVAL='1'
+HAVE_STRVERSCMP='1'
+HAVE_SYMLINK='1'
+HAVE_SYMLINKAT='1'
+HAVE_SYS_BITYPES_H='0'
+HAVE_SYS_CDEFS_H='1'
+HAVE_SYS_INTTYPES_H='0'
+HAVE_SYS_IOCTL_H='1'
+HAVE_SYS_LOADAVG_H='0'
+HAVE_SYS_PARAM_H='0'
+HAVE_SYS_RANDOM_H='1'
+HAVE_SYS_SELECT_H='1'
+HAVE_SYS_SOCKET_H='1'
+HAVE_SYS_TIME_H='1'
+HAVE_SYS_TYPES_H='1'
+HAVE_SYS_UIO_H='1'
+HAVE_TANF='1'
+HAVE_TANHF='1'
+HAVE_TANL='1'
+HAVE_TIMEGM='1'
+HAVE_TIMESPEC_GET='1'
+HAVE_TIMESPEC_GETRES='1'
+HAVE_TIMEZONE_T='0'
+HAVE_TOTALORDER='1'
+HAVE_TOTALORDERF='1'
+HAVE_TOTALORDERL='1'
+HAVE_TYPE_VOLATILE_SIG_ATOMIC_T='1'
+HAVE_UCHAR_H='1'
+HAVE_UNISTD_H='1'
+HAVE_UNISTRING_WOE32DLL_H='0'
+HAVE_UNLINKAT='1'
+HAVE_UNLOCKPT='1'
+HAVE_USLEEP='1'
+HAVE_UTIME='1'
+HAVE_UTIMENSAT='1'
+HAVE_UTIME_H='1'
+HAVE_VASPRINTF='1'
+HAVE_VDPRINTF='1'
+HAVE_VISIBILITY=''
+HAVE_WCHAR_H='1'
+HAVE_WCHAR_T='1'
+HAVE_WCPCPY='1'
+HAVE_WCPNCPY='1'
+HAVE_WCRTOMB='1'
+HAVE_WCSCASECMP='1'
+HAVE_WCSCAT='1'
+HAVE_WCSCHR='1'
+HAVE_WCSCMP='1'
+HAVE_WCSCOLL='1'
+HAVE_WCSCPY='1'
+HAVE_WCSCSPN='1'
+HAVE_WCSDUP='1'
+HAVE_WCSFTIME='1'
+HAVE_WCSLEN='1'
+HAVE_WCSNCASECMP='1'
+HAVE_WCSNCAT='1'
+HAVE_WCSNCMP='1'
+HAVE_WCSNCPY='1'
+HAVE_WCSNLEN='1'
+HAVE_WCSNRTOMBS='1'
+HAVE_WCSPBRK='1'
+HAVE_WCSRCHR='1'
+HAVE_WCSRTOMBS='1'
+HAVE_WCSSPN='1'
+HAVE_WCSSTR='1'
+HAVE_WCSTOK='1'
+HAVE_WCSWIDTH='1'
+HAVE_WCSXFRM='1'
+HAVE_WCTRANS_T='1'
+HAVE_WCTYPE_H='1'
+HAVE_WCTYPE_T='1'
+HAVE_WINSOCK2_H='0'
+HAVE_WINT_T='1'
+HAVE_WMEMCHR='1'
+HAVE_WMEMCMP='1'
+HAVE_WMEMCPY='1'
+HAVE_WMEMMOVE='1'
+HAVE_WMEMPCPY='1'
+HAVE_WMEMSET='1'
+HAVE_WORKING_MBRTOC32='1'
+HAVE_WS2TCPIP_H='0'
+HAVE_XLOCALE_H='0'
+HAVE__EXIT='1'
+HOSTENT_LIB=''
+ICONV_CONST=''
+ICONV_H='iconv.h'
+INCLUDED_LIBXML_FALSE='#'
+INCLUDED_LIBXML_TRUE=''
+INCLUDE_NEXT='include_next'
+INCLUDE_NEXT_AS_FIRST_DIRECTIVE='include_next'
+INCXML=''
+INET_NTOP_LIB=''
+INET_PTON_LIB=''
+INSTALL_DATA='${INSTALL} -m 644'
+INSTALL_PRIVATE_LIBRARIES_FALSE=''
+INSTALL_PRIVATE_LIBRARIES_TRUE='#'
+INSTALL_PROGRAM='${INSTALL}'
+INSTALL_PROGRAM_ENV=''
+INSTALL_SCRIPT='${INSTALL}'
+INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
+INT32_MAX_LT_INTMAX_MAX='1'
+INT64_MAX_EQ_LONG_MAX='1'
+INTL_MACOSX_LIBS=''
+ISINF_LIBM=''
+ISNAND_LIBM=''
+ISNANF_LIBM=''
+ISNANL_LIBM=''
+ISNAN_LIBM=''
+JAR=''
+JAVA_CHOICE='no'
+LC_COLLATE_IMPLEMENTED='true'
+LC_MONETARY_IMPLEMENTED='true'
+LC_NUMERIC_IMPLEMENTED='true'
+LC_TIME_IMPLEMENTED='true'
+LD='/usr/bin/ld -m elf_x86_64'
+LDFLAGS='-L/home/runner/webbuild/vcpkg/installed/x64-linux/lib'
+LIBGREP_LIBDEPS=''
+LIBGREP_LTLIBDEPS=''
+LIBICONV=''
+LIBINTL=''
+LIBMULTITHREAD=''
+LIBOBJS=''
+LIBPMULTITHREAD=''
+LIBPTHREAD=''
+LIBS=''
+LIBSOCKET=''
+LIBSTDTHREAD=''
+LIBTESTS_LIBDEPS=''
+LIBTEXTSTYLE=''
+LIBTEXTSTYLE_PREFIX=''
+LIBTHREAD=''
+LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIBUNISTRING=''
+LIBUNISTRING_COMPILE_UNICASE_TOLOWER_FALSE='#'
+LIBUNISTRING_COMPILE_UNICASE_TOLOWER_TRUE=''
+LIBUNISTRING_COMPILE_UNICONV_U8_CONV_FROM_ENC_FALSE='#'
+LIBUNISTRING_COMPILE_UNICONV_U8_CONV_FROM_ENC_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_ALNUM_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_ALNUM_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_ALPHA_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_ALPHA_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_BLANK_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_BLANK_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_CNTRL_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_CNTRL_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_DIGIT_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_DIGIT_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_GRAPH_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_GRAPH_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_LOWER_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_LOWER_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_PRINT_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_PRINT_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_PUNCT_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_PUNCT_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_SPACE_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_SPACE_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_UPPER_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_UPPER_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_XDIGIT_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_CTYPE_XDIGIT_TRUE=''
+LIBUNISTRING_COMPILE_UNICTYPE_SYNTAX_JAVA_WHITESPACE_FALSE='#'
+LIBUNISTRING_COMPILE_UNICTYPE_SYNTAX_JAVA_WHITESPACE_TRUE=''
+LIBUNISTRING_COMPILE_UNILBRK_U8_POSSIBLE_LINEBREAKS_FALSE='#'
+LIBUNISTRING_COMPILE_UNILBRK_U8_POSSIBLE_LINEBREAKS_TRUE=''
+LIBUNISTRING_COMPILE_UNILBRK_U8_WIDTH_LINEBREAKS_FALSE='#'
+LIBUNISTRING_COMPILE_UNILBRK_U8_WIDTH_LINEBREAKS_TRUE=''
+LIBUNISTRING_COMPILE_UNILBRK_ULC_WIDTH_LINEBREAKS_FALSE='#'
+LIBUNISTRING_COMPILE_UNILBRK_ULC_WIDTH_LINEBREAKS_TRUE=''
+LIBUNISTRING_COMPILE_UNINAME_UNINAME_FALSE='#'
+LIBUNISTRING_COMPILE_UNINAME_UNINAME_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U16_MBTOUC_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U16_MBTOUC_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_CHR_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_CHR_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_CPY_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_CPY_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_PCPY_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_PCPY_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_SET_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_SET_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_STRCAT_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_STRCAT_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U32_STRLEN_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U32_STRLEN_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_CHECK_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_CHECK_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_CMP_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_CMP_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_MBLEN_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_MBLEN_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUCR_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUCR_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUC_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUC_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUC_UNSAFE_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_MBTOUC_UNSAFE_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_NEXT_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_NEXT_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_PREV_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_PREV_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_STRLEN_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_STRLEN_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_STRMBTOUC_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_STRMBTOUC_TRUE=''
+LIBUNISTRING_COMPILE_UNISTR_U8_UCTOMB_FALSE='#'
+LIBUNISTRING_COMPILE_UNISTR_U8_UCTOMB_TRUE=''
+LIBUNISTRING_COMPILE_UNIWIDTH_WIDTH_FALSE='#'
+LIBUNISTRING_COMPILE_UNIWIDTH_WIDTH_TRUE=''
+LIBUNISTRING_PREFIX=''
+LIBUNISTRING_UNICASE_H='unicase.h'
+LIBUNISTRING_UNICONV_H='uniconv.h'
+LIBUNISTRING_UNICTYPE_H='unictype.h'
+LIBUNISTRING_UNILBRK_H='unilbrk.h'
+LIBUNISTRING_UNINAME_H='uniname.h'
+LIBUNISTRING_UNINORM_H='uninorm.h'
+LIBUNISTRING_UNISTR_H='unistr.h'
+LIBUNISTRING_UNITYPES_H='unitypes.h'
+LIBUNISTRING_UNIWIDTH_H='uniwidth.h'
+LIBXML=''
+LIBXML_H=' libxml/DOCBparser.h libxml/HTMLparser.h libxml/HTMLtree.h libxml/SAX2.h libxml/SAX.h libxml/c14n.h libxml/catalog.h libxml/chvalid.h libxml/debugXML.h libxml/dict.h libxml/encoding.h libxml/entities.h libxml/globals.h libxml/hash.h libxml/list.h libxml/nanoftp.h libxml/nanohttp.h libxml/parser.h libxml/parserInternals.h libxml/pattern.h libxml/relaxng.h libxml/schemasInternals.h libxml/schematron.h libxml/threads.h libxml/tree.h libxml/uri.h libxml/valid.h libxml/xinclude.h libxml/xlink.h libxml/xmlIO.h libxml/xmlautomata.h libxml/xmlerror.h libxml/xmlexports.h libxml/xmlmemory.h libxml/xmlmodule.h libxml/xmlreader.h libxml/xmlregexp.h libxml/xmlsave.h libxml/xmlschemas.h libxml/xmlschemastypes.h libxml/xmlstring.h libxml/xmlunicode.h libxml/xmlversion.h libxml/xmlwriter.h libxml/xpath.h libxml/xpathInternals.h libxml/xpointer.h'
+LIB_ACL=''
+LIB_CLOCK_GETTIME=''
+LIB_GETRANDOM=''
+LIB_HARD_LOCALE=''
+LIB_MBRTOWC=''
+LIB_NANOSLEEP=''
+LIB_NL_LANGINFO=''
+LIB_POSIX_SPAWN=''
+LIB_PTHREAD=''
+LIB_PTHREAD_SIGMASK=''
+LIB_SCHED_YIELD=''
+LIB_SELECT=''
+LIB_SEMAPHORE=''
+LIB_SETLOCALE=''
+LIB_SETLOCALE_NULL=''
+LIB_XATTR=''
+LIMITS_H='limits.h'
+LIPO=''
+LN_S='ln -s'
+LOCALCHARSET_TESTS_ENVIRONMENT=''
+LOCALENAME_ENHANCE_LOCALE_FUNCS='0'
+LOCALE_DE_UTF8='none'
+LOCALE_FR='none'
+LOCALE_FR_UTF8='none'
+LOCALE_JA='none'
+LOCALE_TR_UTF8='none'
+LOCALE_ZH_CN='none'
+LOG10_LIBM='-lm'
+LTLIBICONV=''
+LTLIBINTL=''
+LTLIBMULTITHREAD=''
+LTLIBOBJS=''
+LTLIBTEXTSTYLE=''
+LTLIBTHREAD=''
+LTLIBUNISTRING=''
+LTLIBXML=''
+LT_SYS_LIBRARY_PATH=''
+MAKEINFO='${SHELL} '\''/home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/missing'\'' makeinfo'
+MANIFEST_TOOL=':'
+MBRTOWC_LIB=''
+MKDIR_P='/usr/bin/mkdir -p'
+MONO_PATH=''
+MONO_PATH_SEPARATOR=':'
+MSGFMT='/usr/bin/msgfmt'
+MSGMERGE='/usr/bin/msgmerge'
+MSGMERGE_FOR_MSGFMT_OPTION='--for-msgfmt'
+MSGMERGE_LIBM='-lm'
+NANOSLEEP_LIB=''
+NETINET_IN_H=''
+NEXT_ARPA_INET_H='<arpa/inet.h>'
+NEXT_ASSERT_H=''
+NEXT_AS_FIRST_DIRECTIVE_ARPA_INET_H='<arpa/inet.h>'
+NEXT_AS_FIRST_DIRECTIVE_ASSERT_H=''
+NEXT_AS_FIRST_DIRECTIVE_CTYPE_H='<ctype.h>'
+NEXT_AS_FIRST_DIRECTIVE_DIRENT_H='<dirent.h>'
+NEXT_AS_FIRST_DIRECTIVE_ERRNO_H=''
+NEXT_AS_FIRST_DIRECTIVE_ERROR_H='<error.h>'
+NEXT_AS_FIRST_DIRECTIVE_FCNTL_H='<fcntl.h>'
+NEXT_AS_FIRST_DIRECTIVE_FLOAT_H=''
+NEXT_AS_FIRST_DIRECTIVE_FNMATCH_H='<fnmatch.h>'
+NEXT_AS_FIRST_DIRECTIVE_GETOPT_H='<getopt.h>'
+NEXT_AS_FIRST_DIRECTIVE_ICONV_H='<iconv.h>'
+NEXT_AS_FIRST_DIRECTIVE_INTTYPES_H='<inttypes.h>'
+NEXT_AS_FIRST_DIRECTIVE_LANGINFO_H='<langinfo.h>'
+NEXT_AS_FIRST_DIRECTIVE_LIMITS_H='<limits.h>'
+NEXT_AS_FIRST_DIRECTIVE_LOCALE_H='<locale.h>'
+NEXT_AS_FIRST_DIRECTIVE_MATH_H='<math.h>'
+NEXT_AS_FIRST_DIRECTIVE_NETDB_H='<netdb.h>'
+NEXT_AS_FIRST_DIRECTIVE_NETINET_IN_H=''
+NEXT_AS_FIRST_DIRECTIVE_OMP_H='<omp.h>'
+NEXT_AS_FIRST_DIRECTIVE_PTHREAD_H='<pthread.h>'
+NEXT_AS_FIRST_DIRECTIVE_SCHED_H='<sched.h>'
+NEXT_AS_FIRST_DIRECTIVE_SIGNAL_H='<signal.h>'
+NEXT_AS_FIRST_DIRECTIVE_SPAWN_H='<spawn.h>'
+NEXT_AS_FIRST_DIRECTIVE_STDARG_H=''
+NEXT_AS_FIRST_DIRECTIVE_STDDEF_H=''
+NEXT_AS_FIRST_DIRECTIVE_STDINT_H='<stdint.h>'
+NEXT_AS_FIRST_DIRECTIVE_STDIO_H='<stdio.h>'
+NEXT_AS_FIRST_DIRECTIVE_STDLIB_H='<stdlib.h>'
+NEXT_AS_FIRST_DIRECTIVE_STRING_H='<string.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_IOCTL_H='<sys/ioctl.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_RANDOM_H='<sys/random.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_SELECT_H='<sys/select.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_SOCKET_H='<sys/socket.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_STAT_H='<sys/stat.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_TIME_H='<sys/time.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_TYPES_H='<sys/types.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_UIO_H='<sys/uio.h>'
+NEXT_AS_FIRST_DIRECTIVE_SYS_WAIT_H='<sys/wait.h>'
+NEXT_AS_FIRST_DIRECTIVE_TIME_H='<time.h>'
+NEXT_AS_FIRST_DIRECTIVE_UCHAR_H='<uchar.h>'
+NEXT_AS_FIRST_DIRECTIVE_UNISTD_H='<unistd.h>'
+NEXT_AS_FIRST_DIRECTIVE_UTIME_H='<utime.h>'
+NEXT_AS_FIRST_DIRECTIVE_WCHAR_H='<wchar.h>'
+NEXT_AS_FIRST_DIRECTIVE_WCTYPE_H='<wctype.h>'
+NEXT_CTYPE_H='<ctype.h>'
+NEXT_DIRENT_H='<dirent.h>'
+NEXT_ERRNO_H=''
+NEXT_ERROR_H='<error.h>'
+NEXT_FCNTL_H='<fcntl.h>'
+NEXT_FLOAT_H=''
+NEXT_FNMATCH_H='<fnmatch.h>'
+NEXT_GETOPT_H='<getopt.h>'
+NEXT_ICONV_H='<iconv.h>'
+NEXT_INTTYPES_H='<inttypes.h>'
+NEXT_LANGINFO_H='<langinfo.h>'
+NEXT_LIMITS_H='<limits.h>'
+NEXT_LOCALE_H='<locale.h>'
+NEXT_MATH_H='<math.h>'
+NEXT_NETDB_H='<netdb.h>'
+NEXT_NETINET_IN_H=''
+NEXT_OMP_H='<omp.h>'
+NEXT_PTHREAD_H='<pthread.h>'
+NEXT_SCHED_H='<sched.h>'
+NEXT_SIGNAL_H='<signal.h>'
+NEXT_SPAWN_H='<spawn.h>'
+NEXT_STDARG_H='<stdarg.h>'
+NEXT_STDDEF_H=''
+NEXT_STDINT_H='<stdint.h>'
+NEXT_STDIO_H='<stdio.h>'
+NEXT_STDLIB_H='<stdlib.h>'
+NEXT_STRING_H='<string.h>'
+NEXT_SYS_IOCTL_H='<sys/ioctl.h>'
+NEXT_SYS_RANDOM_H='<sys/random.h>'
+NEXT_SYS_SELECT_H='<sys/select.h>'
+NEXT_SYS_SOCKET_H='<sys/socket.h>'
+NEXT_SYS_STAT_H='<sys/stat.h>'
+NEXT_SYS_TIME_H='<sys/time.h>'
+NEXT_SYS_TYPES_H='<sys/types.h>'
+NEXT_SYS_UIO_H='<sys/uio.h>'
+NEXT_SYS_WAIT_H='<sys/wait.h>'
+NEXT_TIME_H='<time.h>'
+NEXT_UCHAR_H='<uchar.h>'
+NEXT_UNISTD_H='<unistd.h>'
+NEXT_UTIME_H='<utime.h>'
+NEXT_WCHAR_H='<wchar.h>'
+NEXT_WCTYPE_H='<wctype.h>'
+NM='/usr/bin/nm'
+NMEDIT=''
+NO_CXX=''
+NO_EXPENSIVE_WARN_CFLAGS=''
+OBJDUMP='/usr/bin/objdump'
+OBJEXT='o'
+OBSTACK_H='obstack.h'
+OPENMP_CFLAGS=''
+OS2_FALSE=''
+OS2_TRUE='#'
+OTOOL64=''
+OTOOL=''
+PACKAGE='gettext-tools'
+PACKAGE_BUGREPORT='bug-gettext@gnu.org'
+PACKAGE_NAME='gettext-tools'
+PACKAGE_STRING='gettext-tools 0.22.5'
+PACKAGE_SUFFIX='-0.22.5'
+PACKAGE_TARNAME='gettext-tools'
+PACKAGE_URL=''
+PACKAGE_VERSION='0.22.5'
+PATH_SEPARATOR=':'
+PERL='/usr/bin/perl'
+POSIX_SPAWN_LIB=''
+POSUB='po'
+POW_LIBM='-lm'
+PRAGMA_COLUMNS=''
+PRAGMA_SYSTEM_HEADER='#pragma GCC system_header'
+PRIPTR_PREFIX='"l"'
+PTHREAD_H_DEFINES_STRUCT_TIMESPEC='0'
+PTHREAD_SIGMASK_LIB=''
+PTRDIFF_T_SUFFIX=''
+QCOPY_ACL_LIB=''
+RANLIB='/usr/bin/ranlib'
+RC=''
+RELOCATABLE='yes'
+RELOCATABLE_BUILD_DIR='$(top_builddir)/gnulib-lib'
+RELOCATABLE_CONFIG_H_DIR='$(top_builddir)'
+RELOCATABLE_LDFLAGS='"$(top_builddir)/.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux//reloc-ldflags" "$(host)" "$(RELOCATABLE_LIBRARY_PATH)"'
+RELOCATABLE_LIBRARY_PATH=''
+RELOCATABLE_SRC_DIR='$(top_srcdir)/gnulib-lib'
+RELOCATABLE_STRIP=':'
+RELOCATABLE_VIA_LD_FALSE='#'
+RELOCATABLE_VIA_LD_TRUE=''
+RELOCATABLE_VIA_WRAPPER_FALSE=''
+RELOCATABLE_VIA_WRAPPER_TRUE='#'
+REPLACE_ACCESS='0'
+REPLACE_ACOSF='0'
+REPLACE_ALIGNED_ALLOC='0'
+REPLACE_ASINF='0'
+REPLACE_ATAN2F='0'
+REPLACE_ATANF='0'
+REPLACE_BTOWC='1'
+REPLACE_C32RTOMB='0'
+REPLACE_CALLOC_FOR_CALLOC_GNU='0'
+REPLACE_CALLOC_FOR_CALLOC_POSIX='0'
+REPLACE_CANONICALIZE_FILE_NAME='0'
+REPLACE_CBRTF='0'
+REPLACE_CBRTL='0'
+REPLACE_CEIL='0'
+REPLACE_CEILF='0'
+REPLACE_CEILL='0'
+REPLACE_CHMOD='0'
+REPLACE_CHOWN='0'
+REPLACE_CLOSE='0'
+REPLACE_CLOSEDIR='0'
+REPLACE_COPY_FILE_RANGE='1'
+REPLACE_COSF='0'
+REPLACE_COSHF='0'
+REPLACE_CREAT='0'
+REPLACE_CTIME='0'
+REPLACE_DIRFD='0'
+REPLACE_DPRINTF='0'
+REPLACE_DUP2='0'
+REPLACE_DUP3='0'
+REPLACE_DUP='0'
+REPLACE_DUPLOCALE='0'
+REPLACE_ERROR='0'
+REPLACE_ERROR_AT_LINE='0'
+REPLACE_EXECL='0'
+REPLACE_EXECLE='0'
+REPLACE_EXECLP='0'
+REPLACE_EXECV='0'
+REPLACE_EXECVE='0'
+REPLACE_EXECVP='0'
+REPLACE_EXECVPE='0'
+REPLACE_EXP2='0'
+REPLACE_EXP2L='0'
+REPLACE_EXPF='0'
+REPLACE_EXPL='0'
+REPLACE_EXPM1='0'
+REPLACE_EXPM1F='0'
+REPLACE_EXPM1L='0'
+REPLACE_FABSL='0'
+REPLACE_FACCESSAT='0'
+REPLACE_FCHDIR='0'
+REPLACE_FCHMODAT='0'
+REPLACE_FCHOWNAT='0'
+REPLACE_FCLOSE='0'
+REPLACE_FCNTL='1'
+REPLACE_FDATASYNC='0'
+REPLACE_FDOPEN='0'
+REPLACE_FDOPENDIR='0'
+REPLACE_FFLUSH='0'
+REPLACE_FFSLL='0'
+REPLACE_FLOOR='0'
+REPLACE_FLOORF='0'
+REPLACE_FLOORL='0'
+REPLACE_FMA='0'
+REPLACE_FMAF='0'
+REPLACE_FMAL='0'
+REPLACE_FMOD='0'
+REPLACE_FMODF='0'
+REPLACE_FMODL='0'
+REPLACE_FNMATCH='0'
+REPLACE_FOPEN='0'
+REPLACE_FOPEN_FOR_FOPEN_GNU='0'
+REPLACE_FPRINTF='0'
+REPLACE_FPURGE='0'
+REPLACE_FREE='0'
+REPLACE_FREELOCALE='0'
+REPLACE_FREOPEN='0'
+REPLACE_FREXP='0'
+REPLACE_FREXPF='0'
+REPLACE_FREXPL='0'
+REPLACE_FSEEK='0'
+REPLACE_FSEEKO='0'
+REPLACE_FSTAT='0'
+REPLACE_FSTATAT='0'
+REPLACE_FTELL='0'
+REPLACE_FTELLO='0'
+REPLACE_FTRUNCATE='0'
+REPLACE_FUTIMENS='0'
+REPLACE_GAI_STRERROR='0'
+REPLACE_GETADDRINFO='0'
+REPLACE_GETCWD='0'
+REPLACE_GETDELIM='0'
+REPLACE_GETDOMAINNAME='0'
+REPLACE_GETDTABLESIZE='0'
+REPLACE_GETENTROPY='0'
+REPLACE_GETGROUPS='0'
+REPLACE_GETLINE='0'
+REPLACE_GETLOADAVG='0'
+REPLACE_GETLOGIN_R='0'
+REPLACE_GETPAGESIZE='0'
+REPLACE_GETPASS='0'
+REPLACE_GETPASS_FOR_GETPASS_GNU='0'
+REPLACE_GETPROGNAME='0'
+REPLACE_GETRANDOM='0'
+REPLACE_GETSUBOPT='0'
+REPLACE_GETTIMEOFDAY='0'
+REPLACE_GMTIME='0'
+REPLACE_HUGE_VAL='0'
+REPLACE_HYPOT='0'
+REPLACE_HYPOTF='0'
+REPLACE_HYPOTL='0'
+REPLACE_ICONV='0'
+REPLACE_ICONV_OPEN='0'
+REPLACE_ICONV_UTF='0'
+REPLACE_ILOGB='0'
+REPLACE_ILOGBF='0'
+REPLACE_ILOGBL='0'
+REPLACE_IMAXABS='0'
+REPLACE_IMAXDIV='0'
+REPLACE_INET_NTOP='0'
+REPLACE_INET_PTON='0'
+REPLACE_INITSTATE='0'
+REPLACE_IOCTL='1'
+REPLACE_ISATTY='0'
+REPLACE_ISFINITE='0'
+REPLACE_ISINF='0'
+REPLACE_ISNAN='0'
+REPLACE_ISWBLANK='0'
+REPLACE_ISWCNTRL='0'
+REPLACE_ISWDIGIT='0'
+REPLACE_ISWPUNCT='0'
+REPLACE_ISWXDIGIT='0'
+REPLACE_ITOLD='0'
+REPLACE_LCHOWN='0'
+REPLACE_LDEXP='0'
+REPLACE_LDEXPL='0'
+REPLACE_LINK='0'
+REPLACE_LINKAT='0'
+REPLACE_LOCALECONV='0'
+REPLACE_LOCALTIME='0'
+REPLACE_LOCALTIME_R='0'
+REPLACE_LOG10='0'
+REPLACE_LOG10F='0'
+REPLACE_LOG10L='0'
+REPLACE_LOG1P='0'
+REPLACE_LOG1PF='0'
+REPLACE_LOG1PL='0'
+REPLACE_LOG2='0'
+REPLACE_LOG2F='0'
+REPLACE_LOG2L='0'
+REPLACE_LOG='0'
+REPLACE_LOGB='0'
+REPLACE_LOGBF='0'
+REPLACE_LOGBL='0'
+REPLACE_LOGF='0'
+REPLACE_LOGL='0'
+REPLACE_LSEEK='0'
+REPLACE_LSTAT='0'
+REPLACE_MALLOC_FOR_MALLOC_GNU='0'
+REPLACE_MALLOC_FOR_MALLOC_POSIX='0'
+REPLACE_MBRLEN='1'
+REPLACE_MBRTOC16='0'
+REPLACE_MBRTOC32='1'
+REPLACE_MBRTOWC='1'
+REPLACE_MBSINIT='0'
+REPLACE_MBSNRTOWCS='0'
+REPLACE_MBSRTOWCS='1'
+REPLACE_MBSTATE_T='0'
+REPLACE_MBSTOWCS='0'
+REPLACE_MBTOWC='0'
+REPLACE_MB_CUR_MAX='0'
+REPLACE_MEMCHR='0'
+REPLACE_MEMMEM='0'
+REPLACE_MEMPCPY='0'
+REPLACE_MEMSET_EXPLICIT='0'
+REPLACE_MKDIR='0'
+REPLACE_MKFIFO='0'
+REPLACE_MKFIFOAT='0'
+REPLACE_MKNOD='0'
+REPLACE_MKNODAT='0'
+REPLACE_MKOSTEMP='0'
+REPLACE_MKOSTEMPS='0'
+REPLACE_MKSTEMP='0'
+REPLACE_MKTIME='0'
+REPLACE_MODF='0'
+REPLACE_MODFF='0'
+REPLACE_MODFL='0'
+REPLACE_NAN='0'
+REPLACE_NANOSLEEP='1'
+REPLACE_NEWLOCALE='0'
+REPLACE_NL_LANGINFO='0'
+REPLACE_NULL='0'
+REPLACE_OBSTACK='1'
+REPLACE_OBSTACK_PRINTF='0'
+REPLACE_OPEN='0'
+REPLACE_OPENAT='0'
+REPLACE_OPENDIR='0'
+REPLACE_PERROR='0'
+REPLACE_PIPE2='1'
+REPLACE_POPEN='0'
+REPLACE_POSIX_MEMALIGN='0'
+REPLACE_POSIX_OPENPT='0'
+REPLACE_POSIX_SPAWN='0'
+REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR='0'
+REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDCLOSE='0'
+REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2='0'
+REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDFCHDIR='0'
+REPLACE_POSIX_SPAWN_FILE_ACTIONS_ADDOPEN='0'
+REPLACE_PREAD='0'
+REPLACE_PRINTF='0'
+REPLACE_PSELECT='0'
+REPLACE_PTHREAD_ATTR_DESTROY='0'
+REPLACE_PTHREAD_ATTR_GETDETACHSTATE='0'
+REPLACE_PTHREAD_ATTR_INIT='0'
+REPLACE_PTHREAD_ATTR_SETDETACHSTATE='0'
+REPLACE_PTHREAD_CONDATTR_DESTROY='0'
+REPLACE_PTHREAD_CONDATTR_INIT='0'
+REPLACE_PTHREAD_COND_BROADCAST='0'
+REPLACE_PTHREAD_COND_DESTROY='0'
+REPLACE_PTHREAD_COND_INIT='0'
+REPLACE_PTHREAD_COND_SIGNAL='0'
+REPLACE_PTHREAD_COND_TIMEDWAIT='0'
+REPLACE_PTHREAD_COND_WAIT='0'
+REPLACE_PTHREAD_CREATE='0'
+REPLACE_PTHREAD_DETACH='0'
+REPLACE_PTHREAD_EQUAL='0'
+REPLACE_PTHREAD_EXIT='0'
+REPLACE_PTHREAD_GETSPECIFIC='0'
+REPLACE_PTHREAD_JOIN='0'
+REPLACE_PTHREAD_KEY_CREATE='0'
+REPLACE_PTHREAD_KEY_DELETE='0'
+REPLACE_PTHREAD_MUTEXATTR_DESTROY='0'
+REPLACE_PTHREAD_MUTEXATTR_GETROBUST='0'
+REPLACE_PTHREAD_MUTEXATTR_GETTYPE='0'
+REPLACE_PTHREAD_MUTEXATTR_INIT='0'
+REPLACE_PTHREAD_MUTEXATTR_SETROBUST='0'
+REPLACE_PTHREAD_MUTEXATTR_SETTYPE='0'
+REPLACE_PTHREAD_MUTEX_DESTROY='0'
+REPLACE_PTHREAD_MUTEX_INIT='0'
+REPLACE_PTHREAD_MUTEX_LOCK='0'
+REPLACE_PTHREAD_MUTEX_TIMEDLOCK='0'
+REPLACE_PTHREAD_MUTEX_TRYLOCK='0'
+REPLACE_PTHREAD_MUTEX_UNLOCK='0'
+REPLACE_PTHREAD_ONCE='0'
+REPLACE_PTHREAD_RWLOCKATTR_DESTROY='0'
+REPLACE_PTHREAD_RWLOCKATTR_INIT='0'
+REPLACE_PTHREAD_RWLOCK_DESTROY='0'
+REPLACE_PTHREAD_RWLOCK_INIT='0'
+REPLACE_PTHREAD_RWLOCK_RDLOCK='0'
+REPLACE_PTHREAD_RWLOCK_TIMEDRDLOCK='0'
+REPLACE_PTHREAD_RWLOCK_TIMEDWRLOCK='0'
+REPLACE_PTHREAD_RWLOCK_TRYRDLOCK='0'
+REPLACE_PTHREAD_RWLOCK_TRYWRLOCK='0'
+REPLACE_PTHREAD_RWLOCK_UNLOCK='0'
+REPLACE_PTHREAD_RWLOCK_WRLOCK='0'
+REPLACE_PTHREAD_SELF='0'
+REPLACE_PTHREAD_SETSPECIFIC='0'
+REPLACE_PTHREAD_SIGMASK='0'
+REPLACE_PTHREAD_SPIN_DESTROY='0'
+REPLACE_PTHREAD_SPIN_INIT='0'
+REPLACE_PTHREAD_SPIN_LOCK='0'
+REPLACE_PTHREAD_SPIN_TRYLOCK='0'
+REPLACE_PTHREAD_SPIN_UNLOCK='0'
+REPLACE_PTSNAME='0'
+REPLACE_PTSNAME_R='0'
+REPLACE_PUTENV='0'
+REPLACE_PWRITE='0'
+REPLACE_QSORT_R='0'
+REPLACE_RAISE='0'
+REPLACE_RAND='0'
+REPLACE_RANDOM='0'
+REPLACE_RANDOM_R='0'
+REPLACE_READ='0'
+REPLACE_READDIR='0'
+REPLACE_READLINK='0'
+REPLACE_READLINKAT='0'
+REPLACE_REALLOCARRAY='0'
+REPLACE_REALLOC_FOR_REALLOC_GNU='0'
+REPLACE_REALLOC_FOR_REALLOC_POSIX='0'
+REPLACE_REALPATH='0'
+REPLACE_REMAINDER='0'
+REPLACE_REMAINDERF='0'
+REPLACE_REMAINDERL='0'
+REPLACE_REMOVE='0'
+REPLACE_RENAME='0'
+REPLACE_RENAMEAT='0'
+REPLACE_REWINDDIR='0'
+REPLACE_RINTL='0'
+REPLACE_RMDIR='0'
+REPLACE_ROUND='0'
+REPLACE_ROUNDF='0'
+REPLACE_ROUNDL='0'
+REPLACE_SCHED_YIELD='0'
+REPLACE_SELECT='0'
+REPLACE_SETENV='0'
+REPLACE_SETHOSTNAME='0'
+REPLACE_SETLOCALE='0'
+REPLACE_SETSTATE='0'
+REPLACE_SIGNBIT='0'
+REPLACE_SIGNBIT_USING_BUILTINS='1'
+REPLACE_SINF='0'
+REPLACE_SINHF='0'
+REPLACE_SLEEP='0'
+REPLACE_SNPRINTF='0'
+REPLACE_SPRINTF='0'
+REPLACE_SQRTF='0'
+REPLACE_SQRTL='0'
+REPLACE_STAT='0'
+REPLACE_STDIO_READ_FUNCS='0'
+REPLACE_STDIO_WRITE_FUNCS='0'
+REPLACE_STPCPY='0'
+REPLACE_STPNCPY='0'
+REPLACE_STRCASESTR='0'
+REPLACE_STRCHRNUL='0'
+REPLACE_STRDUP='0'
+REPLACE_STRERROR='0'
+REPLACE_STRERRORNAME_NP='0'
+REPLACE_STRERROR_R='1'
+REPLACE_STRFTIME='0'
+REPLACE_STRNCAT='0'
+REPLACE_STRNDUP='0'
+REPLACE_STRNLEN='0'
+REPLACE_STRSIGNAL='0'
+REPLACE_STRSTR='0'
+REPLACE_STRTOD='0'
+REPLACE_STRTOIMAX='0'
+REPLACE_STRTOK_R='0'
+REPLACE_STRTOL='0'
+REPLACE_STRTOLD='0'
+REPLACE_STRTOLL='0'
+REPLACE_STRTOUL='0'
+REPLACE_STRTOULL='0'
+REPLACE_STRTOUMAX='0'
+REPLACE_STRUCT_LCONV='0'
+REPLACE_STRUCT_TIMEVAL='0'
+REPLACE_STRVERSCMP='0'
+REPLACE_SYMLINK='0'
+REPLACE_SYMLINKAT='0'
+REPLACE_TANF='0'
+REPLACE_TANHF='0'
+REPLACE_TIME='1'
+REPLACE_TIMEGM='0'
+REPLACE_TIMESPEC_GET='0'
+REPLACE_TIMESPEC_GETRES='0'
+REPLACE_TMPFILE='0'
+REPLACE_TOTALORDER='0'
+REPLACE_TOTALORDERF='0'
+REPLACE_TOTALORDERL='0'
+REPLACE_TOWLOWER='0'
+REPLACE_TRUNC='0'
+REPLACE_TRUNCATE='0'
+REPLACE_TRUNCF='0'
+REPLACE_TRUNCL='0'
+REPLACE_TTYNAME_R='0'
+REPLACE_TZSET='0'
+REPLACE_UNLINK='0'
+REPLACE_UNLINKAT='0'
+REPLACE_UNSETENV='0'
+REPLACE_USLEEP='0'
+REPLACE_UTIME='0'
+REPLACE_UTIMENSAT='0'
+REPLACE_VASPRINTF='0'
+REPLACE_VDPRINTF='0'
+REPLACE_VFPRINTF='0'
+REPLACE_VPRINTF='0'
+REPLACE_VSNPRINTF='0'
+REPLACE_VSPRINTF='0'
+REPLACE_WCRTOMB='0'
+REPLACE_WCSCMP='0'
+REPLACE_WCSFTIME='0'
+REPLACE_WCSNCMP='0'
+REPLACE_WCSNRTOMBS='0'
+REPLACE_WCSRTOMBS='0'
+REPLACE_WCSSTR='0'
+REPLACE_WCSTOK='0'
+REPLACE_WCSWIDTH='0'
+REPLACE_WCTOB='0'
+REPLACE_WCTOMB='0'
+REPLACE_WCTRANS='0'
+REPLACE_WCTYPE='0'
+REPLACE_WCWIDTH='0'
+REPLACE_WMEMCMP='0'
+REPLACE_WMEMPCPY='0'
+REPLACE_WRITE='0'
+REPLACE__EXIT='0'
+SCHED_YIELD_LIB=''
+SED='/usr/bin/sed'
+SELECT_LIB=''
+SERVENT_LIB=''
+SETLOCALE_LIB=''
+SETLOCALE_NULL_LIB=''
+SET_MAKE=''
+SHELL='/bin/bash'
+SIG_ATOMIC_T_SUFFIX=''
+SIZE_T_SUFFIX=''
+SMALL_WCHAR_T='0'
+STDARG_H=''
+STDCKDINT_H=''
+STDDEF_H=''
+STDINT_H=''
+STRIP='/usr/bin/strip'
+SYS_IOCTL_H_HAVE_WINSOCK2_H='0'
+SYS_IOCTL_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS='0'
+SYS_TIME_H_DEFINES_STRUCT_TIMESPEC='0'
+TESTCSHARP='no'
+TESTJAVA='no'
+TESTLIBASPRINTF='yes'
+TEST_SYSTEM_LIBINTL_FALSE='#'
+TEST_SYSTEM_LIBINTL_TRUE=''
+TEXI2PDF='/usr/bin/texi2pdf'
+TIME_H_DEFINES_STRUCT_TIMESPEC='1'
+TIME_H_DEFINES_TIME_UTC='1'
+TOOLS_BISON='bison'
+UINT32_MAX_LT_UINTMAX_MAX='1'
+UINT64_MAX_EQ_ULONG_MAX='1'
+UNDEFINE_STRTOK_R='0'
+UNISTD_H_DEFINES_STRUCT_TIMESPEC='0'
+UNISTD_H_HAVE_SYS_RANDOM_H='1'
+UNISTD_H_HAVE_WINSOCK2_H='0'
+UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS='0'
+USE_ACL='0'
+USE_INCLUDED_LIBINTL='no'
+USE_INSTALLED_CSHARP_DLL_FALSE=''
+USE_INSTALLED_CSHARP_DLL_TRUE='#'
+USE_INSTALLED_LIBTEXTSTYLE_FALSE=''
+USE_INSTALLED_LIBTEXTSTYLE_TRUE='#'
+USE_NLS='yes'
+VERSION='0.22.5'
+WARN_CFLAGS=''
+WCHAR_T_SUFFIX=''
+WINDOWS_64_BIT_OFF_T='0'
+WINDOWS_64_BIT_ST_SIZE='0'
+WINDOWS_NATIVE_FALSE=''
+WINDOWS_NATIVE_TRUE='#'
+WINDOWS_STAT_INODES='0'
+WINDOWS_STAT_TIMESPEC='0'
+WINDRES=''
+WINT_T_SUFFIX=''
+WOE32DLL_FALSE=''
+WOE32DLL_TRUE='#'
+WOE32_FALSE=''
+WOE32_TRUE='#'
+XGETTEXT='/usr/bin/xgettext'
+XGETTEXT_015='/usr/bin/xgettext'
+XGETTEXT_EXTRA_OPTIONS=' --flag=error:3:c-format --flag=error_at_line:5:c-format --keyword='\''proper_name:1,"This is a proper name. See the gettext manual, section Names."'\'' --keyword='\''proper_name_utf8:1,"This is a proper name. See the gettext manual, section Names."'\'' --flag=asprintf:2:c-format --flag=vasprintf:2:c-format --flag=xasprintf:1:c-format --flag=error:3:c-format --flag=error_at_line:5:c-format --flag=asprintf:2:c-format --flag=vasprintf:2:c-format --flag=xasprintf:1:c-format'
+YACC='bison -o y.tab.c'
+YFLAGS=''
+YIELD_LIB=''
+ac_ct_AR='/usr/bin/ar'
+ac_ct_CC='/usr/bin/cc'
+ac_ct_CXX=''
+ac_ct_DUMPBIN=''
+aclocaldir='${datadir}/aclocal'
+am__EXEEXT_FALSE=''
+am__EXEEXT_TRUE='#'
+am__fastdepCC_FALSE=''
+am__fastdepCC_TRUE='#'
+am__fastdepCXX_FALSE=''
+am__fastdepCXX_TRUE='#'
+am__include='include'
+am__isrc=' -I$(srcdir)'
+am__leading_dot='.'
+am__nodep=''
+am__quote=''
+am__tar='$${TAR-tar} chof - "$$tardir"'
+am__untar='$${TAR-tar} xf -'
+bindir='${prefix}/tools/gettext/bin'
+bindir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin"'
+bindir_c_make='\"$(bindir)\"'
+build='x86_64-pc-linux-gnu'
+build_alias=''
+build_cpu='x86_64'
+build_os='linux-gnu'
+build_vendor='pc'
+datadir='${datarootdir}'
+datadir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+datadir_c_make='\"$(datadir)\"'
+datarootdir='${prefix}/share/gettext'
+datarootdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+datarootdir_c_make='\"$(datarootdir)\"'
+docdir='${prefix}/share/gettext'
+docdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+docdir_c_make='\"$(docdir)\"'
+dvidir='${docdir}'
+dvidir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+dvidir_c_make='\"$(dvidir)\"'
+exec_prefix='${prefix}'
+exec_prefix_c='"/home/runner/webbuild/vcpkg/installed/x64-linux"'
+exec_prefix_c_make='\"$(exec_prefix)\"'
+gl_LIBOBJDEPS=' ./$(DEPDIR)/asnprintf.Plo ./$(DEPDIR)/mbsrtoc32s-state.Plo ./$(DEPDIR)/mbsrtowcs-state.Plo ./$(DEPDIR)/printf-args.Plo ./$(DEPDIR)/printf-parse.Plo ./$(DEPDIR)/relocatable.Plo ./$(DEPDIR)/vasnprintf.Plo'
+gl_LIBOBJS=' asnprintf.o mbsrtoc32s-state.o mbsrtowcs-state.o printf-args.o printf-parse.o relocatable.o vasnprintf.o'
+gl_LTLIBOBJS=' asnprintf.lo mbsrtoc32s-state.lo mbsrtowcs-state.lo printf-args.lo printf-parse.lo relocatable.lo vasnprintf.lo'
+gltests_LIBOBJDEPS=' ./$(DEPDIR)/strerror_r.Plo'
+gltests_LIBOBJS=' strerror_r.o'
+gltests_LTLIBOBJS=' strerror_r.lo'
+gltests_WITNESS='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+grgl_LIBOBJDEPS=''
+grgl_LIBOBJS=''
+grgl_LTLIBOBJS=''
+grgltests_LIBOBJDEPS=''
+grgltests_LIBOBJS=''
+grgltests_LTLIBOBJS=''
+grgltests_WITNESS='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+gtpo_LIBOBJDEPS=' ./$(DEPDIR)/asnprintf.Plo ./$(DEPDIR)/printf-args.Plo ./$(DEPDIR)/printf-parse.Plo ./$(DEPDIR)/relocatable.Plo ./$(DEPDIR)/vasnprintf.Plo'
+gtpo_LIBOBJS=' asnprintf.o printf-args.o printf-parse.o relocatable.o vasnprintf.o'
+gtpo_LTLIBOBJS=' asnprintf.lo printf-args.lo printf-parse.lo relocatable.lo vasnprintf.lo'
+gtpotests_LIBOBJDEPS=''
+gtpotests_LIBOBJS=''
+gtpotests_LTLIBOBJS=''
+gtpotests_WITNESS='IN_GETTEXT_TOOLS_GNULIB_TESTS'
+host='x86_64-pc-linux-gnu'
+host_alias=''
+host_cpu='x86_64'
+host_os='linux-gnu'
+host_vendor='pc'
+htmldir='${docdir}'
+htmldir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+htmldir_c_make='\"$(htmldir)\"'
+includedir='${prefix}/include'
+includedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/include"'
+includedir_c_make='\"$(includedir)\"'
+infodir='${datarootdir}/info'
+infodir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/info"'
+infodir_c_make='\"$(infodir)\"'
+install_sh='${SHELL} /home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/build-aux/install-sh'
+libdir='${prefix}/lib'
+libdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/lib"'
+libdir_c_make='\"$(libdir)\"'
+libexecdir='${exec_prefix}/libexec'
+libexecdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/libexec"'
+libexecdir_c_make='\"$(libexecdir)\"'
+lispdir='${datarootdir}/emacs/site-lisp'
+lispdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/emacs/site-lisp"'
+lispdir_c_make='\"$(lispdir)\"'
+localedir='${datarootdir}/locale'
+localedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale"'
+localedir_c_make='\"$(localedir)\"'
+localstatedir='${prefix}/var'
+localstatedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/var"'
+localstatedir_c_make='\"$(localstatedir)\"'
+mandir='${prefix}/share/gettext'
+mandir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+mandir_c_make='\"$(mandir)\"'
+mkdir_p='$(MKDIR_P)'
+oldincludedir='/usr/include'
+oldincludedir_c='"/usr/include"'
+oldincludedir_c_make='\"$(oldincludedir)\"'
+pdfdir='${docdir}'
+pdfdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+pdfdir_c_make='\"$(pdfdir)\"'
+pkgdatadir='${datadir}/${PACKAGE}'
+pkgdatadir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext-tools"'
+pkgdatadir_c_make='\"$(pkgdatadir)\"'
+pkgincludedir='${includedir}/${PACKAGE}'
+pkgincludedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/include/gettext-tools"'
+pkgincludedir_c_make='\"$(pkgincludedir)\"'
+pkglibdir='${libdir}/${PACKAGE}'
+pkglibdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext-tools"'
+pkglibdir_c_make='\"$(pkglibdir)\"'
+pkglibexecdir='${libexecdir}/${PACKAGE}'
+pkglibexecdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/libexec/gettext-tools"'
+pkglibexecdir_c_make='\"$(pkglibexecdir)\"'
+prefix='/home/runner/webbuild/vcpkg/installed/x64-linux'
+prefix_c='"/home/runner/webbuild/vcpkg/installed/x64-linux"'
+prefix_c_make='\"$(prefix)\"'
+program_transform_name='s,x,x,'
+psdir='${docdir}'
+psdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext"'
+psdir_c_make='\"$(psdir)\"'
+runstatedir='${localstatedir}/run'
+runstatedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/var/run"'
+runstatedir_c_make='\"$(runstatedir)\"'
+sbindir='${prefix}/tools/gettext/sbin'
+sbindir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/sbin"'
+sbindir_c_make='\"$(sbindir)\"'
+sharedstatedir='${prefix}/com'
+sharedstatedir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/com"'
+sharedstatedir_c_make='\"$(sharedstatedir)\"'
+subdirs=' examples'
+sysconfdir='${prefix}/etc'
+sysconfdir_c='"/home/runner/webbuild/vcpkg/installed/x64-linux/etc"'
+sysconfdir_c_make='\"$(sysconfdir)\"'
+target_alias=''
+
+## ------------------- ##
+## File substitutions. ##
+## ------------------- ##
+
+relocatable_sh='.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux//relocatable.sh.in'
+
+## ----------- ##
+## confdefs.h. ##
+## ----------- ##
+
+/* confdefs.h */
+#define PACKAGE_NAME "gettext-tools"
+#define PACKAGE_TARNAME "gettext-tools"
+#define PACKAGE_VERSION "0.22.5"
+#define PACKAGE_STRING "gettext-tools 0.22.5"
+#define PACKAGE_BUGREPORT "bug-gettext@gnu.org"
+#define PACKAGE_URL ""
+#define PACKAGE "gettext-tools"
+#define VERSION "0.22.5"
+#define HAVE_STDIO_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_WCHAR_H 1
+#define HAVE_ARPA_INET_H 1
+#define HAVE_FEATURES_H 1
+#define HAVE_SYS_SOCKET_H 1
+#define HAVE_PTHREAD_H 1
+#define HAVE_UCHAR_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE_DIRENT_H 1
+#define HAVE_ERROR_H 1
+#define HAVE_FNMATCH_H 1
+#define HAVE_NETDB_H 1
+#define HAVE_NETINET_IN_H 1
+#define HAVE_GETOPT_H 1
+#define HAVE_SYS_CDEFS_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_THREADS_H 1
+#define HAVE_ICONV_H 1
+#define HAVE_LIMITS_H 1
+#define HAVE_WCTYPE_H 1
+#define HAVE_LANGINFO_H 1
+#define HAVE_LIBXML2_LIBXML_XMLEXPORTS_H 1
+#define HAVE_MATH_H 1
+#define HAVE_SYS_MMAN_H 1
+#define HAVE_OBSTACK_H 1
+#define HAVE_SPAWN_H 1
+#define HAVE_STDBOOL_H 1
+#define HAVE_STDCKDINT_H 1
+#define HAVE_SYS_RANDOM_H 1
+#define HAVE_SYS_SELECT_H 1
+#define HAVE_SYS_UIO_H 1
+#define HAVE_SYS_WAIT_H 1
+#define HAVE_UTIME_H 1
+#define HAVE_SEMAPHORE_H 1
+#define HAVE_LINUX_XATTR_H 1
+#define HAVE_STDIO_EXT_H 1
+#define HAVE_SYS_IOCTL_H 1
+#define HAVE_MALLOC_H 1
+#define STDC_HEADERS 1
+#define _ALL_SOURCE 1
+#define _DARWIN_C_SOURCE 1
+#define _GNU_SOURCE 1
+#define _HPUX_ALT_XOPEN_SOCKET_API 1
+#define _NETBSD_SOURCE 1
+#define _OPENBSD_SOURCE 1
+#define _POSIX_PTHREAD_SEMANTICS 1
+#define __STDC_WANT_IEC_60559_ATTRIBS_EXT__ 1
+#define __STDC_WANT_IEC_60559_BFP_EXT__ 1
+#define __STDC_WANT_IEC_60559_DFP_EXT__ 1
+#define __STDC_WANT_IEC_60559_EXT__ 1
+#define __STDC_WANT_IEC_60559_FUNCS_EXT__ 1
+#define __STDC_WANT_IEC_60559_TYPES_EXT__ 1
+#define __STDC_WANT_LIB_EXT2__ 1
+#define __STDC_WANT_MATH_SPEC_FUNCS__ 1
+#define _TANDEM_SOURCE 1
+#define __EXTENSIONS__ 1
+#define __USE_MINGW_ANSI_STDIO 1
+#define __USE_MINGW_ANSI_STDIO 1
+#define HAVE_DLFCN_H 1
+#define LT_OBJDIR ".libs/"
+#define HAVE_LSTAT 1
+#define HAVE_FCHMOD 1
+#define HAVE_BTOWC 1
+#define HAVE_MBRTOWC 1
+#define HAVE_MBSINIT 1
+#define HAVE_CANONICALIZE_FILE_NAME 1
+#define HAVE_REALPATH 1
+#define HAVE_FCHDIR 1
+#define HAVE_FCNTL 1
+#define HAVE_SYMLINK 1
+#define HAVE_FDOPENDIR 1
+#define HAVE_FNMATCH 1
+#define HAVE_MBSRTOWCS 1
+#define HAVE_FSTATAT 1
+#define HAVE_GETDTABLESIZE 1
+#define HAVE_GETTIMEOFDAY 1
+#define HAVE_ISBLANK 1
+#define HAVE_ISWCNTRL 1
+#define HAVE_ISASCII 1
+#define HAVE_MPROTECT 1
+#define HAVE_OPENAT 1
+#define HAVE_SELECT 1
+#define HAVE_PIPE 1
+#define HAVE_READLINK 1
+#define HAVE_SETENV 1
+#define HAVE_SECURE_GETENV 1
+#define HAVE_GETUID 1
+#define HAVE_GETEUID 1
+#define HAVE_GETGID 1
+#define HAVE_GETEGID 1
+#define HAVE_SIGACTION 1
+#define HAVE_SIGALTSTACK 1
+#define HAVE_SIGINTERRUPT 1
+#define HAVE_SNPRINTF 1
+#define HAVE___XPG_STRERROR_R 1
+#define HAVE_WCWIDTH 1
+#define HAVE_LISTXATTR 1
+#define HAVE_PSELECT 1
+#define HAVE_PTHREAD_SIGMASK 1
+#define HAVE_SLEEP 1
+#define HAVE_SHUTDOWN 1
+#define HAVE_USLEEP 1
+#define HAVE_WCRTOMB 1
+#define HAVE_WCTOB 1
+#define HAVE_MBRLEN 1
+#define HAVE_ISWCTYPE 1
+#define HAVE_FSYNC 1
+#define HAVE_TCDRAIN 1
+#define HAVE_GETRLIMIT 1
+#define HAVE_SETRLIMIT 1
+#define HAVE_USELOCALE 1
+#define USE_ACL 0
+#define HAVE_ALLOCA_H 1
+#define HAVE_ALLOCA 1
+#define HAVE_ATOMIC_COMPARE_AND_SWAP_GCC41 1
+#define HAVE_LANGINFO_CODESET 1
+#define BITSIZEOF_WCHAR_T 32
+#define HAVE_MBSTATE_T 1
+#define HAVE_WORKING_MBRTOC32 1
+#define HAVE_MALLOC_POSIX 1
+#define LSTAT_FOLLOWS_SLASHED_SYMLINK 1
+#define FUNC_REALPATH_WORKS 1
+#define HAVE_FACCESSAT 1
+#define HAVE_GETCWD 1
+#define restrict __restrict__
+#define HAVE_ENVIRON_DECL 1
+#define HAVE_ERROR 1
+#define HAVE_DECL_STRERROR_R 1
+#define HAVE_STRERROR_R 1
+#define STRERROR_R_CHAR_P 1
+#define HAVE_SIG_ATOMIC_T 1
+#define HAVE_DECL_FCHDIR 1
+#define HAVE_WORKING_O_NOATIME 1
+#define HAVE_WORKING_O_NOFOLLOW 1
+#define FUNC_FFLUSH_STDIN 1
+#define _USE_STD_STAT 1
+#define HAVE_DECL_FTELLO 1
+#define HAVE_SHUTDOWN 1
+#define HAVE_STRUCT_SOCKADDR_STORAGE 1
+#define HAVE_SA_FAMILY_T 1
+#define HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY 1
+#define HAVE_GETHOSTBYNAME 1
+#define HAVE_GETSERVBYNAME 1
+#define HAVE_DECL_INET_NTOP 1
+#define HAVE_IPV4 1
+#define HAVE_IPV6 1
+#define HAVE_DECL_GETCWD 1
+#define HAVE_DECL_GETDELIM 1
+#define HAVE_DECL_GETDTABLESIZE 1
+#define HAVE_DECL_GETLINE 1
+#define HAVE_GETOPT_H 1
+#define HAVE_GETOPT_LONG_ONLY 1
+#define HAVE_PTHREAD_API 1
+#define SETLOCALE_NULL_ALL_MTSAFE 1
+#define SETLOCALE_NULL_ONE_MTSAFE 1
+#define HAVE_ICONV 1
+#define ICONV_CONST 
+#define ENABLE_NLS 1
+#define HAVE_GETTEXT 1
+#define HAVE_DCGETTEXT 1
+#define YYENABLE_NLS 1
+#define HAVE_WINT_T 1
+#define HAVE_LONG_LONG_INT 1
+#define HAVE_UNSIGNED_LONG_LONG_INT 1
+#define FLT_EXPBIT0_WORD 0
+#define FLT_EXPBIT0_BIT 23
+#define DBL_EXPBIT0_WORD 1
+#define DBL_EXPBIT0_BIT 20
+#define LDBL_EXPBIT0_WORD 2
+#define LDBL_EXPBIT0_BIT 0
+#define HAVE_TOWLOWER 1
+#define HAVE_WCHAR_T 1
+#define HAVE_LC_MESSAGES 1
+#define HAVE_USELOCALE 1
+#define HAVE_WORKING_USELOCALE 1
+#define HAVE_GOOD_USELOCALE 1
+#define HAVE_WEAK_SYMBOLS 1
+#define USE_POSIX_THREADS 1
+#define USE_POSIX_THREADS_FROM_LIBC 1
+#define MALLOC_0_IS_NONNULL 1
+#define HAVE_MAP_ANONYMOUS 1
+#define HAVE_DECL_MEMMEM 1
+#define HAVE_MEMMEM 1
+#define HAVE_DECL_MEMRCHR 1
+#define HAVE_MINMAX_IN_SYS_PARAM_H 1
+#define PROMOTED_MODE_T mode_t
+#define HAVE_POSIX_SPAWN 1
+#define HAVE_DECL_POSIX_SPAWN 1
+#define HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR_NP 1
+#define HAVE_SIGSET_T 1
+#define INSTALLPREFIX "/home/runner/webbuild/vcpkg/installed/x64-linux"
+#define ENABLE_RELOCATABLE 1
+#define HAVE_DECL_SETENV 1
+#define HAVE_SCHED_H 1
+#define USER_LABEL_PREFIX 
+#define HAVE_DECL_SNPRINTF 1
+#define HAVE_POSIX_SPAWNATTR_T 1
+#define HAVE_POSIX_SPAWN_FILE_ACTIONS_T 1
+#define HAVE_DECL_FCLOSEALL 1
+#define HAVE_DECL_GETW 1
+#define HAVE_DECL_PUTW 1
+#define HAVE_DECL_ECVT 1
+#define HAVE_DECL_FCVT 1
+#define HAVE_DECL_GCVT 1
+#define HAVE_DECL_STPNCPY 1
+#define HAVE_DECL_STRDUP 1
+#define HAVE_STRERROR_R 1
+#define HAVE_DECL_STRNLEN 1
+#define HAVE_DECL_EXECVPE 1
+#define HAVE_DECL_CLEARERR_UNLOCKED 1
+#define HAVE_DECL_FEOF_UNLOCKED 1
+#define HAVE_DECL_FERROR_UNLOCKED 1
+#define HAVE_DECL_FFLUSH_UNLOCKED 1
+#define HAVE_DECL_FGETS_UNLOCKED 1
+#define HAVE_DECL_FPUTC_UNLOCKED 1
+#define HAVE_DECL_FPUTS_UNLOCKED 1
+#define HAVE_DECL_FREAD_UNLOCKED 1
+#define HAVE_DECL_FWRITE_UNLOCKED 1
+#define HAVE_DECL_GETC_UNLOCKED 1
+#define HAVE_DECL_GETCHAR_UNLOCKED 1
+#define HAVE_DECL_PUTC_UNLOCKED 1
+#define HAVE_DECL_PUTCHAR_UNLOCKED 1
+#define HAVE_DECL_UNSETENV 1
+#define HAVE_WORKING_UTIMES 1
+#define HAVE_INTTYPES_H_WITH_UINTMAX 1
+#define HAVE_STDINT_H_WITH_UINTMAX 1
+#define HAVE_INTMAX_T 1
+#define HAVE_WCSLEN 1
+#define HAVE_SNPRINTF 1
+#define HAVE_STRNLEN 1
+#define HAVE_WCRTOMB 1
+#define HAVE_DECL__SNPRINTF 0
+#define HAVE_SNPRINTF_RETVAL_C99 1
+#define HAVE_SNPRINTF_TRUNCATION_C99 1
+#define HAVE_DECL_VSNPRINTF 1
+#define HAVE_DECL_WCSDUP 1
+#define HAVE_DECL_ALARM 1
+#define HAVE_DECL_FSEEKO 1
+#define FUNC_FFLUSH_STDIN 1
+#define HAVE_PTHREAD_T 1
+#define HAVE_PTHREAD_SPINLOCK_T 1
+#define HAVE_DECL_INITSTATE 1
+#define HAVE_DECL_SETSTATE 1
+#define GNULIB_TEST_ACCESS 1
+#define HAVE_C_ALIGNASOF 1
+#define HAVE_ALLOCA 1
+#define HAVE_C_STATIC_ASSERT 1
+#define HAVE_ATEXIT 1
+#define HAVE_DIRENT_H 1
+#define HAVE_STRING_H 1
+#define HAVE_LONG_FILE_NAMES 1
+#define HAVE_PATHCONF 1
+#define HAVE_STRING_H 1
+#define HAVE_UNISTD_H 1
+#define YYENABLE_NLS 1
+#define GNULIB_TEST_BTOC32 1
+#define GNULIB_TEST_BTOWC 1
+#define HAVE___BUILTIN_EXPECT 1
+#define HAVE_BYTESWAP_H 1
+#define GNULIB_TEST_C32_APPLY_TYPE_TEST 1
+#define GNULIB_TEST_C32_GET_TYPE_TEST 1
+#define GNULIB_TEST_C32ISALNUM 1
+#define GNULIB_TEST_C32ISALPHA 1
+#define GNULIB_TEST_C32ISBLANK 1
+#define GNULIB_TEST_C32ISCNTRL 1
+#define GNULIB_TEST_C32ISDIGIT 1
+#define GNULIB_TEST_C32ISGRAPH 1
+#define GNULIB_TEST_C32ISLOWER 1
+#define GNULIB_TEST_C32ISPRINT 1
+#define GNULIB_TEST_C32ISPUNCT 1
+#define GNULIB_TEST_C32ISSPACE 1
+#define GNULIB_TEST_C32ISUPPER 1
+#define GNULIB_TEST_C32ISXDIGIT 1
+#define GNULIB_TEST_C32TOLOWER 1
+#define GNULIB_TEST_C32WIDTH 1
+#define GNULIB_TEST_CALLOC_GNU 1
+#define GNULIB_TEST_CALLOC_POSIX 1
+#define HAVE_FACCESSAT 1
+#define GNULIB_CANONICALIZE 1
+#define GNULIB_TEST_CANONICALIZE 1
+#define GNULIB_TEST_CANONICALIZE_FILE_NAME 1
+#define GNULIB_CANONICALIZE_LGPL 1
+#define GNULIB_TEST_CANONICALIZE_FILE_NAME 1
+#define GNULIB_TEST_REALPATH 1
+#define HAVE_READLINKAT 1
+#define GNULIB_TEST_CHDIR 1
+#define SIGNAL_SAFE_LIST 1
+#define HAVE_CLOCK_GETRES 1
+#define HAVE_CLOCK_GETTIME 1
+#define HAVE_CLOCK_SETTIME 1
+#define GNULIB_TEST_CLOEXEC 1
+#define GNULIB_TEST_CLOSE 1
+#define HAVE_CLOSEDIR 1
+#define GNULIB_TEST_CLOSEDIR 1
+#define HAVE_CHOWN 1
+#define HAVE_COPY_FILE_RANGE 1
+#define GNULIB_TEST_COPY_FILE_RANGE 1
+#define D_INO_IN_DIRENT 1
+#define HAVE_DIRFD 1
+#define HAVE_DECL_DIRFD 1
+#define GNULIB_TEST_DIRFD 1
+#define GNULIB_TEST_DUP 1
+#define GNULIB_TEST_DUP2 1
+#define GNULIB_TEST_ENVIRON 1
+#define GNULIB_TEST_FCHDIR 1
+#define GNULIB_TEST_FCNTL 1
+#define GNULIB_FD_SAFER_FLAG 1
+#define GNULIB_TEST_FDOPEN 1
+#define HAVE_DECL_FDOPENDIR 1
+#define GNULIB_TEST_FDOPENDIR 1
+#define GNULIB_FDOPENDIR 1
+#define HAVE_MEMPCPY 1
+#define FLEXIBLE_ARRAY_MEMBER /**/
+#define GNULIB_TEST_FNMATCH 1
+#define GNULIB_TEST_FOPEN 1
+#define GNULIB_FOPEN_GNU 1
+#define GNULIB_TEST_FOPEN_GNU 1
+#define HAVE_FREE_POSIX 1
+#define GNULIB_TEST_FREE_POSIX 1
+#define GNULIB_TEST_FSTAT 1
+#define GNULIB_TEST_FSTATAT 1
+#define GNULIB_TEST_FTELL 1
+#define GNULIB_TEST_FTELLO 1
+#define GNULIB_FWRITEERROR 1
+#define HAVE_GETADDRINFO 1
+#define HAVE_DECL_GAI_STRERROR 1
+#define HAVE_DECL_GAI_STRERRORA 0
+#define HAVE_DECL_GETADDRINFO 1
+#define HAVE_DECL_FREEADDRINFO 1
+#define HAVE_DECL_GETNAMEINFO 1
+#define HAVE_STRUCT_ADDRINFO 1
+#define GNULIB_TEST_GETADDRINFO 1
+#define HAVE_GETPAGESIZE 1
+#define HAVE_MINIMALLY_WORKING_GETCWD 1
+#define GNULIB_GETCWD 1
+#define GNULIB_TEST_GETCWD 1
+#define GNULIB_TEST_GETCWD 1
+#define HAVE_GETDELIM 1
+#define GNULIB_TEST_GETDELIM 1
+#define GNULIB_TEST_GETDTABLESIZE 1
+#define HAVE_GETLINE 1
+#define GNULIB_TEST_GETLINE 1
+#define GNULIB_TEST_GETOPT_POSIX 1
+#define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
+#define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
+#define HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME 1
+#define HAVE_DECL___ARGV 0
+#define GNULIB_TEST_GETPROGNAME 1
+#define HAVE_GETRANDOM 1
+#define GNULIB_TEST_GETRANDOM 1
+#define HAVE_TIMESPEC_GET 1
+#define GETTIMEOFDAY_TIMEZONE void
+#define GNULIB_TEST_GETTIMEOFDAY 1
+#define HAVE_GETHOSTBYNAME 1
+#define HAVE_DECL_INET_NTOP 1
+#define HAVE_INLINE 1
+#define GNULIB_ISBLANK 1
+#define HAVE_DECL_ISINF 1
+#define GNULIB_TEST_ISINF 1
+#define GNULIB_TEST_ISNAN 1
+#define GNULIB_TEST_ISNAND 1
+#define HAVE_ISNAND_IN_LIBC 1
+#define GNULIB_TEST_ISNANF 1
+#define HAVE_ISNANF_IN_LIBC 1
+#define GNULIB_TEST_ISNANL 1
+#define HAVE_ISNANL_IN_LIBC 1
+#define HAVE_ISWBLANK 1
+#define HAVE_DECL_ISWBLANK 1
+#define GNULIB_TEST_ISWBLANK 1
+#define GNULIB_TEST_ISWCTYPE 1
+#define GNULIB_TEST_ISWDIGIT 1
+#define GNULIB_TEST_ISWPUNCT 1
+#define GNULIB_TEST_ISWXDIGIT 1
+#define HAVE___INLINE 1
+#define HAVE_ARPA_INET_H 1
+#define HAVE_CTYPE_H 1
+#define HAVE_DLFCN_H 1
+#define HAVE_ERRNO_H 1
+#define HAVE_FCNTL_H 1
+#define HAVE_FLOAT_H 1
+#define HAVE_LIMITS_H 1
+#define HAVE_MALLOC_H 1
+#define HAVE_MATH_H 1
+#define HAVE_NETDB_H 1
+#define HAVE_NETINET_IN_H 1
+#define HAVE_SIGNAL_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_SYS_SELECT_H 1
+#define HAVE_SYS_SOCKET_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_TIME_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_ARPA_NAMESER_H 1
+#define HAVE_RESOLV_H 1
+#define HAVE_GETADDRINFO 1
+#define HAVE_LOCALTIME 1
+#define HAVE_STAT 1
+#define HAVE_STRFTIME 1
+#define VA_COPY va_copy
+#define HAVE_NEWLOCALE 1
+#define HAVE_DUPLOCALE 1
+#define HAVE_FREELOCALE 1
+#define GNULIB_TEST_LOCALENAME_UNSAFE 1
+#define GNULIB_TEST_LOCALTIME 1
+#define HAVE_PTHREAD_RWLOCK 1
+#define HAVE_PTHREAD_MUTEX_RECURSIVE 1
+#define GNULIB_LOCK 1
+#define GNULIB_TEST_LOG10 1
+#define GNULIB_TEST_LSEEK 1
+#define GNULIB_TEST_LSTAT 1
+#define GNULIB_TEST_MALLOC_GNU 1
+#define GNULIB_TEST_MALLOC_POSIX 1
+#define MBRTOC32_IN_C_LOCALE_MAYBE_EILSEQ 1
+#define GNULIB_TEST_MBRTOC32 1
+#define MBRTOWC_IN_C_LOCALE_MAYBE_EILSEQ 1
+#define GNULIB_TEST_MBRTOWC 1
+#define GNULIB_TEST_MBSINIT 1
+#define GNULIB_TEST_MBSLEN 1
+#define GNULIB_TEST_MBSRTOC32S 1
+#define GNULIB_TEST_MBSRTOWCS 1
+#define GNULIB_TEST_MBSSTR 1
+#define HAVE_DECL_MBSWIDTH_IN_WCHAR_H 0
+#define HAVE_MBSTATE_T 1
+#define GNULIB_TEST_MBSZERO 1
+#define HAVE_MBTOWC 1
+#define GNULIB_TEST_MBTOWC 1
+#define GNULIB_TEST_MEMCHR 1
+#define HAVE_MEMMEM 1
+#define GNULIB_TEST_MEMMEM 1
+#define HAVE_MEMMOVE 1
+#define HAVE_MEMPCPY 1
+#define GNULIB_TEST_MEMPCPY 1
+#define HAVE_MEMRCHR 1
+#define GNULIB_TEST_MEMRCHR 1
+#define HAVE_MEMSET 1
+#define HAVE_MEMSET_EXPLICIT 1
+#define GNULIB_TEST_MEMSET_EXPLICIT 1
+#define GNULIB_TEST_MKDIR 1
+#define HAVE_MKDTEMP 1
+#define GNULIB_TEST_MKDTEMP 1
+#define GNULIB_MSVC_NOTHROW 1
+#define GNULIB_TEST_OPEN 1
+#define GNULIB_OPENAT 1
+#define GNULIB_TEST_OPENAT 1
+#define HAVE_OPENDIR 1
+#define GNULIB_TEST_OPENDIR 1
+#define GNULIB_TEST_PIPE 1
+#define HAVE_PIPE2 1
+#define GNULIB_TEST_PIPE2 1
+#define GNULIB_PIPE2_SAFER 1
+#define GNULIB_TEST_POSIX_SPAWN 1
+#define HAVE_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR_NP 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_ADDCHDIR 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_ADDCLOSE 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_ADDOPEN 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_DESTROY 1
+#define GNULIB_TEST_POSIX_SPAWN_FILE_ACTIONS_INIT 1
+#define GNULIB_TEST_POSIX_SPAWNATTR_DESTROY 1
+#define GNULIB_TEST_POSIX_SPAWNATTR_INIT 1
+#define GNULIB_TEST_POSIX_SPAWNATTR_SETFLAGS 1
+#define GNULIB_TEST_POSIX_SPAWNATTR_SETPGROUP 1
+#define GNULIB_TEST_POSIX_SPAWNATTR_SETSIGMASK 1
+#define GNULIB_TEST_POSIX_SPAWNP 1
+#define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
+#define HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME 1
+#define HAVE_RAISE 1
+#define GNULIB_TEST_RAISE 1
+#define HAVE_RAWMEMCHR 1
+#define GNULIB_TEST_RAWMEMCHR 1
+#define GNULIB_TEST_READ 1
+#define HAVE_READDIR 1
+#define GNULIB_TEST_READDIR 1
+#define GNULIB_TEST_READLINK 1
+#define GNULIB_TEST_REALLOC_GNU 1
+#define GNULIB_TEST_REALLOC_POSIX 1
+#define HAVE_REALLOCARRAY 1
+#define GNULIB_REALLOCARRAY 1
+#define GNULIB_TEST_REALLOCARRAY 1
+#define HAVE_FACCESSAT 1
+#define HAVE_GETCWD 1
+#define HAVE_MALLOC_POSIX 1
+#define HAVE_FREE_POSIX 1
+#define HAVE_MEMPCPY 1
+#define HAVE_RAWMEMCHR 1
+#define HAVE_SEARCH_H 1
+#define HAVE_TSEARCH 1
+#define HAVE_REWINDDIR 1
+#define GNULIB_TEST_REWINDDIR 1
+#define GNULIB_TEST_RMDIR 1
+#define GNULIB_TEST_SECURE_GETENV 1
+#define HAVE_GETSERVBYNAME 1
+#define GNULIB_TEST_SETENV 1
+#define NEED_SETLOCALE_IMPROVED 0
+#define NEED_SETLOCALE_MTSAFE 0
+#define GNULIB_TEST_SETLOCALE 1
+#define SETLOCALE_NULL_ALL_MTSAFE 1
+#define SETLOCALE_NULL_ONE_MTSAFE 1
+#define GNULIB_TEST_SETLOCALE_NULL 1
+#define HAVE_STRUCT_SIGACTION_SA_SIGACTION 1
+#define GNULIB_TEST_SIGACTION 1
+#define GNULIB_TEST_SIGNBIT 1
+#define GNULIB_SIGPIPE 1
+#define GNULIB_TEST_SIGPROCMASK 1
+#define HAVE_STDINT_H 1
+#define HAVE_SNPRINTF 1
+#define GNULIB_TEST_SNPRINTF 1
+#define GNULIB_SNPRINTF 1
+#define GNULIB_TEST_STAT 1
+#define HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC 1
+#define TYPEOF_STRUCT_STAT_ST_ATIM_IS_STRUCT_TIMESPEC 1
+#define HAVE_C_BOOL 1
+#define GNULIB_TEST_FSCANF 1
+#define GNULIB_FSCANF 1
+#define GNULIB_TEST_SCANF 1
+#define GNULIB_SCANF 1
+#define GNULIB_TEST_FGETC 1
+#define GNULIB_TEST_GETC 1
+#define GNULIB_TEST_GETCHAR 1
+#define GNULIB_TEST_FGETS 1
+#define GNULIB_TEST_FREAD 1
+#define GNULIB_TEST_FPRINTF 1
+#define GNULIB_TEST_PRINTF 1
+#define GNULIB_TEST_VFPRINTF 1
+#define GNULIB_TEST_VPRINTF 1
+#define GNULIB_TEST_FPUTC 1
+#define GNULIB_TEST_PUTC 1
+#define GNULIB_TEST_PUTCHAR 1
+#define GNULIB_TEST_FPUTS 1
+#define GNULIB_TEST_PUTS 1
+#define GNULIB_TEST_FWRITE 1
+#define HAVE_STPCPY 1
+#define GNULIB_TEST_STPCPY 1
+#define HAVE_STPNCPY 1
+#define HAVE_STPNCPY 1
+#define GNULIB_TEST_STPNCPY 1
+#define HAVE_STRCHRNUL 1
+#define GNULIB_TEST_STRCHRNUL 1
+#define HAVE_STRCSPN 1
+#define GNULIB_TEST_STRDUP 1
+#define GNULIB_STRERROR 1
+#define GNULIB_TEST_STRERROR 1
+#define GNULIB_TEST_STRNLEN 1
+#define HAVE_STRPBRK 1
+#define GNULIB_TEST_STRPBRK 1
+#define GNULIB_TEST_STRSTR 1
+#define HAVE_STRTOL 1
+#define GNULIB_TEST_STRTOL 1
+#define HAVE_STRTOUL 1
+#define GNULIB_TEST_STRTOUL 1
+#define HAVE_CHOWN 1
+#define GNULIB_TEMPNAME 1
+#define HAVE_SYS_SINGLE_THREADED_H 1
+#define GNULIB_UNISTR_U16_MBTOUC 1
+#define GNULIB_UNISTR_U8_MBTOUC 1
+#define GNULIB_UNISTR_U8_MBTOUC_UNSAFE 1
+#define GNULIB_UNISTR_U8_MBTOUCR 1
+#define GNULIB_UNISTR_U8_UCTOMB 1
+#define GNULIB_TEST_UNLINK 1
+#define GNULIB_STDIO_SINGLE_THREAD 1
+#define USE_UNLOCKED_IO GNULIB_STDIO_SINGLE_THREAD
+#define HAVE_UNSETENV 1
+#define GNULIB_TEST_UNSETENV 1
+#define HAVE_UTIME 1
+#define GNULIB_TEST_UTIME 1
+#define HAVE_FUTIMES 1
+#define HAVE_FUTIMESAT 1
+#define HAVE_LUTIMES 1
+#define HAVE_FUTIMENS 1
+#define HAVE_UTIMENSAT 1
+#define HAVE_C_VARARRAYS 1
+#define HAVE_VASPRINTF 1
+#define GNULIB_TEST_VASPRINTF 1
+#define HAVE_VSNPRINTF 1
+#define GNULIB_TEST_VSNPRINTF 1
+#define HAVE_WAITID 1
+#define GNULIB_TEST_WAITPID 1
+#define GNULIB_TEST_WCTYPE 1
+#define HAVE_DECL_WCWIDTH 1
+#define GNULIB_TEST_WCWIDTH 1
+#define GNULIB_TEST_WMEMCHR 1
+#define HAVE_WMEMPCPY 1
+#define GNULIB_TEST_WMEMPCPY 1
+#define GNULIB_TEST_WRITE 1
+#define GNULIB_XALLOC 1
+#define GNULIB_XALLOC_DIE 1
+#define HAVE_STDINT_H 1
+#define GNULIB_TEST_ACCEPT 1
+#define GNULIB_TEST_BIND 1
+#define GNULIB_TEST_C32RTOMB 1
+#define GNULIB_TEST_C32TOB 1
+#define GNULIB_TEST_CONNECT 1
+#define GNULIB_TEST_CREAT 1
+#define HAVE_CLOSE_RANGE 1
+#define FUNC_FFLUSH_STDIN 1
+#define GNULIB_FFLUSH IN_GETTEXT_TOOLS_GNULIB_TESTS
+#define GNULIB_TEST_FFLUSH 1
+#define GNULIB_FILENAMECAT IN_GETTEXT_TOOLS_GNULIB_TESTS
+#define HAVE___FPURGE 1
+#define HAVE_DECL_FPURGE 0
+#define GNULIB_TEST_FPURGE 1
+#define HAVE___FREADING 1
+#define GNULIB_TEST_FREOPEN 1
+#define GNULIB_TEST_FSEEK 1
+#define FUNC_FFLUSH_STDIN 1
+#define GNULIB_TEST_FSEEKO 1
+#define HAVE_FTRUNCATE 1
+#define GNULIB_TEST_FTRUNCATE 1
+#define GNULIB_TEST_GETPAGESIZE 1
+#define HAVE_DUPLOCALE 1
+#define HAVE_DECL_INET_PTON 1
+#define HAVE_IOCTL 1
+#define GNULIB_TEST_IOCTL 1
+#define GNULIB_TEST_LISTEN 1
+#define HAVE_NEWLOCALE 1
+#define HAVE_NEWLOCALE 1
+#define HAVE_BUG_BIG_NANOSLEEP 1
+#define GNULIB_TEST_NANOSLEEP 1
+#define GNULIB_TEST_PERROR 1
+#define GNULIB_TEST_PSELECT 1
+#define GNULIB_TEST_PTHREAD_THREAD 1
+#define GNULIB_TEST_PTHREAD_SIGMASK 1
+#define GNULIB_TEST_PUTENV 1
+#define HAVE_INITSTATE 1
+#define HAVE_SETSTATE 1
+#define GNULIB_TEST_RANDOM 1
+#define HAVE_STRUCT_RANDOM_DATA 1
+#define HAVE_RANDOM_R 1
+#define GNULIB_TEST_RANDOM_R 1
+#define GNULIB_TEST_SCHED_YIELD 1
+#define GNULIB_TEST_SELECT 1
+#define GNULIB_TEST_SETSOCKOPT 1
+#define HAVE_DECL_SLEEP 1
+#define GNULIB_TEST_SLEEP 1
+#define GNULIB_TEST_SOCKET 1
+#define HAVE_CATGETS 1
+#define GNULIB_TEST_STRERROR_R 1
+#define GNULIB_STRERROR_R_POSIX IN_GETTEXT_TOOLS_GNULIB_TESTS
+#define GNULIB_TEST_SYMLINK 1
+#define HAVE_PTHREAD_ATFORK 1
+#define GNULIB_TEST_TIME 1
+#define UNLINK_CANNOT_UNLINK_DIR 1
+#define GNULIB_TEST_USLEEP 1
+#define GNULIB_TEST_WCRTOMB 1
+#define HAVE_DECL_WCTOB 1
+#define GNULIB_TEST_WCTOB 1
+#define GNULIB_TEST_WCTOMB 1
+#define GNULIB_TEST_BTOWC 1
+#define HAVE___BUILTIN_EXPECT 1
+#define HAVE_ISWBLANK 1
+#define HAVE_DECL_ISWBLANK 1
+#define GNULIB_TEST_ISWBLANK 1
+#define GNULIB_TEST_ISWCTYPE 1
+#define GNULIB_TEST_ISWDIGIT 1
+#define GNULIB_TEST_ISWPUNCT 1
+#define GNULIB_TEST_ISWXDIGIT 1
+#define HAVE___INLINE 1
+#define GNULIB_TEST_LOCALECONV 1
+#define HAVE_PTHREAD_RWLOCK 1
+#define HAVE_PTHREAD_MUTEX_RECURSIVE 1
+#define GNULIB_LOCK IN_GETTEXT_TOOLS_LIBGREP
+#define GNULIB_TEST_MBRLEN 1
+#define GNULIB_TEST_MBSZERO 1
+#define HAVE_MBTOWC 1
+#define GNULIB_TEST_MBTOWC 1
+#define HAVE_NL_LANGINFO 1
+#define FUNC_NL_LANGINFO_YESEXPR_WORKS 1
+#define NL_LANGINFO_MTSAFE 1
+#define GNULIB_TEST_NL_LANGINFO 1
+#define HAVE_C_BOOL 1
+#define HAVE_C_VARARRAYS 1
+#define GNULIB_TEST_WCRTOMB 1
+#define GNULIB_TEST_WCTYPE 1
+#define HAVE_C_ALIGNASOF 1
+#define HAVE_ALLOCA 1
+#define HAVE_C_STATIC_ASSERT 1
+#define HAVE___BUILTIN_EXPECT 1
+#define GNULIB_TEST_C32ISCNTRL 1
+#define GNULIB_TEST_C32WIDTH 1
+#define GNULIB_TEST_CALLOC_GNU 1
+#define GNULIB_TEST_CALLOC_POSIX 1
+#define GNULIB_TEST_CLOEXEC 1
+#define GNULIB_TEST_CLOSE 1
+#define GNULIB_TEST_DUP2 1
+#define GNULIB_TEST_FCNTL 1
+#define GNULIB_TEST_FDOPEN 1
+#define GNULIB_TEST_FOPEN 1
+#define HAVE_FREE_POSIX 1
+#define GNULIB_TEST_FREE_POSIX 1
+#define GNULIB_TEST_FSTAT 1
+#define GNULIB_TEST_FSYNC 1
+#define GNULIB_FWRITEERROR 1
+#define HAVE_GETDELIM 1
+#define GNULIB_TEST_GETDELIM 1
+#define GNULIB_TEST_GETDTABLESIZE 1
+#define HAVE_GETLINE 1
+#define GNULIB_TEST_GETLINE 1
+#define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
+#define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
+#define HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME 1
+#define HAVE_DECL___ARGV 0
+#define GNULIB_TEST_GETPROGNAME 1
+#define HAVE_INLINE 1
+#define HAVE_PTHREAD_RWLOCK 1
+#define HAVE_PTHREAD_MUTEX_RECURSIVE 1
+#define GNULIB_LOCK 1
+#define GNULIB_TEST_MALLOC_GNU 1
+#define GNULIB_TEST_MALLOC_POSIX 1
+#define MBRTOC32_IN_C_LOCALE_MAYBE_EILSEQ 1
+#define GNULIB_TEST_MBRTOC32 1
+#define MBRTOWC_IN_C_LOCALE_MAYBE_EILSEQ 1
+#define GNULIB_TEST_MBRTOWC 1
+#define GNULIB_TEST_MBSINIT 1
+#define HAVE_DECL_MBSWIDTH_IN_WCHAR_H 0
+#define HAVE_MBSTATE_T 1
+#define GNULIB_TEST_MBSZERO 1
+#define GNULIB_TEST_MEMCHR 1
+#define HAVE_MEMMEM 1
+#define GNULIB_TEST_MEMMEM 1
+#define HAVE_MEMRCHR 1
+#define GNULIB_TEST_MEMRCHR 1
+#define GNULIB_MSVC_NOTHROW 1
+#define GNULIB_TEST_OPEN 1
+#define HAVE_RAISE 1
+#define GNULIB_TEST_RAISE 1
+#define HAVE_RAWMEMCHR 1
+#define GNULIB_TEST_RAWMEMCHR 1
+#define GNULIB_TEST_REALLOC_GNU 1
+#define GNULIB_TEST_REALLOC_POSIX 1
+#define HAVE_REALLOCARRAY 1
+#define GNULIB_REALLOCARRAY 1
+#define GNULIB_TEST_REALLOCARRAY 1
+#define SETLOCALE_NULL_ALL_MTSAFE 1
+#define SETLOCALE_NULL_ONE_MTSAFE 1
+#define GNULIB_TEST_SETLOCALE_NULL 1
+#define GNULIB_SIGPIPE 1
+#define GNULIB_TEST_SIGPROCMASK 1
+#define HAVE_STDINT_H 1
+#define GNULIB_TEST_STAT 1
+#define HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC 1
+#define TYPEOF_STRUCT_STAT_ST_ATIM_IS_STRUCT_TIMESPEC 1
+#define HAVE_C_BOOL 1
+#define GNULIB_TEST_FSCANF 1
+#define GNULIB_FSCANF 1
+#define GNULIB_TEST_SCANF 1
+#define GNULIB_SCANF 1
+#define GNULIB_TEST_FGETC 1
+#define GNULIB_TEST_GETC 1
+#define GNULIB_TEST_GETCHAR 1
+#define GNULIB_TEST_FGETS 1
+#define GNULIB_TEST_FREAD 1
+#define GNULIB_TEST_FPRINTF 1
+#define GNULIB_TEST_PRINTF 1
+#define GNULIB_TEST_VFPRINTF 1
+#define GNULIB_TEST_VPRINTF 1
+#define GNULIB_TEST_FPUTC 1
+#define GNULIB_TEST_PUTC 1
+#define GNULIB_TEST_PUTCHAR 1
+#define GNULIB_TEST_FPUTS 1
+#define GNULIB_TEST_PUTS 1
+#define GNULIB_TEST_FWRITE 1
+#define HAVE_STPCPY 1
+#define GNULIB_TEST_STPCPY 1
+#define HAVE_STPNCPY 1
+#define HAVE_STPNCPY 1
+#define GNULIB_TEST_STPNCPY 1
+#define HAVE_STRCHRNUL 1
+#define GNULIB_TEST_STRCHRNUL 1
+#define GNULIB_STRERROR 1
+#define GNULIB_TEST_STRERROR 1
+#define GNULIB_TEST_STRSTR 1
+#define GNULIB_UNISTR_U16_MBTOUC 1
+#define GNULIB_UNISTR_U8_MBTOUC 1
+#define GNULIB_UNISTR_U8_MBTOUC_UNSAFE 1
+#define GNULIB_UNISTR_U8_MBTOUCR 1
+#define GNULIB_UNISTR_U8_UCTOMB 1
+#define GNULIB_STDIO_SINGLE_THREAD 1
+#define USE_UNLOCKED_IO GNULIB_STDIO_SINGLE_THREAD
+#define HAVE_C_VARARRAYS 1
+#define HAVE_VASPRINTF 1
+#define GNULIB_TEST_VASPRINTF 1
+#define HAVE_DECL_WCWIDTH 1
+#define GNULIB_TEST_WCWIDTH 1
+#define GNULIB_TEST_WRITE 1
+#define GNULIB_XALLOC 1
+#define GNULIB_XALLOC_DIE 1
+#define HAVE_STDINT_H 1
+#define HAVE_PWD_H 1
+#define HAVE_UNSIGNED_LONG_LONG_INT 1
+#define HAVE_PTRDIFF_T 1
+#define HAVE_SELECT 1
+#define HAVE_SIGINFO 1
+#define ENDIANNESS 0
+#define HAVE_ARPA_INET_H 1
+#define HAVE_GETHOSTNAME 1
+#define HAVE_GETHOSTBYNAME 1
+#define HAVE_INET_NTOP 1
+#define HAVE_IPV6 1
+#define LIBXML_STATIC 1
+#define PACKAGE_SUFFIX "-0.22.5"
+
+configure: exit 0

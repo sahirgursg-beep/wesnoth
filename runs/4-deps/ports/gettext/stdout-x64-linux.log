@@ -1,0 +1,47 @@
+Downloading gettext-0.22.5.tar.gz, trying https://ftpmirror.gnu.org/gnu/gettext/gettext-0.22.5.tar.gz
+Successfully downloaded gettext-0.22.5.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/gettext-0.22.5.tar.gz
+-- Applying patch assume-modern-darwin.patch
+-- Applying patch uwp.patch
+-- Applying patch rel_path.patch
+-- Applying patch subdirs.patch
+-- Applying patch parallel-gettext-tools.patch
+-- Applying patch config-step-order.patch
+-- Applying patch 0001-xgettext-Fix-some-test-failures-on-MSVC.patch
+-- Applying patch env.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean
+-- Getting CMake variables for x64-linux-rel
+-- Configuring x64-linux-rel
+-- Building x64-linux-rel
+-- Installing x64-linux-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/build-to-host.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/gettext.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/iconv.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/intlmacosx.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/nls.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/po.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/progtest.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/host-cpu-c-abi.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/lib-ld.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/lib-link.m4
+-- Installing: /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/share/gettext/aclocal/lib-prefix.m4
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/lib/gettext/cldr-plurals' (From '$ORIGIN/..' -> To '$ORIGIN:$ORIGIN/..')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/lib/gettext/hostname' (From '$ORIGIN/..' -> To '$ORIGIN:$ORIGIN/..')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/lib/gettext/urlget' (From '$ORIGIN/..' -> To '$ORIGIN:$ORIGIN/..')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgattrib' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgcat' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgcmp' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgcomm' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgconv' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgen' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgexec' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgfilter' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgfmt' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msggrep' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msginit' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgmerge' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msgunfmt' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/msguniq' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/recode-sr-latin' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/tools/gettext/bin/xgettext' (From '$ORIGIN/../../../lib' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE

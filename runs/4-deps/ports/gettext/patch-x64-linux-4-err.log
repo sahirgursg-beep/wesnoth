@@ -1,0 +1,4 @@
+Checking patch gettext-tools/src/Makefile.in...
+Hunk #1 succeeded at 4178 (offset 553 lines).
+Hunk #2 succeeded at 5606 (offset 558 lines).
+Applied patch gettext-tools/src/Makefile.in cleanly.

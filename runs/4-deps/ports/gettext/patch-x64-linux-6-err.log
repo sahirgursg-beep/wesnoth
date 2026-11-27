@@ -1,0 +1,6 @@
+Checking patch gettext-tools/src/locating-rule.c...
+Hunk #2 succeeded at 384 (offset -19 lines).
+Hunk #3 succeeded at 417 (offset -19 lines).
+Checking patch gettext-tools/src/msginit.c...
+Applied patch gettext-tools/src/locating-rule.c cleanly.
+Applied patch gettext-tools/src/msginit.c cleanly.

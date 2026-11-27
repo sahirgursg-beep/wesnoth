@@ -1,0 +1,15 @@
+Downloading gperf-3.3.tar.gz, trying https://ftpmirror.gnu.org/gnu/gperf/gperf-3.3.tar.gz
+Successfully downloaded gperf-3.3.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/gperf-3.3.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/gperf/src/gperf-3-b814f52c10.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/gperf/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Generating configure for x64-linux
+-- Finished generating configure for x64-linux
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/share/gperf/copyright
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/gperf_x64-linux/tools/gperf/gperf' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation

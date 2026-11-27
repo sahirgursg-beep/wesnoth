@@ -1,0 +1,25 @@
+-- Found Python version '3.14.4 at /usr/bin/python3'
+-- Using meson: /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-633807/meson.py
+Downloading glib-2.88.3.tar.xz, trying https://download.gnome.org/sources/glib/2.88/glib-2.88.3.tar.xz
+Successfully downloaded glib-2.88.3.tar.xz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/glib-2.88.3.tar.xz
+-- Applying patch use-libiconv-on-windows.patch
+-- Applying patch libintl.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-230aca9a3a.clean
+-- Configuring wasm32-emscripten-wesnoth-rel
+-- Getting CMake variables for wasm32-emscripten-wesnoth
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/glib/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth.cmake.log
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /usr/bin/python3 -I /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-633807/meson.py setup -Dselinux=disabled -Dlibmount=disabled -Ddocumentation=false -Ddtrace=disabled -Dinstalled_tests=false -Dintrospection=disabled -Dlibelf=disabled -Dman-pages=disabled -Dsysprof=disabled -Dtests=false -Dxattr=false --backend ninja --wrap-mode nodownload -Doptimization=plain --native /home/runner/webbuild/vcpkg/scripts/buildsystems/meson/none.txt --cross /home/runner/webbuild/vcpkg/buildtrees/glib/meson-wasm32-emscripten-wesnoth-rel.log --libdir lib --pkgconfig.relocatable -Ddebug=false --prefix /home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth --pkg-config-path ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/share/pkgconfig'] -Dcmake_prefix_path=['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/debug'] /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-230aca9a3a.clean
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel
+    Error code: 1
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/glib/config-wasm32-emscripten-wesnoth-rel-meson-log.txt.log
+      /home/runner/webbuild/vcpkg/buildtrees/glib/config-wasm32-emscripten-wesnoth-rel-out.log
+
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-tool-meson/vcpkg_configure_meson.cmake:512 (vcpkg_execute_required_process)
+  ports/glib/portfile.cmake:51 (vcpkg_configure_meson)
+  scripts/ports.cmake:209 (include)
+
+

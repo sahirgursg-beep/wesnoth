@@ -1,0 +1,14 @@
+../.././../src/gettext-0-8aeafea7a1.clean/libtextstyle/lib/libcroco/cr-rgb.c: In function ‘libtextstyle_cr_rgb_set_from_name’:
+../.././../src/gettext-0-8aeafea7a1.clean/libtextstyle/lib/libcroco/cr-rgb.c:490:16: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  490 |         result = bsearch (a_color_name,
+      |                ^
+../.././../src/gettext-0-8aeafea7a1.clean/libtextstyle/lib/glib/gstrfuncs.c: In function ‘libtextstyle_g_strstr_len’:
+../.././../src/gettext-0-8aeafea7a1.clean/libtextstyle/lib/glib/gstrfuncs.c:2621:12: warning: return discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 2621 |     return strstr (haystack, needle);
+      |            ^~~~~~
+../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/gnulib-lib/c-strstr.c: In function ‘c_strstr’:
+../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/gnulib-lib/c-strstr.c:31:10: warning: return discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   31 |   return strstr (haystack, needle);
+      |          ^~~~~~
+libtool: warning: '-release' is ignored for convenience libraries
+libtool: warning: '-release' is ignored for convenience libraries

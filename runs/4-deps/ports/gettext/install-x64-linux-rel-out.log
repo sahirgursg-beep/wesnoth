@@ -1,0 +1,211 @@
+/usr/bin/make  install-recursive
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
+Making install in libtextstyle
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+Making install in lib
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+/usr/bin/make  install-am
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+make[5]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/include'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/include'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libtextstyle.la '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib'
+ /usr/bin/install -c -m 644  ../.././../src/gettext-0-8aeafea7a1.clean/libtextstyle/lib/textstyle.h '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/include/.'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/include/textstyle'
+ /usr/bin/install -c -m 644  textstyle/stdbool.h textstyle/version.h textstyle/woe32dll.h '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/include/textstyle'
+libtool: install: /usr/bin/install -c .libs/libtextstyle.lai /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/libtextstyle.la
+libtool: install: /usr/bin/install -c .libs/libtextstyle.a /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/libtextstyle.a
+libtool: install: chmod 644 /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/libtextstyle.a
+libtool: install: /usr/bin/ranlib /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/libtextstyle.a
+make[5]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle/lib'
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/libtextstyle'
+Making install in gettext-tools
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+Making install in gnulib-lib
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+/usr/bin/make  install-am
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+make[5]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+ /usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/gnulib-lib/javaversion.class '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+make[5]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/gnulib-lib'
+Making install in libgrep
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+/usr/bin/make  install-am
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+make[5]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/libgrep'
+Making install in src
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+/usr/bin/make  install-am
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+make[5]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin'
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/src/msgunfmt.tcl /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/msgunfmt.tcl
+/bin/bash ../libtool --mode=install /usr/bin/install -c hostname /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/hostname
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c msgcmp msgfmt msgmerge msgunfmt xgettext msgattrib msgcat msgcomm msgconv msgen msgexec msgfilter msggrep msginit msguniq recode-sr-latin '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin'
+libtool: install: /usr/bin/install -c hostname /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/hostname
+libtool: install: /usr/bin/install -c msgcmp /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgcmp
+/bin/bash ../libtool --mode=install /usr/bin/install -c urlget /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/urlget
+libtool: install: /usr/bin/install -c msgfmt /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgfmt
+libtool: install: /usr/bin/install -c msgmerge /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgmerge
+libtool: install: /usr/bin/install -c msgunfmt /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgunfmt
+libtool: install: /usr/bin/install -c urlget /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/urlget
+/bin/bash ../libtool --mode=install /usr/bin/install -c cldr-plurals /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/cldr-plurals
+libtool: install: /usr/bin/install -c xgettext /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/xgettext
+libtool: install: /usr/bin/install -c msgattrib /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgattrib
+libtool: install: /usr/bin/install -c msgcat /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgcat
+libtool: install: /usr/bin/install -c msgcomm /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgcomm
+libtool: install: /usr/bin/install -c cldr-plurals /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/cldr-plurals
+/usr/bin/install -c user-email /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/user-email
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/src/project-id /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/lib/gettext/project-id
+libtool: install: /usr/bin/install -c msgconv /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgconv
+libtool: install: /usr/bin/install -c msgen /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgen
+libtool: install: /usr/bin/install -c msgexec /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgexec
+libtool: install: /usr/bin/install -c msgfilter /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msgfilter
+libtool: install: /usr/bin/install -c msggrep /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msggrep
+libtool: install: /usr/bin/install -c msginit /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msginit
+libtool: install: /usr/bin/install -c msguniq /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/msguniq
+libtool: install: /usr/bin/install -c recode-sr-latin /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin/recode-sr-latin
+make[5]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/src'
+Making install in po
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/po'
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/be.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/be/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/bg.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/bg/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ca.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ca/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/cs.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/cs/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/da.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/da/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/de.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/de/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/el.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/el/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/en@quot.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/en@quot/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/en@boldquot.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/en@boldquot/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/es.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/es/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/et.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/et/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/eu.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/eu/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/fi.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/fi/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/fr.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/fr/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/gl.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/gl/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/id.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/id/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/hr.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/hr/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/it.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/it/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ja.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ja/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ka.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ka/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ko.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ko/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/nb.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/nb/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/nl.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/nl/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/nn.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/nn/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/pa.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/pa/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/pl.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/pl/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/pt.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/pt/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/pt_BR.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/pt_BR/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ro.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ro/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/ru.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/ru/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/sk.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/sk/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/sl.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/sl/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/sr.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/sr/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/sv.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/sv/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/tr.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/tr/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/uk.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/uk/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/vi.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/vi/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/zh_CN.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/zh_CN/LC_MESSAGES/gettext-tools.mo
+installing ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/zh_TW.gmo as /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/locale/zh_TW/LC_MESSAGES/gettext-tools.mo
+if test "gettext-tools" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/po/$file \
+		    /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/po'
+Making install in its
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/its'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/its'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext-0.22.5/its'
+ /usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/glade.loc ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/glade1.its ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/glade2.its ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/gtkbuilder.its ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/gsettings.loc ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/gsettings.its ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/metainfo.loc ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/its/metainfo.its '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext-0.22.5/its'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/its'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/its'
+Making install in projects
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/projects'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/projects'
+make[4]: Nothing to be done for 'install-exec-am'.
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/TP
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/KDE
+/usr/bin/mkdir -p /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/GNOME
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/team-address /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/team-address
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/TP/trigger /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/TP/trigger
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/TP/team-address /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/TP/team-address
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/KDE/trigger /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/KDE/trigger
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/KDE/team-address /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/KDE/team-address
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/GNOME/trigger /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/GNOME/trigger
+/usr/bin/install -c ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/GNOME/team-address /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/GNOME/team-address
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/index /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/index
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/TP/teams.url /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/TP/teams.url
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/TP/teams.html /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/TP/teams.html
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/KDE/teams.url /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/KDE/teams.url
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/KDE/teams.html /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/KDE/teams.html
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/GNOME/teams.url /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/GNOME/teams.url
+/usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/projects/GNOME/teams.html /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/projects/GNOME/teams.html
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/projects'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/projects'
+Making install in styles
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/styles'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/styles'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/styles'
+ /usr/bin/install -c -m 644 ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-default.css ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-vim.css ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-emacs-x.css ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-emacs-xterm256.css ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-emacs-xterm16.css ../.././../src/gettext-0-8aeafea7a1.clean/gettext-tools/styles/po-emacs-xterm.css '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/styles'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/styles'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/styles'
+Making install in misc
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/misc'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/misc'
+rm -rf /home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext/intl
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+ /usr/bin/install -c -m 644 archive.dir.tar.xz '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+ /usr/bin/install -c gettextize autopoint '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gettext/bin'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/misc'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools/misc'
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+make[4]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/examples/build-aux'
+ /usr/bin/mkdir -p '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+ /usr/bin/install -c .././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux/config.rpath '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/gettext'
+ /usr/bin/install -c -m 644 .././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux/javacomp.sh.in .././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux/javaexec.sh.in .././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux/csharpcomp.sh.in .././../src/gettext-0-8aeafea7a1.clean/gettext-tools/../build-aux/csharpexec.sh.in '/home/runner/webbuild/vcpkg/packages/gettext_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gettext/examples/build-aux'
+make[4]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel/gettext-tools'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gettext/x64-linux-rel'
