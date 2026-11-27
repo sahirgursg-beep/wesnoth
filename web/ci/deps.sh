@@ -72,6 +72,9 @@ for d in "$WORK_DIR"/vcpkg/buildtrees/*/; do
 		mkdir -p "$LOG_DIR/ports/$port"
 		for f in "$d"*.log; do
 			[ -f "$f" ] || continue
+			# compiler/linker errors with some context, from anywhere in the log
+			grep -n -B3 -A12 -E "(error|Error|ERROR)[: ]|FAILED:|undefined symbol" "$f" | grep -v "Wcounter-extension" | head -c 200000 \
+				> "$LOG_DIR/ports/$port/$(basename "$f" .log)-errors.txt" 2>/dev/null || true
 			# keep the end of each log; that is where errors are
 			tail -c 150000 "$f" > "$LOG_DIR/ports/$port/$(basename "$f")"
 		done

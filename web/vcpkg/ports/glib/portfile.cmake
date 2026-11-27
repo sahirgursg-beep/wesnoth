@@ -66,6 +66,15 @@ vcpkg_configure_meson(
         -Dtests=false
         -Dxattr=false
 )
+# wesnoth-web: compile everything once with "ninja -k 0" so the CI log lists
+# every compile error at once, not just the first one.
+vcpkg_find_acquire_program(NINJA)
+execute_process(
+    COMMAND "${NINJA}" -k 0
+    WORKING_DIRECTORY "${CURRENT_BUILDTREES_DIR}/${TARGET_TRIPLET}-rel"
+    OUTPUT_FILE "${CURRENT_BUILDTREES_DIR}/keepgoing-${TARGET_TRIPLET}-out.log"
+    ERROR_FILE "${CURRENT_BUILDTREES_DIR}/keepgoing-${TARGET_TRIPLET}-err.log"
+)
 vcpkg_install_meson(ADD_BIN_TO_PATH)
 vcpkg_copy_pdbs()
 
