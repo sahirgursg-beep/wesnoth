@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  EMSDK_VERSION: latest
+  EMSDK_VERSION: 7.0.1
   WORK_DIR: /home/runner/webbuild
   VCPKG_BINARY_CACHE: /home/runner/webbuild/vcpkg-bincache
   LOG_DIR: /home/runner/webbuild/logs

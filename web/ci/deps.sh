@@ -57,7 +57,7 @@ cd "$WORK_DIR" || exit 1
 	--overlay-ports="$REPO_DIR/web/vcpkg/ports" \
 	--binarysource="clear;files,$VCPKG_BINARY_CACHE,readwrite" \
 	--keep-going \
-	--clean-buildtrees-after-build=false \
+	--allow-unsupported \
 	"${SPECS[@]}" 2>&1 | tee "$LOG_DIR/vcpkg-install.log"
 STATUS=${PIPESTATUS[0]}
 
