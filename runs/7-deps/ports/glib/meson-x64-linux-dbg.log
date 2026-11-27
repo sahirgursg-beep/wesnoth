@@ -1,0 +1,55 @@
+[binaries]
+cmake = ['/usr/local/bin/cmake']
+ninja = ['/usr/local/bin/ninja']
+pkg-config = ['/bin/pkg-config']
+
+ar = ['/usr/bin/ar']
+
+c = ['/usr/bin/cc', '-fPIC', '-g']
+
+cpp = ['/usr/bin/c++', '-fPIC', '-g']
+
+
+
+
+
+
+
+
+
+[properties]
+cmake_toolchain_file  = '/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake'
+
+[cmake]
+CMAKE_BUILD_TYPE = 'Debug'
+VCPKG_TARGET_TRIPLET = 'x64-linux'
+VCPKG_HOST_TRIPLET = 'x64-linux'
+VCPKG_CHAINLOAD_TOOLCHAIN_FILE = '/home/runner/webbuild/vcpkg/scripts/toolchains/linux.cmake'
+VCPKG_CRT_LINKAGE = 'dynamic'
+_VCPKG_INSTALLED_DIR = '/home/runner/webbuild/vcpkg/installed'
+[build_machine]
+endian = 'little'
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+[host_machine]
+endian = 'little'
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+[built-in options]
+default_library = 'static'
+werror = false
+c_args = ['-fPIC', '-g', '-I/home/runner/webbuild/vcpkg/installed/x64-linux/include']
+c_link_args = ['-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib']
+
+cpp_args = ['-fPIC', '-g', '-I/home/runner/webbuild/vcpkg/installed/x64-linux/include']
+cpp_link_args = ['-L/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib']
+
+
+
+
+# b_vscrt
+
+# c_winlibs/cpp_winlibs
+

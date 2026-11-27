@@ -1,0 +1,992 @@
+[1/697] Copying file gio/gdbus-2.0/codegen/codegen_main.py
+[2/697] Copying file gio/gdbus-2.0/codegen/codegen_rst.py
+[3/697] Copying file gio/gdbus-2.0/codegen/codegen.py
+[4/697] Copying file gio/gdbus-2.0/codegen/codegen_md.py
+[5/697] Copying file gio/gdbus-2.0/codegen/codegen_docbook.py
+[6/697] Copying file gio/gdbus-2.0/codegen/__init__.py
+[7/697] Copying file gio/gdbus-2.0/codegen/parser.py
+[8/697] Copying file gio/gdbus-2.0/codegen/utils.py
+[9/697] Copying file gio/gdbus-2.0/codegen/dbustypes.py
+[10/697] Generating glib/glib-visibility.h with a custom command
+[11/697] Generating glib/gversionmacros.h with a custom command
+[12/697] Generating gobject/glib_enumtypes_h with a custom command (wrapped by meson to capture output)
+[13/697] Generating gmodule/gmodule-visibility.h with a custom command
+[14/697] Generating gobject/gobject-visibility.h with a custom command
+[15/697] Generating gio/gdbus-daemon-generated with a custom command
+[16/697] Generating gio/gio-visibility.h with a custom command
+[17/697] Generating gio/xdp-dbus with a custom command
+[18/697] Generating girepository/gi-visibility.h with a custom command
+[19/697] Compiling C object glib/libcharset/libcharset.a.p/localcharset.c.o
+[20/697] Compiling C object glib/libglib-2.0.a.p/deprecated_gcache.c.o
+[21/697] Compiling C object glib/libglib-2.0.a.p/deprecated_gallocator.c.o
+[22/697] Generating gobject/glib_enumtypes_c with a custom command (wrapped by meson to capture output)
+[23/697] Compiling C object glib/libglib-2.0.a.p/garcbox.c.o
+[24/697] Compiling C object glib/libglib-2.0.a.p/deprecated_gcompletion.c.o
+[25/697] Compiling C object glib/libglib-2.0.a.p/deprecated_gthread-deprecated.c.o
+[26/697] Generating gio/gioenumtypes_h with a custom command (wrapped by meson to capture output)
+[27/697] Compiling C object glib/libglib-2.0.a.p/gatomic.c.o
+[28/697] Compiling C object glib/libglib-2.0.a.p/deprecated_grel.c.o
+[29/697] Compiling C object glib/libglib-2.0.a.p/gbacktrace.c.o
+[30/697] Compiling C object glib/libglib-2.0.a.p/gasyncqueue.c.o
+[31/697] Compiling C object glib/libglib-2.0.a.p/gbitlock.c.o
+[32/697] Compiling C object glib/libglib-2.0.a.p/gbase64.c.o
+[33/697] Compiling C object glib/libglib-2.0.a.p/gbytes.c.o
+[34/697] Generating gio/gioenumtypes_c with a custom command (wrapped by meson to capture output)
+[35/697] Compiling C object glib/libglib-2.0.a.p/garray.c.o
+[36/697] Compiling C object glib/libglib-2.0.a.p/gcharset.c.o
+[37/697] Compiling C object glib/libglib-2.0.a.p/gconvert.c.o
+[38/697] Compiling C object glib/libglib-2.0.a.p/gdatetime-private.c.o
+[39/697] Compiling C object glib/libglib-2.0.a.p/gdate.c.o
+[40/697] Compiling C object glib/libglib-2.0.a.p/gdir.c.o
+[41/697] Compiling C object glib/libglib-2.0.a.p/gchecksum.c.o
+[42/697] Compiling C object glib/libglib-2.0.a.p/gbookmarkfile.c.o
+[43/697] Compiling C object glib/libglib-2.0.a.p/gdataset.c.o
+[44/697] Compiling C object glib/libglib-2.0.a.p/genviron.c.o
+[45/697] Compiling C object glib/libglib-2.0.a.p/ghmac.c.o
+[46/697] Compiling C object glib/libglib-2.0.a.p/gerror.c.o
+[47/697] Compiling C object glib/libglib-2.0.a.p/ggettext.c.o
+[48/697] Compiling C object glib/libglib-2.0.a.p/ghook.c.o
+[49/697] Compiling C object glib/libglib-2.0.a.p/gdatetime.c.o
+[50/697] Compiling C object glib/libglib-2.0.a.p/ghostutils.c.o
+[51/697] Compiling C object glib/libglib-2.0.a.p/gfileutils.c.o
+[52/697] Compiling C object glib/libglib-2.0.a.p/ghash.c.o
+[53/697] Compiling C object glib/libglib-2.0.a.p/glist.c.o
+[54/697] Compiling C object glib/libglib-2.0.a.p/glib-private.c.o
+[55/697] Compiling C object glib/libglib-2.0.a.p/glib-init.c.o
+[56/697] Compiling C object glib/libglib-2.0.a.p/giochannel.c.o
+[57/697] Compiling C object glib/libglib-2.0.a.p/gmappedfile.c.o
+[58/697] Compiling C object glib/libglib-2.0.a.p/gmem.c.o
+[59/697] Compiling C object glib/libglib-2.0.a.p/gkeyfile.c.o
+../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c: In function ‘g_key_file_set_group_comment’:
+../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c:3461:21: warning: potential null pointer dereference [-Wnull-dereference]
+ 3461 |   group = group_node->next->data;
+      |           ~~~~~~~~~~^~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c:3461:21: warning: potential null pointer dereference [-Wnull-dereference]
+In function ‘g_key_file_get_group_comment’,
+    inlined from ‘g_key_file_get_comment’ at ../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c:3750:12:
+../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c:3695:14: warning: potential null pointer dereference [-Wnull-dereference]
+ 3695 |   group_node = group_node->next;
+      |   ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gkeyfile.c:3695:14: warning: potential null pointer dereference [-Wnull-dereference]
+[60/697] Compiling C object glib/libglib-2.0.a.p/gpathbuf.c.o
+[61/697] Compiling C object glib/libglib-2.0.a.p/gmarkup.c.o
+[62/697] Compiling C object glib/libglib-2.0.a.p/gpattern.c.o
+[63/697] Compiling C object glib/libglib-2.0.a.p/gpoll.c.o
+[64/697] Compiling C object glib/libglib-2.0.a.p/gprimes.c.o
+[65/697] Compiling C object glib/libglib-2.0.a.p/gmessages.c.o
+[66/697] Compiling C object glib/libglib-2.0.a.p/gquark.c.o
+[67/697] Compiling C object glib/libglib-2.0.a.p/gmain.c.o
+[68/697] Compiling C object glib/libglib-2.0.a.p/gnode.c.o
+[69/697] Compiling C object glib/libglib-2.0.a.p/grefcount.c.o
+[70/697] Compiling C object glib/libglib-2.0.a.p/gqueue.c.o
+[71/697] Compiling C object glib/libglib-2.0.a.p/grcbox.c.o
+[72/697] Compiling C object glib/libglib-2.0.a.p/grefstring.c.o
+[73/697] Compiling C object glib/libglib-2.0.a.p/gqsort.c.o
+[74/697] Compiling C object glib/libglib-2.0.a.p/goption.c.o
+[75/697] Compiling C object glib/libglib-2.0.a.p/grand.c.o
+[76/697] Compiling C object glib/libglib-2.0.a.p/gshell.c.o
+[77/697] Compiling C object glib/libglib-2.0.a.p/gslice.c.o
+[78/697] Compiling C object glib/libglib-2.0.a.p/gspawn.c.o
+[79/697] Compiling C object glib/libglib-2.0.a.p/gslist.c.o
+[80/697] Compiling C object glib/libglib-2.0.a.p/gstdio.c.o
+[81/697] Compiling C object glib/libglib-2.0.a.p/gsequence.c.o
+[82/697] Compiling C object glib/libglib-2.0.a.p/gregex.c.o
+[83/697] Compiling C object glib/libglib-2.0.a.p/gstringchunk.c.o
+[84/697] Compiling C object glib/libglib-2.0.a.p/gstrvbuilder.c.o
+[85/697] Compiling C object glib/libglib-2.0.a.p/gstring.c.o
+[86/697] Compiling C object glib/libglib-2.0.a.p/gscanner.c.o
+[87/697] Compiling C object glib/libglib-2.0.a.p/gthreadpool.c.o
+[88/697] Compiling C object glib/libglib-2.0.a.p/gtrace.c.o
+[89/697] Compiling C object glib/libglib-2.0.a.p/gtimer.c.o
+[90/697] Compiling C object glib/libglib-2.0.a.p/gstrfuncs.c.o
+[91/697] Compiling C object glib/libglib-2.0.a.p/gtrashstack.c.o
+[92/697] Compiling C object glib/libglib-2.0.a.p/gthread.c.o
+[93/697] Compiling C object glib/libglib-2.0.a.p/gtranslit.c.o
+[94/697] Compiling C object glib/libglib-2.0.a.p/gtree.c.o
+[95/697] Compiling C object glib/libglib-2.0.a.p/gunibreak.c.o
+[96/697] Compiling C object glib/libglib-2.0.a.p/gtestutils.c.o
+[97/697] Compiling C object glib/libglib-2.0.a.p/gunicollate.c.o
+[98/697] Compiling C object glib/libglib-2.0.a.p/gunidecomp.c.o
+[99/697] Compiling C object glib/libglib-2.0.a.p/guuid.c.o
+[100/697] Compiling C object glib/libglib-2.0.a.p/guniprop.c.o
+[101/697] Compiling C object glib/libglib-2.0.a.p/gutf8.c.o
+[102/697] Compiling C object glib/libglib-2.0.a.p/gtimezone.c.o
+[103/697] Compiling C object glib/libglib-2.0.a.p/gutils.c.o
+[104/697] Compiling C object glib/libglib-2.0.a.p/guri.c.o
+[105/697] Compiling C object glib/libglib-2.0.a.p/gvariant-core.c.o
+[106/697] Compiling C object glib/libglib-2.0.a.p/gversion.c.o
+[107/697] Compiling C object glib/libglib-2.0.a.p/gvarianttypeinfo.c.o
+[108/697] Compiling C object glib/libglib-2.0.a.p/gwakeup.c.o
+[109/697] Compiling C object glib/libglib-2.0.a.p/gvariant-serialiser.c.o
+[110/697] Compiling C object glib/libglib-2.0.a.p/gvarianttype.c.o
+[111/697] Compiling C object glib/libglib-2.0.a.p/gprint.c.o
+[112/697] Compiling C object glib/libglib-2.0.a.p/gprintf.c.o
+[113/697] Compiling C object glib/libglib-2.0.a.p/gjournal-private.c.o
+[114/697] Compiling C object glib/libglib-2.0.a.p/glib-unix.c.o
+[115/697] Compiling C object glib/libglib-2.0.a.p/giounix.c.o
+[116/697] Compiling C object gobject/libgobject-2.0.a.p/meson-generated_.._glib-enumtypes.c.o
+[117/697] Compiling C object glib/libglib-2.0.a.p/gvariant-parser.c.o
+In file included from glib/glibconfig.h:9,
+                 from ../src/glib-2-c57ff93ac1.clean/glib/gtypes.h:34,
+                 from ../src/glib-2-c57ff93ac1.clean/glib/gquark.h:34,
+                 from ../src/glib-2-c57ff93ac1.clean/glib/gerror.h:30,
+                 from ../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:28:
+In function ‘positional_parse’,
+    inlined from ‘parse’ at ../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:2459:14:
+../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:2247:18: warning: potential null pointer dereference [-Wnull-dereference]
+ 2247 |   g_assert (token[0] == '%');
+      |             ~~~~~^~~
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1279:8: note: in definition of macro ‘_G_BOOLEAN_EXPR_IMPL’
+ 1279 |    if (expr)                                    \
+      |        ^~~~
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: in expansion of macro ‘_G_BOOLEAN_EXPR’
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:276:49: note: in expansion of macro ‘G_LIKELY’
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^~~~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:2247:3: note: in expansion of macro ‘g_assert’
+ 2247 |   g_assert (token[0] == '%');
+      |   ^~~~~~~~
+In function ‘string_parse’,
+    inlined from ‘parse’ at ../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:2482:14:
+../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:1725:9: warning: potential null pointer dereference [-Wnull-dereference]
+ 1725 |   quote = token[0];
+      |   ~~~~~~^~~~~~~~~~
+In function ‘bytestring_parse’,
+    inlined from ‘parse’ at ../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:2486:14:
+../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:1857:18: warning: potential null pointer dereference [-Wnull-dereference]
+ 1857 |   g_assert (token[0] == 'b');
+      |             ~~~~~^~~
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1279:8: note: in definition of macro ‘_G_BOOLEAN_EXPR_IMPL’
+ 1279 |    if (expr)                                    \
+      |        ^~~~
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: in expansion of macro ‘_G_BOOLEAN_EXPR’
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:276:49: note: in expansion of macro ‘G_LIKELY’
+  276 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^~~~~~~~
+../src/glib-2-c57ff93ac1.clean/glib/gvariant-parser.c:1857:3: note: in expansion of macro ‘g_assert’
+ 1857 |   g_assert (token[0] == 'b');
+      |   ^~~~~~~~
+[118/697] Compiling C object gobject/libgobject-2.0.a.p/gatomicarray.c.o
+[119/697] Compiling C object gobject/libgobject-2.0.a.p/gbinding.c.o
+[120/697] Compiling C object glib/libglib-2.0.a.p/gvariant.c.o
+[121/697] Compiling C object gobject/libgobject-2.0.a.p/gbindinggroup.c.o
+[122/697] Compiling C object glib/libglib-2.0.a.p/gspawn-posix.c.o
+[123/697] Compiling C object gobject/libgobject-2.0.a.p/gboxed.c.o
+[124/697] Compiling C object gobject/libgobject-2.0.a.p/genums.c.o
+[125/697] Compiling C object gobject/libgobject-2.0.a.p/gmarshal.c.o
+[126/697] Compiling C object gobject/libgobject-2.0.a.p/gclosure.c.o
+[127/697] Compiling C object gobject/libgobject-2.0.a.p/gparam.c.o
+[128/697] Compiling C object gobject/libgobject-2.0.a.p/gsourceclosure.c.o
+[129/697] Compiling C object gobject/libgobject-2.0.a.p/gsignalgroup.c.o
+[130/697] Compiling C object gobject/libgobject-2.0.a.p/gparamspecs.c.o
+[131/697] Compiling C object gobject/libgobject-2.0.a.p/gtypemodule.c.o
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c: In function ‘g_type_module_complete_type_info’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:337:29: warning: potential null pointer dereference [-Wnull-dereference]
+  337 |   if (module_type_info->info.value_table)
+      |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:335:9: warning: potential null pointer dereference [-Wnull-dereference]
+  335 |   *info = module_type_info->info;
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:337:29: warning: potential null pointer dereference [-Wnull-dereference]
+  337 |   if (module_type_info->info.value_table)
+      |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:335:9: warning: potential null pointer dereference [-Wnull-dereference]
+  335 |   *info = module_type_info->info;
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c: In function ‘g_type_module_complete_interface_info’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:350:9: warning: potential null pointer dereference [-Wnull-dereference]
+  350 |   *info = module_interface_info->info;
+      |   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:350:9: warning: potential null pointer dereference [-Wnull-dereference]
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c: In function ‘g_type_module_register_type’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:420:27: warning: potential null pointer dereference [-Wnull-dereference]
+  420 |       if (module_type_info->parent_type != parent_type)
+      |           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtypemodule.c:420:27: warning: potential null pointer dereference [-Wnull-dereference]
+[132/697] Compiling C object gobject/libgobject-2.0.a.p/gtypeplugin.c.o
+[133/697] Compiling C object gobject/libgobject-2.0.a.p/gvaluearray.c.o
+[134/697] Compiling C object gobject/libgobject-2.0.a.p/gvalue.c.o
+[135/697] Compiling C object gobject/libgobject-2.0.a.p/gvaluetransform.c.o
+[136/697] Compiling C object gmodule/libgmodule-2.0.a.p/gmodule.c.o
+[137/697] Compiling C object gmodule/libgmodule-2.0.a.p/gmodule-deprecated.c.o
+[138/697] Compiling C object gobject/libgobject-2.0.a.p/gvaluetypes.c.o
+[139/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimealias.c.o
+[140/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmime.c.o
+[141/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimeicon.c.o
+[142/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimeglob.c.o
+[143/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimeint.c.o
+[144/697] Compiling C object gobject/libgobject-2.0.a.p/gtype.c.o
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.c: In function ‘type_node_fundamental_new_W’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.c:529:21: warning: potential null pointer dereference [-Wnull-dereference]
+  529 |   finfo->type_flags = type_flags & TYPE_FUNDAMENTAL_FLAG_MASK;
+      |                     ^
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.c: In function ‘check_derivation_I’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.c:770:14: warning: potential null pointer dereference [-Wnull-dereference]
+  770 |   if (!(finfo->type_flags & G_TYPE_FLAG_DERIVABLE))
+      |         ~~~~~^~~~~~~~~~~~
+In function ‘_g_type_test_flags’,
+    inlined from ‘g_type_test_flags’ at ../src/glib-2-c57ff93ac1.clean/gobject/gtype.c:3779:10:
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.c:3755:26: warning: potential null pointer dereference [-Wnull-dereference]
+ 3755 |           fflags = (finfo->type_flags & fflags) == fflags;
+      |                     ~~~~~^~~~~~~~~~~~
+[145/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimecache.c.o
+[146/697] Compiling C object gobject/libgobject-2.0.a.p/gobject.c.o
+[147/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimeparent.c.o
+[148/697] Compiling C object gio/inotify/libinotify.a.p/inotify-sub.c.o
+[149/697] Compiling C object gio/inotify/libinotify.a.p/inotify-kernel.c.o
+[150/697] Compiling C object gio/inotify/libinotify.a.p/inotify-missing.c.o
+[151/697] Compiling C object gio/xdgmime/libxdgmime.a.p/xdgmimemagic.c.o
+[152/697] Compiling C object gio/inotify/libinotify.a.p/inotify-helper.c.o
+[153/697] Compiling C object gio/inotify/libinotify.a.p/inotify-path.c.o
+[154/697] Compiling C object gio/inotify/libinotify.a.p/ginotifyfilemonitor.c.o
+[155/697] Compiling C object gobject/libgobject-2.0.a.p/gsignal.c.o
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘handler_insert’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:710:13: warning: potential null pointer dereference [-Wnull-dereference]
+  710 |   if (!hlist->handlers)
+      |        ~~~~~^~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:710:13: warning: potential null pointer dereference [-Wnull-dereference]
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘handlers_find’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:583:28: warning: potential null pointer dereference [-Wnull-dereference]
+  583 |                   if (!node->c_marshaller)
+      |                        ~~~~^~~~~~~~~~~~~~
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gclosure.h:27,
+                 from ../src/glib-2-c57ff93ac1.clean/gobject/gsignal.h:26,
+                 from ../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:33:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘g_signal_stop_emission_by_name’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:1192:41: warning: potential null pointer dereference [-Wnull-dereference]
+ 1192 |       else if (!g_type_is_a (itype, node->itype))
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:760:35: note: in definition of macro ‘g_type_is_a’
+  760 | #define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b)))
+      |                                   ^
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘g_signal_set_va_marshaller’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:1841:17: warning: potential null pointer dereference [-Wnull-dereference]
+ 1841 |           if (cc->closure->marshal == node->c_marshaller)
+      |               ~~^~~~~~~~~
+In function ‘g_signal_override_class_closure’,
+    inlined from ‘g_signal_override_class_closure’ at ../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:1992:1:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:2004:40: warning: potential null pointer dereference [-Wnull-dereference]
+ 2004 |   if (!g_type_is_a (instance_type, node->itype))
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:760:35: note: in definition of macro ‘g_type_is_a’
+  760 | #define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b)))
+      |                                   ^
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘g_signal_connect_closure’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:2435:41: warning: potential null pointer dereference [-Wnull-dereference]
+ 2435 |       else if (!g_type_is_a (itype, node->itype))
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:760:35: note: in definition of macro ‘g_type_is_a’
+  760 | #define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b)))
+      |                                   ^
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c: In function ‘g_signal_connect_data’:
+../src/glib-2-c57ff93ac1.clean/gobject/gsignal.c:2547:41: warning: potential null pointer dereference [-Wnull-dereference]
+ 2547 |       else if (!g_type_is_a (itype, node->itype))
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:760:35: note: in definition of macro ‘g_type_is_a’
+  760 | #define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b)))
+      |                                   ^
+[156/697] Compiling C object gio/libgio-2.0.a.p/gappinfo.c.o
+[157/697] Compiling C object gio/libgio-2.0.a.p/gasynchelper.c.o
+[158/697] Compiling C object gio/libgio-2.0.a.p/gasyncinitable.c.o
+[159/697] Compiling C object gio/libgio-2.0.a.p/meson-generated_.._gioenumtypes.c.o
+[160/697] Compiling C object gio/libgio-2.0.a.p/gbytesicon.c.o
+[161/697] Compiling C object gio/libgio-2.0.a.p/gasyncresult.c.o
+[162/697] Compiling C object gio/libgio-2.0.a.p/gcharsetconverter.c.o
+[163/697] Compiling C object gio/libgio-2.0.a.p/meson-generated_.._gdbus-daemon-generated.c.o
+[164/697] Compiling C object gio/libgio-2.0.a.p/gbufferedoutputstream.c.o
+[165/697] Compiling C object gio/libgio-2.0.a.p/gbufferedinputstream.c.o
+[166/697] Compiling C object gio/libgio-2.0.a.p/gcancellable.c.o
+[167/697] Compiling C object gio/libgio-2.0.a.p/gcontenttype.c.o
+[168/697] Compiling C object gio/libgio-2.0.a.p/gconverter.c.o
+[169/697] Compiling C object gio/libgio-2.0.a.p/gcontextspecificgroup.c.o
+[170/697] Compiling C object gio/libgio-2.0.a.p/gconverterinputstream.c.o
+[171/697] Compiling C object gio/libgio-2.0.a.p/gcredentials.c.o
+[172/697] Compiling C object gio/libgio-2.0.a.p/gdebugcontroller.c.o
+[173/697] Compiling C object gio/libgio-2.0.a.p/gdataoutputstream.c.o
+[174/697] Compiling C object gio/libgio-2.0.a.p/gdatagrambased.c.o
+[175/697] Compiling C object gio/libgio-2.0.a.p/gconverteroutputstream.c.o
+[176/697] Compiling C object gio/libgio-2.0.a.p/gdebugcontrollerdbus.c.o
+[177/697] Compiling C object gio/libgio-2.0.a.p/gdummyproxyresolver.c.o
+[178/697] Compiling C object gio/libgio-2.0.a.p/gdrive.c.o
+[179/697] Compiling C object gio/libgio-2.0.a.p/gdatainputstream.c.o
+[180/697] Compiling C object gio/libgio-2.0.a.p/meson-generated_.._xdp-dbus.c.o
+[181/697] Compiling C object gio/libgio-2.0.a.p/gemblemedicon.c.o
+[182/697] Compiling C object gio/libgio-2.0.a.p/gdummyfile.c.o
+[183/697] Compiling C object gio/libgio-2.0.a.p/gdummytlsbackend.c.o
+[184/697] Compiling C object gio/libgio-2.0.a.p/gemblem.c.o
+[185/697] Compiling C object gio/libgio-2.0.a.p/gfileicon.c.o
+[186/697] Compiling C object gio/libgio-2.0.a.p/gfileinputstream.c.o
+[187/697] Compiling C object gio/libgio-2.0.a.p/gfileenumerator.c.o
+[188/697] Compiling C object gio/libgio-2.0.a.p/gfileattribute.c.o
+[189/697] Compiling C object gio/libgio-2.0.a.p/gfilenamecompleter.c.o
+[190/697] Compiling C object gio/libgio-2.0.a.p/gfileoutputstream.c.o
+[191/697] Compiling C object gio/libgio-2.0.a.p/gfilemonitor.c.o
+[192/697] Compiling C object gio/libgio-2.0.a.p/gfilterinputstream.c.o
+[193/697] Compiling C object gio/libgio-2.0.a.p/gfilteroutputstream.c.o
+[194/697] Compiling C object gio/libgio-2.0.a.p/gfileiostream.c.o
+[195/697] Compiling C object gio/libgio-2.0.a.p/gicon.c.o
+[196/697] Compiling C object gio/libgio-2.0.a.p/ginetaddressmask.c.o
+[197/697] Compiling C object gio/libgio-2.0.a.p/ginitable.c.o
+[198/697] Compiling C object gio/libgio-2.0.a.p/gioerror.c.o
+[199/697] Compiling C object gio/libgio-2.0.a.p/ginetsocketaddress.c.o
+[200/697] Compiling C object gio/libgio-2.0.a.p/ginetaddress.c.o
+[201/697] Compiling C object gio/libgio-2.0.a.p/ginputstream.c.o
+[202/697] Compiling C object gio/libgio-2.0.a.p/giomodule-priv.c.o
+[203/697] Compiling C object gio/libgio-2.0.a.p/gioscheduler.c.o
+[204/697] Compiling C object gio/libgio-2.0.a.p/giomodule.c.o
+[205/697] Compiling C object gio/libgio-2.0.a.p/gipv6tclassmessage.c.o
+[206/697] Compiling C object gio/libgio-2.0.a.p/giostream.c.o
+[207/697] Compiling C object gio/libgio-2.0.a.p/giptosmessage.c.o
+[208/697] Compiling C object gio/libgio-2.0.a.p/gloadableicon.c.o
+[209/697] Compiling C object gio/libgio-2.0.a.p/gfileinfo.c.o
+[210/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitor.c.o
+[211/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitordbus.c.o
+[212/697] Compiling C object gio/libgio-2.0.a.p/gmount.c.o
+[213/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitorbase.c.o
+[214/697] Compiling C object gio/libgio-2.0.a.p/gmountoperation.c.o
+[215/697] Compiling C object gio/libgio-2.0.a.p/gnativesocketaddress.c.o
+[216/697] Compiling C object gio/libgio-2.0.a.p/gmemoryoutputstream.c.o
+[217/697] Compiling C object gio/libgio-2.0.a.p/gmemoryinputstream.c.o
+[218/697] Compiling C object gio/libgio-2.0.a.p/gnativevolumemonitor.c.o
+[219/697] Compiling C object gio/libgio-2.0.a.p/gmarshal-internal.c.o
+[220/697] Compiling C object gio/libgio-2.0.a.p/gnetworking.c.o
+[221/697] Compiling C object gio/libgio-2.0.a.p/gnetworkmonitor.c.o
+[222/697] Compiling C object gio/libgio-2.0.a.p/gfile.c.o
+[223/697] Compiling C object gio/libgio-2.0.a.p/gnetworkservice.c.o
+[224/697] Compiling C object gio/libgio-2.0.a.p/gnetworkmonitorbase.c.o
+[225/697] Compiling C object gio/libgio-2.0.a.p/gpermission.c.o
+[226/697] Compiling C object gio/libgio-2.0.a.p/gnetworkaddress.c.o
+[227/697] Compiling C object gio/libgio-2.0.a.p/gpollableinputstream.c.o
+[228/697] Compiling C object gio/libgio-2.0.a.p/gpollableoutputstream.c.o
+[229/697] Compiling C object gio/libgio-2.0.a.p/gpollfilemonitor.c.o
+[230/697] Compiling C object gio/libgio-2.0.a.p/gpowerprofilemonitor.c.o
+[231/697] Compiling C object gio/libgio-2.0.a.p/gpollableutils.c.o
+[232/697] Compiling C object gio/libgio-2.0.a.p/gproxy.c.o
+[233/697] Compiling C object gio/libgio-2.0.a.p/gproxyaddress.c.o
+[234/697] Compiling C object gio/libgio-2.0.a.p/gpowerprofilemonitordbus.c.o
+[235/697] Compiling C object gio/libgio-2.0.a.p/gproxyresolver.c.o
+[236/697] Compiling C object gio/libgio-2.0.a.p/gproxyaddressenumerator.c.o
+[237/697] Compiling C object gio/libgio-2.0.a.p/gseekable.c.o
+[238/697] Compiling C object gio/libgio-2.0.a.p/gresourcefile.c.o
+[239/697] Compiling C object gio/libgio-2.0.a.p/gresource.c.o
+[240/697] Compiling C object gio/libgio-2.0.a.p/gsimpleiostream.c.o
+[241/697] Compiling C object gio/libgio-2.0.a.p/gresolver.c.o
+[242/697] Compiling C object gio/libgio-2.0.a.p/goutputstream.c.o
+[243/697] Compiling C object gio/libgio-2.0.a.p/gsimplepermission.c.o
+[244/697] Compiling C object gio/libgio-2.0.a.p/gsimpleasyncresult.c.o
+[245/697] Compiling C object gio/libgio-2.0.a.p/gsocketaddress.c.o
+[246/697] Compiling C object gio/libgio-2.0.a.p/gsocketaddressenumerator.c.o
+[247/697] Compiling C object gio/libgio-2.0.a.p/gsimpleproxyresolver.c.o
+[248/697] Compiling C object gio/libgio-2.0.a.p/gsocketconnectable.c.o
+[249/697] Compiling C object gio/libgio-2.0.a.p/gsocketcontrolmessage.c.o
+[250/697] Compiling C object gio/libgio-2.0.a.p/gsocketinputstream.c.o
+[251/697] Compiling C object gio/libgio-2.0.a.p/gsocketclient.c.o
+[252/697] Compiling C object gio/libgio-2.0.a.p/gsocketconnection.c.o
+[253/697] Compiling C object gio/libgio-2.0.a.p/gsocketlistener.c.o
+[254/697] Compiling C object gio/libgio-2.0.a.p/gsocketoutputstream.c.o
+[255/697] Compiling C object gio/libgio-2.0.a.p/gsocketservice.c.o
+[256/697] Compiling C object gio/libgio-2.0.a.p/gsrvtarget.c.o
+[257/697] Compiling C object gio/libgio-2.0.a.p/gtcpconnection.c.o
+[258/697] Compiling C object gio/libgio-2.0.a.p/gtcpwrapperconnection.c.o
+[259/697] Compiling C object gio/libgio-2.0.a.p/gsubprocesslauncher.c.o
+[260/697] Compiling C object gio/libgio-2.0.a.p/gthemedicon.c.o
+[261/697] Compiling C object gio/libgio-2.0.a.p/gsocket.c.o
+[262/697] Compiling C object gio/libgio-2.0.a.p/gtask.c.o
+[263/697] Compiling C object gio/libgio-2.0.a.p/gthreadedsocketservice.c.o
+[264/697] Compiling C object gio/libgio-2.0.a.p/gtlsclientconnection.c.o
+[265/697] Compiling C object gio/libgio-2.0.a.p/gsubprocess.c.o
+[266/697] Compiling C object gio/libgio-2.0.a.p/gtlsbackend.c.o
+[267/697] Compiling C object gio/libgio-2.0.a.p/gtlsfiledatabase.c.o
+[268/697] Compiling C object gio/libgio-2.0.a.p/gtlscertificate.c.o
+[269/697] Compiling C object gio/libgio-2.0.a.p/gtlsconnection.c.o
+[270/697] Compiling C object gio/libgio-2.0.a.p/gtlsserverconnection.c.o
+[271/697] Compiling C object gio/libgio-2.0.a.p/gtlsdatabase.c.o
+[272/697] Compiling C object gio/libgio-2.0.a.p/gdtlsclientconnection.c.o
+[273/697] Compiling C object gio/libgio-2.0.a.p/gtlspassword.c.o
+[274/697] Compiling C object gio/libgio-2.0.a.p/gtlsinteraction.c.o
+[275/697] Compiling C object gio/libgio-2.0.a.p/gdtlsserverconnection.c.o
+[276/697] Compiling C object gio/libgio-2.0.a.p/gdtlsconnection.c.o
+[277/697] Compiling C object gio/libgio-2.0.a.p/gthreadedresolver.c.o
+[278/697] Compiling C object gio/libgio-2.0.a.p/gunionvolumemonitor.c.o
+[279/697] Compiling C object gio/libgio-2.0.a.p/gunixconnection.c.o
+[280/697] Compiling C object gio/libgio-2.0.a.p/gunixcredentialsmessage.c.o
+[281/697] Compiling C object gio/libgio-2.0.a.p/gunixsocketaddress.c.o
+[282/697] Compiling C object gio/libgio-2.0.a.p/gvfs.c.o
+[283/697] Compiling C object gio/libgio-2.0.a.p/gvolumemonitor.c.o
+[284/697] Compiling C object gio/libgio-2.0.a.p/gunixfdlist.c.o
+[285/697] Compiling C object gio/libgio-2.0.a.p/gzlibcompressor.c.o
+[286/697] Compiling C object gio/libgio-2.0.a.p/glistmodel.c.o
+[287/697] Compiling C object gio/libgio-2.0.a.p/gliststore.c.o
+[288/697] Compiling C object gio/libgio-2.0.a.p/gvolume.c.o
+[289/697] Compiling C object gio/libgio-2.0.a.p/gzlibdecompressor.c.o
+[290/697] Compiling C object gio/libgio-2.0.a.p/giounix-private.c.o
+[291/697] Compiling C object gio/libgio-2.0.a.p/gfiledescriptorbased.c.o
+[292/697] Compiling C object gio/libgio-2.0.a.p/gunixfdmessage.c.o
+[293/697] Compiling C object gio/libgio-2.0.a.p/gdbusdaemon.c.o
+[294/697] Compiling C object gio/libgio-2.0.a.p/gcontenttype-fdo.c.o
+[295/697] Compiling C object gio/libgio-2.0.a.p/gunixmount.c.o
+[296/697] Compiling C object gio/libgio-2.0.a.p/gunixvolume.c.o
+[297/697] Compiling C object gio/libgio-2.0.a.p/ggtknotificationbackend.c.o
+[298/697] Compiling C object gio/libgio-2.0.a.p/gunixinputstream.c.o
+[299/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitorpoll.c.o
+[300/697] Compiling C object gio/libgio-2.0.a.p/gunixvolumemonitor.c.o
+[301/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitorpsi.c.o
+[302/697] Compiling C object gio/libgio-2.0.a.p/gfdonotificationbackend.c.o
+[303/697] Compiling C object gio/libgio-2.0.a.p/gunixoutputstream.c.o
+[304/697] Compiling C object gio/libgio-2.0.a.p/gunixmounts.c.o
+[305/697] Compiling C object gio/libgio-2.0.a.p/gnetworkmonitornm.c.o
+[306/697] Compiling C object gio/libgio-2.0.a.p/gactiongroup.c.o
+[307/697] Compiling C object gio/libgio-2.0.a.p/gnetworkmonitornetlink.c.o
+[308/697] Compiling C object gio/libgio-2.0.a.p/gapplicationimpl-dbus.c.o
+[309/697] Compiling C object gio/libgio-2.0.a.p/gapplicationcommandline.c.o
+[310/697] Compiling C object gio/libgio-2.0.a.p/gactionmap.c.o
+[311/697] Compiling C object gio/libgio-2.0.a.p/gremoteactiongroup.c.o
+[312/697] Compiling C object gio/libgio-2.0.a.p/gsimpleactiongroup.c.o
+[313/697] Compiling C object gio/libgio-2.0.a.p/gdbusactiongroup.c.o
+[314/697] Compiling C object gio/libgio-2.0.a.p/gpropertyaction.c.o
+[315/697] Compiling C object gio/libgio-2.0.a.p/gactiongroupexporter.c.o
+[316/697] Compiling C object gio/libgio-2.0.a.p/gsimpleaction.c.o
+[317/697] Compiling C object gio/libgio-2.0.a.p/gapplication.c.o
+[318/697] Compiling C object gio/libgio-2.0.a.p/gaction.c.o
+[319/697] Compiling C object gio/libgio-2.0.a.p/gmenumodel.c.o
+[320/697] Compiling C object gio/libgio-2.0.a.p/gnotificationbackend.c.o
+[321/697] Compiling C object gio/libgio-2.0.a.p/gmenuexporter.c.o
+[322/697] Compiling C object gio/libgio-2.0.a.p/gdbusmenumodel.c.o
+[323/697] Compiling C object gio/libgio-2.0.a.p/gnotification.c.o
+[324/697] Compiling C object gio/libgio-2.0.a.p/gmenu.c.o
+[325/697] Compiling C object gio/libgio-2.0.a.p/gdelayedsettingsbackend.c.o
+[326/697] Compiling C object gio/libgio-2.0.a.p/gnullsettingsbackend.c.o
+[327/697] Compiling C object gio/libgio-2.0.a.p/gmemorysettingsbackend.c.o
+[328/697] Compiling C object gio/libgio-2.0.a.p/gkeyfilesettingsbackend.c.o
+[329/697] Compiling C object gio/libgio-2.0.a.p/gdesktopappinfo.c.o
+[330/697] Compiling C object gio/libgio-2.0.a.p/gsettingsbackend.c.o
+[331/697] Compiling C object gio/libgio-2.0.a.p/gsettings-mapping.c.o
+[332/697] Compiling C object gio/libgio-2.0.a.p/gdbusauthobserver.c.o
+[333/697] Compiling C object gio/libgio-2.0.a.p/gdbusaddress.c.o
+[334/697] Compiling C object gio/libgio-2.0.a.p/gdbusutils.c.o
+[335/697] Compiling C object gio/libgio-2.0.a.p/gsettingsschema.c.o
+[336/697] Compiling C object gio/libgio-2.0.a.p/gdbusauthmechanism.c.o
+[337/697] Compiling C object gio/libgio-2.0.a.p/gsettings.c.o
+[338/697] Compiling C object gio/libgio-2.0.a.p/gdbusauthmechanismanon.c.o
+[339/697] Compiling C object gio/libgio-2.0.a.p/gdbusauthmechanismexternal.c.o
+[340/697] Compiling C object gio/libgio-2.0.a.p/gdbuserror.c.o
+[341/697] Compiling C object gio/libgio-2.0.a.p/gdbusauth.c.o
+[342/697] Compiling C object gio/libgio-2.0.a.p/gdbusauthmechanismsha1.c.o
+[343/697] Compiling C object gio/libgio-2.0.a.p/gdbusnamewatching.c.o
+[344/697] Compiling C object gio/libgio-2.0.a.p/gdbusnameowning.c.o
+[345/697] Compiling C object gio/libgio-2.0.a.p/gdbusmethodinvocation.c.o
+[346/697] Compiling C object gio/libgio-2.0.a.p/gdbusintrospection.c.o
+[347/697] Compiling C object gio/libgio-2.0.a.p/gdbusinterface.c.o
+[348/697] Compiling C object gio/libgio-2.0.a.p/gdbusproxy.c.o
+[349/697] Compiling C object gio/libgio-2.0.a.p/gdbusserver.c.o
+[350/697] Compiling C object gio/libgio-2.0.a.p/gdbusprivate.c.o
+[351/697] Compiling C object gio/libgio-2.0.a.p/gdbusobject.c.o
+[352/697] Compiling C object gio/libgio-2.0.a.p/gdbusinterfaceskeleton.c.o
+[353/697] Compiling C object gio/libgio-2.0.a.p/gdbusmessage.c.o
+[354/697] Compiling C object gio/libgio-2.0.a.p/gdbusobjectmanager.c.o
+[355/697] Compiling C object gio/libgio-2.0.a.p/gdbusobjectskeleton.c.o
+[356/697] Compiling C object gio/libgio-2.0.a.p/gdbusobjectproxy.c.o
+[357/697] Compiling C object gio/libgio-2.0.a.p/gdbusobjectmanagerclient.c.o
+[358/697] Compiling C object gio/libgio-2.0.a.p/gtestdbus.c.o
+[359/697] Compiling C object gio/libgio-2.0.a.p/gdbusconnection.c.o
+[360/697] Compiling C object gio/libgio-2.0.a.p/gdocumentportal.c.o
+[361/697] Compiling C object gio/libgio-2.0.a.p/gmemorymonitorportal.c.o
+[362/697] Compiling C object gio/libgio-2.0.a.p/gopenuriportal.c.o
+[363/697] Compiling C object gio/libgio-2.0.a.p/gdbusobjectmanagerserver.c.o
+[364/697] Compiling C object gio/libgio-2.0.a.p/gpowerprofilemonitorportal.c.o
+[365/697] Compiling C object gio/libgio-2.0.a.p/gportalnotificationbackend.c.o
+[366/697] Compiling C object gio/libgio-2.0.a.p/gtrashportal.c.o
+[367/697] Compiling C object gio/libgio-2.0.a.p/gproxyresolverportal.c.o
+[368/697] Compiling C object gio/libgio-2.0.a.p/gsandbox.c.o
+[369/697] Compiling C object gio/libgio-2.0.a.p/gnetworkmonitorportal.c.o
+[370/697] Compiling C object gio/libgio-2.0.a.p/gportalsupport.c.o
+[371/697] Compiling C object gio/libgio-2.0.a.p/ghttpproxy.c.o
+[372/697] Compiling C object gio/libgio-2.0.a.p/glocalfileenumerator.c.o
+[373/697] Compiling C object gio/libgio-2.0.a.p/glocalfileinputstream.c.o
+[374/697] Compiling C object gio/libgio-2.0.a.p/glocalfileiostream.c.o
+[375/697] Compiling C object gio/libgio-2.0.a.p/glocalvfs.c.o
+[376/697] Compiling C object gio/libgio-2.0.a.p/glocalfileoutputstream.c.o
+[377/697] Compiling C object gio/libgio-2.0.a.p/glocalfile.c.o
+[378/697] Compiling C object gio/libgio-2.0.a.p/glocalfilemonitor.c.o
+[379/697] Compiling C object gio/libgio-2.0.a.p/gsocks4proxy.c.o
+[380/697] Compiling C object gio/libgio-2.0.a.p/glocalfileinfo.c.o
+[381/697] Compiling C object gio/libgio-2.0.a.p/gsocks4aproxy.c.o
+[382/697] Compiling C object gio/libgio-2.0.a.p/thumbnail-verify.c.o
+[383/697] Generating gio/gconstructor_as_data.h with a custom command
+[384/697] Compiling C object gio/libgio-2.0.a.p/gsocks5proxy.c.o
+[385/697] Compiling C object gio/libgio-2.0.a.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o
+[386/697] Compiling C object girepository/cmph/libcmph.a.p/bdz.c.o
+[387/697] Compiling C object girepository/cmph/libcmph.a.p/bdz_ph.c.o
+[388/697] Compiling C object gio/libgio-2.0.a.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o
+[389/697] Compiling C object girepository/cmph/libcmph.a.p/bmz.c.o
+[390/697] Compiling C object girepository/cmph/libcmph.a.p/buffer_entry.c.o
+[391/697] Compiling C object girepository/cmph/libcmph.a.p/bmz8.c.o
+[392/697] Compiling C object girepository/cmph/libcmph.a.p/buffer_manager.c.o
+[393/697] Compiling C object girepository/cmph/libcmph.a.p/cmph_structs.c.o
+[394/697] Compiling C object girepository/cmph/libcmph.a.p/chd.c.o
+[395/697] Compiling C object girepository/cmph/libcmph.a.p/brz.c.o
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c: In function ‘brz_load’:
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c:642:43: warning: ‘n’ may be used uninitialized [-Wmaybe-uninitialized]
+  642 |                 brz->g[i] = (cmph_uint8 *)calloc((size_t)n, sizeof(cmph_uint8));
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c:600:24: note: ‘n’ was declared here
+  600 |         cmph_uint32 i, n;
+      |                        ^
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c: In function ‘brz_pack’:
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c:824:17: warning: ‘n’ may be used uninitialized [-Wmaybe-uninitialized]
+  824 |                 memcpy(g_i, data->g[i], sizeof(cmph_uint8)*n);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/brz.c:754:23: note: ‘n’ was declared here
+  754 |         cmph_uint32 i,n;
+      |                       ^
+[396/697] Compiling C object girepository/cmph/libcmph.a.p/chm.c.o
+[397/697] Compiling C object girepository/cmph/libcmph.a.p/cmph.c.o
+[398/697] Compiling C object girepository/cmph/libcmph.a.p/compressed_rank.c.o
+[399/697] Compiling C object girepository/cmph/libcmph.a.p/fch_buckets.c.o
+[400/697] Compiling C object girepository/cmph/libcmph.a.p/graph.c.o
+[401/697] Compiling C object girepository/cmph/libcmph.a.p/compressed_seq.c.o
+[402/697] Compiling C object girepository/cmph/libcmph.a.p/chd_ph.c.o
+[403/697] Compiling C object girepository/cmph/libcmph.a.p/hash.c.o
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/hash.c: In function ‘hash_state_new’:
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/hash.c:25:25: warning: potential null pointer dereference [-Wnull-dereference]
+   25 |         state->hashfunc = hashfunc;
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/hash.c: In function ‘hash_state_copy’:
+../src/glib-2-c57ff93ac1.clean/girepository/cmph/hash.c:88:30: warning: potential null pointer dereference [-Wnull-dereference]
+   88 |         dest_state->hashfunc = src_state->hashfunc;
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+[404/697] Compiling C object girepository/cmph/libcmph.a.p/fch.c.o
+[405/697] Compiling C object girepository/cmph/libcmph.a.p/miller_rabin.c.o
+[406/697] Compiling C object girepository/cmph/libcmph.a.p/vstack.c.o
+[407/697] Compiling C object girepository/cmph/libcmph.a.p/vqueue.c.o
+[408/697] Compiling C object girepository/cmph/libcmph.a.p/select.c.o
+[409/697] Compiling C object girepository/libgirepository-gthash.a.p/gthash.c.o
+[410/697] Compiling C object girepository/cmph/libcmph.a.p/jenkins_hash.c.o
+[411/697] Compiling C object girepository/libgirepository-internals.a.p/giroffsets.c.o
+[412/697] Compiling C object girepository/libgirepository-internals.a.p/girmodule.c.o
+[413/697] Compiling C object girepository/libgirepository-2.0.a.p/giarginfo.c.o
+[414/697] Compiling C object girepository/libgirepository-2.0.a.p/gdump.c.o
+[415/697] Compiling C object girepository/libgirepository-internals.a.p/girwriter.c.o
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:64,
+                 from ../src/glib-2-c57ff93ac1.clean/girepository/girwriter-private.h:26,
+                 from ../src/glib-2-c57ff93ac1.clean/girepository/girwriter.c:27:
+../src/glib-2-c57ff93ac1.clean/girepository/girwriter.c: In function ‘gi_ir_writer_write’:
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:646:114: warning: potential null pointer dereference [-Wnull-dereference]
+  646 | #define G_TYPE_FROM_INSTANCE(instance)                          (G_TYPE_FROM_CLASS (((GTypeInstance*) (instance))->g_class))
+      |                                                                                                                  ^
+../src/glib-2-c57ff93ac1.clean/glib/gmessages.h:356:32: note: in definition of macro ‘g_error’
+  356 |                                __VA_ARGS__);         \
+      |                                ^~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/gobject/gtype.h:646:66: note: in expansion of macro ‘G_TYPE_FROM_CLASS’
+  646 | #define G_TYPE_FROM_INSTANCE(instance)                          (G_TYPE_FROM_CLASS (((GTypeInstance*) (instance))->g_class))
+      |                                                                  ^~~~~~~~~~~~~~~~~
+../src/glib-2-c57ff93ac1.clean/girepository/girwriter.c:1453:59: note: in expansion of macro ‘G_TYPE_FROM_INSTANCE’
+ 1453 |             g_error ("unknown info type %s", g_type_name (G_TYPE_FROM_INSTANCE (info)));
+      |                                                           ^~~~~~~~~~~~~~~~~~~~
+[416/697] Compiling C object girepository/libgirepository-2.0.a.p/gicallbackinfo.c.o
+[417/697] Compiling C object girepository/libgirepository-2.0.a.p/gicallableinfo.c.o
+[418/697] Compiling C object girepository/libgirepository-2.0.a.p/gibaseinfo.c.o
+[419/697] Compiling C object girepository/libgirepository-2.0.a.p/giconstantinfo.c.o
+[420/697] Compiling C object girepository/libgirepository-2.0.a.p/gienuminfo.c.o
+[421/697] Compiling C object girepository/libgirepository-2.0.a.p/giflagsinfo.c.o
+[422/697] Compiling C object girepository/libgirepository-2.0.a.p/gifieldinfo.c.o
+[423/697] Compiling C object girepository/libgirepository-2.0.a.p/gifunctioninfo.c.o
+[424/697] Compiling C object girepository/libgirepository-internals.a.p/girnode.c.o
+[425/697] Compiling C object girepository/libgirepository-2.0.a.p/giinterfaceinfo.c.o
+[426/697] Compiling C object girepository/libgirepository-2.0.a.p/ginvoke.c.o
+[427/697] Compiling C object girepository/libgirepository-2.0.a.p/gipropertyinfo.c.o
+[428/697] Compiling C object girepository/libgirepository-2.0.a.p/giregisteredtypeinfo.c.o
+[429/697] Compiling C object girepository/libgirepository-2.0.a.p/gisignalinfo.c.o
+[430/697] Compiling C object girepository/libgirepository-2.0.a.p/giobjectinfo.c.o
+[431/697] Compiling C object girepository/libgirepository-2.0.a.p/girffi.c.o
+[432/697] Compiling C object girepository/libgirepository-2.0.a.p/gistructinfo.c.o
+[433/697] Compiling C object girepository/libgirepository-internals.a.p/girparser.c.o
+In function ‘parse_type_internal’,
+    inlined from ‘parse_type’ at ../src/glib-2-c57ff93ac1.clean/girepository/girparser.c:821:10:
+../src/glib-2-c57ff93ac1.clean/girepository/girparser.c:684:11: warning: potential null pointer dereference [-Wnull-dereference]
+  684 |       if (*str == '<')
+      |           ^~~~
+[434/697] Compiling C object girepository/libgirepository-2.0.a.p/gitypeinfo.c.o
+[435/697] Compiling C object girepository/libgirepository-2.0.a.p/givalueinfo.c.o
+[436/697] Compiling C object girepository/libgirepository-2.0.a.p/giunioninfo.c.o
+[437/697] Compiling C object girepository/libgirepository-2.0.a.p/giunresolvedinfo.c.o
+[438/697] Compiling C object girepository/libgirepository-2.0.a.p/givfuncinfo.c.o
+[439/697] Compiling C object girepository/libgirepository-2.0.a.p/girepository.c.o
+[440/697] Compiling C object girepository/libgirepository-2.0.a.p/gitypelib.c.o
+[441/697] Compiling C object gthread/libgthread-2.0.a.p/gthread-impl.c.o
+[442/697] Compiling C object glib/gtester.p/gtester.c.o
+[443/697] Compiling C object gio/gio-launch-desktop.p/.._glib_gjournal-private.c.o
+[444/697] Compiling C object gobject/gobject-query.p/gobject-query.c.o
+[445/697] Compiling C object gio/gio-launch-desktop.p/gio-launch-desktop.c.o
+[446/697] Compiling C object gio/gio.p/gio-tool-cat.c.o
+[447/697] Compiling C object gio/gio.p/gio-tool.c.o
+[448/697] Linking static target gmodule/libgmodule-2.0.a
+[449/697] Linking static target gobject/libgobject-2.0.a
+[450/697] Linking static target glib/libglib-2.0.a
+[451/697] Linking static target gio/libgio-2.0.a
+[452/697] Compiling C object gio/gio.p/gio-tool-copy.c.o
+[453/697] Compiling C object gio/gio.p/gio-tool-launch.c.o
+[454/697] Compiling C object gio/gio.p/gio-tool-mime.c.o
+[455/697] Compiling C object gio/gio.p/gio-tool-mkdir.c.o
+[456/697] Compiling C object gio/gio.p/gio-tool-list.c.o
+[457/697] Compiling C object gio/gio.p/gio-tool-info.c.o
+[458/697] Compiling C object gio/gio.p/gio-tool-monitor.c.o
+[459/697] Compiling C object gio/gio.p/gio-tool-move.c.o
+[460/697] Compiling C object gio/gio.p/gio-tool-save.c.o
+[461/697] Compiling C object gio/gio.p/gio-tool-set.c.o
+[462/697] Compiling C object gio/gio.p/gio-tool-open.c.o
+[463/697] Compiling C object gio/gio.p/gio-tool-rename.c.o
+[464/697] Compiling C object gio/gio.p/gio-tool-remove.c.o
+[465/697] Compiling C object gio/gio.p/gio-tool-trash.c.o
+[466/697] Compiling C object gio/gio.p/gio-tool-mount.c.o
+[467/697] Compiling C object gio/gio-querymodules.p/giomodule-priv.c.o
+[468/697] Compiling C object gio/gio.p/gio-tool-tree.c.o
+[469/697] Compiling C object gio/gio-querymodules.p/gio-querymodules.c.o
+[470/697] Compiling C object gio/gresource.p/gresource-tool.c.o
+[471/697] Compiling C object gio/glib-compile-schemas.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o
+[472/697] Compiling C object gio/glib-compile-resources.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o
+[473/697] Compiling C object gio/glib-compile-schemas.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o
+[474/697] Compiling C object gio/glib-compile-resources.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o
+[475/697] Compiling C object gio/glib-compile-resources.p/glib-compile-resources.c.o
+[476/697] Linking static target girepository/cmph/libcmph.a
+[477/697] Compiling C object gio/gsettings.p/gsettings-tool.c.o
+[478/697] Linking static target girepository/libgirepository-gthash.a
+[479/697] Linking static target girepository/libgirepository-internals.a
+[480/697] Compiling C object gio/glib-compile-schemas.p/glib-compile-schemas.c.o
+[481/697] Linking static target girepository/libgirepository-2.0.a
+[482/697] Compiling C object girepository/decompiler/gi-decompile-typelib.p/decompiler.c.o
+[483/697] Compiling C object gio/gapplication.p/gapplication-tool.c.o
+[484/697] Compiling C object fuzzing/fuzz_bookmark.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[485/697] Compiling C object girepository/compiler/gi-compile-repository.p/compiler.c.o
+[486/697] Compiling C object girepository/gi-dump-types.p/gi-dump-types.c.o
+[487/697] Compiling C object girepository/inspector/gi-inspect-typelib.p/inspector.c.o
+[488/697] Compiling C object fuzzing/fuzz_canonicalize_filename.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[489/697] Compiling C object fuzzing/fuzz_data_input_stream_read_line.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[490/697] Compiling C object fuzzing/fuzz_data_input_stream_read_line_utf8.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[491/697] Compiling C object fuzzing/fuzz_data_input_stream_read_upto.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[492/697] Compiling C object fuzzing/fuzz_bookmark.p/fuzz_bookmark.c.o
+[493/697] Compiling C object fuzzing/fuzz_canonicalize_filename.p/fuzz_canonicalize_filename.c.o
+[494/697] Compiling C object fuzzing/fuzz_data_input_stream_read_line.p/fuzz_data_input_stream_read_line.c.o
+[495/697] Compiling C object fuzzing/fuzz_date_parse.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[496/697] Compiling C object fuzzing/fuzz_date_time_new_from_iso8601.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[497/697] Compiling C object fuzzing/fuzz_data_input_stream_read_line_utf8.p/fuzz_data_input_stream_read_line_utf8.c.o
+[498/697] Compiling C object fuzzing/fuzz_data_input_stream_read_upto.p/fuzz_data_input_stream_read_upto.c.o
+[499/697] Compiling C object fuzzing/fuzz_dbus_message.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[500/697] Compiling C object fuzzing/fuzz_filename_from_uri.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[501/697] Compiling C object fuzzing/fuzz_date_parse.p/fuzz_date_parse.c.o
+[502/697] Compiling C object fuzzing/fuzz_filename_to_uri.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[503/697] Compiling C object gio/gdbus.p/gdbus-tool.c.o
+[504/697] Compiling C object fuzzing/fuzz_get_locale_variants.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[505/697] Compiling C object fuzzing/fuzz_dbus_message.p/fuzz_dbus_message.c.o
+[506/697] Compiling C object fuzzing/fuzz_date_time_new_from_iso8601.p/fuzz_date_time_new_from_iso8601.c.o
+[507/697] Compiling C object fuzzing/fuzz_filename_to_uri.p/fuzz_filename_to_uri.c.o
+[508/697] Compiling C object fuzzing/fuzz_filename_from_uri.p/fuzz_filename_from_uri.c.o
+[509/697] Compiling C object fuzzing/fuzz_inet_address_mask_new_from_string.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[510/697] Compiling C object fuzzing/fuzz_inet_address_new_from_string.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[511/697] Compiling C object fuzzing/fuzz_inet_socket_address_new_from_string.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[512/697] Compiling C object fuzzing/fuzz_key.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[513/697] Compiling C object fuzzing/fuzz_inet_address_new_from_string.p/fuzz_inet_address_new_from_string.c.o
+[514/697] Compiling C object fuzzing/fuzz_inet_address_mask_new_from_string.p/fuzz_inet_address_mask_new_from_string.c.o
+[515/697] Compiling C object fuzzing/fuzz_get_locale_variants.p/fuzz_get_locale_variants.c.o
+[516/697] Compiling C object fuzzing/fuzz_network_address_parse.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[517/697] Compiling C object fuzzing/fuzz_network_address_parse_uri.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[518/697] Compiling C object fuzzing/fuzz_paths.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[519/697] Compiling C object fuzzing/fuzz_inet_socket_address_new_from_string.p/fuzz_inet_socket_address_new_from_string.c.o
+[520/697] Compiling C object fuzzing/fuzz_resolver.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[521/697] Compiling C object fuzzing/fuzz_key.p/fuzz_key.c.o
+[522/697] Compiling C object fuzzing/fuzz_special_dirs.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[523/697] Compiling C object fuzzing/fuzz_network_address_parse.p/fuzz_network_address_parse.c.o
+[524/697] Compiling C object fuzzing/fuzz_paths.p/fuzz_paths.c.o
+[525/697] Compiling C object fuzzing/fuzz_string.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[526/697] Compiling C object fuzzing/fuzz_network_address_parse_uri.p/fuzz_network_address_parse_uri.c.o
+[527/697] Compiling C object fuzzing/fuzz_uri_escape.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[528/697] Compiling C object fuzzing/fuzz_uri_parse.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[529/697] Compiling C object fuzzing/fuzz_resolver.p/fuzz_resolver.c.o
+[530/697] Compiling C object fuzzing/fuzz_uri_parse_params.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[531/697] Compiling C object fuzzing/fuzz_uri_parse.p/fuzz_uri_parse.c.o
+[532/697] Compiling C object fuzzing/fuzz_special_dirs.p/fuzz_special_dirs.c.o
+[533/697] Compiling C object fuzzing/fuzz_utf8_normalize.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[534/697] Compiling C object fuzzing/fuzz_uri_parse_params.p/fuzz_uri_parse_params.c.o
+[535/697] Compiling C object fuzzing/fuzz_utf8_validate.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[536/697] Compiling C object fuzzing/fuzz_string.p/fuzz_string.c.o
+[537/697] Compiling C object fuzzing/fuzz_uri_escape.p/fuzz_uri_escape.c.o
+[538/697] Compiling C object fuzzing/fuzz_uuid_string_is_valid.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[539/697] Compiling C object fuzzing/fuzz_variant_binary.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[540/697] Compiling C object fuzzing/fuzz_utf8_normalize.p/fuzz_utf8_normalize.c.o
+[541/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[542/697] Compiling C object fuzzing/fuzz_uuid_string_is_valid.p/fuzz_uuid_string_is_valid.c.o
+[543/697] Compiling C object fuzzing/fuzz_utf8_validate.p/fuzz_utf8_validate.c.o
+[544/697] Compiling C object fuzzing/fuzz_variant_text.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c: In function ‘main’:
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable ‘n_read’ set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^~~~~~
+[545/697] Linking static target glib/libcharset/libcharset.a
+[546/697] Compiling C object fuzzing/fuzz_variant_binary.p/fuzz_variant_binary.c.o
+[547/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.p/fuzz_variant_binary_byteswap.c.o
+[548/697] Linking target glib/gtester
+[549/697] Linking target gio/gio-launch-desktop
+[550/697] Linking target gobject/gobject-query
+[551/697] Linking static target gthread/libgthread-2.0.a
+[552/697] Linking static target gio/xdgmime/libxdgmime.a
+[553/697] Linking static target gio/inotify/libinotify.a
+[554/697] Compiling C object fuzzing/fuzz_variant_text.p/fuzz_variant_text.c.o
+[555/697] Linking target gio/glib-compile-schemas
+[556/697] Linking target gio/glib-compile-resources
+[557/697] Linking target gio/gio-querymodules
+[558/697] Linking target gio/gresource
+[559/697] Linking target gio/gio
+[560/697] Linking target gio/gsettings
+[561/697] Linking target girepository/decompiler/gi-decompile-typelib
+[562/697] Linking target girepository/gi-dump-types
+[563/697] Linking target girepository/compiler/gi-compile-repository
+[564/697] Linking target gio/gapplication
+[565/697] Linking target fuzzing/fuzz_bookmark
+[566/697] Linking target gio/gdbus
+[567/697] Linking target fuzzing/fuzz_canonicalize_filename
+[568/697] Linking target fuzzing/fuzz_data_input_stream_read_line
+[569/697] Linking target girepository/inspector/gi-inspect-typelib
+[570/697] Linking target fuzzing/fuzz_data_input_stream_read_line_utf8
+[571/697] Linking target fuzzing/fuzz_date_parse
+[572/697] Linking target fuzzing/fuzz_filename_to_uri
+[573/697] Linking target fuzzing/fuzz_date_time_new_from_iso8601
+[574/697] Linking target fuzzing/fuzz_filename_from_uri
+[575/697] Linking target fuzzing/fuzz_data_input_stream_read_upto
+[576/697] Linking target fuzzing/fuzz_get_locale_variants
+[577/697] Linking target fuzzing/fuzz_dbus_message
+[578/697] Linking target fuzzing/fuzz_key
+[579/697] Linking target fuzzing/fuzz_inet_address_new_from_string
+[580/697] Linking target fuzzing/fuzz_inet_address_mask_new_from_string
+[581/697] Linking target fuzzing/fuzz_inet_socket_address_new_from_string
+[582/697] Linking target fuzzing/fuzz_paths
+[583/697] Linking target fuzzing/fuzz_special_dirs
+[584/697] Linking target fuzzing/fuzz_uri_escape
+[585/697] Linking target fuzzing/fuzz_string
+[586/697] Linking target fuzzing/fuzz_uri_parse
+[587/697] Linking target fuzzing/fuzz_network_address_parse
+[588/697] Linking target fuzzing/fuzz_network_address_parse_uri
+[589/697] Linking target fuzzing/fuzz_utf8_normalize
+[590/697] Linking target fuzzing/fuzz_uri_parse_params
+[591/697] Linking target fuzzing/fuzz_uuid_string_is_valid
+[592/697] Linking target fuzzing/fuzz_variant_binary_byteswap
+[593/697] Linking target fuzzing/fuzz_utf8_validate
+[594/697] Linking target fuzzing/fuzz_resolver
+[595/697] Building translation po/ab/LC_MESSAGES/glib20-ab.mo
+[596/697] Building translation po/af/LC_MESSAGES/glib20-af.mo
+[597/697] Building translation po/am/LC_MESSAGES/glib20-am.mo
+[598/697] Linking target fuzzing/fuzz_variant_text
+[599/697] Building translation po/ar/LC_MESSAGES/glib20-ar.mo
+[600/697] Linking target fuzzing/fuzz_variant_binary
+[601/697] Building translation po/az/LC_MESSAGES/glib20-az.mo
+[602/697] Building translation po/an/LC_MESSAGES/glib20-an.mo
+[603/697] Building translation po/ast/LC_MESSAGES/glib20-ast.mo
+[604/697] Building translation po/be@latin/LC_MESSAGES/glib20-be@latin.mo
+[605/697] Building translation po/be/LC_MESSAGES/glib20-be.mo
+[606/697] Building translation po/as/LC_MESSAGES/glib20-as.mo
+[607/697] Building translation po/bn/LC_MESSAGES/glib20-bn.mo
+[608/697] Building translation po/bn_IN/LC_MESSAGES/glib20-bn_IN.mo
+[609/697] Building translation po/ca/LC_MESSAGES/glib20-ca.mo
+[610/697] Building translation po/bs/LC_MESSAGES/glib20-bs.mo
+[611/697] Building translation po/bg/LC_MESSAGES/glib20-bg.mo
+[612/697] Building translation po/ca@valencia/LC_MESSAGES/glib20-ca@valencia.mo
+[613/697] Building translation po/dz/LC_MESSAGES/glib20-dz.mo
+[614/697] Building translation po/cy/LC_MESSAGES/glib20-cy.mo
+[615/697] Building translation po/cs/LC_MESSAGES/glib20-cs.mo
+[616/697] Building translation po/en_CA/LC_MESSAGES/glib20-en_CA.mo
+[617/697] Building translation po/da/LC_MESSAGES/glib20-da.mo
+[618/697] Building translation po/de/LC_MESSAGES/glib20-de.mo
+[619/697] Building translation po/en@shaw/LC_MESSAGES/glib20-en@shaw.mo
+[620/697] Building translation po/el/LC_MESSAGES/glib20-el.mo
+[621/697] Building translation po/en_GB/LC_MESSAGES/glib20-en_GB.mo
+[622/697] Building translation po/et/LC_MESSAGES/glib20-et.mo
+[623/697] Building translation po/es/LC_MESSAGES/glib20-es.mo
+[624/697] Building translation po/eo/LC_MESSAGES/glib20-eo.mo
+[625/697] Building translation po/eu/LC_MESSAGES/glib20-eu.mo
+[626/697] Building translation po/fr/LC_MESSAGES/glib20-fr.mo
+[627/697] Building translation po/ga/LC_MESSAGES/glib20-ga.mo
+[628/697] Building translation po/fur/LC_MESSAGES/glib20-fur.mo
+[629/697] Building translation po/gd/LC_MESSAGES/glib20-gd.mo
+[630/697] Building translation po/fi/LC_MESSAGES/glib20-fi.mo
+[631/697] Building translation po/fa/LC_MESSAGES/glib20-fa.mo
+[632/697] Building translation po/gl/LC_MESSAGES/glib20-gl.mo
+[633/697] Building translation po/gu/LC_MESSAGES/glib20-gu.mo
+[634/697] Building translation po/he/LC_MESSAGES/glib20-he.mo
+[635/697] Building translation po/hi/LC_MESSAGES/glib20-hi.mo
+[636/697] Building translation po/is/LC_MESSAGES/glib20-is.mo
+[637/697] Building translation po/ie/LC_MESSAGES/glib20-ie.mo
+[638/697] Building translation po/hr/LC_MESSAGES/glib20-hr.mo
+[639/697] Building translation po/hu/LC_MESSAGES/glib20-hu.mo
+[640/697] Building translation po/hy/LC_MESSAGES/glib20-hy.mo
+[641/697] Building translation po/id/LC_MESSAGES/glib20-id.mo
+[642/697] Building translation po/it/LC_MESSAGES/glib20-it.mo
+[643/697] Building translation po/ja/LC_MESSAGES/glib20-ja.mo
+[644/697] Building translation po/ku/LC_MESSAGES/glib20-ku.mo
+[645/697] Building translation po/ka/LC_MESSAGES/glib20-ka.mo
+[646/697] Building translation po/ko/LC_MESSAGES/glib20-ko.mo
+[647/697] Building translation po/kab/LC_MESSAGES/glib20-kab.mo
+[648/697] Building translation po/kn/LC_MESSAGES/glib20-kn.mo
+[649/697] Building translation po/kk/LC_MESSAGES/glib20-kk.mo
+[650/697] Building translation po/mai/LC_MESSAGES/glib20-mai.mo
+[651/697] Building translation po/mg/LC_MESSAGES/glib20-mg.mo
+[652/697] Building translation po/lt/LC_MESSAGES/glib20-lt.mo
+[653/697] Building translation po/mn/LC_MESSAGES/glib20-mn.mo
+[654/697] Building translation po/ml/LC_MESSAGES/glib20-ml.mo
+[655/697] Building translation po/mk/LC_MESSAGES/glib20-mk.mo
+[656/697] Building translation po/lv/LC_MESSAGES/glib20-lv.mo
+[657/697] Building translation po/nb/LC_MESSAGES/glib20-nb.mo
+[658/697] Building translation po/nds/LC_MESSAGES/glib20-nds.mo
+[659/697] Building translation po/mr/LC_MESSAGES/glib20-mr.mo
+[660/697] Building translation po/ms/LC_MESSAGES/glib20-ms.mo
+[661/697] Building translation po/ne/LC_MESSAGES/glib20-ne.mo
+[662/697] Building translation po/nl/LC_MESSAGES/glib20-nl.mo
+[663/697] Building translation po/nn/LC_MESSAGES/glib20-nn.mo
+[664/697] Building translation po/pa/LC_MESSAGES/glib20-pa.mo
+[665/697] Building translation po/or/LC_MESSAGES/glib20-or.mo
+[666/697] Building translation po/oc/LC_MESSAGES/glib20-oc.mo
+[667/697] Building translation po/ps/LC_MESSAGES/glib20-ps.mo
+[668/697] Building translation po/pl/LC_MESSAGES/glib20-pl.mo
+[669/697] Building translation po/si/LC_MESSAGES/glib20-si.mo
+[670/697] Building translation po/ro/LC_MESSAGES/glib20-ro.mo
+[671/697] Building translation po/rw/LC_MESSAGES/glib20-rw.mo
+[672/697] Building translation po/pt/LC_MESSAGES/glib20-pt.mo
+[673/697] Building translation po/pt_BR/LC_MESSAGES/glib20-pt_BR.mo
+[674/697] Building translation po/ru/LC_MESSAGES/glib20-ru.mo
+[675/697] Building translation po/sr@ije/LC_MESSAGES/glib20-sr@ije.mo
+[676/697] Building translation po/sq/LC_MESSAGES/glib20-sq.mo
+[677/697] Building translation po/sr@latin/LC_MESSAGES/glib20-sr@latin.mo
+[678/697] Building translation po/sl/LC_MESSAGES/glib20-sl.mo
+[679/697] Building translation po/sk/LC_MESSAGES/glib20-sk.mo
+[680/697] Building translation po/sr/LC_MESSAGES/glib20-sr.mo
+[681/697] Building translation po/tg/LC_MESSAGES/glib20-tg.mo
+[682/697] Building translation po/tl/LC_MESSAGES/glib20-tl.mo
+[683/697] Building translation po/sv/LC_MESSAGES/glib20-sv.mo
+[684/697] Building translation po/ta/LC_MESSAGES/glib20-ta.mo
+[685/697] Building translation po/tr/LC_MESSAGES/glib20-tr.mo
+[686/697] Building translation po/te/LC_MESSAGES/glib20-te.mo
+[687/697] Building translation po/th/LC_MESSAGES/glib20-th.mo
+[688/697] Building translation po/tt/LC_MESSAGES/glib20-tt.mo
+[689/697] Building translation po/uk/LC_MESSAGES/glib20-uk.mo
+[690/697] Building translation po/ug/LC_MESSAGES/glib20-ug.mo
+[691/697] Building translation po/wa/LC_MESSAGES/glib20-wa.mo
+[692/697] Building translation po/vi/LC_MESSAGES/glib20-vi.mo
+[693/697] Building translation po/xh/LC_MESSAGES/glib20-xh.mo
+[694/697] Building translation po/yi/LC_MESSAGES/glib20-yi.mo
+[695/697] Building translation po/zh_CN/LC_MESSAGES/glib20-zh_CN.mo
+[696/697] Building translation po/zh_HK/LC_MESSAGES/glib20-zh_HK.mo
+[697/697] Building translation po/zh_TW/LC_MESSAGES/glib20-zh_TW.mo

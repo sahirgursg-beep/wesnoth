@@ -1,0 +1,477 @@
+[
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread",
+      "-sPTHREAD_POOL_SIZE=4"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "thread_dep"
+    ]
+  },
+  {
+    "name": "iconv",
+    "type": "builtin",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libiconv"
+    ]
+  },
+  {
+    "name": "libpcre2-8",
+    "type": "pkgconfig",
+    "version": "10.47",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pcre2"
+    ]
+  },
+  {
+    "name": "libffi",
+    "type": "pkgconfig",
+    "version": "3.8.0",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libffi_dep"
+    ]
+  },
+  {
+    "name": "zlib",
+    "type": "pkgconfig",
+    "version": "1.3.2",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libz_dep"
+    ]
+  },
+  {
+    "name": "intl",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lintl"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libintl"
+    ]
+  },
+  {
+    "name": "bash-completion",
+    "type": "pkgconfig",
+    "version": "2.16.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "bash_comp_dep"
+    ]
+  },
+  {
+    "name": "gvdb",
+    "type": "internal",
+    "version": "0.0",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/subprojects/gvdb/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/subprojects/gvdb/."
+    ],
+    "sources": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/subprojects/gvdb/gvdb/gvdb-builder.c",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/subprojects/gvdb/gvdb/gvdb-reader.c"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gvdb_dep"
+    ]
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libm"
+    ]
+  },
+  {
+    "name": "dep204832772433147965233734955371619809407",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "app_profile_dep"
+    ]
+  },
+  {
+    "name": "dep44935407025034067166882896950384152936",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "test_profile_dep"
+    ]
+  },
+  {
+    "name": "dep140917701607761894792943518223873488985",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/glib",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/glib"
+    ],
+    "sources": [
+      "gversionmacros.h",
+      "glib-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "intl"
+    ],
+    "depends": [
+      "4430778@@glib-2.0@sta"
+    ],
+    "meson_variables": [
+      "libglib_dep"
+    ]
+  },
+  {
+    "name": "dep47407686149914914707037125678771222585",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [
+      "-DGLIB_STATIC_COMPILATION"
+    ],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/glib",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/glib"
+    ],
+    "sources": [
+      "gversionmacros.h",
+      "glib-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "iconv",
+      "intl",
+      "m",
+      "sysprof-capture-4",
+      "libpcre2-8",
+      "threads"
+    ],
+    "depends": [
+      "6e4c96c@@charset@sta",
+      "101df56@@gnulib@sta"
+    ],
+    "meson_variables": [
+      "libglib_static_dep"
+    ]
+  },
+  {
+    "name": "dep226039672863653936911070140179669884892",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/gobject",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gobject"
+    ],
+    "sources": [
+      "gobject-visibility.h",
+      "glib-enumtypes.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "dep140917701607761894792943518223873488985"
+    ],
+    "depends": [
+      "6270cfe@@gobject-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgobject_dep"
+    ]
+  },
+  {
+    "name": "dep193071074412676908865748154752787719403",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "7fc3d67@@gthread-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgthread_dep"
+    ]
+  },
+  {
+    "name": "dep276778096309171430009341073993686573414",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/gmodule",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gmodule"
+    ],
+    "sources": [
+      "gmodule-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gmodule_inc_dep"
+    ]
+  },
+  {
+    "name": "dep155313048435565658372408059213945473758",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep140917701607761894792943518223873488985",
+      "dep276778096309171430009341073993686573414"
+    ],
+    "depends": [
+      "75acf41@@gmodule-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgmodule_dep"
+    ]
+  },
+  {
+    "name": "dep44802636636001318663619111682004584835",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "gioenumtypes.h",
+      "glib-enumtypes.h",
+      "gio-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gioenumtypes_dep"
+    ]
+  },
+  {
+    "name": "dep184222792710939353170026938508745829315",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/gio",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/gio"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep155313048435565658372408059213945473758",
+      "dep226039672863653936911070140179669884892",
+      "dep44802636636001318663619111682004584835"
+    ],
+    "depends": [
+      "6ae6c9e@@gio-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgio_dep",
+      "libgiounix_dep"
+    ]
+  },
+  {
+    "name": "dep203176584193376862338261576360075996998",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/girepository/cmph/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/girepository/cmph/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "6cca4a0@@cmph@sta"
+    ],
+    "meson_variables": [
+      "cmph_dep"
+    ]
+  },
+  {
+    "name": "dep78961061304247102885713280354318957060",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/girepository"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep140917701607761894792943518223873488985",
+      "dep155313048435565658372408059213945473758",
+      "dep226039672863653936911070140179669884892"
+    ],
+    "depends": [
+      "667a256@@girepository-gthash@sta"
+    ],
+    "meson_variables": [
+      "girepo_gthash_dep"
+    ]
+  },
+  {
+    "name": "dep303141703661015631677539064569442995539",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/girepository"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "libffi"
+    ],
+    "depends": [
+      "667a256@@girepository-internals@sta"
+    ],
+    "meson_variables": [
+      "libgirepository_internals_dep"
+    ]
+  },
+  {
+    "name": "dep60866760898084578301392963251850495040",
+    "type": "internal",
+    "version": "2.88.3",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-c57ff93ac1.clean/girepository",
+      "/home/runner/webbuild/vcpkg/buildtrees/glib/wasm32-emscripten-wesnoth-rel/girepository"
+    ],
+    "sources": [
+      "gi-visibility.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "dep140917701607761894792943518223873488985",
+      "dep226039672863653936911070140179669884892",
+      "dep184222792710939353170026938508745829315",
+      "dep155313048435565658372408059213945473758"
+    ],
+    "depends": [
+      "667a256@@girepository-2.0@sta"
+    ],
+    "meson_variables": [
+      "libgirepository_dep"
+    ]
+  }
+]

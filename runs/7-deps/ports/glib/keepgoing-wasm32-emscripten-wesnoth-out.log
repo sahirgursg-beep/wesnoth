@@ -1,0 +1,1065 @@
+ff93ac1.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_utf8_validate.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[542/697] Compiling C object fuzzing/fuzz_uuid_string_is_valid.js.p/fuzz_uuid_string_is_valid.c.o
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_uuid_string_is_valid.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[543/697] Compiling C object fuzzing/fuzz_variant_binary.js.p/fuzz_variant_binary.c.o
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[544/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.js.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[545/697] Compiling C object fuzzing/fuzz_variant_text.js.p/driver.c.o
+../src/glib-2-c57ff93ac1.clean/fuzzing/driver.c:23:10: warning: variable 'n_read' set but not used [-Wunused-but-set-variable]
+   23 |   size_t n_read, len;
+      |          ^
+1 warning generated.
+[546/697] Linking static target glib/libcharset/libcharset.a
+[547/697] Linking static target glib/gnulib/libgnulib.a
+[548/697] Compiling C object fuzzing/fuzz_variant_binary_byteswap.js.p/fuzz_variant_binary_byteswap.c.o
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_binary_byteswap.c:21:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[549/697] Compiling C object fuzzing/fuzz_variant_text.js.p/fuzz_variant_text.c.o
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:378:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  378 |   if (G_UNLIKELY (nth_bit < -1))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:393:22: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  393 |   if (nth_bit < 0 || G_UNLIKELY (nth_bit > GLIB_SIZEOF_LONG * 8))
+      |                      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gasyncqueue.h:34:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/gthread.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gutils.h:408:10: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  408 |   return G_LIKELY (number) ?
+      |          ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:204:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  204 |   if (G_LIKELY (gstring != NULL &&
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:226:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  226 |   if G_UNLIKELY (gstring == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:229:6: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  229 |   if G_UNLIKELY (val == NULL)
+      |      ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+ 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+      |                                             ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:237:7: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  237 |   if (G_LIKELY (len_unsigned < gstring->allocated_len - gstring->len))
+      |       ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib.h:56:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/giochannel.h:36:
+../src/glib-2-c57ff93ac1.clean/glib/gstring.h:240:11: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  240 |       if (G_LIKELY (val + len_unsigned <= end || val >= end + len_unsigned))
+      |           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:804:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  804 |   g_assert_true (G_IS_OBJECT (weak_pointer));
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:228:49: note: expanded from macro 'g_assert_true'
+  228 |                                              if G_LIKELY (expr) ; else \
+      |                                                 ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz_variant_text.c:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/fuzzing/fuzz.h:20:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gio.h:28:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/giotypes.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/gio/gioenums.h:30:
+In file included from ../src/glib-2-c57ff93ac1.clean/glib/glib-object.h:24:
+In file included from ../src/glib-2-c57ff93ac1.clean/gobject/gbinding.h:31:
+../src/glib-2-c57ff93ac1.clean/gobject/gobject.h:807:3: warning: '__COUNTER__' is a C2y extension [-Wcounter-extension]
+  807 |   g_assert_null (weak_pointer);
+      |   ^
+../src/glib-2-c57ff93ac1.clean/glib/gtestutils.h:250:59: note: expanded from macro 'g_assert_null'
+  250 | #define g_assert_null(expr)             G_STMT_START { if G_LIKELY ((expr) == NULL) ; else \
+      |                                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+ 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+      |                                           ^
+../src/glib-2-c57ff93ac1.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+ 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+      |                                                     ^
+10 warnings generated.
+[550/697] Linking static target gio/xdgmime/libxdgmime.a
+[551/697] Linking static target gthread/libgthread-2.0.a
+[552/697] Linking target glib/gtester.js
+FAILED: [code=1] glib/gtester.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o glib/gtester.js glib/gtester.js.p/gtester.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group glib/libglib-2.0.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -Wl,--end-group -pthread -sPTHREAD_POOL_SIZE=4
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o glib/gtester.wasm /tmp/tmp8fh6fqx9libemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 glib/gtester.js.p/gtester.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib glib/libglib-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[553/697] Linking target gobject/gobject-query.js
+FAILED: [code=1] gobject/gobject-query.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gobject/gobject-query.js gobject/gobject-query.js.p/gobject-query.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group glib/libglib-2.0.a gobject/libgobject-2.0.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gatomicarray.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gobject/gobject-query.wasm /tmp/tmp4j98553glibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gobject/gobject-query.js.p/gobject-query.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib glib/libglib-2.0.a gobject/libgobject-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[554/697] Linking target gio/gio.js
+FAILED: [code=1] gio/gio.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gio.js gio/gio.js.p/gio-tool.c.o gio/gio.js.p/gio-tool-cat.c.o gio/gio.js.p/gio-tool-copy.c.o gio/gio.js.p/gio-tool-info.c.o gio/gio.js.p/gio-tool-launch.c.o gio/gio.js.p/gio-tool-list.c.o gio/gio.js.p/gio-tool-mime.c.o gio/gio.js.p/gio-tool-mkdir.c.o gio/gio.js.p/gio-tool-monitor.c.o gio/gio.js.p/gio-tool-mount.c.o gio/gio.js.p/gio-tool-move.c.o gio/gio.js.p/gio-tool-open.c.o gio/gio.js.p/gio-tool-rename.c.o gio/gio.js.p/gio-tool-remove.c.o gio/gio.js.p/gio-tool-save.c.o gio/gio.js.p/gio-tool-set.c.o gio/gio.js.p/gio-tool-trash.c.o gio/gio.js.p/gio-tool-tree.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gio.wasm /tmp/tmpdheew_xzlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gio.js.p/gio-tool.c.o gio/gio.js.p/gio-tool-cat.c.o gio/gio.js.p/gio-tool-copy.c.o gio/gio.js.p/gio-tool-info.c.o gio/gio.js.p/gio-tool-launch.c.o gio/gio.js.p/gio-tool-list.c.o gio/gio.js.p/gio-tool-mime.c.o gio/gio.js.p/gio-tool-mkdir.c.o gio/gio.js.p/gio-tool-monitor.c.o gio/gio.js.p/gio-tool-mount.c.o gio/gio.js.p/gio-tool-move.c.o gio/gio.js.p/gio-tool-open.c.o gio/gio.js.p/gio-tool-rename.c.o gio/gio.js.p/gio-tool-remove.c.o gio/gio.js.p/gio-tool-save.c.o gio/gio.js.p/gio-tool-set.c.o gio/gio.js.p/gio-tool-trash.c.o gio/gio.js.p/gio-tool-tree.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[555/697] Linking target gio/gio-querymodules.js
+FAILED: [code=1] gio/gio-querymodules.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gio-querymodules.js gio/gio-querymodules.js.p/gio-querymodules.c.o gio/gio-querymodules.js.p/giomodule-priv.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gatomicarray.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gio-querymodules.wasm /tmp/tmpngjppvfnlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gio-querymodules.js.p/gio-querymodules.c.o gio/gio-querymodules.js.p/giomodule-priv.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[556/697] Linking target gio/gresource.js
+FAILED: [code=1] gio/gresource.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gresource.js gio/gresource.js.p/gresource-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gresource.wasm /tmp/tmppt6xdsv8libemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gresource.js.p/gresource-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[557/697] Linking target gio/gdbus.js
+FAILED: [code=1] gio/gdbus.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gdbus.js gio/gdbus.js.p/gdbus-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gunixfdlist.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gdbus.wasm /tmp/tmpvih0n9cxlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gdbus.js.p/gdbus-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[558/697] Linking target gio/glib-compile-resources.js
+FAILED: [code=1] gio/glib-compile-resources.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/glib-compile-resources.js gio/glib-compile-resources.js.p/glib-compile-resources.c.o gio/glib-compile-resources.js.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o gio/glib-compile-resources.js.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/glib-compile-resources.wasm /tmp/tmpxld66szylibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/glib-compile-resources.js.p/glib-compile-resources.c.o gio/glib-compile-resources.js.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o gio/glib-compile-resources.js.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[559/697] Linking target gio/glib-compile-schemas.js
+FAILED: [code=1] gio/glib-compile-schemas.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/glib-compile-schemas.js gio/glib-compile-schemas.js.p/glib-compile-schemas.c.o gio/glib-compile-schemas.js.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o gio/glib-compile-schemas.js.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/glib-compile-schemas.wasm /tmp/tmpqezj4s91libemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/glib-compile-schemas.js.p/glib-compile-schemas.c.o gio/glib-compile-schemas.js.p/.._subprojects_gvdb_gvdb_gvdb-builder.c.o gio/glib-compile-schemas.js.p/.._subprojects_gvdb_gvdb_gvdb-reader.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[560/697] Linking target gio/gsettings.js
+FAILED: [code=1] gio/gsettings.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gsettings.js gio/gsettings.js.p/gsettings-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gsettingsschema.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gsettings.wasm /tmp/tmppmuesbeulibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gsettings.js.p/gsettings-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[561/697] Linking target gio/gapplication.js
+FAILED: [code=1] gio/gapplication.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o gio/gapplication.js gio/gapplication.js.p/gapplication-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gappinfo.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o gio/gapplication.wasm /tmp/tmptxrwm11ilibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 gio/gapplication.js.p/gapplication-tool.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gio/libgio-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[562/697] Linking target girepository/compiler/gi-compile-repository.js
+FAILED: [code=1] girepository/compiler/gi-compile-repository.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o girepository/compiler/gi-compile-repository.js girepository/compiler/gi-compile-repository.js.p/compiler.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a girepository/libgirepository-internals.a girepository/libgirepository-gthash.a girepository/cmph/libcmph.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gibaseinfo.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o girepository/compiler/gi-compile-repository.wasm /tmp/tmpw6opn7xglibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 girepository/compiler/gi-compile-repository.js.p/compiler.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a girepository/libgirepository-internals.a girepository/libgirepository-gthash.a girepository/cmph/libcmph.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[563/697] Linking target girepository/gi-dump-types.js
+FAILED: [code=1] girepository/gi-dump-types.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o girepository/gi-dump-types.js girepository/gi-dump-types.js.p/gi-dump-types.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gboxed.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o girepository/gi-dump-types.wasm /tmp/tmp7ghbq53qlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 girepository/gi-dump-types.js.p/gi-dump-types.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[564/697] Linking target gio/gio-launch-desktop.js
+[565/697] Linking target girepository/inspector/gi-inspect-typelib.js
+FAILED: [code=1] girepository/inspector/gi-inspect-typelib.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o girepository/inspector/gi-inspect-typelib.js girepository/inspector/gi-inspect-typelib.js.p/inspector.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gibaseinfo.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o girepository/inspector/gi-inspect-typelib.wasm /tmp/tmp81pb3x8nlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 girepository/inspector/gi-inspect-typelib.js.p/inspector.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[566/697] Linking target girepository/decompiler/gi-decompile-typelib.js
+FAILED: [code=1] girepository/decompiler/gi-decompile-typelib.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o girepository/decompiler/gi-decompile-typelib.js girepository/decompiler/gi-decompile-typelib.js.p/decompiler.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a girepository/libgirepository-internals.a girepository/libgirepository-gthash.a girepository/cmph/libcmph.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl -lintl -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gibaseinfo.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o girepository/decompiler/gi-decompile-typelib.wasm /tmp/tmpufueojfulibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 girepository/decompiler/gi-decompile-typelib.js.p/decompiler.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib girepository/libgirepository-2.0.a glib/libglib-2.0.a gobject/libgobject-2.0.a gmodule/libgmodule-2.0.a gio/libgio-2.0.a girepository/libgirepository-internals.a girepository/libgirepository-gthash.a girepository/cmph/libcmph.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl -lintl -lintl -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[567/697] Linking target fuzzing/fuzz_data_input_stream_read_line_utf8.js
+FAILED: [code=1] fuzzing/fuzz_data_input_stream_read_line_utf8.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_data_input_stream_read_line_utf8.js fuzzing/fuzz_data_input_stream_read_line_utf8.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_line_utf8.js.p/fuzz_data_input_stream_read_line_utf8.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_data_input_stream_read_line_utf8.wasm /tmp/tmp943k3ac3libemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_data_input_stream_read_line_utf8.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_line_utf8.js.p/fuzz_data_input_stream_read_line_utf8.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[568/697] Linking target fuzzing/fuzz_data_input_stream_read_line.js
+FAILED: [code=1] fuzzing/fuzz_data_input_stream_read_line.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_data_input_stream_read_line.js fuzzing/fuzz_data_input_stream_read_line.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_line.js.p/fuzz_data_input_stream_read_line.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_data_input_stream_read_line.wasm /tmp/tmp21rpcibhlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_data_input_stream_read_line.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_line.js.p/fuzz_data_input_stream_read_line.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[569/697] Linking target fuzzing/fuzz_data_input_stream_read_upto.js
+FAILED: [code=1] fuzzing/fuzz_data_input_stream_read_upto.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_data_input_stream_read_upto.js fuzzing/fuzz_data_input_stream_read_upto.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_upto.js.p/fuzz_data_input_stream_read_upto.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_data_input_stream_read_upto.wasm /tmp/tmpx7rne4xtlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_data_input_stream_read_upto.js.p/driver.c.o fuzzing/fuzz_data_input_stream_read_upto.js.p/fuzz_data_input_stream_read_upto.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[570/697] Linking target fuzzing/fuzz_dbus_message.js
+FAILED: [code=1] fuzzing/fuzz_dbus_message.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_dbus_message.js fuzzing/fuzz_dbus_message.js.p/driver.c.o fuzzing/fuzz_dbus_message.js.p/fuzz_dbus_message.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gunixfdlist.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_dbus_message.wasm /tmp/tmp04v4cvgelibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_dbus_message.js.p/driver.c.o fuzzing/fuzz_dbus_message.js.p/fuzz_dbus_message.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[571/697] Linking target fuzzing/fuzz_bookmark.js
+[572/697] Linking target fuzzing/fuzz_canonicalize_filename.js
+[573/697] Linking target fuzzing/fuzz_inet_address_mask_new_from_string.js
+FAILED: [code=1] fuzzing/fuzz_inet_address_mask_new_from_string.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_inet_address_mask_new_from_string.js fuzzing/fuzz_inet_address_mask_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_address_mask_new_from_string.js.p/fuzz_inet_address_mask_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_inet_address_mask_new_from_string.wasm /tmp/tmpntwt9u4dlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_inet_address_mask_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_address_mask_new_from_string.js.p/fuzz_inet_address_mask_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[574/697] Linking target fuzzing/fuzz_filename_from_uri.js
+[575/697] Linking target fuzzing/fuzz_inet_address_new_from_string.js
+FAILED: [code=1] fuzzing/fuzz_inet_address_new_from_string.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_inet_address_new_from_string.js fuzzing/fuzz_inet_address_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_address_new_from_string.js.p/fuzz_inet_address_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_inet_address_new_from_string.wasm /tmp/tmp5314jzivlibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_inet_address_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_address_new_from_string.js.p/fuzz_inet_address_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[576/697] Linking target fuzzing/fuzz_date_time_new_from_iso8601.js
+[577/697] Linking target fuzzing/fuzz_date_parse.js
+[578/697] Linking target fuzzing/fuzz_inet_socket_address_new_from_string.js
+FAILED: [code=1] fuzzing/fuzz_inet_socket_address_new_from_string.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_inet_socket_address_new_from_string.js fuzzing/fuzz_inet_socket_address_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_socket_address_new_from_string.js.p/fuzz_inet_socket_address_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_inet_socket_address_new_from_string.wasm /tmp/tmp9jqsp16flibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_inet_socket_address_new_from_string.js.p/driver.c.o fuzzing/fuzz_inet_socket_address_new_from_string.js.p/fuzz_inet_socket_address_new_from_string.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[579/697] Linking target fuzzing/fuzz_network_address_parse.js
+FAILED: [code=1] fuzzing/fuzz_network_address_parse.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_network_address_parse.js fuzzing/fuzz_network_address_parse.js.p/driver.c.o fuzzing/fuzz_network_address_parse.js.p/fuzz_network_address_parse.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_network_address_parse.wasm /tmp/tmpxo8b_bdolibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_network_address_parse.js.p/driver.c.o fuzzing/fuzz_network_address_parse.js.p/fuzz_network_address_parse.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[580/697] Linking target fuzzing/fuzz_network_address_parse_uri.js
+FAILED: [code=1] fuzzing/fuzz_network_address_parse_uri.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_network_address_parse_uri.js fuzzing/fuzz_network_address_parse_uri.js.p/driver.c.o fuzzing/fuzz_network_address_parse_uri.js.p/fuzz_network_address_parse_uri.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by meson-generated_.._gioenumtypes.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+wasm-ld: error: glib/libglib-2.0.a(gthread.c.o): undefined symbol: pthread_getname_np
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_network_address_parse_uri.wasm /tmp/tmp6qsz9sallibemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_network_address_parse_uri.js.p/driver.c.o fuzzing/fuzz_network_address_parse_uri.js.p/fuzz_network_address_parse_uri.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[581/697] Linking target fuzzing/fuzz_filename_to_uri.js
+[582/697] Linking target fuzzing/fuzz_resolver.js
+FAILED: [code=1] fuzzing/fuzz_resolver.js 
+/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -o fuzzing/fuzz_resolver.js fuzzing/fuzz_resolver.js.p/driver.c.o fuzzing/fuzz_resolver.js.p/fuzz_resolver.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib -sERROR_ON_UNDEFINED_SYMBOLS=1 -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -Wl,--start-group gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lm -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a -pthread -sPTHREAD_POOL_SIZE=4 /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -Wl,--end-group
+wasm-ld: error: --shared-memory is disallowed by gcancellable.c.o because it was not compiled with 'atomics' or 'bulk-memory' features.
+emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o fuzzing/fuzz_resolver.wasm /tmp/tmp8krrctd6libemscripten_js_symbols.so -Bstatic --import-memory --shared-memory --strip-debug --export=__rodata_start --export=__rodata_end --export=_emscripten_stack_alloc --export=_emscripten_thread_free_data --export=_emscripten_thread_crashed --export=__trap --export=__wasm_call_ctors --export=_emscripten_tls_init --export=_emscripten_thread_init --export=pthread_self --export=__set_thread_state --export=_emscripten_thread_exit --export=_emscripten_check_mailbox --export=emscripten_stack_set_limits --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-memory=16777216 --no-entry --no-stack-first --table-base=1 --global-base=1024 fuzzing/fuzz_resolver.js.p/driver.c.o fuzzing/fuzz_resolver.js.p/fuzz_resolver.c.o -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib gmodule/libgmodule-2.0.a glib/libglib-2.0.a gio/libgio-2.0.a gobject/libgobject-2.0.a -lintl -lintl -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libpcre2-8.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libz.a -lintl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../lib/libffi.a -lintl -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib /home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/crtbegin-mt.o -lGL-mt-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc-mt -ldlmalloc-mt -lemcc-legacysjlj-mt -lclang_rt.builtins-mt -lunwind-mt-legacyexcept -lsockets-mt -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -wasm-use-legacy-eh -mllvm -disable-lsr' failed (returned 1)
+[583/697] Linking target fuzzing/fuzz_get_locale_variants.js
+[584/697] Linking target fuzzing/fuzz_paths.js
+[585/697] Linking target fuzzing/fuzz_key.js
+[586/697] Linking target fuzzing/fuzz_special_dirs.js
+[587/697] Linking target fuzzing/fuzz_string.js
+[588/697] Linking target fuzzing/fuzz_uri_escape.js
+[589/697] Linking target fuzzing/fuzz_utf8_validate.js
+[590/697] Linking target fuzzing/fuzz_uri_parse.js
+[591/697] Linking target fuzzing/fuzz_uri_parse_params.js
+[592/697] Building translation po/ab/LC_MESSAGES/glib20-ab.mo
+[593/697] Building translation po/af/LC_MESSAGES/glib20-af.mo
+[594/697] Building translation po/am/LC_MESSAGES/glib20-am.mo
+[595/697] Building translation po/an/LC_MESSAGES/glib20-an.mo
+[596/697] Building translation po/ar/LC_MESSAGES/glib20-ar.mo
+[597/697] Building translation po/as/LC_MESSAGES/glib20-as.mo
+[598/697] Building translation po/ast/LC_MESSAGES/glib20-ast.mo
+[599/697] Building translation po/az/LC_MESSAGES/glib20-az.mo
+[600/697] Building translation po/be/LC_MESSAGES/glib20-be.mo
+[601/697] Building translation po/be@latin/LC_MESSAGES/glib20-be@latin.mo
+[602/697] Building translation po/bg/LC_MESSAGES/glib20-bg.mo
+[603/697] Building translation po/bn/LC_MESSAGES/glib20-bn.mo
+[604/697] Building translation po/bn_IN/LC_MESSAGES/glib20-bn_IN.mo
+[605/697] Building translation po/bs/LC_MESSAGES/glib20-bs.mo
+[606/697] Building translation po/ca/LC_MESSAGES/glib20-ca.mo
+[607/697] Building translation po/ca@valencia/LC_MESSAGES/glib20-ca@valencia.mo
+[608/697] Building translation po/cs/LC_MESSAGES/glib20-cs.mo
+[609/697] Linking target fuzzing/fuzz_utf8_normalize.js
+[610/697] Building translation po/cy/LC_MESSAGES/glib20-cy.mo
+[611/697] Building translation po/da/LC_MESSAGES/glib20-da.mo
+[612/697] Building translation po/dz/LC_MESSAGES/glib20-dz.mo
+[613/697] Building translation po/de/LC_MESSAGES/glib20-de.mo
+[614/697] Building translation po/el/LC_MESSAGES/glib20-el.mo
+[615/697] Building translation po/en_CA/LC_MESSAGES/glib20-en_CA.mo
+[616/697] Building translation po/en_GB/LC_MESSAGES/glib20-en_GB.mo
+[617/697] Building translation po/en@shaw/LC_MESSAGES/glib20-en@shaw.mo
+[618/697] Building translation po/eo/LC_MESSAGES/glib20-eo.mo
+[619/697] Building translation po/es/LC_MESSAGES/glib20-es.mo
+[620/697] Building translation po/et/LC_MESSAGES/glib20-et.mo
+[621/697] Building translation po/eu/LC_MESSAGES/glib20-eu.mo
+[622/697] Building translation po/fi/LC_MESSAGES/glib20-fi.mo
+[623/697] Building translation po/fr/LC_MESSAGES/glib20-fr.mo
+[624/697] Building translation po/fa/LC_MESSAGES/glib20-fa.mo
+[625/697] Building translation po/ga/LC_MESSAGES/glib20-ga.mo
+[626/697] Linking target fuzzing/fuzz_variant_binary.js
+[627/697] Building translation po/gd/LC_MESSAGES/glib20-gd.mo
+[628/697] Building translation po/fur/LC_MESSAGES/glib20-fur.mo
+[629/697] Building translation po/gl/LC_MESSAGES/glib20-gl.mo
+[630/697] Building translation po/gu/LC_MESSAGES/glib20-gu.mo
+[631/697] Building translation po/he/LC_MESSAGES/glib20-he.mo
+[632/697] Building translation po/hi/LC_MESSAGES/glib20-hi.mo
+[633/697] Building translation po/hr/LC_MESSAGES/glib20-hr.mo
+[634/697] Building translation po/hy/LC_MESSAGES/glib20-hy.mo
+[635/697] Building translation po/hu/LC_MESSAGES/glib20-hu.mo
+[636/697] Building translation po/id/LC_MESSAGES/glib20-id.mo
+[637/697] Building translation po/ie/LC_MESSAGES/glib20-ie.mo
+[638/697] Building translation po/is/LC_MESSAGES/glib20-is.mo
+[639/697] Building translation po/it/LC_MESSAGES/glib20-it.mo
+[640/697] Building translation po/ja/LC_MESSAGES/glib20-ja.mo
+[641/697] Linking target fuzzing/fuzz_uuid_string_is_valid.js
+[642/697] Building translation po/kab/LC_MESSAGES/glib20-kab.mo
+[643/697] Building translation po/ka/LC_MESSAGES/glib20-ka.mo
+[644/697] Building translation po/kn/LC_MESSAGES/glib20-kn.mo
+[645/697] Building translation po/ku/LC_MESSAGES/glib20-ku.mo
+[646/697] Building translation po/kk/LC_MESSAGES/glib20-kk.mo
+[647/697] Building translation po/lt/LC_MESSAGES/glib20-lt.mo
+[648/697] Building translation po/mg/LC_MESSAGES/glib20-mg.mo
+[649/697] Building translation po/ko/LC_MESSAGES/glib20-ko.mo
+[650/697] Building translation po/mk/LC_MESSAGES/glib20-mk.mo
+[651/697] Building translation po/mn/LC_MESSAGES/glib20-mn.mo
+[652/697] Building translation po/mai/LC_MESSAGES/glib20-mai.mo
+[653/697] Building translation po/mr/LC_MESSAGES/glib20-mr.mo
+[654/697] Building translation po/lv/LC_MESSAGES/glib20-lv.mo
+[655/697] Building translation po/ml/LC_MESSAGES/glib20-ml.mo
+[656/697] Building translation po/ms/LC_MESSAGES/glib20-ms.mo
+[657/697] Building translation po/nds/LC_MESSAGES/glib20-nds.mo
+[658/697] Building translation po/nn/LC_MESSAGES/glib20-nn.mo
+[659/697] Building translation po/oc/LC_MESSAGES/glib20-oc.mo
+[660/697] Building translation po/or/LC_MESSAGES/glib20-or.mo
+[661/697] Building translation po/nb/LC_MESSAGES/glib20-nb.mo
+[662/697] Building translation po/ne/LC_MESSAGES/glib20-ne.mo
+[663/697] Building translation po/nl/LC_MESSAGES/glib20-nl.mo
+[664/697] Building translation po/ps/LC_MESSAGES/glib20-ps.mo
+[665/697] Building translation po/pl/LC_MESSAGES/glib20-pl.mo
+[666/697] Building translation po/pa/LC_MESSAGES/glib20-pa.mo
+[667/697] Building translation po/pt/LC_MESSAGES/glib20-pt.mo
+[668/697] Building translation po/ro/LC_MESSAGES/glib20-ro.mo
+[669/697] Building translation po/rw/LC_MESSAGES/glib20-rw.mo
+[670/697] Building translation po/ru/LC_MESSAGES/glib20-ru.mo
+[671/697] Building translation po/pt_BR/LC_MESSAGES/glib20-pt_BR.mo
+[672/697] Building translation po/si/LC_MESSAGES/glib20-si.mo
+[673/697] Building translation po/sl/LC_MESSAGES/glib20-sl.mo
+[674/697] Building translation po/sr/LC_MESSAGES/glib20-sr.mo
+[675/697] Building translation po/sq/LC_MESSAGES/glib20-sq.mo
+[676/697] Building translation po/sk/LC_MESSAGES/glib20-sk.mo
+[677/697] Building translation po/sr@ije/LC_MESSAGES/glib20-sr@ije.mo
+[678/697] Building translation po/sr@latin/LC_MESSAGES/glib20-sr@latin.mo
+[679/697] Building translation po/ta/LC_MESSAGES/glib20-ta.mo
+[680/697] Building translation po/tg/LC_MESSAGES/glib20-tg.mo
+[681/697] Building translation po/te/LC_MESSAGES/glib20-te.mo
+[682/697] Building translation po/sv/LC_MESSAGES/glib20-sv.mo
+[683/697] Building translation po/tr/LC_MESSAGES/glib20-tr.mo
+[684/697] Building translation po/tl/LC_MESSAGES/glib20-tl.mo
+[685/697] Building translation po/tt/LC_MESSAGES/glib20-tt.mo
+[686/697] Building translation po/th/LC_MESSAGES/glib20-th.mo
+[687/697] Building translation po/vi/LC_MESSAGES/glib20-vi.mo
+[688/697] Building translation po/ug/LC_MESSAGES/glib20-ug.mo
+[689/697] Building translation po/wa/LC_MESSAGES/glib20-wa.mo
+[690/697] Building translation po/uk/LC_MESSAGES/glib20-uk.mo
+[691/697] Building translation po/zh_HK/LC_MESSAGES/glib20-zh_HK.mo
+[692/697] Building translation po/yi/LC_MESSAGES/glib20-yi.mo
+[693/697] Building translation po/xh/LC_MESSAGES/glib20-xh.mo
+[694/697] Building translation po/zh_CN/LC_MESSAGES/glib20-zh_CN.mo
+[695/697] Building translation po/zh_TW/LC_MESSAGES/glib20-zh_TW.mo
+[696/697] Linking target fuzzing/fuzz_variant_text.js
+[697/697] Linking target fuzzing/fuzz_variant_binary_byteswap.js
+ninja: build stopped: cannot make progress due to previous errors.
