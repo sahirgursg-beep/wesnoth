@@ -54,8 +54,11 @@ Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports):
 
 ## Status
 
+Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
+
+
 - [x] dependencies build for wasm32
-- [ ] game client compiles
+- [x] game client compiles
 - [ ] game starts and shows the main menu
 - [ ] tutorial is playable
 - [ ] saves persist across reloads
