@@ -20,6 +20,7 @@ class config_attribute_value;
 class variable_set;
 
 #include <array>
+#include <cstdlib>
 #include <set>
 #include "utils/span.hpp"
 #include <string>

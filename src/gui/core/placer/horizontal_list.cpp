@@ -19,6 +19,7 @@
 
 #include "sdl/point.hpp"
 
+#include <algorithm>
 #include <cassert>
 #include <numeric>
 

@@ -18,6 +18,7 @@
 #include <functional>
 #include <set>
 #include <string>
+#include <vector>
 
 class commandline_options;
 class config;

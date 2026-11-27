@@ -61,6 +61,8 @@ set(BOOST_REQ_COMPONENTS iostreams program_options regex thread random coroutine
 if(EMSCRIPTEN)
 	# Browser build: Boost.Coroutine is only used by the servers and has no wasm support.
 	list(REMOVE_ITEM BOOST_REQ_COMPONENTS coroutine)
+	# The browser build is single threaded; Asio must not expect pthreads.
+	add_compile_definitions(BOOST_ASIO_DISABLE_THREADS)
 endif()
 
 if(ENABLE_TESTS)

@@ -22,6 +22,7 @@
 
 #include <cmath>
 #include <cstdint>
+#include <cstdlib>
 #include <limits>
 #include <vector>
 #include <algorithm>

@@ -14,6 +14,8 @@
 
 #include "utils/general.hpp"
 
+#include <cstdlib>
+
 #if defined(__clang__) || defined(__GNUG__)
 #include <cxxabi.h>
 #endif

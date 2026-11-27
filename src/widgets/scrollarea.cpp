@@ -20,6 +20,8 @@
 #include "sdl/rect.hpp"
 #include "video.hpp" // for converting input events to game coordinates
 
+#include <cstdlib>
+
 namespace gui {
 
 scrollarea::scrollarea(const bool auto_join)

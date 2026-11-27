@@ -19,6 +19,7 @@
 #include <ctime>
 #include <functional>
 #include <string>
+#include <vector>
 
 namespace utils
 {
