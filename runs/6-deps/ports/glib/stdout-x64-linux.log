@@ -1,0 +1,51 @@
+-- Found Python version '3.14.4 at /usr/bin/python3'
+-- Using meson: /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-633807/meson.py
+-- Using cached glib-2.88.3.tar.xz
+-- Cleaning sources at /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/glib-2.88.3.tar.xz
+-- Applying patch use-libiconv-on-windows.patch
+-- Applying patch libintl.patch
+-- Applying patch emscripten-no-res-query.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/glib/src/glib-2-5cb0ae2525.clean
+-- Configuring x64-linux-dbg
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/glib/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Configuring x64-linux-dbg done
+-- Configuring x64-linux-rel
+-- Configuring x64-linux-rel done
+-- Package x64-linux-dbg
+-- Package x64-linux-rel
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gio-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gio-unix-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/girepository-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/glib-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gmodule-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gmodule-export-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gmodule-no-export-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gobject-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/lib/pkgconfig/gthread-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gio-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gio-unix-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/girepository-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/glib-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gmodule-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gmodule-export-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gmodule-no-export-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gobject-2.0.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/lib/pkgconfig/gthread-2.0.pc
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/debug/libexec/gio-launch-desktop' (From '' -> To '$ORIGIN:$ORIGIN/../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/libexec/gio-launch-desktop' (From '' -> To '$ORIGIN:$ORIGIN/../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gapplication' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gdbus' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gi-compile-repository' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gi-decompile-typelib' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gi-inspect-typelib' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gio' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gio-querymodules' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/glib-compile-resources' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/glib-compile-schemas' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gobject-query' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gresource' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gsettings' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/glib_x64-linux/tools/glib/gtester' (From '' -> To '$ORIGIN:$ORIGIN/../../lib')
+-- Performing post-build validation

@@ -1,0 +1,356 @@
+1-[1/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/gconvert.c.o -MF glib/libglib-2.0.a.p/gconvert.c.o.d -o glib/libglib-2.0.a.p/gconvert.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/gconvert.c
+2:FAILED: [code=1] glib/libglib-2.0.a.p/gconvert.c.o 
+3-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/gconvert.c.o -MF glib/libglib-2.0.a.p/gconvert.c.o.d -o glib/libglib-2.0.a.p/gconvert.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/gconvert.c
+4-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gconvert.c:41:
+5-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gconvertprivate.h:26:
+6-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glib.h:34:
+7-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gasyncqueue.h:34:
+8-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gthread.h:36:
+10-  378 |   if (G_UNLIKELY (nth_bit < -1))
+11-      |       ^
+12-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+13- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+14-      |                                             ^
+--
+120-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+121- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+122-      |                                                     ^
+123:../src/glib-2-5cb0ae2525.clean/glib/gconvert.c:190:28: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+124-  190 |   return iconv (cd, inbuf, inbytes_left, outbuf, outbytes_left);
+125-      |                            ^~~~~~~~~~~~
+126-/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/iconv.h:17:60: note: passing argument to parameter here
+127-   17 | size_t iconv(iconv_t, char **__restrict, size_t *__restrict, char **__restrict, size_t *__restrict);
+128-      |                                                            ^
+129:../src/glib-2-5cb0ae2525.clean/glib/gconvert.c:190:50: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+130-  190 |   return iconv (cd, inbuf, inbytes_left, outbuf, outbytes_left);
+131-      |                                                  ^~~~~~~~~~~~~
+132-/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/iconv.h:17:99: note: passing argument to parameter here
+133-   17 | size_t iconv(iconv_t, char **__restrict, size_t *__restrict, char **__restrict, size_t *__restrict);
+134-      |                                                                                                   ^
+136-  319 |   g_return_val_if_fail (converter != (GIConv) -1, NULL);
+137-      |   ^
+138-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+139-  667 |     if (G_LIKELY (expr)) \
+140-      |         ^
+141-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+--
+290-      |                                                     ^
+291-22 warnings and 2 errors generated.
+292-[2/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/gmem.c.o -MF glib/libglib-2.0.a.p/gmem.c.o.d -o glib/libglib-2.0.a.p/gmem.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/gmem.c
+293:FAILED: [code=1] glib/libglib-2.0.a.p/gmem.c.o 
+294-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/gmem.c.o -MF glib/libglib-2.0.a.p/gmem.c.o.d -o glib/libglib-2.0.a.p/gmem.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/gmem.c
+295-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.c:33:
+296-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+298-  378 |   if (G_UNLIKELY (nth_bit < -1))
+299-      |       ^
+300-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+301- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+302-      |                                             ^
+303-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+304- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+305-      |                                                     ^
+--
+390-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+391- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+392-      |                                                     ^
+393:../src/glib-2-5cb0ae2525.clean/glib/gmem.c:72:3: error: incompatible function pointer types initializing 'gpointer (*)(gsize)' (aka 'void *(*)(unsigned int)') with an expression of type 'void *(__size_t)' (aka 'void *(unsigned long)') [-Wincompatible-function-pointer-types]
+394-   72 |   malloc,
+395-      |   ^~~~~~
+396:../src/glib-2-5cb0ae2525.clean/glib/gmem.c:73:3: error: incompatible function pointer types initializing 'gpointer (*)(gpointer, gsize)' (aka 'void *(*)(void *, unsigned int)') with an expression of type 'void *(void *, __size_t)' (aka 'void *(void *, unsigned long)') [-Wincompatible-function-pointer-types]
+397-   73 |   realloc,
+398-      |   ^~~~~~~
+399:../src/glib-2-5cb0ae2525.clean/glib/gmem.c:75:3: error: incompatible function pointer types initializing 'gpointer (*)(gsize, gsize)' (aka 'void *(*)(unsigned int, unsigned int)') with an expression of type 'void *(__size_t, __size_t)' (aka 'void *(unsigned long, unsigned long)') [-Wincompatible-function-pointer-types]
+400-   75 |   calloc,
+401-      |   ^~~~~~
+402:../src/glib-2-5cb0ae2525.clean/glib/gmem.c:76:3: error: incompatible function pointer types initializing 'gpointer (*)(gsize)' (aka 'void *(*)(unsigned int)') with an expression of type 'void *(__size_t)' (aka 'void *(unsigned long)') [-Wincompatible-function-pointer-types]
+403-   76 |   malloc,
+404-      |   ^~~~~~
+405:../src/glib-2-5cb0ae2525.clean/glib/gmem.c:77:3: error: incompatible function pointer types initializing 'gpointer (*)(gpointer, gsize)' (aka 'void *(*)(void *, unsigned int)') with an expression of type 'void *(void *, __size_t)' (aka 'void *(void *, unsigned long)') [-Wincompatible-function-pointer-types]
+406-   77 |   realloc,
+407-      |   ^~~~~~~
+409-   96 |   if (G_LIKELY (n_bytes))
+410-      |       ^
+411-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+412- 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+413-      |                                           ^
+414-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+415- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+416-      |                                                     ^
+--
+484- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+485-      |                                                     ^
+486-../src/glib-2-5cb0ae2525.clean/glib/gmem.c:647:37: warning: format specifies type 'unsigned int' but the argument has type '__size_t' (aka 'unsigned long') [-Wformat]
+487:  646 |       g_error ("%s: alignment %"G_GSIZE_FORMAT" must be a multiple of %"G_GSIZE_FORMAT,
+488-      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+489-  647 |                G_STRLOC, alignment, sizeof (void *));
+490-      |                ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+491-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:356:32: note: expanded from macro 'g_error'
+492-  356 |                                __VA_ARGS__);         \
+493-      |                                ^~~~~~~~~~~
+495-  656 |   if (G_UNLIKELY (real_size == 0))
+496-      |       ^
+497-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+498- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+499-      |                                             ^
+--
+517-      |                               ^
+518-23 warnings and 5 errors generated.
+519-[3/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/guniprop.c.o -MF glib/libglib-2.0.a.p/guniprop.c.o.d -o glib/libglib-2.0.a.p/guniprop.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/guniprop.c
+520:FAILED: [code=1] glib/libglib-2.0.a.p/guniprop.c.o 
+521-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/guniprop.c.o -MF glib/libglib-2.0.a.p/guniprop.c.o.d -o glib/libglib-2.0.a.p/guniprop.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/guniprop.c
+522-In file included from ../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:29:
+523-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+525-  378 |   if (G_UNLIKELY (nth_bit < -1))
+526-      |       ^
+527-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+528- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+529-      |                                             ^
+530-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+531- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+532-      |                                                     ^
+--
+665-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+666- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+667-      |                                                     ^
+668:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:888:65: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+669-  888 |                                                     out_buffer, &len);
+670-      |                                                                 ^~~~
+671-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+672-  785 |                             size_t   *in_out_len)
+673-      |                                       ^
+674:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:891:48: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+675-  891 |                   append_mark (&p, out_buffer, &len, TRUE);
+676-      |                                                ^~~~
+677-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:800:27: note: passing argument to parameter 'in_out_len' here
+678-  800 |              size_t      *in_out_len,
+679-      |                           ^
+680:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:904:58: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+681-  904 |           append_utf8_char_to_buffer (0x130, out_buffer, &len);
+682-      |                                                          ^~~~
+683-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+684-  785 |                             size_t   *in_out_len)
+685-      |                                       ^
+686:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:911:40: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+687-  911 |           append_mark (&p, out_buffer, &len, TRUE);
+688-      |                                        ^~~~
+689-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:800:27: note: passing argument to parameter 'in_out_len' here
+690-  800 |              size_t      *in_out_len,
+691-      |                           ^
+692:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:914:58: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+693-  914 |           append_utf8_char_to_buffer (0x399, out_buffer, &len);
+694-      |                                                          ^~~~
+695-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+696-  785 |                             size_t   *in_out_len)
+697-      |                                       ^
+698:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:925:48: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+699-  925 |               append_special_case (out_buffer, &len, val - 0x1000000, t,
+700-      |                                                ^~~~
+701-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:824:30: note: passing argument to parameter 'in_out_len' here
+702-  824 |                      size_t *in_out_len,
+703-      |                              ^
+704:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:946:70: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+705-  946 |               append_utf8_char_to_buffer (val ? val : c, out_buffer, &len);
+706-      |                                                                      ^~~~
+707-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+708-  785 |                             size_t   *in_out_len)
+709-      |                                       ^
+710:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:956:26: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+711-  956 |           increase_size (&len, char_len);
+712-      |                          ^~~~
+713-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:776:24: note: passing argument to parameter 'sizeptr' here
+714-  776 | increase_size (size_t *sizeptr, size_t add)
+715-      |                        ^
+717-  986 |   g_return_val_if_fail (str != NULL, NULL);
+718-      |   ^
+719-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+720-  667 |     if (G_LIKELY (expr)) \
+721-      |         ^
+722-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+--
+737-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+738- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+739-      |                                                     ^
+740:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1053:63: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+741- 1053 |               append_utf8_char_to_buffer (0x0069, out_buffer, &len);
+742-      |                                                               ^~~~
+743-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+744-  785 |                             size_t   *in_out_len)
+745-      |                                       ^
+746:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1061:62: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+747- 1061 |               append_utf8_char_to_buffer (0x131, out_buffer, &len);
+748-      |                                                              ^~~~
+749-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+750-  785 |                             size_t   *in_out_len)
+751-      |                                       ^
+752:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1069:59: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+753- 1069 |           append_utf8_char_to_buffer (0x0069, out_buffer, &len);
+754-      |                                                           ^~~~
+755-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+756-  785 |                             size_t   *in_out_len)
+757-      |                                       ^
+758:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1070:59: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+759- 1070 |           append_utf8_char_to_buffer (0x0307, out_buffer, &len);
+760-      |                                                           ^~~~
+761-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+762-  785 |                             size_t   *in_out_len)
+763-      |                                       ^
+764:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1075:63: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+765- 1075 |               append_utf8_char_to_buffer (0x0300, out_buffer, &len);
+766-      |                                                               ^~~~
+767-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+768-  785 |                             size_t   *in_out_len)
+769-      |                                       ^
+770:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1078:63: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+771- 1078 |               append_utf8_char_to_buffer (0x0301, out_buffer, &len);
+772-      |                                                               ^~~~
+773-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+774-  785 |                             size_t   *in_out_len)
+775-      |                                       ^
+776:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1081:63: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+777- 1081 |               append_utf8_char_to_buffer (0x0303, out_buffer, &len);
+778-      |                                                               ^~~~
+779-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+780-  785 |                             size_t   *in_out_len)
+781-      |                                       ^
+782:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1090:74: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+783- 1090 |           append_utf8_char_to_buffer (g_unichar_tolower (c), out_buffer, &len);
+784-      |                                                                          ^~~~
+785-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+786-  785 |                             size_t   *in_out_len)
+787-      |                                       ^
+788:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1091:59: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+789- 1091 |           append_utf8_char_to_buffer (0x0307, out_buffer, &len);
+790-      |                                                           ^~~~
+791-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+792-  785 |                             size_t   *in_out_len)
+793-      |                                       ^
+794:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1114:56: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+795- 1114 |           append_utf8_char_to_buffer (val, out_buffer, &len);
+796-      |                                                        ^~~~
+797-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:785:39: note: passing argument to parameter 'in_out_len' here
+798-  785 |                             size_t   *in_out_len)
+799-      |                                       ^
+800:../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:1125:48: error: incompatible pointer types passing 'gsize *' (aka 'unsigned int *') to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+801- 1125 |               append_special_case (out_buffer, &len, val - 0x1000000, t, 0);
+802-      |                                                ^~~~
+803-../src/glib-2-5cb0ae2525.clean/glib/guniprop.c:824:30: note: passing argument to parameter 'in_out_len' here
+804-  824 |                      size_t *in_out_len,
+805-      |                              ^
+806:fatal error: too many errors emitted, stopping now [-ferror-limit=]
+807-16 warnings and 20 errors generated.
+808-[4/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/glib-unix.c.o -MF glib/libglib-2.0.a.p/glib-unix.c.o.d -o glib/libglib-2.0.a.p/glib-unix.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c
+809:FAILED: [code=1] glib/libglib-2.0.a.p/glib-unix.c.o 
+810-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/glib-unix.c.o -MF glib/libglib-2.0.a.p/glib-unix.c.o.d -o glib/libglib-2.0.a.p/glib-unix.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c
+811-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c:41:
+812-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glib-private.h:23:
+813-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glib.h:34:
+814-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gasyncqueue.h:34:
+815-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gthread.h:36:
+817-  378 |   if (G_UNLIKELY (nth_bit < -1))
+818-      |       ^
+819-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+820- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+821-      |                                             ^
+--
+1092- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+1093-      |                                                     ^
+1095:  475 |   g_return_val_if_fail (error == NULL || *error == NULL, NULL);
+1096-      |   ^
+1097-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+1098-  667 |     if (G_LIKELY (expr)) \
+1099-      |         ^
+1100-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+1101- 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+1102-      |                                           ^
+1103-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+1104- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+1105-      |                                                     ^
+1107-  542 |   g_assert (passwd_file_entry == NULL ||
+--
+1148-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+1149- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+1150-      |                                                     ^
+1151:../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c:1010:4: error: "g_unix_fd_query_path() not supported on this platform"
+1152: 1010 |   #error "g_unix_fd_query_path() not supported on this platform"
+1153-      |    ^
+1154-../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c:952:32: warning: unused parameter 'fd' [-Wunused-parameter]
+1155-  952 | g_unix_fd_query_path (int      fd,
+1156-      |                                ^
+1157-../src/glib-2-5cb0ae2525.clean/glib/glib-unix.c:953:32: warning: unused parameter 'error' [-Wunused-parameter]
+1158:  953 |                       GError **error)
+1159-      |                                ^
+1160:37 warnings and 1 error generated.
+1161-[5/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/deprecated_gcompletion.c.o -MF glib/libglib-2.0.a.p/deprecated_gcompletion.c.o.d -o glib/libglib-2.0.a.p/deprecated_gcompletion.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gcompletion.c
+1162:FAILED: [code=1] glib/libglib-2.0.a.p/deprecated_gcompletion.c.o 
+1163-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Iglib/libglib-2.0.a.p -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -I. -I../src/glib-2-5cb0ae2525.clean -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -pthread -DPCRE2_STATIC '-DG_LOG_DOMAIN="GLib"' -DGLIB_COMPILATION -MD -MQ glib/libglib-2.0.a.p/deprecated_gcompletion.c.o -MF glib/libglib-2.0.a.p/deprecated_gcompletion.c.o.d -o glib/libglib-2.0.a.p/deprecated_gcompletion.c.o -c ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gcompletion.c
+1164-In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gcompletion.c:38:
+1165-In file included from ../src/glib-2-5cb0ae2525.clean/glib/deprecated/gcompletion.h:34:
+1166-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glist.h:34:
+1167-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gmem.h:34:
+1169-  378 |   if (G_UNLIKELY (nth_bit < -1))
+1170-      |       ^
+1171-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+1172- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+1173-      |                                             ^
+1174-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+--
+1260-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+1261- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+1262-      |                                                     ^
+1263:../src/glib-2-5cb0ae2525.clean/glib/deprecated/gcompletion.c:136:23: error: incompatible function pointer types assigning to 'GCompletionStrncmpFunc' (aka 'int (*)(const char *, const char *, unsigned int)') from 'int (const char *, const char *, __size_t)' (aka 'int (const char *, const char *, unsigned long)') [-Wincompatible-function-pointer-types]
+1264-  136 |   gcomp->strncmp_func = strncmp;
+1265-      |                       ^ ~~~~~~~
+1267-  156 |   g_return_if_fail (cmp != NULL);
+1268-      |   ^
+1269-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:654:9: note: expanded from macro 'g_return_if_fail'
+1270-  654 |     if (G_LIKELY (expr)) \
+1271-      |         ^
+1272-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+1273- 1284 | #define G_LIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 1))
+1274-      |                                           ^
+1275-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+--
+1335-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+1336- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+1337-      |                                                     ^
+1338:14 warnings and 1 error generated.
+1339-[6/57] /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Igirepository/libgirepository-2.0.a.p -Igirepository -I../src/glib-2-5cb0ae2525.clean/girepository -I. -I../src/glib-2-5cb0ae2525.clean -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -Igobject -I../src/glib-2-5cb0ae2525.clean/gobject -Igmodule -I../src/glib-2-5cb0ae2525.clean/gmodule -Igio -I../src/glib-2-5cb0ae2525.clean/gio -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -DGI_COMPILATION '-DG_LOG_DOMAIN="GLib-GIRepository"' '-DGIR_SUFFIX="gir-1.0"' '-DGIR_DIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share/gir-1.0"' '-DGOBJECT_INTROSPECTION_LIBDIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/lib"' '-DGOBJECT_INTROSPECTION_DATADIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share"' '-DGOBJECT_INTROSPECTION_RELATIVE_LIBDIR="lib"' -Wsign-conversion -MD -MQ girepository/libgirepository-2.0.a.p/girepository.c.o -MF girepository/libgirepository-2.0.a.p/girepository.c.o.d -o girepository/libgirepository-2.0.a.p/girepository.c.o -c ../src/glib-2-5cb0ae2525.clean/girepository/girepository.c
+1340:FAILED: [code=1] girepository/libgirepository-2.0.a.p/girepository.c.o 
+1341-/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -Igirepository/libgirepository-2.0.a.p -Igirepository -I../src/glib-2-5cb0ae2525.clean/girepository -I. -I../src/glib-2-5cb0ae2525.clean -Iglib -I../src/glib-2-5cb0ae2525.clean/glib -Igobject -I../src/glib-2-5cb0ae2525.clean/gobject -Igmodule -I../src/glib-2-5cb0ae2525.clean/gmodule -Igio -I../src/glib-2-5cb0ae2525.clean/gio -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth/include -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=gnu99 -D_GNU_SOURCE -fno-strict-aliasing -DG_ENABLE_DEBUG -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -fPIC -DGI_COMPILATION '-DG_LOG_DOMAIN="GLib-GIRepository"' '-DGIR_SUFFIX="gir-1.0"' '-DGIR_DIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share/gir-1.0"' '-DGOBJECT_INTROSPECTION_LIBDIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/lib"' '-DGOBJECT_INTROSPECTION_DATADIR="/home/runner/webbuild/vcpkg/packages/glib_wasm32-emscripten-wesnoth/share"' '-DGOBJECT_INTROSPECTION_RELATIVE_LIBDIR="lib"' -Wsign-conversion -MD -MQ girepository/libgirepository-2.0.a.p/girepository.c.o -MF girepository/libgirepository-2.0.a.p/girepository.c.o.d -o girepository/libgirepository-2.0.a.p/girepository.c.o -c ../src/glib-2-5cb0ae2525.clean/girepository/girepository.c
+1342-In file included from ../src/glib-2-5cb0ae2525.clean/girepository/girepository.c:32:
+1343-In file included from ../src/glib-2-5cb0ae2525.clean/glib/glib.h:34:
+1344-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gasyncqueue.h:34:
+1345-In file included from ../src/glib-2-5cb0ae2525.clean/glib/gthread.h:36:
+1347-  378 |   if (G_UNLIKELY (nth_bit < -1))
+1348-      |       ^
+1349-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1285:45: note: expanded from macro 'G_UNLIKELY'
+1350- 1285 | #define G_UNLIKELY(expr) (__builtin_expect (_G_BOOLEAN_EXPR(expr), 0))
+1351-      |                                             ^
+1352-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+--
+2227-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1283:53: note: expanded from macro '_G_BOOLEAN_EXPR'
+2228- 1283 | #define _G_BOOLEAN_EXPR(expr) _G_BOOLEAN_EXPR_IMPL (__COUNTER__, expr)
+2229-      |                                                     ^
+2230:../src/glib-2-5cb0ae2525.clean/girepository/girepository.c:1903:48: error: incompatible pointer types passing 'size_t *' (aka 'unsigned long *') to parameter of type 'gsize *' (aka 'unsigned int *') [-Wincompatible-pointer-types]
+2231- 1903 |   ret = (char **) g_ptr_array_steal (versions, n_versions_out);
+2232-      |                                                ^~~~~~~~~~~~~~
+2233-../src/glib-2-5cb0ae2525.clean/glib/garray.h:166:63: note: passing argument to parameter 'len' here
+2234-  166 |                                             gsize            *len);
+2235-      |                                                               ^
+2237- 1930 |   g_return_val_if_fail (GI_IS_REPOSITORY (repository), NULL);
+2238-      |   ^
+2239-../src/glib-2-5cb0ae2525.clean/glib/gmessages.h:667:9: note: expanded from macro 'g_return_val_if_fail'
+2240-  667 |     if (G_LIKELY (expr)) \
+2241-      |         ^
+2242-../src/glib-2-5cb0ae2525.clean/glib/gmacros.h:1284:43: note: expanded from macro 'G_LIKELY'
+--
+2339- 2161 |                              gpointer data,
+2340-      |                                       ^
+2341-../src/glib-2-5cb0ae2525.clean/girepository/girepository.c:2162:39: warning: unused parameter 'error' [-Wunused-parameter]
+2342: 2162 |                              GError **error)
+2343-      |                                       ^
+2344:../src/glib-2-5cb0ae2525.clean/girepository/girepository.c:2180:5: warning: initializing 'gpointer' (aka 'void *') with an expression of type 'gboolean (const char *, const char *, gpointer, GError **)' (aka 'int (const char *, const char *, void *, struct _GError **)') converts between void pointer and function pointer [-Wpedantic]
+2345- 2180 |     gi_repository_introspect_cb, "Dump introspection information",
+2346-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+2347:91 warnings and 1 error generated.
+2348-ninja: build stopped: subcommand failed.

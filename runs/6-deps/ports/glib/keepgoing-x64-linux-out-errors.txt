@@ -1,0 +1,16 @@
+580-  646 | #define G_TYPE_FROM_INSTANCE(instance)                          (G_TYPE_FROM_CLASS (((GTypeInstance*) (instance))->g_class))
+581-      |                                                                  ^~~~~~~~~~~~~~~~~
+582-../src/glib-2-5cb0ae2525.clean/girepository/girwriter.c:1453:59: note: in expansion of macro ‘G_TYPE_FROM_INSTANCE’
+583: 1453 |             g_error ("unknown info type %s", g_type_name (G_TYPE_FROM_INSTANCE (info)));
+584-      |                                                           ^~~~~~~~~~~~~~~~~~~~
+585-[415/697] Compiling C object girepository/libgirepository-2.0.a.p/gicallableinfo.c.o
+586-[416/697] Compiling C object girepository/libgirepository-2.0.a.p/gdump.c.o
+587-[417/697] Compiling C object girepository/libgirepository-2.0.a.p/gicallbackinfo.c.o
+588-[418/697] Compiling C object girepository/libgirepository-2.0.a.p/giconstantinfo.c.o
+589-[419/697] Compiling C object girepository/libgirepository-2.0.a.p/gienuminfo.c.o
+590-[420/697] Compiling C object girepository/libgirepository-2.0.a.p/gibaseinfo.c.o
+591-[421/697] Compiling C object girepository/libgirepository-internals.a.p/girnode.c.o
+592-[422/697] Compiling C object girepository/libgirepository-2.0.a.p/gifunctioninfo.c.o
+593-[423/697] Compiling C object girepository/libgirepository-2.0.a.p/giflagsinfo.c.o
+594-[424/697] Compiling C object girepository/libgirepository-2.0.a.p/gifieldinfo.c.o
+595-[425/697] Compiling C object girepository/libgirepository-2.0.a.p/ginvoke.c.o

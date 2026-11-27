@@ -1,0 +1,16 @@
+39-cpu = 'x86_64'
+40-[built-in options]
+41-default_library = 'static'
+42:werror = false
+43-c_args = ['-fPIC', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/x64-linux/include']
+44-c_link_args = ['-L/home/runner/webbuild/vcpkg/installed/x64-linux/lib']
+45-
+46-cpp_args = ['-fPIC', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/x64-linux/include']
+47-cpp_link_args = ['-L/home/runner/webbuild/vcpkg/installed/x64-linux/lib']
+48-
+49-
+50-
+51-
+52-# b_vscrt
+53-
+54-# c_winlibs/cpp_winlibs
