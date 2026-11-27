@@ -1,0 +1,1 @@
+FAILED: [code=1] wesnoth.js 
