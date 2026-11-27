@@ -68,7 +68,7 @@ mkdir -p "$LOG_DIR/ports"
 for d in "$WORK_DIR"/vcpkg/buildtrees/*/; do
 	port="$(basename "$d")"
 	[ "$port" = "detect_compiler" ] && continue
-	if ! grep -q "^$port:" "$LOG_DIR/installed.txt"; then
+	if ! grep -q "^$port:$TRIPLET" "$LOG_DIR/installed.txt"; then
 		mkdir -p "$LOG_DIR/ports/$port"
 		for f in "$d"*.log; do
 			[ -f "$f" ] || continue
