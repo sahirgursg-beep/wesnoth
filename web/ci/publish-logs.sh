@@ -7,6 +7,7 @@
 set -euo pipefail
 
 SRC="$1"
+mkdir -p "$SRC"
 NAME="$2"
 BRANCH=ci-logs
 DEST="runs/${GITHUB_RUN_NUMBER}-${NAME}"

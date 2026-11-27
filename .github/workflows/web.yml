@@ -50,7 +50,7 @@ jobs:
             vcpkg-wasm-
 
       - name: Build dependencies
-        run: web/ci/build-deps.sh
+        run: web/ci/deps.sh
 
       - name: Save vcpkg binary cache
         if: always()
