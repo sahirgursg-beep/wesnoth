@@ -4,7 +4,9 @@
 #
 # The data is split so the title screen appears quickly:
 #   core      loaded before the game starts: configuration, UI images, fonts,
-#             translations, title screen backgrounds, campaign WML
+#             title screen backgrounds, campaign WML
+#   lang-xx   the translations of one language, loaded before the game starts
+#             for the language picked on the page
 #   others    fetched in the background once the game runs (unit and terrain
 #             images, portraits, story art, sounds, campaign art). The game
 #             waits for them before it shows a map (see game_launcher.cpp).
@@ -33,8 +35,10 @@ for d in "$REPO_DIR"/data/campaigns/*/; do
 	n="$(basename "$d")"
 	[ "$n" = World_Conquest ] || CAMPAIGNS+=("$n")
 done
-# Languages shipped besides English.
-LANGUAGES=(tr)
+# Languages shipped besides English, each in its own package (lang-<code>)
+# that the page loads only for the language the player picks. Only languages
+# whose script the shipped fonts cover (no CJK yet).
+LANGUAGES=(tr de fr es it pl ru cs hu pt_BR)
 # Fonts only needed for Chinese/Japanese/Korean (not shipped yet).
 CJK_FONTS=(DroidSansFallbackFull.ttf NotoSansJP-VariableFont_wght.ttf)
 
@@ -66,20 +70,21 @@ pack() {
 	echo "packed $name: $(du -h "$SITE_DIR/$name.data" | cut -f1)"
 }
 
-# --- translations: .po -> translations/<lang>/LC_MESSAGES/<domain>.mo
-rm -rf "$REPO_DIR/translations"
+# --- translations: .po -> translations/<lang>/LC_MESSAGES/<domain>.mo,
+#     compiled straight into the stage of the language's package
 for lang in "${LANGUAGES[@]}"; do
-	mkdir -p "$REPO_DIR/translations/$lang/LC_MESSAGES"
+	out="$STAGE_DIR/lang-$lang/translations/$lang/LC_MESSAGES"
+	mkdir -p "$out"
 	for po in "$REPO_DIR"/po/*/"$lang".po; do
 		domain="$(basename "$(dirname "$po")")"
 		case "$domain" in wesnoth-manpages|wesnoth-manual) continue ;; esac
-		msgfmt --check-domain -o "$REPO_DIR/translations/$lang/LC_MESSAGES/$domain.mo" "$po"
+		msgfmt --check-domain -o "$out/$domain.mo" "$po"
 	done
-	echo "translations/$lang: $(ls "$REPO_DIR/translations/$lang/LC_MESSAGES" | wc -l) domains"
+	echo "translations/$lang: $(ls "$out" | wc -l) domains"
 done
 
 # --- core (needed before the title screen)
-CORE=(images sounds translations data/COPYING.txt)
+CORE=(images sounds data/COPYING.txt)
 for f in "$REPO_DIR"/fonts/*; do
 	n="$(basename "$f")"
 	case " ${CJK_FONTS[*]} " in *" $n "*) ;; *) CORE+=("fonts/$n") ;; esac
@@ -139,6 +144,11 @@ assert n == 1, "game_title_background not found"
 open(path, "w", encoding="utf-8").write(cfg)
 EOF
 pack core
+
+# --- one package per language, loaded before the game starts
+LANGUAGE_MAP="$WORK_DIR/language-packages.json"
+python3 -c 'import json,sys; print(json.dumps({l: "lang-" + l for l in sys.argv[1:]}))' "${LANGUAGES[@]}" > "$LANGUAGE_MAP"
+for lang in "${LANGUAGES[@]}"; do pack "lang-$lang"; done
 
 # --- background packages, in the order they are fetched
 stage terrain data/core/images/terrain data/core/images/maps data/core/images/scenery data/core/images/halo
@@ -250,18 +260,20 @@ else
 	copy_engine "$BUILD_DIR" wesnoth
 fi
 [ -f "$SITE_DIR/wesnoth.js" ] || [ -f "$SITE_DIR/wesnoth-asyncify.js" ] || { echo "no engine built"; exit 1; }
-python3 - "$REPO_DIR/web/shell/index.html" "$SITE_DIR/index.html" "$CAMPAIGN_MAP" "${PACKAGES[@]}" <<'EOF'
+python3 - "$REPO_DIR/web/shell/index.html" "$SITE_DIR/index.html" "$CAMPAIGN_MAP" "$LANGUAGE_MAP" "${PACKAGES[@]}" <<'EOF'
 import json, sys
-src, dst, campaign_map, packages = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4:]
+src, dst, campaign_map, language_map, packages = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5:]
 html = open(src, encoding="utf-8").read()
 campaigns = json.load(open(campaign_map))
+languages = json.load(open(language_map))
 startup = packages[:1]
-background = [p for p in packages[1:] if not p.startswith("campaign-")]
+background = [p for p in packages[1:] if not p.startswith(("campaign-", "lang-"))]
 tags = "\n".join('<script src="%s.js"></script>' % p for p in startup)
 import os
 sizes = {p: os.path.getsize(os.path.join(os.path.dirname(dst), p + ".data")) for p in packages}
 config = ("<script>window.wesnothBackgroundPackages = %s;\nwindow.wesnothCampaignPackages = %s;\n"
-          "window.wesnothPackageSizes = %s;</script>") % (json.dumps(background), json.dumps(campaigns), json.dumps(sizes))
+          "window.wesnothLanguagePackages = %s;\nwindow.wesnothPackageSizes = %s;</script>") % (
+          json.dumps(background), json.dumps(campaigns), json.dumps(languages), json.dumps(sizes))
 assert "<!-- PACKAGES -->" in html and "</head>" in html
 # the list must exist before the page script runs, so it goes into <head>
 html = html.replace("</head>", config + "\n</head>", 1)

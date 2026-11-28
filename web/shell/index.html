@@ -16,6 +16,10 @@
   #error { display: none; max-width: 640px; font-size: 14px; color: #f0a0a0; white-space: pre-wrap; text-align: left; }
   #note { font-size: 12px; opacity: 0.55; max-width: 520px; }
   #badge { display: none; position: fixed; left: 50%; bottom: 6px; transform: translateX(-50%); padding: 3px 10px; border-radius: 10px; background: rgba(0,0,0,0.65); color: #c9a85a; font: 12px Georgia, serif; z-index: 4; pointer-events: none; }
+  #langpick { display: none; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 560px; }
+  #langpick button { font: 16px Georgia, serif; color: #e8dcc0; background: #2a2620; border: 1px solid #6b5a35; border-radius: 6px; padding: 10px 18px; cursor: pointer; min-width: 140px; }
+  #langpick button:hover, #langpick button:focus { background: #3a3326; border-color: #c9a85a; outline: none; }
+  #langlink { font-size: 12px; color: #c9a85a; opacity: 0.7; cursor: pointer; text-decoration: underline; background: none; border: none; font-family: Georgia, serif; }
   #debuglog { display: none; position: fixed; right: 0; bottom: 0; width: 50vw; height: 40vh; overflow: auto; background: rgba(0,0,0,0.85); color: #9f9; font: 11px monospace; white-space: pre-wrap; z-index: 10; padding: 6px; }
 </style>
 </head>
@@ -26,10 +30,12 @@
 <div id="overlay">
   <h1>The Battle for Wesnoth</h1>
   <div id="status">Yükleniyor…</div>
+  <div id="langpick"></div>
   <div id="bar"><div></div></div>
   <div id="error"></div>
   <div id="note">Deneysel tarayıcı sürümü. En iyi Chrome, Edge veya Firefox'ta çalışır; Safari ve iPhone'da uyumluluk sürümü kullanılır.
     Wesnoth özgür bir yazılımdır (GPL-2.0-or-later), bkz. wesnoth.org.</div>
+  <button id="langlink" type="button">Dil / Language</button>
 </div>
 <script>
   "use strict";
@@ -39,6 +45,61 @@
   const barEl = document.querySelector("#bar > div");
   const errorEl = document.getElementById("error");
   const badgeEl = document.getElementById("badge");
+
+  // --- Language -------------------------------------------------------------
+  // The player picks a language before anything big is downloaded; only that
+  // language's translations (package lang-<code>, see package.sh) are loaded.
+  // The choice is remembered; ?lang=<code> overrides it, ?lang=en is English.
+  const LANGUAGES = [
+    ["tr", "Türkçe"], ["en", "English"], ["de", "Deutsch"], ["fr", "Français"],
+    ["es", "Español"], ["it", "Italiano"], ["pl", "Polski"], ["pt_BR", "Português (Brasil)"],
+    ["ru", "Русский"], ["cs", "Čeština"], ["hu", "Magyar"],
+  ];
+  const languagePackages = window.wesnothLanguagePackages || {};
+  function storedLanguage() {
+    try { return localStorage.getItem("wesnoth-language"); } catch (e) { return null; }
+  }
+  function storeLanguage(code) {
+    try { localStorage.setItem("wesnoth-language", code); } catch (e) { /* private mode */ }
+  }
+  function normalizeLanguage(code) {
+    if (!code) { return null; }
+    code = code.replace("-", "_");
+    if (code === "en" || code.startsWith("en_")) { return "en"; }
+    if (languagePackages[code]) { return code; }
+    const base = code.split("_")[0];
+    return languagePackages[base] ? base : null;
+  }
+  let language = normalizeLanguage(params.get("lang")) || normalizeLanguage(storedLanguage());
+
+  // Texts of this page itself (the game has its own translations).
+  const TEXTS = {
+    tr: {
+      loading: "Yükleniyor…", error: "Bir sorun oluştu.", engineFailed: "Oyun motoru yüklenemedi: ",
+      engine: "Oyun motoru indiriliyor…", data: "Oyun verileri indiriliyor…",
+      background: "Oyun verileri arka planda indiriliyor…", campaign: "Seferberlik verileri indiriliyor…",
+      map: "Harita için oyun verileri indiriliyor…", starting: "Başlatılıyor…",
+      stopped: "Oyun durdu: ", console: "\nAyrıntılar için tarayıcı konsolunu (F12) açın.",
+      noEngine: "Bu tarayıcı için oyun motoru bulunamadı ", pick: "Dil seçin",
+    },
+    en: {
+      loading: "Loading…", error: "Something went wrong.", engineFailed: "Could not load the game engine: ",
+      engine: "Downloading the game engine…", data: "Downloading game data…",
+      background: "Downloading game data in the background…", campaign: "Downloading campaign data…",
+      map: "Downloading game data for the map…", starting: "Starting…",
+      stopped: "The game stopped: ", console: "\nOpen the browser console (F12) for details.",
+      noEngine: "No game engine found for this browser ", pick: "Choose a language",
+    },
+  };
+  function T(key) { return (TEXTS[language] || TEXTS.en)[key]; }
+  function percent(text, pct) { return language === "tr" ? text + " %" + pct : text + " " + pct + "%"; }
+
+  document.getElementById("langlink").addEventListener("click", () => {
+    try { localStorage.removeItem("wesnoth-language"); } catch (e) { /* ignore */ }
+    const url = new URL(location.href);
+    url.searchParams.delete("lang");
+    location.href = url.toString();
+  });
 
   // Every line the game prints is kept in window.wesnothLog (and shown with ?debug).
   window.wesnothLog = [];
@@ -58,7 +119,7 @@
     overlay.style.display = "flex";
     errorEl.style.display = "block";
     errorEl.textContent = text;
-    statusEl.textContent = "Bir sorun oluştu.";
+    statusEl.textContent = T("error");
   }
 
   // Two builds of the engine: "wesnoth" uses WebAssembly JSPI (Chrome, Edge,
@@ -150,11 +211,11 @@
     const n = packages.background.length;
     const done = backgroundDone();
     badgeEl.style.display = done >= n ? "none" : "block";
-    badgeEl.textContent = "Oyun verileri arka planda indiriliyor… %" + packagePercent(packages.background);
+    badgeEl.textContent = percent(T("background"), packagePercent(packages.background));
     if (packages.waiting) {
       const pct = packagePercent(packages.needed);
       barEl.style.width = pct + "%";
-      statusEl.textContent = packages.waiting + " %" + pct;
+      statusEl.textContent = percent(packages.waiting, pct);
     }
   }
 
@@ -171,7 +232,7 @@
       }
       const pct = packagePercent(["core"]);
       barEl.style.width = pct + "%";
-      statusEl.textContent = "Oyun verileri indiriliyor… %" + pct;
+      statusEl.textContent = percent(T("data"), pct);
     },
     // Download the engine gzipped (Pages serves .wasm uncompressed) and show
     // its progress; fall back to Emscripten's own loading if anything fails.
@@ -190,7 +251,7 @@
               if (total && !response.headers.get("content-encoding")) {
                 const pct = Math.min(99, Math.floor(100 * loaded / total));
                 barEl.style.width = pct + "%";
-                statusEl.textContent = "Oyun motoru indiriliyor… %" + pct;
+                statusEl.textContent = percent(T("engine"), pct);
               }
               controller.enqueue(chunk);
             },
@@ -200,11 +261,11 @@
             new Response(wasm, { headers: { "Content-Type": "application/wasm" } }), imports);
         } catch (e) {
           logLine("js-error", "gzipped engine failed (" + e + "), loading " + engineName + ".wasm");
-          statusEl.textContent = "Oyun motoru indiriliyor…";
+          statusEl.textContent = T("engine");
           result = await WebAssembly.instantiateStreaming(fetch(engineName + ".wasm"), imports);
         }
         receiveInstance(result.instance, result.module);
-      })().catch((e) => showError("Oyun motoru yüklenemedi: " + e));
+      })().catch((e) => showError(T("engineFailed") + e));
       return {};
     },
     wesnothDataVersion: 0,
@@ -213,7 +274,7 @@
       const campaignPackage = campaignId && packages.campaigns[campaignId];
       if (campaignPackage) { needed.push(campaignPackage); }
       if (needed.every((n) => packageState(n).done)) { return; }
-      packages.waiting = campaignPackage ? "Seferberlik verileri indiriliyor…" : "Harita için oyun verileri indiriliyor…";
+      packages.waiting = campaignPackage ? T("campaign") : T("map");
       packages.needed = needed;
       overlay.classList.add("translucent");
       overlay.style.display = "flex";
@@ -225,12 +286,12 @@
       overlay.style.display = "none";
     },
     preRun: [() => {
-      // Language: Turkish by default, ?lang=en (or any locale) to override.
-      // The game uses this until a language is picked in its preferences.
-      const lang = params.get("lang") || "tr_TR";
-      const locale = (lang === "en" ? "en_US" : lang).replace("-", "_");
+      // The language picked on the page; the game uses it until another
+      // one is chosen in its own preferences.
+      const LOCALES = { en: "en_US", cs: "cs_CZ", pt_BR: "pt_BR" };
+      const locale = LOCALES[language] || (language + "_" + language.toUpperCase());
       Module.ENV.LANG = locale + ".UTF-8";
-      Module.ENV.LANGUAGE = locale;
+      Module.ENV.LANGUAGE = language === "en" ? "en_US" : language;
 
       // Saves, preferences and add-ons live in IndexedDB.
       const FS = Module.FS;
@@ -245,7 +306,7 @@
     }],
     onRuntimeInitialized: () => {
       window.wesnothStarted = true;
-      statusEl.textContent = "Başlatılıyor…";
+      statusEl.textContent = T("starting");
       barEl.style.width = "100%";
       setTimeout(() => { if (!packages.waiting) { overlay.style.display = "none"; } }, 300);
 
@@ -263,7 +324,7 @@
     onExit: (code) => { logLine("exit", String(code)); },
     onAbort: (what) => {
       logLine("abort", String(what));
-      showError("Oyun durdu: " + what + "\nAyrıntılar için tarayıcı konsolunu (F12) açın.");
+      showError(T("stopped") + what + T("console"));
     },
   };
 
@@ -317,18 +378,52 @@
 </script>
 <!-- PACKAGES -->
 <script>
-  (() => {
+  // Load the chosen language's package, then the engine. Without a choice yet,
+  // show the language picker first.
+  function addScript(src, onerror) {
     const script = document.createElement("script");
-    script.src = window.wesnothEngine + ".js";
+    script.src = src;
     script.async = false;
-    script.onerror = () => {
+    script.onerror = onerror;
+    document.body.appendChild(script);
+  }
+  function startGame() {
+    document.documentElement.lang = language === "pt_BR" ? "pt-BR" : language;
+    document.getElementById("langpick").style.display = "none";
+    document.getElementById("bar").style.display = "";
+    document.getElementById("status").textContent = T("loading");
+    const pkg = languagePackages[language];
+    if (pkg) { addScript(pkg + ".js", () => logLine("js-error", "could not load " + pkg + ".js")); }
+    addScript(window.wesnothEngine + ".js", () => {
       const err = document.getElementById("error");
       document.getElementById("overlay").style.display = "flex";
       err.style.display = "block";
-      err.textContent = "Bu tarayıcı için oyun motoru bulunamadı (" + script.src + ").";
-    };
-    document.body.appendChild(script);
-  })();
+      err.textContent = T("noEngine") + "(" + window.wesnothEngine + ".js).";
+    });
+  }
+  if (language) {
+    startGame();
+  } else {
+    const pick = document.getElementById("langpick");
+    const guess = normalizeLanguage((navigator.language || "").replace("-", "_")) || "en";
+    language = guess;
+    document.getElementById("status").textContent = T("pick");
+    document.getElementById("bar").style.display = "none";
+    for (const [code, name] of LANGUAGES) {
+      if (code !== "en" && !languagePackages[code]) { continue; }
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = name;
+      button.addEventListener("click", () => {
+        language = code;
+        storeLanguage(code);
+        startGame();
+      });
+      if (code === guess) { pick.prepend(button); } else { pick.appendChild(button); }
+    }
+    pick.style.display = "flex";
+    pick.firstChild && pick.firstChild.focus();
+  }
 </script>
 </body>
 </html>
