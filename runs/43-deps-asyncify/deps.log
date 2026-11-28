@@ -1,0 +1,1147 @@
+== emsdk 7.0.1
+Cloning into '/home/runner/webbuild/emsdk'...
+Resolving SDK version '7.0.1' to 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'
+Installing SDK 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'..
+Installing tool 'node-24.19.0-64bit'..
+Downloading: /home/runner/webbuild/emsdk/downloads/node-v24.19.0-linux-x64.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/node-v24.19.0-linux-x64.tar.xz, 31633904 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking '/home/runner/webbuild/emsdk/downloads/node-v24.19.0-linux-x64.tar.xz' to '/home/runner/webbuild/emsdk/node/24.19.0_64bit'
+Done installing tool 'node-24.19.0-64bit'.
+Installing tool 'releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'..
+Downloading: /home/runner/webbuild/emsdk/downloads/9146b21a8350e85c9934cf570f7a6ceb7470623b-wasm-binaries.tar.xz from https://storage.googleapis.com/webassembly/emscripten-releases-builds/linux/9146b21a8350e85c9934cf570f7a6ceb7470623b/wasm-binaries.tar.xz, 306625968 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking '/home/runner/webbuild/emsdk/downloads/9146b21a8350e85c9934cf570f7a6ceb7470623b-wasm-binaries.tar.xz' to '/home/runner/webbuild/emsdk/upstream'
+Done installing tool 'releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'.
+Done installing SDK 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'.
+Resolving SDK version '7.0.1' to 'sdk-releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit'
+Setting the following tools as active:
+   node-24.19.0-64bit
+   releases-9146b21a8350e85c9934cf570f7a6ceb7470623b-64bit
+
+Next steps:
+- To conveniently access emsdk tools from the command line,
+  consider adding the following directories to your PATH:
+    /home/runner/webbuild/emsdk
+    /home/runner/webbuild/emsdk/upstream/emscripten
+- This can be done for the current shell by running:
+    source "/home/runner/webbuild/emsdk/emsdk_env.sh"
+- Configure emsdk in your shell startup scripts by running:
+    echo 'source "/home/runner/webbuild/emsdk/emsdk_env.sh"' >> $HOME/.bash_profile
+Setting up EMSDK environment (suppress these messages with EMSDK_QUIET=1)
+Adding directories to PATH:
+PATH += /home/runner/webbuild/emsdk
+PATH += /home/runner/webbuild/emsdk/upstream/emscripten
+
+Setting environment variables:
+PATH = /home/runner/webbuild/emsdk:/home/runner/webbuild/emsdk/upstream/emscripten:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+EMSDK = /home/runner/webbuild/emsdk
+EMSDK_NODE = /home/runner/webbuild/emsdk/node/24.19.0_64bit/bin/node
+Clearing existing environment variable: EMSDK_VERSION
+shared:INFO: (Emscripten: Running sanity checks)
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)
+== vcpkg 04a9d8e5212d01ee1dd9478eadd9caade4f8b0d4
+Downloading vcpkg-glibc...
+vcpkg package management program version 2026-07-27-98d7cb0cf1f4686a3e43aa5672b6230c1d56bce8
+
+See LICENSE.txt for license information.
+== vcpkg install (32 packages)
+Computing installation plan...
+warning: boost-process is only supported on '!uwp & !emscripten & !android', which does not match wasm32-emscripten-wesnoth-asyncify. This usually means that there are known build failures, or runtime problems, when building other platforms. Proceeding anyway due to `--allow-unsupported`.
+The following packages will be built and installed:
+  * boost-algorithm:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-align:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-any:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-asio[core,deadline-timer]:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-atomic:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-bimap:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-charconv:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-chrono:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-circular-buffer:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-compat:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-container:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-date-time:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-dynamic-bitset:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-endian:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-filesystem:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-foreach:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-format:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-functional:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-graph:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-integer:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-intrusive:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-iostreams[bzip2,core,lzma,zlib,zstd]:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-lambda:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-lexical-cast:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-locale[core,icu]:wasm32-emscripten-wesnoth-asyncify@1.92.0 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/boost-locale
+    boost-logic:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-math:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-move:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-multi-array:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-multi-index:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-multiprecision:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-numeric-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-parameter:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-phoenix:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-pool:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-process:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-program-options:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-property-map:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-property-tree:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-proto:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-ptr-container:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-random:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-range:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-ratio:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-regex[core,icu]:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-scope:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-scope-exit:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-serialization:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-spirit:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-static-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0
+    boost-system:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-thread:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-tokenizer:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-tti:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-type-index:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-unordered:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-variant:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-variant2:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-winapi:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * boost-xpressive:wasm32-emscripten-wesnoth-asyncify@1.92.0
+  * brotli:wasm32-emscripten-wesnoth-asyncify@1.2.0
+    bzip2[core,tool]:wasm32-emscripten-wesnoth-asyncify@1.0.8#6
+    cairo[core,fontconfig,freetype,gobject]:wasm32-emscripten-wesnoth-asyncify@1.18.4#1
+    curl[core,openssl]:wasm32-emscripten-wesnoth-asyncify@8.22.0
+  * dirent:x64-linux@1.26
+  * dirent:wasm32-emscripten-wesnoth-asyncify@1.26
+  * expat:wasm32-emscripten-wesnoth-asyncify@2.8.3
+    fontconfig[core,iconv]:wasm32-emscripten-wesnoth-asyncify@2.17.1#2
+  * freetype[brotli,bzip2,core,png,zlib]:wasm32-emscripten-wesnoth-asyncify@2.14.3
+  * fribidi:x64-linux@1.0.16
+  * fribidi:wasm32-emscripten-wesnoth-asyncify@1.0.16
+  * gettext[core,tools]:x64-linux@0.22.5#4
+  * gettext-libintl:wasm32-emscripten-wesnoth-asyncify@0.22.5#4
+  * gettext-libintl:x64-linux@0.22.5#4
+  * glib:x64-linux@2.88.3 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib
+  * glib:wasm32-emscripten-wesnoth-asyncify@2.88.3 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/glib
+  * gperf:x64-linux@3.3
+  * harfbuzz[core,freetype]:wasm32-emscripten-wesnoth-asyncify@14.4.0
+  * icu:wasm32-emscripten-wesnoth-asyncify@78.3#2 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu
+  * icu[core,tools]:x64-linux@78.3#2 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu
+  * libffi:x64-linux@3.8.0
+  * libffi:wasm32-emscripten-wesnoth-asyncify@3.8.0
+  * libiconv:x64-linux@1.19
+  * libiconv:wasm32-emscripten-wesnoth-asyncify@1.19
+  * libjpeg-turbo:wasm32-emscripten-wesnoth-asyncify@3.2.0
+  * liblzma:wasm32-emscripten-wesnoth-asyncify@5.8.3
+    libogg:wasm32-emscripten-wesnoth-asyncify@1.3.6#1
+  * libpng:wasm32-emscripten-wesnoth-asyncify@1.6.58
+  * libuuid:wasm32-emscripten-wesnoth-asyncify@1.0.3#17
+    libvorbis:wasm32-emscripten-wesnoth-asyncify@1.3.7#4
+    libwebp[core,libwebpmux,nearlossless]:wasm32-emscripten-wesnoth-asyncify@1.6.0#3
+    openssl:wasm32-emscripten-wesnoth-asyncify@3.6.4
+    pango:wasm32-emscripten-wesnoth-asyncify@1.58.0 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/pango
+  * pcre2[core,platform-default-features]:wasm32-emscripten-wesnoth-asyncify@10.47#1
+  * pcre2[core,jit,platform-default-features]:x64-linux@10.47#1
+  * pixman:wasm32-emscripten-wesnoth-asyncify@0.46.4#1
+  * pthread:wasm32-emscripten-wesnoth-asyncify@3.0.0#2
+  * pthreads:wasm32-emscripten-wesnoth-asyncify@3.0.0#14
+    sdl3:wasm32-emscripten-wesnoth-asyncify@3.4.16
+    sdl3-image[core,jpeg,png,webp]:wasm32-emscripten-wesnoth-asyncify@3.4.4#1
+    sdl3-mixer[core,libvorbis]:wasm32-emscripten-wesnoth-asyncify@3.2.4
+  * vcpkg-boost:x64-linux@2026-08-21
+  * vcpkg-cmake:x64-linux@2025-08-07
+  * vcpkg-cmake-config:x64-linux@2026-07-21
+  * vcpkg-cmake-get-vars:x64-linux@2025-05-29
+  * vcpkg-make:x64-linux@2026-07-09
+  * vcpkg-tool-meson:x64-linux@1.9.0#10 -- /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/vcpkg-tool-meson
+  * zlib:x64-linux@1.3.2#2
+    zlib:wasm32-emscripten-wesnoth-asyncify@1.3.2#2
+  * zstd:wasm32-emscripten-wesnoth-asyncify@1.5.7
+Additional packages (*) will be modified to complete this operation.
+Detecting compiler hash for triplet wasm32-emscripten-wesnoth-asyncify...
+Compiler found: /home/runner/webbuild/emsdk/upstream/emscripten/em++
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Restored 17 package(s) from /home/runner/webbuild/vcpkg-bincache in 1.1 s. Use --debug to see more details.
+Installing 1/140 boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: e6cb68064ae910ffaf756236c94ab93144599e37bb77caba774753ea7fa242c2
+Building boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+-- 
+Please use the following command when you need to remove all boost ports/components:
+    "./vcpkg remove boost-uninstall:wasm32-emscripten-wesnoth-asyncify --recurse"
+
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-uninstall:wasm32-emscripten-wesnoth-asyncify: 14 ms
+Installing 2/140 vcpkg-cmake:x64-linux@2025-08-07...
+vcpkg-cmake:x64-linux@2025-08-07 package ABI: 4f40e78de7fb045a6f2fc4d3de0da187f00f5a3115cbbaa495fe649242133298
+Elapsed time to handle vcpkg-cmake:x64-linux: 679 us
+Installing 3/140 vcpkg-cmake-config:x64-linux@2026-07-21...
+vcpkg-cmake-config:x64-linux@2026-07-21 package ABI: f9db7287c86f61362a2bcc9f63e752a24011158a4514036fb48397096e7270af
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 477 us
+Installing 4/140 vcpkg-boost:x64-linux@2026-08-21...
+vcpkg-boost:x64-linux@2026-08-21 package ABI: 5cbceaf860d0d970eebc0f4b14a7eede6d49b2e643ddf66305d0c753c5a90271
+Elapsed time to handle vcpkg-boost:x64-linux: 448 us
+Installing 5/140 boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 0e233880faefc71fdae3b858ae312668c8641a6895d28026da05d38ac7515d01
+Building boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/cmake/archive/boost-1.92.0.tar.gz -> boostorg-cmake-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-cmake-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-cmake-boost-1.92.0.tar.gz
+-- Applying patch 0001-vcpkg-build.patch
+-- Applying patch 0002-remove-prefix-and-suffix.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-cmake/src/ost-1.92.0-bc5186e78d.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Up-to-date: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostTest.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostInstall.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostFetch.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostTestJamfile.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostMessage.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost-cmake/vcpkg-port-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost-cmake/usage
+Downloading https://raw.githubusercontent.com/boostorg/boost/refs/tags/boost-1.92.0/LICENSE_1_0.txt -> boost-1.92.0-LICENSE_1_0.txt
+Successfully downloaded boost-1.92.0-LICENSE_1_0.txt
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-cmake_wasm32-emscripten-wesnoth-asyncify/share/boost-cmake/copyright
+-- Performing post-build validation
+Starting submission of boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-cmake:wasm32-emscripten-wesnoth-asyncify: 740 ms
+Completed submission of boost-uninstall:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 19.5 ms
+Installing 6/140 boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 612b6a613eaab8d73c812c217520665dafa4cdd401a706f928b60e69523919cc
+Building boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/headers/archive/boost-1.92.0.tar.gz -> boostorg-headers-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-headers-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-headers-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-headers/src/ost-1.92.0-9805d0a019.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-headers/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-headers_wasm32-emscripten-wesnoth-asyncify/share/boost-headers/copyright
+-- Performing post-build validation
+Starting submission of boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-headers:wasm32-emscripten-wesnoth-asyncify: 497 ms
+Completed submission of boost-cmake:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.16 ms
+Installing 7/140 boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 0464b58ccbe4ec1ea1be2b4b74ac359390c4dda586bdbad16ac803d815636060
+Building boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/config/archive/boost-1.92.0.tar.gz -> boostorg-config-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-config-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-config-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-config/src/ost-1.92.0-0c0276f5a9.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-config/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-config_wasm32-emscripten-wesnoth-asyncify/share/boost-config/copyright
+-- Performing post-build validation
+Starting submission of boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-config:wasm32-emscripten-wesnoth-asyncify: 576 ms
+Completed submission of boost-headers:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.19 ms
+Installing 8/140 boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: ddd6e99a2980a7624bde430e593f34e34272bd6153e1de542f34d4cd38e4b583
+Building boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/assert/archive/boost-1.92.0.tar.gz -> boostorg-assert-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-assert-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-assert-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-assert/src/ost-1.92.0-394abe8f17.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-assert/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-assert_wasm32-emscripten-wesnoth-asyncify/share/boost-assert/copyright
+-- Performing post-build validation
+Starting submission of boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-assert:wasm32-emscripten-wesnoth-asyncify: 474 ms
+Completed submission of boost-config:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 19 ms
+Installing 9/140 boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 134f26a86ed2d2c3b4d9ece049d2cbb454f5f101736e0049ec10cfd100f81cbe
+Building boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/throw_exception/archive/boost-1.92.0.tar.gz -> boostorg-throw_exception-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-throw_exception-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-throw_exception-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-throw-exception/src/ost-1.92.0-bd59294578.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-throw-exception/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/share/boost-throw-exception/copyright
+-- Performing post-build validation
+Starting submission of boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-throw-exception:wasm32-emscripten-wesnoth-asyncify: 472 ms
+Completed submission of boost-assert:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 4.34 ms
+Installing 10/140 boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: fa8eb8791534bcff29fde13d23fd76df821b68d60c08a480b1194ac3f367b7fd
+Building boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/array/archive/boost-1.92.0.tar.gz -> boostorg-array-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-array-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-array-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-array/src/ost-1.92.0-93b91032f3.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-array/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-array_wasm32-emscripten-wesnoth-asyncify/share/boost-array/copyright
+-- Performing post-build validation
+Starting submission of boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-array:wasm32-emscripten-wesnoth-asyncify: 464 ms
+Completed submission of boost-throw-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.58 ms
+Installing 11/140 boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 179cc86e7fd72a5351415648ef2d09960cb0d65f6dd3cbf4040063bc0e3d5b2d
+Building boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/core/archive/boost-1.92.0.tar.gz -> boostorg-core-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-core-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-core-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-core/src/ost-1.92.0-af2156cbbc.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-core/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-core_wasm32-emscripten-wesnoth-asyncify/share/boost-core/copyright
+-- Performing post-build validation
+Starting submission of boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-core:wasm32-emscripten-wesnoth-asyncify: 512 ms
+Completed submission of boost-array:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.21 ms
+Installing 12/140 boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: e389be8c94e63dba8d78d80b1b946402fba77aa2c0cd60a35d3709b8e46b496a
+Building boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/bind/archive/boost-1.92.0.tar.gz -> boostorg-bind-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-bind-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-bind-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-bind/src/ost-1.92.0-5582a80136.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-bind/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-bind_wasm32-emscripten-wesnoth-asyncify/share/boost-bind/copyright
+-- Performing post-build validation
+Starting submission of boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-bind:wasm32-emscripten-wesnoth-asyncify: 503 ms
+Completed submission of boost-core:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 8.06 ms
+Installing 13/140 boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: db751d65e17ef303f97403f20783e24df3f4752a6cb488469595d71547492247
+Building boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/preprocessor/archive/boost-1.92.0.tar.gz -> boostorg-preprocessor-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-preprocessor-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-preprocessor-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-preprocessor/src/ost-1.92.0-da2645d6a3.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-preprocessor/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-preprocessor_wasm32-emscripten-wesnoth-asyncify/share/boost-preprocessor/copyright
+-- Performing post-build validation
+Starting submission of boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-preprocessor:wasm32-emscripten-wesnoth-asyncify: 733 ms
+Completed submission of boost-bind:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.69 ms
+Installing 14/140 boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: b5150e514a81cdb7e9d5627598807b91c47e18251e0e5405d0d39cffc4c64222
+Building boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/type_traits/archive/boost-1.92.0.tar.gz -> boostorg-type_traits-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-type_traits-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-type_traits-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-type-traits/src/ost-1.92.0-5d96f5169c.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-type-traits/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-type-traits_wasm32-emscripten-wesnoth-asyncify/share/boost-type-traits/copyright
+-- Performing post-build validation
+Starting submission of boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-type-traits:wasm32-emscripten-wesnoth-asyncify: 629 ms
+Completed submission of boost-preprocessor:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 59 ms
+Installing 15/140 boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 819581a6b0448c0c98cf73a359a7ab9e729350397c61897d657ab7583bb7de8d
+Building boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/concept_check/archive/boost-1.92.0.tar.gz -> boostorg-concept_check-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-concept_check-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-concept_check-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-concept-check/src/ost-1.92.0-794811da14.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-concept-check/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/share/boost-concept-check/copyright
+-- Performing post-build validation
+Starting submission of boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-concept-check:wasm32-emscripten-wesnoth-asyncify: 484 ms
+Completed submission of boost-type-traits:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 15.8 ms
+Installing 16/140 boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: dcf752031f5a5271cf6cef9af631b545ee91455b1ddff2775b7cd75c06ec9e2c
+Building boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/smart_ptr/archive/boost-1.92.0.tar.gz -> boostorg-smart_ptr-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-smart_ptr-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-smart_ptr-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-smart-ptr/src/ost-1.92.0-bef44995b0.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-smart-ptr/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-smart-ptr_wasm32-emscripten-wesnoth-asyncify/share/boost-smart-ptr/copyright
+-- Performing post-build validation
+Starting submission of boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify: 518 ms
+Completed submission of boost-concept-check:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.69 ms
+Installing 17/140 boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: aee7595ff5423e7b80536d7ba88130f64443c8ddede7466b4896e2951e423973
+Building boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/tuple/archive/boost-1.92.0.tar.gz -> boostorg-tuple-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-tuple-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-tuple-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-tuple/src/ost-1.92.0-b98616ebe7.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-tuple/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-tuple_wasm32-emscripten-wesnoth-asyncify/share/boost-tuple/copyright
+-- Performing post-build validation
+Starting submission of boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-tuple:wasm32-emscripten-wesnoth-asyncify: 492 ms
+Completed submission of boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 6.66 ms
+Installing 18/140 boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: bbac7aff373b7037a75781c648e1f688e20d9c3dfd7020723cd04d92562c91a6
+Building boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/exception/archive/boost-1.92.0.tar.gz -> boostorg-exception-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-exception-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-exception-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-exception/src/ost-1.92.0-304083abc5.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-exception/portfile.cmake:13 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-exception_wasm32-emscripten-wesnoth-asyncify/share/boost-exception/copyright
+-- Performing post-build validation
+Starting submission of boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-exception:wasm32-emscripten-wesnoth-asyncify: 483 ms
+Completed submission of boost-tuple:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.79 ms
+Installing 19/140 boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 6e1a2ff9d9a089b890dc0c6a53c04792c807cf8f7e675dea54a0e6d40b66474c
+Building boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/function/archive/boost-1.92.0.tar.gz -> boostorg-function-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-function-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-function-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-function/src/ost-1.92.0-a495fcadc3.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-function/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-function_wasm32-emscripten-wesnoth-asyncify/share/boost-function/copyright
+-- Performing post-build validation
+Starting submission of boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-function:wasm32-emscripten-wesnoth-asyncify: 487 ms
+Completed submission of boost-exception:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 4.62 ms
+Installing 20/140 boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 5cf4385027d57b8be55e6a8ded37d5248c99e4d03c6bdf2ee373f00aa991e42c
+Building boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/detail/archive/boost-1.92.0.tar.gz -> boostorg-detail-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-detail-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-detail-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-detail/src/ost-1.92.0-a20b9c701e.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-detail/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-detail_wasm32-emscripten-wesnoth-asyncify/share/boost-detail/copyright
+-- Performing post-build validation
+Starting submission of boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-detail:wasm32-emscripten-wesnoth-asyncify: 473 ms
+Completed submission of boost-function:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.4 ms
+Installing 21/140 boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: d245f4920ed2f093b13a52a8ae0666b824c6af9da855dee1901a224ddc94b936
+Building boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/mp11/archive/boost-1.92.0.tar.gz -> boostorg-mp11-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-mp11-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-mp11-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-mp11/src/ost-1.92.0-36b235a834.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-mp11/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-mp11_wasm32-emscripten-wesnoth-asyncify/share/boost-mp11/copyright
+-- Performing post-build validation
+Starting submission of boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-mp11:wasm32-emscripten-wesnoth-asyncify: 461 ms
+Completed submission of boost-detail:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 4.31 ms
+Installing 22/140 boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 1d620d78c5d08eab6bc89785f82c9a71e4e239a335674bdedacec895676d5a7a
+Building boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/describe/archive/boost-1.92.0.tar.gz -> boostorg-describe-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-describe-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-describe-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-describe/src/ost-1.92.0-72558e303c.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-describe/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-describe_wasm32-emscripten-wesnoth-asyncify/share/boost-describe/copyright
+-- Performing post-build validation
+Starting submission of boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-describe:wasm32-emscripten-wesnoth-asyncify: 506 ms
+Completed submission of boost-mp11:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 5.35 ms
+Installing 23/140 boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: df66ded0e1510224e5dc25fd69c5296fa864505e6a5399ff8e704be05d896d74
+Building boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/container_hash/archive/boost-1.92.0.tar.gz -> boostorg-container_hash-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-container_hash-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-container_hash-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/src/ost-1.92.0-fa6aa6bddd.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-container-hash/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/share/boost-container-hash/copyright
+-- Performing post-build validation
+Starting submission of boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-container-hash:wasm32-emscripten-wesnoth-asyncify: 508 ms
+Completed submission of boost-describe:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.26 ms
+Installing 24/140 boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: ab53d960d876bb0a4be75efada0e7a8b747f78b826aac880471960e1145d1731
+Building boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/predef/archive/boost-1.92.0.tar.gz -> boostorg-predef-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-predef-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-predef-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-predef/src/ost-1.92.0-26a0b17815.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-predef/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-predef_wasm32-emscripten-wesnoth-asyncify/share/boost-predef/copyright
+-- Performing post-build validation
+Starting submission of boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-predef:wasm32-emscripten-wesnoth-asyncify: 506 ms
+Completed submission of boost-container-hash:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.31 ms
+Installing 25/140 boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 857bd9e4b756caf8c00ab808e2407131e75a7b5f660f9a316d0bde66e9f34150
+Building boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/io/archive/boost-1.92.0.tar.gz -> boostorg-io-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-io-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-io-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-io/src/ost-1.92.0-669c99572b.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-io/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-io_wasm32-emscripten-wesnoth-asyncify/share/boost-io/copyright
+-- Performing post-build validation
+Starting submission of boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-io:wasm32-emscripten-wesnoth-asyncify: 467 ms
+Completed submission of boost-predef:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 9.87 ms
+Installing 26/140 boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 0c070b210f809b15c5cb9c41b468ed90eee1d1cc86370e5f4b286e99d19457f4
+Building boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/utility/archive/boost-1.92.0.tar.gz -> boostorg-utility-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-utility-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-utility-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-utility/src/ost-1.92.0-09d32f4e6c.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-utility/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-utility_wasm32-emscripten-wesnoth-asyncify/share/boost-utility/copyright
+-- Performing post-build validation
+Starting submission of boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-utility:wasm32-emscripten-wesnoth-asyncify: 511 ms
+Completed submission of boost-io:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.64 ms
+Installing 27/140 boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 10616bed2585661d83af3982bc491abae10f383431bf6b29deac1b0081e87da0
+Building boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/mpl/archive/boost-1.92.0.tar.gz -> boostorg-mpl-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-mpl-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-mpl-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-mpl/src/ost-1.92.0-d672c09380.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-mpl/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-mpl_wasm32-emscripten-wesnoth-asyncify/share/boost-mpl/copyright
+-- Performing post-build validation
+Starting submission of boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-mpl:wasm32-emscripten-wesnoth-asyncify: 708 ms
+Completed submission of boost-utility:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 6.64 ms
+Installing 28/140 boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 734cfc54c1b30e8512dd474fa16e2cd5dfb823d2631b0196d8ae9f42e4ee65f9
+Building boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/function_types/archive/boost-1.92.0.tar.gz -> boostorg-function_types-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-function_types-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-function_types-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-function-types/src/ost-1.92.0-d51abf8c9e.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-function-types/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-function-types_wasm32-emscripten-wesnoth-asyncify/share/boost-function-types/copyright
+-- Performing post-build validation
+Starting submission of boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-function-types:wasm32-emscripten-wesnoth-asyncify: 556 ms
+Completed submission of boost-mpl:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 67.9 ms
+Installing 29/140 boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 0cece07a8c62a1029f6ded43a85671ff48567fb7285018a5a0b8272028aed8bb
+Building boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/typeof/archive/boost-1.92.0.tar.gz -> boostorg-typeof-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-typeof-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-typeof-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-typeof/src/ost-1.92.0-06a097923f.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-typeof/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-typeof_wasm32-emscripten-wesnoth-asyncify/share/boost-typeof/copyright
+-- Performing post-build validation
+Starting submission of boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-typeof:wasm32-emscripten-wesnoth-asyncify: 533 ms
+Completed submission of boost-function-types:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 8.9 ms
+Installing 30/140 boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 8d9f5a758efec9dba7dce9a30f8bd9370e0d67e15548204bcc6b8dc4673812bd
+Building boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/fusion/archive/boost-1.92.0.tar.gz -> boostorg-fusion-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-fusion-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-fusion-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-fusion/src/ost-1.92.0-ba95f1adfc.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-fusion/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-fusion_wasm32-emscripten-wesnoth-asyncify/share/boost-fusion/copyright
+-- Performing post-build validation
+Starting submission of boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-fusion:wasm32-emscripten-wesnoth-asyncify: 781 ms
+Completed submission of boost-typeof:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 3.41 ms
+Installing 31/140 boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 9e158b39c2ec7c376e08e8cb0e75b7d785065b036b3417a6f1df0234fd868759
+Building boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/optional/archive/boost-1.92.0.tar.gz -> boostorg-optional-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-optional-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-optional-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-optional/src/ost-1.92.0-363039e053.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-optional/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-optional_wasm32-emscripten-wesnoth-asyncify/share/boost-optional/copyright
+-- Performing post-build validation
+Starting submission of boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-optional:wasm32-emscripten-wesnoth-asyncify: 490 ms
+Completed submission of boost-fusion:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 117 ms
+Installing 32/140 boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 2ed749f5530e1e9dff16d45cec43769fdd427a8305d6a8e702e2e8f0c4b94d93
+Building boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/iterator/archive/boost-1.92.0.tar.gz -> boostorg-iterator-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-iterator-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-iterator-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-iterator/src/ost-1.92.0-d2d0298dd5.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-iterator/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-iterator_wasm32-emscripten-wesnoth-asyncify/share/boost-iterator/copyright
+-- Performing post-build validation
+Starting submission of boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-iterator:wasm32-emscripten-wesnoth-asyncify: 560 ms
+Completed submission of boost-optional:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 4.39 ms
+Installing 33/140 boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0 package ABI: 2b89a99eb5ad98a2a4be057d58ace24cbfd47c4cafe6baf762b9b85499ca805b
+Building boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+Downloading https://github.com/boostorg/conversion/archive/boost-1.92.0.tar.gz -> boostorg-conversion-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-conversion-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-conversion-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-conversion/src/ost-1.92.0-bc9e041057.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-conversion/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-conversion_wasm32-emscripten-wesnoth-asyncify/share/boost-conversion/copyright
+-- Performing post-build validation
+Starting submission of boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in the background
+Elapsed time to handle boost-conversion:wasm32-emscripten-wesnoth-asyncify: 476 ms
+Completed submission of boost-iterator:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 6.17 ms
+Installing 34/140 vcpkg-cmake-get-vars:x64-linux@2025-05-29...
+vcpkg-cmake-get-vars:x64-linux@2025-05-29 package ABI: fae1db7d3d4e9fdb40a2dcd26b318b5eb3daa8b327ffa2daf29fa491c3fbfe7a
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 1.33 ms
+Installing 35/140 vcpkg-make:x64-linux@2026-07-09...
+vcpkg-make:x64-linux@2026-07-09 package ABI: 4f89cfa947cf1ecc54ffd500922b83b21ac15394692b8986d99ba550b3d583c1
+Elapsed time to handle vcpkg-make:x64-linux: 1.46 ms
+Completed submission of boost-conversion:wasm32-emscripten-wesnoth-asyncify@1.92.0 to 1 binary cache(s) in 2.77 ms
+Installing 36/140 icu[core,tools]:x64-linux@78.3#2...
+icu[core,tools]:x64-linux@78.3#2 package ABI: b907e7f91a3d06640afff41de862f4ebf337f859ebf836699dc329064a65defc
+Elapsed time to handle icu:x64-linux: 5.95 ms
+Installing 37/140 icu:wasm32-emscripten-wesnoth-asyncify@78.3#2...
+icu:wasm32-emscripten-wesnoth-asyncify@78.3#2 package ABI: 26e9e71b3592dc137cefa113163d11ad03efc920ef1a82bf9f33d31b77a72822
+Building icu:wasm32-emscripten-wesnoth-asyncify@78.3#2...
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/triplets/wasm32-emscripten-wesnoth-asyncify.cmake: info: loaded overlay triplet from here
+/home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu: info: installing overlay port from here
+Downloading https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz -> icu4c-78.3-sources.tgz
+Successfully downloaded icu4c-78.3-sources.tgz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/icu4c-78.3-sources.tgz
+-- Applying patch disable-static-prefix.patch
+-- Applying patch fix_bsd_and_solaris.patch
+-- Applying patch fix_parallel_build_on_windows.patch
+-- Applying patch fix-python-path-with-spaces.patch
+-- Applying patch fix-using-install-sh.diff
+-- Applying patch mh-darwin.patch
+-- Applying patch mh-mingw.patch
+-- Applying patch mh-msys-msvc.patch
+-- Applying patch subdirs.patch
+-- Applying patch vcpkg-cross-data.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean
+-- wesnoth-web: ICU data 33107232 -> 7819840 bytes
+-- Getting CMake variables for wasm32-emscripten-wesnoth-asyncify
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/icu/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth-asyncify.cmake.log
+-- Configuring wasm32-emscripten-wesnoth-asyncify-rel
+-- Building/Installing wasm32-emscripten-wesnoth-asyncify-rel
+-- Making target 'all' for wasm32-emscripten-wesnoth-asyncify-rel
