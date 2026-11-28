@@ -51,6 +51,7 @@ Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports):
 | `glib` | `res_query()` stub, `size_t` detection with emcc, no `pthread_*_np`, no tools; exact function pointer signatures (from kleisauke's wasm-vips GLib) |
 | `pango` | no tools; exact function pointer signatures (interface inits, `g_list_foreach`); fontconfig work runs inline instead of on a worker thread |
 | `boost-locale` | CMake `source_group` error |
+| `icu` | prebuilt data pruned to the root/en/tr locales, no converters, dictionaries or transliterators (33MB -> ~5MB in the wasm) |
 
 ## Status
 
