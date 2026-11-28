@@ -23,61 +23,61 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:18
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:21
 msgid "The Deceiver’s Gambit"
-msgstr ""
+msgstr "Aldatıcının Gambiti"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:64
 msgid "1x enemies, 70% XP"
-msgstr ""
+msgstr "1 kat düşman, %70 TP"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:64
 msgid "Easy"
-msgstr ""
+msgstr "Kolay"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:65
 msgid "2x enemies, 90% XP"
-msgstr ""
+msgstr "2 kat düşman, %90 TP"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:65
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:66
 msgid "3x enemies, 100% XP"
-msgstr ""
+msgstr "3 kat düşman, %100 TP"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:66
 msgid "Hard"
-msgstr ""
+msgstr "Zor"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:67
 msgid "4x enemies, 100% XP"
-msgstr ""
+msgstr "4 kat düşman, %100 TP"
 
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:67
 msgid "Deadly"
-msgstr ""
+msgstr "Ölümcül"
 
 #. [about]
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:74
 msgid "Campaign Design"
-msgstr ""
+msgstr "Seferberlik Tasarımı"
 
 #. [about]
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:80
 msgid "Setting and Story"
-msgstr ""
+msgstr "Dünya ve Hikâye"
 
 #. [about]
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:86
 msgid "Miscellaneous Graphics"
-msgstr ""
+msgstr "Çeşitli Grafikler"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #. [campaign]: id=The Deceivers Gambit 2
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:137
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:165
 msgid "TDG"
-msgstr ""
+msgstr "AG"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:149
@@ -90,11 +90,17 @@ msgid ""
 "battlefield victories Wesnoth seems to be slipping inexorably into chaos...\n"
 "\n"
 msgstr ""
+"Maceraya hasret duyan, Alduin büyü akademisinden yeni yetişmiş bir çırak, "
+"kuzeyin orklarına karşı büyük bir savaşta Vesnot kralının yanında savaşır.\n"
+"\n"
+"Savaş meydanında art arda kazanılan zaferlere rağmen Vesnot’un kaçınılmaz "
+"biçimde kaosa sürüklendiği bu kargaşa döneminde kilit bir rol oyna...\n"
+"\n"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:153
 msgid "(Intermediate level, 7 scenarios.)"
-msgstr ""
+msgstr "(Orta seviye, 7 senaryo.)"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:155
@@ -102,11 +108,13 @@ msgid ""
 "The saga continues in\n"
 "<i>The Deceiver’s Gambit II</i>"
 msgstr ""
+"Destan şurada sürüyor:\n"
+"<i>Aldatıcının Gambiti II</i>"
 
 #. [campaign]: id=The Deceivers Gambit 2
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:164
 msgid "The Deceiver’s Gambit II"
-msgstr ""
+msgstr "Aldatıcının Gambiti II"
 
 #. [campaign]: id=The Deceivers Gambit 2
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:177
@@ -116,11 +124,15 @@ msgid ""
 "be worse still. What does it truly mean to be a hero?\n"
 "    \n"
 msgstr ""
+"Kayıplar artmaya devam ederken Delfador düşman hatlarının gerisinde "
+"tehlikeli bir göreve çıkar. Yolculuk tehlikeli olacak, ama sonunda bekleyen "
+"şey daha da kötü. Kahraman olmak gerçekte ne demektir?\n"
+"    \n"
 
 #. [campaign]: id=The Deceivers Gambit 2
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:179
 msgid "(Intermediate level, 8 scenarios.)"
-msgstr ""
+msgstr "(Orta seviye, 8 senaryo.)"
 
 #. [campaign]: id=The Deceivers Gambit 2
 #. this campaign is not a direct continuation of the story and characters, but is next chronologically and is the recommended next campaign
@@ -129,147 +141,150 @@ msgid ""
 "The saga continues in\n"
 "<i>Liberty</i>"
 msgstr ""
+"Destan şurada sürüyor:\n"
+"<i>Özgürlük</i>"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:21
 msgid "Blast the fire elementals in <i>Graduation</i>."
-msgstr ""
+msgstr "<i>Mezuniyet</i> senaryosunda ateş elementallerini havaya uçur."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:21
 msgid "Scenario 0: Sandbagger"
-msgstr ""
+msgstr "Senaryo 0: Gizli Yetenek"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:22
 msgid "Complete <i>Stirrings of War</i> without killing any goblin spearmen."
 msgstr ""
+"<i>Savaşın Kıpırtıları</i>’nı hiçbir goblin mızrakçıyı öldürmeden tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:22
 msgid "Scenario 1: Goblinitarian"
-msgstr ""
+msgstr "Senaryo 1: Goblinsever"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:23
 msgid "Complete the hidden victory condition in <i>Fort Garard</i>."
-msgstr ""
+msgstr "<i>Garard Kalesi</i>’nde gizli zafer koşulunu tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:23
 msgid "Scenario 2: Bloodthirsty"
-msgstr ""
+msgstr "Senaryo 2: Kana Susamış"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:24
 msgid "Complete <i>The Ambassador</i> without killing any wose."
-msgstr ""
+msgstr "<i>Elçi</i>’yi hiçbir ulu ağacı öldürmeden tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:24
 msgid "Scenario 3: Mellon"
-msgstr ""
+msgstr "Senaryo 3: Mellon"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:25
 msgid "Drown the silverback in <i>The Sylvan Seer</i>."
-msgstr ""
+msgstr "<i>Orman Kâhini</i>’nde gümüşsırtı boğ."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:25
 msgid "Scenario 4: Gurgle gurgle"
-msgstr ""
+msgstr "Senaryo 4: Guruldu guruldu"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:26
 msgid "Defeat both enemy leaders in <i>The Deceiver</i> before Garard does."
-msgstr ""
+msgstr "<i>Aldatıcı</i>’da Garard’dan önce iki düşman liderini de yen."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:26
 msgid "Scenario 5: Hook, Line, and Sinker"
-msgstr ""
+msgstr "Senaryo 5: Oltasıyla, İpiyle, Kurşunuyla"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:27
 msgid "Complete <i>Ring of Swords</i> with Garard at full hp."
-msgstr ""
+msgstr "<i>Kılıçlar Halkası</i>’nı Garard’ın YP’si tamken tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:27
 msgid "Scenario 6: Royal Privilege"
-msgstr ""
+msgstr "Senaryo 6: Kraliyet Ayrıcalığı"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:28
 msgid "Complete <i>The Great River</i> in 20 turns or less."
-msgstr ""
+msgstr "<i>Büyük Nehir</i>’i 20 elde veya daha kısa sürede tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:28
 msgid "Scenario 7: On the Clock"
-msgstr ""
+msgstr "Senaryo 7: Zamana Karşı"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:29
 msgid ""
 "Complete <i>Ruins of Saurgrath</i> on the same turn you’re first spotted."
-msgstr ""
+msgstr "<i>Saurgrat Harabeleri</i>’ni ilk görüldüğün elde tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:29
 msgid "Scenario 8: Monster in the Mist"
-msgstr ""
+msgstr "Senaryo 8: Sisteki Canavar"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:30
 msgid "Complete <i>Omaranth</i> before turns run out."
-msgstr ""
+msgstr "<i>Omarant</i>’ı eller bitmeden tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:30
 msgid "Scenario 9: Sapper"
-msgstr ""
+msgstr "Senaryo 9: Lağımcı"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:33
 msgid "Command four ghosts at once in <i>Houses of the Dead</i>."
-msgstr ""
+msgstr "<i>Ölülerin Evleri</i>’nde aynı anda dört hayalete komuta et."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:33
 msgid "Scenario 10: Army of the Dead"
-msgstr ""
+msgstr "Senaryo 10: Ölüler Ordusu"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:35
 msgid "Complete <i>Clan Blackcrest</i> in 10 turns or less."
-msgstr ""
+msgstr "<i>Karatepe Klanı</i>’nı 10 elde veya daha kısa sürede tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:35
 msgid "Scenario 11: Combined Arms"
-msgstr ""
+msgstr "Senaryo 11: Birleşik Kuvvetler"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:36
 msgid "Destroy all three enemy keeps in <i>The Traitor</i>."
-msgstr ""
+msgstr "<i>Hain</i>’de üç düşman burcunu da yok et."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:36
 msgid "Scenario 12: Scorched Earth"
-msgstr ""
+msgstr "Senaryo 12: Kavrulmuş Toprak"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:37
 msgid "Defeat all enemy leaders in <i>Revelry, Revisited</i>."
-msgstr ""
+msgstr "<i>Cümbüş, Yeniden</i>’de bütün düşman liderlerini yen."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:37
 msgid "Scenario 13: Stand Fast"
-msgstr ""
+msgstr "Senaryo 13: Sağlam Dur"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:38
@@ -277,35 +292,38 @@ msgid ""
 "Complete the first phase of <i>Long Live the Queen</i> without moving "
 "Delfador."
 msgstr ""
+"<i>Çok Yaşa Kraliçe</i>’nin ilk aşamasını Delfador’u hareket ettirmeden "
+"tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:38
 msgid "Scenario 14: Armchair General"
-msgstr ""
+msgstr "Senaryo 14: Koltuk Generali"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:7
 msgid "Attack:"
-msgstr ""
+msgstr "Saldırı:"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:8
 msgid "Spell:"
-msgstr ""
+msgstr "Büyü:"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:9
 msgid "Passive:"
-msgstr ""
+msgstr "Pasif:"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:20
 msgid "Magic Missile"
-msgstr ""
+msgstr "Büyülü Füze"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:22
 msgid "Ranged 7x3 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
+"Menzilli 7x3 ateş, <i><ref dst='weaponspecial_magical'>büyülü</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:29
 msgid "Shield"
-msgstr ""
+msgstr "Kalkan"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:31
 msgid ""
@@ -313,10 +331,13 @@ msgid ""
 "<i>20% terrain defense</i> (chance to evade) until the start\n"
 "          of your next turn or until cancelled."
 msgstr ""
+"Bir sonraki elinin başına kadar ya da iptal edilene kadar ek <i>%20 arazi "
+"savunması</i> (kaçınma şansı) kazanmak için\n"
+"          <span color='#00bbe6' style='italic'>8 TP</span> harca."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:39
 msgid "Panacea"
-msgstr ""
+msgstr "Her Derde Deva"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:41
 msgid ""
@@ -325,10 +346,14 @@ msgid ""
 "          attacks, strikes, and damage by its level. <span color='#dd0000' "
 "weight='bold'>Next turn, it dies.</span>"
 msgstr ""
+"Bitişikteki en düşük canlı insan müttefiki tamamen iyileştirmek ve saldırı "
+"sayısını, vuruşlarını ve hasarını seviyesi kadar\n"
+"          artırmak için <span color='#00bbe6' style='italic'>8 TP</span> "
+"harca. <span color='#dd0000' weight='bold'>Sonraki el ölür.</span>"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:49
 msgid "Animate Mud"
-msgstr ""
+msgstr "Çamuru Canlandır"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:51
 msgid ""
@@ -337,20 +362,26 @@ msgid ""
 "               while adjacent to you, but dissolve at the end of each "
 "scenario."
 msgstr ""
+"<i><ref dst='unit_Mudcrawler'>Çamur Sürüngeni</ref></i> almayı öğren. Çamur "
+"Sürüngenleri senin yanındayken +%100 hasar ve TP\n"
+"               kazanır, ama her senaryonun sonunda çözülür."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:63
 msgid "Chill Touch"
-msgstr ""
+msgstr "Soğuk Dokunuş"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:65
 msgid ""
 "Melee 6x3 cold, <i><ref dst='weaponspecial_slow'>slows</ref></i>. Replaces "
 "your default melee attack."
 msgstr ""
+"Yakın dövüş 6x3 soğuk, <i><ref "
+"dst='weaponspecial_slow'>yavaşlatır</ref></i>. Varsayılan yakın dövüş "
+"saldırının yerini alır."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:72
 msgid "Levitate"
-msgstr ""
+msgstr "Havalanma"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:74
 msgid ""
@@ -358,10 +389,13 @@ msgid ""
 "and the <i><ref dst='ability_skirmisher'>skirmisher</ref></i> ability until "
 "the start of your next turn or until cancelled."
 msgstr ""
+"Bir sonraki elinin başına kadar ya da iptal edilene kadar <i>uçuş</i> ve "
+"<i><ref dst='ability_skirmisher'>avcı</ref></i> yeteneği kazanmak için "
+"<span color='#00bbe6' style='italic'>4 TP</span> harca."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:82
 msgid "Find Familiar"
-msgstr ""
+msgstr "Yardımcı Ruh Bul"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:84
 msgid ""
@@ -370,38 +404,46 @@ msgid ""
 "               Your familiar’s level and XP persist across scenarios, but "
 "reset if it dies."
 msgstr ""
+"Her senaryoya güvenilir evcil <i><ref dst='unit_Raven'>Kuzgun</ref></i>unla "
+"başla.\n"
+"               Yardımcı ruhunun seviyesi ve TP’si senaryolar arasında "
+"korunur, ama ölürse sıfırlanır."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:91
 msgid "Mnemonic"
-msgstr ""
+msgstr "Hafıza Sanatı"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:93
 msgid "Whenever an adjacent ally gains XP, you gain the same amount of XP."
 msgstr ""
+"Bitişikteki bir müttefik TP kazandığında sen de aynı miktarda TP kazanırsın."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:105
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:171
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:222
 msgid "Fireball"
-msgstr ""
+msgstr "Ateş Topu"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:107
 msgid "Ranged 8x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
+"Menzilli 8x4 ateş, <i><ref dst='weaponspecial_magical'>büyülü</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:114
 msgid "Siphon"
-msgstr ""
+msgstr "Emme"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:116
 msgid ""
 "Ranged 8x4 arcane, <i><ref dst='weaponspecial_magical'>magical</ref></i> and "
 "<i><ref dst='weaponspecial_drains'>drains</ref></i>."
 msgstr ""
+"Menzilli 8x4 gizemli, <i><ref dst='weaponspecial_magical'>büyülü</ref></i> "
+"ve <i><ref dst='weaponspecial_drains'>sömürür</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:123
 msgid "Blizzard"
-msgstr ""
+msgstr "Tipi"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:125
 msgid ""
@@ -410,10 +452,14 @@ msgid ""
 "dst='weaponspecial_slows'>slow</ref></i> enemy units and freeze terrain in a "
 "3-hex radius."
 msgstr ""
+"3 altıgen yarıçapındaki düşman birimleri <i><ref "
+"dst='weaponspecial_slows'>yavaşlatmak</ref></i> ve araziyi dondurmak için "
+"<span color='#00bbe6' style='italic'>16 TP</span> ve <span color='#c06a61' "
+"style='italic'>saldırını</span> harca."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:133
 msgid "Counterspell"
-msgstr ""
+msgstr "Karşı Büyü"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:135
 msgid ""
@@ -422,10 +468,15 @@ msgid ""
 "until cancelled.\n"
 "          Disables Delfador’s spells, but not his passive skills."
 msgstr ""
+"İptal edilene kadar 3 altıgen yarıçapında <i><ref "
+"dst='weaponspecial_magical'>büyülü</ref> saldırıları engellemek</i> için "
+"<span color='#00bbe6' style='italic'>16 TP</span> harca.\n"
+"          Delfador’un büyülerini devre dışı bırakır, ama pasif becerilerini "
+"bırakmaz."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:143
 msgid "Polymorph"
-msgstr ""
+msgstr "Biçim Değiştirme"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:145
 msgid ""
@@ -438,32 +489,43 @@ msgid ""
 "           Replaces Delfador’s attacks, spells, and passives, but does not "
 "affect hitpoints."
 msgstr ""
+"Bir <ref dst='unit_Frost Stoat Poly'>kakıma</ref> (<span color='#00bbe6' "
+"style='italic'>1 TP</span>), <ref dst='unit_Cave Bear Poly'>ayıya</ref> "
+"(<span color='#00bbe6' style='italic'>8 TP</span>), <ref dst='unit_Giant "
+"Crab'>yengece</ref> (<span color='#00bbe6' style='italic'>16 TP</span>) ya "
+"da <ref dst='unit_Roc'>zümrüdüankaya</ref> (<span color='#00bbe6' "
+"style='italic'>32 TP</span>) dönüş. İptal edilene kadar sürer.\n"
+"           Delfador’un saldırılarının, büyülerinin ve pasiflerinin yerini "
+"alır, ama yaşam puanlarını etkilemez."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:157
 msgid "Glamour"
-msgstr ""
+msgstr "Göz Boyama"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:159
 msgid "Gain the <i><ref dst='ability_leadership'>leadership</ref></i> ability."
-msgstr ""
+msgstr "<i><ref dst='ability_leadership'>Liderlik</ref></i> yeteneği kazan."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:173
 msgid ""
 "Ranged 12x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
+"Menzilli 12x4 ateş, <i><ref dst='weaponspecial_magical'>büyülü</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:180
 msgid "Dancing Daggers"
-msgstr ""
+msgstr "Dans Eden Hançerler"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:182
 msgid ""
 "Ranged 5x8 blade, <i><ref dst='weaponspecial_backstab'>backstab</ref></i>"
 msgstr ""
+"Menzilli 5x8 kesme, <i><ref dst='weaponspecial_backstab'>sırttan "
+"bıçaklama</ref></i>"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:189
 msgid "Enthrall"
-msgstr ""
+msgstr "Büyüleme"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:191
 msgid ""
@@ -475,10 +537,16 @@ msgid ""
 "          (chance to evade) and chance to hit (except for magical attacks). "
 "Lasts until cancelled."
 msgstr ""
+"Kendini büyüyle huşu uyandıran bir ejder kılığına sokmak için <span "
+"color='#00bbe6' style='italic'>48 TP</span> ve <span color='#c06a61' "
+"style='italic'>saldırını</span> harca.\n"
+"          2 altıgen yarıçapındaki düşmanlar hem arazi savunmalarında\n"
+"          (kaçınma şansı) hem de isabet şanslarında (büyülü saldırılar "
+"hariç) -%10 ceza alır. İptal edilene kadar sürer."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:199
 msgid "Animate Fire"
-msgstr ""
+msgstr "Ateşi Canlandır"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:201
 msgid ""
@@ -487,28 +555,34 @@ msgid ""
 "               while adjacent to you, but dissipate at the end of each "
 "scenario."
 msgstr ""
+"<i><ref dst='unit_Fire Guardian'>Ateş Muhafızı</ref></i> almayı öğren. Ateş "
+"Muhafızları senin yanındayken +%100 hasar ve TP\n"
+"               kazanır, ama her senaryonun sonunda dağılır."
 
 #. [floating_text]
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:208
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:475
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:1823
 msgid "Contingency"
-msgstr ""
+msgstr "İhtiyat"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:210
 msgid ""
 "Whenever one of your human soldiers dies, they are instead returned safely "
 "to your recall list."
 msgstr ""
+"İnsan askerlerinden biri öldüğünde, onun yerine güvenle geri çağırma "
+"listene döner."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:224
 msgid ""
 "Ranged 17x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
+"Menzilli 17x4 ateş, <i><ref dst='weaponspecial_magical'>büyülü</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:231
 msgid "Chain Lightning"
-msgstr ""
+msgstr "Zincirleme Şimşek"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:233
 msgid ""
@@ -516,10 +590,13 @@ msgid ""
 "This attack can be used multiple times on offense, but\n"
 "              consecutive uses strike one fewer time."
 msgstr ""
+"Menzilli 14x3 ateş, <i><ref dst='weaponspecial_magical'>büyülü</ref></i>. "
+"Bu saldırı saldırıda birden çok kez kullanılabilir, ama\n"
+"              art arda kullanımlar bir kez daha az vurur."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:240
 msgid "Time Dilation"
-msgstr ""
+msgstr "Zaman Genişlemesi"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:242
 msgid ""
@@ -528,10 +605,14 @@ msgid ""
 "          When this turn ends, affected units become <ref "
 "dst='weaponspecial_slows'>slowed</ref>."
 msgstr ""
+"Bu el kendine ve bütün müttefiklerine çift hareket ve ikinci bir saldırı "
+"vermek için <span color='#00bbe6' style='italic'>48 TP</span> harca.\n"
+"          Bu el bittiğinde etkilenen birimler <ref "
+"dst='weaponspecial_slows'>yavaşlatılmış</ref> olur."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:250
 msgid "Cataclysm"
-msgstr ""
+msgstr "Kıyamet"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:252
 msgid ""
@@ -541,26 +622,31 @@ msgid ""
 "          to 1 HP. Dries water, melts snow, burns forest, and levels castles/"
 "villages."
 msgstr ""
+"5 altıgen yarıçapındaki her şeyi havaya uçurmak için <span color='#00bbe6' "
+"style='italic'>99 TP</span> ve <span color='#c06a61' "
+"style='italic'>saldırını</span> harca. Birimler (Delfador hariç)\n"
+"          1 YP’ye düşer. Suyu kurutur, karı eritir, ormanı yakar, "
+"kaleleri/köyleri yerle bir eder."
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:49
 msgid "Cast Delfador’s Spells"
-msgstr ""
+msgstr "Delfador’un Büyülerini Yap"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:49
 msgid "Select Delfador’s Spells"
-msgstr ""
+msgstr "Delfador’un Büyülerini Seç"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:50
 msgid "Cast the Apprentice’s Spells"
-msgstr ""
+msgstr "Çırağın Büyülerini Yap"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:50
 msgid "Select the Apprentice’s Spells"
-msgstr ""
+msgstr "Çırağın Büyülerini Seç"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:56
@@ -572,6 +658,12 @@ msgid ""
 "<b>double- or right-click on Delfador to cast them</b>. You can only cast 1 "
 "spell per turn.</i></span>"
 msgstr ""
+"<span size='small'><i>Delfador pek çok faydalı büyü bilir ve seferberlik "
+"boyunca otomatik olarak seviye atladıkça daha fazlasını öğrenir. Delfador "
+"seviye atlamak için TP kullanmaz. Bunun yerine\n"
+"Delfador TP’yi belirli büyüleri yapmak için kullanır. TP harcayan büyüler "
+"seçersen, <b>onları yapmak için Delfador’a çift tıkla ya da sağ tıkla</b>. "
+"Her elde yalnızca 1 büyü yapabilirsin.</i></span>"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:57
@@ -583,16 +675,22 @@ msgid ""
 "<b>double- or right-click on the apprentice to cast them</b>. You can only "
 "cast 1 spell per turn.</i></span>"
 msgstr ""
+"<span size='small'><i>Çırak birkaç faydalı büyü bilir ve seferberlik "
+"boyunca otomatik olarak seviye atladıkça daha fazlasını öğrenir. Çırak "
+"seviye atlamak için TP kullanmaz. Bunun yerine\n"
+"TP’yi belirli büyüleri yapmak için kullanır. TP harcayan büyüler seçersen, "
+"<b>onları yapmak için çırağa çift tıkla ya da sağ tıkla</b>. Her elde "
+"yalnızca 1 büyü yapabilirsin.</i></span>"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:131
 msgid "Confirm Spells <small><i>(can be changed every scenario)</i></small>"
-msgstr ""
+msgstr "Büyüleri Onayla <small><i>(her senaryoda değiştirilebilir)</i></small>"
 
 #. [lua]: display_skills_dialog
 #: data/campaigns/The_Deceivers_Gambit/lua/spellcasting.lua:134
 msgid "Choose Later"
-msgstr ""
+msgstr "Sonra Seç"
 
 #. [lua]: wesnoth.interface.game_display.unit_status
 #. [chance_to_hit]: id=skill_illusion
@@ -602,11 +700,13 @@ msgid ""
 "dazed: This unit is dazed. It suffers a -10% penalty to both its defense and "
 "chance to hit (except for magical attacks)."
 msgstr ""
+"sersemlemiş: Bu birim sersemlemiş. Hem savunmasında hem isabet şansında "
+"-%10 ceza alır (büyülü saldırılar hariç)."
 
 #. [scenario]: id=00_Graduation
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:6
 msgid "Graduation"
-msgstr ""
+msgstr "Mezuniyet"
 
 #. [leader]: type=Delfador L1
 #. [event]
@@ -615,7 +715,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:210
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:213
 msgid "Apprentice"
-msgstr ""
+msgstr "Çırak"
 
 #. [side]
 #. [side]: id=Delfador
@@ -628,12 +728,12 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:43
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:28
 msgid "Isle of Alduin"
-msgstr ""
+msgstr "Alduin Adası"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:41
 msgid "Summoned Monsters"
-msgstr ""
+msgstr "Çağrılmış Canavarlar"
 
 #. [message]
 #. an informational plaque on a statue of a female arch-mage
@@ -642,23 +742,25 @@ msgid ""
 "<i>In honor of master Heryera, who gave her life in defense of Elensefar "
 "against the lich Ras-Tabahn.</i>"
 msgstr ""
+"<i>Elensefar’ı umacı Ras-Tabahn’a karşı savunurken canını veren usta "
+"Herira’nın anısına.</i>"
 
 #. [unit]: id=Leollyn
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:182
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:249
 msgid "Leollyn"
-msgstr ""
+msgstr "Leollin"
 
 #. [unit]: id=Saegwylyn, gender=female
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:200
 msgid "Saegwylyn"
-msgstr ""
+msgstr "Saegvilin"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:234
 msgid "The Author"
-msgstr ""
+msgstr "Yazar"
 
 #. [message]
 #. notice that appears at the beginning of the scenario if you select Deadly difficulty
@@ -668,6 +770,9 @@ msgid ""
 "challenge even for experienced players! If you’re new to Wesnoth, I strongly "
 "suggest trying a lower difficulty."
 msgstr ""
+"NOT: ‘Ölümcül’ zorluk deneyimli oyuncular için bile korkutucu derecede zor "
+"bir sınav olacak şekilde tasarlanmıştır! Vesnot’ta yeniyseniz daha düşük "
+"bir zorluk denemenizi şiddetle öneririm."
 
 #. [message]
 #. notice that appears at the beginning of the scenario if you select Hard difficulty
@@ -677,12 +782,15 @@ msgid ""
 "experienced players! If you’re new to Wesnoth, you may want to try a lower "
 "difficulty."
 msgstr ""
+"NOT: ‘Zor’ seviye deneyimli oyuncular için bile ciddi bir sınav olacak "
+"şekilde tasarlanmıştır! Vesnot’ta yeniyseniz daha düşük bir zorluk denemek "
+"isteyebilirsiniz."
 
 #. [message]: speaker=Methor
 #. the fire wraiths are not visible yet. Delfador is about to appear on the left edge of the map
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:255
 msgid "Faster, faster! The wraiths will soon be upon you!"
-msgstr ""
+msgstr "Daha hızlı, daha hızlı! Hortlaklar birazdan tepende olacak!"
 
 #. [message]: speaker=Delfador
 #. referencing events that happened minutes before the beginning of the campaign
@@ -691,23 +799,25 @@ msgid ""
 "Hey, how was I supposed to know the halfway cave was warded! All I did was "
 "throw a few celebratory firebolts! For the spectators, you know?"
 msgstr ""
+"Hey, yarı yoldaki mağaranın korumalı olduğunu nereden bilecektim! Tek "
+"yaptığım birkaç kutlama ateş oku atmaktı! Seyirciler için, anlarsın ya?"
 
 #. [message]: speaker=Methor
 #. there's a blue orb at the east edge of the map, which will dispel the fire guardians that will soon appear to chase Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:275
 msgid "Just hurry and get to the dispel orb!"
-msgstr ""
+msgstr "Sadece acele et de dağıtma küresine ulaş!"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:283
 msgid "Reach the blue orb at the east edge of the map"
-msgstr ""
+msgstr "Haritanın doğu kenarındaki mavi küreye ulaş"
 
 #. [objective]: condition=lose
 #. Delfador is currently just named "apprentice". He doesn't get his name until scenario 2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:288
 msgid "Death of the Apprentice"
-msgstr ""
+msgstr "Çırağın ölümü"
 
 #. [message]: speaker=Methor
 #. this tells the player that 1) Delfador is Methor's apprentice, and 2) Delfador is very reckless
@@ -716,18 +826,20 @@ msgid ""
 "Out of all the masters in Alduin, why did the sages curse me with the most "
 "reckless apprentice in all Wesnoth?"
 msgstr ""
+"Alduin’deki onca usta arasından bilgeler neden beni bütün Vesnot’un en "
+"pervasız çırağıyla lanetledi?"
 
 #. [message]: speaker=Methor
 #. this line is spoken as soon as the fire guardians enter the map
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:324
 msgid "The wraiths are catching up! Keep moving!"
-msgstr ""
+msgstr "Hortlaklar yetişiyor! İlerlemeye devam et!"
 
 #. [message]: speaker=Saegwylyn
 #. another of Delfador's instructors; implying Delfador has attempted to firebolt the fire guardians before, and it ended badly
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:329
 msgid "10 copper says he tries to firebolt them again..."
-msgstr ""
+msgstr "10 bakırına bahse girerim onlara yine ateş oku atmaya çalışacak..."
 
 #. [message]: speaker=Methor
 #. Levitate is one of many spells that Delfador will have access to throughout this scenario. It grants him flight and skirmisher, which
@@ -737,11 +849,14 @@ msgid ""
 "the eyestalks! You may need to cast it several turns in a row to keep ahead "
 "of the wraiths."
 msgstr ""
+"Onu boş ver. Şimdiye kadar iyi bir hız yapıyorsun — şimdi Havalanma "
+"büyüsünü yap ve göz saplarının yanından sıyrıl! Hortlakların önünde kalmak "
+"için birkaç el üst üste yapman gerekebilir."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:338
 msgid "Levitate? Master, are you sure?"
-msgstr ""
+msgstr "Havalanma mı? Usta, emin misiniz?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:342
@@ -749,33 +864,34 @@ msgid ""
 "Oh for the love of— remember what happened last time you tried to fight? "
 "Just do it!"
 msgstr ""
+"Aman Tanrım— en son savaşmaya çalıştığında ne olduğunu hatırla! Sadece yap!"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:347
 msgid "Casting Spells:"
-msgstr ""
+msgstr "Büyü Yapma:"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:348
 msgid "Double- or right-click on the apprentice to cast spells."
-msgstr ""
+msgstr "Büyü yapmak için çırağa çift tıkla ya da sağ tıkla."
 
 #. [message]: speaker=Methor
 #. spoken after Delfador attacks the fire guardians, referencing the "10 copper" bet from earlier. Since there are 3 guardians and they have 50% fire resistance, this is not a wise move by Delfador.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:365
 msgid "All right, all right! It’s just as you said."
-msgstr ""
+msgstr "Tamam, tamam! Tam dediğiniz gibi."
 
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:370
 msgid "10 more copper for me!"
-msgstr ""
+msgstr "Bana 10 bakır daha!"
 
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:383
 msgid ""
 "So he does know proper magic after all. It only took four failed exams..."
-msgstr ""
+msgstr "Demek düzgün büyü biliyormuş. Sadece dört başarısız sınav sürdü..."
 
 #. [message]: speaker=Methor
 #. if the levitate spell ends over impassable terrain (like lava), Delfador dies
@@ -784,32 +900,34 @@ msgid ""
 "Almost there! Just fly across the chasm and touch the orb — and make sure "
 "your levitate spell doesn’t end over lava!"
 msgstr ""
+"Neredeyse geldin! Sadece uçurumun üzerinden uç ve küreye dokun — ve "
+"havalanma büyünün lavın üzerinde bitmediğinden emin ol!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:411
 msgid "Hello, my adoring fans!"
-msgstr ""
+msgstr "Merhaba, beni seven hayranlarım!"
 
 #. [message]: speaker=Mirya
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:415
 msgid "Hey, what’re you doing! This isn’t the normal route!"
-msgstr ""
+msgstr "Hey, ne yapıyorsun! Bu normal yol değil!"
 
 #. [message]: speaker=Rolyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:419
 msgid "We’d better get out of here. Remember what happened on his last exam?"
-msgstr ""
+msgstr "Buradan gitsek iyi olur. Son sınavında ne olduğunu hatırlıyor musun?"
 
 #. [message]: speaker=Delfador
 #. Delfador has just reached the end of the obstacle course / final exam (and the end of the scenario0
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:539
 msgid "Yes! I’ve made it! This time has to be good enough."
-msgstr ""
+msgstr "Evet! Başardım! Bu sefer yeterince iyi olmalı."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:544
 msgid "Well, what do you think?"
-msgstr ""
+msgstr "Eee, ne düşünüyorsunuz?"
 
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:550
@@ -817,6 +935,9 @@ msgid ""
 "I say no. A mage needs wisdom; this apprentice cares only for his own "
 "amusement. This one is a petty magician, not a wise sage or advisor of kings."
 msgstr ""
+"Ben hayır diyorum. Bir büyücünün bilgeliğe ihtiyacı vardır; bu çırak "
+"yalnızca kendi eğlencesini önemsiyor. Bu adi bir hokkabaz, bilge bir âlim "
+"ya da kralların danışmanı değil."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:554
@@ -824,6 +945,8 @@ msgid ""
 "I say yes. I admit my apprentice enjoys the spotlight more than most, but "
 "with this much magical aptitude who wouldn’t want to show off?"
 msgstr ""
+"Ben evet diyorum. Çırağımın ilgi odağı olmayı çoğundan fazla sevdiğini "
+"kabul ediyorum, ama bu kadar büyü yeteneği olan kim gösteriş yapmak istemez?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:558
@@ -831,11 +954,13 @@ msgid ""
 "I think it’s obvious this is one of the most gifted magi we’ve trained in "
 "years. The skill is innate; the wisdom will come with time."
 msgstr ""
+"Bence bunun yıllardır yetiştirdiğimiz en yetenekli büyücülerden biri olduğu "
+"açık. Beceri doğuştan; bilgelik zamanla gelir."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:563
 msgid "So mine is the deciding vote. Very well, I’ve made up my mind."
-msgstr ""
+msgstr "Demek belirleyici oy benim. Pekâlâ, kararımı verdim."
 
 #. [message]: speaker=narrator
 #. non sequitur. The screen has faded to black, and Delfador is hearing a voice with no apparent origin. In scenario 4, this is later revealed to be the elvish seer Elende, prophesying about Delfador's future.
@@ -843,7 +968,7 @@ msgstr ""
 msgid ""
 "<i>The Deceiver weaves the twine encircling the puppets in the court of "
 "royals.</i>"
-msgstr ""
+msgstr "<i>Aldatıcı, kraliyet sarayındaki kuklaları saran ipliği örer.</i>"
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:594
@@ -851,6 +976,8 @@ msgid ""
 "<i>Fatherless prince and sovereignless king, the balance of man hangs upon "
 "this thread.</i>"
 msgstr ""
+"<i>Babasız prens ve hükümdarsız kral, insanlığın dengesi bu ipliğe "
+"bağlı.</i>"
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:598
@@ -858,17 +985,19 @@ msgid ""
 "<i>Should force and fire brandish themselves where wisdom and pity are left "
 "wanting, this string of fate shall inexorably be sundered.</i>"
 msgstr ""
+"<i>Bilgeliğin ve merhametin eksik kaldığı yerde güç ve ateş kendini "
+"gösterirse, bu kader ipliği kaçınılmaz olarak kopacak.</i>"
 
 #. [message]: speaker=Leollyn
 #. the screen has faded back to normal, and master Leollyn is annoyed that Delfador wasn't paying attention
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:611
 msgid "Apprentice! Are you listening? I’m trying to congratulate you!"
-msgstr ""
+msgstr "Çırak! Dinliyor musun? Seni tebrik etmeye çalışıyorum!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:615
 msgid "But who— what— um, yes, I must have drifted off."
-msgstr ""
+msgstr "Ama kim— ne— ee, evet, dalıp gitmiş olmalıyım."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:619
@@ -877,18 +1006,21 @@ msgid ""
 "completion of the practical portion of your graduation exam! Now we proceed "
 "to the written section; please conjure your quill and parchment..."
 msgstr ""
+"...diyordum ki... çırak, mezuniyet sınavının uygulamalı kısmını başarıyla "
+"tamamladığın için tebrikler! Şimdi yazılı kısma geçiyoruz; lütfen kalemini "
+"ve parşömenini büyüyle çağır..."
 
 #. [message]: speaker=Delfador
 #. Delfador has just taken lethal damage
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:639
 msgid "Oh no! Master, help!"
-msgstr ""
+msgstr "Ah hayır! Usta, yardım edin!"
 
 #. [message]: speaker=Methor
 #. Methor casts a spell to save Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:644
 msgid "I’ll save you!"
-msgstr ""
+msgstr "Seni kurtaracağım!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:659
@@ -896,11 +1028,13 @@ msgid ""
 "(sigh) Not again! I suppose you’ll have to retry the exam next year... for "
 "the sixth time."
 msgstr ""
+"(iç çeker) Yine mi! Sanırım sınava gelecek yıl yeniden girmen gerekecek... "
+"altıncı kez."
 
 #. [scenario]: id=01_Stirrings_of_War
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:10
 msgid "Stirrings of War"
-msgstr ""
+msgstr "Savaşın Kıpırtıları"
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:28
@@ -908,6 +1042,7 @@ msgid ""
 "In the year 481 after the founding of Wesnoth, King Garard the Second grew "
 "discontent."
 msgstr ""
+"Vesnot’un kuruluşundan sonraki 481. yılda Kral İkinci Garard huzursuzlandı."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:31
@@ -917,6 +1052,10 @@ msgid ""
 "secured him a queen, as well as the promise of an heir. Yet despite these "
 "achievements, the restless king could find no peace."
 msgstr ""
+"Doğu Sınırları güvenceye alınıp güneydeki haydutlar yatıştırılınca "
+"imparatorluğu büyük ve güçlü olmuştu. Garard’ın genç Aşivye ile evliliği "
+"ona hem bir kraliçe hem de bir varis vaadi sağlamıştı. Ama bu başarılara "
+"rağmen huzursuz kral bir türlü huzur bulamıyordu."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:35
@@ -926,6 +1065,10 @@ msgid ""
 "the orcs of the Heart Mountains, whose raids had long been a nuisance across "
 "his northern border."
 msgstr ""
+"Kralın sevgisi kılıçta ve kalkanda, savaşta ve kandaydı. Weldyn’in "
+"malikânelerindeki uyuşuk hayattan memnun olmayan Garard, gözünü uzun "
+"zamandır kuzey sınırı boyunca baş belası olan baskınlarıyla Yürek "
+"Dağları’nın orklarına çevirdi."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:39
@@ -934,6 +1077,9 @@ msgid ""
 "an expeditionary force to cross the Great River and lay claim to orcish "
 "lands; a great show of power to secure Wesnoth’s might."
 msgstr ""
+"Karşılık vermeye hevesli kral dört bir yana ulaklar gönderdi. Büyük Nehir’i "
+"geçip ork topraklarını sahiplenmek için bir sefer kuvvetini silah altına "
+"çağırdı; Vesnot’un kudretini pekiştirecek büyük bir güç gösterisi."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:43
@@ -942,36 +1088,39 @@ msgid ""
 "summoning a contingent of magi to support Garard’s endeavor. A particular "
 "young apprentice was especially enthusiastic..."
 msgstr ""
+"Bu ulaklardan biri, Garard’ın girişimini desteklemek için bir büyücü "
+"birliği çağırmak üzere Alduin’deki saygın Büyü Akademisi’ne gitti. Genç bir "
+"çırak özellikle hevesliydi..."
 
 #. [side]: type=Orcish Grunt, id=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:70
 msgid "Ozgob"
-msgstr ""
+msgstr "Ozgob"
 
 #. [side]: type=Orcish Grunt, id=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:78
 msgid "Clan Whitefang"
-msgstr ""
+msgstr "Akdiş Klanı"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:122
 msgid "Weldyn"
-msgstr ""
+msgstr "Weldyn"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:143
 msgid "15 gold"
-msgstr ""
+msgstr "15 altın"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:143
 msgid "Treasure! Looks like a previous victim of the goblins."
-msgstr ""
+msgstr "Hazine! Görünüşe göre goblinlerin daha önceki bir kurbanı."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:180
 msgid "Are we there yet?"
-msgstr ""
+msgstr "Vardık mı?"
 
 #. [message]: speaker=Methor
 #. a "seeker spell" is a made-up word to describe some kind of spell that helps you find your way to a destination
@@ -980,6 +1129,8 @@ msgid ""
 "Nearer than the last time you asked, yet further than we will be the next. "
 "Really apprentice, would it kill you to learn a proper seeker spell?"
 msgstr ""
+"En son sorduğundan daha yakın, ama bir dahaki sorduğundan daha uzak. "
+"Gerçekten çırak, düzgün bir arama büyüsü öğrensen ölür müsün?"
 
 #. [message]: speaker=Delfador
 #. Delfador has never met King Garard II, but rather idolizes him
@@ -990,16 +1141,19 @@ msgid ""
 "even get to counsel with the king himself! What I wouldn’t give for a chance "
 "to prove myself to him..."
 msgstr ""
+"Bu kadar suratsız olmanıza gerek yok, usta. Heyetimizin başı olarak kralın "
+"kendisiyle bile danışacaksınız! Kendimi ona kanıtlama fırsatı için neler "
+"vermezdim..."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:195
 msgid "Do you hear that?"
-msgstr ""
+msgstr "Duyuyor musunuz?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:195
 msgid "Quiet!"
-msgstr ""
+msgstr "Sessiz!"
 
 #. [message]: speaker=Ozgob
 #. 'stragglers' refers to soldiers (like Delfador and Methor) who are joining Garard's war-camp, but are arriving late
@@ -1008,11 +1162,13 @@ msgid ""
 "“Kill the stragglers”, they says. “You’ll have our best warriors”, they "
 "says. N’ all I get are a bunch o’ lousy goblins? Lousy lazy lying—"
 msgstr ""
+"“Geride kalanları öldürün”, diyorlar. “En iyi savaşçılarımız senin olacak”, "
+"diyorlar. Bana kalan da bir avuç berbat goblin mi? Berbat tembel yalancı—"
 
 #. [message]: role=gobbo1
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:210
 msgid "They’re here, they’re here! Humans on the clan road!"
-msgstr ""
+msgstr "Buradalar, buradalar! Klan yolunda insanlar!"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:214
@@ -1020,74 +1176,76 @@ msgid ""
 "—then grab your spear, you loathsome lout! Don’t let them link up with the "
 "rest of their army!"
 msgstr ""
+"—o zaman al mızrağını, seni iğrenç hödük! Ordularının geri kalanıyla "
+"birleşmelerine izin verme!"
 
 #. [message]: role=gobbo1
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:218
 msgid "No, no, no! No fight! I run away!"
-msgstr ""
+msgstr "Hayır, hayır, hayır! Dövüş yok! Ben kaçar!"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:225
 msgid "Why you runtish, yellow—"
-msgstr ""
+msgstr "Seni bodur, korkak—"
 
 #. [message]
 #. multiple goblins are running away
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:232
 msgid "Wait for me!"
-msgstr ""
+msgstr "Beni bekleyin!"
 
 #. [message]: role=gobbo3
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:236
 msgid "Run away! Back to the swamp!"
-msgstr ""
+msgstr "Kaçın! Bataklığa geri!"
 
 #. [message]: speaker=Ozgob
 #. Ozgob has just killed one of the fleeing goblins
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:244
 msgid "I said FORM RANKS! Rousers, get these runts organized!"
-msgstr ""
+msgstr "SAF TUTUN dedim! Kışkırtıcılar, şu bodurları düzene sokun!"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:248
 msgid "Gumpnug"
-msgstr ""
+msgstr "Gumpnug"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:263
 msgid "Bork"
-msgstr ""
+msgstr "Bork"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:279
 msgid "Mirnik"
-msgstr ""
+msgstr "Mirnik"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:295
 msgid "Gump"
-msgstr ""
+msgstr "Gump"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:315
 msgid "Defeat Ozgob"
-msgstr ""
+msgstr "Ozgob’u yen"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:319
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:325
 msgid "Death of Methor or the Apprentice"
-msgstr ""
+msgstr "Methor’un ya da Çırağın ölümü"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:327
 msgid "Defeat a Goblin Rouser to rout their entourage."
-msgstr ""
+msgstr "Maiyetini bozguna uğratmak için bir Goblin Kışkırtıcıyı yen."
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:344
 msgid "Choosing Spells:"
-msgstr ""
+msgstr "Büyü Seçme:"
 
 #. [object]
 #. Delfador does not yet have a true name; he's only called "apprentice"
@@ -1097,6 +1255,9 @@ msgid ""
 "select which spells to equip for the upcoming battle. Remember, double- or "
 "right-click on the apprentice to cast chosen spells!"
 msgstr ""
+"Bu seferberlikte her senaryodan önce yaklaşan savaş için hangi büyüleri "
+"kuşanacağını seçme fırsatın olacak. Unutma, seçilen büyüleri yapmak için "
+"çırağa çift tıkla ya da sağ tıkla!"
 
 #. [message]: speaker=Methor
 #. Methor says this when Delfador stands on their keep. Delfador can only recruit mudcrawlers; Methor recruits mages
@@ -1105,6 +1266,8 @@ msgid ""
 "You’re not yet a journeyman, apprentice! Your mudcrawlers are not without "
 "use, but to recruit mages I’ll need to stand on our keep."
 msgstr ""
+"Henüz kalfa değilsin, çırak! Çamur sürüngenlerin işe yaramaz değil, ama "
+"büyücü almak için burcumuzda durmam gerekecek."
 
 #. [message]: speaker=Methor
 #. Methor says this when Delfador stands on their keep. Delfador can not recruit; Methor recruits mages
@@ -1113,12 +1276,13 @@ msgid ""
 "You’re not yet a journeyman, apprentice! To recruit mages I’ll need to stand "
 "on our keep."
 msgstr ""
+"Henüz kalfa değilsin, çırak! Büyücü almak için burcumuzda durmam gerekecek."
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:388
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:546
 msgid "New Recruit:"
-msgstr ""
+msgstr "Yeni Asker:"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:389
@@ -1126,6 +1290,8 @@ msgid ""
 "The apprentice is the main character of this campaign, but right now he’s "
 "not your leader. Methor is your leader, and he can recruit Mages."
 msgstr ""
+"Çırak bu seferberliğin ana karakteri, ama şu anda liderin o değil. Liderin "
+"Methor ve o Büyücü alabilir."
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:391
@@ -1134,6 +1300,9 @@ msgid ""
 "are difficult to evade. They have few hitpoints and are highly vulnerable in "
 "melee combat, so take good care of them!"
 msgstr ""
+"Büyücüler, kaçınılması zor, isabetli <i>büyülü</i> saldırılara sahip "
+"ölümcül menzilli saldırganlardır. Yaşam puanları azdır ve yakın dövüşte çok "
+"savunmasızdırlar, o yüzden onlara iyi bak!"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:404
@@ -1143,32 +1312,36 @@ msgid ""
 "Preferences menu (Ctrl-P), selecting “Display”, and unchecking “Animate "
 "Map.”</i>"
 msgstr ""
+"<i>Yağmur tamamen görseldir ve oyuna hiçbir etkisi yoktur. Yağmur dikkatini "
+"dağıtıyor ya da performansı düşürüyorsa Tercihler menüsünü açıp (Ctrl-P) "
+"“Görüntü”yü seçerek ve “Haritayı Canlandır” seçeneğinin işaretini "
+"kaldırarak kapatabilirsin.</i>"
 
 #. [scenario]: id=01_Stirrings_of_War
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:493
 msgid "Run for your lives!"
-msgstr ""
+msgstr "Canını seven kaçsın!"
 
 #. [scenario]: id=01_Stirrings_of_War
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:494
 msgid "Run! Flee back to the swamp!"
-msgstr ""
+msgstr "Kaçın! Bataklığa geri kaçın!"
 
 #. [scenario]: id=01_Stirrings_of_War
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:495
 msgid "Noooo, $unit.name!"
-msgstr ""
+msgstr "Hayııır, $unit.name!"
 
 #. [scenario]: id=01_Stirrings_of_War
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:496
 msgid "Flee, flee! $unit.name’s dead!"
-msgstr ""
+msgstr "Kaçın, kaçın! $unit.name öldü!"
 
 #. [message]: speaker=Ozgob
 #. said in response to goblins running away from the fight
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:503
 msgid "Cowards!! Fight and die like real orcish warriors!"
-msgstr ""
+msgstr "Korkaklar!! Gerçek ork savaşçıları gibi savaşın ve ölün!"
 
 #. [message]: speaker=Methor
 #. said after any living unit dies (both human and goblin)
@@ -1177,6 +1350,8 @@ msgid ""
 "(sigh) More casualties of pointless politics. I joined the order to do some "
 "<i><b>good</b></i> in the world..."
 msgstr ""
+"(iç çeker) Anlamsız siyasetin daha fazla kurbanı. Ben tarikata dünyada "
+"biraz <i><b>iyilik</b></i> yapmak için katılmıştım..."
 
 #. [message]: speaker=Ozgob
 #. Ozgob has lost most of his goblins ('runts'), and is about to charge at Delfador personally
@@ -1185,6 +1360,8 @@ msgid ""
 "I’ve had it with this! Never send a runt to do a warrior’s job. I’ll bring "
 "you down myself!"
 msgstr ""
+"Bıktım bundan! Bir savaşçının işini asla bir bodura yaptırma. Seni kendim "
+"indireceğim!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:579
@@ -1193,17 +1370,19 @@ msgid ""
 "powerful on the front lines, if we’re ever struggling it’s also important "
 "that I have the chance to recruit new magi from our keep."
 msgstr ""
+"Epey altın biriktirdik, çırak. Büyüm ön cephede güçlü olsa da "
+"zorlandığımızda burcumuzdan yeni büyücüler alma fırsatımın olması da önemli."
 
 #. [message]
 #. Ozgob has died, and any remaining goblins are deserting him
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:607
 msgid "Run away!"
-msgstr ""
+msgstr "Kaçın!"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:612
 msgid "Useless... goblins..."
-msgstr ""
+msgstr "İşe yaramaz... goblinler..."
 
 #. [message]: speaker=Garard
 #. King Garard has just appeared, along with a few knights
@@ -1214,6 +1393,7 @@ msgid ""
 "Ride forth, knights of Wesnoth! No orc who sets foot on our soil shall leave "
 "alive!"
 msgstr ""
+"İleri, Vesnot şövalyeleri! Toprağımıza ayak basan hiçbir ork sağ çıkmayacak!"
 
 #. [message]: speaker=Garard
 #. Garard came to kill the goblins, but Delfador has already done it.
@@ -1223,6 +1403,9 @@ msgid ""
 "slain our foe! I wasn’t making a mistake bringing Alduin into the fold after "
 "all. Who commands this detachment?"
 msgstr ""
+"Ama bu da ne? Görünüşe göre bazı büyücüler savaşa bizden önce gelip "
+"düşmanımızı çoktan öldürmüş! Demek Alduin’i işin içine katmakla hata "
+"etmemişim. Bu birliğe kim komuta ediyor?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:644
@@ -1231,6 +1414,9 @@ msgid ""
 "war-call. I volunteered to lead them, and I now place my medicinal arts at "
 "your service."
 msgstr ""
+"(eğilerek) Efendim, Alduin bu çırakları savaş çağrınıza yanıt olarak "
+"gönderdi. Onlara önderlik etmeye gönüllü oldum ve şimdi şifa sanatlarımı "
+"hizmetinize sunuyorum."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:648
@@ -1238,6 +1424,8 @@ msgid ""
 "A healer? Well, we’ll have need of your services soon enough. Follow me back "
 "to camp. We attack on the morrow!"
 msgstr ""
+"Bir şifacı mı? Eh, yakında hizmetlerinize ihtiyacımız olacak. Beni kampa "
+"kadar takip edin. Yarın saldırıyoruz!"
 
 #. [message]: speaker=Garard
 #. Delfador has failed to defeat the goblins. Garard does not respect him.
@@ -1247,11 +1435,14 @@ msgid ""
 "even finish off a few goblins! Bah, go back to Alduin, you scholars have no "
 "place in war after all."
 msgstr ""
+"Ama bu da ne? Kalem boyunlu birkaç büyücü savaşa bizden önce gelmiş, ama "
+"birkaç goblinin işini bile bitirememiş! Bah, Alduin’e dönün, siz âlimlerin "
+"savaşta yeri yokmuş meğer."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:682
 msgid "Now I’ll never make a name for myself..."
-msgstr ""
+msgstr "Artık asla adımı duyuramayacağım..."
 
 #. [scenario]: id=02_Fort_Garard
 #. [side]: type=Halberdier, id=Luraery
@@ -1262,7 +1453,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:87
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:102
 msgid "Fort Garard"
-msgstr ""
+msgstr "Garard Kalesi"
 
 #. [side]
 #. [side]: type=Goblin Pillager, id=Khavur
@@ -1284,12 +1475,12 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:56
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:75
 msgid "Whitefang Orcs"
-msgstr ""
+msgstr "Akdiş Orkları"
 
 #. [side]: type=Goblin Pillager, id=Khavur
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:46
 msgid "Khavur"
-msgstr ""
+msgstr "Havur"
 
 #. [side]
 #. [side]: id={ID}, type={TYPE}
@@ -1306,22 +1497,22 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:61
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:151
 msgid "Army of Wesnoth"
-msgstr ""
+msgstr "Vesnot Ordusu"
 
 #. [side]: type=Orcish Warrior, id=Ushnug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:143
 msgid "Ushnug"
-msgstr ""
+msgstr "Uşnug"
 
 #. [side]: type=Orcish Slayer, id=Gusush
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:159
 msgid "Gusush"
-msgstr ""
+msgstr "Gusuş"
 
 #. [side]: type=Orcish Warlord, id=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:175
 msgid "Vidrug"
-msgstr ""
+msgstr "Vidrug"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:267
@@ -1331,6 +1522,9 @@ msgid ""
 "Methor, command the camp in my absence — those goblin raiders are still "
 "being a nuisance."
 msgstr ""
+"Sonunda işte savaşın arifesindeyiz! Planı unutmayın: General Lionel, "
+"şövalyelerim bir açıklık ararken ork savaşçılarını yumuşat; Methor, ben "
+"yokken kampa komuta et — o goblin akıncıları hâlâ baş belası."
 
 #. [message]: speaker=Lionel
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:274
@@ -1338,6 +1532,8 @@ msgid ""
 "M’lord, weren’ we waiting for the queen? Your wife had expressed an interest "
 "in seeing an orc."
 msgstr ""
+"Efendim, kraliçeyi beklemiyor muyduk? Eşiniz bir ork görmeye ilgi duyduğunu "
+"belirtmişti."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:278
@@ -1345,6 +1541,8 @@ msgid ""
 "We can brook no delay, Lionel. The opposing army is finally ready for "
 "pitched battle. Ere dusk, my lance will be stained with orcish blood!"
 msgstr ""
+"Hiçbir gecikmeye katlanamayız, Lionel. Karşı ordu nihayet meydan "
+"muharebesine hazır. Akşam olmadan mızrağım ork kanına bulanacak!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:284
@@ -1352,6 +1550,8 @@ msgid ""
 "This may prove a learning experience for you, apprentice. Keep your eyes "
 "sharp as we guard the fort."
 msgstr ""
+"Bu senin için bir öğrenme deneyimi olabilir, çırak. Kaleyi korurken gözünü "
+"dört aç."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:288
@@ -1359,6 +1559,8 @@ msgid ""
 "The king commanded us to handle the goblins, master. We could do that by "
 "guarding... or we could take a risk and assault the goblin camp."
 msgstr ""
+"Kral goblinlerle ilgilenmemizi emretti, usta. Bunu koruma yaparak "
+"yapabiliriz... ya da risk alıp goblin kampına saldırabiliriz."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:292
@@ -1367,6 +1569,9 @@ msgid ""
 "master, not just another wandering healer or village mage. Proving ourselves "
 "to the king here could be the first step."
 msgstr ""
+"Biliyorum, genelde öğütlediğiniz temkin bu değil. Ama ben biri olmak "
+"istiyorum usta; sadece gezgin bir şifacı ya da köy büyücüsü değil. Burada "
+"kendimizi krala kanıtlamak ilk adım olabilir."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:296
@@ -1375,12 +1580,15 @@ msgid ""
 "guards against the goblins I won’t stop you, but I’m afraid I can’t help you "
 "either. My place is here, tending to the sick and injured."
 msgstr ""
+"Ah, gencecik, seninle ne yapacağım ben... Muhafızlara goblinlere karşı "
+"önderlik etmek istiyorsan seni durdurmam, ama korkarım sana yardım da "
+"edemem. Benim yerim burası; hastalara ve yaralılara bakmak."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:313
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:443
 msgid "Defeat Khavur, the goblin leader"
-msgstr ""
+msgstr "Goblin lideri Havur’u yen"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:317
@@ -1388,25 +1596,27 @@ msgid ""
 "Win before Garard defeats the orcish leader <span color='#ffffff' "
 "size='small'>(probably turn 17 or 18)</span>"
 msgstr ""
+"Garard ork liderini yenmeden kazan <span color='#ffffff' "
+"size='small'>(muhtemelen 17. ya da 18. el)</span>"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:321
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:457
 msgid "Garard defeats Vidrug, the orcish leader"
-msgstr ""
+msgstr "Garard ork lideri Vidrug’u yener"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:329
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:465
 msgid "Death of Garard or Lionel"
-msgstr ""
+msgstr "Garard’ın ya da Lionel’in ölümü"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:342
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:465
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:455
 msgid "New Recruits:"
-msgstr ""
+msgstr "Yeni Askerler:"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:343
@@ -1415,6 +1625,9 @@ msgid ""
 "roster of level 1 infantry. In addition to Mages, you can recruit Spearmen, "
 "Bowmen, Fencers, and Heavy Infantrymen."
 msgstr ""
+"Methor artık kraliyet ordusunda bir asker ve Vesnot’un 1. seviye "
+"piyadelerinin tam kadrosuna erişimi var. Büyücülere ek olarak Mızrakçı, "
+"Yaycı, Eskirimci ve Ağır Piyade alabilirsin."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:355
@@ -1422,6 +1635,8 @@ msgid ""
 "<i>If movement and combat are taking too long, you can enable “accelerated "
 "speed” and “skip AI moves” in the Preferences menu.</i>"
 msgstr ""
+"<i>Hareket ve dövüş çok uzun sürüyorsa Tercihler menüsünde “hızlandırılmış "
+"hız” ve “YZ hareketlerini atla” seçeneklerini açabilirsin.</i>"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:390
@@ -1429,18 +1644,20 @@ msgid ""
 "We have some gold in camp, apprentice, and I am still in our keep and ready "
 "to recruit. Remember to call for reinforcements if you need them."
 msgstr ""
+"Kampta biraz altınımız var çırak ve ben hâlâ burcumuzdayım, asker almaya "
+"hazırım. İhtiyacın olursa takviye çağırmayı unutma."
 
 #. [message]: speaker=Garard
 #. Garard's forces have just killed an orc
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:407
 msgid "They fall before us!"
-msgstr ""
+msgstr "Önümüzde düşüyorlar!"
 
 #. [message]: speaker=Khavur
 #. The goblin leader calls the retreat. Remaining goblins fall back to their keep, at least until dusk.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:419
 msgid "Too many humans!"
-msgstr ""
+msgstr "Çok fazla insan!"
 
 #. [message]: speaker=Methor
 #. the player is attacking orcs instead of working towards the main scenario objective. This unlocks an alternate objective
@@ -1449,6 +1666,8 @@ msgid ""
 "Apprentice, what are you doing! The king commanded us to engage the goblin "
 "raiders, not the main orcish army!"
 msgstr ""
+"Çırak, ne yapıyorsun! Kral goblin akıncılarıyla çatışmamızı emretti, ana "
+"ork ordusuyla değil!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:438
@@ -1456,23 +1675,25 @@ msgid ""
 "Lighten up! What’s the worst that could happen? If I slay enough orcs in the "
 "main battle, I’m sure the king won’t mind that I abandoned my post! ...right?"
 msgstr ""
+"Rahatla biraz! Olabilecek en kötü şey ne? Ana savaşta yeterince ork "
+"öldürürsem eminim kral görevimi bırakmama aldırmaz! ...değil mi?"
 
 #. [objective]: condition=win
 #. $initial_orcs_remaining is between 8-15, $orcs_remaining is between 0-15
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:449
 msgid ""
 "Defeat at least $initial_orcs_remaining orcs ($orcs_remaining remaining)"
-msgstr ""
+msgstr "En az $initial_orcs_remaining ork yen ($orcs_remaining kaldı)"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:453
 msgid "Win before Garard defeats the orcish leader"
-msgstr ""
+msgstr "Garard ork liderini yenmeden kazan"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:461
 msgid "Death of Delfador or Methor"
-msgstr ""
+msgstr "Delfador’un ya da Methor’un ölümü"
 
 #. [message]: speaker=Garard
 #. a goblin has just attacked one of Garard's horsemen. Garard previously told Methor to guard against the goblins, but Delfador led the guards to battle instead
@@ -1481,32 +1702,34 @@ msgid ""
 "What the— who let all these runts in here! I should have known that healer "
 "would be too soft-hearted to deal properly with the goblins."
 msgstr ""
+"Bu da ne— bu bodurları buraya kim soktu! O şifacının goblinlerle düzgünce "
+"uğraşamayacak kadar yufka yürekli olacağını bilmeliydim."
 
 #. [message]: speaker=Delfador
 #. Delfador (or one of his troops) has killed another orc, and completed his alternate objective
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:508
 msgid "Yes! We got another one!"
-msgstr ""
+msgstr "Evet! Bir tane daha haklandık!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:513
 msgid "I’ve defeated so many orcs; surely the king must be impressed by now!"
-msgstr ""
+msgstr "O kadar çok ork yendim ki kral şimdiye kadar etkilenmiş olmalı!"
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:518
 msgid "Bah, filthy humans! This is hopeless. Whitefangs, retreat!"
-msgstr ""
+msgstr "Bah, pis insanlar! Bu umutsuz. Akdişler, geri çekilin!"
 
 #. [message]: speaker=Khavur
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:534
 msgid "Nooo! Help meeee..."
-msgstr ""
+msgstr "Hayııır! Yardım edin baaana..."
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:540
 msgid "Bah, useless runts! This is hopeless. Whitefangs, retreat!"
-msgstr ""
+msgstr "Bah, işe yaramaz bodurlar! Bu umutsuz. Akdişler, geri çekilin!"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:553
@@ -1514,6 +1737,8 @@ msgid ""
 "Oh, what’s this? Seems one of our young magi knows how to seize the "
 "initiative."
 msgstr ""
+"Ah, bu da ne? Görünüşe göre genç büyücülerimizden biri inisiyatif almayı "
+"biliyor."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:557
@@ -1521,12 +1746,14 @@ msgid ""
 "A proper war-mage is far too valuable to waste on the front lines; I may "
 "have a special assignment for you. What’s your name, boy?"
 msgstr ""
+"Gerçek bir savaş büyücüsü ön cephede harcanmayacak kadar değerli; sana özel "
+"bir görevim olabilir. Adın ne, evlat?"
 
 #. [message]: speaker=Delfador
 #. said by Delfador to himself (or maybe just thought in his mind)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:562
 msgid "Commendation from the king himself! This is a dream come true."
-msgstr ""
+msgstr "Kralın kendisinden övgü! Bu gerçek olan bir rüya."
 
 #. [message]: speaker=Delfador
 #. Delfador is realy excited to go with the king, but deeply respects Methor and doesn't want to dissapoint him
@@ -1536,6 +1763,9 @@ msgid ""
 "apprentice; Alduin has not yet assigned me one. And... I suppose I shouldn’t "
 "want to leave without my master’s blessing..."
 msgstr ""
+"Onur duyarım, efendim! Ama size adımı veremem — ben sadece bir çırağım; "
+"Alduin bana henüz bir ad vermedi. Ve... sanırım ustamın rızası olmadan "
+"ayrılmak istememeliyim..."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:571
@@ -1543,6 +1773,8 @@ msgid ""
 "By the traditions of our order, no apprentice shall venture alone; that "
 "privilege is first awarded only to the journeymen!"
 msgstr ""
+"Tarikatımızın geleneklerine göre hiçbir çırak tek başına yola çıkamaz; bu "
+"ayrıcalık önce yalnızca kalfalara verilir!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:575
@@ -1551,12 +1783,15 @@ msgid ""
 "some time now. I was hoping to impart a little more wisdom before advancing "
 "you, but now I understand that fate has other plans."
 msgstr ""
+"...ama çırak, doğrusunu söylemek gerekirse epey zamandır bir kalfanın "
+"becerisine sahipsin. Seni yükseltmeden önce biraz daha bilgelik aktarmayı "
+"umuyordum, ama şimdi kaderin başka planları olduğunu anlıyorum."
 
 #. [message]: speaker=Methor
 #. nonsense words, sounding magical, copied from the original DM
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:607
 msgid "Thorum restro targa thorum..."
-msgstr ""
+msgstr "Torum restro targa torum..."
 
 #. [message]: speaker=Methor
 #. referencing the "Provost of the Council of Archmagi" mentioned by Delfador in HttT
@@ -1565,11 +1800,13 @@ msgid ""
 "The light waxes bright. By the power of the high provost and the blessing of "
 "the five sages, I declare you to be nameless NO LONGER!"
 msgstr ""
+"Işık parlıyor. Yüce başrahibin gücü ve beş bilgenin kutsamasıyla, artık "
+"İSİMSİZ OLMADIĞINI ilan ediyorum!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:632
 msgid "<i><b>DELFADOR</b></i> you shall be, and Delfador shall be YOU."
-msgstr ""
+msgstr "<i><b>DELFADOR</b></i> olacaksın ve Delfador SEN olacaksın."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:640
@@ -1579,6 +1816,10 @@ msgid ""
 "I grieve for the apprentice I have lost, but I celebrate the journeyman "
 "Wesnoth has gained. Your naming ceremony is complete."
 msgstr ""
+"Delfador, gözlerini aç. Ve BİR DAHA AÇ!\n"
+"\n"
+"Kaybettiğim çırak için yas tutuyorum, ama Vesnot’un kazandığı kalfayı "
+"kutluyorum. Ad koyma törenin tamamlandı."
 
 #. [unit]: type=Delfador L2
 #. [event]
@@ -1600,12 +1841,12 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:1210
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:15
 msgid "Delfador"
-msgstr ""
+msgstr "Delfador"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:670
 msgid "Del-fa-dor; Delfador! Thanks master, I like the sound of that."
-msgstr ""
+msgstr "Del-fa-dor; Delfador! Teşekkürler usta, kulağa hoş geliyor."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:674
@@ -1614,6 +1855,8 @@ msgid ""
 "want, I would never stand in your way. May we meet again in more peaceful "
 "times."
 msgstr ""
+"Şimdi elveda Delfador, hırslı genç dostum. Gerçekten istediğin buysa asla "
+"yoluna çıkmam. Daha barışçıl zamanlarda yeniden karşılaşalım."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:678
@@ -1621,19 +1864,21 @@ msgid ""
 "Yes, yes, well done to you both. Now that that’s settled, “Delfador”, it’s "
 "time to pack your bags. You have a long journey ahead of you!"
 msgstr ""
+"Evet, evet, ikinize de aferin. Madem bu iş halloldu, “Delfador”, eşyalarını "
+"toplama zamanı. Önünde uzun bir yolculuk var!"
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:703
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:739
 msgid "Bah... my kin will avenge me..."
-msgstr ""
+msgstr "Bah... akrabalarım intikamımı alacak..."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:709
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:745
 msgid ""
 "The first line of orcs is broken! Continue forth, riders; we ride to victory!"
-msgstr ""
+msgstr "Orkların ilk hattı kırıldı! İlerleyin süvariler; zafere sürüyoruz!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:714
@@ -1641,18 +1886,20 @@ msgid ""
 "No; that’s not fair! I helped fight the orcs too; why is he going on without "
 "me?"
 msgstr ""
+"Hayır; bu haksızlık! Orklarla savaşmaya ben de yardım ettim; neden bensiz "
+"devam ediyor?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:718
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:754
 msgid "Now I’ll never impress the king..."
-msgstr ""
+msgstr "Artık kralı asla etkileyemeyeceğim..."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:723
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:773
 msgid "He’s going on without us! Now I’ll never impress the king..."
-msgstr ""
+msgstr "Bizsiz devam ediyor! Artık kralı asla etkileyemeyeceğim..."
 
 #. [message]: speaker=Delfador
 #. Delfador has killed the orcish leader, but not killed enough orcs to impress Garard and complete his alternate objective
@@ -1660,7 +1907,7 @@ msgstr ""
 msgid ""
 "No; that’s not fair! I struck the finishing blow; why is he going on without "
 "me?"
-msgstr ""
+msgstr "Hayır; bu haksızlık! Son darbeyi ben vurdum; neden bensiz devam ediyor?"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:769
@@ -1668,16 +1915,17 @@ msgid ""
 "The first line of orcs will soon be broken! Continue forth, riders; we ride "
 "to victory!"
 msgstr ""
+"Orkların ilk hattı yakında kırılacak! İlerleyin süvariler; zafere sürüyoruz!"
 
 #. [scenario]: id=03_The_Ambassador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:13
 msgid "The Ambassador"
-msgstr ""
+msgstr "Elçi"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:47
 msgid "Woses"
-msgstr ""
+msgstr "Ulu Ağaçlar"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:119
@@ -1685,6 +1933,8 @@ msgid ""
 "When King Garard spoke of a special mission for me, I hadn’t been expecting "
 "something as quiet as messenger duty."
 msgstr ""
+"Kral Garard benim için özel bir görevden söz ettiğinde ulaklık kadar sessiz "
+"bir şey beklemiyordum."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:121
@@ -1692,6 +1942,8 @@ msgid ""
 "But I won’t disappoint him. I am to find Wesnoth’s ambassador to Lintanir "
 "Forest, and then deliver to the elves a notice."
 msgstr ""
+"Ama onu hayal kırıklığına uğratmayacağım. Vesnot’un Lintanir Ormanı "
+"elçisini bulup sonra elflere bir bildiri iletmeliyim."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:130
@@ -1700,21 +1952,24 @@ msgid ""
 "cluster of trees. The undergrowth is so thick... Perhaps this is an "
 "opportunity to practice my new fire spell."
 msgstr ""
+"Elf sınırı buranın biraz kuzeydoğusunda, bu ağaç kümesinin içinden geçince "
+"olmalı. Çalılık o kadar sık ki... Belki yeni ateş büyümü denemek için bir "
+"fırsattır."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:163
 msgid "Eldebetam"
-msgstr ""
+msgstr "Eldebetam"
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:180
 msgid "Boruroom! Burarum!"
-msgstr ""
+msgstr "Boruruum! Burarum!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:184
 msgid "What?! The tree speaks!"
-msgstr ""
+msgstr "Ne?! Ağaç konuşuyor!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:188
@@ -1722,11 +1977,13 @@ msgid ""
 "I’ve heard tell of tree-folk... you must be a wose! Err, I’m terribly sorry "
 "for the fireball. I couldn’t tell you apart from an ordinary oak."
 msgstr ""
+"Ağaç halkından söz edildiğini duymuştum... sen bir ulu ağaç olmalısın! Ee, "
+"ateş topu için çok özür dilerim. Seni sıradan bir meşeden ayıramadım."
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:192
 msgid "Burarum! Boom-toom-hun-rum-tum-ala-lola-ala?"
-msgstr ""
+msgstr "Burarum! Bum-tum-hun-rum-tum-ala-lola-ala?"
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:196
@@ -1734,11 +1991,13 @@ msgid ""
 "A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! A-rumgur-"
 "gurmum-un-rumba-ala-boruroom! BURARUM!!"
 msgstr ""
+"A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! "
+"A-rumgur-gurmum-un-rumba-ala-boruruum! BURARUM!!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:200
 msgid "It can’t understand me, and I can’t understand it... Oh no..."
-msgstr ""
+msgstr "Beni anlayamıyor, ben de onu anlayamıyorum... Ah hayır..."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:216
@@ -1747,6 +2006,8 @@ msgid ""
 "burning down half the forest would hardly be the good first impression King "
 "Garard tasked me with making."
 msgstr ""
+"Saldırmaya hazırlanıyorlar! Birkaç yürüyen söğütten korkmam, ama ormanın "
+"yarısını yakmak Kral Garard’ın bırakmamı istediği iyi ilk izlenim pek olmaz."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:218
@@ -1754,11 +2015,13 @@ msgid ""
 "I’m sure Methor would know what to do here. But I don’t. I think we have no "
 "choice but to fight."
 msgstr ""
+"Eminim Methor burada ne yapacağını bilirdi. Ama ben bilmiyorum. Sanırım "
+"savaşmaktan başka seçeneğimiz yok."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:226
 msgid "Defeat the enemy leader"
-msgstr ""
+msgstr "Düşman liderini yen"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:230
@@ -1773,7 +2036,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:498
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:863
 msgid "Death of Delfador"
-msgstr ""
+msgstr "Delfador’un ölümü"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:252
@@ -1789,6 +2052,16 @@ msgid ""
 "with effective damage types!</b></i> To see more details, right-click on a "
 "wose and select <i>“Unit Type Description”.</i>"
 msgstr ""
+"Ulu ağaçların <i>pusu</i> yeteneği vardır; bu onları ormandayken görünmez "
+"yapar. Herhangi bir birim yanına giderek bir ulu ağacı geçici olarak ortaya "
+"çıkarabilir, ama ortaya çıkaran birim sonrasında hareket edemez — "
+"<i>avcı</i> yeteneğin olsa bile. Pusucular sen uzaklaştığın anda (pusucu "
+"hareket etmemiş olsa bile) yeniden saklanır.\n"
+"\n"
+"Ulu ağaçların ayrıca güçlü <i>yenilenme</i> yeteneği ve birkaç hasar türüne "
+"karşı yüksek direnci vardır. <i><b>Etkili hasar türlerine sahip birimler "
+"aldığından emin ol!</b></i> Daha fazla ayrıntı için bir ulu ağaca sağ "
+"tıklayıp <i>“Birim Türü Açıklaması”</i>nı seç."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:266
@@ -1796,16 +2069,19 @@ msgid ""
 "Where are those woses hiding? If I’m worried about my valuable veterans "
 "getting ambushed, I could use new recruits as expendable pickets."
 msgstr ""
+"O ulu ağaçlar nerede saklanıyor? Değerli kıdemlilerimin pusuya düşmesinden "
+"endişeleniyorsam yeni askerleri harcanabilir öncü nöbetçiler olarak "
+"kullanabilirim."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:306
 msgid "This hollow tree is full of bats!"
-msgstr ""
+msgstr "Bu kovuk ağaç yarasalarla dolu!"
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:343
 msgid "Ooohhhhoooom... Burarum..."
-msgstr ""
+msgstr "Ooohhhhooom... Burarum..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:359
@@ -1814,6 +2090,9 @@ msgid ""
 "Speak, strangers, for the wrath of Wesnoth and the Lintanir elves is upon "
 "you!"
 msgstr ""
+"Durun!! Kimsiniz ve Gri Koru’nun ağaçlarını neden rahatsız ediyorsunuz? "
+"Konuşun yabancılar, çünkü Vesnot’un ve Lintanir elflerinin gazabı "
+"üzerinizde!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:363
@@ -1821,6 +2100,8 @@ msgid ""
 "Peace! Peace! You must be the man King Garard sent me to meet: Ambassador "
 "Deoran."
 msgstr ""
+"Barış! Barış! Kral Garard’ın buluşmam için gönderdiği adam siz olmalısınız: "
+"Elçi Deoran."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:371
@@ -1828,6 +2109,8 @@ msgid ""
 "Please, can you speak with these woses and tell them we’re not their "
 "enemies? This whole battle has been a terrible misunderstanding."
 msgstr ""
+"Lütfen, bu ulu ağaçlarla konuşup onlara düşmanları olmadığımızı "
+"söyleyebilir misiniz? Bütün bu savaş korkunç bir yanlış anlamaydı."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:375
@@ -1835,6 +2118,8 @@ msgid ""
 "You’re a courier from Wesnoth? My apologies for the harsh words; long has it "
 "been since Weldyn sent to this lonely post."
 msgstr ""
+"Vesnot’tan bir ulak mısın? Sert sözlerim için özür dilerim; Weldyn bu ıssız "
+"karakola birini göndereli çok uzun zaman oldu."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:379
@@ -1843,6 +2128,8 @@ msgid ""
 "and precious wose-grove. If you really are who you claim to be, explain "
 "yourself to me at once."
 msgstr ""
+"Ama yalnızca özür bu nadir ve değerli ulu ağaç korusuna karşı işlediğin "
+"suçları düzeltmez. Gerçekten iddia ettiğin kişiysen kendini hemen açıkla."
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:397
@@ -1850,11 +2137,13 @@ msgid ""
 "Burarum! A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! A-"
 "rumgur-gurmum-un-rumba-ala-boruroom!"
 msgstr ""
+"Burarum! A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! "
+"A-rumgur-gurmum-un-rumba-ala-boruruum!"
 
 #. [message]: role=young_wose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:407
 msgid "Boom-toom-hun-rum-tum-ala-lola-ala! Burarum! Boruroom!"
-msgstr ""
+msgstr "Bum-tum-hun-rum-tum-ala-lola-ala! Burarum! Boruruum!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:411
@@ -1863,16 +2152,19 @@ msgid ""
 "I could fight my way through, the elves would never trust me after such a "
 "show of force..."
 msgstr ""
+"Fark ettiğimden daha fazlalar! Ve artık gerçekten kızgınlar! Savaşarak yol "
+"açabilsem bile böyle bir güç gösterisinden sonra elfler bana asla "
+"güvenmez..."
 
 #. [scenario]: id=04_The_Sylvan_Seer
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:11
 msgid "The Sylvan Seer"
-msgstr ""
+msgstr "Orman Kâhini"
 
 #. [time]: id=dusk
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:16
 msgid "Dusk"
-msgstr ""
+msgstr "Alacakaranlık"
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:24
@@ -1883,6 +2175,11 @@ msgid ""
 "aided greatly by the woses’s natural regenerative abilities, Deoran showed "
 "Delfador how to nurse the crippled tree-folk back to health."
 msgstr ""
+"Aceleyle yapılan bir açıklamadan sonra Deoran’ın yardımıyla Delfador ulu "
+"ağaçlardan ve liderlerinden defalarca özür diledi. Neyse ki yok edilen "
+"ağaçların çoğu ölmemiş, sadece yaralanmıştı. Sonraki birkaç gün boyunca, "
+"ulu ağaçların doğal yenilenme yeteneklerinin de büyük yardımıyla, Deoran "
+"Delfador’a sakat kalan ağaç halkını nasıl iyileştireceğini gösterdi."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:26
@@ -1890,42 +2187,44 @@ msgid ""
 "At last, relations mended, the two of them set out to deliver King Garard’s "
 "message to the elves..."
 msgstr ""
+"Sonunda ilişkiler düzelince ikisi Kral Garard’ın mesajını elflere iletmek "
+"için yola çıktı..."
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:54
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:60
 msgid "Lintanir"
-msgstr ""
+msgstr "Lintanir"
 
 #. [unit]: id=Eloreis
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:87
 msgid "Eloreis"
-msgstr ""
+msgstr "Eloreis"
 
 #. [unit]: id=Parandra
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:100
 msgid "Parandra"
-msgstr ""
+msgstr "Parandra"
 
 #. [unit]: id=Kalenz
 #. [unit]: id=kalenz_mirror
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:111
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1321
 msgid "Kalenz"
-msgstr ""
+msgstr "Kalenz"
 
 #. [unit]: id=Chantal
 #. [unit]: id=chantal_mirror
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:123
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1338
 msgid "Chantal"
-msgstr ""
+msgstr "Şantal"
 
 #. [message]: speaker=Delfador
 #. Delfador is trying to speak, but gets interrupted by an elvish marshal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:189
 msgid "Okay, yes, but—"
-msgstr ""
+msgstr "Tamam, evet, ama—"
 
 #. [message]: speaker=Eloreis
 #. Delfador has brought a message from King Garard to the elves, asking them to attack the whitefang orcs
@@ -1935,6 +2234,9 @@ msgid ""
 "our rangers have neither the training nor the elfpower to fight an offensive "
 "war on open ground! What your king asks of us is impossible."
 msgstr ""
+"Weldyn’in orklar konusundaki tutumunu anlıyorum, ama Garard gerçekleri "
+"değiştiremez: korucularımızın açık arazide bir saldırı savaşı yürütecek ne "
+"eğitimi ne de elf gücü var! Kralınızın bizden istediği imkânsız."
 
 #. [message]: speaker=Parandra
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:198
@@ -1945,6 +2247,11 @@ msgid ""
 "desire have we for more territory when Lintanir’s broad eaves could support "
 "ten times our numbers?"
 msgstr ""
+"Hem neden isteyelim ki? Orklar ormanlarımızdan uzak durur, biz de onların "
+"tepelerinden; yüz yılı aşkın bir süredir işler böyle. Kralınız bize ganimet "
+"olarak karla kaplı dağlar ve çorak çöl vaat ediyor, ama Lintanir’in geniş "
+"saçakları sayımızın on katını barındırabilirken daha fazla toprağa ne "
+"arzumuz olabilir?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:202
@@ -1954,6 +2261,10 @@ msgid ""
 "must know the orcs threaten all peoples of Wesnoth, or why else would he "
 "wage this war?"
 msgstr ""
+"Saygıdeğer beylerim ve hanımlarım, topraklarınızı ve halkınızı koruma "
+"görevinizi anlıyorum. Weldyn’in şimdi yaptığı da bu değil mi? Kral Garard "
+"orkların Vesnot’un bütün halklarını tehdit ettiğini bilmeli, yoksa bu "
+"savaşı neden yürütsün?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:207
@@ -1966,11 +2277,18 @@ msgid ""
 "honor of the friendship we have built over my many years here, I would hope "
 "Lintanir will as well."
 msgstr ""
+"Elbette Kralımın çağrısını küçümsemekte serbestsiniz; Lintanir’de "
+"oyalanmakta; Vesnot’un gücü yıkıcı bir zafere ya da kanlı bir yenilgiye "
+"harcanana kadar yaşayıp gülüp <i>oyalanmakta</i>.\n"
+"\n"
+"Ama bilin ki ben Kralımın çağrısına yanıt vereceğim; savaşa yürüyeceğim. "
+"Burada geçirdiğim uzun yıllarda kurduğumuz dostluk adına, Lintanir’in de "
+"yürümesini umarım."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:222
 msgid "Truly, a moving speech..."
-msgstr ""
+msgstr "Gerçekten de dokunaklı bir konuşma..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:226
@@ -1979,6 +2297,9 @@ msgid ""
 "before seen the horrors of a war between elves and orcs, and have no desire "
 "to plunge my people back into such a nightmare."
 msgstr ""
+"Deoran, üzgünüm, ama Eloreis haklı. Bu bizim savaşımız değil. Elflerle "
+"orklar arasındaki bir savaşın dehşetini çok uzun zaman önce gördüm ve "
+"halkımı yeniden böyle bir kâbusa sürüklemeye hiç niyetim yok."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:230
@@ -1991,6 +2312,12 @@ msgid ""
 "you have spent here, but if Wesnoth goes to war we cannot march alongside "
 "you."
 msgstr ""
+"Ork orduları geçmiş zamanlarda olduğu gibi bir kez daha bütün kıtayı tehdit "
+"ederse bir ittifakın hizmetine kılıcımı sunmak için ilk öne çıkan ben "
+"olurum.\n"
+"\n"
+"Ama toprak kazancı için mi? Dostluğuna değer veriyorum ve burada geçirdiğin "
+"zamana saygı duyuyorum, ama Vesnot savaşa giderse yanınızda yürüyemeyiz."
 
 #. [message]: speaker=Chantal
 #. 'Great-Grandfather' means Kalenz. Chantal is Kalenz's granddaughter
@@ -2001,6 +2328,9 @@ msgid ""
 "naught to offer but kind words? Force-of-arms is not the only strength of "
 "the elves."
 msgstr ""
+"Büyük dedeciğim, böyle şeyler söyleme! Deoran ve müttefikleri savaşta "
+"canlarını tehlikeye atıyor ve Lintanir’in bütün enginliğinde sunacak güzel "
+"sözlerden başka bir şey bulamıyor muyuz? Silah gücü elflerin tek gücü değil."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:241
@@ -2010,6 +2340,10 @@ msgid ""
 "life; sometimes to battle, sometimes to age. I would postpone that fate for "
 "Deoran if I can, for both your sakes."
 msgstr ""
+"Şantal, bazen bana anneanneni o kadar çok hatırlatıyorsun ki... belki "
+"haklısın. Doğal olmayan uzunluktaki ömrüm boyunca çok fazla dostun "
+"düştüğünü gördüm; kimi savaşta, kimi yaşlılıktan. Elimden gelirse o kaderi "
+"Deoran için ertelemek isterim; ikinizin de hatırı için."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:245
@@ -2017,6 +2351,8 @@ msgid ""
 "Deoran, Delfador, what I now speak to you concerns one of our great secrets; "
 "you are not to speak of this to anyone, even to your king."
 msgstr ""
+"Deoran, Delfador, size şimdi söyleyeceklerim büyük sırlarımızdan biriyle "
+"ilgili; bunu kimseye, kralınıza bile söylememelisiniz."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:250
@@ -2026,6 +2362,10 @@ msgid ""
 "Perhaps her visions may illuminate some measure of your futures, and in "
 "doing so help you blaze brighter ones."
 msgstr ""
+"Lintanir’in derinliklerinde silfimiz — bir elf kâhini — yaşar. Elende’nin "
+"parçalı, gizemli görüşünü; yansıyan kehanet ipliklerini hem severiz hem de "
+"ondan korkarız. Belki görüleri geleceklerinizin bir kısmını aydınlatabilir "
+"ve böylece daha parlak gelecekler açmanıza yardım edebilir."
 
 #. [message]: speaker=Eloreis
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:254
@@ -2033,6 +2373,8 @@ msgid ""
 "Kalenz, are you sure this is wise? Seers are known to be... esoteric... and "
 "Elende has been particularly cloistered these last few decades."
 msgstr ""
+"Kalenz, bunun akıllıca olduğundan emin misin? Kâhinlerin... anlaşılmaz "
+"olduğu bilinir... ve Elende son birkaç on yıldır özellikle inzivada."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:258
@@ -2040,28 +2382,30 @@ msgid ""
 "I shall accompany them. I wish to spend some time with with these humans "
 "before they depart."
 msgstr ""
+"Ben de onlara eşlik edeceğim. Bu insanlar ayrılmadan önce onlarla biraz "
+"vakit geçirmek istiyorum."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:262
 msgid "And so do and so shall I. Come, follow me."
-msgstr ""
+msgstr "Öyle olsun, ben de geleceğim. Gelin, beni takip edin."
 
 #. [time]: id=midnight
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:283
 msgid "Midnight"
-msgstr ""
+msgstr "Gece Yarısı"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:294
 msgid ""
 "There’s 5 gold pieces in this old boat! I suppose it’s better than nothing."
-msgstr ""
+msgstr "Bu eski teknede 5 altın var! Sanırım hiç yoktan iyidir."
 
 #. [message]: speaker=Delfador
 #. said after a Forest Lion, Horned Scarab, or Silverback (a gorilla) attacks one of the player's units
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:375
 msgid "Look out! There’re beasts in the forest!"
-msgstr ""
+msgstr "Dikkat! Ormanda hayvanlar var!"
 
 #. [message]: speaker=Deoran
 #. said after the player double-clicks on Delfador to try and cast a spell
@@ -2070,6 +2414,8 @@ msgid ""
 "No magic more unusual than a fireball, Delfador. We don’t want to appear "
 "threatening."
 msgstr ""
+"Ateş topundan daha alışılmadık bir büyü yok, Delfador. Tehditkâr görünmek "
+"istemeyiz."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:411
@@ -2080,6 +2426,12 @@ msgid ""
 "In many places there is no path at all, and Delfador senses they are guided "
 "more by the elves’ connection to the faerie than by conventional pathfinding."
 msgstr ""
+"Kalenz, Delfador’u, Deoran’ı ve Şantal’ı derin ormanın içinden, dönemeçler "
+"ve kıvrımlar boyunca, dolambaçlı patikaların üzerinden labirent gibi bir "
+"yoldan götürüyor.\n"
+"\n"
+"Pek çok yerde hiç patika yok ve Delfador, olağan yol bulmaktan çok elflerin "
+"peri âlemiyle bağıyla yönlendirildiklerini seziyor."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:417
@@ -2089,6 +2441,10 @@ msgid ""
 "find the way again. At last, in the dead of night, a small structure looms "
 "out of the forest..."
 msgstr ""
+"Güneş ufkun altında sönen ölmekte olan bir kor gibi batıyor ve orman "
+"kararıyor. Birkaç kez Kalenz bile kayboluyor, ama her seferinde yolu "
+"yeniden bulmayı başarıyor. Sonunda gecenin ortasında ormanın içinden küçük "
+"bir yapı beliriyor..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:427
@@ -2096,24 +2452,25 @@ msgid ""
 "We have arrived. The seer’s mirror pool is just ahead; she herself should be "
 "close by."
 msgstr ""
+"Vardık. Kâhinin ayna havuzu hemen ileride; kendisi de yakınlarda olmalı."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:435
 msgid "Find the Sylph"
-msgstr ""
+msgstr "Silf’i bul"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:439
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:475
 msgid "Death of Delfador, Deoran, Chantal, or Kalenz"
-msgstr ""
+msgstr "Delfador’un, Deoran’ın, Şantal’ın ya da Kalenz’in ölümü"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:447
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:483
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1415
 msgid "Kalenz and Chantal will not follow you to the next scenario."
-msgstr ""
+msgstr "Kalenz ve Şantal seni sonraki senaryoya takip etmeyecek."
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:450
@@ -2122,18 +2479,18 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:802
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1146
 msgid "In this scenario, you can neither gain nor spend gold."
-msgstr ""
+msgstr "Bu senaryoda altın ne kazanabilir ne de harcayabilirsin."
 
 #. [message]
 #. there is a pool of water in the middle of the map. Right now the pool is mostly dry - your objective is to solve a puzzle to fill the pool with water
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:466
 msgid "There lies the mirror pool, but it is strangely dry..."
-msgstr ""
+msgstr "İşte ayna havuzu, ama tuhaf şekilde kuru..."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:471
 msgid "Fill the central pool with water"
-msgstr ""
+msgstr "Ortadaki havuzu suyla doldur"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:486
@@ -2141,6 +2498,8 @@ msgid ""
 "Villages do not provide income in this scenario (since you have unlimited "
 "turns), but still provide healing."
 msgstr ""
+"Bu senaryoda köyler gelir sağlamaz (sınırsız elin olduğu için), ama yine de "
+"iyileştirir."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:512
@@ -2148,23 +2507,25 @@ msgid ""
 "This is a puzzle segment. If you don’t like puzzles or find it too "
 "challenging, you can choose to skip it."
 msgstr ""
+"Bu bir bulmaca bölümü. Bulmacalardan hoşlanmıyorsan ya da çok zor "
+"buluyorsan atlamayı seçebilirsin."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:514
 msgid ""
 "The puzzle is harder on high difficulties, and much easier on low "
 "difficulties."
-msgstr ""
+msgstr "Bulmaca yüksek zorluklarda daha zor, düşük zorluklarda çok daha kolay."
 
 #. [option]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:516
 msgid "Play the puzzle <i>(includes XP)</i>"
-msgstr ""
+msgstr "Bulmacayı oyna <i>(TP dahil)</i>"
 
 #. [option]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:519
 msgid "Skip the puzzle"
-msgstr ""
+msgstr "Bulmacayı atla"
 
 #. [message]: speaker=Delfador
 #. referencing the events in The South Guard; exaggerated
@@ -2174,6 +2535,9 @@ msgid ""
 "you single-handedly beat down a horde of black-magic bandits and saved the "
 "south from destruction? You’re practically a folk hero!"
 msgstr ""
+"Deoran, Alduin’deki ikinci yılımda senin hakkında bir sınava girdim. Bir "
+"kara büyücü haydut sürüsünü tek başına yenip güneyi yıkımdan kurtardığın "
+"doğru mu? Neredeyse bir halk kahramanısın!"
 
 #. [message]: speaker=Deoran
 #. this is what has happened to Deoran since ending The South Guard
@@ -2183,6 +2547,9 @@ msgid ""
 "his favorites, but has little tolerance for failure. I found scant room for "
 "advancement within Wesnoth after so much blood spilled in Westin."
 msgstr ""
+"Bazılarına göre belki. Kral o kadar memnun değildi — Garard gözdelerine "
+"karşı cömerttir, ama başarısızlığa pek tahammülü yoktur. Vestin’de o kadar "
+"kan döküldükten sonra Vesnot içinde yükselmek için pek yer bulamadım."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:561
@@ -2192,6 +2559,10 @@ msgid ""
 "exercise what I learned from my time amongst the Aethenwood elves. I have "
 "come to value my friends here."
 msgstr ""
+"Ama bunların hepsi yıllar önce oldu. Lintanir elçiliği, adından başka bir "
+"şey değilse bile saygın bir görev ve Eten elfleri arasında geçirdiğim "
+"zamanda öğrendiklerimi uygulama fırsatı. Buradaki dostlarıma değer vermeye "
+"başladım."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:565
@@ -2200,6 +2571,9 @@ msgid ""
 "of my own ilk, yet still I hope to return to Lintanir once my war-duty is "
 "done."
 msgstr ""
+"Kendi soyumdan olanlarla bir kez daha birlikte yürümeyi dört gözle "
+"beklediğimi itiraf etmeliyim, ama yine de savaş görevim bitince Lintanir’e "
+"dönmeyi umuyorum."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:579
@@ -2208,12 +2582,15 @@ msgid ""
 "ambassador. Deoran is no fool; if he does not already know, he certainly "
 "suspects."
 msgstr ""
+"Şantal, konuşacak çok şeyimiz var. Elçiye karşı hislerin olduğu açık. "
+"Deoran aptal değil; henüz bilmiyorsa bile kesinlikle şüpheleniyor."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:583
 msgid ""
 "—who? What? Great-Grandfather, I have no idea what you’re talking about."
 msgstr ""
+"—kim? Ne? Büyük dedeciğim, neden bahsettiğin hakkında hiçbir fikrim yok."
 
 #. [message]: speaker=Chantal
 #. continuing the "Chantal has feelings for Deoran" conversation, a moment after it ended
@@ -2224,6 +2601,10 @@ msgid ""
 "i>! Even a crusty old elf like you has to admit that round ears and stubble "
 "are exotic."
 msgstr ""
+"Tamam— peki, evet, ama Deoran iyi bir adam! Bilge ve nazik; halkından bu "
+"kadar uzakta sürgünün yükünü sessizce taşıyor, değil mi? Hem o bir "
+"<i>insan</i>! Senin gibi huysuz yaşlı bir elf bile yuvarlak kulakların ve "
+"sakal uzamış yüzün egzotik olduğunu kabul etmeli."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:594
@@ -2233,23 +2614,27 @@ msgid ""
 "pursue this, but I know all-too-well the pain from outliving those you love. "
 "Cleodil was just as stubborn as you..."
 msgstr ""
+"İnsanların hayatları parlak ama kısa yanar. Lintanir’e dönse bile birlikte "
+"nasıl bir gelecek kurabilirsiniz? Bunun peşinden gitmek istersen seni "
+"durdurmam, ama sevdiklerinden daha uzun yaşamanın acısını çok iyi bilirim. "
+"Kleodil de senin kadar inatçıydı..."
 
 #. [message]: speaker=Delfador
 #. the player has just moved a unit onto one of several blue orbs scattered around the map, which has caused a river to change direction. This is part of the puzzle
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:607
 msgid "Look, the stream is changing direction!"
-msgstr ""
+msgstr "Bakın, dere yön değiştiriyor!"
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:611
 msgid "Moonstones! Elende, what have you been up to..."
-msgstr ""
+msgstr "Ay taşları! Elende, neler yapıyorsun sen..."
 
 #. [message]: speaker=Delfador
 #. a monster has just drowned in the river, as a result of the player redirecting the river into the beast's hex
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:619
 msgid "Odd, the water appears shallow but the beast has vanished entirely."
-msgstr ""
+msgstr "Tuhaf, su sığ görünüyor ama hayvan tamamen kayboldu."
 
 #. [message]
 #. a player unit has just drowned in the river, as a result of the player redirecting the river into the beast's hex
@@ -2258,6 +2643,8 @@ msgid ""
 "This sandbed is shallow, but the water is suddenly deep and a strange magic "
 "tugs at my legs! I am drowning!"
 msgstr ""
+"Bu kum yatağı sığ, ama su birden derinleşti ve tuhaf bir büyü bacaklarımı "
+"çekiyor! Boğuluyorum!"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:653
@@ -2265,46 +2652,48 @@ msgid ""
 "female^This sandbed is shallow, but the water is suddenly deep and a strange "
 "magic tugs at my legs! I am drowning!"
 msgstr ""
+"Bu kum yatağı sığ, ama su birden derinleşti ve tuhaf bir büyü bacaklarımı "
+"çekiyor! Boğuluyorum!"
 
 #. [message]
 #. a monster has just drowned in the river, as a result of the player redirecting the river into the beast's hex
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:664
 msgid "Gurgle gurgle gurgle..."
-msgstr ""
+msgstr "Gulu gulu gulu..."
 
 #. [message]: speaker=Delfador
 #. the player has completed their puzzle, and filled the central "mirror pool" with water
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1082
 msgid "There! The pool is full!"
-msgstr ""
+msgstr "İşte! Havuz doldu!"
 
 #. [time]: id=void
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1109
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:704
 msgid "Void"
-msgstr ""
+msgstr "Boşluk"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1148
 msgid "What was that?!"
-msgstr ""
+msgstr "O neydi?!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1159
 msgid ""
 "I think this whole mirror world is starting to fall apart! I have to hurry!"
-msgstr ""
+msgstr "Sanırım bütün bu ayna dünyası dağılmaya başlıyor! Acele etmeliyim!"
 
 #. [message]
 #. the player's units have just been transported into a strange realm, and aren't sure what's going on. Kalenz probably knows more than anybody else, and is calling out to see where Elende is (and what exactly she's doing)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1303
 msgid "Elende!"
-msgstr ""
+msgstr "Elende!"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1308
 msgid "Elende, I come with friends, seeking foresight! Deoran and Del—"
-msgstr ""
+msgstr "Elende, dostlarla geldim, öngörü arıyoruz! Deoran ve Del—"
 
 #. [message]
 #. immediately after this, magically created "mirror image" units of younger/older versions of Kalenz, Chantal, and Deoran appear
@@ -2312,75 +2701,81 @@ msgstr ""
 msgid ""
 "I know who you are, Delfador of Alduin. But how well do you know yourselves?"
 msgstr ""
+"Kim olduğunu biliyorum, Alduinli Delfador. Ama kendinizi ne kadar iyi "
+"tanıyorsunuz?"
 
 #. [unit]: id=deoran_mirror
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1355
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:78
 msgid "Deoran"
-msgstr ""
+msgstr "Deoran"
 
 #. [message]
 #. referencing the mirror image of Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1371
 msgid "Deoran, is that... you? You look so much younger."
-msgstr ""
+msgstr "Deoran, bu... sen misin? Çok daha genç görünüyorsun."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1375
 msgid "What’s going on?! Kalenz, is this normal?"
-msgstr ""
+msgstr "Neler oluyor?! Kalenz, bu normal mi?"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1401
 msgid "Defeat all enemies"
-msgstr ""
+msgstr "Bütün düşmanları yen"
 
 #. [objective]: condition=lose
 #. if reduced to 0 hp, Delfador doesn't die. Instead, he's kicked out of the mirror world, and fails the scenario
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1406
 msgid "Loss of Delfador"
-msgstr ""
+msgstr "Delfador’un kaybı"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1418
 msgid ""
 "In this strange world, fate guides every strike. <i>(attacks never miss)</i>"
 msgstr ""
+"Bu tuhaf dünyada kader her darbeye yön verir. <i>(saldırılar asla "
+"ıskalamaz)</i>"
 
 #. [event]: id=always_hit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1444
 msgid ""
 "The mortal world beckons; tell me the rest of the prophecy when next we meet!"
 msgstr ""
+"Ölümlü dünya çağırıyor; bir dahaki karşılaşmamızda kehanetin geri kalanını "
+"anlat!"
 
 #. [event]: id=always_hit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1445
 msgid "Elende, I hope you know what you’re doing. Good luck, the rest of you!"
-msgstr ""
+msgstr "Elende, umarım ne yaptığını biliyorsundur. Geri kalanınıza iyi şanslar!"
 
 #. [event]: id=always_hit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1446
 msgid ""
 "Owww! Elende, it’s very rude to banish someone without their permission!"
-msgstr ""
+msgstr "Ahh! Elende, birini izni olmadan sürgün etmek çok kabalık!"
 
 #. [message]: speaker=Delfador
 #. Delfador has just been reduced to 0hp, and been "kicked out" of Elenede's "mirror realm" or wherever she was giving the prophecy
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1454
 msgid "Hey, stop—"
-msgstr ""
+msgstr "Hey, dur—"
 
 #. [time]: id=dawn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1472
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1988
 msgid "Dawn"
-msgstr ""
+msgstr "Şafak"
 
 #. [message]: speaker=Delfador
 #. Delfador has missed the ending of the prophecy, and the player loses the scenario
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1497
 msgid "I didn’t get to finish hearing everything..."
-msgstr ""
+msgstr "Her şeyi dinlemeyi bitiremedim..."
 
 #. [message]
 #. spoken by Elende (through Kalenz's mirror image), referencing Legend of Wesmere's invisibility potion and Landar
@@ -2389,11 +2784,15 @@ msgid ""
 "Lich’s eye and brother’s bone; what have you sacrificed to save your people, "
 "Kalenz? Your greatest fear stands before you... ahead of you?"
 msgstr ""
+"Umacının gözü ve kardeşin kemiği; halkını kurtarmak için neleri feda ettin, "
+"Kalenz? En büyük korkun önünde duruyor... ileride mi?"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1531
 msgid "That was long ago, Elende! This is about the humans’ story, not mine."
 msgstr ""
+"O çok uzun zaman önceydi, Elende! Bu benim değil, insanların hikâyesiyle "
+"ilgili."
 
 #. [message]
 #. spoken by Elende (through Deoran's mirror image), referencing his exile. I intend "nation" more in the "people" sense than the "country" sense.
@@ -2403,6 +2802,9 @@ msgid ""
 "his counsel and cast him away. What will become of the life he has built "
 "amongst Lintanir’s twilight eaves?"
 msgstr ""
+"Sürgün Deoran yurduna dönüyor; onu küçümseyen, öğütlerini görmezden gelen "
+"ve onu bir kenara atan bir ulusa dönüyor. Lintanir’in alacakaranlık "
+"saçakları altında kurduğu hayatın ne olacak?"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1572
@@ -2410,12 +2812,14 @@ msgid ""
 "I know my duty! A captain of Wesnoth will never entertain doubts of loyalty, "
 "whether to his country or his King."
 msgstr ""
+"Görevimi biliyorum! Vesnot’un bir yüzbaşısı, ister ülkesine ister Kralına "
+"olsun, sadakati konusunda asla şüpheye kapılmaz."
 
 #. [message]
 #. spoken by Elende (through Chantal's mirror image), referencing Cleodil's historic death and foreshadowing Deoran's upcoming death
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1585
 msgid "Chantal—"
-msgstr ""
+msgstr "Şantal—"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1589
@@ -2423,6 +2827,7 @@ msgid ""
 "I already know what you’re going to say Elende! Don’t you dare; I will when "
 "I’m ready."
 msgstr ""
+"Ne diyeceğini zaten biliyorum, Elende! Sakın ha; hazır olduğumda yapacağım."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1595
@@ -2430,13 +2835,15 @@ msgid ""
 "Then you may soon understand some measure of your great-grandfather’s bygone "
 "sorrows..."
 msgstr ""
+"O zaman büyük dedenin geçmişteki kederlerinin bir kısmını yakında "
+"anlayabilirsin..."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1674
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1925
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1932
 msgid "Elende"
-msgstr ""
+msgstr "Elende"
 
 #. [message]
 #. Elende reaveals that she's the one who gave the weird prophecy thing to Delfador at Alduin, even though she wasn't physically there
@@ -2445,6 +2852,8 @@ msgid ""
 "And what of the fire mage? Young but ambitious, brilliant yet foolish. It "
 "has been many moons since I spoke to you at Alduin."
 msgstr ""
+"Peki ya ateş büyücüsü? Genç ama hırslı, parlak ama aptal. Seninle Alduin’de "
+"konuşalı çok ay oldu."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1681
@@ -2452,6 +2861,8 @@ msgid ""
 "That was you, back at graduation? I knew I heard a voice! Master Leollyn "
 "thought I was going crazy..."
 msgstr ""
+"Mezuniyette sen miydin? Bir ses duyduğumu biliyordum! Usta Leollin "
+"deliriyorum sanmıştı..."
 
 #. [event]
 #. [event]: type=Delfador L4, id=delfador_mirror4
@@ -2461,6 +2872,8 @@ msgid ""
 "Spend 4 XP to gain flight and the skirmisher ability until the start of your "
 "next turn or until cancelled."
 msgstr ""
+"Bir sonraki elinin başına kadar ya da iptal edilene kadar uçuş ve avcı "
+"yeteneği kazanmak için 4 TP harca."
 
 #. [message]
 #. pale spy meaning Asheviere. Referencing Asheviere resolving to kill Garard, and working with orcs to arrange the events of the next two scenarios
@@ -2469,6 +2882,8 @@ msgid ""
 "I see secrets in the dark; a pale spy slips their bonds. A death, a "
 "deceiver. Ringed swords, cold blood, false friends."
 msgstr ""
+"Karanlıkta sırlar görüyorum; solgun bir casus bağlarından sıyrılıyor. Bir "
+"ölüm, bir aldatıcı. Halka kılıçlar, soğuk kan, sahte dostlar."
 
 #. [message]
 #. referencing Delfador's adventures in scenarios 8-10, where he works with (or kills) poachers to fight saurians, then fights undead and a ghost given the appearance of a living drake.
@@ -2477,12 +2892,17 @@ msgid ""
 "The dark swamp looms. Purses and poachers, mirror and smoke. A figure of "
 "shadow cloaked in the spirits of the dead. Battles won while wars are lost."
 msgstr ""
+"Kara bataklık beliriyor. Keseler ve kaçak avcılar, ayna ve duman. Ölülerin "
+"ruhlarına bürünmüş bir gölge figürü. Savaşlar kaybedilirken kazanılan "
+"muharebeler."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1785
 msgid ""
 "Spend 16 XP to disallow magical attacks in a 3-hex radius, until cancelled."
 msgstr ""
+"İptal edilene kadar 3 altıgen yarıçapında büyülü saldırıları engellemek "
+"için 16 TP harca."
 
 #. [message]
 #. referencing the civil war when Asheviere takes power
@@ -2493,6 +2913,9 @@ msgid ""
 "of mankind will be broken, and flames shall blaze anew across the embers of "
 "Haldric’s people."
 msgstr ""
+"Kardeş kardeşe, baba evlada karşı. Çorak tahttan küllerden bir melek "
+"yükselecek; hem yüce hem korkunç. İnsanlığın narin dengesi bozulacak ve "
+"alevler Haldrik’in halkının korları üzerinde yeniden parlayacak."
 
 #. [event]: type=Delfador L4, id=delfador_mirror4
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1821
@@ -2500,6 +2923,9 @@ msgid ""
 "Spend 48 XP to grant yourself and all allies double movement and a second "
 "attack this turn. When this turn ends, affected units become slowed."
 msgstr ""
+"Bu el kendine ve bütün müttefiklerine çift hareket ve ikinci bir saldırı "
+"vermek için 48 TP harca. Bu el bittiğinde etkilenen birimler yavaşlatılmış "
+"olur."
 
 #. [message]
 #. referncing the future events of HttT; Konrad and Li'Sar retriving the sceptre of fire
@@ -2508,6 +2934,8 @@ msgid ""
 "Black soot rains over Weldyn. The line of kings sundered; the ruby of the "
 "wesfolk restored. The nameless son and the ashen daughter."
 msgstr ""
+"Weldyn’e kara is yağıyor. Krallar soyu kopmuş; batı halkının yakutu geri "
+"verilmiş. İsimsiz oğul ve kül rengi kız."
 
 #. [message]
 #. referencing Delfador's choice in S10x
@@ -2518,6 +2946,10 @@ msgid ""
 "the power to alter the currents of time; to rewrite the future that is "
 "written."
 msgstr ""
+"Ama bu kader tek yol değil. Alduin büyücüsü, ipliklerin bir düğümünde, "
+"parçaların bir kesişiminde duruyorsun. Kısa bir an için zamanın "
+"akıntılarını değiştirme, yazılmış geleceği yeniden yazma gücüne sahip "
+"olacaksın."
 
 #. [message]
 #. referencing Delfador's choice in S10x. He can either listen to a drunk Garard and kill Garard's brother Arand based on false reports of a betrayal, or refuse, stay with Garard, and find out more about Arand before attacking
@@ -2527,22 +2959,25 @@ msgid ""
 "that fire that you possess, but the gleaming light of truth instead. Quench "
 "the flames of fear before all your world is consumed."
 msgstr ""
+"O an geldiğinde hatırla... sahip olduğun o ateşle yıkım değil, onun yerine "
+"gerçeğin parıldayan ışığını bahşetmeye çalış. Bütün dünyan yanıp kül "
+"olmadan korkunun alevlerini söndür."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1939
 msgid "But, what? I don’t understa—"
-msgstr ""
+msgstr "Ama, ne? Anlam—"
 
 #. [message]: speaker=Delfador
 #. Delfador previously said "But, what? I don’t understa—", but has now been kicked out of Elende's 'mirror world' and is back in the normal world. The scenario is over.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:2011
 msgid "—nd what you’re saying..."
-msgstr ""
+msgstr "—ıyorum ne dediğini..."
 
 #. [scenario]: id=05_The_Deceiver
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:11
 msgid "The Deceiver"
-msgstr ""
+msgstr "Aldatıcı"
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:21
@@ -2550,6 +2985,8 @@ msgid ""
 "Delfador and his companions departed the mirror grove in hushed silence. The "
 "Sylph’s words weighed heavily on each of their minds."
 msgstr ""
+"Delfador ve yoldaşları ayna korusundan derin bir sessizlik içinde ayrıldı. "
+"Silf’in sözleri her birinin zihnine ağır geliyordu."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:24
@@ -2559,31 +2996,35 @@ msgid ""
 "several days’ westward travel, they soon sighted the banners of the king’s "
 "army."
 msgstr ""
+"Uzun bir müzakereden sonra, Şantal’ı çok üzecek şekilde, Delfador ve Deoran "
+"görevlerine devam etmeye karar verdi. Birkaç günlük batı yolculuğundan "
+"sonra ormandan çıkınca çok geçmeden kralın ordusunun sancaklarını gördüler."
 
 #. [side]: type=Orcish Crossbowman, id=Shogro
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:54
 msgid "Shogro"
-msgstr ""
+msgstr "Şogro"
 
 #. [side]: type=Orcish Warlord, id=Khovak
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:72
 msgid "Khovak"
-msgstr ""
+msgstr "Hovak"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:302
 msgid "90 gold"
-msgstr ""
+msgstr "90 altın"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:302
 msgid "These orcs were sitting on some gold! We can put it to better use."
 msgstr ""
+"Bu orklar biraz altının üzerinde oturuyormuş! Onu daha iyi kullanabiliriz."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:316
 msgid "Captain Kestrel"
-msgstr ""
+msgstr "Yüzbaşı Kestrel"
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:365
@@ -2591,12 +3032,16 @@ msgid ""
 "Deoran, are you sure you won’t reconsider staying in the Lintanir? What "
 "Elende said..."
 msgstr ""
+"Deoran, Lintanir’de kalmayı yeniden düşünmeyeceğinden emin misin? "
+"Elende’nin söyledikleri..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:369
 msgid ""
 "My duty comes first, always. Would you truly want me any other way, Chantal?"
 msgstr ""
+"Görevim her zaman önce gelir. Beni gerçekten başka türlü ister miydin, "
+"Şantal?"
 
 #. [message]: speaker=Kalenz
 #. referencing the beginning of HttT, where Delfador and Konrad are staying with the elves
@@ -2609,6 +3054,12 @@ msgid ""
 "Should either of you ever find yourselves searching for a home away from "
 "Wesnoth, you will always be welcome with us."
 msgstr ""
+"Deoran, bu yıllarda bizimle olman bir zevkti. Ve Delfador, umarım bir gün "
+"senin için de aynısını söyleyebilirim. Elende senin hakkında yüksek "
+"düşünüyor gibi ve bu benim ve halkım için çok şey ifade ediyor.\n"
+"\n"
+"İkinizden biri Vesnot’tan uzakta bir yurt aradığında, bizim yanımızda her "
+"zaman hoş karşılanacaksınız."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:391
@@ -2616,11 +3067,13 @@ msgid ""
 "Hail! The fledgling war-mage returns. Welcome, Delfador... and Deoran. Tell "
 "me, are the north-elves with us?"
 msgstr ""
+"Selam! Toy savaş büyücüsü dönüyor. Hoş geldin Delfador... ve Deoran. "
+"Söyleyin, kuzey elfleri bizimle mi?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:395
 msgid "Deepest apologies my Lord, but they are not. Lintanir—"
-msgstr ""
+msgstr "Derin özürlerimi sunarım Efendim, ama değiller. Lintanir—"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:399
@@ -2628,13 +3081,15 @@ msgid ""
 "I see. Unfortunate, but ultimately of no consequence. Victory is nearly won "
 "even without their aid."
 msgstr ""
+"Anlıyorum. Talihsiz, ama sonuçta önemsiz. Onların yardımı olmadan da zafer "
+"neredeyse kazanıldı."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:404
 msgid ""
 "See there: we’ve driven the Whitefang chieftain and the last of his guards "
 "into this old hill fort."
-msgstr ""
+msgstr "Bakın: Akdiş reisini ve son muhafızlarını bu eski tepe kalesine sürdük."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:408
@@ -2643,6 +3098,9 @@ msgid ""
 "Lionel and my brother Arand will press them from the front, while you sneak "
 "in the back and roast their chief like a pig on a spit."
 msgstr ""
+"Dönüşünün zamanlaması bundan daha iyi olamazdı, Delfador. General Lionel ve "
+"kardeşim Arand onları önden sıkıştırırken sen arkadan sızıp reislerini "
+"şişteki domuz gibi kızartacaksın."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:412
@@ -2650,23 +3108,25 @@ msgid ""
 "Without their chief the Whitefangs will dissolve into an infighting mass of "
 "petty squabbles, and our— Wesnoth’s victory will be complete!"
 msgstr ""
+"Reisleri olmadan Akdişler adi kavgalarla birbirine giren bir kalabalığa "
+"dönüşecek ve bizim— Vesnot’un zaferi tamamlanacak!"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:420
 msgid "Defeat Khovak, the orcish warlord"
-msgstr ""
+msgstr "Ork savaş beyi Hovak’ı yen"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:424
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:583
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:504
 msgid "Death of Delfador or Deoran"
-msgstr ""
+msgstr "Delfador’un ya da Deoran’ın ölümü"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:428
 msgid "Death of Garard, Arand, Lionel, or Methor"
-msgstr ""
+msgstr "Garard’ın, Arand’ın, Lionel’in ya da Methor’un ölümü"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:448
@@ -2675,6 +3135,9 @@ msgid ""
 "to stage our forces outside their walls, then attack just before the second "
 "dawn."
 msgstr ""
+"Saldırıda acele etme Lionel — iyi adamları harcamaya gerek yok. Güçlerimizi "
+"surlarının dışında düzene sokmak için biraz zaman ayır, sonra ikinci "
+"şafaktan hemen önce saldır."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:452
@@ -2682,6 +3145,8 @@ msgid ""
 "We have them right where we want them. Once our forces are assembled, I "
 "shall join the battle personally and savor this victory up close."
 msgstr ""
+"Onları tam istediğimiz yerde tuttuk. Güçlerimiz toplandığında savaşa bizzat "
+"katılıp bu zaferin tadını yakından çıkaracağım."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:456
@@ -2690,6 +3155,8 @@ msgid ""
 "quickly. Chantal speaks of them as numerous and cunning... I wonder if "
 "something is amiss."
 msgstr ""
+"Akdişlerin bu kadar çabuk yenilginin eşiğine sürülmesine şaşırdım. Şantal "
+"onlardan kalabalık ve kurnaz diye söz ediyor... acaba bir terslik mi var."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:468
@@ -2698,6 +3165,9 @@ msgid ""
 "their apprentices as warriors, but Clan Whitefang usually keeps theirs far "
 "from the frontline."
 msgstr ""
+"Bir ork şamanı! Bazen diğer klanların çıraklarını savaşçı olarak "
+"kullandığını bilirim, ama Akdiş Klanı genellikle kendininkileri ön cepheden "
+"uzak tutar."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:472
@@ -2706,6 +3176,9 @@ msgid ""
 "she was using, but now that I have her equipment I’ll bet I could figure out "
 "how to imitate that draining attack... for our next battle, at least."
 msgstr ""
+"Ne alışılmadık bir büyü! Kullandığı temel güçlere erişebileceğimi "
+"sanmıyorum, ama artık teçhizatı bende olduğuna göre o emici saldırıyı nasıl "
+"taklit edeceğimi çözebilirim... en azından bir sonraki savaşımız için."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:498
@@ -2714,16 +3187,19 @@ msgid ""
 "defeated was standing on a keep. We should seize it and recruit our army "
 "before we attack the orcs’ main camp."
 msgstr ""
+"Hâlâ hiç asker almadım ya da geri çağırmadım! Yendiğimiz o ork şamanı bir "
+"burçta duruyordu. Orkların ana kampına saldırmadan önce orayı ele geçirip "
+"ordumuzu almalıyız."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:522
 msgid "There’s more of them coming from the north! Should we go attack?"
-msgstr ""
+msgstr "Kuzeyden daha fazlası geliyor! Saldırmaya gidelim mi?"
 
 #. [message]: speaker=Khovak
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:526
 msgid "Stay in our fort, worm! Stick to the plan."
-msgstr ""
+msgstr "Kalemizde kal, kurtçuk! Plana sadık kal."
 
 #. [message]: speaker=Garard
 #. "trog" is a made-up slur referring to an orc
@@ -2732,11 +3208,13 @@ msgid ""
 "You’re squatting in my summer home, trogs! No more raids for you; no more "
 "pillage and plunder. Last chance to surrender!"
 msgstr ""
+"Yazlık evime çökmüşsünüz, mağara adamları! Artık baskın yok; artık yağma ve "
+"talan yok. Teslim olmak için son şans!"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:543
 msgid "Up yours, pink-skin!"
-msgstr ""
+msgstr "Al sana, pembe deri!"
 
 #. [message]: speaker=Delfador
 #. Delfador is telling his master Methor about the adventures he had in the last 2 scenarios
@@ -2745,6 +3223,9 @@ msgid ""
 "Hello there, master, it’s nice to see you again! You’ll never believe the "
 "adventures I’ve had. Did you know there’s an elvish prophecy about me?!"
 msgstr ""
+"Merhaba usta, sizi yeniden görmek güzel! Yaşadığım maceralara "
+"inanamayacaksınız. Benim hakkımda bir elf kehaneti olduğunu biliyor "
+"muydunuz?!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:572
@@ -2752,34 +3233,37 @@ msgid ""
 "(smiling) Delfador, don’t make me regret teaching you that psychedelic "
 "spell! I’m just glad you’ve made it back safe and sound."
 msgstr ""
+"(gülümseyerek) Delfador, sana o sanrı büyüsünü öğrettiğime pişman etme "
+"beni! Sağ salim döndüğüne sevindim sadece."
 
 #. [message]: speaker=Shogro
 #. the whitefangs orcs are luring Garard into overextending. Shogro is bait, and has just died
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:586
 msgid "Stinking Ushka’e! This was a terrible plan..."
-msgstr ""
+msgstr "Kokuşmuş Uşka’e! Bu berbat bir plandı..."
 
 #. [message]: speaker=Khovak
 #. the whitefangs orcs are luring Garard into overextending. Khovak is bait, and has just died
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:611
 msgid "Human dogs! You’ve just sealed your deaths..."
-msgstr ""
+msgstr "İnsan köpekleri! Kendi ölümünüzü mühürlediniz..."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:628
 msgid "Run for the hills!"
-msgstr ""
+msgstr "Tepelere kaçın!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:643
 msgid "Yes! Did I do well, Your Majesty?"
-msgstr ""
+msgstr "Evet! İyi iş çıkardım mı, Majesteleri?"
 
 #. [message]: speaker=Garard
 #. Garard thinks he's won, even though he hasn't
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:648
 msgid "Indeed you did. Fantastic battle, everyone, the orcs are broken!"
 msgstr ""
+"Gerçekten de çıkardın. Harika bir savaştı millet, orklar bozguna uğradı!"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:656
@@ -2787,6 +3271,8 @@ msgid ""
 "Footmen — down into the fort’s dungeons! Flush out any stragglers and "
 "complete our victory."
 msgstr ""
+"Piyadeler — kalenin zindanlarına inin! Geride kalanları temizleyin ve "
+"zaferimizi tamamlayın."
 
 #. [message]: speaker=Garard
 #. Garard thinks he's won, even though he hasn't. "Wold" means "a piece of high, open, uncultivated land or moor."
@@ -2795,6 +3281,8 @@ msgid ""
 "Hah! I think “Garard’s Wold” will make a good name for the new province... "
 "or perhaps “Garard’s Triumph”? What do you think, Lionel?"
 msgstr ""
+"Hah! Sanırım “Garard’ın Yaylası” yeni eyalet için iyi bir ad olur... ya da "
+"belki “Garard’ın Zaferi”? Ne dersin, Lionel?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:705
@@ -2802,11 +3290,12 @@ msgid ""
 "Delfador, something’s wrong. The orc leader we killed... isn’t the Whitefang "
 "chief."
 msgstr ""
+"Delfador, bir şeyler yanlış. Öldürdüğümüz ork lideri... Akdiş reisi değil."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:709
 msgid "What? How can you tell?"
-msgstr ""
+msgstr "Ne? Nereden anlıyorsun?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:713
@@ -2815,6 +3304,9 @@ msgid ""
 "treaty. This orc’s face is narrower than I remember, and his helmet doesn’t "
 "have the right war-paint. Delfador, I think we’ve been tricked!"
 msgstr ""
+"Akdiş Klanı’nın liderleriyle yaklaşık bir yıl önce, Lintanir bir antlaşma "
+"için müzakere ederken tanıştım. Bu orkun yüzü hatırladığımdan daha dar ve "
+"miğferinde doğru savaş boyası yok. Delfador, sanırım kandırıldık!"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:760
@@ -2822,11 +3314,13 @@ msgid ""
 "Are you even trying to fight, Delfador!? I should have known a mage would "
 "never have the stomach for true battle; get back to Alduin where you belong!"
 msgstr ""
+"Savaşmaya çalışıyor musun bari, Delfador!? Bir büyücünün gerçek savaşa asla "
+"midesinin kaldırmayacağını bilmeliydim; ait olduğun Alduin’e dön!"
 
 #. [scenario]: id=06_Ring_of_Swords
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:6
 msgid "Ring of Swords"
-msgstr ""
+msgstr "Kılıçlar Halkası"
 
 #. [side]: type=Orcish Warlord, id=Ghazgir
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:49
