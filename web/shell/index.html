@@ -168,6 +168,40 @@
       barEl.style.width = pct + "%";
       statusEl.textContent = "Oyun verileri indiriliyor… %" + pct;
     },
+    // Download the engine gzipped (Pages serves .wasm uncompressed) and show
+    // its progress; fall back to Emscripten's own loading if anything fails.
+    instantiateWasm: (imports, receiveInstance) => {
+      (async () => {
+        let result;
+        try {
+          if (typeof DecompressionStream !== "function") { throw new Error("no DecompressionStream"); }
+          const response = await fetch("wesnoth.wasm.gz");
+          if (!response.ok) { throw new Error("HTTP " + response.status); }
+          const total = Number(response.headers.get("content-length")) || 0;
+          let loaded = 0;
+          const counter = new TransformStream({
+            transform(chunk, controller) {
+              loaded += chunk.byteLength;
+              if (total && !response.headers.get("content-encoding")) {
+                const pct = Math.min(99, Math.floor(100 * loaded / total));
+                barEl.style.width = pct + "%";
+                statusEl.textContent = "Oyun motoru indiriliyor… %" + pct;
+              }
+              controller.enqueue(chunk);
+            },
+          });
+          const wasm = response.body.pipeThrough(counter).pipeThrough(new DecompressionStream("gzip"));
+          result = await WebAssembly.instantiateStreaming(
+            new Response(wasm, { headers: { "Content-Type": "application/wasm" } }), imports);
+        } catch (e) {
+          logLine("js-error", "gzipped engine failed (" + e + "), loading wesnoth.wasm");
+          statusEl.textContent = "Oyun motoru indiriliyor…";
+          result = await WebAssembly.instantiateStreaming(fetch("wesnoth.wasm"), imports);
+        }
+        receiveInstance(result.instance, result.module);
+      })().catch((e) => showError("Oyun motoru yüklenemedi: " + e));
+      return {};
+    },
     wesnothDataVersion: 0,
     wesnothWaitForData: async (campaignId) => {
       const needed = [...packages.background];
