@@ -1,0 +1,26 @@
+-- Using cached icu4c-78.3-sources.tgz
+-- Cleaning sources at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/icu4c-78.3-sources.tgz
+-- Applying patch disable-static-prefix.patch
+-- Applying patch fix_bsd_and_solaris.patch
+-- Applying patch fix_parallel_build_on_windows.patch
+-- Applying patch fix-python-path-with-spaces.patch
+-- Applying patch fix-using-install-sh.diff
+-- Applying patch mh-darwin.patch
+-- Applying patch mh-mingw.patch
+-- Applying patch mh-msys-msvc.patch
+-- Applying patch subdirs.patch
+-- Applying patch vcpkg-cross-data.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /home/runner/webbuild/vcpkg/installed/x64-linux/tools/icu/bin/icupkg -r /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-remove.txt /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean/source/data/in/icudt78l.dat /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-pruned.dat
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/icu
+    Error code: 2
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-prune-wasm32-emscripten-wesnoth-err.log
+
+Call Stack (most recent call first):
+  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu/portfile.cmake:51 (vcpkg_execute_required_process)
+  scripts/ports.cmake:209 (include)
+
+

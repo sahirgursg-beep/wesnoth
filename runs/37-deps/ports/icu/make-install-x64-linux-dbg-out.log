@@ -1,0 +1,517 @@
+Makefile:153: update target 'install-recursive' due to: target is .PHONY
+dot_seen=no; \
+target=`echo install-recursive | sed s/-recursive//`; \
+list='stubdata common i18n  io tools data extra  '; for subdir in $list; do \
+  echo "/usr/bin/make[0]: Making \`$target' in \`$subdir'"; \
+  if test "$subdir" = "."; then \
+    dot_seen=yes; \
+    local_target="$target-local"; \
+  else \
+    local_target="$target"; \
+  fi; \
+  (cd $subdir && /usr/bin/make RECURSIVE=YES $local_target) || exit; \
+done; \
+if test "$dot_seen" = "no"; then \
+  /usr/bin/make "$target-local" || exit; \
+fi
+/usr/bin/make[0]: Making `install' in `stubdata'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/stubdata'
+Makefile:86: update target 'install-library' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+/usr/bin/install -c libicudata.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/stubdata'
+/usr/bin/make[0]: Making `install' in `common'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/common'
+Makefile:154: update target 'install-headers' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+Makefile:116: update target 'install-library' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include
+/usr/bin/install -c ../lib/libicuuc.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+for file in .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/*.h; do \
+ echo "/usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode"; \
+ /usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode || exit; \
+done
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/appendable.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/brkiter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/bytestream.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/bytestrie.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/bytestriebuilder.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/caniter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/casemap.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/char16ptr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/chariter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/dbbi.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/docmain.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/dtintrv.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/edits.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/enumset.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/errorcode.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/filteredbrk.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/icudataver.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/icuplug.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/idna.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/localebuilder.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/localematcher.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/localpointer.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/locdspnm.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/locid.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/messagepattern.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/normalizer2.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/normlzr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/parseerr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/parsepos.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/platform.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ptypes.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/putil.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/rbbi.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/rep.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/resbund.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/schriter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/simpleformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/std_string.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/strenum.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/stringoptions.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/stringpiece.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/stringtriebuilder.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/symtable.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ubidi.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ubiditransform.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ubrk.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucasemap.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucat.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uchar.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucharstrie.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucharstriebuilder.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uchriter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uclean.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucnv.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucnv_cb.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucnv_err.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucnvsel.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uconfig.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucpmap.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucptrie.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ucurr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/udata.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/udisplaycontext.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uenum.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uidna.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uiter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uldnames.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uloc.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ulocale.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ulocbuilder.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/umachine.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/umisc.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/umutablecptrie.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unifilt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unifunct.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unimatch.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uniset.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unistr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unorm.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/unorm2.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uobject.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/urename.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/urep.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ures.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uscript.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uset.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/usetiter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ushape.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/usprep.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ustring.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/ustringtrie.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utext.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utf.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utf16.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utf32.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utf8.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utf_old.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utfiterator.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utfstring.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utrace.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/utypes.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uvernum.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/common/unicode/uversion.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/common'
+/usr/bin/make[0]: Making `install' in `i18n'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/i18n'
+Makefile:128: update target 'install-headers' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+Makefile:98: update target 'install-library' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+for file in .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/*.h; do \
+ echo "/usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode"; \
+ /usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode || exit; \
+done
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/alphaindex.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c ../lib/libicui18n.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/basictz.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/calendar.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/choicfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/coleitr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/coll.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/compactdecimalformat.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/curramt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/currpinf.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/currunit.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/datefmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dcfmtsym.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/decimfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/displayoptions.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dtfmtsym.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dtitvfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dtitvinf.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dtptngen.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/dtrule.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/fieldpos.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/fmtable.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/format.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/formattednumber.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/formattedvalue.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/fpositer.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/gender.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/gregocal.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/listformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/measfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/measunit.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/measure.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2_arguments.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2_data_model.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2_data_model_names.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2_formattable.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/messageformat2_function_registry.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/msgfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/nounit.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/numberformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/numberrangeformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/numfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/numsys.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/plurfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/plurrule.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/rbnf.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/rbtz.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/regex.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/region.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/reldatefmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/scientificnumberformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/search.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/selfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/simplenumberformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/simpletz.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/smpdtfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/sortkey.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/stsearch.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tblcoll.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/timezone.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tmunit.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tmutamt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tmutfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/translit.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tzfmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tznames.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tzrule.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/tztrans.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ucal.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ucol.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ucoleitr.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ucsdet.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/udat.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/udateintervalformat.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/udatpg.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/udisplayoptions.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ufieldpositer.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uformattable.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uformattednumber.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uformattedvalue.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ugender.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ulistformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ulocdata.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/umsg.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unirepl.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unum.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unumberformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unumberoptions.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unumberrangeformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/unumsys.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/upluralrules.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uregex.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uregion.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/ureldatefmt.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/usearch.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/usimplenumberformatter.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/uspoof.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/utmscale.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/utrans.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/unicode/vtzone.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/i18n'
+/usr/bin/make[0]: Making `install' in `io'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/io'
+Makefile:128: update target 'install-headers' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+Makefile:98: update target 'install-library' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+for file in .././../src/icu4c-78-81ecdbb0f1.clean/source/io/unicode/*.h; do \
+ echo "/usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode"; \
+ /usr/bin/install -c -m 644 $file /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode || exit; \
+done
+/usr/bin/install -c ../lib/libicuio.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/io/unicode/ustdio.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+/usr/bin/install -c -m 644 .././../src/icu4c-78-81ecdbb0f1.clean/source/io/unicode/ustream.h /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../include/unicode
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/io'
+/usr/bin/make[0]: Making `install' in `tools'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools'
+Makefile:46: update target 'install-recursive' due to: target is .PHONY
+dot_seen=no; \
+target=`echo install-recursive | sed s/-recursive//`; \
+list='toolutil ctestfw makeconv genrb genbrk gencnval gensprep icuinfo genccode gencmn icupkg pkgdata gentest gennorm2 gencfu gendict icuexportdata'; for subdir in $list; do \
+  echo "/usr/bin/make[1]: Making \`$target' in \`$subdir'"; \
+  if test "$subdir" = "."; then \
+	dot_seen=yes; \
+	local_target="$target-local"; \
+  else \
+	local_target="$target"; \
+  fi; \
+  (cd $subdir && /usr/bin/make $local_target) || exit; \
+done; \
+if test "$dot_seen" = "no"; then \
+  /usr/bin/make "$target-local" || exit; \
+fi
+/usr/bin/make[1]: Making `install' in `toolutil'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/toolutil'
+Makefile:88: update target 'install-library' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+/usr/bin/install -c ../../lib/libicutu.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/toolutil'
+/usr/bin/make[1]: Making `install' in `ctestfw'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/ctestfw'
+Makefile:82: update target 'install-library' due to: target does not exist
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+/usr/bin/install -c libicutest.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/ctestfw'
+/usr/bin/make[1]: Making `install' in `makeconv'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/makeconv'
+Makefile:61: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 makeconv.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:57: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/makeconv /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/makeconv'
+/usr/bin/make[1]: Making `install' in `genrb'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genrb'
+Makefile:73: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 genrb.1 derb.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:68: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/genrb /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/derb /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genrb'
+/usr/bin/make[1]: Making `install' in `genbrk'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genbrk'
+Makefile:61: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 genbrk.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:57: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/genbrk /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genbrk'
+/usr/bin/make[1]: Making `install' in `gencnval'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencnval'
+Makefile:62: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 gencnval.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:58: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/gencnval /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencnval'
+/usr/bin/make[1]: Making `install' in `gensprep'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gensprep'
+Makefile:62: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+/usr/bin/install -c -m 644 gensprep.8 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+Makefile:58: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c ../../bin/gensprep /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gensprep'
+/usr/bin/make[1]: Making `install' in `icuinfo'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icuinfo'
+Makefile:58: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c icuinfo /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icuinfo'
+/usr/bin/make[1]: Making `install' in `genccode'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genccode'
+Makefile:62: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+/usr/bin/install -c -m 644 genccode.8 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+Makefile:58: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c ../../bin/genccode /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/genccode'
+/usr/bin/make[1]: Making `install' in `gencmn'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencmn'
+Makefile:62: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+/usr/bin/install -c -m 644 gencmn.8 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+Makefile:58: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c ../../bin/gencmn /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencmn'
+/usr/bin/make[1]: Making `install' in `icupkg'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icupkg'
+Makefile:61: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+/usr/bin/install -c -m 644 icupkg.8 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man8
+Makefile:57: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c ../../bin/icupkg /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icupkg'
+/usr/bin/make[1]: Making `install' in `pkgdata'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/pkgdata'
+Makefile:66: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 pkgdata.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:62: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/pkgdata /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/pkgdata'
+/usr/bin/make[1]: Making `install' in `gentest'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gentest'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gentest'
+/usr/bin/make[1]: Making `install' in `gennorm2'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gennorm2'
+Makefile:53: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c ../../bin/gennorm2 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gennorm2'
+/usr/bin/make[1]: Making `install' in `gencfu'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencfu'
+Makefile:61: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 gencfu.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:57: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/gencfu /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gencfu'
+/usr/bin/make[1]: Making `install' in `gendict'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gendict'
+Makefile:61: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 gendict.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:57: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/gendict /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/gendict'
+/usr/bin/make[1]: Making `install' in `icuexportdata'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icuexportdata'
+Makefile:58: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 icuexportdata.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:54: update target 'install-local' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/icuexportdata /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools/icuexportdata'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools'
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/tools'
+/usr/bin/make[0]: Making `install' in `data'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/data'
+Makefile:170: update target 'install-local' due to: target is .PHONY
+/bin/bash .././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs  /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+LD_LIBRARY_PATH=../stubdata:../tools/ctestfw:../lib:$LD_LIBRARY_PATH  ../bin/pkgdata -O ../data/icupkg.inc -q -c -s /home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/data/out/build/icudt78l -d ../lib -m static -r 78.3 -e icudt78  -T ./out/tmp -s ./out/build/icudt78l -p icudt78l -L icudata ./out/tmp/icudata.lst -I /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib
+pkgdata: cd ../lib/ && /usr/bin/install -c libicudata.a /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/libicudata.a
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/data'
+/usr/bin/make[0]: Making `install' in `extra'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra'
+Makefile:49: update target 'install-recursive' due to: target is .PHONY
+dot_seen=no; \
+target=`echo install-recursive | sed s/-recursive//`; \
+list='uconv'; for subdir in $list; do \
+  echo "/usr/bin/make[1]: Making \`$target' in \`$subdir'"; \
+  if test "$subdir" = "."; then \
+    dot_seen=yes; \
+    local_target="$target-local"; \
+  else \
+    local_target="$target"; \
+  fi; \
+  (cd $subdir && /usr/bin/make $local_target) || exit; \
+done; \
+if test "$dot_seen" = "no"; then \
+  /usr/bin/make "$target-local" || exit; \
+fi
+/usr/bin/make[1]: Making `install' in `uconv'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra/uconv'
+Makefile:137: update target 'build-dir' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs uconvmsg
+Makefile:179: update target 'install-man' due to: target is .PHONY
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 uconv.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+Makefile:104: update target 'install-target' due to: target does not exist
+/bin/bash ../.././../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/usr/bin/install -c ../../bin/uconv /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra/uconv'
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra'
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg/extra'
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg'
+Makefile:184: update target 'install-icu' due to: target is .PHONY
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/config
+Makefile:387: update target 'config/icu-config.1' due to: target does not exist
+cd . \
+ && CONFIG_FILES=./config/icu-config.1 CONFIG_HEADERS= /bin/bash ./config.status
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/config
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu/78.3
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu/78.3
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/sbin
+/usr/bin/install -c -m 644 ./../src/icu4c-78-81ecdbb0f1.clean/source/config/mh-linux /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/config/mh-linux
+/usr/bin/install -c ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/mkinstalldirs
+/usr/bin/install -c ./../src/icu4c-78-81ecdbb0f1.clean/source/install-sh /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/install-sh
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig
+mkdir /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig
+# icu's fallback install-sh does not support multi-file install
+for file in ./config/icu-uc.pc ./config/icu-i18n.pc ./config/icu-io.pc; do \
+  /usr/bin/install -c -m 644 "${file}" /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/pkgconfig/ ; \
+done
+/usr/bin/install -c -m 644 ./../src/icu4c-78-81ecdbb0f1.clean/source/../LICENSE /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/icu/78.3/LICENSE
+config.status: creating ./config/icu-config.1
+/usr/bin/install -c ./config/icu-config /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/../tools/icu/debug/bin/icu-config
+/usr/bin/install -c -m 644 ./config/Makefile.inc /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu/78.3/Makefile.inc
+/usr/bin/install -c -m 644 ./config/pkgdata.inc /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu/78.3/pkgdata.inc
+cd /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/lib/icu/78.3/..; \
+    rm -rf current && ln -s 78.3 current; \
+    rm -f Makefile.inc && ln -s current/Makefile.inc Makefile.inc; \
+    rm -f pkgdata.inc && ln -s current/pkgdata.inc pkgdata.inc
+Makefile:381: update target 'install-manx' due to: target is .PHONY
+/bin/bash ./../src/icu4c-78-81ecdbb0f1.clean/source/mkinstalldirs /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+/usr/bin/install -c -m 644 config/icu-config.1 /home/runner/webbuild/vcpkg/packages/icu_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/debug/share/icu/man1
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/icu/x64-linux-dbg'

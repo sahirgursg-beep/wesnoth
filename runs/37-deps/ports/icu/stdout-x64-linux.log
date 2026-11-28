@@ -1,0 +1,50 @@
+Downloading https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz -> icu4c-78.3-sources.tgz
+Successfully downloaded icu4c-78.3-sources.tgz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/icu4c-78.3-sources.tgz
+-- Applying patch disable-static-prefix.patch
+-- Applying patch fix_bsd_and_solaris.patch
+-- Applying patch fix_parallel_build_on_windows.patch
+-- Applying patch fix-python-path-with-spaces.patch
+-- Applying patch fix-using-install-sh.diff
+-- Applying patch mh-darwin.patch
+-- Applying patch mh-mingw.patch
+-- Applying patch mh-msys-msvc.patch
+-- Applying patch subdirs.patch
+-- Applying patch vcpkg-cross-data.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean
+-- Getting CMake variables for x64-linux
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/icu/cmake-get-vars_C_CXX-x64-linux.cmake.log
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building/Installing x64-linux-dbg
+-- Making target 'all' for x64-linux-dbg
+-- Making target 'install' for x64-linux-dbg
+-- Building/Installing x64-linux-rel
+-- Making target 'all' for x64-linux-rel
+-- Making target 'install' for x64-linux-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/config/icucross.inc
+-- Installing: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/config/icucross.mk
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/lib/pkgconfig/icu-i18n.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/lib/pkgconfig/icu-io.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/lib/pkgconfig/icu-uc.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/debug/lib/pkgconfig/icu-i18n.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/debug/lib/pkgconfig/icu-io.pc
+-- Fixing pkgconfig file: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/debug/lib/pkgconfig/icu-uc.pc
+-- Installing: /home/runner/webbuild/vcpkg/packages/icu_x64-linux/share/icu/copyright
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/derb' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/genbrk' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/genccode' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gencfu' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gencmn' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gencnval' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gendict' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gennorm2' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/genrb' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/gensprep' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/icuexportdata' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/icuinfo' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/icupkg' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/makeconv' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/pkgdata' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Adjusted RPATH of '/home/runner/webbuild/vcpkg/packages/icu_x64-linux/tools/icu/bin/uconv' (From '' -> To '$ORIGIN:$ORIGIN/../../../lib')
+-- Performing post-build validation

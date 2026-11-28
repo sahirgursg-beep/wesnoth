@@ -1,0 +1,49 @@
+/usr/bin/ar: creating libicudata.a
+.././../src/icu4c-78-81ecdbb0f1.clean/source/common/ucptrie.cpp: In function ‘UChar32 {anonymous}::getRange(const void*, UChar32, uint32_t (*)(const void*, uint32_t), const void*, uint32_t*)’:
+.././../src/icu4c-78-81ecdbb0f1.clean/source/common/ucptrie.cpp:371:25: warning: ‘trieValue’ may be used uninitialized [-Wmaybe-uninitialized]
+  371 |                         if (trieValue2 != trieValue) {
+      |                         ^~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/common/ucptrie.cpp:283:14: note: ‘trieValue’ was declared here
+  283 |     uint32_t trieValue, value = nullValue;
+      |              ^~~~~~~~~
+/usr/bin/ar: creating ../lib/libicuuc.a
+In file included from .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/collationdatabuilder.cpp:33:
+In constructor ‘icu_78::CollationIterator::CollationIterator(const icu_78::CollationData*, UBool)’,
+    inlined from ‘icu_78::DataBuilderCollationIterator::DataBuilderCollationIterator(icu_78::CollationDataBuilder&)’ at .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/collationdatabuilder.cpp:169:28:
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/collationiterator.h:91:23: warning: ‘((const icu_78::CollationData*)((char*)this + 112))[2].icu_78::CollationData::trie’ is used uninitialized [-Wuninitialized]
+   91 |             : trie(d->trie),
+      |                    ~~~^~~~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.cpp: In function ‘decNumber* uprv_decNumberSquareRoot_78(decNumber*, const decNumber*, decContext*)’:
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.cpp:2974:31: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2974 |         t->lsu[0]=9; t->lsu[1]=5; t->lsu[2]=2;
+      |                      ~~~~~~~~~^~
+In file included from .././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.cpp:184:
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.h:89:19: note: at offset 1 into destination object ‘decNumber::lsu’ of size 1
+   89 |     decNumberUnit lsu[DECNUMUNITS];
+      |                   ^~~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.cpp:2974:44: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2974 |         t->lsu[0]=9; t->lsu[1]=5; t->lsu[2]=2;
+      |                                   ~~~~~~~~~^~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/decNumber.h:89:19: note: at offset 2 into destination object ‘decNumber::lsu’ of size 1
+   89 |     decNumberUnit lsu[DECNUMUNITS];
+      |                   ^~~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/number_mapper.cpp: In static member function ‘static icu_78::number::impl::MacroProps icu_78::number::impl::NumberPropertyMapper::oldToNew(const icu_78::number::impl::DecimalFormatProperties&, const icu_78::DecimalFormatSymbols&, icu_78::number::impl::DecimalFormatWarehouse&, icu_78::number::impl::DecimalFormatProperties*, UErrorCode&)’:
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/number_mapper.cpp:135:49: warning: ‘currencyUsage’ may be used uninitialized [-Wmaybe-uninitialized]
+  135 |         precision = Precision::constructCurrency(currencyUsage).withCurrency(currency);
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/i18n/number_mapper.cpp:78:20: note: ‘currencyUsage’ was declared here
+   78 |     UCurrencyUsage currencyUsage;
+      |                    ^~~~~~~~~~~~~
+/usr/bin/ar: creating ../lib/libicui18n.a
+/usr/bin/ar: creating ../lib/libicuio.a
+/usr/bin/ar: creating ../../lib/libicutu.a
+/usr/bin/ar: creating libicutest.a
+../.././../src/icu4c-78-81ecdbb0f1.clean/source/tools/genrb/parse.cpp: In function ‘SResource* parseIntVector(ParseState*, char*, uint32_t, const UString*, UErrorCode*)’:
+../.././../src/icu4c-78-81ecdbb0f1.clean/source/tools/genrb/parse.cpp:1775:9: warning: ‘stringLength’ may be used uninitialized [-Wmaybe-uninitialized]
+ 1775 |         if(len==stringLength)
+      |         ^~
+../.././../src/icu4c-78-81ecdbb0f1.clean/source/tools/genrb/parse.cpp:1762:17: note: ‘stringLength’ was declared here
+ 1762 |         int32_t stringLength;
+      |                 ^~~~~~~~~~~~
+/usr/bin/ar: creating ../lib/libicudata.a
+/usr/bin/ar: creating uconvmsg/libuconvmsg.a

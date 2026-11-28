@@ -1,0 +1,9 @@
+Item brkitr/root.res depends on missing item brkitr/cjdict.dict
+Item brkitr/root.res depends on missing item brkitr/cjdict.dict
+Item brkitr/root.res depends on missing item brkitr/cjdict.dict
+Item brkitr/root.res depends on missing item brkitr/khmerdict.dict
+Item brkitr/root.res depends on missing item brkitr/laodict.dict
+Item brkitr/root.res depends on missing item brkitr/burmesedict.dict
+Item brkitr/root.res depends on missing item brkitr/thaidict.dict
+Item coll/de_.res depends on missing item coll/de.res
+Item coll/es_.res depends on missing item coll/es.res

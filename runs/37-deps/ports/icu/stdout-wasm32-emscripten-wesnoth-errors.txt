@@ -1,0 +1,15 @@
+12--- Applying patch subdirs.patch
+13--- Applying patch vcpkg-cross-data.patch
+14--- Using source at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean
+15:CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+16-    Command failed: /home/runner/webbuild/vcpkg/installed/x64-linux/tools/icu/bin/icupkg -r /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-remove.txt /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean/source/data/in/icudt78l.dat /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-pruned.dat
+17-    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/icu
+18:    Error code: 2
+19-    See logs for more information:
+20-      /home/runner/webbuild/vcpkg/buildtrees/icu/icudata-prune-wasm32-emscripten-wesnoth-err.log
+21-
+22-Call Stack (most recent call first):
+23-  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu/portfile.cmake:51 (vcpkg_execute_required_process)
+24-  scripts/ports.cmake:209 (include)
+25-
+26-

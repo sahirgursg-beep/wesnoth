@@ -1,0 +1,40 @@
+  BUILD_FAILED: 1
+  CASCADED_DUE_TO_MISSING_DEPENDENCIES: 18
+  boost-algorithm:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 15.3 us
+  boost-asio:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 12.1 us
+  boost-date-time:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 15.3 us
+  boost-foreach:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 13.5 us
+  boost-graph:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 22.1 us
+  boost-iostreams:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 19.2 us
+  boost-locale:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 13.1 us
+  boost-phoenix:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 11.8 us
+  boost-process:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 17.7 us
+  boost-property-tree:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 8.34 us
+  boost-proto:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 13.9 us
+  boost-ptr-container:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 11.4 us
+  boost-range:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 10.4 us
+  boost-regex:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 18.2 us
+  boost-serialization:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 10.8 us
+  boost-spirit:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 37.5 us
+  boost-thread:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 14 us
+  boost-xpressive:wasm32-emscripten-wesnoth: CASCADED_DUE_TO_MISSING_DEPENDENCIES: 15.6 us
+  icu:wasm32-emscripten-wesnoth: BUILD_FAILED: 904 ms
+error: building boost-algorithm:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-asio:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-date-time:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-foreach:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-graph:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-iostreams:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-locale:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-phoenix:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-process:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-property-tree:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-proto:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-ptr-container:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-range:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-regex:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-serialization:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-spirit:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-thread:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building boost-xpressive:wasm32-emscripten-wesnoth failed with: CASCADED_DUE_TO_MISSING_DEPENDENCIES
+error: building icu:wasm32-emscripten-wesnoth failed with: BUILD_FAILED
