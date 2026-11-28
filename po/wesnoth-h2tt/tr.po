@@ -12440,17 +12440,20 @@ msgid ""
 "I am a warrior of the Light, Konrad. My Light cannot shine while there "
 "within me beats a heart touched by the Dark."
 msgstr ""
+"Ben Işığın bir savaşçısıyım, Konrad. İçimde Karanlığın dokunduğu bir yürek "
+"atarken Işığım parlayamaz."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:422
 msgid "He’s gone!"
-msgstr ""
+msgstr "Gitti!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:437
 msgid ""
 "Myrilell, what is this place we now defend? How did you all come to be here?"
 msgstr ""
+"Mirilel, şimdi savunduğumuz burası neresi? Hepiniz buraya nasıl geldiniz?"
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:441
@@ -12458,6 +12461,8 @@ msgid ""
 "These hills — now our home — were once a wholly accursed place, blighted by "
 "necromancy and consumed by darkness."
 msgstr ""
+"Bu tepeler — şimdi yurdumuz — bir zamanlar tamamen lanetli bir yerdi; ölü "
+"büyüsüyle zehirlenmiş ve karanlıkça yutulmuş."
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:445
@@ -12467,6 +12472,10 @@ msgid ""
 "are stragglers of Ras-Tabahn’s. We only know that centuries ago, the crown "
 "sealed them underground with powerful magic."
 msgstr ""
+"Kötülüğün nereden geldiğini bilmiyoruz. Bazıları ölü büyücülerinin batıdan "
+"istilalarından sağ kalan umacı lordlar olduğunu düşünüyor; diğerleri "
+"Ras-Tabahn’ın artıkları olduklarına inanıyor. Tek bildiğimiz, yüzyıllar "
+"önce tacın onları güçlü bir büyüyle yeraltına mühürlediği."
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:449
@@ -12475,6 +12484,9 @@ msgid ""
 "to cleanse this place of evil. We built our monastery here to ensure that "
 "the darkness never escapes."
 msgstr ""
+"Tarikatımızın erkekleri ve kadınları, Işığın hizmetkârları, burayı "
+"kötülükten temizlemeyi görev edindik. Karanlığın asla kaçmamasını sağlamak "
+"için manastırımızı buraya inşa ettik."
 
 #. [message]: speaker=Vinrar
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:453
@@ -12482,11 +12494,13 @@ msgid ""
 "But it’s been decades since the Crown last sent to us men or supplies, and "
 "the power of our order has waned. And now even the seal has fallen..."
 msgstr ""
+"Ama Tacın bize en son adam ya da erzak göndermesinin üzerinden on yıllar "
+"geçti ve tarikatımızın gücü azaldı. Ve şimdi mühür bile düştü..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:465
 msgid "Look out! They’re preparing another assault."
-msgstr ""
+msgstr "Dikkat! Başka bir saldırı hazırlıyorlar."
 
 #. [message]: type=Lich
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:469
@@ -12495,6 +12509,9 @@ msgid ""
 "shall be thrown open and our followers shall flood across the land! You "
 "cannot stop the eternal life that we bring!"
 msgstr ""
+"Çok uzun süre lanetli mührünüzle kapana kısıldık! Alt tüneller açılacak ve "
+"takipçilerimiz toprakları basacak! Getirdiğimiz sonsuz yaşamı "
+"durduramazsınız!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:473
@@ -12502,6 +12519,8 @@ msgid ""
 "Eternal life is no blessing, lich, but a curse. I have tasted from the cup "
 "of which you offer, and we will not allow such poison to spread."
 msgstr ""
+"Sonsuz yaşam bir lütuf değil, umacı, bir lanettir. Sunduğun kadehten tattım "
+"ve böyle bir zehrin yayılmasına izin vermeyeceğiz."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:474
@@ -12509,6 +12528,8 @@ msgid ""
 "For too long has the crown neglected this place. Now, the spirit of Garard "
 "comes to put things right."
 msgstr ""
+"Taç burayı çok uzun süre ihmal etti. Şimdi Garard’ın ruhu işleri düzeltmeye "
+"geliyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:475
@@ -12516,6 +12537,8 @@ msgid ""
 "As tempting as the thought may be, I’ve heard more than a few stories of "
 "promising young magi tempted by necromancy. It never ends well."
 msgstr ""
+"Düşünce ne kadar cazip olsa da ölü büyüsüne ayartılan gelecek vaat eden "
+"genç büyücüler hakkında pek çok hikâye duydum. Asla iyi bitmez."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:476
@@ -12523,6 +12546,8 @@ msgid ""
 "As tempting as the thought may be, I’ve seen more than a few promising young "
 "magi tempted by necromancy. It never ends well."
 msgstr ""
+"Düşünce ne kadar cazip olsa da ölü büyüsüne ayartılan gelecek vaat eden pek "
+"çok genç büyücü gördüm. Asla iyi bitmez."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:477
@@ -12530,6 +12555,8 @@ msgid ""
 "Fancy talk comin’ from a stick-handed sixpenny skull, ye soused gurnet! Jus’ "
 "wait ’til ah stick my axe through one o’yer wrinklin’ ribs!"
 msgstr ""
+"Çubuk elli beş paralık bir kafatasından süslü laflar, seni sarhoş balık! "
+"Bekle de baltamı buruşuk kaburgalarından birine saplayayım!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:478
@@ -12537,6 +12564,8 @@ msgid ""
 "You’re not the first lich we’ve fought. Want to hear what we did to the last "
 "one?"
 msgstr ""
+"Savaştığımız ilk umacı sen değilsin. Sonuncusuna ne yaptığımızı duymak "
+"ister misin?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:480
@@ -12544,6 +12573,9 @@ msgid ""
 "Really, eternal life? I’d love to discuss some of my alchemical theories "
 "with you! ...wait, ah, no, you mean undeath, don’t you."
 msgstr ""
+"Gerçekten mi, sonsuz yaşam? Simya kuramlarımdan bazılarını seninle "
+"tartışmayı çok isterim! ...dur, ah, hayır, ölümsüzlüğü kastediyorsun, değil "
+"mi."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:481
@@ -12551,16 +12583,18 @@ msgid ""
 "Ya ya ya. Dosh heard dis all before. Always someone be thinkin’ dey know "
 "what’s best for everyone else."
 msgstr ""
+"Ya ya ya. Dosh bunların hepsini daha önce duydu. Hep birileri herkes için "
+"neyin en iyisi olduğunu bildiğini sanıyor."
 
 #. [message]: speaker=Vinrar
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:518
 msgid "At last, I see the light..."
-msgstr ""
+msgstr "Sonunda ışığı görüyorum..."
 
 #. [message]: speaker=Miryan
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:526
 msgid "Yield not one inch to the darkness..."
-msgstr ""
+msgstr "Karanlığa bir karış bile boyun eğmeyin..."
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:538
@@ -12568,6 +12602,8 @@ msgid ""
 "This body is merely a puppet! You cannot stop us from enlightening your "
 "world to the bliss of eternal un-life!"
 msgstr ""
+"Bu beden sadece bir kukla! Dünyanızı sonsuz ölümsüzlüğün mutluluğuyla "
+"aydınlatmamızı durduramazsınız!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:545
@@ -12575,21 +12611,23 @@ msgid ""
 "Your fighting only delays the inevitable! There are more of us than you "
 "could ever imagine!"
 msgstr ""
+"Savaşmanız sadece kaçınılmaz olanı geciktiriyor! Hayal edebileceğinizden "
+"çok daha fazlayız!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:549
 msgid "One fewer now."
-msgstr ""
+msgstr "Şimdi bir eksik."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:568
 msgid "Lo! My faith has been tested! And lo! It has endured!"
-msgstr ""
+msgstr "İşte! İnancım sınandı! Ve işte! Dayandı!"
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:605
 msgid "In the crucible of the Light, evil shall be purged!"
-msgstr ""
+msgstr "Işığın potasında kötülük arınacak!"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:624
@@ -12600,21 +12638,26 @@ msgid ""
 "Smite: each time Moremirmu strikes a finishing blow, he will deal\n"
 "30 arcane damage to all adjacent enemies."
 msgstr ""
+"Moremirmu geri döndü! +2 hasar, +20 can puanı\n"
+"ve güçlü “çarpma” yeteneğini kazandı!\n"
+"\n"
+"Çarpma: Moremirmu her son darbeyi vurduğunda yanındaki\n"
+"bütün düşmanlara 30 gizemli hasar verir."
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:649
 msgid "Nearly done, Konrad! Hold strong and we shall yet be victorious!"
-msgstr ""
+msgstr "Neredeyse bitti, Konrad! Sıkı durun, yine de galip geleceğiz!"
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:657
 msgid "Light save us all! It is finished."
-msgstr ""
+msgstr "Işık hepimizi korusun! Bitti."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:687
 msgid "They’re gone!"
-msgstr ""
+msgstr "Gittiler!"
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:693
@@ -12622,6 +12665,8 @@ msgid ""
 "With the seal restored, the undead have once more been banished underground. "
 "We are in your debt, Your Highness."
 msgstr ""
+"Mühür yeniden kurulunca ölümsüzler bir kez daha yeraltına sürüldü. Size "
+"borçluyuz, Majesteleri."
 
 #. [message]: speaker=Myrilell
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:697
@@ -12631,42 +12676,47 @@ msgid ""
 "young mages, and the nascent Light that they nurture within. May they serve "
 "you well as you journey on to reclaim your throne."
 msgstr ""
+"Kıdemliler ve ben büyümüzü güçlendirmeye devam etmek ve ölümsüzlerin bir "
+"daha asla kaçmamasını sağlamak için burada kalmalıyız. Ama genç "
+"büyücülerimizi ve içlerinde besledikleri yeni doğan Işığı ellerinize emanet "
+"ediyorum. Tahtınızı geri almak için yolculuğunuza devam ederken size iyi "
+"hizmet etsinler."
 
 #. [message]: id=Myrilell,Kenara
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:727
 msgid "No! Without her help, I have no hope of restoring the seal."
-msgstr ""
+msgstr "Hayır! Onun yardımı olmadan mührü yeniden kurma umudum yok."
 
 #. [message]: id=Myrilell,Kenara
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:731
 msgid ""
 "The undead will continue to pour forth and pour forth, until we are all "
 "overwhelmed..."
-msgstr ""
+msgstr "Ölümsüzler hepimiz bunalana kadar akmaya ve akmaya devam edecek..."
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:14
 msgid "scenario name^Crossroads"
-msgstr ""
+msgstr "Kavşak"
 
 #. [side]: type=Knight, id=knight
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:58
 msgid "Raery"
-msgstr ""
+msgstr "Raeri"
 
 #. [message]: speaker=Lisar
 #. Lisar has prisoners, and is trying to lure Konrad into an ambush. The player has just decided to play this scenario.
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:172
 msgid ""
 "He’s taken the bait. Quick, get down into the mines and alert the others."
-msgstr ""
+msgstr "Yemi yuttu. Çabuk, madenlere in ve diğerlerini uyar."
 
 #. [message]: speaker=knight
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:181
 msgid ""
 "What about the prisoners, m’lady? Shall we execute them before the imposter "
 "arrives?"
-msgstr ""
+msgstr "Peki ya tutsaklar, hanımım? Sahtekâr gelmeden onları idam edelim mi?"
 
 #. [message]: speaker=Ulfdain
 #. Ulfdain throws lots of hard-to-understand old-fashioned insults at Li'sar. This is his usual way of speaking.
@@ -12676,6 +12726,8 @@ msgid ""
 "Jus’ gimme the chance an’ I’ll rip that head right off yer ninnyhammerin’ "
 "neck, ye white-livered gasser!"
 msgstr ""
+"Gel de dene, seni sarı karınlı, beceriksiz, alık prenses! Bir fırsat ver de "
+"o kafayı o ahmak boynundan koparayım, seni ödlek gevezekoz!"
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:190
@@ -12684,11 +12736,14 @@ msgid ""
 "cold blood. But we do need to get the dwarves out of here — both for their "
 "own safety and to keep them out of the rebels’ hands."
 msgstr ""
+"Düşünce ne kadar cazip olsa da, Raeri, masumları soğukkanlılıkla öldürecek "
+"değilim. Ama cüceleri buradan çıkarmamız gerek — hem kendi güvenlikleri "
+"için hem de isyancıların eline geçmemeleri için."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:200
 msgid "Too late, Konrad has come! Forget the prisoners and prepare for battle."
-msgstr ""
+msgstr "Çok geç, Konrad geldi! Tutsakları unutun ve savaşa hazırlanın."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:226
@@ -12696,6 +12751,8 @@ msgid ""
 "I’ve come to face you, princess! Only a true villain would threaten "
 "innocents to force someone into a fight."
 msgstr ""
+"Seninle yüzleşmeye geldim, prenses! Ancak gerçek bir alçak birini savaşa "
+"zorlamak için masumları tehdit eder."
 
 #. [message]: speaker=Lisar {LISAR_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:230
@@ -12704,35 +12761,38 @@ msgid ""
 "“prince” — I will not allow you to sow any more discord and chaos among my "
 "people. Your rebellion ends here."
 msgstr ""
+"Aman lütfen, cüceler hiçbir zaman tehlikede değildi. Sana gelince, “prens” "
+"— halkım arasında daha fazla anlaşmazlık ve kaos ekmene izin vermeyeceğim. "
+"İsyanın burada bitiyor."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:238
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:428
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:889
 msgid "Defeat Li’sar"
-msgstr ""
+msgstr "Lisar’ı yen"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:245
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:435
 msgid "Defeat Yrogin"
-msgstr ""
+msgstr "Yrogin’i yen"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:253
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:443
 msgid "Rescue Ulfdain"
-msgstr ""
+msgstr "Ulfdain’i kurtar"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:278
 msgid "Look! Someone approaches from the eastern road."
-msgstr ""
+msgstr "Bakın! Doğu yolundan biri yaklaşıyor."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:280
 msgid "Yrogin"
-msgstr ""
+msgstr "Yrogin"
 
 #. [message]: speaker=Yrogin
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:285
@@ -12740,11 +12800,13 @@ msgid ""
 "Message from the queen, Your Highness! The boats are ready, but there is "
 "only a short window in which to act before Elensefar recovers."
 msgstr ""
+"Kraliçeden mesaj, Majesteleri! Tekneler hazır, ama Elensefar toparlanmadan "
+"harekete geçmek için yalnızca kısa bir zaman var."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:289
 msgid "Poor timing; I’m a little busy at the moment..."
-msgstr ""
+msgstr "Kötü zamanlama; şu an biraz meşgulüm..."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:293
@@ -12752,6 +12814,8 @@ msgid ""
 "Still, Elensefar is too important a prize to let slip. I cannot risk Maddock "
 "regaining his footing before we have a chance to deal the finishing blow."
 msgstr ""
+"Yine de Elensefar kaçırılmayacak kadar önemli bir ödül. Son darbeyi vurma "
+"fırsatı bulmadan Maddok’un toparlanması riskine giremem."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:297
@@ -12759,11 +12823,13 @@ msgid ""
 "I’ll depart immediately. Yrogin, you assume command here. It shouldn’t take "
 "much to defeat this con-man now that we’ve lured him into battle."
 msgstr ""
+"Hemen ayrılıyorum. Yrogin, buranın komutasını sen al. Onu savaşa "
+"çektiğimize göre bu dolandırıcıyı yenmek çok zor olmamalı."
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:402
 msgid "For Her Highness! Kill the imposter!"
-msgstr ""
+msgstr "Majesteleri için! Sahtekârı öldürün!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:405
@@ -12771,6 +12837,9 @@ msgid ""
 "Caution, Konrad! These hills are full of old mineshafts, their entrances "
 "overgrown with grass and weeds. Li’sar must be using them to ambush us."
 msgstr ""
+"Dikkat, Konrad! Bu tepeler girişleri ot ve yabani otlarla kaplanmış eski "
+"maden kuyularıyla dolu. Lisar bize pusu kurmak için onları kullanıyor "
+"olmalı."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:406
@@ -12778,6 +12847,8 @@ msgid ""
 "Look out, Your Highness! Your cousin has stationed ambushers across the "
 "hills, lurking in old mineshafts."
 msgstr ""
+"Dikkat edin, Majesteleri! Kuzeniniz tepelere eski maden kuyularında "
+"saklanan pusucular yerleştirmiş."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:407
@@ -12786,6 +12857,8 @@ msgid ""
 "Where did you come from?! Careful, Konrad, I think there are ambushers "
 "hiding in old mineshafts all across these hills."
 msgstr ""
+"Nereden çıktın?! Dikkatli ol, Konrad, sanırım bu tepelerin her yanındaki "
+"eski maden kuyularında saklanan pusucular var."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:409
@@ -12793,6 +12866,8 @@ msgid ""
 "Lo! The forces of evil ambush us at every turn — even the very ground itself "
 "succors our foes within its old mines."
 msgstr ""
+"İşte! Kötülüğün güçleri her köşede bize pusu kuruyor — toprağın kendisi "
+"bile eski madenlerinde düşmanlarımıza yardım ediyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:412
@@ -12800,47 +12875,51 @@ msgid ""
 "Those ambushers burst right out of the ground! There must be old mineshafts "
 "everywhere in these hills, overgrown with grass and weeds."
 msgstr ""
+"O pusucular tam yerden fırladı! Bu tepelerin her yerinde ot ve yabani "
+"otlarla kaplanmış eski maden kuyuları olmalı."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:416
 msgid "Wait, stop! I’m not an imposter, I’m the real Konrad!"
-msgstr ""
+msgstr "Dur, durun! Ben sahtekâr değilim, gerçek Konrad’ım!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:420
 msgid "... there’s nothing I can say to save these woodsmen, is there?"
 msgstr ""
+"... bu ormancıları kurtarmak için söyleyebileceğim hiçbir şey yok, değil mi?"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:456
 msgid "Invisible ambushers hide throughout the hills."
-msgstr ""
+msgstr "Görünmez pusucular tepelerin her yerinde saklanıyor."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:479
 msgid ""
 "He’s slain nearly the last of our ambushers, Your Highness! What do we do?"
 msgstr ""
+"Pusucularımızın neredeyse sonuncusunu da öldürdü, Majesteleri! Ne yapacağız?"
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:484
 msgid "He’s slain nearly the last of our ambushers, lieutenant! What do we do?"
-msgstr ""
+msgstr "Pusucularımızın neredeyse sonuncusunu da öldürdü, teğmen! Ne yapacağız?"
 
 #. [message]: speaker=Lisar,Yrogin
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:489
 msgid "This isn’t over. Keep up the fight!"
-msgstr ""
+msgstr "Bu iş bitmedi. Savaşmaya devam edin!"
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:505
 msgid "Free the prisoners"
-msgstr ""
+msgstr "Tutsakları serbest bırak"
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:511
 msgid "Wait"
-msgstr ""
+msgstr "Bekle"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:521
@@ -12848,6 +12927,8 @@ msgid ""
 "Here are the prisoners! We can set them free, but if they join our side they "
 "will certainly come under attack."
 msgstr ""
+"İşte tutsaklar! Onları serbest bırakabiliriz, ama bizim tarafımıza "
+"katılırlarsa kesinlikle saldırıya uğrarlar."
 
 #. [message]: speaker=Ulfdain
 #. Ulfdain is still locked up, and challenges Konrad's unit who's come nearby
@@ -12856,11 +12937,13 @@ msgid ""
 "Come an’ git some, ye nigmenog bolting-hutch of beastliness! Ah dare ye to "
 "square up an’ fight me, dwarf-to-dwarf!"
 msgstr ""
+"Gel de al, seni alık canavarlık kafesi! Cüceye cüce karşıma çıkıp benimle "
+"dövüşmeye cesaretin var mı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:530
 msgid "Wait a minute! I don’t want to fight you. I’m here to rescue you!"
-msgstr ""
+msgstr "Bir dakika! Seninle dövüşmek istemiyorum. Seni kurtarmaya geldim!"
 
 #. [message]: speaker=Ulfdain
 #. Ulfdain asks Konrad to let him and his dwarf miner allies out of their cages so they can help fight Li'sar
@@ -12869,11 +12952,14 @@ msgid ""
 "Oh, what’s that? Seems ah misjudged ye, son. Hurry up then, ye spoony cub, "
 "lemme an’ my boys out o’ these here cages so we can get to th’ fight!"
 msgstr ""
+"Ah, o ne? Görünüşe göre seni yanlış değerlendirmişim, evlat. Acele et o "
+"zaman, seni toy yavru, beni ve çocuklarımı bu kafeslerden çıkar da dövüşe "
+"katılalım!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:546
 msgid "You’re free now! How did you come to be imprisoned?"
-msgstr ""
+msgstr "Artık özgürsün! Nasıl hapsedildin?"
 
 #. [message]: speaker=Ulfdain
 #. Much better, thank you for freeing us. That's the last time I dig a mine for your human queen, let me tell you.
@@ -12883,6 +12969,9 @@ msgid ""
 "yer human queen, lemme tell you. “Clean up the old crossroads mines”, she "
 "says. “The princess needs ’em for somethin’!”"
 msgstr ""
+"Çok daha iyi, bizi kurtardığın için sağ ol! Sizin insan kraliçeniz için son "
+"kez maden kazıyorum, onu söyleyeyim. “Eski kavşak madenlerini temizleyin” "
+"diyor. “Prensesin onlara bir şey için ihtiyacı var!”"
 
 #. [message]: speaker=Ulfdain
 #. All we do is insult the queen a few times, in a friendly manner, and she gibbeted us. You humans just don't appreciate a good insult.
@@ -12892,6 +12981,8 @@ msgid ""
 "it was straight to the gibbet! You beanpoles jus’ dinnae appreciate a good "
 "insult!"
 msgstr ""
+"Tek yaptığımız kraliçeye birkaç kez hakaret etmekti, dostça falan, ve "
+"doğruca darağacına! Siz sırıklar iyi bir hakaretin değerini bilmezsiniz!"
 
 #. [message]: speaker=Ulfdain
 #. And now my job is gone; guess I have nothing left for me now but revenge. So if you're out to beat the queen, me and my boys are with you. (after this line, the player gains dwarvish miners as a recruit
@@ -12900,17 +12991,19 @@ msgid ""
 "An’ now tha’s my job gone; guess I got naught left fer me now but revenge. "
 "So if yer out to beat the queen, me an’ my boys are with ye!"
 msgstr ""
+"Ve şimdi işim de gitti; sanırım bana intikamdan başka bir şey kalmadı. Yani "
+"kraliçeyi yenmeye çıktıysan ben ve çocuklarım seninleyiz!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:563
 msgid "Konrad can now recruit Dwarvish Miners!"
-msgstr ""
+msgstr "Konrad artık Cüce Madenci alabilir!"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:572
 msgid ""
 "... hey, what the— that axe! That axe you’re holdin’, that’s my father’s!"
-msgstr ""
+msgstr "... hey, bu da ne— o balta! Tuttuğun o balta benim babamın!"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:576
@@ -12918,6 +13011,8 @@ msgid ""
 "Give it back, ye obscene trunk of tallow-keech! You milksop, you coward, "
 "give it back or I’ll cut it from yer steamin’ corpse!"
 msgstr ""
+"Geri ver onu, seni iğrenç don yağı gövdesi! Seni süt kuzusu, seni korkak, "
+"geri ver yoksa onu dumanı tüten cesedinden keserek alırım!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:580
@@ -12925,11 +13020,13 @@ msgid ""
 "Calm down, calm down! I found this axe in the ruins of west Knalga. If it "
 "truly is your father’s, of course you’re entitled to it. Here."
 msgstr ""
+"Sakin ol, sakin ol! Bu baltayı batı Knalga’nın yıkıntılarında buldum. "
+"Gerçekten babanınsa elbette senin hakkın. Al."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:602
 msgid "Com’ere you chicken-faced by-blow! Fight me like a dwarf!"
-msgstr ""
+msgstr "Gel buraya seni tavuk suratlı piç! Benimle bir cüce gibi dövüş!"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:621
@@ -12937,6 +13034,8 @@ msgid ""
 "Oy princess! Ah got an axe right ’ere with yer name on it! By Thursagan’s "
 "beard, ah’ll teach you and yer men to lock me up!"
 msgstr ""
+"Hey prenses! Burada üstünde adın yazan bir baltam var! Thursagan’ın sakalı "
+"adına, beni kilitlemenin ne demek olduğunu sana ve adamlarına öğreteceğim!"
 
 #. [message]: speaker=Lisar {LISAR_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:635
@@ -12945,11 +13044,13 @@ msgid ""
 "Konrad cannot defeat us soon he shall surely be trapped once my "
 "reinforcements arrive."
 msgstr ""
+"Isolde nerede? Bu savaş umduğum kadar tek taraflı değil, ama Konrad bizi "
+"yakında yenemezse takviyelerim geldiğinde kesinlikle kapana kısılacak."
 
 #. [message]: speaker=Isolde
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:647
 msgid "We're finally here, Your Highness! Apologies for the delay."
-msgstr ""
+msgstr "Sonunda geldik, Majesteleri! Gecikme için özür dileriz."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:663
@@ -12957,29 +13058,31 @@ msgid ""
 "More of them have come from behind! Even if we manage to defeat Li’sar, we "
 "have no hope of escaping this battle alive..."
 msgstr ""
+"Arkadan daha fazlası geldi! Lisar’ı yenmeyi başarsak bile bu savaştan canlı "
+"kurtulma umudumuz yok..."
 
 #. [message]: speaker=knight
 #. [message]: speaker=leader7
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:679
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:997
 msgid "Fight on without me, Your Highness!"
-msgstr ""
+msgstr "Bensiz savaşmaya devam edin, Majesteleri!"
 
 #. [message]: speaker=knight
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:684
 msgid "Fight on without me, friends!"
-msgstr ""
+msgstr "Bensiz savaşmaya devam edin, dostlar!"
 
 #. [message]: speaker=Lisar {LISAR_VARIATION mad}
 #. Lisar might not exist here, in which case nothing is said.
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:692
 msgid "You’ll pay for that, cousin!"
-msgstr ""
+msgstr "Bunu ödeyeceksin, kuzen!"
 
 #. [message]: speaker=Yrogin
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:705
 msgid "Aaargh! They said you were just a pretender... a puppet..."
-msgstr ""
+msgstr "Aaargh! Sadece bir sahtekâr olduğunu söylemişlerdi... bir kukla..."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:737
@@ -12987,6 +13090,8 @@ msgid ""
 "Not so tough now, are ye princess? Got any las’ words b’fer I bury m’ axe in "
 "tha’ hollow skull, ye grubby wisenheimerin’ blockhead?"
 msgstr ""
+"Şimdi o kadar sert değilsin, değil mi prenses? O boş kafatasına baltamı "
+"gömmeden son sözlerin var mı, seni pis ukala kalın kafa?"
 
 #. [message]: speaker=Lisar {LISAR_VARIATION defeat}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:741
@@ -12995,6 +13100,9 @@ msgid ""
 "forced to flee the field today, “cousin”, but I will not rest until you face "
 "justice for all the chaos you have caused."
 msgstr ""
+"Çekil üstümden, cüce! Burada düşemem; yapacak çok şey var. Bugün meydanı "
+"terk etmek zorunda kalabilirim, “kuzen”, ama sebep olduğun bütün kaos için "
+"adaletle yüzleşene kadar dinlenmeyeceğim."
 
 #. [message]: speaker=Lisar {LISAR_VARIATION defeat}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:749
@@ -13004,6 +13112,10 @@ msgid ""
 "field today, but I will not rest until you and your puppet face justice for "
 "all the chaos you have caused."
 msgstr ""
+"Demek “Yüce” Delfador bir kez daha üstünlerinin kanını döküyor. Kardeşimin "
+"hatalarını tekrarlamamı bekleme, ihtiyar — bugün meydanı terk edeceğim, ama "
+"sen ve kuklan sebep olduğunuz bütün kaos için adaletle yüzleşene kadar "
+"dinlenmeyeceğim."
 
 #. [message]: speaker=Lisar {LISAR_VARIATION defeat}
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:756
@@ -13013,6 +13125,10 @@ msgid ""
 "until you and your puppetmaster face justice for all the chaos you have "
 "caused."
 msgstr ""
+"Demek “kuzen”, görünüşe göre iyi bir aktör ve güzel bir yüzden fazlasısın. "
+"Önemli değil — bugün meydanı terk etmek zorunda kalabilirim, ama sen ve "
+"kuklacın sebep olduğunuz bütün kaos için adaletle yüzleşene kadar "
+"dinlenmeyeceğim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/17_Crossroads.cfg:773
@@ -13020,11 +13136,13 @@ msgid ""
 "We carried the field, but the princess escaped! I doubt this is the last "
 "we’ve seen of her..."
 msgstr ""
+"Meydanı kazandık, ama prenses kaçtı! Onu son görüşümüz olduğundan "
+"şüpheliyim..."
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:19
 msgid "scenario name^The Highwaymen"
-msgstr ""
+msgstr "Yol Kesenler"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:181
@@ -13038,6 +13156,9 @@ msgid ""
 "city. Our scouts spotted several convoys nearby, but the others must not "
 "have arrived yet."
 msgstr ""
+"Zamanlamamız mükemmel: birkaç hedefimizin ilki şehre yaklaşıyor. "
+"Keşifçilerimiz yakında birkaç kafile fark etti, ama diğerleri henüz "
+"gelmemiş olmalı."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:207
@@ -13045,6 +13166,8 @@ msgid ""
 "Each caravan will be brimming with supplies and weapons, so the more we "
 "plunder, the more new types of soldiers we’ll be able to equip!"
 msgstr ""
+"Her kervan erzak ve silahla dolu olacak, yani ne kadar çok yağmalarsak o "
+"kadar çok yeni asker türü donatabileceğiz!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:210
@@ -13053,6 +13176,9 @@ msgid ""
 "city buffoons will have no idea we’re here, as long as we keep our distance "
 "from th’ walls."
 msgstr ""
+"Evet, yağmur ve sisin bastırması bizim için iyi oldu. Surlardan uzak "
+"durduğumuz sürece o köstebek gözlü tavuk şehirli soytarıların burada "
+"olduğumuzdan haberi olmayacak."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:211
@@ -13061,6 +13187,9 @@ msgid ""
 "Helicrom. Lucky for us that the fog’s out. As long as we’re careful an’ keep "
 "our distance, th’ city won’t know we’re here."
 msgstr ""
+"Eskiden Baldras ve Helikrom’la buna benzer bir şey yaptığımızı "
+"hatırlıyorum. Sisin çıkması bizim için şans. Dikkatli olup uzak durduğumuz "
+"sürece şehir burada olduğumuzu bilmeyecek."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:212
@@ -13069,6 +13198,9 @@ msgid ""
 "from our foes. As long as we keep our distance from the city, Dan’Tonk shall "
 "surely remain ignorant of our presence."
 msgstr ""
+"Dinleyin ve görün! Işık sağlıyor, çünkü yağmur ve sis bizi düşmanlarımızdan "
+"gizlemek için geldi. Şehirden uzak durduğumuz sürece Dan’Tonk varlığımızdan "
+"kesinlikle habersiz kalacak."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:213
@@ -13078,6 +13210,8 @@ msgid ""
 "keep our distance from the city itself, I’m sure it’ll be some time before "
 "the garrison is alerted."
 msgstr ""
+"Şu sise bakın! Eh, bu muhtemelen bizim için iyi bir şey. Şehrin kendisinden "
+"uzak durursak garnizonun uyarılmasının bir süre alacağından eminim."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:215
@@ -13089,6 +13223,9 @@ msgid ""
 "keep our distance from the city proper, it may be some time before the "
 "garrison is alerted to our presence."
 msgstr ""
+"Bu yağmurun yoğun bir sisle gelmesi bizim için şans. Şehrin asıl kısmından "
+"uzak durduğumuz sürece garnizonun varlığımızdan haberdar olması bir süre "
+"alabilir."
 
 #. [objective]: condition=win
 #. $dead_wagons is a number; probably between 0 and 15
@@ -13097,25 +13234,27 @@ msgid ""
 "Intercept enemy wagons before they reach Dan’Tonk ($dead_wagons destroyed so "
 "far)"
 msgstr ""
+"Düşman arabalarının Dan’Tonk’a ulaşmadan yolunu kes (şimdiye kadar "
+"$dead_wagons yok edildi)"
 
 #. [objective]: condition=win
 #. [objective]: condition=win, description=<span strikethrough='true'>
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:235
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:242
 msgid "5+ destroyed: recruit Fencers"
-msgstr ""
+msgstr "5+ yok edildi: Eskirimci al"
 
 #. [objective]: condition=win
 #. [objective]: condition=win, description=<span strikethrough='true'>
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:250
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:257
 msgid "8+ destroyed: recruit Spearmen"
-msgstr ""
+msgstr "8+ yok edildi: Mızrakçı al"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:265
 msgid "all 11 destroyed: recruit Bowmen"
-msgstr ""
+msgstr "11’inin hepsi yok edildi: Okçu al"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:274
@@ -13124,11 +13263,14 @@ msgid ""
 "garrison, or if any of Konrad’s units move within 4 hexes of the the "
 "Dan’Tonk city walls (the unwalkable castle hexes)."
 msgstr ""
+"Herhangi bir kervan Dan’Tonk’a ulaşıp garnizonu uyardığında ya da Konrad’ın "
+"birimlerinden biri Dan’Tonk şehir surlarının (yürünemeyen kale altıgenleri) "
+"4 altıgen yakınına girdiğinde senaryo sona erer."
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:303
 msgid "Outlaws, here?! I warn you, I’m armed!"
-msgstr ""
+msgstr "Kanun kaçakları, burada mı?! Uyarıyorum, silahlıyım!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:316
@@ -13136,6 +13278,8 @@ msgid ""
 "I hate being stuck all the way out here on observation duty. What’s the "
 "point?"
 msgstr ""
+"Ta buralarda gözetleme görevine takılıp kalmaktan nefret ediyorum. Ne "
+"anlamı var ki?"
 
 #. [message]: speaker=unit
 #. this helps tell the player that they can safely fight these guards without alerting Dan'Tonk
@@ -13145,6 +13289,8 @@ msgid ""
 "the lieutenant expect me to do? It’s not as if I have any way to warn the "
 "city..."
 msgstr ""
+"Birkaç haydut aptalca Dan’Tonk’a bu kadar yaklaşsa bile teğmen benden ne "
+"yapmamı bekliyor? Şehri uyarmanın hiçbir yolu yok ki..."
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:345
@@ -13152,6 +13298,8 @@ msgid ""
 "Bandits in the fog! We’re under attack! It’s too far to warn the city — grab "
 "your weapons!"
 msgstr ""
+"Siste haydutlar! Saldırı altındayız! Şehri uyarmak için çok uzak — "
+"silahlarınızı alın!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:359
@@ -13159,6 +13307,8 @@ msgid ""
 "We are approaching the walls of Dan’Tonk! Careful — if we come much closer, "
 "the guards will spot us and we’ll be forced to abandon our mission."
 msgstr ""
+"Dan’Tonk surlarına yaklaşıyoruz! Dikkat — çok daha yaklaşırsak muhafızlar "
+"bizi görecek ve görevimizi bırakmak zorunda kalacağız."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:373
@@ -13166,11 +13316,15 @@ msgid ""
 "I’m sure I see shapes moving in the rain nearby, but with so much fog it’s "
 "hard to tell exactly who it is. Hopefully one of our convoys."
 msgstr ""
+"Yakındaki yağmurun içinde hareket eden şekiller gördüğümden eminim, ama bu "
+"kadar sisle tam olarak kim olduğunu söylemek zor. Umarım kafilelerimizden "
+"biridir."
 
 #. [message]: role=wagons_mid
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:452
 msgid "It’s an ambush! How did Maddock’s mercenaries get this far inland?!"
 msgstr ""
+"Bu bir pusu! Maddok’un paralı askerleri bu kadar içerilere nasıl geldi?!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:464
@@ -13178,6 +13332,7 @@ msgid ""
 "That’s the first caravan destroyed! Well done, everyone — now we must stop "
 "the second, too!"
 msgstr ""
+"İlk kervan yok edildi! Aferin herkese — şimdi ikincisini de durdurmalıyız!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:469
@@ -13185,6 +13340,8 @@ msgid ""
 "That’s the first caravan destroyed! Well done, everyone. We should continue "
 "expanding our control over this area — there will be more caravans soon."
 msgstr ""
+"İlk kervan yok edildi! Aferin herkese. Bu bölge üzerindeki kontrolümüzü "
+"genişletmeye devam etmeliyiz — yakında daha fazla kervan gelecek."
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:482
@@ -13192,6 +13349,8 @@ msgid ""
 "Lieutenant, weren’t we expecting a weapons convoy some hours ago? I hope "
 "they haven’t gotten into any trouble."
 msgstr ""
+"Teğmen, birkaç saat önce bir silah kafilesi beklemiyor muyduk? Umarım "
+"başları belaya girmemiştir."
 
 #. [message]: speaker=Warven
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:487
@@ -13199,12 +13358,14 @@ msgid ""
 "The fog’s been causing delays for schedules all around the city, ma’am. The "
 "shipment’s probably just stuck in some mud."
 msgstr ""
+"Sis şehrin her yanında programlarda gecikmelere yol açıyor, hanımefendi. "
+"Sevkiyat muhtemelen bir çamura saplanmıştır."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:515
 msgid ""
 "Another caravan is approaching the city, this time from the northern path!"
-msgstr ""
+msgstr "Başka bir kervan şehre yaklaşıyor, bu sefer kuzey yolundan!"
 
 #. [message]: role=wagons_top {FILTER_ADJACENT side=1}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:526
@@ -13212,6 +13373,8 @@ msgid ""
 "Outlaws on the road! Fighting elves in that awful forest was bad enough, and "
 "now this?"
 msgstr ""
+"Yolda kanun kaçakları! O korkunç ormanda elflerle savaşmak yeterince "
+"kötüydü, şimdi de bu mu?"
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:531
@@ -13219,6 +13382,8 @@ msgid ""
 "You speak in the presence of High Lord Kalenz of the elves, human! The wrath "
 "of elf-kind falls upon you today!"
 msgstr ""
+"Elflerin Yüce Lordu Kalenz’in huzurunda konuşuyorsun, insan! Bugün elf "
+"ırkının gazabı üzerine çöküyor!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:536
@@ -13226,6 +13391,8 @@ msgid ""
 "Vengeance for the Aethenwood! You should never have left your city to come "
 "burn my home!"
 msgstr ""
+"Eten Ormanı’nın intikamı! Yurdumu yakmaya gelmek için şehrinden asla "
+"ayrılmamalıydın!"
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:553
@@ -13233,11 +13400,14 @@ msgid ""
 "Still no word from the wagon trains? Something’s wrong. Lieutenant, dispatch "
 "a squad to patrol the area — we may be dealing with roadside bandits."
 msgstr ""
+"Araba kafilelerinden hâlâ haber yok mu? Bir şeyler yanlış. Teğmen, bölgede "
+"devriye gezmesi için bir manga gönder — yol kesen haydutlarla karşı karşıya "
+"olabiliriz."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:556
 msgid "Teory"
-msgstr ""
+msgstr "Teori"
 
 #. [message]: speaker=squad_leader
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:594
@@ -13245,6 +13415,8 @@ msgid ""
 "Ah ha, found you! We aren’t dealing with just any petty bandits — these are "
 "Konrad’s rebels! I’ll see you hang for your crimes!"
 msgstr ""
+"Aha, buldum sizi! Sıradan küçük haydutlarla değil — bunlar Konrad’ın "
+"isyancıları! Suçlarınız için asıldığınızı göreceğim!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:627
@@ -13252,18 +13424,20 @@ msgid ""
 "A third convoy, along the southern path this time! This one is larger than "
 "the previous two. Better-defended. but also a more valuable prize!"
 msgstr ""
+"Üçüncü bir kafile, bu sefer güney yolu boyunca! Bu öncekilerden daha büyük. "
+"Daha iyi korunuyor, ama aynı zamanda daha değerli bir ödül!"
 
 #. [message]: role=wagons_bot {FILTER_ADJACENT side=1}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:638
 msgid "Look out! Bandits on the road!"
-msgstr ""
+msgstr "Dikkat! Yolda haydutlar!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:696
 msgid ""
 "The final convoy we’re waiting for has arrived — and this one approaches "
 "from two directions at once!"
-msgstr ""
+msgstr "Beklediğimiz son kafile geldi — ve bu aynı anda iki yönden yaklaşıyor!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:700
@@ -13272,6 +13446,9 @@ msgid ""
 "the strength, even defeating only one will still provide us with many "
 "valuable weapons!"
 msgstr ""
+"İkisini de durdurmak istiyorsak kuvvetlerimizi bölmek zorunda kalacağız. Ya "
+"da gücümüz yetmezse sadece birini yenmek bile bize pek çok değerli silah "
+"sağlar!"
 
 #. [message]: role=wagons_top {OR role=wagons_bot} {FILTER_ADJACENT side=1}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:712
@@ -13279,6 +13456,9 @@ msgid ""
 "I knew I heard the sound of fighting in the fog! You’ll find we’re battle-"
 "hardened veterans from Elensefar, and no easy prey for petty outlaws."
 msgstr ""
+"Siste dövüş sesleri duyduğumu biliyordum! Elensefar’dan savaşta pişmiş "
+"kıdemliler olduğumuzu ve küçük kanun kaçakları için kolay av olmadığımızı "
+"göreceksin."
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:731
@@ -13289,6 +13469,10 @@ msgid ""
 "strength, and our armies far outnumber any petty bandits or rebels. "
 "Whatever’s going on out there, it ends now."
 msgstr ""
+"Yeter! Onları görsek de görmesek de siste pusuda bekleyen yetenekli bir "
+"düşman olduğu açık. Silah başına, askerler! Bu şehir bizim güç yerimiz ve "
+"ordularımız herhangi bir küçük haydut ya da isyancıdan çok daha kalabalık. "
+"Orada ne oluyorsa şimdi bitiyor."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:735
@@ -13297,6 +13481,9 @@ msgid ""
 "presence, and Wesnoth’s armies are mobilizing to surround us. Quick, "
 "everyone, let us make our escape and tally our plunder!"
 msgstr ""
+"Sonunda olacağını bildiğimiz gibi Dan’Tonk varlığımızdan haberdar oldu ve "
+"Vesnot’un orduları bizi kuşatmak için harekete geçiyor. Çabuk, herkes, "
+"kaçalım ve yağmamızı sayalım!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:758
@@ -13305,6 +13492,9 @@ msgid ""
 "and weapons. If we continue waiting here even more may yet arrive, but I "
 "suspect we’ve pushed our luck staying as long as we have already."
 msgstr ""
+"Bu arabaların sonuncusuydu! Bu kadar çok erzak ve silah ele geçirmekle iyi "
+"iş çıkardık. Burada beklemeye devam edersek daha fazlası gelebilir, ama "
+"şimdiye kadar kalarak şansımızı zaten zorladığımızdan şüpheleniyorum."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #. "speak of a lich" is a made-up saying, with the same meaning as "speak of the devil"
@@ -13314,6 +13504,9 @@ msgid ""
 "aware of our presence, and Wesnoth’s armies are mobilizing to surround us. "
 "Quick, everyone, let us make our escape and tally our plunder!"
 msgstr ""
+"İti an çomağı hazırla... Sonunda olacağını bildiğimiz gibi Dan’Tonk "
+"varlığımızdan haberdar oldu ve Vesnot’un orduları bizi kuşatmak için "
+"harekete geçiyor. Çabuk, herkes, kaçalım ve yağmamızı sayalım!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:786
@@ -13321,6 +13514,8 @@ msgid ""
 "I’ve reached the city walls! Alarm! Alarm! We spotted Konrad and his rebels "
 "are lying in wait on the road!"
 msgstr ""
+"Şehir surlarına ulaştım! Alarm! Alarm! Konrad’ı ve isyancılarını yolda "
+"pusuda beklerken gördük!"
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:791
@@ -13329,6 +13524,9 @@ msgid ""
 "place of strength, and I know us to far outnumber Konrad’s forces. We must "
 "bring the false prince to justice!"
 msgstr ""
+"İsyancı ordu, burada mı?! O ahmaklar! Silah başına, askerler! Bu şehir "
+"bizim güç yerimiz ve Konrad’ın kuvvetlerinden çok daha kalabalık olduğumuzu "
+"biliyorum. Sahte prensi adalete teslim etmeliyiz!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:795
@@ -13336,6 +13534,8 @@ msgid ""
 "A caravan has reached Dan’Tonk, and Wesnoth’s armies are mobilizing to "
 "surround us! Quick, everyone, let us make our escape and tally our plunder!"
 msgstr ""
+"Bir kervan Dan’Tonk’a ulaştı ve Vesnot’un orduları bizi kuşatmak için "
+"harekete geçiyor! Çabuk, herkes, kaçalım ve yağmamızı sayalım!"
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:813
@@ -13343,6 +13543,8 @@ msgid ""
 "Look — there! That figure can only be one of Konrad’s rebels, foolishly come "
 "to fight Dan’Tonk itself."
 msgstr ""
+"Bakın — orada! O figür ancak aptalca Dan’Tonk’un kendisiyle savaşmaya "
+"gelmiş Konrad’ın isyancılarından biri olabilir."
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:817
@@ -13351,6 +13553,9 @@ msgid ""
 "outnumber Konrad’s forces. We must capture the false prince and bring him to "
 "justice!"
 msgstr ""
+"Silah başına, askerler! Bu şehir bizim güç yerimiz ve Konrad’ın "
+"kuvvetlerinden çok daha kalabalık olduğumuzu biliyorum. Sahte prensi "
+"yakalayıp adalete teslim etmeliyiz!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:821
@@ -13358,6 +13563,8 @@ msgid ""
 "We’ve come too close to the city walls, and have been spotted! Quick, "
 "everyone, let us make our escape and tally our plunder!"
 msgstr ""
+"Şehir surlarına çok yaklaştık ve fark edildik! Çabuk, herkes, kaçalım ve "
+"yağmamızı sayalım!"
 
 #. [message]: role=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:839
@@ -13365,27 +13572,31 @@ msgid ""
 "What?! What sort of unseen enemy has attacked me without ever approaching "
 "the city walls? I must flee!"
 msgstr ""
+"Ne?! Şehir surlarına hiç yaklaşmadan bana ne tür görünmez bir düşman "
+"saldırdı? Kaçmalıyım!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/18_The_Highwaymen.cfg:846
 msgid "Quick, everyone, let us make our escape and tally our plunder!"
-msgstr ""
+msgstr "Çabuk, herkes, kaçalım ve yağmamızı sayalım!"
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:12
 msgid "scenario name^The Ford of Abez"
-msgstr ""
+msgstr "Abez Geçidi"
 
 #. [side]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:38
 msgid "Clan Stoneskin"
-msgstr ""
+msgstr "Taşderi Klanı"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:127
 msgid ""
 "Have you reconsidered, troll? Let us pass, and bloodshed may yet be averted."
 msgstr ""
+"Fikrini değiştirdin mi, trol? Geçmemize izin ver, kan dökülmesi hâlâ "
+"önlenebilir."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:131
@@ -13394,6 +13605,9 @@ msgid ""
 "cross. Stoneskins fight hard to own ford, kill lotsa other trolls ’n orcs. "
 "Dosh kill you too, no big whoop."
 msgstr ""
+"Üzgünüm, sana zaten söyledim, yumuşak deri. Geçmek istiyorsan ödemen gerek. "
+"Taşderiler geçide sahip olmak için çok savaştı, bir sürü başka trol ve ork "
+"öldürdü. Dosh seni de öldürür, büyük iş değil."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:135
@@ -13402,11 +13616,14 @@ msgid ""
 "You have no more right to own it than do I, or any of the free peoples of "
 "Wesnoth. Prepare for battle!"
 msgstr ""
+"Abez Geçidi senden çok önce buradaydı ve senden çok sonra da burada olacak. "
+"Ona sahip olmaya benden ya da Vesnot’un herhangi bir özgür halkından daha "
+"fazla hakkın yok. Savaşa hazırlan!"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:143
 msgid "Defeat Dosh"
-msgstr ""
+msgstr "Dosh’u yen"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:161
@@ -13416,6 +13633,9 @@ msgid ""
 "his allies, opening the way for Asheviere’s domination. She has much to "
 "answer for."
 msgstr ""
+"Son ihanet burada gerçekleşti. Eldred’in Garard’ı ve müttefiklerini öldürüp "
+"Aşivye’nin hâkimiyetine yol açtığı yer. Hesabını vermesi gereken çok şey "
+"var."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:163
@@ -13423,6 +13643,8 @@ msgid ""
 "Many terrible battles were once fought at this ford, Konrad. May ours prove "
 "itself less deadly."
 msgstr ""
+"Bir zamanlar bu geçitte pek çok korkunç savaş yapıldı, Konrad. Bizimki o "
+"kadar ölümcül olmasın."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:164
@@ -13430,16 +13652,18 @@ msgid ""
 "Delfador told me about the many terrible battles that were fought here. I "
 "hope ours won’t prove itself so deadly."
 msgstr ""
+"Delfador bana burada yapılan pek çok korkunç savaştan söz etti. Umarım "
+"bizimki o kadar ölümcül olmaz."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:187
 msgid "Urgh... Dosh don’ feel so good. Maybe fight was mistake..."
-msgstr ""
+msgstr "Iıh... Dosh kendini pek iyi hissetmiyor. Belki savaş hataydı..."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:196
 msgid "Run away!"
-msgstr ""
+msgstr "Kaçın!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:214
@@ -13447,6 +13671,8 @@ msgid ""
 "The leader of the trolls is defeated, and we have secured safe passage "
 "across the ford! Great work, everyone — onwards into the Northlands!"
 msgstr ""
+"Trollerin lideri yenildi ve geçitten güvenli geçişi sağladık! Harika iş "
+"millet — Kuzey Topraklarına ilerleyin!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:219
@@ -13454,21 +13680,23 @@ msgid ""
 "The leader of the trolls is defeated, and we have secured safe passage "
 "across the ford! Great work, everyone — we can now return to Wesnoth!"
 msgstr ""
+"Trollerin lideri yenildi ve geçitten güvenli geçişi sağladık! Harika iş "
+"millet — artık Vesnot’a dönebiliriz!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:234
 msgid "Ormok"
-msgstr ""
+msgstr "Ormok"
 
 #. [message]: speaker=Ormok
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:242
 msgid "Ha ha ha, what’s this? Someone’s trying to dethrone the Stoneskins!"
-msgstr ""
+msgstr "Ha ha ha, bu da ne? Biri Taşderileri tahttan indirmeye çalışıyor!"
 
 #. [message]: speaker=Ormok
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:246
 msgid "Hope you don’t mind if we take over! C’mon, boys, let’s kill ’em all!"
-msgstr ""
+msgstr "Umarım devralmamıza aldırmazsınız! Hadi çocuklar, hepsini öldürelim!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/20_The_Ford_of_Abez.cfg:250
@@ -13476,11 +13704,13 @@ msgid ""
 "We’ve taken too long to secure the ford! Now more orcs have arrived! Even if "
 "we defeat them all, we’ll suffer greatly from the delay..."
 msgstr ""
+"Geçidi güvenceye almak çok uzun sürdü! Şimdi daha fazla ork geldi! Hepsini "
+"yensek bile gecikme yüzünden çok zarar göreceğiz..."
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:18
 msgid "scenario name^Glamdrol"
-msgstr ""
+msgstr "Glamdrol"
 
 #. [side]
 #. [side]: type={TYPE}, id=leader{SIDE}
@@ -13488,23 +13718,23 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:63
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:47
 msgid "Bloody Sword Clan"
-msgstr ""
+msgstr "Kanlı Kılıç Klanı"
 
 #. [side]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:91
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:107
 msgid "Stoneskin Clan"
-msgstr ""
+msgstr "Taşderi Klanı"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:129
 msgid "Hu-nash"
-msgstr ""
+msgstr "Hu-naş"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:132
 msgid "Vikkak the Old"
-msgstr ""
+msgstr "Yaşlı Vikkak"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:204
@@ -13518,12 +13748,12 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:212
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:213
 msgid "150 gold"
-msgstr ""
+msgstr "150 altın"
 
 #. [message]: speaker=leader2
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:233
 msgid "Get lost, you troll-sniffing degenerates!"
-msgstr ""
+msgstr "Kaybolun, sizi trol koklayan soysuzlar!"
 
 #. [message]: speaker=leader4
 #. "Khazg" refers to Khazg Black-Tusk, the late leader of the Bloody Sword clan, mentioned in Northern Rebirth
@@ -13532,6 +13762,8 @@ msgid ""
 "Khazg-worshipping tuskers! We come to trade and this is how you greet us? "
 "Some hospitality."
 msgstr ""
+"Khazg’a tapan dişliler! Ticaret için geliyoruz ve bizi böyle mi "
+"karşılıyorsunuz? Ne misafirperverlik."
 
 #. [message]: speaker=leader2
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:242
@@ -13539,23 +13771,28 @@ msgid ""
 "Trade? You came here to sneak inside and slaughter us all in our sleep! I’m "
 "not having it. Get lost!"
 msgstr ""
+"Ticaret mi? Buraya gizlice girip uykumuzda hepimizi katletmeye geldiniz! "
+"Buna izin vermem. Kaybolun!"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:246
 msgid "Oh yeah? Well— ...wait, do you see that?"
-msgstr ""
+msgstr "Öyle mi? Peki— ...bir dakika, şunu görüyor musun?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:345
 msgid ""
 "Humans! What’s an army of boot-licking humans doing so close to Glamdrol?"
 msgstr ""
+"İnsanlar! Çizme yalayan bir insan ordusunun Glamdrol’e bu kadar yakın ne "
+"işi var?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:346
 msgid ""
 "Elves! What’s an army of tree-shagging elves doing so close to Glamdrol?"
 msgstr ""
+"Elfler! Ağaç düzen bir elf ordusunun Glamdrol’e bu kadar yakın ne işi var?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:347
@@ -13563,12 +13800,16 @@ msgstr ""
 msgid ""
 "Invaders! What’s an army of boot-licking worms doing so close to Glamdrol?"
 msgstr ""
+"İstilacılar! Çizme yalayan bir solucan ordusunun Glamdrol’e bu kadar yakın "
+"ne işi var?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:348
 msgid ""
 "Dwarves! What’s an army of dirt-grubbing dwarves doing so close to Glamdrol?"
 msgstr ""
+"Cüceler! Toprak eşeleyen bir cüce ordusunun Glamdrol’e bu kadar yakın ne "
+"işi var?"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:353
@@ -13576,28 +13817,30 @@ msgid ""
 "Grr... we can settle things between us later. Right now we work together and "
 "kill the vermin."
 msgstr ""
+"Grr... aramızdaki meseleyi sonra hallederiz. Şimdi birlikte çalışıp "
+"haşereleri öldüreceğiz."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:365
 msgid "Pillage as much gold as you can before turns run out"
-msgstr ""
+msgstr "Eller bitmeden olabildiğince çok altın yağmala"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:373
 msgid ""
 "Fulfill your pledge: end the scenario with at least $bm_s22_gold_cost gold"
-msgstr ""
+msgstr "Sözünü tut: senaryoyu en az $bm_s22_gold_cost altınla bitir"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:382
 msgid "Defeat the orcish shaman to claim the Horn of Glamdrol"
-msgstr ""
+msgstr "Glamdrol Borusu’nu almak için ork şamanını yen"
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:390
 msgid ""
 "Fail your pledge: end the scenario with less than $bm_s22_gold_cost gold"
-msgstr ""
+msgstr "Sözünü tutamamak: senaryoyu $bm_s22_gold_cost altından azıyla bitirmek"
 
 #. [note]
 #. "enemy" includes any enemy side. When one enemy dies, other enemies gain the "regenerates" ability for one turn.
@@ -13607,6 +13850,8 @@ msgid ""
 "Horn of Glamdrol: Whenever you defeat one enemy, other enemies gain "
 "regeneration for one turn"
 msgstr ""
+"Glamdrol Borusu: Bir düşmanı her yendiğinde diğer düşmanlar bir el boyunca "
+"yenilenme kazanır"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:421
@@ -13614,17 +13859,21 @@ msgid ""
 "We’re here for a quick raid, not to try to conquer the fortress outright. "
 "Move swiftly, grab as much gold as we can, and get out!"
 msgstr ""
+"Buraya kaleyi doğrudan fethetmeye değil, hızlı bir baskın için geldik. "
+"Çabuk hareket edin, olabildiğince çok altın kapın ve çıkın!"
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:429
 msgid "Konrad, look! Dem north side orcs be from da Stoneskin clan, like me."
-msgstr ""
+msgstr "Konrad, bak! Şu kuzey taraftaki orklar benim gibi Taşderi klanından."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:433
 msgid ""
 "Dey ain’t so bad. No reason for us to be fighting. Dosh gona go talk to dem."
 msgstr ""
+"O kadar kötü değiller. Savaşmamız için bir neden yok. Dosh gidip onlarla "
+"konuşacak."
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:453
@@ -13632,6 +13881,8 @@ msgid ""
 "Hey, you! I recognize you; you’re the ford troll. What’re you doing working "
 "for some lousy human?"
 msgstr ""
+"Hey, sen! Seni tanıyorum; sen geçit trolüsün. Berbat bir insan için "
+"çalışarak ne yapıyorsun?"
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:457
@@ -13640,6 +13891,9 @@ msgid ""
 "Konrad paid Dosh much money, and now Dosh helps Konrad. You should help "
 "Konrad too."
 msgstr ""
+"Konrad berbat bir insan değil. O büyük bir prens ve harika bir trol dostu! "
+"Konrad Dosh’a çok para ödedi, şimdi Dosh Konrad’a yardım ediyor. Siz de "
+"Konrad’a yardım etmelisiniz."
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:461
@@ -13648,11 +13902,14 @@ msgid ""
 "and then maybe I will. It’s true that these Bloody Swords have owned "
 "Glamdrol for long enough..."
 msgstr ""
+"Hah. Eh, tabii, büyük prensine söyle <i><b>bana</b></i> büyük para ödesin, "
+"belki ben de yardım ederim. Bu Kanlı Kılıçların Glamdrol’e yeterince uzun "
+"süre sahip olduğu doğru..."
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:470
 msgid "Pledge 400 gold: negotiate a truce and learn to recruit Troll Whelps"
-msgstr ""
+msgstr "400 altın söz ver: bir ateşkes müzakere et ve Trol Yavrusu almayı öğren"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:475
@@ -13660,6 +13917,9 @@ msgid ""
 "Want more fighters like that one, do you? Sure, 400 gold is worth at least a "
 "few whelps. But I’m only offering because Dosh says you’re all right."
 msgstr ""
+"Onun gibi daha fazla dövüşçü mü istiyorsun? Tabii, 400 altın en azından "
+"birkaç yavruya değer. Ama yalnızca Dosh senin iyi biri olduğunu söylediği "
+"için teklif ediyorum."
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:479
@@ -13667,11 +13927,13 @@ msgid ""
 "Trolls’re a bit dim, usually even more so than the one you’ve already got, "
 "but you tell ’em who to smash and they’ll smash ’em good."
 msgstr ""
+"Troller biraz kalın kafalıdır, genellikle zaten sahip olduğundan bile daha "
+"fazla, ama onlara kimi ezeceklerini söyle, güzelce ezerler."
 
 #. [command]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:481
 msgid "Konrad can now recruit Troll Whelps!"
-msgstr ""
+msgstr "Konrad artık Trol Yavrusu alabilir!"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:484
@@ -13679,11 +13941,13 @@ msgid ""
 "Have fun sacking the city. When all’s said and done, you pay us out of the "
 "coin you’ve looted — or else."
 msgstr ""
+"Şehri yağmalarken iyi eğlenceler. Her şey bittiğinde bize yağmaladığın "
+"paradan ödeme yaparsın — yoksa."
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:496
 msgid "Pledge 100 gold: negotiate a truce"
-msgstr ""
+msgstr "100 altın söz ver: bir ateşkes müzakere et"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:501
@@ -13692,6 +13956,9 @@ msgid ""
 "fortress, and when all’s said and done you pay us out of the coin you’ve "
 "looted — or else."
 msgstr ""
+"Ateşkes için 100 altın mı? Anlaştık. Sen kaleye baskın yaparken yolundan "
+"çekiliriz, her şey bittiğinde de bize yağmaladığın paradan ödeme yaparsın — "
+"yoksa."
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:517
@@ -13699,6 +13966,8 @@ msgid ""
 "Hah! Some friend you’ve got there, Dosh. Don’t worry, we’ll take all the "
 "gold we want from your treasury once we kill you!"
 msgstr ""
+"Hah! Ne dost bulmuşsun kendine, Dosh. Merak etme, sizi öldürdükten sonra "
+"hazinenizden istediğimiz kadar altın alacağız!"
 
 #. [message]: speaker=leader2
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:530
@@ -13706,11 +13975,14 @@ msgid ""
 "I knew it! Filthy human-lover! You want to ruin us so you can take over "
 "Glamdrol!"
 msgstr ""
+"Biliyordum! Pis insan sever! Glamdrol’ü ele geçirmek için bizi mahvetmek "
+"istiyorsunuz!"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:534
 msgid "What can I say? I came to trade, and the human boy offered a good one!"
 msgstr ""
+"Ne diyebilirim? Ticaret için geldim ve insan oğlan iyi bir teklif yaptı!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:583
@@ -13720,6 +13992,10 @@ msgid ""
 "gather gold in preparation for our next battle. Clearing the fortress won’t "
 "do us much good if we leave poorer than we arrived!"
 msgstr ""
+"Çok fazla ek birim almamaya dikkat etmeliyim. Kalelerini fethetmek için "
+"orkların altınını kullanmak cazip olsa da sonuçta burada bir sonraki "
+"savaşımıza hazırlık için altın toplamaya geldik. Geldiğimizden daha fakir "
+"ayrılırsak kaleyi temizlemek bize pek fayda etmez!"
 
 #. [companion_message]
 #. TRoW's Jessene says that when orcs game to the Green Isle, the lich-lords "built a great stone gate to the heart of the homeland of the orcs in the distant west"
@@ -13736,6 +14012,9 @@ msgid ""
 "A foul odor. A blight upon the wind. Konrad, this is a gateway created by "
 "the lich-lords of ages past, during their genocidal hunt for the Ruby."
 msgstr ""
+"İğrenç bir koku. Rüzgârda bir zehir. Konrad, bu geçmiş çağların umacı "
+"lordlarının Yakut için yaptıkları soykırımcı av sırasında yarattıkları bir "
+"geçit."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:616
@@ -13745,6 +14024,9 @@ msgid ""
 "gateway created by the lich-lords of ages past, during their genocidal hunt "
 "for the Ruby."
 msgstr ""
+"Büyük bir ork kapısı! Birini bizzat görmek... ürpertici. Konrad, bu geçmiş "
+"çağların umacı lordlarının Yakut için yaptıkları soykırımcı av sırasında "
+"yarattıkları bir geçit."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:618
@@ -13752,6 +14034,8 @@ msgid ""
 "There must have been magic in this chasm once, but it’s still and dead now. "
 "Whatever power once created it has been long since vanished."
 msgstr ""
+"Bu uçurumda bir zamanlar büyü olmalıydı, ama şimdi durgun ve ölü. Onu bir "
+"zamanlar yaratan güç her neyse çoktan yok olmuş."
 
 #. [companion_message]
 #. TRoW's Jessene says that when orcs game to the Green Isle, the lich-lords "built a great stone gate to the heart of the homeland of the orcs in the distant west"
@@ -13764,6 +14048,10 @@ msgid ""
 "five hundred years ago. And when orc pursued man here to the Great "
 "Continent, they came in such numbers as to nearly ruin my own people as well."
 msgstr ""
+"İnsanın orkla ilk kez beş yüz yıl önce böyle bir kapıdan geçerek "
+"karşılaştığını söylerler. Ve ork insanı buraya, Büyük Kıta’ya kadar "
+"kovaladığında öyle kalabalık geldiler ki benim halkımı da neredeyse "
+"mahvettiler."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:629
@@ -13772,6 +14060,9 @@ msgid ""
 "foul powers that created it, when they were slain by the human-kings of old. "
 "May it never again awaken."
 msgstr ""
+"Ama bu eski tarih. Bu kapı çok uzun zaman önce öldü; onu yaratan iğrenç "
+"güçlerle birlikte, eski insan krallarınca öldürüldüklerinde öldü. Bir daha "
+"asla uyanmasın."
 
 #. [companion_message]
 #. TRoW's Jessene says that when orcs game to the Green Isle, the lich-lords "built a great stone gate to the heart of the homeland of the orcs in the distant west"
@@ -13784,6 +14075,9 @@ msgid ""
 "met orc, over five hundred years ago. Lo! Darkness drove us from our homes, "
 "and lo! Our proud people became a band of refugees."
 msgstr ""
+"Yaşlılar insanın orkla ilk kez beş yüz yıl önce böyle bir kapıdan geçerek "
+"karşılaştığını kaydeder. İşte! Karanlık bizi evlerimizden sürdü ve işte! "
+"Gururlu halkımız bir mülteci kafilesine dönüştü."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:637
@@ -13793,6 +14087,10 @@ msgid ""
 "itself rains down from the heavens as sulfur and fire and all the darkness "
 "is cleansed from this world."
 msgstr ""
+"Ama Işık bizi kurtardı, çünkü bugün bütün ve güçlü duruyoruz. Bu geçit çok "
+"uzun zaman önce öldü. Günlerin sonuna kadar, güneşin kendisi göklerden "
+"kükürt ve ateş olarak yağıp bütün karanlık bu dünyadan temizlenene kadar "
+"öyle kalsın."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:639
@@ -13803,6 +14101,9 @@ msgid ""
 "very long time ago, and the gates have long-since gone quiet — hopefully for "
 "good."
 msgstr ""
+"Tarihimi doğru hatırlıyorsam umacı lordların orkları Yeşil Ada’yı ilk kez "
+"böyle bir kapıdan geçerek istila etti. Neyse ki bu çok uzun zaman önceydi "
+"ve kapılar çoktan sessizleşti — umarım sonsuza dek."
 
 #. [companion_message]
 #. TRoW's Jessene says that when orcs game to the Green Isle, the lich-lords "built a great stone gate to the heart of the homeland of the orcs in the distant west"
@@ -13815,11 +14116,15 @@ msgid ""
 "here from far away and fight you softskins. But dey didn’t build it, and now "
 "dey don’t know how to turn it back on again. Maybe nobody ever will."
 msgstr ""
+"Bu büyük ork kapısı, Konrad. Bir zamanlar, çok önce, birçoğu buraya "
+"uzaklardan gelip siz yumuşak derilerle savaşmak için onu kullandı. Ama onu "
+"onlar yapmadı, şimdi de nasıl yeniden açacaklarını bilmiyorlar. Belki kimse "
+"asla bilmeyecek."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:660
 msgid "One of our horde is dead! Blow the horn, shaman."
-msgstr ""
+msgstr "Ordamızdan biri öldü! Boruyu çal, şaman."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:697
@@ -13828,6 +14133,8 @@ msgid ""
 "Urgh, my head! What kind of instrument could make such a sound? There’s "
 "magic in that horn, Konrad, mark my words."
 msgstr ""
+"Iıh, başım! Ne tür bir çalgı böyle bir ses çıkarabilir? O boruda büyü var, "
+"Konrad, sözlerimi unutma."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:699
@@ -13835,6 +14142,8 @@ msgid ""
 "Urgh... that sound hurts my head somethin’ fierce. I’ve heard a lot o’ orc-"
 "horns before, Konrad, an’ this one ain’t normal."
 msgstr ""
+"Iıh... o ses başımı deli gibi ağrıtıyor. Daha önce bir sürü ork borusu "
+"duydum, Konrad, bu normal değil."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:700
@@ -13842,6 +14151,8 @@ msgid ""
 "The air rings with power and might! Hark! I recognize orcish magic when I "
 "hear it, Konrad."
 msgstr ""
+"Hava güç ve kudretle çınlıyor! Dinle! Ork büyüsünü duyduğumda tanırım, "
+"Konrad."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:701
@@ -13849,6 +14160,8 @@ msgid ""
 "Gah! Now thar’s a sound to split an eardrum! Ah’ve heard plenty o’ scumbreed "
 "half-dog warhorns before, Konrad, but this one ain’t normal."
 msgstr ""
+"Ah! İşte kulak zarı patlatan bir ses! Daha önce pek çok alçak soylu yarı "
+"köpek savaş borusu duydum, Konrad, ama bu normal değil."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:702
@@ -13856,6 +14169,8 @@ msgid ""
 "Ow! Ow, ow, that hurts my ears, and sets my bones all a-shaking! That can’t "
 "be a mundane, every-day warhorn, can it?"
 msgstr ""
+"Ay! Ay, ay, bu kulaklarımı acıtıyor ve kemiklerimi titretiyor! Bu sıradan, "
+"her günkü bir savaş borusu olamaz, değil mi?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:703
@@ -13863,6 +14178,8 @@ msgid ""
 "Dat’s a bad sound for us, Konrad. Dosh been hearin’ dis horn before — it’s "
 "not no normal warhorn. It’s got some kind of orc-magic."
 msgstr ""
+"Bu bizim için kötü bir ses, Konrad. Dosh bu boruyu daha önce duydu — normal "
+"bir savaş borusu değil. İçinde bir çeşit ork büyüsü var."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:704
@@ -13871,6 +14188,8 @@ msgid ""
 "From the fortress rings a piercing sound of sacrifice, death, and rebirth! "
 "There is orcish magic at work here, Konrad."
 msgstr ""
+"Kaleden fedakârlık, ölüm ve yeniden doğuşun keskin bir sesi çınlıyor! "
+"Burada ork büyüsü iş başında, Konrad."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:706
@@ -13878,6 +14197,8 @@ msgid ""
 "From the fortress rings a piercing sound of sacrifice, death, and rebirth! "
 "There is orcish magic at work here."
 msgstr ""
+"Kaleden fedakârlık, ölüm ve yeniden doğuşun keskin bir sesi çınlıyor! "
+"Burada ork büyüsü iş başında."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:711
@@ -13885,6 +14206,8 @@ msgid ""
 "Tremble before the Horn of Glamdrol, worms! Whenever one of us falls, the "
 "rest shall be healed anew!"
 msgstr ""
+"Glamdrol Borusu’nun önünde titreyin, solucanlar! Birimiz her düştüğünde "
+"geri kalanımız yeniden iyileşecek!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:727
@@ -13893,6 +14216,8 @@ msgid ""
 "will take it and examine it when I have time — for now we must continue to "
 "fight."
 msgstr ""
+"Bu da ne? O ork büyülü işaretleri olan tuhaf bir boru taşıyormuş. Onu alıp "
+"vaktim olduğunda inceleyeceğim — şimdilik savaşmaya devam etmeliyiz."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:732
@@ -13900,6 +14225,8 @@ msgid ""
 "The shaman is dead, and we’ve claimed her magical horn for ourselves! There "
 "will be time to examine it later — for now we must continue to fight."
 msgstr ""
+"Şaman öldü ve büyülü borusunu kendimize aldık! Onu incelemek için sonra "
+"vakit olacak — şimdilik savaşmaya devam etmeliyiz."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:751
@@ -13907,16 +14234,18 @@ msgid ""
 "What are we doing fighting up here? The orcs’ gold is in their city, not "
 "here among these trolls!"
 msgstr ""
+"Burada yukarıda savaşarak ne yapıyoruz? Orkların altını şehirlerinde, "
+"burada bu trollerin arasında değil!"
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:769
 msgid "The chiefs are dead! Run for the hills!"
-msgstr ""
+msgstr "Reisler öldü! Tepelere kaçın!"
 
 #. [message]: speaker=leader2
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:783
 msgid "I spit my last breath at you!"
-msgstr ""
+msgstr "Son nefesimi sana tükürüyorum!"
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:792
@@ -13925,6 +14254,8 @@ msgid ""
 "bringing his warriors back from their raid! You’d better not be here when he "
 "gets back!"
 msgstr ""
+"Gidelim buradan! Pis istilacılar, baş reisi bulup savaşçılarını "
+"baskınlarından geri getireceğim! Döndüğünde burada olmasanız iyi olur!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:805
@@ -13932,6 +14263,8 @@ msgid ""
 "We have defeated all of the orcs! An incredible challenge — well done, "
 "everyone. Time to take our leave of this place, and to tally our plunder!"
 msgstr ""
+"Bütün orkları yendik! İnanılmaz bir sınav — aferin herkese. Buradan ayrılma "
+"ve yağmamızı sayma zamanı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:822
@@ -13939,6 +14272,8 @@ msgid ""
 "We can afford to fight here only a little longer! This is orcish territory, "
 "and every minute here only further risks our enemies being reinforced."
 msgstr ""
+"Burada ancak biraz daha savaşabiliriz! Burası ork toprağı ve burada geçen "
+"her dakika düşmanlarımızın takviye alması riskini artırıyor."
 
 #. [message]: speaker=$speaker_id
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:837
@@ -13946,6 +14281,8 @@ msgid ""
 "That’s it! You pinkskins are proving way too much of a nuisance. I’m finding "
 "the high chief and bringing his warriors back from their raid!"
 msgstr ""
+"Bu kadar! Siz pembe deriler fazlasıyla baş belası çıktınız. Baş reisi bulup "
+"savaşçılarını baskınlarından geri getireceğim!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:844
@@ -13953,11 +14290,13 @@ msgid ""
 "That sounds like our cue to leave. We can’t risk being pinned down and "
 "eradicated. Quick, everyone, let us make our escape and tally our plunder!"
 msgstr ""
+"Bu bizim gitme işaretimiz gibi geliyor. Sıkıştırılıp yok edilme riskine "
+"giremeyiz. Çabuk, herkes, kaçalım ve yağmamızı sayalım!"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:862
 msgid "Hey, what about my gold? You made a pledge!"
-msgstr ""
+msgstr "Hey, altınım ne olacak? Söz verdin!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:866
@@ -13965,6 +14304,8 @@ msgid ""
 "I’m sorry, but we didn’t pillage enough from Glamdrol to cover all "
 "$bm_s22_gold_cost gold. Can I pay you later?"
 msgstr ""
+"Üzgünüm, ama Glamdrol’den $bm_s22_gold_cost altının hepsini karşılayacak "
+"kadar yağmalayamadık. Sonra ödeyebilir miyim?"
 
 #. [message]: speaker=leader4
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:870
@@ -13972,11 +14313,13 @@ msgid ""
 "Oh, that’s no problem — we’ll just take what we’re owed off your corpse. "
 "Attack! Don’t let them escape!"
 msgstr ""
+"Ah, hiç sorun değil — alacağımızı cesedinden alırız. Saldırın! Kaçmalarına "
+"izin vermeyin!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:105
 msgid "Infirm Yeti"
-msgstr ""
+msgstr "Hasta Yeti"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:159
@@ -13984,6 +14327,8 @@ msgid ""
 "Brrr... it may not be winter, but with the storm swirling about overhead it "
 "certainly feels like it. This place is freezing!"
 msgstr ""
+"Brrr... kış olmayabilir, ama tepede dönen fırtınayla kesinlikle öyle "
+"hissettiriyor. Burası buz gibi!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:164
@@ -13991,11 +14336,12 @@ msgid ""
 "Hello! Are you all right? What’re you doing out here in the cold? ...she’s "
 "still not paying attention."
 msgstr ""
+"Merhaba! İyi misin? Bu soğukta burada ne yapıyorsun? ...hâlâ dikkat etmiyor."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:176
 msgid "Err, hello? HELLO!"
-msgstr ""
+msgstr "Şey, merhaba? MERHABA!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:184
@@ -14003,6 +14349,8 @@ msgid ""
 "Aaah! Don’t sneak up on a woman like that; the jump you gave me nearly "
 "ruined three days’ work!"
 msgstr ""
+"Aaah! Bir kadına öyle sinsice yaklaşma; beni öyle zıplattın ki üç günlük "
+"emeğim neredeyse mahvoluyordu!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:188
@@ -14010,6 +14358,8 @@ msgid ""
 "I’m sorry, I just wanted to see if everything is all right. What’re you "
 "doing alone and unarmed all the way up here in these snows?"
 msgstr ""
+"Özür dilerim, sadece her şeyin yolunda olup olmadığını görmek istedim. Ta "
+"buralarda bu karların arasında yalnız ve silahsız ne yapıyorsun?"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:192
@@ -14017,6 +14367,8 @@ msgid ""
 "Ah, I’m glad you asked! You see, I’m an — err, how should I say it — "
 "alchemist, yes, yes, alchemist is right. A researcher!"
 msgstr ""
+"Ah, sorduğuna sevindim! Görüyorsun, ben bir — şey, nasıl desem — "
+"simyacıyım, evet, evet, simyacı doğru. Bir araştırmacı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:196
@@ -14024,6 +14376,8 @@ msgid ""
 "You’re a mage? That explains why you’re not carrying any weapons. Are you "
 "conducting some sort of magical experiment?"
 msgstr ""
+"Büyücü müsün? Bu neden silah taşımadığını açıklıyor. Bir tür büyü deneyi mi "
+"yapıyorsun?"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:200
@@ -14033,6 +14387,10 @@ msgid ""
 "here in the mountains. I’m certain my theories are correct, I just need the "
 "ingredients to prove it!"
 msgstr ""
+"Hayır, hayır! Ben o havasız, gözleri mahmur akademisyenlerden değilim; büyü "
+"yapmam, kimya yaparım! Burada, dağlarda her türden değerli simya ayıracı "
+"var. Kuramlarımın doğru olduğundan eminim, sadece kanıtlamak için "
+"malzemelere ihtiyacım var!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:204
@@ -14042,6 +14400,9 @@ msgid ""
 "cooperative than for which I was prepared... Right! But now you’re here to "
 "help!"
 msgstr ""
+"Görüyorsun, otların çoğunu toplamakta hiç zorlanmadım. Şey, ama, yerel "
+"hayvanlar — tahmin edebileceğin gibi hayvanlar hazırlıklı olduğumdan biraz "
+"daha az işbirlikçi çıktı... Evet! Ama şimdi sen yardım etmek için buradasın!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:208
@@ -14049,6 +14410,8 @@ msgid ""
 "Here, take this leather pouch for the tongue... and yes, this glass jar for "
 "the bile— No! Not that one, this one—"
 msgstr ""
+"Al, dil için bu deri keseyi... ve evet, safra için bu cam kavanozu— Hayır! "
+"O değil, bu—"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:216
@@ -14056,6 +14419,8 @@ msgid ""
 "What is all this stuff? You... want me to gather some alchemy components for "
 "you, is that right?"
 msgstr ""
+"Bütün bunlar ne? Senin için biraz simya malzemesi toplamamı istiyorsun, "
+"değil mi?"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:218
@@ -14065,6 +14430,10 @@ msgid ""
 "trouble, but I’m not sure my army and I can spare the time to stop and help "
 "you collect ingredients."
 msgstr ""
+"Ben Konrad, Vesnot tahtının varisi ve karanlık kraliçe Aşivye’yi tahttan "
+"indirme görevindeyim. Başın dertteyse sana yiyecek ya da altın bırakmaktan "
+"mutluluk duyarım, ama ordumun ve benim durup malzeme toplamana yardım "
+"edecek vaktimiz olduğundan emin değilim."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:222
@@ -14074,6 +14443,10 @@ msgid ""
 "and come with you on your quest. A great chance to field-test my concoctions "
 "against that queen of yours."
 msgstr ""
+"Evet, malzemeler, tam olarak! Ve bana yardım etmek için vakit ayırırsan çok "
+"minnettar olurum. Ve... ve! Bana yardım edersen ben de karşılığında sana "
+"yardım eder ve görevinde seninle gelirim. Karışımlarımı o kraliçene karşı "
+"sahada denemek için harika bir fırsat."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:226
@@ -14082,6 +14455,9 @@ msgid ""
 "bile. Giant Spider venom — that one’s a doozy. And, err, believe it or not, "
 "Yeti tongue. If Yetis exist."
 msgstr ""
+"Deneylerimi tamamlamak için sadece üç malzemeye daha ihtiyacım var. Buz "
+"Monaksı safrası. Dev Örümcek zehri — o tam bir bela. Ve, şey, ister inan "
+"ister inanma, Yeti dili. Yetiler varsa tabii."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:230
@@ -14089,6 +14465,8 @@ msgid ""
 "... and if we can collect all three of these, you’ll come with us to help us "
 "fight against Asheviere? I suppose that sounds like a fair trade."
 msgstr ""
+"... ve bu üçünü toplayabilirsek Aşivye’ye karşı savaşmamıza yardım etmek "
+"için bizimle geleceksin? Sanırım bu adil bir takas gibi."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:234
@@ -14098,37 +14476,41 @@ msgid ""
 "variety of alchemical concoctions. For now, the keep is yours — I’ve noticed "
 "a very interesting species of beetle over here..."
 msgstr ""
+"Kesinlikle! Şu an pek işe yaramayabilirim, ama malzemelerimi bana "
+"getirdiğinizde çeşitli simya karışımları kullanarak savaşmanıza yardım "
+"edebileceğim. Şimdilik burç senin — burada çok ilginç bir böcek türü fark "
+"ettim..."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:249
 msgid "Gather as many ingredients as you can before turns run out:"
-msgstr ""
+msgstr "Eller bitmeden olabildiğince çok malzeme topla:"
 
 #. [objective]: condition=win
 #. [objective]: condition=win, description=<span strikethrough='true'>
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:254
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:261
 msgid "Defeat a Great Icemonax"
-msgstr ""
+msgstr "Bir Büyük Buz Monaksı yen"
 
 #. [objective]: condition=win
 #. [objective]: condition=win, description=<span strikethrough='true'>
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:269
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:276
 msgid "Defeat a Giant Spider"
-msgstr ""
+msgstr "Bir Dev Örümcek yen"
 
 #. [objective]: condition=win
 #. [objective]: condition=win, description=<span strikethrough='true'>
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:284
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:291
 msgid "Defeat a Yeti"
-msgstr ""
+msgstr "Bir Yeti yen"
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:299
 msgid "Death of Jeniver"
-msgstr ""
+msgstr "Jeniver’in ölümü"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:307
@@ -14136,6 +14518,8 @@ msgid ""
 "Springtime Storm: at the end of every third turn (1, 4, 7, etc), Konrad’s "
 "forces will become slowed."
 msgstr ""
+"Bahar Fırtınası: her üçüncü elin sonunda (1, 4, 7 vb.) Konrad’ın kuvvetleri "
+"yavaşlatılmış olur."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:313
@@ -14143,6 +14527,8 @@ msgid ""
 "Summer Storm: at the end of every fourth turn (1, 5, 9, etc), Konrad’s "
 "forces will become slowed."
 msgstr ""
+"Yaz Fırtınası: her dördüncü elin sonunda (1, 5, 9 vb.) Konrad’ın kuvvetleri "
+"yavaşlatılmış olur."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:319
@@ -14150,6 +14536,8 @@ msgid ""
 "Autumn Storm: at the end of every third turn (1, 4, 7, etc), Konrad’s forces "
 "will become slowed."
 msgstr ""
+"Güz Fırtınası: her üçüncü elin sonunda (1, 4, 7 vb.) Konrad’ın kuvvetleri "
+"yavaşlatılmış olur."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:325
@@ -14157,6 +14545,8 @@ msgid ""
 "Winter Storm: at the end of every second turn (1, 3, 5, etc), Konrad’s "
 "forces will become slowed."
 msgstr ""
+"Kış Fırtınası: her ikinci elin sonunda (1, 3, 5 vb.) Konrad’ın kuvvetleri "
+"yavaşlatılmış olur."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:353
@@ -14164,6 +14554,8 @@ msgid ""
 "Brr! This snowstorm is paralyzing me with cold! It’s springtime; surely the "
 "weather should be warmer than this?"
 msgstr ""
+"Brr! Bu kar fırtınası beni soğuktan felç ediyor! İlkbahar; havanın bundan "
+"daha sıcak olması gerekmez mi?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:354
@@ -14171,6 +14563,8 @@ msgid ""
 "Brr! This snowstorm is paralyzing me with cold! At least it’s summertime; "
 "the weather would surely be far worse in winter."
 msgstr ""
+"Brr! Bu kar fırtınası beni soğuktan felç ediyor! En azından yaz; kışın hava "
+"kesinlikle çok daha kötü olurdu."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:355
@@ -14178,6 +14572,8 @@ msgid ""
 "Brr! This snowstorm is paralyzing me with cold! It’s only autumn; surely the "
 "weather should be warmer than this?"
 msgstr ""
+"Brr! Bu kar fırtınası beni soğuktan felç ediyor! Daha sonbahar; havanın "
+"bundan daha sıcak olması gerekmez mi?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:356
@@ -14185,6 +14581,8 @@ msgid ""
 "Brr! This snowstorm is paralyzing me with cold! The weather here must be "
 "especially bad in the winter months, like now."
 msgstr ""
+"Brr! Bu kar fırtınası beni soğuktan felç ediyor! Buradaki hava şimdiki gibi "
+"kış aylarında özellikle kötü olmalı."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:364
@@ -14194,6 +14592,10 @@ msgid ""
 "quite often, trying to keep warm while trudging through the deepening "
 "snowbanks. The local fauna are, of course, quite impervious to the cold."
 msgstr ""
+"Hmm? Ah, şey, soğuktan bahsetmeyi unuttum mu? Ne aptalım — burada, şey, "
+"evet burada neredeyse her zaman bir fırtına eser; derinleşen kar "
+"yığınlarının arasında ilerlerken ısınmaya çalışmaktan sık sık "
+"yavaşlayacaksınız. Yerel hayvanlar elbette soğuktan hiç etkilenmez."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:367
@@ -14204,6 +14606,10 @@ msgid ""
 "Jeniver’s ingredients before we run out of time and the cold drives us away. "
 "The northeastern mountains look especially hard to reach."
 msgstr ""
+"Brrr... bu Alduin’in ılık kıyılarından çok farklı. Çok hızlı savaşçılarımız "
+"yoksa vaktimiz bitip soğuk bizi kovmadan Jeniver’in bütün malzemelerini "
+"toplamak istiyorsak ayrılmak zorunda kalabiliriz. Kuzeydoğu dağlarına "
+"ulaşmak özellikle zor görünüyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:369
@@ -14214,6 +14620,10 @@ msgid ""
 "of Jeniver’s ingredients before we run out of time and the cold drives us "
 "away. The northeastern mountains look especially hard to reach."
 msgstr ""
+"Bu tipide sonsuza dek savaşamayız, Konrad. Çok hızlı savaşçılarımız yoksa "
+"vaktimiz bitip soğuk bizi kovmadan Jeniver’in bütün malzemelerini toplamak "
+"istiyorsak ayrılmak zorunda kalabiliriz. Kuzeydoğu dağlarına ulaşmak "
+"özellikle zor görünüyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:371
@@ -14223,6 +14633,10 @@ msgid ""
 "ingredients afore we run out o’ time and the cold drives us away. Them "
 "northeastern mountains look ’specially hard t’ reach!"
 msgstr ""
+"Bu tipide sonsuza dek savaşamayız, Konrad. Çok hızlı savaşçılarımız yoksa "
+"vaktimiz bitip soğuk bizi kovmadan Jeniver’in bütün malzemelerini toplamak "
+"için ayrılmak isteyebiliriz. Şu kuzeydoğu dağlarına ulaşmak özellikle zor "
+"görünüyor!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:372
@@ -14232,6 +14646,10 @@ msgid ""
 "collect all of Jeniver’s ingredients before our time runs short and the cold "
 "drives us away. The northeastern mountains loom especially distant!"
 msgstr ""
+"Işık bizi ısıtıyor, ama bu soğuk tipi bedelini alıyor, Konrad. Çok hızlı "
+"savaşçılarımız yoksa vaktimiz azalıp soğuk bizi kovmadan Jeniver’in bütün "
+"malzemelerini toplamayı umuyorsak ayrılmak zorunda kalabiliriz. Kuzeydoğu "
+"dağları özellikle uzakta beliriyor!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:373
@@ -14241,6 +14659,10 @@ msgid ""
 "o’ Jeniver’s ingredients afore we run out o’ time and the cold drives us "
 "away. Them northeastern mountains look ’specially hard t’ reach!"
 msgstr ""
+"Böyle bir tipide sonsuza dek savaşmaya hazır değiliz, Konrad. Çok hızlı "
+"savaşçıların yoksa vaktimiz bitip soğuk bizi kovmadan Jeniver’in bütün "
+"malzemelerini toplamak için ayrılmak zorunda kalabiliriz. Şu kuzeydoğu "
+"dağlarına ulaşmak özellikle zor görünüyor!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:374
@@ -14250,6 +14672,10 @@ msgid ""
 "we get too cold and den have to leave. Northeast mountains look ’specially "
 "hard to be gettin’ to."
 msgstr ""
+"Fırtına çok soğuk, Konrad. Hızlı dövüşçülerin yoksa Dosh bizi ayırmazsan "
+"bütün malzemeleri almaya vaktimiz olmadığını düşünüyor. Yoksa çok üşürüz, "
+"sonra da gitmek zorunda kalırız. Kuzeydoğu dağlarına gitmek özellikle zor "
+"görünüyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:375
@@ -14259,6 +14685,9 @@ msgid ""
 "ingredients before we run out of time and the cold drives us away. The "
 "northeastern mountains look especially hard to reach!"
 msgstr ""
+"Bu tipide sonsuza dek savaşamayız. Çok hızlı savaşçılarımız yoksa vaktimiz "
+"bitip soğuk bizi kovmadan bütün malzemelerini toplamak istiyorsak ayrılmak "
+"zorunda kalabiliriz. Kuzeydoğu dağlarına ulaşmak özellikle zor görünüyor!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:379
@@ -14267,6 +14696,9 @@ msgid ""
 "coming with you even if you don’t get them all— yes, I think I’ll join you "
 "no matter what. You seem the nice sort, very chivalrous and all that."
 msgstr ""
+"Doğru, doğru, ama, şey, bilirsin, hepsini almasanız bile sizinle gelmenin "
+"pek bir zararı olmaz sanırım— evet, ne olursa olsun size katılacağımı "
+"düşünüyorum. İyi birine benziyorsun, çok kibar falan."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:383
@@ -14275,6 +14707,9 @@ msgid ""
 "you can gather at least some ingredients so that I can get my — you know — "
 "alchemical concoctions prepared. The more the better!"
 msgstr ""
+"Ama— şey, elbette, en azından birkaç malzeme toplayamazsanız — bilirsin — "
+"simya karışımlarımı hazırlayamam, o zaman da pek işinize yaramam sanırım. "
+"Ne kadar çok o kadar iyi!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:422
@@ -14282,6 +14717,8 @@ msgid ""
 "These are the Knalgan caves we exited from. No point going back, at least "
 "not until we’ve finished helping Jeniver collect her ingredients."
 msgstr ""
+"Bunlar çıktığımız Knalga mağaraları. Geri dönmenin anlamı yok, en azından "
+"Jeniver’in malzemelerini toplamasına yardım etmeyi bitirene kadar."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:427
@@ -14290,6 +14727,9 @@ msgid ""
 "may decide to go that way later, but for now we should help Jeniver collect "
 "her ingredients."
 msgstr ""
+"Bu mağara Knalga’nın büyük yeraltı imparatorluğunun bir girişi olmalı! "
+"Sonra o yoldan gitmeye karar verebiliriz, ama şimdilik Jeniver’in "
+"malzemelerini toplamasına yardım etmeliyiz."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:446
@@ -14297,6 +14737,8 @@ msgid ""
 "I’ve defeated one of the young Icemonax, Jeniver! How do I get the bile you "
 "wanted?"
 msgstr ""
+"Genç Buz Monakslarından birini yendim, Jeniver! İstediğin safrayı nasıl "
+"alacağım?"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:450
@@ -14305,11 +14747,14 @@ msgid ""
 "liver chemistry for producing bile. You’ll have to down one of the bigger "
 "ones before I can collect what I need."
 msgstr ""
+"Ah, şey, söylemeyi unuttum: safra üretmek için gereken karaciğer kimyası "
+"yalnızca Büyük Buz Monakslarında var. İhtiyacım olanı toplayabilmem için "
+"büyüklerden birini indirmen gerekecek."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:464
 msgid "Oh, the Icemonax is dead! Yes, yes... allow me to extract the bile..."
-msgstr ""
+msgstr "Ah, Buz Monaksı öldü! Evet, evet... safrayı çıkarmama izin ver..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:469
@@ -14317,6 +14762,8 @@ msgid ""
 "... there! Now add essence of wandweed... bone of the tyrant... a lit torch—"
 "<i><b>stand back!</b></i>"
 msgstr ""
+"... işte! Şimdi asa otu özü ekle... zorbanın kemiği... yanan bir "
+"meşale—<i><b>geri çekilin!</b></i>"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:480
@@ -14324,6 +14771,8 @@ msgid ""
 "Smoke! Yes, earth turned to air... most useful for befuddling and bewitching "
 "the unprepared, and a validation of my theory of elemental humors!"
 msgstr ""
+"Duman! Evet, havaya dönüşen toprak... hazırlıksızları şaşırtmak ve "
+"büyülemek için çok yararlı, hem de elemental sıvılar kuramımın kanıtı!"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:486
@@ -14334,12 +14783,12 @@ msgstr "Yeni Saldırı"
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:487
 msgid "Jeniver has gained a powerful <i>flashpowder</i> attack!"
-msgstr ""
+msgstr "Jeniver güçlü bir <i>şimşek tozu</i> saldırısı kazandı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:506
 msgid "Look out! That giant spider is furious, and it’s coming right at us!"
-msgstr ""
+msgstr "Dikkat! O dev örümcek çok öfkeli ve doğruca üzerimize geliyor!"
 
 #. [message]: speaker=Jeniver
 #. Jeniver is incorrect; the spider will mind. This message plays when spiders and Konrad's forces are about to engage in battle.
@@ -14349,6 +14798,9 @@ msgid ""
 "to get what I need, all you need to do is lever apart the front incisors and "
 "gently massage the venom sacks. I’m sure the spider won’t mind."
 msgstr ""
+"Aman canım, eminim sadece arkadaş olmak istiyor. Şiddete gerek yok; "
+"ihtiyacım olanı almak için tek yapman gereken ön kesici dişleri kaldıraçla "
+"ayırıp zehir keselerine nazikçe masaj yapmak. Eminim örümcek aldırmaz."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:522
@@ -14356,16 +14808,18 @@ msgid ""
 "You have the spider venom! Fantastic! I shall just add a distillation of "
 "euphoria... a dash of elf-hair, a few other bits and bobs..."
 msgstr ""
+"Örümcek zehri sende! Harika! Şimdi sadece bir esenlik damıtması "
+"ekleyeceğim... bir tutam elf saçı, birkaç ufak tefek şey daha..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:527
 msgid "And... and! And my elixir of immortality is ready!"
-msgstr ""
+msgstr "Ve... ve! Ve ölümsüzlük iksirim hazır!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:542
 msgid "Blarghh!!!"
-msgstr ""
+msgstr "Öğğğhh!!!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:549
@@ -14374,11 +14828,14 @@ msgid ""
 "venoms. Ah, well— well, setbacks are inevitable! At least the toxin, "
 "properly prepared, may make for a useful weapon."
 msgstr ""
+"Iıh... eh, zehirlerin ömrü uzatan özellikleri üzerine incelemem de buraya "
+"kadarmış. Ah, şey— şey, aksilikler kaçınılmaz! En azından toksin, düzgün "
+"hazırlanırsa işe yarar bir silah olabilir."
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:556
 msgid "Jeniver has gained a poisoned <i>blowgun</i> attack!"
-msgstr ""
+msgstr "Jeniver zehirli bir <i>üfleme borusu</i> saldırısı kazandı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:575
@@ -14386,11 +14843,13 @@ msgid ""
 "They truly are real! This Yeti would be a majestic sight, if not for how "
 "determined it is to beat our heads in with its bare fists!"
 msgstr ""
+"Gerçekten varlarmış! Çıplak yumruklarıyla kafalarımızı ezmeye bu kadar "
+"kararlı olmasa bu Yeti görkemli bir manzara olurdu!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:586
 msgid "Fantastic, the Yeti is defeated! Let me take a look at that tongue..."
-msgstr ""
+msgstr "Harika, Yeti yenildi! O dile bir bakayım..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:591
@@ -14398,6 +14857,8 @@ msgid ""
 "Yes, yes, now one dash of mugwort... essence of skyworm, heated under a cold "
 "flame... and... and— And golden transmutation is achieved!"
 msgstr ""
+"Evet, evet, şimdi bir tutam pelin otu... gök solucanı özü, soğuk bir alevde "
+"ısıtılmış... ve... ve— Ve altın dönüşümü gerçekleşti!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:597
@@ -14405,6 +14866,8 @@ msgid ""
 "Golden transmutation? You mean you can transmute other substances into gold? "
 "That’s an incredible accomplishment!"
 msgstr ""
+"Altın dönüşümü mü? Yani başka maddeleri altına dönüştürebilir misin? Bu "
+"inanılmaz bir başarı!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:601
@@ -14414,16 +14877,20 @@ msgid ""
 "“transmutation” is a much more exciting word for alchemists. And etymology "
 "aside, my discovery will certainly help boost your income!"
 msgstr ""
+"Şey, hayır, tam olarak değil. Daha çok bir... damıtma — evet, mevcut "
+"paranızı arıtıp ondan daha fazla değer çıkarma işlemi. Ama “dönüşüm” "
+"simyacılar için çok daha heyecan verici bir kelime. Kelimenin kökenini bir "
+"kenara bırakırsak keşfim gelirinizi artırmaya kesinlikle yardım edecek!"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:607
 msgid "New Ability"
-msgstr ""
+msgstr "Yeni Yetenek"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:608
 msgid "Jeniver has gained the powerful <i>transmutation</i> ability!"
-msgstr ""
+msgstr "Jeniver güçlü <i>dönüşüm</i> yeteneğini kazandı!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:638
@@ -14431,6 +14898,8 @@ msgid ""
 "And with that— yes, with that, I have everything I needed from the north! "
 "Excellent! I wonder what substances I should turn my study to next..."
 msgstr ""
+"Ve bununla— evet, bununla kuzeyden ihtiyacım olan her şeye sahibim! Harika! "
+"Acaba çalışmamı bundan sonra hangi maddelere yöneltsem..."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:642
@@ -14438,6 +14907,8 @@ msgid ""
 "I’m glad to help! But don’t forget, you’d said you would join us if we "
 "helped you here."
 msgstr ""
+"Yardım edebildiğime sevindim! Ama unutma, burada sana yardım edersek bize "
+"katılacağını söylemiştin."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:646
@@ -14447,6 +14918,10 @@ msgid ""
 "will provide me with a good opportunity for travel and research. I’d be glad "
 "to accompany you on your travels, Konrad!"
 msgstr ""
+"Hmm? Ah evet, evet, çok doğru, elbette. Aslında peşine düşmek için can "
+"attığım bazı yeni fikirlerim var; belki yolculuklarınızda size katılmak "
+"bana gezi ve araştırma için iyi bir fırsat sağlar. Yolculuklarınızda size "
+"eşlik etmekten mutluluk duyarım, Konrad!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:661
@@ -14455,6 +14930,8 @@ msgid ""
 "by the minute; meanwhile Asheviere continues to grow stronger and stronger "
 "unchecked."
 msgstr ""
+"Jeniver’e yardım etmek çok uzun sürmemeli. Hava buz gibi ve her dakika daha "
+"da kötüleşiyor; bu arada Aşivye engellenmeden giderek güçleniyor."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:665
@@ -14463,6 +14940,8 @@ msgid ""
 "without all three ingredients she also won’t be as useful as she might "
 "otherwise have been."
 msgstr ""
+"Jeniver vaktimiz bitse bile bizi takip edeceğini söyledi, ama üç malzemenin "
+"hepsi olmadan olabileceği kadar işe yaramayacak."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:672
@@ -14471,6 +14950,9 @@ msgid ""
 "but between the cold and the threat of Asheviere we simply can’t spare any "
 "more time to help you."
 msgstr ""
+"Jeniver, simya malzemelerini toplamana yardım etmeye söz verdiğimizi "
+"biliyorum, ama soğuk ve Aşivye tehdidi arasında sana yardım etmek için daha "
+"fazla vakit ayıramayız."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:676
@@ -14480,6 +14962,10 @@ msgid ""
 "ingredients here, perhaps joining you on your travels will provide me with a "
 "good opportunity for travel and research. If you’ll have me, of course!"
 msgstr ""
+"Ah, evet, hayır anlıyorum; hiç sorun değil. Aslında peşine düşmek için can "
+"attığım bazı yeni fikirlerim var; buradaki kalan malzemelerden bağımsız "
+"olarak belki yolculuklarınızda size katılmak bana gezi ve araştırma için "
+"iyi bir fırsat sağlar. Elbette beni kabul ederseniz!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:692
@@ -14487,32 +14973,34 @@ msgid ""
 "Oh no! We promised to help Jeniver find her alchemical ingredients, but "
 "instead we’ve let her die..."
 msgstr ""
+"Ah hayır! Jeniver’e simya malzemelerini bulmasında yardım etmeye söz "
+"verdik, ama bunun yerine ölmesine izin verdik..."
 
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:701
 msgid "scenario name^Northern Spring"
-msgstr ""
+msgstr "Kuzey Baharı"
 
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:702
 msgid "scenario name^Northern Summer"
-msgstr ""
+msgstr "Kuzey Yazı"
 
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:703
 msgid "scenario name^Northern Autumn"
-msgstr ""
+msgstr "Kuzey Güzü"
 
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:704
 msgid "scenario name^Northern Winter"
-msgstr ""
+msgstr "Kuzey Kışı"
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:8
 msgid "scenario name^An Old Friend"
-msgstr ""
+msgstr "Eski Bir Dost"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:65
 msgid "Deoran"
-msgstr ""
+msgstr "Deoran"
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:136
@@ -14520,6 +15008,8 @@ msgid ""
 "You have led us to a dark part of the jungle, great-granddaughter. And "
 "undead? What are undead doing in Wesmere?!"
 msgstr ""
+"Bizi ormanın karanlık bir köşesine getirdin, torunumun kızı. Hem ölümsüzler "
+"mi? Ölümsüzlerin Wesmere’de ne işi var?!"
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:141
@@ -14528,11 +15018,14 @@ msgid ""
 "after Eldred so cruelly struck him down. He remembers nothing but echoes. It "
 "is terrible, Kalenz!"
 msgstr ""
+"Herhangi bir ölümsüz değil. O karanlık atlı dostumuz Deoran; Eldred onu "
+"öylesine acımasızca öldürdükten sonra bir hortlak olarak yeniden dirildi. "
+"Yankılardan başka hiçbir şey hatırlamıyor. Bu korkunç, Kalenz!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:145
 msgid "Death... I lowered my sword... A blade in my chest..."
-msgstr ""
+msgstr "Ölüm... Kılıcımı indirdim... Göğsümde bir kılıç..."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:149
@@ -14541,6 +15034,9 @@ msgid ""
 "Asheviere’s or by the dark magic of Eldred’s fall, but now he has come here "
 "to Wesmere. He has sought me out..."
 msgstr ""
+"Deoran’ın Aşivye’nin bir hakareti olarak mı yoksa Eldred’in düşüşünün "
+"karanlık büyüsüyle mi ölümsüzlüğe döndürüldüğünü bilmiyorum, ama şimdi "
+"buraya, Wesmere’ye geldi. Beni aradı..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:153
@@ -14548,6 +15044,8 @@ msgid ""
 "Deoran was a good man, and deserved better than the end he met. I know you "
 "and he were close, Chantal, and I am sorry."
 msgstr ""
+"Deoran iyi bir adamdı ve karşılaştığı sondan daha iyisini hak ediyordu. "
+"Onunla yakın olduğunuzu biliyorum, Şantal, ve üzgünüm."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:157
@@ -14556,6 +15054,9 @@ msgid ""
 "that we cannot leave him to rampage through Wesmere. Now that you are here, "
 "if his bones must be crushed and his body destroyed, so be it."
 msgstr ""
+"Onu öldürmeye yüreğim yetmedi... bir ölüm yeterince acıydı. Ama onun "
+"Wesmere’de kol gezmesine izin veremeyeceğimizi biliyorum. Artık burada "
+"olduğuna göre kemikleri ezilip bedeni yok edilmesi gerekiyorsa öyle olsun."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:161
@@ -14563,6 +15064,8 @@ msgid ""
 "Indeed, it would a mercy to put this cursed being out of his misery. But "
 "perhaps it can be done without the violence that you would so abhor."
 msgstr ""
+"Gerçekten de bu lanetli varlığı ıstırabından kurtarmak bir merhamet olur. "
+"Ama belki senin bu kadar tiksindiğin şiddet olmadan yapılabilir."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:168
@@ -14572,6 +15075,10 @@ msgid ""
 "peace and rest. You say Deoran has sought you out; I believe he has sought "
 "out this tomb."
 msgstr ""
+"Buradan çok uzak olmayan bir yerde eski büyülerin olduğu bir mekân var; bir "
+"zamanlar eski lordlarımızdan biri için hazırlanmış bir mezar alanı. Hiç "
+"kullanılmadı, ama büyük bir huzur ve dinlenme yeri olarak kaldı. Deoran’ın "
+"seni aradığını söylüyorsun; bence bu mezarı aradı."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:172
@@ -14580,37 +15087,40 @@ msgid ""
 "at last find the peace they have so long been denied. And your tired heart "
 "may at last find closure, great-granddaughter."
 msgstr ""
+"Onu yok etmeden mezara çekebilirsek yorgun kemikleri sonunda çok uzun "
+"süredir esirgenen huzuru bulabilir. Ve senin yorgun yüreğin de sonunda "
+"kapanabilir, torunumun kızı."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:180
 msgid "Lure undead Deoran into the burial chamber, and leave him alone inside."
-msgstr ""
+msgstr "Ölümsüz Deoran’ı mezar odasına çek ve onu içeride yalnız bırak."
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:184
 msgid "Death of Deoran"
-msgstr ""
+msgstr "Deoran’ın ölümü"
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:188
 msgid "Death of Kalenz or Chantal"
-msgstr ""
+msgstr "Kalenz’in ya da Şantal’ın ölümü"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:196
 #: data/campaigns/Heir_To_The_Throne/scenarios/31_Plunging_into_Darkness.cfg:539
 msgid "In this scenario, you can neither gain nor spend gold."
-msgstr ""
+msgstr "Bu senaryoda altın ne kazanabilir ne de harcayabilirsin."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:199
 msgid "Deoran will prefer to target Chantal."
-msgstr ""
+msgstr "Deoran Şantal’ı hedef almayı tercih edecek."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:211
 msgid "Blackcrests... more, to the north... Rally! Form ranks..."
-msgstr ""
+msgstr "Karaibikler... daha fazlası, kuzeyde... Toplanın! Saf tutun..."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:224
@@ -14618,11 +15128,13 @@ msgid ""
 "You don’t remember me, do you, Deoran... We shared good memories together, "
 "back in the Lintanir."
 msgstr ""
+"Beni hatırlamıyorsun, değil mi, Deoran... Lintanir’de birlikte güzel "
+"anılarımız oldu."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:228
 msgid "... Chantal? No, not here... War is no... place for you..."
-msgstr ""
+msgstr "... Şantal? Hayır, burada değil... Savaş senin... yerin değil..."
 
 #. [message]: speaker=Deoran
 #. Deoran references Mebrin from TSG, and Kalenz's lich-eye potion from LoW
@@ -14630,57 +15142,61 @@ msgstr ""
 msgid ""
 "Mebrin... I sense eye... of lich... Your time has come... once-wise sage..."
 msgstr ""
+"Mebrin... umacının gözünü... seziyorum... Zamanın geldi... bir zamanların "
+"bilge âlimi..."
 
 #. [message]: speaker=Deoran
 #. Deoran references Mebrin's line from TSG S06b: "I curse you, Deoran of Wesnoth! I curse you... may you one day know the same pain that your kind have inflicted on me..."
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:247
 msgid "You cursed me... you cursed me... to know the same pain..."
-msgstr ""
+msgstr "Beni lanetledin... beni lanetledin... aynı acıyı bilmeye..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:259
 msgid "He’s inside! Now we need to exit the tomb and leave him there."
-msgstr ""
+msgstr "İçeride! Şimdi mezardan çıkıp onu orada bırakmalıyız."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:318
 msgid "There! Now shut the gate and the magic will begin to do its work."
-msgstr ""
+msgstr "İşte! Şimdi kapıyı kapat, büyü işini yapmaya başlayacak."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:330
 msgid "Is it working?"
-msgstr ""
+msgstr "İşe yarıyor mu?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:334
 msgid "My... head..."
-msgstr ""
+msgstr "Başım..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:349
 msgid "I died. How am I here? I remember better places... happier times..."
 msgstr ""
+"Öldüm. Burada nasıl olabilirim? Daha güzel yerleri hatırlıyorum... daha "
+"mutlu zamanları..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:353
 msgid "... goodbye, Chantal."
-msgstr ""
+msgstr "... elveda, Şantal."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:359
 msgid "Goodbye."
-msgstr ""
+msgstr "Elveda."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:381
 msgid "Eldred—"
-msgstr ""
+msgstr "Eldred—"
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:387
 msgid "No! He has been broken to pieces..."
-msgstr ""
+msgstr "Hayır! Paramparça edildi..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:409
@@ -14694,11 +15210,14 @@ msgid ""
 "we cannot complete our task, I fear he shall soon flee into the river, and "
 "vanish to bring harm to some other land."
 msgstr ""
+"Ölümsüz Deoran başını vahşice oraya buraya savurmaya başladı. Görevimizi "
+"tamamlayamazsak korkarım yakında nehre kaçıp başka bir diyara zarar vermek "
+"için gözden kaybolacak."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:437
 msgid "You cannot... trap me, Mebrin... I see my escape..."
-msgstr ""
+msgstr "Beni... kapana kısamazsın, Mebrin... Kaçışımı görüyorum..."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/scenarios/24_An_Old_Friend.cfg:443
@@ -14706,17 +15225,21 @@ msgid ""
 "Deoran has gone! We’ve taken too long to seal him away, and now we may never "
 "find him again..."
 msgstr ""
+"Deoran gitti! Onu mühürlemek çok uzun sürdü ve şimdi onu bir daha asla "
+"bulamayabiliriz..."
 
 #. [scenario]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:17
 msgid "scenario name^The Dwarven Doors"
-msgstr ""
+msgstr "Cüce Kapıları"
 
 #. [message]: role=angry_orc
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:209
 msgid ""
 "Back into your hovel, worms! Your masters will deal with this idiot attack."
 msgstr ""
+"Kulübenize geri dönün, solucanlar! Bu aptal saldırıyla efendileriniz "
+"ilgilenecek."
 
 #. [message]: role=angry_orc
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:217
@@ -14724,6 +15247,8 @@ msgid ""
 "And stay in there. Any pinkskin sticks its head out, it won’t have a head "
 "for much longer!"
 msgstr ""
+"Ve orada kalın. Başını dışarı çıkaran pembe derinin başı fazla uzun süre "
+"yerinde durmaz!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:238
@@ -14732,6 +15257,9 @@ msgid ""
 "purify! Our crossing will be difficult, yet cross we must, if the dwarven "
 "caverns we wish to exit."
 msgstr ""
+"Dinle! Karanlık bu vadiyi dolduruyor: orklar. Işığımın bile "
+"arındırabileceğinden fazla! Geçişimiz zor olacak, ama cüce mağaralarından "
+"çıkmak istiyorsak geçmeliyiz."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:239
@@ -14739,6 +15267,8 @@ msgid ""
 "There’s orcs here; lots of orcs. More than we can fight, I’m thinkin’. But "
 "we’ve gots to get through if’n we want to get out o’ these dwarf tunnels!"
 msgstr ""
+"Burada orklar var; bir sürü ork. Savaşabileceğimizden fazla diye "
+"düşünüyorum. Ama bu cüce tünellerinden çıkmak istiyorsak geçmemiz gerek!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:240
@@ -14746,6 +15276,8 @@ msgid ""
 "There are orcs here; many orcs, likely more than we can defeat. Yet we must "
 "pass through this valley if we wish to exit the dwarven caverns."
 msgstr ""
+"Burada orklar var; pek çok ork, muhtemelen yenebileceğimizden fazla. Ama "
+"cüce mağaralarından çıkmak istiyorsak bu vadiden geçmeliyiz."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:242
@@ -14754,6 +15286,9 @@ msgid ""
 "purify! Our crossing will be difficult, yet cross we must, if the dwarven "
 "caverns we wish to enter."
 msgstr ""
+"Dinle! Karanlık bu vadiyi dolduruyor: orklar. Işığımın bile "
+"arındırabileceğinden fazla! Geçişimiz zor olacak, ama cüce mağaralarına "
+"girmek istiyorsak geçmeliyiz."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:243
@@ -14761,6 +15296,8 @@ msgid ""
 "There’s orcs here; lots of orcs. More than we can fight, I’m thinkin’. But "
 "we’ve gots to get through if’n we want to into them dwarf tunnels!"
 msgstr ""
+"Burada orklar var; bir sürü ork. Savaşabileceğimizden fazla diye "
+"düşünüyorum. Ama o cüce tünellerine girmek istiyorsak geçmemiz gerek!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:244
@@ -14768,6 +15305,8 @@ msgid ""
 "There are orcs here; many orcs, likely more than we can defeat. Yet we must "
 "pass through this valley if we wish to enter the dwarvish caverns beyond."
 msgstr ""
+"Burada orklar var; pek çok ork, muhtemelen yenebileceğimizden fazla. Ama "
+"ötedeki cüce mağaralarına girmek istiyorsak bu vadiden geçmeliyiz."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:247
@@ -14776,6 +15315,9 @@ msgid ""
 "o’ the dwarf-friends! Swallow-tiltin’ marmalade drinkers! I say we take an "
 "axe to every last one o’ the wretches!"
 msgstr ""
+"Cüce dostlarının şehrinin yıkıntılarına çöreklenmiş pis ödlek ork "
+"korkakları! Marmelat içen ayyaşlar! Diyorum ki o sefillerin her birine "
+"baltayı vuralım!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:250
@@ -14784,6 +15326,9 @@ msgid ""
 "but... wow! And slaves! I’d no idea there were so many humans living up in "
 "the north."
 msgstr ""
+"Ah! Ah vay, gerçekten bir sürü ork var! Yani çok olacağını biliyordum "
+"ama... vay! Hem köleler! Kuzeyde bu kadar çok insan yaşadığından haberim "
+"yoktu."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:251
@@ -14792,6 +15337,9 @@ msgid ""
 "since dey took over dis valley, dey’ve got really big and really strong. How "
 "you thinkin’ we should fight?"
 msgstr ""
+"Mmm... Konrad dikkatli olsa iyi olur. Bunlar Kanlı Kılıç orkları. Bu vadiyi "
+"aldıklarından beri çok büyüdüler ve çok güçlendiler. Nasıl savaşmayı "
+"düşünüyorsun?"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:258
@@ -14800,6 +15348,9 @@ msgid ""
 "are just too many foes to fight. We’ve caught them by surprise right now, "
 "but that won’t last long."
 msgstr ""
+"Burada kalıp bütün bu zavallı köleleri kurtarabilmeyi ne kadar istesem de "
+"savaşılacak çok fazla düşman var. Şu an onları hazırlıksız yakaladık, ama "
+"bu uzun sürmez."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:261
@@ -14807,6 +15358,8 @@ msgid ""
 "We’ll have to focus on fighting our way through to the south exit, and free "
 "as many slaves as we can along the way!"
 msgstr ""
+"Güney çıkışına savaşarak ilerlemeye odaklanmak ve yol boyunca olabildiğince "
+"çok köleyi kurtarmak zorunda kalacağız!"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:263
@@ -14814,21 +15367,23 @@ msgid ""
 "We’ll have to focus on fighting our way through to the north exit, and free "
 "as many slaves as we can along the way!"
 msgstr ""
+"Kuzey çıkışına savaşarak ilerlemeye odaklanmak ve yol boyunca olabildiğince "
+"çok köleyi kurtarmak zorunda kalacağız!"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:276
 msgid "Move Konrad to the marked tunnel entrance"
-msgstr ""
+msgstr "Konrad’ı işaretli tünel girişine götür"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:283
 msgid "Move Konrad to the southern edge of the map"
-msgstr ""
+msgstr "Konrad’ı haritanın güney kenarına götür"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:291
 msgid "Rescue as many slaves as possible"
-msgstr ""
+msgstr "Olabildiğince çok köleyi kurtar"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:301
@@ -14836,16 +15391,18 @@ msgid ""
 "Liberating a village will free the slaves inside. The more slaves are with "
 "you, the fewer new ones will appear."
 msgstr ""
+"Bir köyü kurtarmak içindeki köleleri özgür bırakır. Yanında ne kadar çok "
+"köle olursa o kadar az yenisi ortaya çıkar."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:304
 msgid "Each surviving slave increases your gold carryover by 10."
-msgstr ""
+msgstr "Hayatta kalan her köle devreden altınını 10 artırır."
 
 #. [modify_unit]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:352
 msgid "Tanry"
-msgstr ""
+msgstr "Tanri"
 
 #. [message]: role=freed_slave {NOT id=$unit.id}
 #. the speaking peasant/woodsman refers to a time when Baldras and some allies tried to help the Doors, but got captured. The player may or may not know about at this point.
@@ -14854,6 +15411,8 @@ msgid ""
 "I— I can’t believe it. Have you come to rescue us? Others have tried "
 "before..."
 msgstr ""
+"Ben— inanamıyorum. Bizi kurtarmaya mı geldiniz? Daha önce başkaları da "
+"denedi..."
 
 #. [message]: id=$unit.id
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:366
@@ -14861,6 +15420,9 @@ msgid ""
 "By the Lords of Light, we’re saved! Take us with you! I don’t care who you "
 "are or where you’re going, as long as it’s away!"
 msgstr ""
+"Işığın Efendileri adına, kurtulduk! Bizi de yanınızda götürün! Kim "
+"olduğunuz ya da nereye gittiğiniz umurumda değil, yeter ki buradan uzağa "
+"olsun!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:370
@@ -14869,6 +15431,10 @@ msgid ""
 "cannot express my grief at the sorry state of you and your people here. Of "
 "course you may come with us, as may any other slaves who we are able to free!"
 msgstr ""
+"Ben Konrad, Arand’ın oğlu ve Vesnot tahtının meşru varisiyim. Senin ve "
+"buradaki halkının içler acısı durumu karşısındaki kederimi sözler "
+"anlatamaz. Elbette bizimle gelebilirsin, özgür bırakabildiğimiz diğer "
+"köleler de!"
 
 #. [message]: id=$unit.id
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:382
@@ -14878,6 +15444,10 @@ msgid ""
 "Maybe you could come up from underground through there, if you had time to "
 "clear a path. But there’s no way down."
 msgstr ""
+"Cüce mağaralarına mı gidiyorsunuz? Efendilerin merkez kapının yıllardır "
+"çökük olduğunu söylediğini duydum — cüceler orkları dışarıda tutmak için "
+"yapmış. Yol açacak vaktiniz olsaydı belki oradan yeraltından yukarı "
+"çıkabilirdiniz. Ama aşağı inmenin yolu yok."
 
 #. [message]: id=$unit.id
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:386
@@ -14887,21 +15457,24 @@ msgid ""
 "dwarves and claim Knalga’s treasure for themselves. That’s the only way "
 "underground now."
 msgstr ""
+"Doğu maden kuyusunu da yıkmaya çalıştılar, ama o zamandan beri temizlendi. "
+"Bir sürü ork ve trol son cücelerin işini bitirip Knalga’nın hazinesini "
+"kendilerine almaya çalışarak oraya giriyor. Yeraltına giden tek yol artık o."
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:405
 msgid "Who’s there? What’s goin’ on?"
-msgstr ""
+msgstr "Kim var orada? Neler oluyor?"
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:413
 msgid "... Uncle Somf? Is that really you? What’re you doing here!"
-msgstr ""
+msgstr "... Somf amca? Gerçekten sen misin? Burada ne yapıyorsun!"
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:417
 msgid "Harper!? Well, I never— my, how ye’ve grown!"
-msgstr ""
+msgstr "Harper!? Aman, hiç beklemezdim— vay, ne kadar büyümüşsün!"
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:421
@@ -14910,6 +15483,9 @@ msgid ""
 "people, Baldras ne’er told any o’ ye where we was goin’, fer fear o’ the "
 "orcs catchin’ wind."
 msgstr ""
+"Beni nasıl buldun? Bu insanlara yardım etmek için Üç Kızkardeş’ten "
+"ayrıldığımızda Baldras orkların kokusunu alması korkusuyla nereye "
+"gittiğimizi hiçbirinize söylememişti."
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:425
@@ -14917,6 +15493,9 @@ msgid ""
 "When you all didn’t come back, Delurin thought you was all dead, but I never "
 "lost hope. Where’s Uncle Baldras? I’ve so many things to tell him!"
 msgstr ""
+"Hiçbiriniz geri dönmeyince Delurin hepinizin öldüğünü düşündü, ama ben "
+"umudumu hiç kaybetmedim. Baldras amca nerede? Ona anlatacak o kadar çok "
+"şeyim var ki!"
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:429
@@ -14924,6 +15503,8 @@ msgid ""
 "Ah... I’m sorry Harper, but he’s dead. Died a hero; saved us all when things "
 "went bad."
 msgstr ""
+"Ah... üzgünüm Harper, ama o öldü. Bir kahraman olarak öldü; işler kötüye "
+"gidince hepimizi kurtardı."
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:433
@@ -14933,6 +15514,9 @@ msgid ""
 "said he was an escaped slave causin’ trouble, an’ that the rest of us were "
 "jus’ innocents mixed up in it all."
 msgstr ""
+"O orklar yaklaşır yaklaşmaz bizi yakaladı, daha insanları kaçırmaya başlama "
+"fırsatı bile bulamadan. Amcan bütün suçu üstlendi; sorun çıkaran kaçak bir "
+"köle olduğunu ve geri kalanımızın işe karışmış masumlar olduğunu söyledi."
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:437
@@ -14941,6 +15525,10 @@ msgid ""
 "said. The rest o’ us they chained up and whipped a few times, afore throwin’ "
 "us into the fields to be slaves. But Baldras they made an’ example out of."
 msgstr ""
+"Orklar insanları birbirinden pek ayıramaz, bilirsin; söylediği her kelimeye "
+"inandılar. Geri kalanımızı zincirleyip birkaç kez kırbaçladılar, sonra köle "
+"olmamız için tarlalara attılar. Ama Baldras’ı ibret olsun diye "
+"cezalandırdılar."
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:441
@@ -14948,6 +15536,8 @@ msgid ""
 "I was so sure he’d be okay... but I suppose it woulda been too good to be "
 "true. At least you’ve survived, Somf."
 msgstr ""
+"İyi olacağından o kadar emindim ki... ama sanırım bu fazla güzel olurdu. En "
+"azından sen hayatta kaldın, Somf."
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:449
@@ -14956,6 +15546,9 @@ msgid ""
 "His Royal Highness Konrad, Prince of Wesnoth. I’m fighting in his army, an’ "
 "now you are too."
 msgstr ""
+"... Konrad, bu Somf — Üç Kızkardeş’ten bir dost. Somf, bu Kraliyet "
+"Ekselansları Konrad, Vesnot Prensi. Onun ordusunda savaşıyorum, artık sen "
+"de savaşıyorsun."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:458
@@ -14963,6 +15556,8 @@ msgid ""
 "I am Konrad, heir to the throne of Wesnoth. I’m here to rescue you from "
 "these slavers! Will you join me and help fight in my army?"
 msgstr ""
+"Ben Konrad, Vesnot tahtının varisi. Seni bu köle tüccarlarından kurtarmaya "
+"geldim! Bana katılıp ordumda savaşmaya yardım eder misin?"
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:462
@@ -14970,6 +15565,8 @@ msgid ""
 "That’s mighty fine of you to offer, boy; liberatin’ me from one master only "
 "to offer yerself as my new one. Hah, I weren’t born yesterday!"
 msgstr ""
+"Bu çok ince bir teklif, evlat; beni bir efendiden kurtarıp kendini yeni "
+"efendim olarak sunmak. Hah, ben dün doğmadım!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:468
@@ -14977,6 +15574,8 @@ msgid ""
 "That man looked like he could’ve made a capable warrior! I am sorry to see "
 "him go — but least we have given him the freedom to choose his own path."
 msgstr ""
+"O adam yetenekli bir savaşçı olabilirdi gibi görünüyordu! Gittiğini görmek "
+"beni üzüyor — ama en azından ona kendi yolunu seçme özgürlüğünü verdik."
 
 #. [message]: type=Cuttle Fish,Kraken
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:488
@@ -14988,34 +15587,34 @@ msgstr "Bööööö!!!"
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:492
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:493
 msgid "By Haldric! There’s some sort of monster in the lake!"
-msgstr ""
+msgstr "Haldrik adına! Gölde bir çeşit canavar var!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:494
 msgid ""
 "Aaah! There’s— it’s— well, I don’t mean to sound unscientific, but it’s a "
 "monster!"
-msgstr ""
+msgstr "Aaah! Orada— o— şey, bilim dışı konuşmak istemem, ama bu bir canavar!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:495
 msgid "Thursagan’s beard! There’s a great galumphing monster in the lake!"
-msgstr ""
+msgstr "Thursagan’ın sakalı! Gölde koca hantal bir canavar var!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:496
 msgid "By the Light! A monster most foul lurks within the waters!"
-msgstr ""
+msgstr "Işık adına! Suların içinde çok iğrenç bir canavar pusuda bekliyor!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:497
 msgid "Dere be some kind of monster in da lake!"
-msgstr ""
+msgstr "Gölde bir çeşit canavar var!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:498
 msgid "Gah! Look out, there’s some kind of monster in the lake!"
-msgstr ""
+msgstr "Ah! Dikkat, gölde bir çeşit canavar var!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:502
@@ -15023,6 +15622,8 @@ msgid ""
 "The legend was true! They say there’s always tentacled creatures hiding in "
 "lakes near dwarven tunnels."
 msgstr ""
+"Efsane doğruymuş! Cüce tünellerinin yakınındaki göllerde hep dokunaçlı "
+"yaratıkların saklandığını söylerler."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:514
@@ -15030,6 +15631,8 @@ msgid ""
 "Here stand the pillars of Thunedain. He were a great lord o’ my kind; the "
 "last o’ the heroes o’ the Doors. Here did he stand, an’ here did he fall."
 msgstr ""
+"İşte Thunedain’in sütunları. O benim türümün büyük bir lorduydu; Kapılar’ın "
+"kahramanlarının sonuncusu. Burada durdu ve burada düştü."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:515
@@ -15037,6 +15640,8 @@ msgid ""
 "I think these to be the pillars of Thunedain, Konrad. He was a legendary "
 "dwarvish lord who made his last stand here. May we triumph where he fell."
 msgstr ""
+"Sanırım bunlar Thunedain’in sütunları, Konrad. Son direnişini burada "
+"gösteren efsanevi bir cüce lorduydu. Onun düştüğü yerde biz zafer kazanalım."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:516
@@ -15046,6 +15651,8 @@ msgid ""
 "Is this— yes, these must be the pillars of Thunedain. I read about this. He "
 "was a great dwarvish lord who made his last stand here."
 msgstr ""
+"Bu— evet, bunlar Thunedain’in sütunları olmalı. Bunun hakkında okumuştum. "
+"Son direnişini burada gösteren büyük bir cüce lorduydu."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:544
@@ -15054,6 +15661,9 @@ msgid ""
 "to these orcs! If only we could have truly liberated this place... but I "
 "know that far more people are suffering under Asheviere."
 msgstr ""
+"Vadinin güney çıkışına ulaştık ve bu orklara büyük bir darbe vurduk! Keşke "
+"burayı gerçekten kurtarabilseydik... ama Aşivye yüzünden çok daha fazla "
+"insanın acı çektiğini biliyorum."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #. [message]: speaker=Konrad
@@ -15064,6 +15674,9 @@ msgid ""
 "remain; to those we could not save I say: <i>Hold fast your hope, for one "
 "day you shall be free!</i>"
 msgstr ""
+"En azından burada köleleştirilenlere yardım etmek için elimizden geleni "
+"yaptık. Geride kalanlara; kurtaramadıklarımıza diyorum ki: <i>Umudunuzu "
+"sıkı tutun, çünkü bir gün özgür olacaksınız!</i>"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:565
@@ -15072,6 +15685,9 @@ msgid ""
 "blow to these orcs! If only we could have truly liberated this place... but "
 "I know that far more people are suffering under Asheviere."
 msgstr ""
+"Cüce tünellerinin girişine ulaştık ve bu orklara büyük bir darbe vurduk! "
+"Keşke burayı gerçekten kurtarabilseydik... ama Aşivye yüzünden çok daha "
+"fazla insanın acı çektiğini biliyorum."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:587
@@ -15079,6 +15695,8 @@ msgid ""
 "As we were warned, the central tunnels have been collapsed. We shall have to "
 "make for the eastern mineshaft instead."
 msgstr ""
+"Uyarıldığımız gibi merkez tüneller çökmüş. Bunun yerine doğu maden kuyusuna "
+"gitmek zorunda kalacağız."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:592
@@ -15087,16 +15705,19 @@ msgid ""
 "but I freed so few... We shall have to make for the eastern mineshaft, and "
 "hope that entrance is still open."
 msgstr ""
+"Merkez tüneller çökmüş! Belki kölelerden bazıları bunu biliyordu, ama o "
+"kadar azını kurtardım ki... Doğu maden kuyusuna gidip o girişin hâlâ açık "
+"olmasını ummak zorunda kalacağız."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:608
 msgid "Death to slavers!"
-msgstr ""
+msgstr "Köle tüccarlarına ölüm!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:620
 msgid "This isn’t going so well..."
-msgstr ""
+msgstr "Bu pek iyi gitmiyor..."
 
 #. [message]: id=$last_leader.id
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:642
@@ -15104,6 +15725,8 @@ msgid ""
 "Okay, forget this. I’m taking the rest of our slaves, getting the chief, and "
 "bringing the horde! You invaders had better not be here when we get back!"
 msgstr ""
+"Tamam, boş verin. Kölelerimizin geri kalanını alıp reisi buluyorum ve "
+"ordayı getiriyorum! Siz istilacılar döndüğümüzde burada olmasanız iyi olur!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:663
@@ -15112,11 +15735,14 @@ msgid ""
 "all... but please, remember: <i>Hold fast your hope, for one day you shall "
 "be free!</i>"
 msgstr ""
+"Orklar kölelerinin çoğuyla birlikte kaçıyor! Hepinizi kurtaramam... ama "
+"lütfen unutmayın: <i>Umudunuzu sıkı tutun, çünkü bir gün özgür "
+"olacaksınız!</i>"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:692
 msgid "Konrad can now recruit Peasants and Woodsmen!"
-msgstr ""
+msgstr "Konrad artık Köylü ve Ormancı alabilir!"
 
 #. [message]: role=freed_slave
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:695
@@ -15124,6 +15750,8 @@ msgid ""
 "Thank you for helping me escape, Konrad! On our way out, each of those you "
 "freed have grabbed as much of the orcs’ gold and supplies as we could."
 msgstr ""
+"Kaçmama yardım ettiğin için teşekkürler, Konrad! Çıkarken kurtardığın "
+"herkes orkların altınından ve erzakından taşıyabildiği kadarını kaptı."
 
 #. [message]: speaker=narrator
 #. $freed_slaves.length is more than 0, and probably less than 20. $carryover is more than 4, and probably less than 100
@@ -15132,6 +15760,8 @@ msgid ""
 "You have rescued $freed_slaves.length slaves, and will have $carryover extra "
 "gold in the next scenario!"
 msgstr ""
+"$freed_slaves.length köle kurtardın ve bir sonraki senaryoda $carryover "
+"fazladan altının olacak!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:718
@@ -15140,6 +15770,9 @@ msgid ""
 "deed here would help us gain new allies, but it seems my hopes were in vain. "
 "We must press onwards alone."
 msgstr ""
+"... tek bir köle bile bizimle birlikte kaçmadı. Buradaki iyiliğimizin yeni "
+"müttefikler kazanmamıza yardım edeceğini ummuştum, ama görünüşe göre "
+"umutlarım boşunaymış. Yalnız ilerlemeliyiz."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:732
@@ -15147,6 +15780,8 @@ msgid ""
 "Bah, when’s the chief getting back with the horde? These invaders are being "
 "a real nuisance."
 msgstr ""
+"Bah, reis ordayla ne zaman dönecek? Bu istilacılar gerçekten baş belası "
+"oluyor."
 
 #. [message]: role=warlord
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:755
@@ -15154,6 +15789,8 @@ msgid ""
 "What’s goin’ on here? Slave revolt, is it? Hah! None o’ you’re getting out "
 "o’ this valley alive!"
 msgstr ""
+"Burada neler oluyor? Köle isyanı mı? Hah! Hiçbiriniz bu vadiden canlı "
+"çıkamayacaksınız!"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/26_The_Dwarven_Doors.cfg:759
@@ -15162,11 +15799,14 @@ msgid ""
 "progressing! Even if we manage to win this fight, the cost will surely be "
 "too great for our small army to bear..."
 msgstr ""
+"Daha fazla ork geldi ve ilerlememizi durduracak şekilde konuşlandı! Bu "
+"dövüşü kazanmayı başarsak bile bedel küçük ordumuzun kaldıramayacağı kadar "
+"ağır olacak..."
 
 #. [side]: type={TYPE}, id={ID}
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:74
 msgid "Trolls"
-msgstr ""
+msgstr "Troller"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:214
@@ -15174,6 +15814,8 @@ msgid ""
 "From what Delfador has taught me, I recognize us to be in the ruins of the "
 "great western hall of Knalga."
 msgstr ""
+"Delfador’un bana öğrettiklerinden Knalga’nın büyük batı salonunun "
+"yıkıntılarında olduğumuzu anlıyorum."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:218
@@ -15182,6 +15824,8 @@ msgid ""
 "was missed by the conquering orcs. We just have to drive off the local "
 "trolls first."
 msgstr ""
+"Görmesi üzücü bir manzara, ama fatih orkların gözünden kaçmış değerli bir "
+"şey hâlâ bulabiliriz. Sadece önce yerel trolleri kovmamız gerek."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:222
@@ -15190,6 +15834,8 @@ msgid ""
 "tunnels even less so. I am not eager to proceed, but what must be done must "
 "be done."
 msgstr ""
+"Mağaralar ve mezarlar güzel halka göre değildir, Konrad, cüce tünelleri "
+"hele hiç. İlerlemeye hevesli değilim, ama yapılması gereken yapılmalı."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:223
@@ -15197,6 +15843,8 @@ msgid ""
 "Cave and crypts are no place for cavalry, Konrad, and dwarvish tunnels even "
 "less so. I am not eager to proceed, but what must be done must be done."
 msgstr ""
+"Mağaralar ve mezarlar süvarilere göre değildir, Konrad, cüce tünelleri hele "
+"hiç. İlerlemeye hevesli değilim, ama yapılması gereken yapılmalı."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:224
@@ -15205,6 +15853,8 @@ msgid ""
 "Well, this is a far cry from the sunny shores of Alduin. And it stinks of "
 "troll excrement! Let’s do what needs to be done and get it over with."
 msgstr ""
+"Eh, bu Alduin’in güneşli kıyılarından çok farklı. Hem trol pisliği kokuyor! "
+"Yapılması gerekeni yapıp bitirelim."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:226
@@ -15212,6 +15862,8 @@ msgid ""
 "Aye, an’ <b><i>I</i></b> may find me father’s defiled bones, or me "
 "grandfather’s. Cheery thoughts all around, eh?"
 msgstr ""
+"Evet, ve <b><i>ben</i></b> babamın ya da dedemin kirletilmiş kemiklerini "
+"bulabilirim. Ne neşeli düşünceler, değil mi?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:227
@@ -15220,6 +15872,8 @@ msgid ""
 "the Light, nor ever from the Light, for the Light shall always guide the "
 "faithful."
 msgstr ""
+"Derin karanlıkta ışıktan koparıldık. Ama dinle! Işıktan değil, asla Işıktan "
+"değil, çünkü Işık inananlara her zaman yol gösterecek."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:228
@@ -15227,6 +15881,8 @@ msgid ""
 "Well, don’ this place be bringin’ back some bad memories. Jus’ hope we don’ "
 "find no Midnight Queen down these caves this time."
 msgstr ""
+"Eh, burası bazı kötü anıları geri getiriyor. Umarım bu sefer bu mağaralarda "
+"Gece Yarısı Kraliçesi bulmayız."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:229
@@ -15235,6 +15891,9 @@ msgid ""
 "I’ve always wanted to. Do you think they know how their regeneration works, "
 "or does it just happen by instinct?"
 msgstr ""
+"Biliyor musun, hep vahşi bir trolle tanışmak istemişimdir! Şey, en azından "
+"istediğimi sanıyorum. Sence yenilenmelerinin nasıl işlediğini biliyorlar "
+"mı, yoksa içgüdüyle mi oluyor?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:230
@@ -15243,6 +15902,8 @@ msgid ""
 "knows all the trolls on da continent. An’ don’t get Dosh mixed up with one "
 "o’ dem other trolls while we’re fighting, okay?"
 msgstr ""
+"Bana bakma, Konrad. Dosh trol diye kıtadaki bütün trolleri tanıyacak değil. "
+"Hem savaşırken Dosh’u o diğer trollerden biriyle karıştırma, tamam mı?"
 
 #. [message]: race=dwarf,gryphon {NOT id=Ulfdain}
 #. [message]: speaker=Ulfdain
@@ -15252,17 +15913,21 @@ msgid ""
 "I remember that passageway. Me uncle’s whole family drowned here after th’ "
 "orcs flooded th’ halls. I were young, very young..."
 msgstr ""
+"O geçidi hatırlıyorum. Orklar salonları su altında bıraktıktan sonra "
+"amcamın bütün ailesi burada boğuldu. Gençtim, çok gençtim..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:337
 msgid "Listen! Do you hear that?"
-msgstr ""
+msgstr "Dinleyin! Bunu duyuyor musunuz?"
 
 #. [message]: speaker=Lionel
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:343
 msgid ""
 "Kill the trolls... kill them all... scour the caverns... search the halls..."
 msgstr ""
+"Trolleri öldürün... hepsini öldürün... mağaraları tarayın... salonları "
+"arayın..."
 
 #. [message]: speaker=Lionel
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:386
@@ -15270,27 +15935,30 @@ msgid ""
 "More orcs at the gates... Send Eller... for reinforcements. The west hall. "
 "Where... are my dragoons?"
 msgstr ""
+"Kapılarda daha fazla ork... Eller’i gönderin... takviye için. Batı salonu. "
+"Nerede... ejderlerim?"
 
 #. [message]: speaker=Lionel
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:393
 msgid "No more recruits. I will lead the sortie... personally."
-msgstr ""
+msgstr "Başka asker yok. Çıkış saldırısını... bizzat ben yöneteceğim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:405
 msgid ""
 "Look at the strange axe that death knight is holding! What an unusual weapon."
 msgstr ""
+"Şu ölüm şövalyesinin tuttuğu tuhaf baltaya bakın! Ne alışılmadık bir silah."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:410
 msgid "I... that..."
-msgstr ""
+msgstr "Ben... o..."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:414
 msgid "<i>THAT’S MY FATHER’S AXE!</i>"
-msgstr ""
+msgstr "<i>O BENİM BABAMIN BALTASI!</i>"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:418
@@ -15298,6 +15966,8 @@ msgid ""
 "Give it back, ye beastly bag o’ bones! I’ll rip out yer ribs and stuff ’em "
 "down yer eye sockets!"
 msgstr ""
+"Geri ver onu, seni iğrenç kemik torbası! Kaburgalarını söküp göz "
+"çukurlarına tıkacağım!"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:422
@@ -15305,11 +15975,13 @@ msgid ""
 "I’ll boil yer teeth. I’ll invert your kneecaps. Death is too good for ye. UN-"
 "death is too good fer ye!"
 msgstr ""
+"Dişlerini haşlayacağım. Dizkapaklarını ters çevireceğim. Ölüm sana az "
+"gelir. ÖLÜMSÜZLÜK sana az gelir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:426
 msgid "Ulfdain, calm down! What are you talking about?"
-msgstr ""
+msgstr "Ulfdain, sakin ol! Neden bahsediyorsun?"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:430
@@ -15317,6 +15989,8 @@ msgid ""
 "That coward, that yaldson, that spawn of utter darkness is holdin’ my "
 "father’s axe! His bloodaxe, one o’ the last few in the world!"
 msgstr ""
+"O korkak, o piç, o mutlak karanlığın dölü babamın baltasını tutuyor! "
+"Kanbaltasını, dünyada kalan son birkaç taneden birini!"
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:434
@@ -15324,6 +15998,8 @@ msgid ""
 "By Thursagan’s beard, we’re goin’ to get it back or we’re goin’ to die "
 "tryin’! Charge!"
 msgstr ""
+"Thursagan’ın sakalı adına, onu geri alacağız ya da bu uğurda öleceğiz! "
+"Hücum!"
 
 #. [message]: speaker=Lionel
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:449
@@ -15331,6 +16007,8 @@ msgid ""
 "Lost? No... do not speak that word. We will... prevail. We will find... the "
 "sceptre..."
 msgstr ""
+"Kaybolmuş mu? Hayır... o kelimeyi söyleme. Biz... galip geleceğiz. Asayı... "
+"bulacağız..."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:453
@@ -15338,12 +16016,14 @@ msgid ""
 "The Sceptre? Of Fire?! Who are you, foul creature that we fight? Speak your "
 "name, that I may know the foe I slay!"
 msgstr ""
+"Asa mı? Ateş Asası mı?! Kimsin sen, savaştığımız iğrenç yaratık? Adını "
+"söyle de öldürdüğüm düşmanı bileyim!"
 
 #. [message]: speaker=Lionel
 #. Lionel repeats a line from TDG's S06
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:458
 msgid "We swore our oaths... now we do our duty..."
-msgstr ""
+msgstr "Yemin ettik... şimdi görevimizi yapıyoruz..."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:473
@@ -15351,12 +16031,14 @@ msgid ""
 "I am Konrad, nephew of Garard, son of Arand and rightful heir to the throne "
 "of Wesnoth! And in their names, I end your undead suffering."
 msgstr ""
+"Ben Konrad, Garard’ın yeğeni, Arand’ın oğlu ve Vesnot tahtının meşru "
+"varisiyim! Ve onların adına ölümsüz ıstırabına son veriyorum."
 
 #. [message]: speaker=Lionel
 #. Lionel foreshadows the reveal that Konrad is not in fact the heir
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:478
 msgid "Arand? You look... nothing like Arand..."
-msgstr ""
+msgstr "Arand mı? Sen... Arand’a hiç benzemiyorsun..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:489
@@ -15365,6 +16047,9 @@ msgid ""
 "Neither in life nor un-life could he find the object of his quest — but it "
 "seems he still gathered many other riches and things of value."
 msgstr ""
+"Demek bu iğrenç yaratık bir zamanlar Ateş Asası’nı arayan bir insanmış. Ne "
+"hayatta ne de ölümsüzlükte aradığını bulabildi — ama görünüşe göre yine de "
+"pek çok başka zenginlik ve değerli şey toplamış."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:511
@@ -15372,6 +16057,8 @@ msgid ""
 "His gold will be useful to us, but his axe may be even more so. The runes "
 "carved into it look dwarvish, and ancient..."
 msgstr ""
+"Altını bizim işimize yarayacak, ama baltası daha da çok yarayabilir. "
+"Üzerine oyulmuş rünler cüce işine ve çok eski görünüyor..."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:526
@@ -15380,6 +16067,9 @@ msgid ""
 "with us dwarves since times o’ legend, have th’ bloodaxes. I never thought "
 "I’d again see such a sight! Not since th’ dark days began..."
 msgstr ""
+"Evet... dediğim gibi babamındı, ama onu döven o değildi. Kanbaltaları "
+"efsaneler zamanından beri biz cücelerle birlikte. Böyle bir manzarayı bir "
+"daha göreceğimi hiç düşünmezdim! Karanlık günler başladığından beri..."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:534
@@ -15388,6 +16078,9 @@ msgid ""
 "Bloodaxe now, like my father an’ his father an’ his father afore him! Ah’m "
 "in yer debt once again, Konrad. Ye given me hope."
 msgstr ""
+"Belki Knalga’nın ruhu o kadar da ölüp gömülmemiştir. Artık ben de bir "
+"Kanbalta’yım, babam ve onun babası ve onun da babası gibi! Sana bir kez "
+"daha borçluyum, Konrad. Bana umut verdin."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:549
@@ -15395,13 +16088,15 @@ msgid ""
 "A weapon worthy of a king — or a prince. I shall personally wield this axe "
 "against the dark queen."
 msgstr ""
+"Bir krala — ya da bir prense — layık bir silah. Bu baltayı karanlık "
+"kraliçeye karşı bizzat kullanacağım."
 
 #. [event]
 #. [unit_type]: id=Dwarvish Bloodaxe, race=dwarf
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:554
 #: data/campaigns/Heir_To_The_Throne/units/Dwarvish_Bloodaxe.cfg:4
 msgid "Dwarvish Bloodaxe"
-msgstr ""
+msgstr "Cüce Kanbaltası"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:555
@@ -15409,6 +16104,8 @@ msgid ""
 "This runic axe increases Konrad’s melee damage by 3, and grants him the "
 "<i>drains</i> special on his melee attacks."
 msgstr ""
+"Bu rünlü balta Konrad’ın yakın dövüş hasarını 3 artırır ve yakın dövüş "
+"saldırılarına <i>emer</i> özelliğini verir."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:587
@@ -15416,6 +16113,8 @@ msgid ""
 "I am glad; the halls of your ancestors are at peace once more, Ulfdain. Now "
 "it is time for us to move on."
 msgstr ""
+"Sevindim; atalarının salonları bir kez daha huzurda, Ulfdain. Şimdi "
+"ilerleme zamanı."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:592
@@ -15423,6 +16122,8 @@ msgid ""
 "More trolls will move in soon, but for now, the caverns are empty. Time for "
 "us to move on."
 msgstr ""
+"Yakında daha fazla trol yerleşecek, ama şimdilik mağaralar boş. İlerleme "
+"zamanı."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:619
@@ -15430,6 +16131,8 @@ msgid ""
 "These halls are old, and our fighting is damaging the walls and pillars. If "
 "we cannot finish soon, the whole cavern might collapse on us!"
 msgstr ""
+"Bu salonlar eski ve çatışmamız duvarlara ve sütunlara zarar veriyor. "
+"Yakında bitiremezsek bütün mağara üzerimize çökebilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:633
@@ -15437,12 +16140,14 @@ msgid ""
 "Our fighting has caused too much damage to these old ruins! The whole "
 "mountain is falling down on us!"
 msgstr ""
+"Çatışmamız bu eski yıkıntılara çok fazla zarar verdi! Bütün dağ üzerimize "
+"çöküyor!"
 
 #. [side]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:51
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:71
 msgid "Knalgans"
-msgstr ""
+msgstr "Knalgalılar"
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:170
@@ -15451,6 +16156,8 @@ msgid ""
 "The Knalgans led Konrad and his men, blindfolded, through a maze of twisting "
 "tunnels and passageways."
 msgstr ""
+"Knalgalılar Konrad’ı ve adamlarını gözleri bağlı olarak kıvrılan tüneller "
+"ve geçitlerden oluşan bir labirentin içinden geçirdi."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:172
@@ -15460,6 +16167,10 @@ msgid ""
 "from the still-seeing dwarves of Konrad’s own party. And at long last, "
 "silence."
 msgstr ""
+"Bayat mağara havasında çekiç sesleri yankılandı, sonra kazmalar, sonra "
+"alçak cüce seslerinin sessiz mırıltısı; araya Konrad’ın grubundaki hâlâ "
+"görebilen cücelerin daha yüksek sesli yorumları karışıyordu. Ve sonunda "
+"sessizlik."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:181
@@ -15467,6 +16178,8 @@ msgid ""
 "The sound of hammers echoed through the stale cave air, then pickaxes, then "
 "the quiet murmur of low dwarvish voices. And at long last, silence."
 msgstr ""
+"Bayat mağara havasında çekiç sesleri yankılandı, sonra kazmalar, sonra "
+"alçak cüce seslerinin sessiz mırıltısı. Ve sonunda sessizlik."
 
 #. [message]: speaker=Geldar
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:195
@@ -15475,23 +16188,26 @@ msgid ""
 "manner of beasts and vermin, lie our trapped miners. Rescue them, and you’ll "
 "be rewarded."
 msgstr ""
+"İşte geldik. Göçüğün başlangıcı. Buranın ötesinde bir yerde, her türden "
+"canavarın ve haşerenin ötesinde, mahsur kalmış madencilerimiz var. Onları "
+"kurtarın, ödüllendirileceksiniz."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:199
 msgid ""
 "It’s just a solid wall of rock. How am I supposed to get through and find "
 "your comrades?"
-msgstr ""
+msgstr "Bu sadece som bir kaya duvarı. Geçip yoldaşlarınızı nasıl bulacağım?"
 
 #. [message]: speaker=Geldar
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:203
 msgid "Dig, human. I must return to my guard duties."
-msgstr ""
+msgstr "Kaz, insan. Ben nöbet görevime dönmeliyim."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:214
 msgid "Find the missing dwarves"
-msgstr ""
+msgstr "Kayıp cüceleri bul"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:234
@@ -15499,6 +16215,8 @@ msgid ""
 "Ulfdain, the Knalgans here have been very evasive about what’s going on. Do "
 "you have any insights?"
 msgstr ""
+"Ulfdain, buradaki Knalgalılar neler olduğu konusunda çok kaçamak "
+"davranıyor. Bir fikrin var mı?"
 
 #. [message]: speaker=Ulfdain
 #. [message]: race=dwarf
@@ -15508,6 +16226,8 @@ msgid ""
 "Aye, I think I can guess. But I cannae tell an outsider, Konrad, not even "
 "you."
 msgstr ""
+"Evet, sanırım tahmin edebilirim. Ama bunu bir yabancıya söyleyemem, Konrad, "
+"sana bile."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:244
@@ -15515,6 +16235,8 @@ msgid ""
 "Friend dwarf, the Knalgans here have been very evasive about what’s going "
 "on. Do you have any insights?"
 msgstr ""
+"Cüce dostum, buradaki Knalgalılar neler olduğu konusunda çok kaçamak "
+"davranıyor. Bir fikrin var mı?"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:324
@@ -15523,11 +16245,14 @@ msgid ""
 "slow going, but we’ll be able to dig our way through the cave-in. That must "
 "be what Geldar meant."
 msgstr ""
+"Buradaki duvarlar kılıçların ve mızrakların yıkabileceği kadar zayıf. Yavaş "
+"ilerleyecek, ama göçüğün içinden kazarak geçebileceğiz. Geldar’ın "
+"kastettiği bu olmalı."
 
 #. [message]: type=Dwarvish Miner
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:343
 msgid "Mining’s a lot easier when you’ve got the proper equipment, aye?"
-msgstr ""
+msgstr "Doğru teçhizatın olunca madencilik çok daha kolay, değil mi?"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:393
@@ -15535,18 +16260,20 @@ msgid ""
 "Look out! The cavern beyond this wall is filled with water, and it’s "
 "flooding into our caves!"
 msgstr ""
+"Dikkat! Bu duvarın ötesindeki mağara suyla dolu ve mağaralarımızı su "
+"basıyor!"
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:448
 msgid "<i>(cough)</i> Who’s there?"
-msgstr ""
+msgstr "<i>(öksürür)</i> Kim var orada?"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:452
 msgid ""
 "I am Prince Konrad of Wesnoth, and a friend of Knalga. I’ve come to rescue "
 "you!"
-msgstr ""
+msgstr "Ben Vesnot Prensi Konrad, Knalga’nın dostu. Seni kurtarmaya geldim!"
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:456
@@ -15554,11 +16281,13 @@ msgid ""
 "Aye, that so? ...ye weren’t who I was expectin’. <i>(cough)</i> But I’m not "
 "about to turn down help."
 msgstr ""
+"Öyle mi? ...beklediğim kişi değildin. <i>(öksürür)</i> Ama yardımı geri "
+"çevirecek değilim."
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:464
 msgid "Yer alive! Quick, git ’im to th’ great hall."
-msgstr ""
+msgstr "Yaşıyorsun! Çabuk, onu büyük salona götürün."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:471
@@ -15567,12 +16296,15 @@ msgid ""
 "but I was led to believe there was a whole posse trapped down here. What’s "
 "the meaning of this?"
 msgstr ""
+"Bütün bunlar, Relgorn, tek bir cüce için mi? Hayatın değerini anlıyorum, "
+"ama burada koca bir grubun mahsur kaldığına inandırılmıştım. Bunun anlamı "
+"ne?"
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:475
 msgid ""
 "Never ye mind, human. But you did right by us, so we’ll do right by you."
-msgstr ""
+msgstr "Sen boş ver, insan. Ama bize iyilik ettin, biz de sana iyilik edeceğiz."
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:479
@@ -15581,6 +16313,8 @@ msgid ""
 "o’ everyone to spare. But those we do have are tough, and well-practiced in "
 "the art of battle."
 msgstr ""
+"Bütün savaşçı türlerimizi isteyeceğini biliyorum, ama herkesten ayıracak "
+"kadar yok. Ama olanlar dayanıklı ve savaş sanatında iyi pişmiş."
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:481
@@ -15588,6 +16322,8 @@ msgid ""
 "Choose two — Fighters, Guardsmen, Thunderers, or Ulfserkers — an’ we’ll send "
 "ye’ enough Knalgans to make a difference in yer quest."
 msgstr ""
+"İkisini seç — Savaşçılar, Muhafızlar, Gürleyiciler ya da Deli Cüceler — "
+"görevinde fark yaratacak kadar Knalgalı gönderelim."
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:494
@@ -15595,71 +16331,72 @@ msgid ""
 "It shall be done, Konrad. May you someday reclaim your birthright — and us "
 "ours."
 msgstr ""
+"Öyle olacak, Konrad. Bir gün doğuştan hakkını geri al — biz de bizimkini."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:509
 msgid "Choose Dwarvish Fighters and Guardsmen"
-msgstr ""
+msgstr "Cüce Savaşçı ve Muhafız seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:510
 msgid "Konrad can now recruit Dwarvish Fighters and Guardsmen!"
-msgstr ""
+msgstr "Konrad artık Cüce Savaşçı ve Muhafız alabilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:515
 msgid "Choose Dwarvish Fighters and Thunderers"
-msgstr ""
+msgstr "Cüce Savaşçı ve Gürleyici seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:516
 msgid "Konrad can now recruit Dwarvish Fighters and Thunderers!"
-msgstr ""
+msgstr "Konrad artık Cüce Savaşçı ve Gürleyici alabilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:521
 msgid "Choose Dwarvish Fighters and Ulfserkers"
-msgstr ""
+msgstr "Cüce Savaşçı ve Deli Cüce seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:522
 msgid "Konrad can now recruit Dwarvish Fighters and Ulfserkers!"
-msgstr ""
+msgstr "Konrad artık Cüce Savaşçı ve Deli Cüce alabilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:527
 msgid "Choose Dwarvish Guardsmen and Thunderers"
-msgstr ""
+msgstr "Cüce Muhafız ve Gürleyici seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:528
 msgid "Konrad can now recruit Dwarvish Guardsmen and Thunderers!"
-msgstr ""
+msgstr "Konrad artık Cüce Muhafız ve Gürleyici alabilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:533
 msgid "Choose Dwarvish Guardsmen and Ulfserkers"
-msgstr ""
+msgstr "Cüce Muhafız ve Deli Cüce seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:534
 msgid "Konrad can now recruit Dwarvish Guardsmen and Ulfserkers!"
-msgstr ""
+msgstr "Konrad artık Cüce Muhafız ve Deli Cüce alabilir!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:539
 msgid "Choose Dwarvish Thunderers and Ulfserkers"
-msgstr ""
+msgstr "Cüce Gürleyici ve Deli Cüce seç"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:540
 msgid "Konrad can now recruit Dwarvish Thunderers and Ulfserkers!"
-msgstr ""
+msgstr "Konrad artık Cüce Gürleyici ve Deli Cüce alabilir!"
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:545
 msgid "Ask for more"
-msgstr ""
+msgstr "Daha fazlasını iste"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:552
@@ -15668,6 +16405,9 @@ msgid ""
 "send aid to Knalga. I understand you have little to give, but right now it "
 "is in both of our best interests to work together!"
 msgstr ""
+"Aşivye’yi yenip tahtımı geri aldığımda Knalga’ya yardım göndermekten "
+"fazlasıyla mutlu olurum. Verecek pek bir şeyinizin olmadığını anlıyorum, "
+"ama şu an birlikte çalışmak ikimizin de çıkarına!"
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:556
@@ -15675,11 +16415,14 @@ msgid ""
 "Aye, an’ I thought I’d live out a peaceful life in th’ west halls, but here "
 "we both are. We can’t spare any more, Konrad, not even for a prince."
 msgstr ""
+"Evet, ben de batı salonlarında huzurlu bir hayat yaşayacağımı sanıyordum, "
+"ama ikimiz de buradayız. Daha fazlasını ayıramayız, Konrad, bir prens için "
+"bile."
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:562
 msgid "Refuse payment"
-msgstr ""
+msgstr "Ödemeyi reddet"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:566
@@ -15688,6 +16431,9 @@ msgid ""
 "demand bread from a starving man? Keep your warriors for Knalga, and may "
 "Knalga one day prosper again."
 msgstr ""
+"Cüce dostum, alabileceğin bütün dövüşçülere ihtiyacın var. Aç bir adamdan "
+"ekmek istemeye ne hakkım var? Savaşçılarını Knalga için sakla ve Knalga bir "
+"gün yeniden refaha kavuşsun."
 
 #. [message]: speaker=Relgorn
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:570
@@ -15695,6 +16441,8 @@ msgid ""
 "You’re a good lad, Konrad. Thank ye, an’ I’m sorry we were so suspicious "
 "when ye first showed up."
 msgstr ""
+"İyi bir delikanlısın, Konrad. Teşekkürler ve ilk geldiğinde bu kadar "
+"şüpheci olduğumuz için üzgünüm."
 
 #. [message]: speaker=Relgorn
 #. this is a hint to the player that there's a special event if they also complete "Lost General" and entirely wipe out the orcs in "Dwarven Doors"
@@ -15704,6 +16452,9 @@ msgid ""
 "what remains o’ it, at least. Between the trolls in the west an’ the orcs in "
 "the Doors we’re just spread too thin. Mebbe if those were gone..."
 msgstr ""
+"Tahtını geri alsan da almasan da Knalga’da — en azından ondan geriye "
+"kalanda — her zaman hoş karşılanacaksın. Batıdaki troller ve Kapılar’daki "
+"orklar arasında fazla dağınığız. Belki onlar gitseydi..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:603
@@ -15711,6 +16462,8 @@ msgid ""
 "We must hurry. We promised Relgorn we would rescue his lost kin, but every "
 "hour we wait is an hour in which some misfortune may befall them."
 msgstr ""
+"Acele etmeliyiz. Relgorn’a kayıp akrabalarını kurtaracağımıza söz verdik, "
+"ama beklediğimiz her saat başlarına bir talihsizlik gelebilecek bir saat."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:610
@@ -15718,6 +16471,8 @@ msgid ""
 "We have taken so long to search for the missing dwarves! Even should we "
 "eventually find them, we will surely find only their corpses..."
 msgstr ""
+"Kayıp cüceleri aramak çok uzun sürdü! Sonunda bulsak bile kesinlikle sadece "
+"cesetlerini bulacağız..."
 
 #. [side]: type=Fire Ant Queen, id=ant_leader
 #. [side]
@@ -15734,6 +16489,9 @@ msgid ""
 "parts of the hewn caverns. Except for disturbances caused by the occasional "
 "rodent, the air in the lower passages was still and tomblike."
 msgstr ""
+"Son cüce yıkıntısını çok geride bırakan grup oyulmuş mağaraların en derin "
+"kısımlarına indi. Ara sıra bir kemirgenin yol açtığı rahatsızlıklar dışında "
+"alt geçitlerdeki hava durgun ve mezar gibiydi."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:265
@@ -15755,12 +16513,16 @@ msgid ""
 "visible. Wind howled and whipped over narrow ledges bridging the depths, "
 "almost as if animated by powerful nearby magic... and approaching evil."
 msgstr ""
+"İleride ne tavanın ne de duvarların göründüğü mağaramsı bir boşluk "
+"uzanıyordu. Rüzgâr derinlikler üzerinde köprü kuran dar çıkıntıların "
+"üzerinde uğulduyor ve kırbaçlıyordu; sanki yakındaki güçlü bir büyü... ve "
+"yaklaşan kötülük tarafından canlandırılmış gibi."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:295
 msgid ""
 "We’ve been traveling for days upon days. Surely the Sceptre is getting close!"
-msgstr ""
+msgstr "Günlerdir yolculuk ediyoruz. Asa yaklaşıyor olmalı!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:299
@@ -15769,6 +16531,9 @@ msgid ""
 "near! The Sceptre was forged here, not far where we now stand. The sheer "
 "power of it!"
 msgstr ""
+"Evet, buralarda olduğunu hissediyorum. Özgür bırakılmak için sesleniyor... "
+"yakında; çok yakında! Asa burada, şu an durduğumuz yerden çok uzak olmayan "
+"bir yerde dövüldü. Şu katıksız güç!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:302
@@ -15777,6 +16542,8 @@ msgid ""
 "It is the fault of my people — Landar’s rebels — that the Sceptre was lost. "
 "It is only fair that I help get it back. Which way should we go, Delfador?"
 msgstr ""
+"Asa’nın kaybolması benim halkımın — Landar’ın isyancılarının — suçu. Onu "
+"geri almaya yardım etmem çok adil. Hangi yoldan gitmeliyiz, Delfador?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:304
@@ -15785,6 +16552,8 @@ msgid ""
 "thought I might actually be seein’ it in person. Which way do we go, "
 "Delfador?"
 msgstr ""
+"Büyürken bana Asa hakkında masallar anlatırlardı... Onu gerçekten bizzat "
+"görebileceğimi hiç düşünmemiştim. Hangi yoldan gidiyoruz, Delfador?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:305
@@ -15793,6 +16562,8 @@ msgid ""
 "proclaim the texts, and so shall it be. Whither shall we go to find the "
 "Sceptre, scholar?"
 msgstr ""
+"Evet, kutsal ateş karanlık yerlere Işık getirecek! Metinler böyle der ve "
+"böyle olacak. Asa’yı bulmak için nereye gideceğiz, âlim?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:306
@@ -15801,6 +16572,9 @@ msgid ""
 "it, long ago. Now ’tis only right that I help ye get it back. Where be the "
 "Sceptre, scholar?"
 msgstr ""
+"Onu siz insanlar için yapan benim halkımdı ve çok uzun zaman önce kaybeden "
+"de benim halkımdı. Şimdi onu geri almanıza yardım etmem çok doğru. Asa "
+"nerede, âlim?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:307
@@ -15808,6 +16582,9 @@ msgid ""
 "I’ve read so much about the lost Sceptre of Fire! I never though I would, "
 "well, actually help <i>find</i> it. Where do we go, Delfador?"
 msgstr ""
+"Kayıp Ateş Asası hakkında o kadar çok şey okudum ki! Onu, şey, gerçekten "
+"<i>bulmaya</i> yardım edeceğimi hiç düşünmemiştim. Nereye gidiyoruz, "
+"Delfador?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:308
@@ -15816,6 +16593,8 @@ msgid ""
 "Konrad, and right the many wrongs of Asheviere. Whither shall we go, "
 "Delfador?"
 msgstr ""
+"Sonunda Garard’ın fermanı yerine gelecek. Asa’yı ele geçireceksin, Konrad, "
+"ve Aşivye’nin pek çok yanlışını düzelteceksin. Nereye gideceğiz, Delfador?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:309
@@ -15824,6 +16603,8 @@ msgid ""
 "I feel the power! It’s overwhelming! I never— well, Delfador, thank you for "
 "trusting me to be here with you. Where shall we start the search?"
 msgstr ""
+"Gücü hissediyorum! Ezici! Hiç— şey, Delfador, burada seninle olmam için "
+"bana güvendiğin için teşekkürler. Aramaya nereden başlayalım?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:311
@@ -15831,11 +16612,13 @@ msgid ""
 "Dis cave good place for troll, but no good place for softskins. Better find "
 "your scep-tar an’ get back to sun-lit places. Which way should we start?"
 msgstr ""
+"Bu mağara trol için iyi yer, ama yumuşak deriler için iyi yer değil. "
+"Asanızı bulup güneşli yerlere dönseniz iyi olur. Hangi yoldan başlamalıyız?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:312
 msgid "Very well — then where? How do we find it?"
-msgstr ""
+msgstr "Pekâlâ — o zaman nereye? Onu nasıl bulacağız?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:316
@@ -15843,6 +16626,9 @@ msgid ""
 "North and east. More than that, I cannot tell. Whatever beasts, monsters, "
 "and other denizens of the dark lurk ahead, I know that we shall prevail."
 msgstr ""
+"Kuzey ve doğu. Bundan fazlasını söyleyemem. İleride hangi hayvanlar, "
+"canavarlar ve karanlığın diğer sakinleri pusuda beklerse beklesin, galip "
+"geleceğimizi biliyorum."
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:324
@@ -15853,7 +16639,7 @@ msgstr "Düşman liderini öldür"
 #. this is deliberately vague, and foreshadows Li'sar's appearance in part two of this scenario
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:329
 msgid "Then, fight to claim the Sceptre"
-msgstr ""
+msgstr "Sonra Asa’yı almak için savaş"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:339
@@ -15861,6 +16647,8 @@ msgid ""
 "The longer you take to defeat the enemy leader, the more time your other "
 "enemies will have to accrue gold."
 msgstr ""
+"Düşman liderini yenmen ne kadar uzun sürerse diğer düşmanlarının altın "
+"biriktirmek için o kadar çok zamanı olur."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:351
@@ -15870,6 +16658,9 @@ msgid ""
 "of Wesnoth. With the Sceptre in my hand even Asheviere would struggle to "
 "deny my claim to the throne."
 msgstr ""
+"Delfador, bana Ateş Asası’nın önemini anlattın. Ve sana inanıyorum! Güçlü "
+"bir büyülü eser ve Vesnot krallarının efsanevi simgesi. Asa elimdeyken "
+"Aşivye bile taht üzerindeki hakkımı inkâr etmekte zorlanır."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:355
@@ -15879,6 +16670,10 @@ msgid ""
 "missed out helping because we had to come here instead. I hope it’ll be "
 "worth it in the end."
 msgstr ""
+"Ama biz bu dağların altında derinlere inerken yurtta sayısız insanın acı "
+"çektiğini bilmek beni üzüyor. Elfler, insanlar, cüceler; buraya gelmek "
+"zorunda olduğumuz için yardım etmeyi kaçırdığımız insanlar. Umarım sonunda "
+"buna değer."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:366
@@ -15886,6 +16681,8 @@ msgid ""
 "Delfador... other than the prophecy about the Sceptre, you haven’t been "
 "keeping any other secrets from me “for my own good”, have you?"
 msgstr ""
+"Delfador... Asa hakkındaki kehanet dışında benden “kendi iyiliğim için” "
+"başka bir sır saklamadın, değil mi?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:370
@@ -15894,13 +16691,16 @@ msgid ""
 "to come to light. Here and now, we must focus on finding the Sceptre if you "
 "are ever to become king."
 msgstr ""
+"Bir tane. Ama merakını dizginlemeni rica ediyorum, çünkü umarım asla gün "
+"ışığına çıkması gerekmez. Burada ve şimdi, bir gün kral olacaksan Asa’yı "
+"bulmaya odaklanmalıyız."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:407
 msgid ""
 "What a strange rock formation. Could this be the resting place of the "
 "Sceptre?"
-msgstr ""
+msgstr "Ne tuhaf bir kaya oluşumu. Asa’nın yattığı yer burası olabilir mi?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:411
@@ -15908,6 +16708,8 @@ msgid ""
 "There is some power about it, to be sure. But we must clear out the leader "
 "of the local fauna before we can investigate further."
 msgstr ""
+"Etrafında bir güç olduğu kesin. Ama daha fazla araştırmadan önce yerel "
+"hayvanların liderini temizlemeliyiz."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:426
@@ -15915,6 +16717,7 @@ msgid ""
 "We’ve been wandering for so long, and we still haven’t cleared our way to "
 "the Sceptre."
 msgstr ""
+"O kadar uzun süredir dolaşıyoruz ki hâlâ Asa’ya giden yolu temizleyemedik."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:430
@@ -15922,6 +16725,8 @@ msgid ""
 "Even if it really is somewhere here, I fear it is beyond our power to "
 "obtain..."
 msgstr ""
+"Gerçekten burada bir yerde olsa bile korkarım onu elde etmek gücümüzün "
+"ötesinde..."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:454
@@ -15929,23 +16734,26 @@ msgid ""
 "That wasn’t so bad! The vermin are defeated, and the way is clear to explore "
 "further."
 msgstr ""
+"O kadar da kötü değildi! Haşereler yenildi ve daha fazla keşfetmek için yol "
+"açık."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:458
 msgid ""
 "I sense great power emanating from the chasm nearby. Everyone, gather round."
-msgstr ""
+msgstr "Yakındaki uçurumdan yayılan büyük bir güç seziyorum. Herkes, toplanın."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:560
 msgid "55 gold"
-msgstr ""
+msgstr "55 altın"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:560
 msgid ""
 "Li’sar’s soldiers have stockpiled some gold here! We’ll put it to better use."
 msgstr ""
+"Lisar’ın askerleri burada biraz altın biriktirmiş! Onu daha iyi kullanırız."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:599
@@ -15955,6 +16763,10 @@ msgid ""
 "provided a small reprieve from the thick blackness. Volcanic fumes drifted "
 "up from cracks in the floor."
 msgstr ""
+"Uçurumun yakınında hava büyülü enerjiyle neredeyse çatırdıyordu. Giderek "
+"ısınıyordu da. Zemin yer yer pürüzsüz ve camsıydı, hafif bir parıltı koyu "
+"karanlıktan biraz olsun kurtuluş sağlıyordu. Zemindeki çatlaklardan "
+"volkanik dumanlar yükseliyordu."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:603
@@ -15972,6 +16784,8 @@ msgid ""
 "We are here. The Sceptre... the earth... the fire... the air around us... "
 "everything! It calls out to be freed — I can barely hold it back in my mind."
 msgstr ""
+"Geldik. Asa... toprak... ateş... etrafımızdaki hava... her şey! Özgür "
+"bırakılmak için sesleniyor — onu zihnimde zar zor tutabiliyorum."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:619
@@ -15982,6 +16796,8 @@ msgid ""
 "I sense it too... there is a strangeness in the air. A fire in the soul of "
 "this place. But where? The cave is empty!"
 msgstr ""
+"Ben de hissediyorum... havada bir tuhaflık var. Bu yerin ruhunda bir ateş. "
+"Ama nerede? Mağara boş!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:623
@@ -15989,6 +16805,8 @@ msgid ""
 "Aye, tha’s nice... except there’s nothin’ here, ye cloud-headed flapdragon! "
 "It’s an empty cave!"
 msgstr ""
+"Evet, bu güzel... ama burada hiçbir şey yok, seni bulut kafalı alık! Boş "
+"bir mağara!"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:624
@@ -15996,6 +16814,8 @@ msgid ""
 "But where is it, o’ great Delfador? The cave here is empty. Do we stand in "
 "the wrong place?"
 msgstr ""
+"Ama nerede, ey yüce Delfador? Buradaki mağara boş. Yanlış yerde mi "
+"duruyoruz?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:625
@@ -16003,6 +16823,8 @@ msgid ""
 "Err... is this one o’ those confusing wizard things? Where’s the Sceptre? "
 "Th’ cave looks pretty empty to me."
 msgstr ""
+"Şey... bu o kafa karıştırıcı büyücü işlerinden biri mi? Asa nerede? Mağara "
+"bana epey boş görünüyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:626
@@ -16010,6 +16832,8 @@ msgid ""
 "Yea, truly there is a strangeness in the air here... not of the Light, but "
 "of something else entirely. But where is the source? The cave stands empty."
 msgstr ""
+"Evet, burada havada gerçekten bir tuhaflık var... Işıktan değil, bambaşka "
+"bir şeyden. Ama kaynağı nerede? Mağara boş duruyor."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:627
@@ -16017,6 +16841,8 @@ msgid ""
 "Err... it— it does? I don’t see anything... Oh! Is this a metaphor? The real "
 "treasure is the friends we made along the way?"
 msgstr ""
+"Şey... öyle— öyle mi? Hiçbir şey görmüyorum... Ah! Bu bir mecaz mı? Asıl "
+"hazine yol boyunca edindiğimiz dostlar mı?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:628
@@ -16024,11 +16850,13 @@ msgid ""
 "Dey say trolls are slow, but even Dosh can see dere’s nothing here. Flat and "
 "empty. Nothing for us to take, is dere?"
 msgstr ""
+"Trollerin yavaş olduğunu söylerler, ama Dosh bile burada hiçbir şey "
+"olmadığını görebiliyor. Düz ve boş. Alacak hiçbir şey yok, değil mi?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:629
 msgid "But where is it? I don’t see a thing!"
-msgstr ""
+msgstr "Ama nerede? Hiçbir şey görmüyorum!"
 
 #. [message]: speaker=Delfador {DELFADOR_VARIATION mentoring}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:633
@@ -16037,11 +16865,14 @@ msgid ""
 "of a dormant volcano, which erupted centuries ago and buried the Sceptre in "
 "rock. It is indeed here, under the cave floor."
 msgstr ""
+"Tam tersine! Araştırmalarım yüzyıllar önce patlayıp Asa’yı kayanın altına "
+"gömen uyuyan bir yanardağın merkezinde durduğumuza inanmamı sağlıyor. "
+"Gerçekten de burada, mağara zemininin altında."
 
 #. [message]: speaker=Delfador {DELFADOR_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:659
 msgid "It shall take time, but my magic can dig the Sceptre out."
-msgstr ""
+msgstr "Zaman alacak, ama büyüm Asa’yı kazıp çıkarabilir."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:695
