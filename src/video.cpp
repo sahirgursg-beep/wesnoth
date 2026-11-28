@@ -368,6 +368,11 @@ void init_window(bool hidden)
 	window_flags |= SDL_WINDOW_RESIZABLE;
 	window_flags |= SDL_WINDOW_HIGH_PIXEL_DENSITY;
 
+#ifdef __EMSCRIPTEN__
+	// Browser build: the canvas always fills the page and follows its size;
+	// the saved resolution, fullscreen and maximized settings do not apply.
+	window_flags |= SDL_WINDOW_FILL_DOCUMENT;
+#else
 	if(prefs::get().fullscreen()) {
 		window_flags |= SDL_WINDOW_FULLSCREEN;
 	}
@@ -375,6 +380,7 @@ void init_window(bool hidden)
 	if(prefs::get().maximized()) {
 		window_flags |= SDL_WINDOW_MAXIMIZED;
 	}
+#endif
 
 	if(hidden) {
 		LOG_DP << "hiding main window";

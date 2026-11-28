@@ -194,6 +194,17 @@
     },
   };
 
+  // SDL's fill-document mode moves every other element of the page into a
+  // hidden <div>; bring the overlay, progress badge and debug log back.
+  new MutationObserver(() => {
+    const hidden = document.getElementById("SDL3_fill_document_background_elements");
+    if (!hidden) { return; }
+    for (const id of ["overlay", "badge", "debuglog"]) {
+      const el = document.getElementById(id);
+      if (el && hidden.contains(el)) { document.body.appendChild(el); }
+    }
+  }).observe(document.body, { childList: true });
+
   // Fallback persistence in case autoPersist is not available.
   setInterval(() => {
     if (window.wesnothStarted && Module.FS) {
