@@ -26,8 +26,13 @@ PACKAGER="$EMSDK/upstream/emscripten/tools/file_packager.py"
 rm -rf "$SITE_DIR" "$STAGE_DIR"
 mkdir -p "$SITE_DIR" "$STAGE_DIR"
 
-# Campaigns shipped in the preview (small, beginner friendly).
-CAMPAIGNS=(Two_Brothers The_South_Guard)
+# Single player campaigns: everything in data/campaigns except the
+# multiplayer World Conquest (which goes into the "extras" package).
+CAMPAIGNS=()
+for d in "$REPO_DIR"/data/campaigns/*/; do
+	n="$(basename "$d")"
+	[ "$n" = World_Conquest ] || CAMPAIGNS+=("$n")
+done
 # Languages shipped besides English.
 LANGUAGES=(tr)
 # Fonts only needed for Chinese/Japanese/Korean (not shipped yet).
@@ -96,14 +101,32 @@ TITLE_BG=(landscape-battlefield.webp landscape-mountains-04.webp landscape-mount
 for n in "${TITLE_BG[@]}"; do CORE+=("data/core/images/story/$n"); done
 # the title screen map itself (data/gui/themes/*/dialogs/title_screen.cfg)
 CORE+=(data/core/images/maps/background.webp data/core/images/maps/titlescreen.webp)
-# campaign WML, maps and scripts (their art and sounds come later)
+# For each campaign only what the campaign list needs: _main.cfg (its
+# scenarios are #ifdef'ed and load only when the campaign is played),
+# achievements, about, and the images _main.cfg shows (icon, background,
+# difficulty pictures). The rest comes in a package per campaign.
 for f in "$REPO_DIR"/data/campaigns/*.cfg; do [ -f "$f" ] && CORE+=("data/campaigns/$(basename "$f")"); done
-for c in "${CAMPAIGNS[@]}"; do
-	for f in "$REPO_DIR/data/campaigns/$c"/*; do
-		n="$(basename "$f")"
-		case "$n" in images|sounds) ;; *) CORE+=("data/campaigns/$c/$n") ;; esac
-	done
-done
+CAMPAIGN_CORE_FILES="$WORK_DIR/campaign-core-files.txt"
+python3 - "$REPO_DIR" "${CAMPAIGNS[@]}" > "$CAMPAIGN_CORE_FILES" <<'EOF2'
+import os, re, sys
+repo, campaigns = sys.argv[1], sys.argv[2:]
+for c in campaigns:
+    base = "data/campaigns/" + c
+    for name in ("_main.cfg", "achievements.cfg", "about.cfg"):
+        if os.path.isfile(os.path.join(repo, base, name)):
+            print(base + "/" + name)
+    text = open(os.path.join(repo, base, "_main.cfg"), encoding="utf-8").read()
+    # only images used by the [campaign] tag itself (icon, image, background,
+    # difficulty pictures), not story art from macros defined in the file
+    m = re.search(r"\[campaign\](.*?)\[/campaign\]", text, re.S)
+    block = m.group(1) if m else ""
+    for path in sorted(set(re.findall(r"(data/campaigns/[A-Za-z0-9_./-]+\.(?:png|webp|jpg))", block))):
+        if "/story/" not in path and os.path.isfile(os.path.join(repo, path)):
+            print(path)
+EOF2
+mapfile -t CAMPAIGN_CORE < "$CAMPAIGN_CORE_FILES"
+CORE+=("${CAMPAIGN_CORE[@]}")
+echo "campaign files in core: ${#CAMPAIGN_CORE[@]}"
 stage core "${CORE[@]}"
 # only offer title backgrounds that are in the package
 python3 - "$STAGE_DIR/core/data/game_config.cfg" "${TITLE_BG[@]}" <<'EOF'
@@ -137,10 +160,52 @@ done
 stage story "${STORY[@]}"
 pack story
 
-EXTRAS=(data/core/sounds)
-for c in "${CAMPAIGNS[@]}"; do EXTRAS+=("data/campaigns/$c/images" "data/campaigns/$c/sounds"); done
-stage extras "${EXTRAS[@]}"
+stage extras data/core/sounds data/campaigns/World_Conquest
+rm -rf "$STAGE_DIR/extras/data/campaigns/World_Conquest/music"
 pack extras
+
+# --- one package per campaign, fetched when the campaign is started.
+#     Music is left out for now.
+CAMPAIGN_MAP="$WORK_DIR/campaign-packages.json"
+echo "{" > "$CAMPAIGN_MAP"
+first=1
+for c in "${CAMPAIGNS[@]}"; do
+	pkg="campaign-$c"
+	stage "$pkg" "data/campaigns/$c"
+	rm -rf "$STAGE_DIR/$pkg/data/campaigns/$c/music"
+	for f in "${CAMPAIGN_CORE[@]}"; do rm -f "$STAGE_DIR/$pkg/$f"; done
+	pack "$pkg"
+	id="$(python3 - "$REPO_DIR/data/campaigns/$c/_main.cfg" <<'EOF2'
+import re, sys
+# the id= directly inside [campaign], not one of a nested tag
+depth, inside = 0, False
+for line in open(sys.argv[1], encoding="utf-8"):
+    s = line.split("#", 1)[0].strip()
+    if s == "[campaign]":
+        inside, depth = True, 0
+        continue
+    if not inside:
+        continue
+    if s == "[/campaign]":
+        break
+    if re.match(r"^\[/", s):
+        depth -= 1
+    elif re.match(r"^\[[a-z_+]", s):
+        depth += 1
+    elif depth == 0:
+        m = re.match(r"^id\s*=\s*(.+)$", s)
+        if m:
+            print(m.group(1).strip().strip('"'))
+            break
+EOF2
+)"
+	[ -n "$id" ] || { echo "no campaign id for $c"; exit 1; }
+	[ $first = 1 ] || echo "," >> "$CAMPAIGN_MAP"
+	printf '  "%s": "%s"' "$id" "$pkg" >> "$CAMPAIGN_MAP"
+	first=0
+done
+printf '\n}\n' >> "$CAMPAIGN_MAP"
+cat "$CAMPAIGN_MAP"
 
 # report anything from the shipped folders that ended up in no package
 python3 - "$REPO_DIR" "$STAGE_DIR" "${CAMPAIGNS[@]}" <<'EOF'
@@ -153,11 +218,11 @@ for pkg in os.listdir(stage):
         for f in files:
             packed.add(os.path.relpath(os.path.join(d, f), root))
 missing = []
-for top in ["data/core/images"] + ["data/campaigns/" + c for c in campaigns]:
+for top in ["data/core/images"] + ["data/campaigns/" + c for c in campaigns if c != "World_Conquest"]:
     for d, _, files in os.walk(os.path.join(repo, top)):
         for f in files:
             rel = os.path.relpath(os.path.join(d, f), repo)
-            if rel not in packed and not rel.endswith((".xcf", ".psd")):
+            if rel not in packed and not rel.endswith((".xcf", ".psd")) and "/music/" not in rel:
                 missing.append(rel)
 print("files not in any package:", len(missing))
 for m in missing[:20]:
@@ -166,13 +231,16 @@ EOF
 
 # --- the game itself and the page
 cp "$BUILD_DIR/wesnoth.js" "$BUILD_DIR/wesnoth.wasm" "$SITE_DIR/"
-python3 - "$REPO_DIR/web/shell/index.html" "$SITE_DIR/index.html" "${PACKAGES[@]}" <<'EOF'
+python3 - "$REPO_DIR/web/shell/index.html" "$SITE_DIR/index.html" "$CAMPAIGN_MAP" "${PACKAGES[@]}" <<'EOF'
 import json, sys
-src, dst, packages = sys.argv[1], sys.argv[2], sys.argv[3:]
+src, dst, campaign_map, packages = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4:]
 html = open(src, encoding="utf-8").read()
-startup, background = packages[:1], packages[1:]
+campaigns = json.load(open(campaign_map))
+startup = packages[:1]
+background = [p for p in packages[1:] if not p.startswith("campaign-")]
 tags = "\n".join('<script src="%s.js"></script>' % p for p in startup)
-config = "<script>window.wesnothBackgroundPackages = %s;</script>" % json.dumps(background)
+config = "<script>window.wesnothBackgroundPackages = %s;\nwindow.wesnothCampaignPackages = %s;</script>" % (
+    json.dumps(background), json.dumps(campaigns))
 assert "<!-- PACKAGES -->" in html and "</head>" in html
 # the list must exist before the page script runs, so it goes into <head>
 html = html.replace("</head>", config + "\n</head>", 1)

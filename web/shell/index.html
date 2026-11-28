@@ -65,19 +65,62 @@
     showError("Bu tarayıcı henüz WebAssembly JSPI desteklemiyor.\nLütfen Chrome veya Edge'in güncel bir sürümünü kullanın.");
   }
 
-  // --- Background data -------------------------------------------------
-  // Only the "core" package is needed for the title screen. The others
-  // (list written by package.sh into window.wesnothBackgroundPackages) are
-  // fetched one by one once the game runs. The game calls
-  // Module.wesnothWaitForData() before it shows a map, and watches
-  // Module.wesnothDataVersion to refresh its image caches.
-  const background = {
-    names: window.wesnothBackgroundPackages || [],
-    done: new Set(),
-    waiting: false,
+  // --- Data packages -----------------------------------------------------
+  // Only the "core" package is needed for the title screen. The background
+  // packages (list written by package.sh into window.wesnothBackgroundPackages)
+  // are fetched one by one once the game runs; a campaign's package
+  // (window.wesnothCampaignPackages: campaign id -> package) only when the
+  // campaign is started. The game calls Module.wesnothWaitForData(campaignId)
+  // before it loads a map, and watches Module.wesnothDataVersion to refresh
+  // its image caches.
+  const packages = {
+    background: window.wesnothBackgroundPackages || [],
+    campaigns: window.wesnothCampaignPackages || {},
+    state: {},          // name -> { promise, resolve, done }
+    current: null,      // package whose download progress setStatus reports
+    waiting: null,      // label shown while the game waits, or null
   };
-  background.ready = new Promise((resolve) => { background.resolve = resolve; });
-  if (background.names.length === 0) { background.resolve(); }
+
+  function packageState(name) {
+    if (!packages.state[name]) {
+      const st = { done: false, started: false };
+      st.promise = new Promise((resolve) => { st.resolve = resolve; });
+      packages.state[name] = st;
+    }
+    return packages.state[name];
+  }
+
+  function loadPackage(name) {
+    const st = packageState(name);
+    if (!st.started) {
+      st.started = true;
+      const script = document.createElement("script");
+      script.src = name + ".js";
+      script.onerror = () => logLine("js-error", "could not load " + script.src);
+      document.body.appendChild(script);
+    }
+    return st.promise;
+  }
+
+  function onPackageUnpacked(name) {
+    const st = packageState(name);
+    if (st.done) { return; }
+    st.done = true;
+    st.resolve();
+    Module.wesnothDataVersion = (Module.wesnothDataVersion | 0) + 1;
+    logLine("data", "unpacked " + name);
+    updateProgress(null);
+  }
+
+  function backgroundDone() {
+    return packages.background.filter((n) => packageState(n).done).length;
+  }
+
+  async function loadBackgroundPackages() {
+    for (const name of packages.background) {
+      await loadPackage(name);
+    }
+  }
 
   function percentOf(text) {
     // file_packager status: "Downloading data... (12345/67890)"
@@ -85,41 +128,15 @@
     return m ? Math.floor(100 * Number(m[1]) / Number(m[2])) : null;
   }
 
-  function backgroundProgress(pct) {
-    const n = background.names.length;
-    const total = n ? Math.floor(((background.done.size + (pct || 0) / 100) / n) * 100) : 100;
-    if (background.done.size >= n) {
-      badgeEl.style.display = "none";
-      return;
-    }
-    badgeEl.style.display = "block";
+  function updateProgress(pct) {
+    const n = packages.background.length;
+    const done = backgroundDone();
+    const total = n ? Math.min(100, Math.floor(((done + (done < n ? (pct || 0) / 100 : 0)) / n) * 100)) : 100;
+    badgeEl.style.display = done >= n ? "none" : "block";
     badgeEl.textContent = "Oyun verileri arka planda indiriliyor… %" + total;
-    if (background.waiting) {
-      barEl.style.width = total + "%";
-      statusEl.textContent = "Harita için oyun verileri indiriliyor… %" + total;
-    }
-  }
-
-  function loadNextBackgroundPackage() {
-    const next = background.names.find((n) => !background.done.has(n) && !background.started?.has(n));
-    if (!next) { return; }
-    (background.started ??= new Set()).add(next);
-    const script = document.createElement("script");
-    script.src = next + ".js";
-    script.onerror = () => logLine("js-error", "could not load " + script.src);
-    document.body.appendChild(script);
-  }
-
-  function onPackageUnpacked(name) {
-    if (!background.names.includes(name) || background.done.has(name)) { return; }
-    background.done.add(name);
-    Module.wesnothDataVersion = (Module.wesnothDataVersion | 0) + 1;
-    logLine("data", "unpacked " + name);
-    backgroundProgress(0);
-    if (background.done.size >= background.names.length) {
-      background.resolve();
-    } else {
-      loadNextBackgroundPackage();
+    if (packages.waiting) {
+      barEl.style.width = (pct === null ? total : pct) + "%";
+      statusEl.textContent = packages.waiting + (pct === null ? "" : " %" + pct);
     }
   }
 
@@ -132,7 +149,7 @@
       if (!text) { return; }
       const pct = percentOf(text);
       if (window.wesnothStarted) {
-        backgroundProgress(pct);
+        updateProgress(pct);
         return;
       }
       if (pct !== null) {
@@ -141,14 +158,19 @@
       }
     },
     wesnothDataVersion: 0,
-    wesnothWaitForData: async () => {
-      if (background.done.size >= background.names.length) { return; }
-      background.waiting = true;
+    wesnothWaitForData: async (campaignId) => {
+      const needed = [...packages.background];
+      const campaignPackage = campaignId && packages.campaigns[campaignId];
+      if (campaignPackage) { needed.push(campaignPackage); }
+      if (needed.every((n) => packageState(n).done)) { return; }
+      packages.waiting = campaignPackage ? "Seferberlik verileri indiriliyor…" : "Harita için oyun verileri indiriliyor…";
       overlay.classList.add("translucent");
       overlay.style.display = "flex";
-      backgroundProgress(0);
-      await background.ready;
-      background.waiting = false;
+      updateProgress(null);
+      // the campaign first, then whatever background data is still missing
+      if (campaignPackage) { await loadPackage(campaignPackage); }
+      await Promise.all(packages.background.map((n) => loadPackage(n)));
+      packages.waiting = null;
       overlay.style.display = "none";
     },
     preRun: [() => {
@@ -174,7 +196,7 @@
       window.wesnothStarted = true;
       statusEl.textContent = "Başlatılıyor…";
       barEl.style.width = "100%";
-      setTimeout(() => { if (!background.waiting) { overlay.style.display = "none"; } }, 300);
+      setTimeout(() => { if (!packages.waiting) { overlay.style.display = "none"; } }, 300);
 
       // Packages call Module.removeRunDependency("datafile_<path>/<name>.data")
       // once their files are in place.
@@ -185,7 +207,7 @@
         if (m) { onPackageUnpacked(m[1]); }
       };
       // Give the title screen a moment before the downloads compete with it.
-      setTimeout(loadNextBackgroundPackage, 1500);
+      setTimeout(loadBackgroundPackages, 1500);
     },
     onExit: (code) => { logLine("exit", String(code)); },
     onAbort: (what) => {

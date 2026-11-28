@@ -22,7 +22,7 @@ WebAssembly with Emscripten, so the game runs in a web browser.
 | Threads | none; places that use `std::thread`/`std::async` (loading screen, spritesheet generator) get a single-threaded path |
 | Blocking main loop | JSPI (Asyncify as fallback for browsers without JSPI) |
 | Saves and preferences | IDBFS (IndexedDB) |
-| Game data | `core` package (config, UI, fonts, Turkish translation) before start; terrain, units, portraits, story art and sounds download in the background; the game waits for them before showing a map |
+| Game data | `core` package (config, UI, fonts, Turkish translation, each campaign's `_main.cfg`) before start; terrain, units, portraits, story art and sounds download in the background; each campaign's scenarios and art (`campaign-<dir>`) download when it is started. The game waits in `game_config_manager::load_game_config_for_game` |
 | Network | disabled for the single-player release |
 
 ## CI
@@ -65,6 +65,7 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 - [x] canvas follows the browser window size (SDL fill-document mode)
 - [x] Turkish translation (default language; `?lang=en` for English)
 - [x] faster start: only the core package before the title screen
-- [ ] music, more campaigns
+- [x] all single player campaigns (music not yet)
+- [ ] music
 - [ ] browsers without JSPI (Asyncify build)
 - [x] saves persist across reloads (IDBFS); preferences are written when the tab is hidden or closed

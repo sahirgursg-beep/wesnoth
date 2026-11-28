@@ -41,6 +41,32 @@
 #include "theme.hpp"
 #include "units/types.hpp"
 
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+
+/**
+ * Browser build: only the data needed for the title screen is downloaded
+ * before the game starts; the rest (unit/terrain images, sounds, ...) is
+ * fetched in the background by the page, and each campaign's scenarios and
+ * art only when that campaign is played. Anything that shows a map waits
+ * here until its data is there (the page shows a progress overlay meanwhile).
+ */
+EM_ASYNC_JS(void, web_wait_for_game_data_js, (const char* campaign_id), {
+	if (Module.wesnothWaitForData) {
+		await Module.wesnothWaitForData(UTF8ToString(campaign_id));
+	}
+});
+
+void web_wait_for_game_data(const std::string& campaign_id)
+{
+	web_wait_for_game_data_js(campaign_id.c_str());
+	// Images and sounds looked up before their package arrived were cached as missing.
+	image::flush_cache();
+	sound::flush_cache();
+}
+
+#endif
+
 static lg::log_domain log_config("config");
 #define ERR_CONFIG LOG_STREAM(err, log_config)
 #define WRN_CONFIG LOG_STREAM(warn, log_config)
@@ -674,6 +700,9 @@ void game_config_manager::reload_changed_game_config()
 
 void game_config_manager::load_game_config_for_editor()
 {
+#ifdef __EMSCRIPTEN__
+	web_wait_for_game_data();
+#endif
 	game_config::scoped_preproc_define editor("EDITOR");
 	load_game_config_with_loadscreen(NO_FORCE_RELOAD, nullptr, "");
 }
@@ -681,6 +710,10 @@ void game_config_manager::load_game_config_for_editor()
 void game_config_manager::load_game_config_for_game(
 	const game_classification& classification, const std::string& scenario_id)
 {
+#ifdef __EMSCRIPTEN__
+	// the campaign's scenarios and art come in their own package
+	web_wait_for_game_data(classification.campaign);
+#endif
 	game_config::scoped_preproc_define difficulty(classification.difficulty,
 		!classification.difficulty.empty());
 	game_config::scoped_preproc_define campaign(classification.campaign_define,

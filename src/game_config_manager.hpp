@@ -25,6 +25,14 @@
 #include "utils/optional_fwd.hpp"
 
 class game_classification;
+
+#ifdef __EMSCRIPTEN__
+/**
+ * Browser build: waits until the background data packages and, if given,
+ * the package of the campaign @a campaign_id have been downloaded.
+ */
+void web_wait_for_game_data(const std::string& campaign_id = "");
+#endif
 class game_config_manager
 {
 	friend class game_config_view;

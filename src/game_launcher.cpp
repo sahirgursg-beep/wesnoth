@@ -81,27 +81,7 @@
 #endif
 
 #ifdef __EMSCRIPTEN__
-#include "picture.hpp"
 #include <emscripten.h>
-
-/**
- * Browser build: only the data needed for the title screen is downloaded
- * before the game starts; the rest (unit/terrain images, sounds, ...) is
- * fetched in the background by the page. Anything that shows a map waits
- * here until that is done (the page shows a progress overlay meanwhile).
- */
-EM_ASYNC_JS(void, web_wait_for_game_data_js, (), {
-	if (Module.wesnothWaitForData) {
-		await Module.wesnothWaitForData();
-	}
-});
-
-static void web_wait_for_game_data()
-{
-	web_wait_for_game_data_js();
-	// Images looked up before their package arrived were cached as missing.
-	image::flush_cache();
-}
 
 /**
  * Browser build: the game is never shut down normally (the tab is just
@@ -1038,7 +1018,7 @@ bool game_launcher::change_language()
 void game_launcher::launch_game(reload_mode reload)
 {
 #ifdef __EMSCRIPTEN__
-	web_wait_for_game_data();
+	web_wait_for_game_data(state_.classification().campaign);
 #endif
 	assert(!load_data_);
 	if(play_replay_) {
