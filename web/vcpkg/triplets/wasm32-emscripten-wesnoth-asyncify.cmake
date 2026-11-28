@@ -37,7 +37,8 @@ set(VCPKG_BUILD_TYPE release)
 # The wrapper toolchain includes Emscripten.cmake and then applies the flags below.
 set(VCPKG_CHAINLOAD_TOOLCHAIN_FILE "${VCPKG_ROOT_DIR}/scripts/toolchains/emscripten.cmake")
 
-set(WESNOTH_WASM_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten")
-set(VCPKG_C_FLAGS "${WESNOTH_WASM_FLAGS}")
-set(VCPKG_CXX_FLAGS "${WESNOTH_WASM_FLAGS}")
-set(VCPKG_LINKER_FLAGS "${WESNOTH_WASM_FLAGS}")
+# C code gets no -fexceptions: it needs no landing pads, and with them
+# C-only programs (e.g. cairo's csi tools) fail to link (__resumeException).
+set(VCPKG_C_FLAGS "-sSUPPORT_LONGJMP=emscripten")
+set(VCPKG_CXX_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten")
+set(VCPKG_LINKER_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten")
