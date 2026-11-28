@@ -19,7 +19,9 @@ EMSDK_VERSION="${EMSDK_VERSION:-latest}"
 VCPKG_COMMIT="${VCPKG_COMMIT:-$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["builtin-baseline"])' "$REPO_DIR/vcpkg.json")}"
 VCPKG_BINARY_CACHE="${VCPKG_BINARY_CACHE:-$WORK_DIR/vcpkg-bincache}"
 LOG_DIR="${LOG_DIR:-$WORK_DIR/logs}"
-TRIPLET=wasm32-emscripten-wesnoth
+# WEB_VARIANT: "jspi" (default) or "asyncify" (browsers without JSPI)
+WEB_VARIANT="${WEB_VARIANT:-jspi}"
+if [ "$WEB_VARIANT" = asyncify ]; then TRIPLET=wasm32-emscripten-wesnoth-asyncify; else TRIPLET=wasm32-emscripten-wesnoth; fi
 
 mkdir -p "$WORK_DIR" "$VCPKG_BINARY_CACHE" "$LOG_DIR"
 exec > >(tee -a "$LOG_DIR/deps.log") 2>&1

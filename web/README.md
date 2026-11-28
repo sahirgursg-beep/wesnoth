@@ -20,7 +20,7 @@ WebAssembly with Emscripten, so the game runs in a web browser.
 | Toolchain | Emscripten (emsdk), CMake, vcpkg with the `wasm32-emscripten-wesnoth` triplet in `web/vcpkg/triplets` |
 | Exceptions | native wasm exceptions (`-fwasm-exceptions`), wasm setjmp/longjmp |
 | Threads | none; places that use `std::thread`/`std::async` (loading screen, spritesheet generator) get a single-threaded path |
-| Blocking main loop | JSPI (Asyncify as fallback for browsers without JSPI) |
+| Blocking main loop | Two engines: JSPI + native wasm exceptions (Chrome/Edge/Firefox), and Asyncify + JS exceptions (Safari, all iOS browsers; separate vcpkg triplet `wasm32-emscripten-wesnoth-asyncify`). The page picks one; `?engine=asyncify` forces the second. |
 | Saves and preferences | IDBFS (IndexedDB) |
 | Game data | `core` package (config, UI, fonts, Turkish translation, each campaign's `_main.cfg`) before start; terrain, units, portraits, story art and sounds download in the background; each campaign's scenarios and art (`campaign-<dir>`) download when it is started. The game waits in `game_config_manager::load_game_config_for_game` |
 | Network | disabled for the single-player release |
@@ -55,7 +55,7 @@ Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports):
 
 ## Status
 
-Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
+Preview: https://sahirgursg-beep.github.io/wesnoth/ (any current browser; iOS uses the Asyncify engine)
 
 
 - [x] dependencies build for wasm32
@@ -68,5 +68,5 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 - [x] faster start: only the core package before the title screen
 - [x] all single player campaigns (music not yet)
 - [ ] music
-- [ ] browsers without JSPI (Asyncify build)
+- [~] browsers without JSPI (Asyncify build: CI builds it, needs testing on iOS)
 - [x] saves persist across reloads (IDBFS); preferences are written when the tab is hidden or closed

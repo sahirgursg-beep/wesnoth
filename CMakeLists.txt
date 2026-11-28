@@ -63,11 +63,20 @@ if(EMSCRIPTEN)
 	list(REMOVE_ITEM BOOST_REQ_COMPONENTS coroutine)
 	# The browser build is single threaded; Asio must not expect pthreads.
 	add_compile_definitions(BOOST_ASIO_DISABLE_THREADS)
-	# Native wasm exceptions and setjmp/longjmp, matching the vcpkg triplet.
-	# Set here because CMAKE_CXX_FLAGS is replaced further down; without
-	# -fwasm-exceptions, emcc silently drops every catch block.
-	add_compile_options(-fwasm-exceptions -sSUPPORT_LONGJMP=wasm)
-	add_link_options(-fwasm-exceptions -sSUPPORT_LONGJMP=wasm)
+	# Exceptions and setjmp/longjmp, matching the vcpkg triplet. Set here
+	# because CMAKE_CXX_FLAGS is replaced further down; without exception
+	# flags, emcc silently drops every catch block.
+	# JSPI build: native wasm exceptions. Asyncify build (browsers without
+	# JSPI, e.g. Safari/iOS): JavaScript exceptions, as Asyncify cannot
+	# handle native wasm exceptions.
+	option(WESNOTH_WEB_ASYNCIFY "Browser build using Asyncify instead of JSPI" OFF)
+	if(WESNOTH_WEB_ASYNCIFY)
+		set(WESNOTH_WEB_EH_FLAGS -fexceptions -sSUPPORT_LONGJMP=emscripten)
+	else()
+		set(WESNOTH_WEB_EH_FLAGS -fwasm-exceptions -sSUPPORT_LONGJMP=wasm)
+	endif()
+	add_compile_options(${WESNOTH_WEB_EH_FLAGS})
+	add_link_options(${WESNOTH_WEB_EH_FLAGS})
 endif()
 
 if(ENABLE_TESTS)

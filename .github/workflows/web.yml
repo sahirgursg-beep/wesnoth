@@ -31,10 +31,19 @@ env:
   CCACHE_COMPILERCHECK: content
 
 jobs:
-  deps:
-    name: Dependencies (vcpkg, wasm32)
+  # Two engine builds: "jspi" (Chrome/Edge/Firefox) and "asyncify" (Safari and
+  # every iOS browser, which lack WebAssembly JSPI). Each needs its own
+  # dependency triplet because the exception model differs.
+  build:
+    name: Build (${{ matrix.variant }})
     runs-on: ubuntu-latest
     timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        variant: [jspi, asyncify]
+    env:
+      WEB_VARIANT: ${{ matrix.variant }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -51,10 +60,11 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.VCPKG_BINARY_CACHE }}
-          key: vcpkg-wasm-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-${{ github.run_id }}
+          key: vcpkg-wasm-${{ matrix.variant }}-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-${{ github.run_id }}
           restore-keys: |
-            vcpkg-wasm-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-
-            vcpkg-wasm-
+            vcpkg-wasm-${{ matrix.variant }}-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-
+            vcpkg-wasm-${{ matrix.variant }}-
+            ${{ matrix.variant == 'jspi' && 'vcpkg-wasm-' || 'vcpkg-wasm-asyncify-' }}
 
       - name: Build dependencies
         run: web/ci/deps.sh
@@ -64,20 +74,22 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ${{ env.VCPKG_BINARY_CACHE }}
-          key: vcpkg-wasm-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-${{ github.run_id }}
+          key: vcpkg-wasm-${{ matrix.variant }}-${{ hashFiles('vcpkg.json', 'web/vcpkg/**') }}-${{ github.run_id }}
 
       - name: Publish dependency logs
         if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: web/ci/publish-logs.sh "$LOG_DIR" deps
+        run: web/ci/publish-logs.sh "$LOG_DIR" deps-${{ matrix.variant }}
 
       - name: Restore ccache
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.CCACHE_DIR }}
-          key: ccache-wasm-${{ github.run_id }}
-          restore-keys: ccache-wasm-
+          key: ccache-wasm-${{ matrix.variant }}-${{ github.run_id }}
+          restore-keys: |
+            ccache-wasm-${{ matrix.variant }}-
+            ccache-wasm-
 
       - name: Build game
         id: game
@@ -88,16 +100,56 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ${{ env.CCACHE_DIR }}
-          key: ccache-wasm-${{ github.run_id }}
+          key: ccache-wasm-${{ matrix.variant }}-${{ github.run_id }}
 
       - name: Publish game logs
         if: always() && steps.game.outcome != 'skipped'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: web/ci/publish-logs.sh "$GAME_LOG_DIR" game
+        run: web/ci/publish-logs.sh "$GAME_LOG_DIR" game-${{ matrix.variant }}
+
+      - name: Upload engine
+        uses: actions/upload-artifact@v4
+        with:
+          name: engine-${{ matrix.variant }}
+          path: |
+            ${{ env.WORK_DIR }}/build/wesnoth.js
+            ${{ env.WORK_DIR }}/build/wesnoth.wasm
+          retention-days: 3
+
+  site:
+    name: Package site
+    needs: build
+    # deploy whatever engines were built (one failing variant must not block the other)
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Host tools
+        run: sudo apt-get install -y -qq gettext
+
+      - name: emsdk (file_packager)
+        run: |
+          git clone -q --depth 1 https://github.com/emscripten-core/emsdk "$WORK_DIR/emsdk"
+          cd "$WORK_DIR/emsdk" && ./emsdk install "$EMSDK_VERSION" >/dev/null && ./emsdk activate "$EMSDK_VERSION" >/dev/null
+
+      - name: Download engines
+        uses: actions/download-artifact@v4
+        with:
+          pattern: engine-*
+          path: ${{ env.WORK_DIR }}/engines-raw
 
       - name: Package site
-        run: web/ci/package.sh
+        run: |
+          mkdir -p "$WORK_DIR/engines"
+          for v in jspi asyncify; do
+            [ -d "$WORK_DIR/engines-raw/engine-$v" ] && mv "$WORK_DIR/engines-raw/engine-$v" "$WORK_DIR/engines/$v"
+          done
+          ls -laR "$WORK_DIR/engines"
+          ENGINES_DIR="$WORK_DIR/engines" web/ci/package.sh
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
@@ -106,7 +158,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: deps
+    needs: site
     runs-on: ubuntu-latest
     environment:
       name: github-pages

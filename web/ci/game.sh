@@ -13,9 +13,17 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 WORK_DIR="${WORK_DIR:-$HOME/webbuild}"
 BUILD_DIR="${BUILD_DIR:-$WORK_DIR/build}"
 GAME_LOG_DIR="${GAME_LOG_DIR:-$WORK_DIR/logs-game}"
-TRIPLET=wasm32-emscripten-wesnoth
+WEB_VARIANT="${WEB_VARIANT:-jspi}"
+if [ "$WEB_VARIANT" = asyncify ]; then
+	TRIPLET=wasm32-emscripten-wesnoth-asyncify
+	WASM_FLAGS="-fexceptions -sSUPPORT_LONGJMP=emscripten"
+	ASYNCIFY=ON
+else
+	TRIPLET=wasm32-emscripten-wesnoth
+	WASM_FLAGS="-fwasm-exceptions -sSUPPORT_LONGJMP=wasm"
+	ASYNCIFY=OFF
+fi
 VCPKG_ROOT="$WORK_DIR/vcpkg"
-WASM_FLAGS="-fwasm-exceptions -sSUPPORT_LONGJMP=wasm"
 
 mkdir -p "$GAME_LOG_DIR"
 
@@ -44,6 +52,7 @@ cmake -S "$REPO_DIR" -B "$BUILD_DIR" -G Ninja \
 	-DCMAKE_C_FLAGS="$WASM_FLAGS" \
 	-DCMAKE_CXX_FLAGS="$WASM_FLAGS" \
 	-DCMAKE_EXE_LINKER_FLAGS="$WASM_FLAGS" \
+	-DWESNOTH_WEB_ASYNCIFY=$ASYNCIFY \
 	-DENABLE_GAME=ON \
 	-DENABLE_SERVER=OFF \
 	-DENABLE_CAMPAIGN_SERVER=OFF \

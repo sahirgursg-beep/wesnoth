@@ -230,11 +230,26 @@ for m in missing[:20]:
 EOF
 
 # --- the game itself and the page
-cp "$BUILD_DIR/wesnoth.js" "$BUILD_DIR/wesnoth.wasm" "$SITE_DIR/"
-# GitHub Pages does not compress .wasm; ship a gzipped copy that the page
-# unpacks with DecompressionStream (the plain file stays as a fallback).
-gzip -9 -k -n "$SITE_DIR/wesnoth.wasm"
-echo "wesnoth.wasm: $(du -h "$SITE_DIR/wesnoth.wasm" | cut -f1), gzipped: $(du -h "$SITE_DIR/wesnoth.wasm.gz" | cut -f1)"
+# Engines: ENGINES_DIR/<name>/wesnoth.{js,wasm} for each built variant
+# (jspi -> wesnoth.*, asyncify -> wesnoth-asyncify.*); without ENGINES_DIR the
+# JSPI engine is taken from BUILD_DIR. The page picks one at runtime.
+copy_engine() { # <dir> <site name>
+	[ -f "$1/wesnoth.js" ] && [ -f "$1/wesnoth.wasm" ] || { echo "engine $2 missing in $1"; return 0; }
+	# the loader looks for the .wasm next to its own file name
+	sed "s/wesnoth\.wasm/$2.wasm/g" "$1/wesnoth.js" > "$SITE_DIR/$2.js"
+	cp "$1/wesnoth.wasm" "$SITE_DIR/$2.wasm"
+	# GitHub Pages does not compress .wasm; ship a gzipped copy that the page
+	# unpacks with DecompressionStream (the plain file stays as a fallback).
+	gzip -9 -k -n "$SITE_DIR/$2.wasm"
+	echo "$2.wasm: $(du -h "$SITE_DIR/$2.wasm" | cut -f1), gzipped: $(du -h "$SITE_DIR/$2.wasm.gz" | cut -f1)"
+}
+if [ -n "${ENGINES_DIR:-}" ]; then
+	copy_engine "$ENGINES_DIR/jspi" wesnoth
+	copy_engine "$ENGINES_DIR/asyncify" wesnoth-asyncify
+else
+	copy_engine "$BUILD_DIR" wesnoth
+fi
+[ -f "$SITE_DIR/wesnoth.js" ] || [ -f "$SITE_DIR/wesnoth-asyncify.js" ] || { echo "no engine built"; exit 1; }
 python3 - "$REPO_DIR/web/shell/index.html" "$SITE_DIR/index.html" "$CAMPAIGN_MAP" "${PACKAGES[@]}" <<'EOF'
 import json, sys
 src, dst, campaign_map, packages = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4:]

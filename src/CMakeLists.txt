@@ -180,16 +180,20 @@ if(ENABLE_GAME)
 			-sALLOW_MEMORY_GROWTH=1
 			-sMAXIMUM_MEMORY=4GB
 			-sSTACK_SIZE=${WESNOTH_WEB_STACK_SIZE}
-			-sJSPI=1
 			-sFORCE_FILESYSTEM=1
 			-sEXIT_RUNTIME=0
 			-sENVIRONMENT=web
 			-sEXPORTED_RUNTIME_METHODS=FS,IDBFS,ENV,callMain,addRunDependency,removeRunDependency
 			-sEXPORT_EXCEPTION_HANDLING_HELPERS=1
-			-sEXCEPTION_STACK_TRACES=1
 			--profiling-funcs
 			-lidbfs.js
 		)
+		if(WESNOTH_WEB_ASYNCIFY)
+			# Browsers without JSPI (Safari, all iOS browsers)
+			target_link_options(wesnoth PRIVATE -sASYNCIFY=1 -sASYNCIFY_STACK_SIZE=1048576)
+		else()
+			target_link_options(wesnoth PRIVATE -sJSPI=1 -sEXCEPTION_STACK_TRACES=1)
+		endif()
 	endif()
 
 	install(TARGETS wesnoth DESTINATION ${CMAKE_INSTALL_BINDIR})
