@@ -18,7 +18,11 @@ KEEP_LANGUAGES = {"en", "tr"}
 icupkg, data_file, work = sys.argv[1:4]
 items_file = os.path.join(work, "icudata-items.txt")
 remove_file = os.path.join(work, "icudata-remove.txt")
-pruned_file = os.path.join(work, "icudata-pruned.dat")
+# icupkg names the package after the output file, so it must keep the
+# original name (icudt<version><endianness>.dat)
+pruned_dir = os.path.join(work, "icudata-pruned")
+os.makedirs(pruned_dir, exist_ok=True)
+pruned_file = os.path.join(pruned_dir, os.path.basename(data_file))
 
 subprocess.run([icupkg, "-l", "-o", items_file, data_file], check=True)
 items = [line.strip() for line in open(items_file, encoding="utf-8") if line.strip()]
