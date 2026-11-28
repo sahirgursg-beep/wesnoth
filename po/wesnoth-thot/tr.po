@@ -316,7 +316,7 @@ msgid ""
 "enough one to get this."
 msgstr ""
 "Bu pelerin iğnesindeki damga, doğu tepelerindeki Kal Karta’da yaşayan "
-"akrabalarımızın damgası; Tallin orkların Kanalga işgalini kırmadan önceden "
+"akrabalarımızın damgası; Talin orkların Kanalga işgalini kırmadan önceden "
 "beri onlardan hiç haber almadık. Bir orkun bunu ele geçirmiş olması bizi "
 "kaygılandırıyor; hiçbir yabancı bilgi ustalarının varlığını bile bilmemeli, "
 "bunu alacak kadar birine yaklaşması ise hiç olmamalı."
@@ -2427,7 +2427,7 @@ msgid ""
 msgstr ""
 "Dehşet ve işkence dolu bir hikâye anlattılar; maskeli cücelerden ve "
 "geceleri inen baltalardan. İttifak’ın Lord Koruyucusu ve bütün özgür "
-"insanların müttefiki olarak Tallin bu kötülüğü yok etmenizi istiyor."
+"insanların müttefiki olarak Talin bu kötülüğü yok etmenizi istiyor."
 
 #. [message]: speaker=Pelias
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/11_Epilogue.cfg:201
