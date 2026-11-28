@@ -61,8 +61,7 @@ msgid ""
 msgstr ""
 "Kötü bir büyücü küçük bir Magre köyünü ve ahalisini tehdit ediyor. Köyün "
 "büyücüsü yardım istemek için savaşçı kardeşine gönderildi, fakat işler "
-"yolunda gitmedi. Ona yardım edebilir misin?\n"
-"\n"
+"yolunda gitmedi. Ona yardım edebilir misin?"
 
 #. [campaign]: id=Two_Brothers
 #: data/campaigns/Two_Brothers/_main.cfg:23

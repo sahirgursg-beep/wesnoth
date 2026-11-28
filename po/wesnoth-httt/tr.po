@@ -34,9 +34,7 @@ msgstr "TVK"
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:23
 msgid ""
 "Fight to regain the throne of Wesnoth, of which you are the legitimate heir."
-msgstr ""
-"Meşru varisi olduğun Vesnot tahtını tekrar kazanmak için savaş.\n"
-"\n"
+msgstr "Meşru varisi olduğun Vesnot tahtını tekrar kazanmak için savaş."
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:25

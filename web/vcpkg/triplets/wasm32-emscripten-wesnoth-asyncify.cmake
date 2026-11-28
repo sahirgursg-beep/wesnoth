@@ -41,4 +41,7 @@ set(VCPKG_CHAINLOAD_TOOLCHAIN_FILE "${VCPKG_ROOT_DIR}/scripts/toolchains/emscrip
 # C-only programs (e.g. cairo's csi tools) fail to link (__resumeException).
 set(VCPKG_C_FLAGS "-sSUPPORT_LONGJMP=emscripten")
 set(VCPKG_CXX_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten")
-set(VCPKG_LINKER_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten")
+# C programs that link C++ static libraries (pango's utils use harfbuzz) need
+# the C++ runtime and JS exception helpers: -sDEFAULT_TO_CXX links them even
+# when the driver is emcc.
+set(VCPKG_LINKER_FLAGS "-fexceptions -sSUPPORT_LONGJMP=emscripten -sDEFAULT_TO_CXX")
