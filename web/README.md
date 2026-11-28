@@ -62,7 +62,7 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 - [x] published on GitHub Pages
 - [x] game starts and shows the main menu
 - [x] a campaign scenario loads and responds to input (A Tale of Two Brothers)
-- [ ] canvas follows the browser window size
+- [x] canvas follows the browser window size (SDL fill-document mode)
 - [x] Turkish translation (default language; `?lang=en` for English)
 - [x] faster start: only the core package before the title screen
 - [ ] music, more campaigns
