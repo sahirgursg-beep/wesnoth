@@ -11,6 +11,7 @@ vcpkg_extract_source_archive(SOURCE_PATH
     PATCHES
         relax-gi-requirement.diff
         emscripten-fnptr.patch # wesnoth-web: exact function signatures (wasm)
+        emscripten-no-threads.patch # wesnoth-web: fontconfig work without a worker thread
 )
 
 if("introspection" IN_LIST FEATURES)

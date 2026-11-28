@@ -1,0 +1,91 @@
+diff --git a/pango/pangofc-fontmap.c b/pango/pangofc-fontmap.c
+index a48943e..e223974 100644
+--- a/pango/pangofc-fontmap.c
++++ b/pango/pangofc-fontmap.c
+@@ -1028,6 +1028,36 @@ fc_thread_func (gpointer data)
+   return NULL;
+ }
+ 
++#ifdef __EMSCRIPTEN__
++/* wesnoth-web: there are no threads in the browser build, so do the
++ * fontconfig work right away instead of queueing it for the worker thread.
++ * Callers then find the result already in place and never wait. */
++static void
++fc_queue_push (GAsyncQueue *queue,
++               ThreadData  *td)
++{
++  (void) queue;
++
++  switch (td->op)
++    {
++    case FC_INIT:
++      init_in_thread (td);
++      break;
++    case FC_MATCH:
++      match_in_thread (td);
++      break;
++    case FC_SORT:
++      sort_in_thread (td);
++      break;
++    default:
++      thread_data_free (td);
++      break;
++    }
++}
++#else
++#define fc_queue_push(queue, td) g_async_queue_push ((queue), (td))
++#endif
++
+ static PangoFcPatterns *
+ pango_fc_patterns_new (FcPattern *pat, PangoFcFontMap *fontmap)
+ {
+@@ -1048,7 +1078,7 @@ pango_fc_patterns_new (FcPattern *pat, PangoFcFontMap *fontmap)
+   g_mutex_init (&pats->mutex);
+   g_cond_init (&pats->cond);
+ 
+-  g_async_queue_push (fontmap->priv->queue, thread_data_new (FC_MATCH, pats));
++  fc_queue_push (fontmap->priv->queue, thread_data_new (FC_MATCH, pats));
+ 
+   g_hash_table_insert (fontmap->priv->patterns_hash, pats->pattern, pats);
+ 
+@@ -1224,7 +1254,7 @@ pango_fc_patterns_get_font_pattern (PangoFcPatterns *pats, int i, gboolean *prep
+       before = PANGO_TRACE_CURRENT_TIME;
+ 
+       if (!pats->fontset)
+-        g_async_queue_push (pats->fontmap->priv->queue, thread_data_new (FC_SORT, pats));
++        fc_queue_push (pats->fontmap->priv->queue, thread_data_new (FC_SORT, pats));
+ 
+       g_mutex_lock (&pats->mutex);
+ 
+@@ -1526,6 +1556,14 @@ G_DEFINE_ABSTRACT_TYPE_WITH_CODE (PangoFcFontMap, pango_fc_font_map, PANGO_TYPE_
+ static void
+ start_fontconfig_thread (PangoFcFontMap *fcfontmap)
+ {
++#ifdef __EMSCRIPTEN__
++  /* wesnoth-web: no worker thread; initialize fontconfig right here. */
++  if (fc_initialized == DEFAULT_CONFIG_NOT_INITIALIZED)
++    {
++      fc_initialized = DEFAULT_CONFIG_INITIALIZING;
++      init_in_thread (thread_data_new (FC_INIT, NULL));
++    }
++#else
+   GThread *thread;
+ 
+   g_mutex_lock (&fc_init_mutex);
+@@ -1541,6 +1579,7 @@ start_fontconfig_thread (PangoFcFontMap *fcfontmap)
+     }
+ 
+   g_mutex_unlock (&fc_init_mutex);
++#endif
+ }
+ 
+ static void
+@@ -1631,7 +1670,7 @@ pango_fc_font_map_fini (PangoFcFontMap *fcfontmap)
+   priv->n_families = -1;
+   priv->families = NULL;
+ 
+-  g_async_queue_push (fcfontmap->priv->queue, thread_data_new (FC_END, NULL));
++  fc_queue_push (fcfontmap->priv->queue, thread_data_new (FC_END, NULL));
+ 
+   g_async_queue_unref (priv->queue);
+   priv->queue = NULL;

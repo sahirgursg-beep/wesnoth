@@ -49,7 +49,7 @@ Port fixes go in `web/vcpkg/ports/<port>` (vcpkg overlay ports):
 |---|---|
 | `vcpkg-tool-meson` | never add `-pthread` with emcc, so all libraries are single threaded |
 | `glib` | `res_query()` stub, `size_t` detection with emcc, no `pthread_*_np`, no tools; exact function pointer signatures (from kleisauke's wasm-vips GLib) |
-| `pango` | no tools; exact function pointer signatures (interface inits, `g_list_foreach`) |
+| `pango` | no tools; exact function pointer signatures (interface inits, `g_list_foreach`); fontconfig work runs inline instead of on a worker thread |
 | `boost-locale` | CMake `source_group` error |
 
 ## Status
