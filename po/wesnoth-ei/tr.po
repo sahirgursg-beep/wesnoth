@@ -6048,7 +6048,7 @@ msgstr ""
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:843
 msgid "The irony seems lost on you."
-msgstr ""
+msgstr "Görünüşe göre ironiyi kaçırıyorsun."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:847
@@ -6056,6 +6056,8 @@ msgid ""
 "Back then this place was full of traps and undead, and it will no doubt be "
 "worse now that the wild beasts have had a chance to move in."
 msgstr ""
+"O zamanlar burası tuzaklar ve yarı ölülerle doluydu; artık vahşi "
+"hayvanların da yerleşme fırsatı olduğuna göre hiç şüphesiz daha kötüdür."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:858
@@ -6063,6 +6065,8 @@ msgid ""
 "Ravan sealed this place before our last meeting. I need a moment to remember "
 "the incantation."
 msgstr ""
+"Ravan son görüşmemizden önce burayı mühürlemişti. Büyü sözlerini hatırlamak "
+"için bir dakikaya ihtiyacım var."
 
 #. [message]: speaker=Dacyn
 #. the "red star" refers to the Ruby of Fire, and the "red stone" refers to the Amulet of the Veil FYI but these are not to be explicitly mentioned
@@ -6074,6 +6078,10 @@ msgid ""
 "The black pool swallows all voices,\n"
 "The darkness between worlds opens its maw."
 msgstr ""
+"Kızıl yıldız alev alır,\n"
+"Kızıl taş kanar.\n"
+"Kara havuz bütün sesleri yutar,\n"
+"Dünyalar arasındaki karanlık ağzını açar."
 
 #. [message]: speaker=Hahid al-Ali
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:895
@@ -6081,11 +6089,13 @@ msgid ""
 "Ugh, spellcasting always gives me the shivers. There’s a reason the more "
 "civilized people of my homeland don’t trifle with magic!"
 msgstr ""
+"Öf, büyü yapmak beni hep ürpertir. Yurdumun daha medeni insanlarının "
+"büyüyle oynamamasının bir nedeni var!"
 
 #. [message]: speaker=Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:899
 msgid "For a mage of the Light, the words you speak are dark indeed."
-msgstr ""
+msgstr "Işığın bir büyücüsü için söylediğin sözler gerçekten karanlık."
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:903
@@ -6093,6 +6103,8 @@ msgid ""
 "I’m a simple man. I use simple tools and weapons. This magic stuff is givin’ "
 "me the creeps."
 msgstr ""
+"Ben basit bi’ adamım. Basit aletler ve silahlar kullanırım. Bu büyü işleri "
+"tüylerimi diken diken ediyor."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:913
@@ -6101,6 +6113,9 @@ msgid ""
 "artifact, and Gweddry has agreed to accompany me, so that leaves room for "
 "six more."
 msgstr ""
+"Bu ön odada yalnızca sekiz kişilik yer var. Eseri almak için benim gitmem "
+"gerek, Givedri de bana eşlik etmeyi kabul etti; geriye altı kişilik yer "
+"kalıyor."
 
 #. [message]: speaker=Dacyn
 #. the player needs to choose 6 troops
@@ -6109,30 +6124,32 @@ msgid ""
 "Gweddry, are you still choosing your troops? I must end my turn in the "
 "antechamber to cycle the gate and enter the sanctuary."
 msgstr ""
+"Givedri, hâlâ birliklerini mi seçiyorsun? Kapıyı döndürüp sığınağa girmek "
+"için elimi ön odada bitirmeliyim."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:951
 msgid "I will not aid in this evil quest."
-msgstr ""
+msgstr "Bu kötü göreve yardım etmeyeceğim."
 
 #. [message]: speaker=Dacyn
 #. somewhat like an airlock
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1005
 msgid "I am ready to cycle the gates. Gweddry, shall we proceed?"
-msgstr ""
+msgstr "Kapıları döndürmeye hazırım. Givedri, devam edelim mi?"
 
 #. [option]
 #. 6 soldiers
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1008
 msgid "Yes, these are the soldiers I want."
-msgstr ""
+msgstr "Evet, istediğim askerler bunlar."
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1016
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2494
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:849
 msgid "No, not yet."
-msgstr ""
+msgstr "Hayır, henüz değil."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1025
@@ -6140,17 +6157,19 @@ msgid ""
 "Gweddry, you agreed to accompany me. We must both enter this antechamber "
 "before I cycle the gates."
 msgstr ""
+"Givedri, bana eşlik etmeyi kabul ettin. Kapıları döndürmeden önce ikimiz de "
+"bu ön odaya girmeliyiz."
 
 #. [message]: speaker=Grug
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1085
 msgid "Cave scary! Grug no like!"
-msgstr ""
+msgstr "Mağara korkunç! Grug sevmez!"
 
 #. [message]: speaker=Gweddry
 #. the torches were already burning before any of Gweddry's party entered the castle
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1093
 msgid "The torches are lit..."
-msgstr ""
+msgstr "Meşaleler yanıyor..."
 
 #. [message]: speaker=Dolburras
 #. "I have seen my fair share of dark caves, but something about this place is making me shake."
@@ -6159,41 +6178,43 @@ msgid ""
 "I ha’ seen my fair share o’ dark caves, but summat ’bout this place be "
 "givin’ me the shakes."
 msgstr ""
+"Payıma düşen karanlık mağaraları gördüm, ama bu yerde beni titreten bi’ şey "
+"var."
 
 #. [message]: speaker=Terraent
 #. at the moment he's seeing the inside of a castle, the lit torches, and a wild yeti
 #. there's nothing particularly unholy to focus on
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1121
 msgid "May this unholy place be cleansed by the Light!"
-msgstr ""
+msgstr "Bu kutsal olmayan yer Işıkla arınsın!"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1205
 msgid "GROWWR!!"
-msgstr ""
+msgstr "GRRAAVR!!"
 
 #. [message]: speaker=unit
 #. 200, 160, or 130 gold
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1220
 msgid "This yeti was rich! I count $gold gold in its hoard."
-msgstr ""
+msgstr "Bu yeti zenginmiş! Hazinesinde $gold altın sayıyorum."
 
 #. [message]: speaker=Hahid al-Ali
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1225
 msgid "Ho ho, northerners’ gold, now that begins to make this all worth it!"
-msgstr ""
+msgstr "Ho ho, kuzeylilerin altını, işte bu her şeye değmeye başlıyor!"
 
 #. [message]: speaker=narrator
 #. a signpost. "Study" as in a room with a reading desk and small library
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1245
 msgid "East: Study and Vaults"
-msgstr ""
+msgstr "Doğu: Çalışma Odası ve Mahzenler"
 
 #. [message]: speaker=narrator
 #. a signpost
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1263
 msgid "West: Laboratory and Experiment Testing"
-msgstr ""
+msgstr "Batı: Laboratuvar ve Deney Alanı"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1314
@@ -6201,6 +6222,8 @@ msgid ""
 "I have triggered a trap. As long as I stay on this rune I will be safe, but "
 "once I step away, fire spirits will rise from the lava."
 msgstr ""
+"Bir tuzağı tetikledim. Bu rünün üzerinde kaldığım sürece güvendeyim, ama "
+"ayrıldığım anda lavdan ateş ruhları yükselecek."
 
 #. [message]: speaker=unit
 #. the feeling that they've triggered a trap
@@ -6212,7 +6235,7 @@ msgstr "Uh oh..."
 #. no obvious effect yet, it triggers when that unit moves again
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1334
 msgid "Oh, nothing happened."
-msgstr ""
+msgstr "Ah, hiçbir şey olmadı."
 
 #. [message]: speaker=Dacyn
 #. a walking corpse of a rat or spider
@@ -6221,6 +6244,8 @@ msgid ""
 "That corpse has triggered a trap. When next it moves, fire spirits will rise "
 "from the lava."
 msgstr ""
+"O ceset bir tuzağı tetikledi. Bir dahaki hareketinde lavdan ateş ruhları "
+"yükselecek."
 
 #. [message]: speaker=Dacyn
 #. the rune is on the floor in front of the door (using one of the terrains that make the rune occupy most of the hex)
@@ -6229,17 +6254,19 @@ msgid ""
 "This gate is locked, and I recognize the petrification trap concealed within "
 "its guardian rune. I should avoid trying to open it."
 msgstr ""
+"Bu kapı kilitli ve koruyucu rününde gizlenmiş taşlaştırma tuzağını "
+"tanıyorum. Açmaya çalışmaktan kaçınmalıyım."
 
 #. [message]: speaker=unit
 #. the rune is on the floor in front of the door (using one of the terrains that make the rune occupy most of the hex)
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1405
 msgid "Looks like this gate is locked. I wonder if this rune opens it?"
-msgstr ""
+msgstr "Görünüşe göre bu kapı kilitli. Acaba bu rün onu açar mı?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1452
 msgid "That was a petrification rune. It should wear off in a few moments."
-msgstr ""
+msgstr "Bu bir taşlaştırma rünüydü. Birkaç dakika içinde etkisi geçmeli."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1459
@@ -6247,6 +6274,8 @@ msgid ""
 "We are fortunate, that enemy has triggered a petrification rune. Be warned "
 "though, it will only last a few moments."
 msgstr ""
+"Şanslıyız, o düşman bir taşlaştırma rününü tetikledi. Ama dikkat edin, "
+"yalnızca birkaç dakika sürecek."
 
 #. [message]: speaker=unit
 #. the unit triggers the trap immediately
@@ -6255,11 +6284,13 @@ msgid ""
 "Hmm, looks like a magic lamp. I’ve heard stories that these can grant "
 "wishes. Today must be my lucky day!"
 msgstr ""
+"Hmm, sihirli bir lambaya benziyor. Bunların dilek yerine getirdiğine dair "
+"hikâyeler duymuştum. Bugün şanslı günüm olmalı!"
 
 #. [message]: speaker=Jinn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1550
 msgid "WHO DARES DISTURB MY SLUMBER?"
-msgstr ""
+msgstr "UYKUMU BÖLMEYE KİM CÜRET EDER?"
 
 #. [message]: speaker=unit
 #. an item on a display rack, ready to be worn
@@ -6268,40 +6299,42 @@ msgid ""
 "This fine silken cloak would be priceless back in Wesnoth, but is useless to "
 "us here."
 msgstr ""
+"Bu güzel ipek pelerin Vesnot’ta paha biçilmez olurdu, ama burada işimize "
+"yaramaz."
 
 #. [message]: speaker=unit
 #. 70, 55, or 45 gold
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1584
 msgid "This chest contains $gold gold!"
-msgstr ""
+msgstr "Bu sandıkta $gold altın var!"
 
 #. [message]: speaker=unit
 #. there was a closed chest on this hex, and it's been opened
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1604
 msgid "It’s full of... toilet paper?!?"
-msgstr ""
+msgstr "İçi dolu... tuvalet kâğıdıyla mı?!?"
 
 #. [message]: speaker=unit
 #. and the unit immediately does that, changing a closed-gate terrain to open-gate
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1619
 msgid "I can unlock this gate from the inside."
-msgstr ""
+msgstr "Bu kapıyı içeriden açabilirim."
 
 #. [message]: speaker=Study Guard
 #. the Study Guard is a Deathblade (or Draug on hard difficulty) that's stood immobile in the doorway
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1640
 msgid "Who. Comes?"
-msgstr ""
+msgstr "Kim. Geliyor?"
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1644
 msgid "Err... don’t mind me, I’m just taking a look around."
-msgstr ""
+msgstr "Ee... bana aldırmayın, sadece etrafa bakıyorum."
 
 #. [message]: speaker=Study Guard
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1648
 msgid "Master. Is away. Intruders. Must die."
-msgstr ""
+msgstr "Efendi. Uzakta. Davetsizler. Ölmeli."
 
 #. [message]: speaker=unit
 #. a quote from the journal written in SotA, also quoted in DiD
@@ -6310,11 +6343,13 @@ msgid ""
 "What’s this? Looks like a book on necromancy? <i>‘To become a lich, one must "
 "first-</i>"
 msgstr ""
+"Bu da ne? Ölü çağırma hakkında bir kitaba benziyor? <i>‘Umacı olmak için "
+"kişi önce—</i>"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1686
 msgid "Drop that at once! That journal is dangerous!"
-msgstr ""
+msgstr "Bırak onu hemen! O günlük tehlikeli!"
 
 #. [message]: speaker=Dacyn
 #. a book on necromancy
@@ -6323,6 +6358,8 @@ msgid ""
 "I recognize this volume. Such a thing could be dangerous in the wrong hands. "
 "Perhaps I should hold on to it... for safekeeping."
 msgstr ""
+"Bu cildi tanıyorum. Böyle bir şey yanlış ellerde tehlikeli olabilir. Belki "
+"onu ben saklamalıyım... güvende kalsın diye."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1713
@@ -6331,11 +6368,14 @@ msgid ""
 "thing could be dangerous in the wrong hands. Perhaps I should hold on to "
 "it... for safekeeping."
 msgstr ""
+"... bu cildi tanıyorum. Önce benim bulmam büyük şans; böyle bir şey yanlış "
+"ellerde tehlikeli olabilir. Belki onu ben saklamalıyım... güvende kalsın "
+"diye."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1732
 msgid "There are a few loose pages on the ground here..."
-msgstr ""
+msgstr "Burada yerde birkaç gevşek sayfa var..."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1736
@@ -6352,6 +6392,16 @@ msgid ""
 "able to answer some of the questions I have been pondering. However, there "
 "seems to be a piece of the puzzle still missing.</i>"
 msgstr ""
+"<i>Ravan’ın Günlüğü — 13 Karaateş, 588 VY.\n"
+"\n"
+"Bu sefer beklediğimden daha başarılı geçiyor. Dasin burada her yana "
+"saçılmış tuzakları etkisizleştirirken ben Ağız’ın ötesindeki diğer düzlem "
+"hakkında kapsamlı araştırmalar yapabildim. Kendi dünyamızdan ulaşılabilen "
+"bir ruhlar diyarı var; İliah-Malal’ın Peçe Muskası’nı kullanarak temas "
+"kurduğu yer hiç şüphesiz bu. Zaman zaman öbür taraftan fısıldayan ruhları "
+"duyuyorum, ama sesleri henüz cılız. Onlara bir şekilde ulaşabilirsem, kafa "
+"yorduğum bazı soruları cevaplayabileceklerinden şüpheleniyorum. Ancak "
+"yapbozun hâlâ eksik bir parçası var gibi görünüyor.</i>"
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1742
@@ -6367,6 +6417,16 @@ msgid ""
 "recounting these muddled dreams, yet their words are disjointed, "
 "incomprehensible. What are they trying to tell me?</i>"
 msgstr ""
+"<i>Ravan’ın Günlüğü — 21 Akateş, 589 VY.\n"
+"\n"
+"Bu gece bir rüya gördüm. Rüya mıydı? Daha çok bir görüye benziyordu. "
+"Gökyüzünde ikiz kürelerden yayılan kavurucu bir ışık gördüm; sürekli "
+"değişen etten sapkın yaratıklarla kaynayan bir diyara yakıcı bir parlaklık "
+"saçıyordu. Bir mücevher gördüm, hayır, bir anahtar; Ağız’ın uçsuz bucaksız "
+"hiçliği üzerinde köprü kuran ateşle yanıyordu. Işıkla birleşip dönüşen "
+"karanlık gördüm; biçimsiz olanların yok edilemez çekirdeğini parçalıyordu. "
+"Bu karmakarışık rüyaları anlatan sesler duyuyorum, ama sözleri kopuk, "
+"anlaşılmaz. Bana ne anlatmaya çalışıyorlar?</i>"
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1755
@@ -6374,6 +6434,8 @@ msgid ""
 "This volume has something to do with a dwarf named Tharga... Thursag-"
 "something? The text is very faded."
 msgstr ""
+"Bu ciltte Targa... Thursag-bir şey adında bir cüceyle ilgili bir şeyler "
+"var? Yazı çok solmuş."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1766
@@ -6388,6 +6450,15 @@ msgid ""
 "Haldric. Then again, maybe that is the game Dacyn wants to play. What a "
 "shame. I had held him in higher regard than that.</i>"
 msgstr ""
+"<i>Ravan’ın Günlüğü — 5 Kanayan Ay, 597 VY.\n"
+"\n"
+"Hiçbir şey yolunda gitmiyor. Araştırmam çıkmaza girdi ve diğer düzlemdeki "
+"ruhlar bile artık benimle konuşmuyor. Artık Dasin’e de güvenemem. O aptal "
+"adam! Bu hayati bulmacayı çözmeme yardım etmek yerine siyaset oynamanın "
+"yeteneklerini daha iyi kullanmak olacağına karar verdi. Sanki o yarı çökmüş "
+"yaşlı Kral Haldrik’in danışmanı olarak bir işe yarayabilirmiş gibi. Gerçi "
+"belki de Dasin’in oynamak istediği oyun budur. Ne yazık. Ona bundan daha "
+"çok değer verirdim.</i>"
 
 #. [message]: speaker=unit
 #. just flavortext, could be any books that are irrelevant to the story
@@ -6396,18 +6467,20 @@ msgid ""
 "This shelf appears to be full of accounting ledgers detailing the movement "
 "of funds and goods hundreds of years ago."
 msgstr ""
+"Bu raf, yüzlerce yıl önceki para ve mal hareketlerini ayrıntılı olarak "
+"gösteren muhasebe defterleriyle dolu görünüyor."
 
 #. [message]: speaker=unit
 #. a wooden crate, using the items/box.png image
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1794
 msgid "This box is empty."
-msgstr ""
+msgstr "Bu kutu boş."
 
 #. [message]: speaker=unit
 #. a wooden crate, using the items/box.png image
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1806
 msgid "Yuck, this box is full of pickled fingers!"
-msgstr ""
+msgstr "Iyy, bu kutu salamura parmaklarla dolu!"
 
 #. [message]: speaker=unit
 #. a barrel, using items/barrel.png
@@ -6416,6 +6489,8 @@ msgid ""
 "This cask of wine is from nearly 200 years ago! If only I was allowed to "
 "drink while on duty."
 msgstr ""
+"Bu şarap fıçısı neredeyse 200 yıllık! Keşke görevdeyken içmeme izin "
+"verilseydi."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1832
@@ -6423,56 +6498,58 @@ msgid ""
 "These three orbs must be ancient, but still pulse with some kind of dark "
 "energy. Just standing near them gives me a splitting headache."
 msgstr ""
+"Bu üç küre kadim olmalı, ama hâlâ bir tür karanlık enerjiyle titreşiyorlar. "
+"Yanlarında durmak bile başımı çatlatacak kadar ağrıtıyor."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1845
 msgid ""
 "I’ve found a key! It must be magical; it started glowing as soon as I "
 "touched it."
-msgstr ""
+msgstr "Bir anahtar buldum! Büyülü olmalı; dokunduğum anda parlamaya başladı."
 
 #. [message]: speaker=Cowardly Goblin
 #. Cowardly Goblin is male, and appears in just two events. This one, and the end-of-level event.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1878
 msgid "Aaah, humans! Run away!"
-msgstr ""
+msgstr "Aaah, insanlar! Kaçın!"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1885
 msgid ""
 "I guess there are goblins living here. Well, that explains the lit torches."
-msgstr ""
+msgstr "Galiba burada goblinler yaşıyor. Yanan meşaleleri bu açıklıyor."
 
 #. [message]: speaker=Thirsty Goblin
 #. the goblin has moved to a hex with a green potion bottle. After this he drinks it, gets poisoned, and then turns into a walking corpse.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1900
 msgid "Hey, this looks tasty!"
-msgstr ""
+msgstr "Hey, bu lezzetli görünüyor!"
 
 #. [message]: speaker=unit
 #. the player's unit has moved to a hex with a blue potion, drunk it, and become slowed
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1959
 msgid "Ugh, my head hurts. Was this room always spinning?"
-msgstr ""
+msgstr "Of, başım ağrıyor. Bu oda hep böyle dönüyor muydu?"
 
 #. [message]: speaker=unit
 #. the player's unit has moved to a hex with a yellow potion, drunk it, and become poisoned
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:1987
 msgid ""
 "Blech, this tastes awful! Whatever used to be in here, it went bad long ago."
-msgstr ""
+msgstr "Iyy, bunun tadı berbat! İçinde ne vardıysa çoktan bozulmuş."
 
 #. [message]: speaker=unit
 #. the player's unit has moved to a hex with a grey potion, drunk it, and ...
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2010
 msgid "ACK! I’M DYING!"
-msgstr ""
+msgstr "AH! ÖLÜYORUM!"
 
 #. [message]: speaker=unit
 #. the grey potion
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2019
 msgid "Hah, just messing with you, it’s only water."
-msgstr ""
+msgstr "Hah, sadece şaka yapıyorum, bu sadece su."
 
 #. [message]: speaker=second_unit
 #. the player's unit is outside the room with all of this in
@@ -6481,6 +6558,8 @@ msgid ""
 "Look, a key! But it’s guarded by all those goblins... and there are ghouls "
 "in cages!"
 msgstr ""
+"Bakın, bir anahtar! Ama bütün o goblinler onu koruyor... ve kafeslerde "
+"gulyabaniler var!"
 
 #. [message]: speaker=second_unit
 #. the player's unit is outside the room with ghasts and goblins in, and there are a lot of campfires in there too
@@ -6488,7 +6567,7 @@ msgstr ""
 msgid ""
 "The goblins’ eyes must be blinded by their fires. I still haven’t been "
 "spotted."
-msgstr ""
+msgstr "Goblinlerin gözlerini ateşleri kör etmiş olmalı. Hâlâ fark edilmedim."
 
 #. [message]: speaker=unit
 #. rune on the floor that will open floor-to-ceiling gates
@@ -6497,57 +6576,59 @@ msgid ""
 "Hmm, it looks like this rune is connected to those cages. I’ll bet I could "
 "get one of them open..."
 msgstr ""
+"Hmm, görünüşe göre bu rün o kafeslere bağlı. Bahse girerim birini "
+"açabilirim..."
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2079
 msgid "Yes, release some ghouls."
-msgstr ""
+msgstr "Evet, birkaç gulyabaniyi serbest bırak."
 
 #. [message]: speaker=Goblin Leader
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2103
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2186
 msgid "Aaahh!! The monsters have escaped!"
-msgstr ""
+msgstr "Aaahh!! Canavarlar kaçtı!"
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2114
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2197
 msgid "No, keep them locked up."
-msgstr ""
+msgstr "Hayır, kilitli kalsınlar."
 
 #. [message]: speaker=Dacyn
 #. rune on the floor that will open floor-to-ceiling gates
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2138
 msgid ""
 "Ah, this is the control for the experiment testing cages. Should I open them?"
-msgstr ""
+msgstr "Ah, bu deney kafeslerinin kumandası. Onları açsam mı?"
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2140
 msgid "Yes, release all the ghouls."
-msgstr ""
+msgstr "Evet, bütün gulyabanileri serbest bırak."
 
 #. [message]: speaker=Goblin Leader
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2224
 msgid "Humans! Get them!"
-msgstr ""
+msgstr "İnsanlar! Yakalayın onları!"
 
 #. [message]: speaker=Goblin Leader
 #. death of a wolf rider's mount
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2246
 msgid "Noooo, wolfieeee!!!"
-msgstr ""
+msgstr "Hayııır, kurtçuuuğum!!!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2262
 msgid "Look what I found! This key started glowing as soon as I touched it."
-msgstr ""
+msgstr "Bakın ne buldum! Bu anahtar dokunduğum anda parlamaya başladı."
 
 #. [message]: speaker=unit
 #. although there's no filter on this event, the location is only reachable by a flying unit, presumably a walking corpse bat or walking corpse drake
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2301
 msgid "Ruuuh... Brains..."
-msgstr ""
+msgstr "Ruuuh... Beyinler..."
 
 #. [message]: speaker=narrator
 #. This is an easter egg, and the details don't matter because there's no way to get the staff out of the room.
@@ -6557,6 +6638,9 @@ msgid ""
 "Unfortunately, this zombie is not intelligent enough to understand the "
 "significance of what it has found, and merely perceives a lifeless room."
 msgstr ""
+"Bu efsanevi büyülü asa gerçekliği istediği gibi yeniden şekillendirme "
+"gücüne sahip! Ne yazık ki bu zombi bulduğu şeyin önemini anlayacak kadar "
+"zeki değil ve yalnızca cansız bir oda görüyor."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2349
@@ -6564,40 +6648,42 @@ msgid ""
 "The Amulet should be just beyond that gate, within the inner sanctum. We "
 "will have to find a pair of magical keys to open the door."
 msgstr ""
+"Muska o kapının hemen ötesinde, iç mabette olmalı. Kapıyı açmak için bir "
+"çift büyülü anahtar bulmamız gerekecek."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2364
 msgid ""
 "Both keys are found! We can now enter the inner sanctum and retrieve the "
 "Amulet."
-msgstr ""
+msgstr "İki anahtar da bulundu! Artık iç mabede girip Muska’yı alabiliriz."
 
 #. [message]: speaker=Gweddry
 #. by this time Owaec is probably fighting orcs
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2395
 msgid "I hope Owaec hasn’t gotten into any trouble outside..."
-msgstr ""
+msgstr "Umarım Ovayek dışarıda başını belaya sokmamıştır..."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2421
 msgid "Are we ready to enter the inner sanctum?"
-msgstr ""
+msgstr "İç mabede girmeye hazır mıyız?"
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2423
 msgid "Yes, I’m ready."
-msgstr ""
+msgstr "Evet, hazırım."
 
 #. [command]
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2430
 msgid "Sanctum Guard"
-msgstr ""
+msgstr "Mabet Muhafızı"
 
 #. [message]: speaker=Gweddry
 #. looking at it from about 3 indoor hexes away
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2466
 msgid "Is that... the Amulet?"
-msgstr ""
+msgstr "Bu... Muska mı?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2470
@@ -6605,16 +6691,18 @@ msgid ""
 "Yes. We now look upon one of the most powerful artifacts ever to taint "
 "Irdya. But first, we must clear out this room."
 msgstr ""
+"Evet. İrdya’yı lekelemiş en güçlü eserlerden birine bakıyoruz. Ama önce bu "
+"odayı temizlemeliyiz."
 
 #. [message]: speaker=Sanctum Guard
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2474
 msgid "TRESPASSERS!"
-msgstr ""
+msgstr "DAVETSİZLER!"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2478
 msgid "Prepare for incoming undead!"
-msgstr ""
+msgstr "Gelen yarı ölülere hazırlanın!"
 
 #. [event]
 #. [side]: type=Orcish Sovereign, id=Chief Dra-Nak
@@ -6633,7 +6721,7 @@ msgstr "Şef DraNak"
 #. Owaec probably hasn't recruited, but the entire recall list is available to him so they're presumably "here".
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2527
 msgid "What do we have here? This is what those wyrms were groveling about?"
-msgstr ""
+msgstr "Burada ne varmış? O ejderlerin yalvardığı şey bu mu?"
 
 #. [message]: speaker=Chief Dra-Nak
 #. he's a chief from the Whitefangs because he's not the only one, just a particularly powerful one
@@ -6642,6 +6730,8 @@ msgid ""
 "I’m Dra-Nak, Chief from the Whitefang clan. What’re you doing so far away "
 "from home, human?"
 msgstr ""
+"Ben Dra-Nak, Akdiş klanının Şefi. Evinden bu kadar uzakta ne yapıyorsun, "
+"insan?"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2536
@@ -6649,6 +6739,8 @@ msgid ""
 "I am a lord of the Horse Clans, and we are here on Wesnoth business. You "
 "would do well not to bother us."
 msgstr ""
+"Ben At Kabilelerinin bir lorduyum ve burada Vesnot işi için bulunuyoruz. "
+"Bizi rahatsız etmesen iyi olur."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2540
@@ -6656,6 +6748,8 @@ msgid ""
 "Wesnoth business, huh. ...you’re not the first group of deserters I’ve "
 "caught fleeing the undead."
 msgstr ""
+"Vesnot işi, ha. ...yarı ölülerden kaçarken yakaladığım ilk firari grubu "
+"değilsiniz."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2544
@@ -6663,6 +6757,8 @@ msgid ""
 "I’ll tell you what. I’m a fair orc, I won’t take advantage of your "
 "situation. Maybe I can help you. Let’s make a deal."
 msgstr ""
+"Bak ne diyeceğim. Ben adil bir orkum, durumunuzdan yararlanmam. Belki size "
+"yardım edebilirim. Bir anlaşma yapalım."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2548
@@ -6672,6 +6768,9 @@ msgid ""
 "you’re free to go about your business. I’ll even give you a cut of the "
 "profit!"
 msgstr ""
+"Güneydeki o kara büyücüler onlara ceset sağlamam için bana iyi para ödüyor. "
+"Haraç olarak diyelim ki sekiz askerinizi teslim edin, işinize gitmekte "
+"özgürsünüz. Kârdan size pay bile veririm!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2552
@@ -6680,12 +6779,15 @@ msgid ""
 "My honor will stand no more insult! Begone, fetid orc, lest I mount your "
 "head on a pike! I don’t fear the dead and I don’t fear you."
 msgstr ""
+"Bugün bana önce dar görüşlü, sonra korkak, şimdi de firari mi deniyor?! "
+"Onurum daha fazla hakarete katlanmayacak! Defol, kokuşmuş ork, yoksa kafanı "
+"bir mızrağa geçiririm! Ölülerden korkmuyorum, senden de korkmuyorum."
 
 #. [message]: speaker=Chief Dra-Nak
 #. This is the start of the second night, and around 4 orcs will enter the map this turn, and 3 more next turn.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2557
 msgid "(grinning) I was hoping you’d say that!"
-msgstr ""
+msgstr "(sırıtarak) Bunu söylemeni umuyordum!"
 
 #. [message]: speaker=Owaec
 #. this is a reminder to the player that Owaec is a leader and can recruit.
@@ -6694,11 +6796,14 @@ msgid ""
 "Gweddry may command the whole of our party, but do not forget that I too can "
 "recruit and recall! I will need soldiers to hold the line against these orcs."
 msgstr ""
+"Givedri bütün grubumuza komuta ediyor olabilir, ama benim de asker alıp "
+"geri çağırabildiğimi unutmayın! Bu orklara karşı hattı tutmak için "
+"askerlere ihtiyacım olacak."
 
 #. [dummy]: id=amla_dummy
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2676
 msgid "AMLAs"
-msgstr ""
+msgstr "SSST’ler"
 
 #. [dummy]: id=amla_dummy
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2677
@@ -6706,35 +6811,37 @@ msgid ""
 "This veteran fighter has advanced one or more times past his maximum level, "
 "gaining increased damage each time."
 msgstr ""
+"Bu kıdemli savaşçı azami seviyesinin ötesine bir veya daha fazla kez terfi "
+"etti ve her seferinde hasarı arttı."
 
 #. [message]
 #. Medium-sized groups of orcs are arriving every 2 days to attack the player. This is one message they might say when they arrive.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2725
 msgid "Time to chop some human heads!"
-msgstr ""
+msgstr "İnsan kafası kesme zamanı!"
 
 #. [message]
 #. Medium-sized groups of orcs are arriving every 2 days to attack the player. This is one message they might say when they arrive.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2732
 msgid "Keep attacking, hit ’em while the sun’s down!"
-msgstr ""
+msgstr "Saldırmaya devam, güneş batıkken vurun onlara!"
 
 #. [message]
 #. Medium-sized groups of orcs are arriving every 2 days to attack the player. This is one message they might say when they arrive.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2739
 msgid "Chief’s orders, let’s get them!"
-msgstr ""
+msgstr "Şefin emri, yakalayın onları!"
 
 #. [message]
 #. Medium-sized groups of orcs are arriving every 2 days to attack the player. This is one message they might say when they arrive.
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2746
 msgid "Burn and pillage!"
-msgstr ""
+msgstr "Yakın ve yağmalayın!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2775
 msgid "Excellent. Now..."
-msgstr ""
+msgstr "Mükemmel. Şimdi..."
 
 #. [message]: speaker=Gweddry
 #. before he picks up the amulet
@@ -6744,6 +6851,9 @@ msgid ""
 "decision? Even if you can wield it safely, something this evil will "
 "doubtlessly corrupt anyone who possesses it."
 msgstr ""
+"Dur Dasin, onu almadan önce... bunun doğru karar olduğundan emin misin? "
+"Güvenle kullanabilsen bile böylesine kötü bir şey ona sahip olan herkesi "
+"hiç şüphesiz yozlaştırır."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2786
@@ -6752,6 +6862,9 @@ msgid ""
 "will be of great comfort when thousands are massacred after Wesnoth loses "
 "its greatest war in living memory."
 msgstr ""
+"Vay, bu derin sevgi gösterin beni çok duygulandırdı. Vesnot hafızalardaki "
+"en büyük savaşını kaybettikten sonra binlerce kişi katledildiğinde eminim "
+"bu büyük bir teselli olacaktır."
 
 #. [message]: speaker=Dacyn
 #. there's a short pause between the "deep show of affection" message and this one
@@ -6762,6 +6875,10 @@ msgid ""
 "outmatched my own. As the lich Mal-Ravanal, perhaps only Delfador the Great "
 "could have stood a chance."
 msgstr ""
+"Hayır Givedri, emin değilim. Ama Mal-Ravanal’ı yenmenin başka bir yolunu "
+"bilmiyorum. Bir kez denedim. Bir büyücüyken bile Ravan’ın güçleri neredeyse "
+"benimkileri aşıyordu. Umacı Mal-Ravanal olarak ona karşı belki yalnızca "
+"Büyük Delfador’un bir şansı olabilirdi."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2800
@@ -6769,6 +6886,9 @@ msgid ""
 "This Amulet will give us the edge that I need. With it, I can open a gate to "
 "the Land of the Dead and pull Mal-Ravanal’s unholy spells out of this world."
 msgstr ""
+"Bu Muska bana ihtiyacım olan üstünlüğü verecek. Onunla Ölüler Diyarı’na bir "
+"kapı açabilir ve Mal-Ravanal’ın kutsal olmayan büyülerini bu dünyadan çekip "
+"alabilirim."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2804
@@ -6776,6 +6896,8 @@ msgid ""
 "But if what you said is true, the very same could be said of Ravan. How do "
 "you know you will not fall down the same path as well?"
 msgstr ""
+"Ama söylediklerin doğruysa aynısı Ravan için de söylenebilirdi. Senin de "
+"aynı yola düşmeyeceğini nereden biliyorsun?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2813
@@ -6785,11 +6907,14 @@ msgid ""
 "still a chance. Sacrificing myself is of no consequence if it is for the "
 "greater good."
 msgstr ""
+"Haklısın, Givedri. Bilemem. Ama denemeliyim. Denemezsem Vesnot — hayır, "
+"bütün İrdya — kesinlikle yıkıma uğrayacak. Denediğim sürece hâlâ bir şans "
+"var. Daha büyük iyilik içinse kendimi feda etmenin bir önemi yok."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2817
 msgid "(picks up the amulet)"
-msgstr ""
+msgstr "(muskayı alır)"
 
 #. [message]: speaker=Dacyn
 #. [message]
@@ -6797,19 +6922,21 @@ msgstr ""
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2865
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2875
 msgid "AAAAHHHH!"
-msgstr ""
+msgstr "AAAAHHHH!"
 
 #. [message]: speaker=Gweddry
 #. "everyone" being 6 units, or less
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2880
 msgid "Dacyn! Everyone stand back, give him some air."
-msgstr ""
+msgstr "Dasin! Herkes geri çekilsin, biraz nefes alsın."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2884
 msgid ""
 "... do not fear, I am unharmed. I just... need a moment to catch my breath."
 msgstr ""
+"... korkmayın, bir şeyim yok. Sadece... nefesimi toplamak için bir dakikaya "
+"ihtiyacım var."
 
 #. [message]: speaker=Chief Dra-Nak
 #. A wall of the inner sanctum (where the amulet was) has just exploded, revealing a cave that extends off the west edge of the map.
@@ -6819,6 +6946,8 @@ msgid ""
 "Hah, did you think you were safe hiding back in here? Nobody can escape from "
 "Dra-Nak, greatest chief east of the Listra."
 msgstr ""
+"Hah, burada saklanarak güvende olduğunu mu sandın? Listra’nın doğusundaki "
+"en büyük şef Dra-Nak’tan kimse kaçamaz."
 
 #. [message]: speaker=Cowardly Goblin
 #. male speaker
@@ -6827,12 +6956,14 @@ msgid ""
 "See see! I told you there were humans in here! And I showed you the secret "
 "passage! Reward reward?"
 msgstr ""
+"Bak bak! Sana içeride insanlar olduğunu söylemiştim! Gizli geçidi de "
+"gösterdim! Ödül ödül?"
 
 #. [message]: speaker=Chief Dra-Nak
 #. gives the Cowardly Goblin some gold
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2959
 msgid "Sure, here you go. You did well."
-msgstr ""
+msgstr "Tabii, al bakalım. İyi iş çıkardın."
 
 #. [message]: speaker=Chief Dra-Nak
 #. presumably still 8 humans, unless the player has lost some
@@ -6843,6 +6974,10 @@ msgid ""
 "man. I gave you a chance to do things fairly before, but now we’re doing "
 "things my way."
 msgstr ""
+"Size gelince insanlar, dışarıdaki dostlarınızı teslim olmaya ikna etseniz "
+"iyi olur. Yoksa o yaralı yaşlı adamdan başlayarak hepinizi katlederiz. Daha "
+"önce işleri adilce yapmanız için size bir şans verdim, ama şimdi işleri "
+"benim yolumla yapıyoruz."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2974
@@ -6850,6 +6985,8 @@ msgid ""
 "I don’t know what these orcs want with us, but we can’t hope to escape with "
 "Dacyn so badly hurt."
 msgstr ""
+"Bu orkların bizden ne istediğini bilmiyorum, ama Dasin bu kadar ağır "
+"yaralıyken kaçmayı umamayız."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/10_Dark_Sanctuary.cfg:2978
@@ -6994,6 +7131,8 @@ msgid ""
 "$deserter_name, I don’t recognize you, and you look like you’ve been locked "
 "up longer than the rest of us. How did you get here?"
 msgstr ""
+"$deserter_name, seni tanımıyorum ve diğerlerimizden daha uzun süredir "
+"kilitli kalmış gibi görünüyorsun. Buraya nasıl geldin?"
 
 #. [message]: role=escapee sidekick 1
 #. The speaker is female. The deserter, "escapee sidekick 2", will always be male.
@@ -7003,6 +7142,8 @@ msgid ""
 "female^$deserter_name, I don’t recognize you, and you look like you’ve been "
 "locked up longer than the rest of us. How did you get here?"
 msgstr ""
+"$deserter_name, seni tanımıyorum ve diğerlerimizden daha uzun süredir "
+"kilitli kalmış gibi görünüyorsun. Buraya nasıl geldin?"
 
 #. [message]: role=escapee sidekick 2
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:799
@@ -7011,18 +7152,21 @@ msgid ""
 "didn’t even get across the ford before some orcs captured me. They marched "
 "me and many other slaves east along the river, until we arrived here."
 msgstr ""
+"Yarı ölüler Tat’ı yaktığında ben... kayboldum. Kuzeyde ailem var, ama "
+"geçidi bile geçemeden bazı orklar beni yakaladı. Beni ve diğer pek çok "
+"köleyi buraya varana kadar nehir boyunca doğuya yürüttüler."
 
 #. [message]: role=escapee leader
 #. The speaker is male
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:804
 msgid "(scowling) A deserter. We should lock you back in your cell."
-msgstr ""
+msgstr "(kaşlarını çatarak) Bir firari. Seni hücrene geri kilitlemeliyiz."
 
 #. [message]: role=escapee leader
 #. The speaker is female
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:806
 msgid "female^(scowling) A deserter. We should lock you back in your cell."
-msgstr ""
+msgstr "(kaşlarını çatarak) Bir firari. Seni hücrene geri kilitlemeliyiz."
 
 #. [message]: role=escapee sidekick 2
 #. "you" being an audience of three units
@@ -7031,11 +7175,13 @@ msgid ""
 "No, please, you don’t understand! The undead are everywhere! I didn’t want "
 "to die like all my friends..."
 msgstr ""
+"Hayır, lütfen, anlamıyorsunuz! Yarı ölüler her yerde! Bütün dostlarım gibi "
+"ölmek istemedim..."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:825
 msgid "Do you hear something coming from those pits?"
-msgstr ""
+msgstr "O çukurlardan gelen bir şey duyuyor musunuz?"
 
 #. [message]: race=bats
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:833
@@ -7060,11 +7206,13 @@ msgid ""
 "How do we know these caves aren’t all dead ends? We might be stuck wandering "
 "until we die of thirst!"
 msgstr ""
+"Bu mağaraların hepsinin çıkmaz olmadığını nereden bileceğiz? Susuzluktan "
+"ölene kadar dolaşıp durabiliriz!"
 
 #. [message]: role=escapee leader
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:881
 msgid "You’re welcome to go back to your cell."
-msgstr ""
+msgstr "Hücrene geri dönebilirsin."
 
 #. [message]: role=escapee sidekick 2
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:899
@@ -7072,11 +7220,13 @@ msgid ""
 "Even if we do find your commanders and escape, maybe we should consider "
 "staying in the north? It’s tranquil, and quiet.... and there’s no undead..."
 msgstr ""
+"Komutanlarınızı bulup kaçsak bile belki kuzeyde kalmayı düşünmeliyiz? "
+"Burası huzurlu, sessiz... ve yarı ölü yok..."
 
 #. [message]: role=escapee sidekick 0
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:903
 msgid "I didn’t come all this way just to give up at the words of a deserter!"
-msgstr ""
+msgstr "Bunca yolu bir firarinin sözleriyle pes etmek için gelmedim!"
 
 #. [message]: role=escapee leader
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:907
@@ -7084,6 +7234,8 @@ msgid ""
 "Let’s focus on escaping the orcs before worrying about the future. Now "
 "quiet, I smell something foul up ahead."
 msgstr ""
+"Gelecek için endişelenmeden önce orklardan kaçmaya odaklanalım. Şimdi "
+"sessiz olun, ileride iğrenç bir koku alıyorum."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:925
@@ -7092,11 +7244,14 @@ msgid ""
 "orcish storeroom, full of their discarded gear and trash. At least we can "
 "find ourselves some proper weapons."
 msgstr ""
+"Öf, o berbat koku buradan geliyormuş. Burası orkların ambarı olmalı, "
+"attıkları teçhizat ve çöplerle dolu. En azından kendimize düzgün silahlar "
+"bulabiliriz."
 
 #. [floating_text]
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:933
 msgid "weapons restored"
-msgstr ""
+msgstr "silahlar geri alındı"
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:954
@@ -7104,6 +7259,8 @@ msgid ""
 "And look, our captured equipment and provisions are here too! I’ve recovered "
 "supplies worth $gold_amount_S11 gold."
 msgstr ""
+"Bakın, el konulan teçhizatımız ve erzakımız da burada! $gold_amount_S11 "
+"altın değerinde erzak kurtardım."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:980
@@ -7142,6 +7299,9 @@ msgid ""
 "corpses may not sell as well as dwarf or drake tribute, but with this many "
 "of you, I’ll still fetch a hefty bounty."
 msgstr ""
+"Yakalanması zor bir ganimettiniz, ama bedeline fazlasıyla değdi! İnsan "
+"cesetleri cüce ya da ejderimsi haracı kadar iyi satılmayabilir, ama bu "
+"kadar çoğunuzla yine de yüklü bir ödül alırım."
 
 #. [message]: speaker=Gweddry
 #. The nearest guards are orcs, but there are drakes guarding the edge of the room.
@@ -7151,6 +7311,9 @@ msgid ""
 "at heart? He is bleeding your numbers to fund his empire while your leader "
 "stands by and does nothing!"
 msgstr ""
+"Ejderimsiler, bu orkun sizin iyiliğinizi düşünmediğini mutlaka "
+"görüyorsunuzdur? Lideriniz kenarda durup hiçbir şey yapmazken o kendi "
+"imparatorluğunu finanse etmek için sayınızı eritiyor!"
 
 #. [message]
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1111
@@ -7159,6 +7322,9 @@ msgid ""
 "Mortic is Aspirant.\n"
 "I serve his will."
 msgstr ""
+"Sürümüzün Yollarını izlerim.\n"
+"Mortik Aday’dır.\n"
+"Onun iradesine hizmet ederim."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1139
@@ -7167,6 +7333,9 @@ msgid ""
 "came, this place was a wasteland, with drake, dwarf, and naga fighting over "
 "scraps and bleeding in the snow."
 msgstr ""
+"Siz Vesnotlular hâlâ anlamadınız mı? Bu zayıfların bana <i>ihtiyacı "
+"var</i>! Ben gelmeden önce burası ejderimsilerin, cücelerin ve nagaların "
+"kırıntılar için kavga edip karda kan kaybettiği bir çorak araziydi."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1143
@@ -7176,6 +7345,10 @@ msgid ""
 "power to rival even the great tribes of the north. I will usher in a new "
 "golden age for my people!"
 msgstr ""
+"Hepsini sancağımın altında birleştirdim ve bu dağlara <i>barış</i> ve "
+"<i>düzen</i> getirdim! Sizi satınca kuzeyin büyük kabileleriyle bile boy "
+"ölçüşecek kadar paramız ve gücümüz olacak. Halkım için yeni bir altın çağ "
+"başlatacağım!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1147
@@ -7183,6 +7356,8 @@ msgid ""
 "You murder your allies and call it peace? Bah, this place will only know "
 "peace once you are dead!"
 msgstr ""
+"Müttefiklerini öldürüp buna barış mı diyorsun? Bah, burası ancak sen "
+"öldüğünde barışı tanıyacak!"
 
 #. [message]: speaker=Chief Dra-Nak
 #. Owaec has attacked the orc
@@ -7191,6 +7366,8 @@ msgid ""
 "Hah, that almost hurt! I’m gonna enjoy shipping you lot down south. Maybe "
 "this time, the necromancers will let me watch..."
 msgstr ""
+"Hah, neredeyse acıdı! Sizi güneye göndermekten zevk alacağım. Belki bu "
+"sefer kara büyücüler izlememe izin verir..."
 
 #. [message]: speaker=unit
 #. speaker is the escapee wearing the orc disguise, there are around 10 guards
@@ -7301,14 +7478,14 @@ msgstr "Kalan mahkumları sal"
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1469
 msgid "Save as much gold as possible for the next scenario!"
-msgstr ""
+msgstr "Sonraki senaryo için olabildiğince çok altın biriktir!"
 
 #. [message]: speaker=Chief Dra-Nak
 #. shouted to the two leaders who are positioned outside the orcs' caves, happens 2 turns after the main escape starts
 #. combined with removing shroud to reveal that those two leaders recruited last turn (and have full castles on normal or hard)
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1519
 msgid "The prisoners are escaping! Get in here and stop them!"
-msgstr ""
+msgstr "Esirler kaçıyor! Buraya gelin de durdurun onları!"
 
 #. [message]: speaker=Rakkha
 #. orc leader who was guarding against external threats sends troops into the orcs' throneroom
@@ -7329,6 +7506,9 @@ msgid ""
 "work o’ these Whitefang punks... I sure am missin’ the Estmarks right about "
 "now."
 msgstr ""
+"Galiba yine kaçıyoruz! Memleketteki paralı asker çocuklarım bu Akdiş "
+"serserilerini çabucak hallederdi... Şu an Doğu Sınırları’nı gerçekten "
+"özlüyorum."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1556
@@ -7343,6 +7523,9 @@ msgid ""
 "upon the rolling plains of my homeland. These lands are cold, but the "
 "thought of my fellow Clansmen is as a fire burning in my breast."
 msgstr ""
+"Bu karanlık, dar mağarada ne katliam... yurdumun dalgalı ovalarına yeniden "
+"bakmayı ne kadar özlüyorum. Bu topraklar soğuk, ama Kabile kardeşlerimin "
+"düşüncesi göğsümde yanan bir ateş gibi."
 
 #. [message]: speaker=Gweddry
 #. "there" being the Horse Clans' plains
@@ -7351,6 +7534,8 @@ msgid ""
 "Wesnoth’s best horses and much of Weldyn’s food comes from there. I’m sure "
 "it’s well-defended, despite never having visited there myself."
 msgstr ""
+"Vesnot’un en iyi atları ve Weldyn’in yiyeceğinin çoğu oradan gelir. Hiç "
+"gitmemiş olsam da iyi savunulduğundan eminim."
 
 #. [message]: speaker=Owaec
 #. "them" being the Horse Clans' plains
@@ -7359,6 +7544,8 @@ msgid ""
 "There is naught that I can speak that would truly do them justice! You will "
 "have to see the plains yourself to appreciate their majesty."
 msgstr ""
+"Onları hakkıyla anlatabilecek hiçbir söz söyleyemem! Görkemlerini takdir "
+"etmek için ovaları kendin görmen gerekecek."
 
 #. [message]: speaker=Gweddry
 #. "their" being the Horse Clans' plains
@@ -7385,7 +7572,7 @@ msgstr "70 altın"
 #. [scenario]: id=11_Captured
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1671
 msgid "You’ve pillaged 70 orcish gold pieces!"
-msgstr ""
+msgstr "70 ork altını yağmaladın!"
 
 #. [scenario]: id=11_Captured
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1672
@@ -7395,25 +7582,25 @@ msgstr "115 altın"
 #. [scenario]: id=11_Captured
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1672
 msgid "You’ve pillaged 115 orcish gold pieces!"
-msgstr ""
+msgstr "115 ork altını yağmaladın!"
 
 #. [message]: speaker=unit
 #. goblin with a ring of invisibility
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1693
 msgid "Oooh so shiny, my precious... what a great gift from the Chief..."
-msgstr ""
+msgstr "Ooo ne parlak, kıymetlim... Şef’ten ne güzel bir hediye..."
 
 #. [message]: speaker=unit
 #. goblin with a ring of invisibility (although not enough sense to wear it when running away)
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1698
 msgid "Aaah! Who’re you?! Run away run away!"
-msgstr ""
+msgstr "Aaah! Siz kimsiniz?! Kaç kaç!"
 
 #. [message]: speaker=second_unit
 #. unit who discovered the goblin with a ring of invisibility
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1705
 msgid "Hmm, looks like he dropped something."
-msgstr ""
+msgstr "Hmm, görünüşe göre bir şey düşürdü."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1723
@@ -7421,6 +7608,8 @@ msgid ""
 "This looks like a disused mineshaft. I don’t feel any fresh air, so we "
 "shouldn’t expect to escape this way."
 msgstr ""
+"Burası kullanılmayan bir maden kuyusuna benziyor. Temiz hava hissetmiyorum, "
+"bu yüzden bu yoldan kaçmayı beklememeliyiz."
 
 #. [message]: speaker=unit
 #. if the disguised unit runs out of the caves alone, without rescuing any other prisoners
@@ -7438,19 +7627,19 @@ msgstr "Nereye gidiyorsun?! Geri dön!"
 #. One of the main heroes gets outside, triggering the victory condition
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1773
 msgid "I’ve reached the exit! We’ll have to make a run for it!"
-msgstr ""
+msgstr "Çıkışa ulaştım! Var gücümüzle kaçmamız gerekecek!"
 
 #. [message]
 #. The player didn’t open all the cells before moving a hero to the exit and triggering the victory event
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1778
 msgid "Wait, you can’t leave us behind!"
-msgstr ""
+msgstr "Durun, bizi geride bırakamazsınız!"
 
 #. [message]: speaker=Chief Dra-Nak
 #. immediate response to Boja's death
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1804
 msgid "You killed my bear, you filthy humans! You’ll pay for that!"
-msgstr ""
+msgstr "Ayımı öldürdünüz, sizi pis insanlar! Bunu ödeyeceksiniz!"
 
 #. [message]: speaker=Chief Dra-Nak
 #. [message]: speaker=Varrak-Klar
@@ -7461,12 +7650,14 @@ msgid ""
 "Curse you all! Why couldn’t you have just died as tribute like everyone "
 "else? Now my glorious golden Empire will never be..."
 msgstr ""
+"Lanet olsun hepinize! Neden herkes gibi haraç olarak ölmediniz? Şimdi şanlı "
+"altın İmparatorluğum asla olmayacak..."
 
 #. [message]: speaker=Gweddry
 #. die event for Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/11_Captured.cfg:1862
 msgid "Look, he was carrying the key to their treasury!"
-msgstr ""
+msgstr "Bakın, hazinelerinin anahtarını taşıyormuş!"
 
 #. [scenario]: id=12_Evacuation
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:33
@@ -7508,11 +7699,13 @@ msgid ""
 "Dacyn, are you feeling better? We must keep moving! The orcs have almost "
 "caught up to us."
 msgstr ""
+"Dasin, daha iyi hissediyor musun? İlerlemeye devam etmeliyiz! Orklar "
+"neredeyse bize yetişti."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:307
 msgid "(cough) (cough) Yes, yes, I’m perfectly fine... (cough)"
-msgstr ""
+msgstr "(öksürük) (öksürük) Evet, evet, gayet iyiyim... (öksürük)"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:311
@@ -7520,6 +7713,8 @@ msgid ""
 "Such decrepitude is one ten-thousandth of what you deserve for wielding that "
 "evil amulet! But lo, a bridge in the distance! Hope is not yet lost."
 msgstr ""
+"Bu çöküntü, o kötü muskayı kullandığın için hak ettiğinin on binde biri! "
+"Ama bakın, uzakta bir köprü! Umut henüz kaybolmadı."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:315
@@ -7527,17 +7722,19 @@ msgid ""
 "We must get across quickly before we are cut off and overwhelmed. But the "
 "men are exhausted! We cannot keep running for much longer."
 msgstr ""
+"Önümüz kesilip ezilmeden önce çabucak karşıya geçmeliyiz. Ama adamlar "
+"bitkin! Daha fazla kaçmaya devam edemeyiz."
 
 #. [message]: speaker=Grug
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:319
 msgid "(nodding) Gruuhhh... Grug tired. Leg hurt..."
-msgstr ""
+msgstr "(başını sallayarak) Gruuhhh... Grug yorgun. Bacak acı..."
 
 #. [message]: speaker=Dolburras
 #. "Yeah, don't forget! My legs aren't as long as you humans'!"
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:324
 msgid "Aye, dinnae forget, my legs ain’t as long as ye human-folks’!"
-msgstr ""
+msgstr "Evet, unutmayın, bacaklarım sizin insanlarınki kadar uzun değil!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:328
@@ -7545,6 +7742,8 @@ msgid ""
 "Tell the men they need not fear! I will cross last and destroy the bridge "
 "behind us so that the orcs cannot follow!"
 msgstr ""
+"Adamlara korkmalarına gerek olmadığını söyleyin! En son ben geçip orklar "
+"takip edemesin diye köprüyü arkamızdan yıkacağım!"
 
 #. [message]: speaker=Hahid al-Ali
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:333
@@ -7552,6 +7751,8 @@ msgid ""
 "Well I intend to cross first! Gold’s no good if I die before I can spend it! "
 "I’m not about to sacrifice myself to save you bunch of barbarians."
 msgstr ""
+"Eh, ben ilk geçmeye niyetliyim! Harcayamadan ölürsem altının hiçbir faydası "
+"yok! Sizin gibi bir avuç barbarı kurtarmak için kendimi feda edecek değilim."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:337
@@ -7559,17 +7760,21 @@ msgid ""
 "Everyone, get moving! Anyone left behind on this side of the bridge will "
 "surely be killed!"
 msgstr ""
+"Herkes harekete geçsin! Köprünün bu tarafında geride kalan herkes "
+"kesinlikle öldürülecek!"
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:341
 msgid "I’m gettin’ too old for this life..."
-msgstr ""
+msgstr "Bu hayat için fazla yaşlanıyorum..."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:346
 msgid ""
 "All units <b>(including non-recalled units!)</b> left behind will be lost."
 msgstr ""
+"Geride kalan bütün birimler <b>(geri çağrılmamış birimler dahil!)</b> "
+"kaybedilecek."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:363
@@ -7579,6 +7784,10 @@ msgid ""
 "immediately across the bridge we may be able to (cough)(cough) reach the far "
 "shore before the orcs can attack."
 msgstr ""
+"Ne yazık ki (öksürük) asker almak ya da geri çağırmak için hiç altın "
+"biriktirmedik. Askerlerimizin kaçması imkânsız, ama birkaçımız hemen "
+"köprüden koşarsak orklar saldıramadan karşı kıyıya (öksürük)(öksürük) "
+"ulaşabiliriz."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:373
@@ -7588,6 +7797,10 @@ msgid ""
 "immediately across the bridge we may be able to (cough)(cough) reach the far "
 "shore before the orcs can attack."
 msgstr ""
+"Ne yazık ki (öksürük) asker almak ya da geri çağırmak için pek az altın "
+"biriktirdik. Herkesin kaçması muhtemelen imkânsız, ama üçümüz hemen "
+"köprüden koşarsak orklar saldıramadan karşı kıyıya (öksürük)(öksürük) "
+"ulaşabiliriz."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:383
@@ -7597,6 +7810,9 @@ msgid ""
 "immediately across the bridge we may be able to (cough)(cough) reach the far "
 "shore before the orcs can attack."
 msgstr ""
+"Direnmeye yetecek kadar altınımız var, ama orklar kalabalık (öksürük) ve "
+"güçlü. Herkesin kaçması muhtemelen imkânsız, ama üçümüz hemen köprüden "
+"koşarsak orklar saldıramadan karşı kıyıya (öksürük)(öksürük) ulaşabiliriz."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:390
@@ -7606,6 +7822,9 @@ msgid ""
 "immediately across the bridge we may be able to (cough)(cough) reach the far "
 "shore before the orcs can attack."
 msgstr ""
+"Pek çok asker için altınımız var, ama köprü (öksürük) uzun ve dar. Herkesin "
+"kaçması muhtemelen imkânsız, ama üçümüz hemen köprüden koşarsak orklar "
+"saldıramadan karşı kıyıya (öksürük)(öksürük) ulaşabiliriz."
 
 #. [message]: speaker=Owaec
 #. Although Dacyn is a Mage of Light, he currently doesn't have a halo.
@@ -7615,12 +7834,14 @@ msgid ""
 "Small wonder your Light has abandoned you, if you would leave our companions "
 "to the mercy of the orcs! We should all cross together and leave none behind!"
 msgstr ""
+"Yoldaşlarımızı orkların insafına bırakacaksan Işığının seni terk etmesine "
+"şaşmamalı! Hepimiz birlikte geçmeli ve kimseyi geride bırakmamalıyız!"
 
 #. [message]: speaker=Dacyn
 #. After this message the halo flickers and then stays on.
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:407
 msgid "(cough) My light? ...oh, oh yes, yes of course. Just one moment."
-msgstr ""
+msgstr "(öksürük) Işığım mı? ...ah, ah evet, evet tabii. Bir dakika."
 
 #. [message]: speaker=Hahid al-Ali
 #. He drinks an elixir between this message and the next one
@@ -7629,12 +7850,15 @@ msgid ""
 "Trapped among barbarians and pursued by orcs... how in the sands did I get "
 "here? Time to break out something I’ve been saving for a rainy day..."
 msgstr ""
+"Barbarların arasında kapana kısılmış ve orklar tarafından kovalanıyorum... "
+"kumlar adına buraya nasıl geldim? Kara gün için sakladığım bir şeyi "
+"çıkarmanın zamanı..."
 
 #. [message]: speaker=Hahid al-Ali
 #. He drank an elixir between the last message and this one
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:472
 msgid "Nothing like some extra speed to help me get away!"
-msgstr ""
+msgstr "Kaçmama yardım etmek için biraz ek hız gibisi yok!"
 
 #. [message]: speaker=Owaec
 #. Addressed to Gweddry, but many of the heroes except Dacyn are together in this conversation, assuming the player managed to collect them.
@@ -7644,11 +7868,13 @@ msgid ""
 "Gweddry, you saw how Dacyn struggled to channel his Light. What do you think "
 "of this?"
 msgstr ""
+"Givedri, Dasin’in Işığını yönlendirmekte nasıl zorlandığını gördün. Buna ne "
+"diyorsun?"
 
 #. [message]: speaker=Dolburras
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:486
 msgid "Aye, and have ye noticed the man’s cough? He be trying to hide it."
-msgstr ""
+msgstr "Evet, adamın öksürüğünü fark ettiniz mi? Saklamaya çalışıyo’."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:490
@@ -7656,11 +7882,14 @@ msgid ""
 "... it is a bad sign, to be sure. But Dacyn is determined to protect Wesnoth "
 "and destroy Mal-Ravanal, and I believe he is our only chance at doing so."
 msgstr ""
+"... kötü bir işaret, orası kesin. Ama Dasin Vesnot’u korumaya ve "
+"Mal-Ravanal’ı yok etmeye kararlı ve bunu başarmak için tek şansımızın o "
+"olduğuna inanıyorum."
 
 #. [message]: speaker=Grug
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:494
 msgid "Magic man kind! Be good magic man be."
-msgstr ""
+msgstr "Büyücü adam iyi! İyi büyücü adam olacak."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:498
@@ -7668,6 +7897,8 @@ msgid ""
 "I agree his intentions are good, but with each passing hour, that foul "
 "amulet’s darkness festers within him. What influence may it have?"
 msgstr ""
+"Niyetinin iyi olduğuna katılıyorum, ama her geçen saat o iğrenç muskanın "
+"karanlığı içinde iltihaplanıyor. Nasıl bir etkisi olabilir?"
 
 #. [message]: speaker=Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:502
@@ -7675,6 +7906,8 @@ msgid ""
 "I choose to place my faith in the holy Light, not the darkness! We will "
 "overcome Mal-Ravanal’s evil, and this dark amulet’s as well."
 msgstr ""
+"İnancımı karanlığa değil, kutsal Işığa bağlamayı seçiyorum! Mal-Ravanal’ın "
+"kötülüğünün de bu kara muskanınkinin de üstesinden geleceğiz."
 
 #. [message]: speaker=Hahid al-Ali
 #. Last message in the "Gweddry, you saw how Dacyn struggled to channel his Light" conversation
@@ -7683,6 +7916,8 @@ msgid ""
 "Bah, magic! There’s a reason the civilized people of my world eschew magic — "
 "we would never have to deal with problems like this back in my homeland."
 msgstr ""
+"Bah, büyü! Benim dünyamın medeni insanlarının büyüden uzak durmasının bir "
+"sebebi var — yurdumda asla böyle sorunlarla uğraşmak zorunda kalmazdık."
 
 #. [message]: race=orc
 #. Speaker might be any of Chief Dra-Nak, Varrak-Klar or Rakkha; all three are male orcs.
@@ -7691,6 +7926,8 @@ msgid ""
 "(squinting) I can’t see anything in this searing sunlight. Fall back, wait "
 "for dusk!"
 msgstr ""
+"(gözlerini kısarak) Bu kavurucu güneş ışığında hiçbir şey göremiyorum. Geri "
+"çekilin, alacakaranlığı bekleyin!"
 
 #. [message]: id=Mortic
 #. to the male orc leader who's ordering the retreat
@@ -7733,6 +7970,8 @@ msgid ""
 "Owaec, you fool! I am trapped on the east bank! Without my help Wesnoth will "
 "surely fall to Mal-Ravanal..."
 msgstr ""
+"Ovayek, seni aptal! Doğu kıyısında kapana kısıldım! Benim yardımım olmadan "
+"Vesnot kesinlikle Mal-Ravanal’a yenik düşecek..."
 
 #. [message]: speaker=Dacyn
 #. Owaec has just destroyed the bridge
@@ -7741,6 +7980,8 @@ msgid ""
 "Owaec, you fool! Gweddry is trapped on the east bank! Without his help "
 "Wesnoth will surely fall to Mal-Ravanal..."
 msgstr ""
+"Ovayek, seni aptal! Givedri doğu kıyısında kapana kısıldı! Onun yardımı "
+"olmadan Vesnot kesinlikle Mal-Ravanal’a yenik düşecek..."
 
 #. [message]: speaker=Owaec
 #. Several high-level units were left unrecalled. For a brief cutscene, 10 unrecalled units (high levels preferred) appear on the starting castle.
@@ -7749,6 +7990,7 @@ msgid ""
 "Alas, what have I done? So many brave soldiers of Wesnoth, left behind in "
 "the wildlands..."
 msgstr ""
+"Eyvah, ne yaptım? Vahşi topraklarda geride kalan onca cesur Vesnot askeri..."
 
 #. [message]
 #. Said by any left-behind unit except ogres (they can't speak fluently) and Hahid al-Ali (it would be very out of character for him).
@@ -7757,6 +7999,8 @@ msgid ""
 "At least you three commanders are safe. From here, you must ride swift, ride "
 "strong, and ride to save all of Wesnoth!"
 msgstr ""
+"En azından siz üç komutan güvendesiniz. Buradan hızlı sürmeli, güçlü "
+"sürmeli ve bütün Vesnot’u kurtarmak için sürmelisiniz!"
 
 #. [message]: speaker=Owaec
 #. either got everyone across or left behind at most one L2 or L3 unit
@@ -7766,6 +8010,9 @@ msgid ""
 "willingly leave his companions behind, and so have we clutched victory from "
 "the jaws of defeat!"
 msgstr ""
+"Yaşasın, kuzeylilerden kaçtık! Gerçek bir Kabile adamı yoldaşlarını asla "
+"isteyerek geride bırakmaz ve biz de böylece zaferi yenilginin pençelerinden "
+"kopardık!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:727
@@ -7773,6 +8020,8 @@ msgid ""
 "Yes, yes, (cough)(cough) that’s all well and good. With the bridge "
 "destroyed, the orcs cannot (cough) cross, but what of the drakes?"
 msgstr ""
+"Evet, evet, (öksürük)(öksürük) hepsi çok güzel. Köprü yıkıldığına göre "
+"orklar (öksürük) karşıya geçemez, ama ya ejderimsiler?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:734
@@ -7781,6 +8030,9 @@ msgid ""
 "to pursue us. Now, it is finally time for us to once again travel toward "
 "Weldyn."
 msgstr ""
+"(öksürük) Ejderimsiler de yenildiğine göre (öksürük)(öksürük) hiçbir düşman "
+"bizi takip edemeyecek. Şimdi nihayet bir kez daha Weldyn’e doğru yola çıkma "
+"zamanı."
 
 #. [message]: race=orc
 #. Spoken to Mortic, but at this point it's possible that all the orc leaders are dead, in which case it doesn't get said.
@@ -7789,6 +8041,8 @@ msgid ""
 "Useless pathetic ugly weakling wyrms! Fly across and chase after them, or "
 "we’ll sell you <i>all</i> to the necromancers!"
 msgstr ""
+"İşe yaramaz acınası çirkin zayıf ejderler! Uçup karşıya geçin ve peşlerine "
+"düşün, yoksa <i>hepinizi</i> kara büyücülere satarız!"
 
 #. [message]: speaker=Mortic
 #. to his fellow drakes, and any surviving orcs
@@ -7817,22 +8071,16 @@ msgstr ""
 #. [message]: speaker=Mortic
 #. to his fellow drakes, and any surviving orcs
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:779
-#, fuzzy
-#| msgid ""
-#| "Long has our Honor been stained.\n"
-#| "No longer shall it be.\n"
-#| "Now we reclaim our Aerie,\n"
-#| "And the strength of our Flight."
 msgid ""
 "Long has our Honor been stained.\n"
 "No longer shall it be.\n"
 "Now we reclaim our Eyrie,\n"
 "And the strength of our Flight."
 msgstr ""
-"Uzun zamandır onurumuz lekelendi.\n"
-"Artık öyle olmayacak.\n"
-"Şimdi Ayre'mizi geri alıyoruz,\n"
-"Ve Uçuşumuzun gücünü."
+"Onurumuz uzun süre lekelendi.\n"
+"Artık böyle olmayacak.\n"
+"Şimdi Yuvamızı geri alıyoruz,\n"
+"Ve Sürümüzün gücünü."
 
 #. [message]: speaker=$found_unit.id
 #. Speaker is an orc, and Mortic is flying towards them. "What? Hey!" *gets killed by Mortic*
@@ -7895,7 +8143,7 @@ msgstr "Köprüyü zamanında geçemedik. Bizi öldürecekler!"
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:928
 msgid ""
 "I can hardly believe it! We didn’t need to destroy the bridge after all."
-msgstr ""
+msgstr "İnanamıyorum! Sonuçta köprüyü yıkmamız gerekmedi."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:932
@@ -7904,6 +8152,8 @@ msgid ""
 "from orc and drake; we have taught these northerners not to trifle with "
 "Wesnoth!"
 msgstr ""
+"Yaşasın, Kabileler adına şanlı bir zafer! İnsan asla orktan ve ejderimsiden "
+"kaçmaz; bu kuzeylilere Vesnot’la oynanmayacağını öğrettik!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:936
@@ -7911,6 +8161,8 @@ msgid ""
 "(cough)(cough) Yes, yes, very well, well done. (cough) Now, it is finally "
 "time for us to see what has become of Wesnoth in our absence."
 msgstr ""
+"(öksürük)(öksürük) Evet, evet, pekâlâ, aferin. (öksürük) Şimdi nihayet biz "
+"yokken Vesnot’un ne hale geldiğini görme zamanı."
 
 #. [message]: speaker=Varrak-Klar
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:963
@@ -7936,7 +8188,7 @@ msgstr "Savaş Ganimetleri"
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:27
 msgid "Part III: Wesnoth at War"
-msgstr ""
+msgstr "Kısım III: Savaştaki Vesnot"
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:40
@@ -7945,6 +8197,9 @@ msgid ""
 "screams, and roars broke out from behind. Neither the orcs nor the drakes "
 "attempted to give pursuit."
 msgstr ""
+"Givedri, Ovayek ve Dasin Listra’nın karşısına kaçarken arkalarında çılgınca "
+"bağrışmalar, çığlıklar ve kükremeler koptu. Ne orklar ne de ejderimsiler "
+"peşlerine düşmeye çalıştı."
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:45
@@ -7952,6 +8207,8 @@ msgid ""
 "Leaving the tumultuous wildlands far behind, the soldiers of Wesnoth "
 "prepared to cross the Great River once more and return to their homeland..."
 msgstr ""
+"Çalkantılı vahşi toprakları çok geride bırakan Vesnot askerleri bir kez "
+"daha Büyük Nehir’i geçip yurtlarına dönmeye hazırlandı..."
 
 #. [side]: type=Necromancer, id=Mal-Yrna, gender=female
 #. female necromancer, will be renamed to Mal-Mana if Mal-Mana wasn't killed in a previous scenario
@@ -7987,10 +8244,8 @@ msgstr "Gaoler"
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:482
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:804
-#, fuzzy
-#| msgid "115 gold"
 msgid "150 gold"
-msgstr "115 altın"
+msgstr "150 altın"
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:504
@@ -8056,6 +8311,8 @@ msgid ""
 "Alas, my long days of riding have been for naught. I could not catch the "
 "undead scout before it could report back to its mistress!"
 msgstr ""
+"Eyvah, uzun günler boyunca at sürmem boşa gitti. Yarı ölü gözcüyü "
+"hanımefendisine rapor vermeden yakalayamadım!"
 
 #. [message]: id=Owaec,Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:623
@@ -8064,6 +8321,9 @@ msgid ""
 "she is alerted, and with the rest of our army yet weeks away, she will have "
 "more than enough time to prepare for our arrival."
 msgstr ""
+"Givedri bu kara büyücüyü gafil avlayabileceğimizi ummuştu. Ama artık "
+"uyarıldığına ve ordumuzun geri kalanı daha haftalarca uzakta olduğuna göre, "
+"gelişimize hazırlanmak için fazlasıyla zamanı olacak."
 
 #. [message]: speaker=Mal-Yrna
 #. speaking to a bat
@@ -8200,13 +8460,13 @@ msgstr "Tunrorir"
 #. spoken between two prisoners, "them" being the undead forces
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:949
 msgid "How are there so many of them? Is this the end of all Wesnoth?"
-msgstr ""
+msgstr "Nasıl bu kadar çoklar? Bu bütün Vesnot’un sonu mu?"
 
 #. [message]: speaker=Tunreoryr
 #. spoken between two prisoners
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:954
 msgid "Don’t worry. I’m sure the Crown has a plan..."
-msgstr ""
+msgstr "Merak etmeyin. Eminim Taç’ın bir planı vardır..."
 
 #. [message]: speaker=Vinreddoc
 #. Vinreddoc is a mage, but with random gender
@@ -8372,6 +8632,8 @@ msgstr "Şimdi senin peşine düştük, büyücü!"
 msgid ""
 "Of course, just because I said I wouldn’t summon bats doesn’t mean I can’t..."
 msgstr ""
+"Tabii yarasa çağırmayacağımı söylemem, şeyi yapamayacağım anlamına "
+"gelmiyor..."
 
 #. [message]: speaker=Mal-Yrna
 #. each bat-summoning event is triggered by the player rescuing prisoners
@@ -8412,7 +8674,7 @@ msgstr "Yeter! Yarasalarım kanınla ziyafet çekecek!"
 #. [message]: speaker=Mal-Yrna
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1502
 msgid "Why won’t you just die?!"
-msgstr ""
+msgstr "Neden bir türlü ölmüyorsun?!"
 
 #. [message]: speaker=Gweddry
 #. victory event, and the rest of the player's units catch up
@@ -8421,6 +8683,8 @@ msgid ""
 "Hail, Terraent! We feared the worst when you did not return, yet here I find "
 "you alive and well!"
 msgstr ""
+"Selam, Terent! Dönmeyince en kötüsünden korktuk, ama seni burada sağ salim "
+"buluyorum!"
 
 #. [message]: speaker=Gweddry
 #. victory event, and the rest of the player's units catch up
@@ -8429,6 +8693,8 @@ msgid ""
 "Hail, Owaec! We feared the worst when you did not return, yet here I find "
 "you alive and well!"
 msgstr ""
+"Selam, Ovayek! Dönmeyince en kötüsünden korktuk, ama seni burada sağ salim "
+"buluyorum!"
 
 #. [message]: speaker=Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1607
@@ -8437,6 +8703,9 @@ msgid ""
 "could not decline! Now the crossing is clear, and we may return to see what "
 "has become of our homeland."
 msgstr ""
+"Gerçekten de! Işık beni pek çok canı kurtarma fırsatıyla kutsadı ve geri "
+"çeviremezdim! Artık geçit açık; dönüp yurdumuzun ne hale geldiğini "
+"görebiliriz."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1614
@@ -8445,11 +8714,14 @@ msgid ""
 "prisoners and defeated a foul necromancer! Now the crossing is clear, and we "
 "may return to see what has become of our homeland."
 msgstr ""
+"Yaşasın! Bugün büyük bir zafer oldu! Pek çok esiri kurtardım ve iğrenç bir "
+"kara büyücüyü yendim! Artık geçit açık; dönüp yurdumuzun ne hale geldiğini "
+"görebiliriz."
 
 #. [message]: speaker=Mal-Yrna
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1621
 msgid "You’re too late! Wesnoth is... already..."
-msgstr ""
+msgstr "Çok geç kaldınız! Vesnot zaten..."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1672
@@ -8457,6 +8729,8 @@ msgid ""
 "Hail, Terraent! We feared the worst when you did not return, yet here I find "
 "you alive and well! But who is this you are fighting?"
 msgstr ""
+"Selam, Terent! Dönmeyince en kötüsünden korktuk, ama seni burada sağ salim "
+"buluyorum! Ama savaştığın bu kim?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1679
@@ -8464,6 +8738,8 @@ msgid ""
 "Hail, Owaec! We feared the worst when you did not return, yet here I find "
 "you alive and well! But who is this you are fighting?"
 msgstr ""
+"Selam, Ovayek! Dönmeyince en kötüsünden korktuk, ama seni burada sağ salim "
+"buluyorum! Ama savaştığın bu kim?"
 
 #. [message]: speaker=Mal-Yrna
 #. she dispatches a messenger bat after this, leading to Dacyn saying all is lost
@@ -8473,6 +8749,9 @@ msgid ""
 "but now I find you alive and isolated from Wesnoth! I must inform Mal-"
 "Ravanal!"
 msgstr ""
+"Olabilir mi? Büyücü Dasin mi? Vahşi kuzey topraklarında öldüğünü "
+"sanıyorduk, ama şimdi seni hayatta ve Vesnot’tan kopmuş halde buluyorum! "
+"Mal-Ravanal’a haber vermeliyim!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/13_Spoils_of_War.cfg:1712
@@ -8480,6 +8759,8 @@ msgid ""
 "Even if we triumph at this crossing, Mal-Ravanal will surely find and "
 "destroy us before we can reunite with Wesnoth..."
 msgstr ""
+"Bu geçitte zafer kazansak bile Mal-Ravanal Vesnot’la buluşmamıza fırsat "
+"kalmadan bizi kesinlikle bulup yok edecek..."
 
 #. [scenario]: id=14_The_Drowned_Plains
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:18
@@ -8495,16 +8776,20 @@ msgid ""
 "after battlefield, in the ruins of what used to be Wesnoth’s thriving "
 "eastern provinces."
 msgstr ""
+"Vesnot ordusuyla buluşmak için sabırsızlanan Givedri, Ovayek ve Dasin "
+"aceleyle batıya ilerledi. Bir zamanlar Vesnot’un gelişen doğu eyaletleri "
+"olan yerlerin yıkıntılarında savaş alanı üstüne savaş alanı geçerken "
+"yürekleri burkuldu."
 
 #. [leader]: type=Barrow Wight, id=Sir Seoraery
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:109
 msgid "Sir Seoraery"
-msgstr ""
+msgstr "Sör Seoraeri"
 
 #. [leader]: type=Pyre Wight, id=Sir Efran
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:128
 msgid "Sir Efran"
-msgstr ""
+msgstr "Sör Efran"
 
 #. [leader]: type=Skeletal Dragon, id=Khrakrahs
 #. Date of death unknown, seen alive in 40 YW during the Sceptre of Fire campaign.
@@ -8517,7 +8802,7 @@ msgstr "Karakras"
 #. neutral side, is only horses (although the user_team_name is vaguer than that)
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:325
 msgid "Animals"
-msgstr ""
+msgstr "Hayvanlar"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:479
@@ -8527,7 +8812,7 @@ msgstr "...Hepinizi hayal kırıklığına uğrattım..."
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:480
 msgid "... my daughter... what has happened to my daughter?"
-msgstr ""
+msgstr "... kızım... kızıma ne oldu?"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:481
@@ -8535,50 +8820,56 @@ msgid ""
 "... they don’t know pain... they don’t know fatigue... there was nothing we "
 "could have done..."
 msgstr ""
+"... acı bilmiyorlar... yorgunluk bilmiyorlar... yapabileceğimiz hiçbir şey "
+"yoktu..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:482
 msgid "Lords of Light... what affront did I commit to deserve this fate..."
-msgstr ""
+msgstr "Işığın Efendileri... bu kaderi hak etmek için ne kusur işledim..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:483
 msgid "I fought the undead with everything... I gave everything..."
-msgstr ""
+msgstr "Yarı ölülerle elimdeki her şeyle savaştım... her şeyimi verdim..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:484
 msgid ""
 "... it came from the shadows. A gust of wind, then a claw through my chest..."
 msgstr ""
+"... gölgelerden geldi. Bir rüzgâr esintisi, sonra göğsümden geçen bir "
+"pençe..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:485
 msgid "... please, find my wife... tell her my story."
-msgstr ""
+msgstr "... lütfen, karımı bul... ona hikâyemi anlat."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:486
 msgid "... honor, glory, wealth... none of it saved us in the end."
-msgstr ""
+msgstr "... onur, şan, servet... sonunda hiçbiri bizi kurtarmadı."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:487
 msgid "... they won’t let me die... why won’t they let me die?"
-msgstr ""
+msgstr "... ölmeme izin vermiyorlar... neden ölmeme izin vermiyorlar?"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:488
 msgid ""
 "... they tore the ribs out from my friends... then fashioned them into "
 "arrows."
-msgstr ""
+msgstr "... dostlarımın kaburgalarını söktüler... sonra onlardan ok yaptılar."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:489
 msgid ""
 "... I could not hurt him... my own father... his corpse risen to fight me."
 msgstr ""
+"... ona zarar veremedim... kendi babam... cesedi benimle savaşmak için "
+"dirilmişti."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:490
@@ -8588,34 +8879,34 @@ msgstr "... Sayın Galik, sizi hayal kırıklığına uğrattım."
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:491
 msgid "... the Clans were not prepared... I was not prepared."
-msgstr ""
+msgstr "... Kabileler hazır değildi... ben hazır değildim."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:492
 msgid "... how could we have known? What could we have done?"
-msgstr ""
+msgstr "... nasıl bilebilirdik? Ne yapabilirdik?"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:493
 msgid "... my family, where is my family?"
-msgstr ""
+msgstr "... ailem, ailem nerede?"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:494
 msgid "... what good was my lance... against a creature... without flesh?"
-msgstr ""
+msgstr "... mızrağım ne işe yarardı ki... etsiz bir yaratığa karşı?"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:495
 msgid ""
 "At first I thought he was one of ours... then he waved his hand and my blood "
 "ran cold..."
-msgstr ""
+msgstr "İlk başta bizden biri sandım... sonra elini salladı ve kanım dondu..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:496
 msgid "... so cold... so dark..."
-msgstr ""
+msgstr "... çok soğuk... çok karanlık..."
 
 #. [message]: speaker=unit
 #. Player's unit has just been ambushed. Some other nearby corpses have awoken too, but the player will find that out during the enemy turn.
@@ -8624,6 +8915,8 @@ msgid ""
 "Gah, undead! This one was mired face-first in the swamp, dormant until I "
 "stumbled upon it. They must be lying everywhere in this muck."
 msgstr ""
+"Of, yarı ölüler! Bu yüzüstü bataklığa saplanmıştı, ben üzerine basana kadar "
+"uykudaydı. Bu çamurun her yerinde yatıyor olmalılar."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:582
@@ -8632,6 +8925,9 @@ msgid ""
 "contend with them until we sight them. We can afford some time to capture "
 "villages and build our forces."
 msgstr ""
+"Belki liderleri de uykudadır. Onları görene kadar onlarla uğraşmak zorunda "
+"kalmayacağımızdan şüpheleniyorum. Köy ele geçirip güçlerimizi toplamak için "
+"biraz zamanımız var."
 
 #. [message]: speaker=Gweddry
 #. Player's unit trigger an ambush last turn. During the enemy turn, some other nearby corpses started moving too.
@@ -8640,6 +8936,8 @@ msgid ""
 "Whenever we stumble upon a corpse, it awakens its nearby allies! What will "
 "happen when we wake their leaders?"
 msgstr ""
+"Ne zaman bir cesede rastlasak yakındaki müttefiklerini uyandırıyor! "
+"Liderlerini uyandırınca ne olacak?"
 
 #. [message]: speaker=Dacyn
 #. The keeps are visible, so the player can guess where the leaders themselves are.
@@ -8648,70 +8946,64 @@ msgid ""
 "It may be prudent to clear the swamp near the undead leaders before we sight "
 "them."
 msgstr ""
+"Yarı ölü liderlerini görmeden önce yakınlarındaki bataklığı temizlemek "
+"akıllıca olabilir."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:723
 msgid "Their leader is waking nearby allies out from the swamp!"
-msgstr ""
+msgstr "Liderleri yakındaki müttefiklerini bataklıktan uyandırıyor!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:727
 msgid "Just more abominations for us to slay!!"
-msgstr ""
+msgstr "Öldürecek daha fazla iğrençlik işte!!"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:800
-#, fuzzy
-#| msgid "115 gold"
 msgid "105 gold"
-msgstr "115 altın"
+msgstr "105 altın"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:801
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:805
-#, fuzzy
-#| msgid "70 gold"
 msgid "80 gold"
-msgstr "70 altın"
+msgstr "80 altın"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:802
-#, fuzzy
-#| msgid "115 gold"
 msgid "175 gold"
-msgstr "115 altın"
+msgstr "175 altın"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:803
-#, fuzzy
-#| msgid "115 gold"
 msgid "55 gold"
-msgstr "115 altın"
+msgstr "55 altın"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:807
 msgid "Lord Alric’s Palace"
-msgstr ""
+msgstr "Lord Alrik’in Sarayı"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:808
 msgid "Sir Efran’s Castle"
-msgstr ""
+msgstr "Sör Efran’ın Kalesi"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:809
 msgid "Lord Gaelyc’s Citadel"
-msgstr ""
+msgstr "Lord Gaelik’in Hisarı"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:810
 msgid "Sir Seoraery’s Keep"
-msgstr ""
+msgstr "Sör Seoraeri’nin Burcu"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:811
 msgid "Clearwater Lake"
-msgstr ""
+msgstr "Berrak Su Gölü"
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:864
@@ -8734,19 +9026,19 @@ msgstr ""
 #. Shouted to the landscape, expecting to find living comrades. What will answer is walking corpses and ghosts.
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:906
 msgid "Hail, Clansmen! Come and greet one of your own!"
-msgstr ""
+msgstr "Selam, Kabile adamları! Gelin ve kendi soydaşınızı selamlayın!"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:910
 msgid "Fallen Clansman"
-msgstr ""
+msgstr "Düşmüş Kabile Adamı"
 
 #. [message]: speaker=Owaec
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:930
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:828
 msgid "No."
-msgstr ""
+msgstr "Hayır."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:934
@@ -8755,6 +9047,9 @@ msgid ""
 "be?! How can Mal-Ravanal have already advanced so far into the heartland of "
 "Wesnoth?"
 msgstr ""
+"Hayır, HAYIR! Burada neden bataklık var? Burada neden yarı ölüler var? Bu "
+"nasıl olabilir?! Mal-Ravanal Vesnot’un kalbine bu kadar nasıl ilerlemiş "
+"olabilir?"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:938
@@ -8763,11 +9058,14 @@ msgid ""
 "dammed the river to drown the plains. They must like the swamp, filled with "
 "death and decay..."
 msgstr ""
+"Üzgünüm Ovayek. Yarı ölü orduları Kabile adamlarını yenip ovaları su "
+"altında bırakmak için nehrin önünü kesmiş olmalı. Ölüm ve çürümeyle dolu "
+"bataklığı seviyor olmalılar..."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:942
 msgid "My home... my people... how could this happen..."
-msgstr ""
+msgstr "Yurdum... halkım... bu nasıl olabildi..."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:952
@@ -8777,6 +9075,10 @@ msgid ""
 "And all for what? Some necromancer’s trinket more likely to curse us than "
 "save us?"
 msgstr ""
+"SEN! BÜYÜCÜ!!! Kuzeye gitmemiz için ısrar etmeseydin bu insanları kurtarmak "
+"için zamanında gelebilirdik! Dostlarım, ailem, senin ihmalin yüzünden öldü. "
+"Hem ne için? Bizi kurtarmaktan çok lanetlemesi muhtemel bir kara büyücü "
+"biblosu için mi?"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:956
@@ -8786,63 +9088,67 @@ msgid ""
 "deprived Wesnoth of her eastern guard when she needed it most sorely. And "
 "now my homeland has paid the price for your misdeeds!!"
 msgstr ""
+"Sana güvendik. Ben sana güvendim! Bunun yerine bizi korkaklar gibi savaştan "
+"uzaklaştırdın, adamlarımızı orkların ve ejderimsilerin elinde katledilmeye "
+"götürdün ve Vesnot’u en çok ihtiyaç duyduğu anda doğu muhafızından yoksun "
+"bıraktın. Şimdi de yurdum senin kabahatlerinin bedelini ödedi!!"
 
 #. [message]: speaker=Owaec
 #. Dacyn is bleeding and about to take damage from an unknown source
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:966
 msgid "Are you even listening?!?"
-msgstr ""
+msgstr "Dinliyor musun bile?!?"
 
 #. [message]: speaker=Gweddry
 #. Dacyn is bleeding and taking damage, from an unknown source
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:983
 msgid "Dacyn, what’s wrong? Are you all right?"
-msgstr ""
+msgstr "Dasin, ne oldu? İyi misin?"
 
 #. [message]: speaker=Dacyn
 #. Dacyn steps away from the initial encampment, and is about take a lot of damage
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:995
 msgid "...I can’t-"
-msgstr ""
+msgstr "...Yapamıyorum-"
 
 #. [message]: speaker=Dacyn
 #. Dacyn stepped away from the castle, the six hexes around him have changed to chasms and he's down to 15 hp.
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1042
 msgid "I’ve lost control of the Amulet! I must-"
-msgstr ""
+msgstr "Muska’nın kontrolünü kaybettim! Yapmam gereken-"
 
 #. [message]
 #. up to 6 ghosts or wraiths come out of the chasms, depending on difficulty and how many auto-recalled loyals the player has
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1067
 msgid "And most importantly..."
-msgstr ""
+msgstr "Ve en önemlisi..."
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1074
 msgid "Lord Alric"
-msgstr ""
+msgstr "Lord Alrik"
 
 #. [message]: speaker=Lord Alric
 #. speaker is a wraith, he's emerged from the chasms around Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1080
 msgid "Owaec, my son..."
-msgstr ""
+msgstr "Ovayek, oğlum..."
 
 #. [message]: speaker=Lord Alric
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1084
 msgid "Why did you abandon us? I am dead... thanks to you..."
-msgstr ""
+msgstr "Bizi neden terk ettin? Öldüm... senin sayende..."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1088
 msgid "No, it’s not true! You’re not dead! I don’t believe you!"
-msgstr ""
+msgstr "Hayır, doğru değil! Ölmedin! Sana inanmıyorum!"
 
 #. [message]: speaker=Gweddry
 #. Owaec rides off to the south, into the shroud, and disappears
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1093
 msgid "Owaec, wait!"
-msgstr ""
+msgstr "Ovayek, bekle!"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1112
@@ -8854,12 +9160,12 @@ msgstr "Şimdi ne yapıyoruz?"
 #. Dacyn has healed back to full HP, although that's for gameplay reasons because he needs to fight the ghosts, there isn't a story reason for it.
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1135
 msgid "(gasping) I have regained control!"
-msgstr ""
+msgstr "(soluyarak) Kontrolü yeniden ele geçirdim!"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1139
 msgid "What happened? I did not know this Amulet could act of its own accord."
-msgstr ""
+msgstr "Ne oldu? Bu Muska’nın kendi kendine hareket edebileceğini bilmiyordum."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1143
@@ -8868,6 +9174,9 @@ msgid ""
 "overwhelming. Even with my inner light, the best I can do is cancel out this "
 "dark energy. Such is the price of power..."
 msgstr ""
+"Ben de bilmiyordum. Sezmem gerekirdi, ama karanlık neredeyse ezici. "
+"İçimdeki ışıkla bile yapabileceğimin en iyisi bu kara enerjiyi dengelemek. "
+"Gücün bedeli bu..."
 
 #. [message]: speaker=Dacyn
 #. loses his halo and advances to an L4 Twilight Mage (liminal, heals +4, does not illuminate, melee attack gains "drain")
@@ -8876,12 +9185,14 @@ msgid ""
 "... but it is a necessary price to pay. I will not let up until Mal-Ravanal "
 "is defeated, whatever the cost may be."
 msgstr ""
+"... ama ödenmesi gereken bir bedel. Bedeli ne olursa olsun Mal-Ravanal "
+"yenilene kadar durmayacağım."
 
 #. [message]: speaker=Owaec
 #. Owaec is near his father's castle, and there's a dead (not undead) skeleton on the keep
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1229
 msgid "...so it is true. My lord and father is dead."
-msgstr ""
+msgstr "...demek doğru. Lordum ve babam öldü."
 
 #. [message]: speaker=Owaec
 #. today is when he learns the news of that, not when it happened
@@ -8890,6 +9201,8 @@ msgid ""
 "Today truly is a day of ill fortune. My family is slain, my kinsmen "
 "scattered, my homeland defiled."
 msgstr ""
+"Bugün gerçekten talihsiz bir gün. Ailem katledildi, akrabalarım dağıldı, "
+"yurdum kirletildi."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1242
@@ -8898,6 +9211,8 @@ msgid ""
 "legacy of the Clans!! These undead will pay for the death they have "
 "brought!!!"
 msgstr ""
+"Ama umutsuzluğa kapılmayacağım! Bu lanet yıkım Kabilelerin kalıcı mirası "
+"olmayacak!! Bu yarı ölüler getirdikleri ölümün bedelini ödeyecek!!!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1279
@@ -8906,6 +9221,9 @@ msgid ""
 "marches on Weldyn, but even what little lingers is surely more than a match "
 "for our weary band."
 msgstr ""
+"Ovayek, bu kadar aceleci olma. Burayı fetheden ordunun büyük kısmı şimdi "
+"Weldyn’e yürüyor, ama geride kalan küçük kısım bile yorgun ekibimiz için "
+"kesinlikle fazlasıyla güçlü."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1283
@@ -8918,16 +9236,22 @@ msgid ""
 "the shambling hordes responsible for all this destruction, we must not find "
 "our armories wanting."
 msgstr ""
+"Katılıyorum, ama her yer tuhaf şekilde sessiz. Belki kalan yarı ölüler "
+"uykudadır?\n"
+"\n"
+"Burayı gerçekten geri alacak gücümüz olmasa bile geriye kalan erzakı "
+"toplama fırsatını değerlendirmeliyiz. Bütün bu yıkımdan sorumlu sürüklenen "
+"ordularla sonunda karşılaştığımızda cephaneliklerimizi eksik bulmamalıyız."
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1291
 msgid "Gather as much gold as you can before turns run out."
-msgstr ""
+msgstr "Eller bitmeden olabildiğince çok altın topla."
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1296
 msgid "Loot Addogin’s smugglers’ caches."
-msgstr ""
+msgstr "Addogin’in kaçakçı zulalarını yağmala."
 
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1311
@@ -8935,6 +9259,8 @@ msgid ""
 "Enemy leaders are idle until first sighted, but will then abandon their keep "
 "and attack you."
 msgstr ""
+"Düşman liderleri ilk görülene kadar boşta kalır, ama sonra burçlarını terk "
+"edip sana saldırırlar."
 
 #. [message]: speaker=Hahid al-Ali
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1319
@@ -8944,18 +9270,22 @@ msgid ""
 "until you drop, with <b><i>unlimited melee attacks</i></b> and the "
 "<b><i>berserk</i></b> melee special!"
 msgstr ""
+"Kavurucu bir intikam görevinde misin? Ovayek dostum, ihtiyacın olan şey "
+"benim ulfserker öfkesi iksirim! Bu acı kırmızı nektardan bir yudum ve "
+"<b><i>sınırsız yakın dövüş saldırısı</i></b> ve <b><i>gözü dönmüş</i></b> "
+"yakın dövüş özelliğiyle düşene kadar savaşırsın!"
 
 #. [message]: speaker=Hahid al-Ali
 #. player bought the elixir of ulfserker fury
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1333
 msgid "Try not to die too quickly!"
-msgstr ""
+msgstr "Çok çabuk ölmemeye çalış!"
 
 #. [message]: speaker=Hahid al-Ali
 #. player declined the elixir of ulfserker fury
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1342
 msgid "Suit yourself! Don’t expect me to drink that though, I’m not suicidal!"
-msgstr ""
+msgstr "Nasıl istersen! Ama benim onu içmemi bekleme, intihara meyilli değilim!"
 
 #. [message]: speaker=Hahid al-Ali
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1347
@@ -8963,16 +9293,18 @@ msgid ""
 "This offer expires as soon as your anger does! <i>(elixirs only last for 1 "
 "scenario)</i>"
 msgstr ""
+"Bu teklif öfken geçer geçmez sona erer! <i>(iksirler yalnızca 1 senaryo "
+"sürer)</i>"
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1349
 msgid "Buy the elixir for Owaec (30 gold)."
-msgstr ""
+msgstr "Ovayek için iksiri satın al (30 altın)."
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1359
 msgid "Leave the elixir."
-msgstr ""
+msgstr "İksiri bırak."
 
 #. [message]: speaker=Addogin
 #. Wait a moment... this landscape looks familiar.
@@ -8981,6 +9313,8 @@ msgid ""
 "Hol’ up... some of this place is lookin’ mighty familiar. Yeah, few years "
 "back I used to work for a smuggler ’round these parts."
 msgstr ""
+"Bi’ dakika... burasının bazı yerleri çok tanıdık geliyo’. Evet, birkaç yıl "
+"önce buralarda bi’ kaçakçı için çalışırdım."
 
 #. [message]: speaker=Addogin
 #. hint about the smuggler's hidden gold, will be followed by adding three "go here" markers to the map
@@ -8989,12 +9323,14 @@ msgid ""
 "I’m sure the undead have burned down his storehouse, but there might still "
 "be a cache or three hidden ’round here."
 msgstr ""
+"Eminim yarı ölüler deposunu yakmıştır, ama buralarda hâlâ saklı bi’ iki üç "
+"zula olabilir."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1416
 msgid ""
 "We should retrieve as many as we can; I’m sure the extra gold will be useful."
-msgstr ""
+msgstr "Olabildiğince çoğunu almalıyız; eminim ek altın işimize yarar."
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1420
@@ -9002,6 +9338,8 @@ msgid ""
 "Just remember, I ain’t been here in years. Some of them caches might be "
 "empty now."
 msgstr ""
+"Yalnız unutmayın, yıllardır buraya gelmedim. O zulaların bazıları şimdi boş "
+"olabilir."
 
 #. [message]: speaker=Addogin
 #. although there are three map markers to explore, the first one that the player explores always has this gold, and the second is always empty
@@ -9009,29 +9347,29 @@ msgstr ""
 msgid ""
 "That’s the first cache. Lookee here, my smuggler friend left us 45 gold "
 "pieces."
-msgstr ""
+msgstr "İşte ilk zula. Şuna bak, kaçakçı dostum bize 45 altın bırakmış."
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1481
 msgid ""
 "This be the second cache, but looks like some’un found it before us. Empty."
-msgstr ""
+msgstr "Bu ikinci zula, ama görünüşe göre biri bizden önce bulmuş. Boş."
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1487
 msgid "Third ’n last cache, and it’s loaded! A clean 100 gold pieces."
-msgstr ""
+msgstr "Üçüncü ve son zula ve ağzına kadar dolu! Tam 100 altın."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1499
 msgid "Excellent! The gold from these caches will be very helpful."
-msgstr ""
+msgstr "Mükemmel! Bu zulalardaki altın çok işimize yarayacak."
 
 #. [message]: speaker=Grug
 #. this is probably grug's first time fighting squishy undead (though there were a few in S10)
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1550
 msgid "Squishy fun to squash! Squash squish squash!"
-msgstr ""
+msgstr "Ezmesi eğlenceli yumuşak! Ez ez ez!"
 
 #. [message]: speaker=unit
 #. "odd that his body didn't become undead"
@@ -9040,11 +9378,13 @@ msgid ""
 "This man looks to have been dead for about a month. Odd that his body yet "
 "lies still."
 msgstr ""
+"Bu adam bir aydır ölü gibi görünüyor. Cesedinin hâlâ kıpırdamadan yatması "
+"tuhaf."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1585
 msgid "There is a journal here, still intact despite the swamp."
-msgstr ""
+msgstr "Burada bataklığa rağmen hâlâ sağlam bir günlük var."
 
 #. [message]: speaker=unit
 #. Reading from a dead horseman's journal. This is a warning to the player that there's a Skeletal Dragon in the scenario.
@@ -9060,6 +9400,15 @@ msgid ""
 "claw and wing. Then it fell upon us from behind, and the enemy closed their "
 "ranks, and we were encircled by death.</i>"
 msgstr ""
+"<i>... düşmanın hata yaptığını, savaşın hâlâ kazanılabileceğini düşündük. "
+"Açıklıktan yararlanarak en hızlı binicilerimiz iskelet düzeninin açıkta "
+"kalan kalbine doğru hücum etti. Ama onlar kara büyücülerin saflarında yıkım "
+"yaratırken bile sudan büyük bir sarsıntı geldi; sanki İrdya’nın kendisi "
+"korkunç bir beklentiyle titriyordu.\n"
+"\n"
+"Bir anlığına büyük, kemikli bir figür gördüm; diş, pençe ve kanattan oluşan "
+"sürüklenen bir yığın. Sonra arkadan üzerimize çöktü, düşman saflarını "
+"sıklaştırdı ve ölüm bizi çevreledi.</i>"
 
 #. [message]: speaker=unit
 #. Reading more from the dead horseman's journal, whose corpse prompted the "odd that his body didn't become undead" comment.
@@ -9073,12 +9422,18 @@ msgid ""
 "I offer one final prayer to the Light, that at least my family may be spared "
 "and that my soul may be kept from undeath...</i>"
 msgstr ""
+"<i>Ben, korkak olduğum için kaçtım; yaralarım gücümü alt edene kadar gece "
+"boyunca dörtnala sürdüm. Ve böylece savaşta onurlu bir ölüm kazanamadım; "
+"yalnızca çürümenin ve zehrin getirdiği yavaş bitkinlik ve ateş.\n"
+"\n"
+"Işığa son bir dua ediyorum; en azından ailem kurtulsun ve ruhum "
+"ölümsüzlükten korunsun...</i>"
 
 #. [message]: speaker=Sir Seoraery
 #. no-one sends a messenger, he's talking about memories from before he died
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1646
 msgid "... we need... reinforcements... send a messenger..."
-msgstr ""
+msgstr "... ihtiyacımız var... takviyeye... bir ulak gönderin..."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1650
@@ -9089,7 +9444,7 @@ msgstr "Ben senin düşmanın değilim!"
 #. he's talking of a memory, not the current situation
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1655
 msgid "...must... hold... the line."
-msgstr ""
+msgstr "...hattı... tutmalıyız."
 
 #. [message]: speaker=Sir Efran
 #. he's talking of a memory, not the current situation
@@ -9103,23 +9458,26 @@ msgid ""
 "You and your men have been turned to undeath! Let us put you out of your "
 "misery."
 msgstr ""
+"Sen ve adamların ölümsüzlüğe dönüştürülmüşsünüz! Sizi bu sefaletten "
+"kurtaralım."
 
 #. [message]: speaker=Sir Efran
 #. he's talking to a memory, not the unit that triggered the event
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1716
 msgid "... I would sooner... die... than yield to you... necromancer."
-msgstr ""
+msgstr "... sana boyun eğmektense... ölmeyi tercih ederim... kara büyücü."
 
 #. [effect]: type=impact
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1786
 msgid "tail"
-msgstr ""
+msgstr "kuyruk"
 
 #. [message]: speaker=unit
 #. undead dragon, talking to a memory rather than the unit that triggered him
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1817
 msgid "... Lich, you do not belong here... leave, or I shall... rend you..."
 msgstr ""
+"... Umacı, buraya ait değilsin... git, yoksa seni... paramparça ederim..."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1821
@@ -9127,6 +9485,8 @@ msgid ""
 "Is that... an undead dragon? Dear Light! Raising such a powerful thrall must "
 "have been no small feat, even for a necromancer such as Mal-Ravanal."
 msgstr ""
+"Bu... yarı ölü bir ejderha mı? Aman Işık! Böylesine güçlü bir köleyi "
+"diriltmek, Mal-Ravanal gibi bir kara büyücü için bile küçük bir iş olmamalı."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1825
@@ -9134,12 +9494,14 @@ msgid ""
 "Even a living dragon is nothing but flesh. This feeble imitation lacks even "
 "that. Smash it to pieces."
 msgstr ""
+"Yaşayan bir ejderha bile etten başka bir şey değildir. Bu cılız taklitte o "
+"bile yok. Parçalayın onu."
 
 #. [message]: speaker=unit
 #. undead dragon, again talking to a memory rather than anyone currently on the map
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1830
 msgid "... I warned you... Ravanal... now <b>burn</b>."
-msgstr ""
+msgstr "... seni uyarmıştım... Ravanal... şimdi <b>yan</b>."
 
 #. [message]: speaker=second_unit
 #. speaker is one of the undead leaders, in an [event]name=attack
@@ -9148,6 +9510,8 @@ msgid ""
 "... Owaec... why do you fight me? Join us... ride alongside your father... "
 "defend the plains..."
 msgstr ""
+"... Ovayek... benimle neden savaşıyorsun? Bize katıl... babanın yanında "
+"sür... ovaları savun..."
 
 #. [message]: speaker=Owaec
 #. speaking to one of the undead leaders, in an [event]name=attack
@@ -9156,13 +9520,15 @@ msgid ""
 "Abomination!! Clansmen though you once were, I have no choice but to grind "
 "you into dust now."
 msgstr ""
+"İğrençlik!! Bir zamanlar Kabile adamları olsanız da sizi toza çevirmekten "
+"başka seçeneğim yok."
 
 #. [message]: speaker=Owaec
 #. speaking to Khrakrahs in an [event]name=attack, although the anger seems misdirected
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1943
 msgid ""
 "You! You are the cause of this destruction!! Vengeance for my fallen people!"
-msgstr ""
+msgstr "Sen! Bu yıkımın sebebi sensin!! Düşen halkım için intikam!"
 
 #. [message]: speaker=Terraent
 #. speaking to one of the undead leaders (horseman, not dragon) in an [event]name=attack
@@ -9171,6 +9537,8 @@ msgid ""
 "All things deserve redemption, but I fear the undead will never find it. May "
 "this place be cleansed in holy fire!"
 msgstr ""
+"Her şey kurtuluşu hak eder, ama korkarım yarı ölüler onu asla bulamayacak. "
+"Bu yer kutsal ateşle arınsın!"
 
 #. [message]: speaker=Terraent
 #. speaking to Khrakrahs in an [event]name=attack
@@ -9179,12 +9547,14 @@ msgid ""
 "I have faced worse terrors than you, lizard! Through piety and the holy "
 "Light, this place will be sanctified once more."
 msgstr ""
+"Senden daha korkunç dehşetlerle yüzleştim, kertenkele! Dindarlık ve kutsal "
+"Işıkla burası bir kez daha kutsanacak."
 
 #. [message]: speaker=second_unit
 #. speaker is an undead horseman, who's fighting Gaennell. Unclear whether this is to a memory, or because Gaennell is a Shadow Mage
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:1994
 msgid "... Necromancer... you are a blight..."
-msgstr ""
+msgstr "... Kara büyücü... sen bir belasın..."
 
 #. [message]: speaker=Gaennell
 #. to an undead horseman in an attack event
@@ -9193,6 +9563,8 @@ msgid ""
 "Not sure what you’d call me anymore, but definitely not more of a blight "
 "than you."
 msgstr ""
+"Artık bana ne derdin bilmiyorum, ama kesinlikle senden daha büyük bir bela "
+"değilim."
 
 #. [message]: speaker=second_unit
 #. Attacked with a fireball from an L2 or higher mage.
@@ -9200,36 +9572,36 @@ msgstr ""
 #. The date of Khrakrahs' own death isn't canon, he was still alive in 40 YW (he appears in SoF).
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2018
 msgid "... Shek’kahan, your fire grows weak... you are hardly... a rival."
-msgstr ""
+msgstr "... Şekkahan, ateşin zayıflıyor... sen ancak... bir rakip sayılırsın."
 
 #. [message]: speaker=second_unit
 #. speaker is Khrakrahs when attacked by a dwarf, but remembering one he met in 40 YW.
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2035
 msgid "... Thursagan... I warned you not... to enter my lair."
-msgstr ""
+msgstr "... Thursagan... sana inime... girmemeni söylemiştim."
 
 #. [message]: speaker=Lord Alric
 #. last breath request from the ghost of Lord Alric
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2052
 msgid "... please, watch over my son for me."
-msgstr ""
+msgstr "... lütfen, oğluma benim yerime göz kulak olun."
 
 #. [message]: speaker=Sir Seoraery
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2064
 msgid "... I may die... but the Clans... will never fall."
-msgstr ""
+msgstr "... ben ölebilirim... ama Kabileler... asla düşmeyecek."
 
 #. [message]: speaker=Sir Efran
 #. last breath, but still talking to a memory rather than the unit currently fighting him
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2077
 msgid "... Necromancer... Wesnoth will defeat you... in the end."
-msgstr ""
+msgstr "... Kara büyücü... Vesnot seni yenecek... sonunda."
 
 #. [message]: speaker=Khrakrahs
 #. last breath
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2090
 msgid "I am... ...<i>cold</i>."
-msgstr ""
+msgstr "Ben... ...<i>üşüyorum</i>."
 
 #. [message]: speaker=Gweddry
 #. spoken at the start of a new turn after killing the first undead leader
@@ -9239,30 +9611,33 @@ msgid ""
 "you. Perhaps you should rest and take a moment to regain your strength? I "
 "could carry the Amulet for a while, or we could store it away."
 msgstr ""
+"Dasin, düşünüyordum da. Bu eser seni çok tüketti. Belki dinlenip gücünü "
+"toplamak için biraz vakit ayırmalısın? Muska’yı bir süre ben taşıyabilirim "
+"ya da onu bir yere kaldırabiliriz."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2106
 msgid ""
 "Hmm... I suppose there would be no harm in locking it up somewhere safe."
-msgstr ""
+msgstr "Hmm... sanırım onu güvenli bir yere kilitlemenin bir zararı olmaz."
 
 #. [message]
 #. voices from the amulet talking to Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2113
 msgid "You have a great weapon... and you would simply lock it away?"
-msgstr ""
+msgstr "Büyük bir silahın var... ve onu öylece kilitleyecek misin?"
 
 #. [message]
 #. voices from the amulet talking to Dacyn, speaking of Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2120
 msgid "His intent is good, but his spirit is weak... he would be corrupted..."
-msgstr ""
+msgstr "Niyeti iyi, ama ruhu zayıf... yozlaşır..."
 
 #. [message]
 #. voices from the amulet talking to Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2127
 msgid "Only you can be trusted with this responsibility."
-msgstr ""
+msgstr "Bu sorumluluk için yalnızca sana güvenilebilir."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2131
@@ -9270,11 +9645,13 @@ msgid ""
 "But on the other hand... this is a dangerous artifact. I fear that only I "
 "can withstand its energies."
 msgstr ""
+"Ama öte yandan... bu tehlikeli bir eser. Korkarım enerjilerine yalnızca ben "
+"dayanabilirim."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2135
 msgid "Well, you’re the magic expert."
-msgstr ""
+msgstr "Eh, büyü uzmanı sensin."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2147
@@ -9283,6 +9660,9 @@ msgid ""
 "of Wesnoth. We must make the most of our time here; we cannot afford to "
 "tarry too long."
 msgstr ""
+"At Kabileleri bu kadar tamamen düştüyse Weldyn ve Vesnot’un geri kalanı "
+"için korkuyorum. Buradaki zamanımızı en iyi şekilde değerlendirmeliyiz; "
+"fazla oyalanmayı göze alamayız."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2155
@@ -9290,16 +9670,18 @@ msgid ""
 "So much death. So many of my kinsmen left unavenged. If only we had more "
 "time..."
 msgstr ""
+"Ne çok ölüm. Akrabalarımın ne çoğunun intikamı alınmadı. Keşke daha çok "
+"zamanımız olsaydı..."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2159
 msgid "We have done all we could here."
-msgstr ""
+msgstr "Burada elimizden geleni yaptık."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2184
 msgid "It is done. My kinsmen have been avenged."
-msgstr ""
+msgstr "Bitti. Akrabalarımın intikamı alındı."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2203
@@ -9311,11 +9693,17 @@ msgid ""
 "The fates may yet reveal that our journey north was necessary, even at such "
 "a steep cost. I will stand by you in this fight."
 msgstr ""
+"Büyücü... sana bir özür borçluyum. Bu yıkım... kuzeye gitmek yerine buraya "
+"gelmiş olsaydık bile kesinlikle hiçbir fark yaratmazdık. Artık bundan "
+"eminim.\n"
+"\n"
+"Kader, bu kadar ağır bir bedele rağmen kuzey yolculuğumuzun gerekli "
+"olduğunu henüz gösterebilir. Bu savaşta yanında duracağım."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2209
 msgid "Apology accepted."
-msgstr ""
+msgstr "Özrün kabul edildi."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2216
@@ -9323,6 +9711,8 @@ msgid ""
 "And I too must admit, I underestimated the power in this Amulet. Even now, "
 "voices gnaw at the edges of my mind..."
 msgstr ""
+"Ben de itiraf etmeliyim ki bu Muska’daki gücü hafife aldım. Şimdi bile "
+"sesler zihnimin kenarlarını kemiriyor..."
 
 #. [message]: speaker=Owaec
 #. to Dacyn
@@ -9332,6 +9722,9 @@ msgid ""
 "to ruin and death! Yet, at least now I believe that your intentions are good "
 "despite your questionable methods."
 msgstr ""
+"Yanılma, planını hâlâ onaylamıyorum! Seni yalnızca yıkıma ve ölüme "
+"götürecek! Yine de en azından şüpheli yöntemlerine rağmen niyetinin iyi "
+"olduğuna artık inanıyorum."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/14_The_Drowned_Plains.cfg:2225
@@ -9341,11 +9734,15 @@ msgid ""
 "their invasion first began. Owaec, Dacyn, if you are prepared to travel, we "
 "must press toward Weldyn at once."
 msgstr ""
+"Burada galip geldiğimize sevindim, ama Kabileler bu kadar çabuk ve bu kadar "
+"kesin yenildiyse Vesnot için çok korkuyorum. İstilaları başlayalı daha bir "
+"yıl bile olmadı. Ovayek, Dasin, yolculuğa hazırsanız hemen Weldyn’e doğru "
+"ilerlemeliyiz."
 
 #. [scenario]: id=15_Return_to_Wesnoth
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:4
 msgid "Return to Wesnoth"
-msgstr ""
+msgstr "Vesnot’a Dönüş"
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:17
@@ -9354,6 +9751,9 @@ msgid ""
 "marched hurriedly towards Weldyn, capital of Wesnoth. They dreaded what they "
 "might find there..."
 msgstr ""
+"Çürüyen At Ovaları’nı çok geride bırakan Givedri, Ovayek ve Dasin, "
+"Vesnot’un başkenti Weldyn’e doğru aceleyle yürüdü. Orada ne "
+"bulabileceklerinden korkuyorlardı..."
 
 #. [side]: type=General, id=Halrad
 #. [unit]: type=General, id=Halrad
@@ -9366,12 +9766,12 @@ msgstr "Halrad"
 #. [side]: type=General, id=Halrad
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:79
 msgid "Shield of Ana’sar"
-msgstr ""
+msgstr "Ana’sar’ın Kalkanı"
 
 #. [side]: type=General, id=Halrad
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:87
 msgid "Carcyn’s Pride"
-msgstr ""
+msgstr "Karsin’in Gururu"
 
 #. [side]: type=Necromancer, id=Mal-un-Darak
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:176
@@ -9393,7 +9793,7 @@ msgstr "Mal-un-Kadruk"
 msgid ""
 "Lo and behold, the great city of Weldyn! Its walls still stand, thank the "
 "Light."
-msgstr ""
+msgstr "İşte, büyük Weldyn şehri! Surları hâlâ ayakta, Işığa şükür."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:526
@@ -9402,6 +9802,8 @@ msgid ""
 "completely surrounding the city! The defenders must be grievously "
 "outnumbered."
 msgstr ""
+"Ama bakın, yarı ölüler kuşatma kurmuş ve şehri tamamen çevreleyen "
+"tahkimatlar inşa etmişler! Savunucular sayıca çok az olmalı."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:577
@@ -9410,6 +9812,9 @@ msgid ""
 "Ravanal’s greater host. (cough)(cough) I must meet with the king. Weldyn "
 "will fall if we do not act."
 msgstr ""
+"Bu yarı ölü kuvveti bile (öksürük) Mal-Ravanal’ın büyük ordusunun küçük bir "
+"parçası gibi görünüyor. (öksürük)(öksürük) Kralla görüşmeliyim. Harekete "
+"geçmezsek Weldyn düşecek."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:628
@@ -9417,19 +9822,21 @@ msgid ""
 "Then we must reinforce the city at once. There is a relief tunnel nearby, "
 "its entrance still hidden from the dead. Come on men, follow me!"
 msgstr ""
+"O zaman şehri hemen takviye etmeliyiz. Yakınlarda girişi hâlâ ölülerden "
+"gizli olan bir yardım tüneli var. Haydi adamlar, beni izleyin!"
 
 #. [time]: id=indoors
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:721
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:917
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:12
 msgid "Indoors"
-msgstr ""
+msgstr "İç Mekân"
 
 #. [unit]: id=Aeraeka, type=Arch Mage, gender=female
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:755
 #: data/campaigns/Eastern_Invasion/scenarios/18_Epilogue.cfg:102
 msgid "Aeraeka"
-msgstr ""
+msgstr "Aeraeka"
 
 #. [unit]: id=Halric, type=General
 #. [side]: type=General, id=Halric
@@ -9441,7 +9848,7 @@ msgstr "Halrik"
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:777
 msgid "Denogyc"
-msgstr ""
+msgstr "Denogik"
 
 #. [message]: speaker=Aeraeka
 #. the council discusses the northern alliance
@@ -9449,7 +9856,7 @@ msgstr ""
 msgid ""
 "Well try again! It is absolutely imperative that we get a response from the "
 "Northerners."
-msgstr ""
+msgstr "O zaman tekrar dene! Kuzeylilerden bir cevap almamız kesinlikle şart."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:819
@@ -9457,24 +9864,26 @@ msgid ""
 "If help was coming, we would have heard about it by now. They’re either "
 "unwilling or unable to march. What we need to consider is-"
 msgstr ""
+"Yardım geliyor olsaydı şimdiye kadar haberini alırdık. Ya istekli değiller "
+"ya da yürüyecek durumda değiller. Düşünmemiz gereken şey—"
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:823
 msgid "Mefel"
-msgstr ""
+msgstr "Mefel"
 
 #. [message]: speaker=Mefel
 #. the speaker, a male Silver Mage, has just teleported in
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:833
 msgid "Urgent report from the south, Sire! I’m afraid it can’t wait."
-msgstr ""
+msgstr "Güneyden acil rapor, Efendim! Korkarım bekleyemez."
 
 #. [message]: speaker=Konrad
 #. Denogyc is a male Lancer.
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:839
 msgid ""
 "Denogyc, you’re excused. Get some rest. Minister Mefel, what news of Kerlath?"
-msgstr ""
+msgstr "Denogik, gidebilirsin. Biraz dinlen. Bakan Mefel, Kerlat’tan ne haber?"
 
 #. [message]: speaker=Mefel
 #. Kerlath Province is the area around Westin
@@ -9484,11 +9893,14 @@ msgid ""
 "depleted. I’m afraid we won’t be able to mount a counter-offensive in time "
 "to support you, especially with Mal-Xlana still holding Fort Tahn."
 msgstr ""
+"Vestin çevresindeki kuşatma kırıldı, ama Kerlat’ın güçleri çok azaldı. "
+"Korkarım size destek olmak için zamanında bir karşı saldırı "
+"başlatamayacağız, özellikle de Mal-Ksılana hâlâ Tahn Kalesi’ni tutarken."
 
 #. [message]: speaker=Aeraeka
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:872
 msgid "Oh, what now..."
-msgstr ""
+msgstr "Ah, yine ne oldu..."
 
 #. [message]: speaker=Halrad
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:877
@@ -9496,11 +9908,13 @@ msgid ""
 "My Liege, your former High Advisor Dacyn is here, and he says he has vital "
 "information on how to defeat the undead."
 msgstr ""
+"Efendim, eski Baş Danışmanınız Dasin burada ve yarı ölülerin nasıl "
+"yenileceğine dair hayati bilgisi olduğunu söylüyor."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:898
 msgid "Dacyn?! At last some good news! I thought you were long dead."
-msgstr ""
+msgstr "Dasin?! Sonunda iyi bir haber! Çoktan öldüğünü sanıyordum."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:902
@@ -9508,6 +9922,8 @@ msgid ""
 "He certainly looks half-dead. Dacyn, there is an unholy pall over your skin. "
 "Where have you been all this time? We’ve sorely needed your help."
 msgstr ""
+"Kesinlikle yarı ölü gibi görünüyor. Dasin, teninde kutsal olmayan bir "
+"solgunluk var. Bunca zamandır neredeydin? Yardımına çok ihtiyacımız vardı."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:906
@@ -9517,6 +9933,9 @@ msgid ""
 "the snake. Mal-Ravanal, who you once knew as the mage Ravan, must be "
 "destroyed."
 msgstr ""
+"Hikâyem ve görünüşüm önemsiz. Önemli olan bu istilacıları nasıl yeneceğimi "
+"bilmem. Zafere giden tek yol yılanın başını kesmek. Bir zamanlar büyücü "
+"Ravan olarak tanıdığınız Mal-Ravanal yok edilmeli."
 
 #. [message]: speaker=Aeraeka
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:910
@@ -9526,6 +9945,9 @@ msgid ""
 "taken a new body and returned the favor on our ranks. I myself barely made "
 "it out alive!"
 msgstr ""
+"Denemedik mi sanıyorsun?! En iyi büyücülerimiz büyük kayıplar pahasına o "
+"cehennemi umacıyı yere serdi, ama birkaç saniye içinde Mal-Ravanal yeni bir "
+"beden almış ve aynısını saflarımıza yapmıştı. Ben de canımı zor kurtardım!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:914
@@ -9535,6 +9957,10 @@ msgid ""
 "possess. If we can destroy the skeletal body, I wield the power to banish "
 "the lich’s long-tortured soul. This destruction will be permanent."
 msgstr ""
+"İşte bu yüzden yoldaşlarım ve ben geçen yılı çok kuzeydoğuya yolculuk "
+"ederek, şimdi bende olan güçlü (öksürük) bir büyülü muskayı arayarak "
+"geçirdik. İskelet bedenini yok edebilirsek, umacının uzun süredir işkence "
+"gören ruhunu sürgün etme gücüne sahibim. Bu yok oluş kalıcı olacak."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:918
@@ -9542,6 +9968,8 @@ msgid ""
 "Your Majesty, I have seen this amulet used before. While I cannot attest to "
 "its reliability, it is certainly powerful enough to do what Dacyn claims."
 msgstr ""
+"Majesteleri, bu muskanın daha önce kullanıldığını gördüm. Güvenilirliğine "
+"kefil olamam, ama Dasin’in iddia ettiğini yapacak kadar güçlü olduğu kesin."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:922
@@ -9552,6 +9980,12 @@ msgid ""
 "we’ve been cut off from Dan’Tonk and barely have enough men to hold the "
 "walls, much less sortie against the undead."
 msgstr ""
+"Bu büyü işinin işe yaradığını varsaysak bile Mal-Ravanal’ın bedenini nasıl "
+"yok etmeyi düşünüyorsun? Sahip olduğumuz tek şans umacının kendi kibrinden "
+"kaynaklanıyordu ve daha iyi koşullar altında bile bize seçkin "
+"büyücülerimizden dördüne mal oldu. Şimdi Dan’Tonk ile bağlantımız kesildi "
+"ve surları tutmaya zor yetecek kadar adamımız var, yarı ölülere karşı çıkış "
+"yapmayı bırak."
 
 #. [message]: speaker=Aeraeka
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:926
@@ -9577,6 +10011,13 @@ msgid ""
 "I will not let the devastation at the plains be the final legacy of the "
 "Clans. We must attack and win back our glory!"
 msgstr ""
+"Olasılıklara aldırmıyorum! Bence bütün Vesnot’un kudretiyle Mal-Ravanal’a "
+"saldıralım. Güçlü bir saldırı yaparsak düşman hatlarını yarabilir, savaşın "
+"kargaşasında Mal-Ravanal’ı yalnız bırakabilir ve umacıyı yok oluşa "
+"savurabiliriz!\n"
+"\n"
+"Ovalardaki yıkımın Kabilelerin son mirası olmasına izin vermeyeceğim. "
+"Saldırıp şanımızı geri kazanmalıyız!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:940
@@ -9588,6 +10029,12 @@ msgid ""
 "Ravanal to a duel, I believe they would choose to face me. That would be our "
 "opportunity."
 msgstr ""
+"Benim (öksürük) daha iyi bir önerim var. Mal-Ravanal’ın orduları uçsuz "
+"bucaksız ve yenilmez. Ama umacı tek başına öyle değil. Bir insanken Ravan "
+"kibir derecesinde kendine aşırı güvenirdi. Hâlâ bunun doğru olduğuna "
+"inanıyorum, umacılığa eriştikten sonra belki daha da fazla. "
+"(öksürük)(öksürük) Mal-Ravanal’a düello teklif edersem benimle yüzleşmeyi "
+"seçeceğine inanıyorum. Bu bizim fırsatımız olur."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:944
@@ -9597,6 +10044,10 @@ msgid ""
 "amulet of yours, we cannot trust that lich to honor the terms of such a "
 "challenge. You would likely find yourself facing their entire army!"
 msgstr ""
+"Mal-Ravanal’a kibirli diyorsun, ama böylesine ezici bir güçle teke tek "
+"dövüşmek mi istiyorsun? O iğrenç muskanla zafer kazanabilsen bile o "
+"umacının böyle bir meydan okumanın şartlarına uyacağına güvenemeyiz. "
+"Muhtemelen kendini onun bütün ordusuyla karşı karşıya bulursun!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:948
@@ -9613,6 +10064,8 @@ msgid ""
 "Two risky plans. But the armies surrounding Weldyn grow each day, and we are "
 "hard-pressed for options."
 msgstr ""
+"İki riskli plan. Ama Weldyn’i çevreleyen ordular her gün büyüyor ve "
+"seçeneklerimiz kısıtlı."
 
 #. [unit]: id=Halrod, type=General
 #. [side]: type=General, id=Halrod
@@ -9633,6 +10086,9 @@ msgid ""
 "are massing around the outer villages. I think they mean to storm the moat "
 "at nightfall."
 msgstr ""
+"Efendim, saldırı altındayız! Yarı ölüler çevre toprak tahkimatlarını aştı "
+"ve dış köylerin çevresinde toplanıyor. Sanırım gece çökünce hendeğe hücum "
+"etmeyi düşünüyorlar."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:994
@@ -9640,6 +10096,8 @@ msgid ""
 "They attack again so soon?! The few men we have left are in no position to "
 "repel a concentrated assault!"
 msgstr ""
+"Bu kadar çabuk yine mi saldırıyorlar?! Elimizde kalan birkaç adam yoğun bir "
+"saldırıyı püskürtecek durumda değil!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/15_Return_to_Wesnoth.cfg:999
@@ -9647,6 +10105,8 @@ msgid ""
 "This is ill news indeed. We will have to cut our council short; Generals, "
 "Lieutenant, ready your men!"
 msgstr ""
+"Bu gerçekten kötü bir haber. Toplantımızı kısa kesmemiz gerekecek; "
+"Generaller, Teğmen, adamlarınızı hazırlayın!"
 
 #. [scenario]: id=16_Eleventh_Hour
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:18
@@ -9747,7 +10207,7 @@ msgstr "II. Konrad’ın ölümü"
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1022
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:640
 msgid "Konrad II will not leave the center island."
-msgstr ""
+msgstr "II. Konrad orta adadan ayrılmayacak."
 
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1025
@@ -9755,6 +10215,8 @@ msgid ""
 "Generals will reinforce each bridgehead while they/you have defenders there, "
 "falling back to their castle otherwise."
 msgstr ""
+"Generaller orada savunucuları olduğu sürece her köprübaşını takviye edecek, "
+"aksi halde kalelerine çekilecekler."
 
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1028
@@ -9762,6 +10224,8 @@ msgid ""
 "If you decide not to duel Mal-Ravanal, surviving generals will aid you in "
 "the next scenario."
 msgstr ""
+"Mal-Ravanal’la düello yapmamaya karar verirsen hayatta kalan generaller "
+"sonraki senaryoda sana yardım edecek."
 
 #. [message]: speaker=Halrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1052
@@ -9769,17 +10233,21 @@ msgid ""
 "Undead approach at the northern crossings. My forces are in position to "
 "engage the invaders."
 msgstr ""
+"Yarı ölüler kuzey geçitlerinden yaklaşıyor. Güçlerim istilacılarla çatışmak "
+"için mevzide."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1057
 msgid "The southeastern bridges are secure; hostiles inbound."
-msgstr ""
+msgstr "Güneydoğu köprüleri güvende; düşmanlar geliyor."
 
 #. [message]: speaker=Halrod
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1062
 msgid ""
 "My fortifications are manned and ready. Brace for attack from the southwest."
 msgstr ""
+"Tahkimatlarımda adamlar hazır ve nazır. Güneybatıdan gelecek saldırıya "
+"hazırlanın."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1095
@@ -9791,7 +10259,7 @@ msgstr ""
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1099
 msgid "Let us show these undead the might of Wesnoth!"
-msgstr ""
+msgstr "Bu yarı ölülere Vesnot’un kudretini gösterelim!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1103
@@ -9799,6 +10267,8 @@ msgid ""
 "And so it comes to this, here at what seems the end of days. Prepare for "
 "battle!"
 msgstr ""
+"Ve işte, günlerin sonu gibi görünen bu yerde iş buraya varıyor. Savaşa "
+"hazırlanın!"
 
 #. [message]: speaker=Yannic
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1149
@@ -9807,6 +10277,9 @@ msgid ""
 "to Wesnoth by winter I feared the worst. I am relieved to see you alive and "
 "well! This is the first good news I’ve heard of the war in quite some time."
 msgstr ""
+"Demek doğru, Ovayek ve Givedri hayatta kalmış! Güçleriniz kışa kadar "
+"Vesnot’a dönmeyince en kötüsünden korkmuştum. Sizi sağ salim görmek beni "
+"çok rahatlattı! Uzun zamandır savaşla ilgili duyduğum ilk iyi haber bu."
 
 #. [message]: speaker=Yannic
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1153
@@ -9814,6 +10287,8 @@ msgid ""
 "I’m afraid my Soradoc company was nearly wiped out in the massacre at the "
 "Plains, but the few of us who remain place ourselves at your service!"
 msgstr ""
+"Korkarım Soradok bölüğüm Ovalar’daki katliamda neredeyse yok oldu, ama "
+"geriye kalan birkaçımız kendimizi hizmetinize sunuyoruz!"
 
 #. [message]: speaker=Addogin
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1257
@@ -9821,6 +10296,8 @@ msgid ""
 "So this is Weldyn? Didn’t know cities got this big. Never thought I’d end up "
 "fightin’ here, of all places."
 msgstr ""
+"Demek Weldyn bu? Şehirlerin bu kadar büyüdüğünü bilmiyordum. Hiç aklıma "
+"gelmezdi, tüm yerler içinde burada savaşacağım."
 
 #. [message]: speaker=Mel Guthrak
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1269
@@ -9828,6 +10305,8 @@ msgid ""
 "Gaennell, you traitor! <b>I</b> am your master, not some petty king of men. "
 "Return to me and face your punishment."
 msgstr ""
+"Gennel, seni hain! Senin efendin <b>benim</b>, adi bir insan kralı değil. "
+"Bana dön ve cezanla yüzleş."
 
 #. [message]: speaker=Gaennell
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1273
@@ -9835,11 +10314,13 @@ msgid ""
 "You tried to have me killed over a petty accident! I’m not going to grovel "
 "at your feet and suffer your abuse any more."
 msgstr ""
+"Önemsiz bir kaza yüzünden beni öldürtmeye çalıştın! Artık ayaklarına "
+"kapanıp eziyetine katlanmayacağım."
 
 #. [message]: speaker=Yannic
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1285
 msgid "For my fallen brothers at Soradoc and the Plains!"
-msgstr ""
+msgstr "Soradok’ta ve Ovalar’da düşen kardeşlerim için!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1307
@@ -9847,6 +10328,8 @@ msgid ""
 "My legacy will not be one of failure! With all the might of the throne of "
 "Wesnoth, I will strike you down!"
 msgstr ""
+"Mirasım başarısızlık olmayacak! Vesnot tahtının bütün kudretiyle seni yere "
+"sereceğim!"
 
 #. [message]: speaker=$found_unit.id
 #. one of the AI generals when the player takes their village
@@ -9856,6 +10339,9 @@ msgid ""
 "them, but please know that it will make it more difficult to heal my injured "
 "soldiers."
 msgstr ""
+"Efendim, ihtiyacınız olursa elbette köylerimden herhangi birini ele "
+"geçirebilirsiniz, ama bunun yaralı askerlerimi iyileştirmeyi "
+"zorlaştıracağını lütfen bilin."
 
 #. [message]: speaker=Konrad
 #. "light of dawn" is merely because it's that time of day
@@ -9864,11 +10350,13 @@ msgid ""
 "Stand strong, men of Wesnoth! Rally under the light of dawn, and drive the "
 "undead back!"
 msgstr ""
+"Sağlam durun, Vesnot’un adamları! Şafağın ışığı altında toplanın ve yarı "
+"ölüleri geri püskürtün!"
 
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1369
 msgid "Oh hello, am I interrupting something?"
-msgstr ""
+msgstr "Ah merhaba, bir şeyi mi bölüyorum?"
 
 #. [message]: speaker=Mal-Ravanal
 #. according to the turn counter, it's dawn; Mal-Ravanal is claiming to be able to control that
@@ -9877,11 +10365,13 @@ msgid ""
 "It’s been fun watching this little squabble unfold, but it’s time to move "
 "things along. Night will now fall, and the city with it."
 msgstr ""
+"Bu küçük kavgayı izlemek eğlenceliydi, ama işleri ilerletme zamanı. Şimdi "
+"gece çökecek, şehir de onunla birlikte."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1380
 msgid "Not if I stop you first! I defeated you before, and I will do so again!"
-msgstr ""
+msgstr "Önce ben seni durdurursam olmaz! Seni daha önce yendim, yine yeneceğim!"
 
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1406
@@ -9889,6 +10379,8 @@ msgid ""
 "Ah Dacyn, picked up a few tricks, have we? But your understanding is a bit "
 "shallow. Observe how it is done."
 msgstr ""
+"Ah Dasin, birkaç numara öğrenmişsin, öyle mi? Ama anlayışın biraz yüzeysel. "
+"Nasıl yapıldığını izle."
 
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1410
@@ -9898,23 +10390,27 @@ msgid ""
 "Swallow the day and swallow the sun,\n"
 "And leave eternal night to remain."
 msgstr ""
+"Kara kana, göğün dokusu.\n"
+"Ardına kadar açıl, dünyalar arasındaki karanlığın ağzı.\n"
+"Yut günü ve yut güneşi,\n"
+"Ve geriye ebedî geceyi bırak."
 
 #. [message]: speaker=Grug
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1491
 msgid "Dark scary! Not like!"
-msgstr ""
+msgstr "Karanlık korkunç! Sevmez!"
 
 #. [message]: speaker=Dolburras
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1495
 msgid "What manner o’ dark sorcery be this?"
-msgstr ""
+msgstr "Bu ne biçim kara büyü?"
 
 #. [message]: speaker=Gweddry
 #. as well as changing the time-of-day schedule, fog of war has just been enabled
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1506
 msgid ""
 "I’m nearly blind in this fog, but I think the undead have been reinforced!"
-msgstr ""
+msgstr "Bu siste neredeyse körüm, ama sanırım yarı ölüler takviye aldı!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1518
@@ -9922,28 +10418,30 @@ msgid ""
 "This cursed fog has clouded my sight, but I think I hear the sounds of "
 "reinforcing undead!"
 msgstr ""
+"Bu lanetli sis görüşümü bulandırdı, ama sanırım takviye gelen yarı ölülerin "
+"seslerini duyuyorum!"
 
 #. [message]: speaker=$found_unit.id
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1525
 msgid "Look sharp; they’re reinforcing under the cover of fog."
-msgstr ""
+msgstr "Gözünüzü dört açın; sisin örtüsü altında takviye alıyorlar."
 
 #. [message]: speaker=Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1533
 msgid "By the light of all that is holy, we must not fail!"
-msgstr ""
+msgstr "Kutsal olan her şeyin ışığı adına, başarısız olmamalıyız!"
 
 #. [message]: speaker=Dacyn
 #. speaker is one of the voices from the amulet, speaking to Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1558
 msgid "You see? Mal-Ravanal has grown too powerful. Wesnoth is helpless!"
-msgstr ""
+msgstr "Görüyor musun? Mal-Ravanal çok güçlendi. Vesnot çaresiz!"
 
 #. [message]: speaker=Dacyn
 #. speaker is one of the voices from the amulet, speaking to Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1566
 msgid "Use the Amulet. There is no other way! Use us!"
-msgstr ""
+msgstr "Muska’yı kullan. Başka yolu yok! Bizi kullan!"
 
 #. [message]: speaker=Dacyn
 #. after this, Dacyn gets unpoisonable, undrainable, unplagueable and changes to a Fallen Mage
@@ -9952,11 +10450,13 @@ msgid ""
 "I must... defeat Ravan! I must be strong enough to stand alone... I alone "
 "must wield this fullness of power!"
 msgstr ""
+"Ravan’ı... yenmeliyim! Tek başıma durabilecek kadar güçlü olmalıyım... bu "
+"gücün tamamını yalnızca ben kullanmalıyım!"
 
 #. [message]: speaker=$found_unit.id
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1630
 msgid "Careful! They’re regrouping for another wave."
-msgstr ""
+msgstr "Dikkat! Başka bir dalga için yeniden toplanıyorlar."
 
 #. [message]: speaker=Terraent
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1671
@@ -9964,6 +10464,8 @@ msgid ""
 "The first rays of the blessed dawn pierce through the fog! The lich’s foul "
 "spell begins to fail!"
 msgstr ""
+"Kutsanmış şafağın ilk ışıkları sisi deliyor! Umacının iğrenç büyüsü "
+"bozulmaya başlıyor!"
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1683
@@ -9971,6 +10473,8 @@ msgid ""
 "Take heart, for victory is near at hand! The first rays of sunlight have "
 "pierced through Mal-Ravanal’s night fog."
 msgstr ""
+"Yüreklenin, zafer çok yakın! Güneşin ilk ışınları Mal-Ravanal’ın gece "
+"sisini deldi."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1695
@@ -9978,6 +10482,8 @@ msgid ""
 "Look, the first rays of sunlight have pierced through the fog! Mal-Ravanal’s "
 "spell has begun to fail. I only wish Owaec were here to see it..."
 msgstr ""
+"Bakın, güneşin ilk ışınları sisi deldi! Mal-Ravanal’ın büyüsü bozulmaya "
+"başladı. Keşke Ovayek bunu görmek için burada olsaydı..."
 
 #. [message]: speaker=Dacyn
 #. Gweddry and Owaec are dead during this scenario, and Terraent isn't here either
@@ -9986,6 +10492,8 @@ msgid ""
 "The sun has pierced through the night’s fog; Mal-Ravanal’s spell begins to "
 "wane. I need neither Gweddry nor Owaec. I will finish this battle on my own."
 msgstr ""
+"Güneş gecenin sisini deldi; Mal-Ravanal’ın büyüsü zayıflamaya başlıyor. Ne "
+"Givedri’ye ne de Ovayek’e ihtiyacım var. Bu savaşı tek başıma bitireceğim."
 
 #. [message]: speaker=Dacyn
 #. any undead unit from side 5 (except the leader) that was within 3 hexes of a living unit has died
@@ -9995,33 +10503,35 @@ msgid ""
 "Mal-Ravanal’s necromancers have overexerted themselves. They are struggling "
 "to maintain all their minions."
 msgstr ""
+"Mal-Ravanal’ın kara büyücüleri kendilerini fazla zorladı. Bütün uşaklarını "
+"ayakta tutmakta zorlanıyorlar."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1781
 msgid "The undead are falling back! Thank the Light; it’s finally over."
-msgstr ""
+msgstr "Yarı ölüler geri çekiliyor! Işığa şükür; sonunda bitti."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1793
 msgid "Gweddry has not died in vain; the undead resolve is broken!"
-msgstr ""
+msgstr "Givedri boşuna ölmedi; yarı ölülerin azmi kırıldı!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1799
 msgid "At last, the undead end their assault."
-msgstr ""
+msgstr "Sonunda yarı ölüler saldırılarına son veriyor."
 
 #. [message]: speaker=Konrad
 #. the scenario doesn't let the player move Konrad away from his castle
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1835
 msgid "I will not abandon my post!"
-msgstr ""
+msgstr "Görevimi bırakmayacağım!"
 
 #. [message]: speaker=narrator
 #. plaque on a statue
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1852
 msgid "<i>Haldric the First, Dragonslayer, first king of Wesnoth.</i>"
-msgstr ""
+msgstr "<i>Ejderha Avcısı Birinci Haldrik, Vesnot’un ilk kralı.</i>"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1857
@@ -10029,29 +10539,31 @@ msgid ""
 "My father was named after him, and the royal sceptre hails from his line. "
 "Sadly, the histories say that he became paranoid in his old age."
 msgstr ""
+"Babama onun adı verildi ve kraliyet asası onun soyundan gelir. Ne yazık ki "
+"tarihler yaşlılığında evhamlı olduğunu söyler."
 
 #. [message]: speaker=narrator
 #. plaque on a statue
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1869
 msgid "<i>Delfador the Great, sage of Wesnoth, restorer of the throne.</i>"
-msgstr ""
+msgstr "<i>Büyük Delfador, Vesnot’un bilgesi, tahtın kurtarıcısı.</i>"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1874
 msgid "My predecessor, ‘the Great’. I intend to be greater."
-msgstr ""
+msgstr "Selefim, ‘Büyük’. Ben daha büyük olmaya niyetliyim."
 
 #. [message]: speaker=Mel Guthrak
 #. last breath of Mel Guthrak
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1887
 msgid "Wha— but how?"
-msgstr ""
+msgstr "Ne— ama nasıl?"
 
 #. [message]: speaker=Gaennell
 #. last breath of Mel Guthrak
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1892
 msgid "Good riddance..."
-msgstr ""
+msgstr "Kurtulduk ondan..."
 
 #. [message]: speaker=Halrod
 #. [message]: speaker=Halrad
@@ -10060,11 +10572,13 @@ msgstr ""
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1939
 msgid "Impressive tactics! I’ll begin redeploying towards other threats."
 msgstr ""
+"Etkileyici taktikler! Diğer tehditlere doğru yeniden konuşlanmaya "
+"başlayacağım."
 
 #. [message]: speaker=Nakeg-alvan
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1907
 msgid "You waste... your effort..."
-msgstr ""
+msgstr "Boşa... harcıyorsunuz çabanızı..."
 
 #. [message]: speaker=Halrod
 #. [message]: speaker=Halric
@@ -10073,28 +10587,30 @@ msgstr ""
 msgid ""
 "Well done! This will free my soldiers to defend other sectors of the city."
 msgstr ""
+"Aferin! Bu askerlerimi şehrin diğer bölgelerini savunmak için serbest "
+"bırakacak."
 
 #. [message]: speaker=Nalu-alvan
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1921
 msgid "Your victory... is meaningless..."
-msgstr ""
+msgstr "Zaferiniz... anlamsız..."
 
 #. [message]: speaker=Halrad
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1925
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1963
 msgid "Excellent work! I’ll send my soldiers to the other fronts."
-msgstr ""
+msgstr "Mükemmel iş! Askerlerimi diğer cephelere göndereceğim."
 
 #. [message]: speaker=Mal-Xakralan
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1935
 msgid "Mal-Ravanal will make you suffer for this!"
-msgstr ""
+msgstr "Mal-Ravanal bunun için size acı çektirecek!"
 
 #. [message]: speaker=Mal-Analla
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1959
 msgid "No! I was supposed to... become immortal..."
-msgstr ""
+msgstr "Hayır! Benim... ölümsüz olmam gerekiyordu..."
 
 #. [message]: speaker=unit
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:1975
@@ -10113,6 +10629,8 @@ msgid ""
 "Huzzah! Even Mal-Ravanal’s infernal darkness could not dim the spirits of "
 "our men! My friends, we have won a great victory today."
 msgstr ""
+"Yaşasın! Mal-Ravanal’ın cehennemi karanlığı bile adamlarımızın moralini "
+"karartamadı! Dostlarım, bugün büyük bir zafer kazandık."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2036
@@ -10120,6 +10638,8 @@ msgid ""
 "Now we must press our advantage! Let us strike the undead while they are in "
 "disarray and banish Mal-Ravanal’s dark soul once and for all!"
 msgstr ""
+"Şimdi avantajımızı kullanmalıyız! Yarı ölüler dağınıkken onlara saldıralım "
+"ve Mal-Ravanal’ın kara ruhunu kesin olarak sürgün edelim!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2040
@@ -10130,6 +10650,10 @@ msgid ""
 "the one to strike the infernal lich down! I will trust none other than "
 "myself with such responsibility."
 msgstr ""
+"Bütün İrdya’nın kaderini intikam peşindeki bir Kabile adamının ve Weldyn’in "
+"perişan ordularının ellerine bırakmayacağım. Mal-Ravanal’la düelloda "
+"yüzleşmeliyim ve o cehennemi umacıyı yere seren ben olmalıyım! Böyle bir "
+"sorumluluk için kendimden başka kimseye güvenmeyeceğim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2044
@@ -10138,6 +10662,8 @@ msgid ""
 "Both of you alike speak wisdom. This is a difficult decision, and I have "
 "little time in which to make it."
 msgstr ""
+"İkiniz de bilgece konuşuyorsunuz. Bu zor bir karar ve vermek için pek az "
+"zamanım var."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2048
@@ -10145,6 +10671,8 @@ msgid ""
 "Lieutenant Gweddry, you are familiar with the situation, and you know both "
 "Owaec and Dacyn well. Whose plan do you suggest I follow?"
 msgstr ""
+"Teğmen Givedri, durumu biliyorsun ve hem Ovayek’i hem Dasin’i iyi "
+"tanıyorsun. Hangisinin planını izlememi önerirsin?"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2052
@@ -10182,6 +10710,9 @@ msgid ""
 "our men! My friends, we have won a great victory today. Alas, if only "
 "Gweddry were here..."
 msgstr ""
+"Yaşasın! Mal-Ravanal’ın cehennemi karanlığı bile adamlarımızın moralini "
+"karartamadı! Dostlarım, bugün büyük bir zafer kazandık. Ne yazık, keşke "
+"Givedri burada olsaydı..."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2094
@@ -10190,6 +10721,9 @@ msgid ""
 "our advantage! Let us strike the undead while they are in disarray and "
 "banish Mal-Ravanal’s dark soul once and for all!"
 msgstr ""
+"... eminim bize azmimizi toplayıp avantajımızı kullanmak için yeniden "
+"toparlanmamızı söylerdi! Yarı ölüler dağınıkken onlara saldıralım ve "
+"Mal-Ravanal’ın kara ruhunu kesin olarak sürgün edelim!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2102
@@ -10198,13 +10732,16 @@ msgid ""
 "little time in which to make it. I wish that Gweddry still lived to advise "
 "me, but it seems I must decide on my own."
 msgstr ""
+"İkiniz de bilgece konuşuyorsunuz. Bu zor bir karar ve vermek için pek az "
+"zamanım var. Keşke Givedri bana öğüt vermek için hâlâ yaşasaydı, ama "
+"görünüşe göre kendim karar vermeliyim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2106
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2169
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2223
 msgid "By my command, we will..."
-msgstr ""
+msgstr "Emrim üzerine..."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2112
@@ -10225,6 +10762,8 @@ msgid ""
 "The city grows still at last. I wish there was time to mourn, but we still "
 "must decide how to deal with Mal-Ravanal."
 msgstr ""
+"Şehir sonunda sakinleşiyor. Keşke yas tutacak zaman olsaydı, ama "
+"Mal-Ravanal’la nasıl başa çıkacağımıza hâlâ karar vermeliyiz."
 
 #. [message]: speaker=Gweddry
 #. [message]: speaker=Konrad
@@ -10235,6 +10774,9 @@ msgid ""
 "force of arms. With their armies in disarray after the failed attack on "
 "Weldyn, this may be our best opportunity."
 msgstr ""
+"Ovayek yarı ölülere saldırmamızı ve Mal-Ravanal’ı silah zoruyla yalnız "
+"bırakmamızı istemişti. Weldyn’e başarısız saldırılarından sonra orduları "
+"dağınıkken bu en iyi fırsatımız olabilir."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2161
@@ -10244,6 +10786,10 @@ msgid ""
 "strike the infernal lich down! I will trust none other than myself with such "
 "responsibility."
 msgstr ""
+"Bütün İrdya’nın kaderini Weldyn’in cılız savunucularının ellerine "
+"bırakmayacağım! Mal-Ravanal’la düelloda yüzleşmeliyim ve o cehennemi "
+"umacıyı yere seren ben olmalıyım! Böyle bir sorumluluk için kendimden başka "
+"kimseye güvenmeyeceğim."
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2189
@@ -10256,6 +10802,8 @@ msgid ""
 "The city grows still at last. This battle is won, but with our best "
 "commanders dead we have little hope of surviving another attack."
 msgstr ""
+"Şehir sonunda sakinleşiyor. Bu savaş kazanıldı, ama en iyi komutanlarımız "
+"ölmüşken başka bir saldırıdan sağ çıkma umudumuz pek yok."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2215
@@ -10265,6 +10813,10 @@ msgid ""
 "strike the infernal lich down! I will trust none other than myself with such "
 "responsibility."
 msgstr ""
+"Bütün İrdya’nın kaderini Weldyn’in cılız savunucularının ellerine "
+"bırakamayız! Mal-Ravanal’la düelloda yüzleşmeliyim ve o cehennemi umacıyı "
+"yere seren ben olmalıyım! Böyle bir sorumluluk için kendimden başka kimseye "
+"güvenmeyeceğim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2219
@@ -10273,6 +10825,9 @@ msgid ""
 "wish that Gweddry or Owaec still lived to advise me, but it seems I must "
 "decide on my own."
 msgstr ""
+"Bu zor bir karar ve vermek için pek az zamanım var. Keşke Givedri ya da "
+"Ovayek bana öğüt vermek için hâlâ yaşasaydı, ama görünüşe göre kendim karar "
+"vermeliyim."
 
 #. [option]
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2225
@@ -10289,6 +10844,8 @@ msgstr "Mal-Ravanal'ı meydan savaşında yen. <i>(zorlu)</i>"
 #: data/campaigns/Eastern_Invasion/scenarios/16_Eleventh_Hour.cfg:2244
 msgid "This is an unwise decision, but I will aid our armies as best I can."
 msgstr ""
+"Bu akıllıca olmayan bir karar, ama ordularımıza elimden geldiğince yardım "
+"edeceğim."
 
 #. [scenario]: id=17a_The_Duel
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:4
@@ -10305,6 +10862,11 @@ msgid ""
 "knuckles. The only sound was the incessant drum-march of skeletal feet, ever-"
 "growing outside the walls."
 msgstr ""
+"Ulak şehir kapılarından çıkarken Weldyn vadisine bir sessizlik çöktü. "
+"Çocuklar babalarını gömdü, anneler oğullarını toprağa verdi; askerler "
+"mızrakları solgun parmaklarının arasında hâlâ sıkıca tutulmuş halde "
+"durdukları yerde uyudu. Tek ses, surların dışında giderek büyüyen iskelet "
+"ayaklarının bitmek bilmeyen davul gibi yürüyüşüydü."
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:29
@@ -10312,6 +10874,8 @@ msgid ""
 "Finally, the gates creaked open once again. Eyes looked on, eager, anxious, "
 "terrified, as the messenger rode toward the castle..."
 msgstr ""
+"Sonunda kapılar bir kez daha gıcırdayarak açıldı. Ulak kaleye doğru "
+"sürerken gözler hevesle, kaygıyla, dehşetle izledi..."
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:33
@@ -10320,6 +10884,9 @@ msgid ""
 "of Weldyn’s finest were to duel the lich in the abandoned catacombs under "
 "the city..."
 msgstr ""
+"Haber hızla yayıldı. Mal-Ravanal meydan okumayı kabul etmişti. Dasin ve "
+"Weldyn’in en iyilerinden altı kişi, şehrin altındaki terk edilmiş yeraltı "
+"mezarlarında umacıyla düello yapacaktı..."
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:130
@@ -10331,6 +10898,7 @@ msgstr "Mal-Ravanal'ı yen"
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:169
 msgid "Dacyn, I’m surprised you came. I remember you being smarter than that!"
 msgstr ""
+"Dasin, gelmene şaşırdım. Senin bundan daha akıllı olduğunu hatırlıyorum!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:173
@@ -10338,6 +10906,8 @@ msgid ""
 "I and I alone will put an end to your foul machinations! You have grown "
 "strong in the darkness, but I have become stronger (cough)(cough) still!"
 msgstr ""
+"Senin iğrenç entrikalarına ben ve yalnızca ben son vereceğim! Karanlıkta "
+"güçlendin, ama ben (öksürük)(öksürük) daha da güçlendim!"
 
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:177
@@ -10345,6 +10915,8 @@ msgid ""
 "A-ha haha! And how exactly do you plan to do that? Come now, you must know "
 "that you’re outmatched."
 msgstr ""
+"A-ha haha! Peki bunu tam olarak nasıl yapmayı düşünüyorsun? Hadi ama, boy "
+"ölçüşemeyeceğini biliyor olmalısın."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:191
@@ -10380,12 +10952,12 @@ msgstr ""
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:309
 msgid "Tsk, tsk, I begin to tire of this."
-msgstr ""
+msgstr "Tıs tıs, bundan sıkılmaya başladım."
 
 #. [message]: speaker=$found_unit.id
 #: data/campaigns/Eastern_Invasion/scenarios/17a_The_Duel.cfg:314
 msgid "More reinforcements come every time!"
-msgstr ""
+msgstr "Her seferinde daha fazla takviye geliyor!"
 
 #. [scenario]: id=17b_All-In
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:11
@@ -10400,6 +10972,9 @@ msgid ""
 "swords and lances innumerable, arrayed in tight formation inside the city "
 "walls."
 msgstr ""
+"Sabah güneşi Weldyn vadisini parlak bir şekilde aydınlatıyor, şehir "
+"surlarının içinde sıkı bir düzende dizilmiş sayısız kılıç ve mızrakta "
+"parıldıyordu."
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:32
@@ -10408,6 +10983,9 @@ msgid ""
 "mounting in volume, a cry of desperate hope, a cry of fiery purpose and icy "
 "will."
 msgstr ""
+"Vesnot’un en iyilerinin saflarından bir haykırış yükseldi; önce alçak "
+"sesle, sonra giderek yükselen, çaresiz bir umudun, ateşli bir amacın ve buz "
+"gibi bir iradenin haykırışı."
 
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:37
@@ -10415,6 +10993,7 @@ msgid ""
 "The horns sounded, the gates swung open, and from inside the city spilled "
 "forth Weldyn’s last gasp."
 msgstr ""
+"Borular çaldı, kapılar açıldı ve şehrin içinden Weldyn’in son nefesi taştı."
 
 #. [leader]: type=Lich, id=Lich2
 #. [leader]: type=Lich, id=Lich3
@@ -10437,23 +11016,23 @@ msgstr "?"
 #. in the unlikely event that Mal-Tar survived S03, Lethin gets renamed and has dialogue as Mal-Tar
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:315
 msgid "Lethin"
-msgstr ""
+msgstr "Letin"
 
 #. [unit]: type=Dark Adept, gender=female
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:335
 msgid "Rerivyan"
-msgstr ""
+msgstr "Reriviyan"
 
 #. [unit]: type=Dark Adept, gender=female
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:346
 msgid "Vowyn"
-msgstr ""
+msgstr "Vovin"
 
 #. [message]: speaker=unit
 #. last breath for Mal-Tar
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:375
 msgid "Wait, wait, stop, I surrender! I know your leader Gweddry!"
-msgstr ""
+msgstr "Durun, durun, teslim oluyorum! Lideriniz Givedri’yi tanıyorum!"
 
 #. [message]: speaker=unit
 #. last breath for Mal-Tar
@@ -10462,18 +11041,20 @@ msgid ""
 "He defeated me back in the Estmarks but still let me live! Let me go and I "
 "promise you’ll never see me again!"
 msgstr ""
+"Beni Doğu Sınırları’nda yendi ama yine de yaşamama izin verdi! Bırakın "
+"gideyim, söz veriyorum beni bir daha görmeyeceksiniz!"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:384
 msgid "Well, okay I guess..."
-msgstr ""
+msgstr "Eh, peki, sanırım..."
 
 #. [message]: speaker=Gweddry
 #. speaking of Mal-Tar
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:391
 msgid ""
 "It’s been an entire war, and that guy still hasn’t improved his magic..."
-msgstr ""
+msgstr "Koca bir savaş geçti ve o adam büyüsünü hâlâ geliştirmemiş..."
 
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:611
@@ -10483,7 +11064,7 @@ msgstr "Mal-Ravanal'ı ortaya çıkarmak için bu Umacıları öldür: $liches_t
 #. [then]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:718
 msgid "150 gold remains in my war-chest. I place it at your service, my Liege."
-msgstr ""
+msgstr "Savaş sandığımda 150 altın kaldı. Onu hizmetinize sunuyorum, Efendim."
 
 #. [then]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:754
@@ -10491,6 +11072,8 @@ msgid ""
 "My Liege, I’ve managed to conserve 150 gold from the previous battle. I "
 "place it at your disposal."
 msgstr ""
+"Efendim, önceki savaştan 150 altın biriktirmeyi başardım. Onu emrinize "
+"sunuyorum."
 
 #. [then]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:792
@@ -10498,28 +11081,30 @@ msgid ""
 "For you, my Liege: my men have salvaged 150 gold from the ruins of the city "
 "outskirts."
 msgstr ""
+"Sizin için Efendim: adamlarım şehir eteklerinin yıkıntılarından 150 altın "
+"kurtardı."
 
 #. [message]: speaker=Halrad
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:842
 msgid "My forces are in position at the northern wall; awaiting your orders."
-msgstr ""
+msgstr "Güçlerim kuzey surunda mevzide; emirlerinizi bekliyorum."
 
 #. [message]: speaker=Halric
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:846
 msgid "Eastern flank reclaimed. I stand ready to launch the assault."
-msgstr ""
+msgstr "Doğu kanadı geri alındı. Saldırıyı başlatmaya hazırım."
 
 #. [message]: speaker=Halrod
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:850
 msgid "The western barricades are manned and ready — it’s payback time."
-msgstr ""
+msgstr "Batı barikatlarında adamlar hazır — intikam zamanı."
 
 #. [message]: speaker=Owaec
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:860
 msgid ""
 "Now is the time to strike! In the name of the Clans, Mal-Ravanal will be "
 "ended this day!"
-msgstr ""
+msgstr "Şimdi vurma zamanı! Kabileler adına, Mal-Ravanal bugün sona erecek!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:867
@@ -10527,6 +11112,8 @@ msgid ""
 "Now is the time to strike! By the might of all Wesnoth, Mal-Ravanal shall be "
 "ended this day!"
 msgstr ""
+"Şimdi vurma zamanı! Bütün Vesnot’un kudretiyle, Mal-Ravanal bugün sona "
+"erecek!"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:894
@@ -10536,6 +11123,9 @@ msgid ""
 "them until we have killed enough of these liches to break their spell. "
 "(cough)"
 msgstr ""
+"Bu umacılar kendilerini gizlemek için bir kara büyü yönlendiriyor. "
+"(öksürük)(öksürük) Mal-Ravanal burada olsa bile büyülerini bozacak kadar "
+"umacı öldürene kadar (öksürük) onu ortaya çıkaramayacağım. (öksürük)"
 
 #. [message]: speaker=Gweddry
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:905
@@ -10543,6 +11133,8 @@ msgid ""
 "Then that’s what we’ll have to do. And we will have to do it quickly, before "
 "Mal-Ravanal’s reinforcing armies overwhelm us."
 msgstr ""
+"O zaman yapmamız gereken bu. Hem de Mal-Ravanal’ın takviye orduları bizi "
+"ezmeden çabucak yapmalıyız."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:909
@@ -10550,6 +11142,8 @@ msgid ""
 "Stride fearless upon the plain of battle, for today we reclaim our legacy! "
 "For Wesnoth!!"
 msgstr ""
+"Savaş meydanında korkusuzca yürüyün, çünkü bugün mirasımızı geri alıyoruz! "
+"Vesnot için!!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:916
@@ -10557,6 +11151,8 @@ msgid ""
 "Then kill them we shall. Stride fearless upon the plain of battle, for today "
 "we reclaim our legacy! For Wesnoth!!"
 msgstr ""
+"O zaman onları öldüreceğiz. Savaş meydanında korkusuzca yürüyün, çünkü "
+"bugün mirasımızı geri alıyoruz! Vesnot için!!"
 
 #. [value]
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:925
@@ -10624,6 +11220,8 @@ msgid ""
 "The River Weldyn used to be so beautiful, before the undead dammed it and "
 "flooded the shores..."
 msgstr ""
+"Yarı ölüler önünü kesip kıyıları su altında bırakmadan önce Weldyn Nehri ne "
+"kadar güzeldi..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Eastern_Invasion/scenarios/17b_All-In.cfg:1015
@@ -10631,6 +11229,8 @@ msgid ""
 "My legacy will not be one of failure! With all the might of the throne of "
 "Wesnoth, I shall strike you down!"
 msgstr ""
+"Mirasım başarısızlık olmayacak! Vesnot tahtının bütün kudretiyle seni yere "
+"sereceğim!"
 
 #. [message]: speaker=Konrad
 #. killed a lich
@@ -10639,6 +11239,8 @@ msgid ""
 "That’s one down! The undead must still be in disarray after their failed "
 "attack during the long night."
 msgstr ""
+"Biri gitti! Yarı ölüler uzun gecedeki başarısız saldırılarından sonra hâlâ "
+"dağınık olmalı."
 
 #. [message]: speaker=$found_unit.id
 #. speaker is a random lich
@@ -10647,6 +11249,8 @@ msgid ""
 "Night falls on Weldyn! Your counterattack may have caught us by surprise, "
 "but this hour is our domain."
 msgstr ""
+"Weldyn’e gece çöküyor! Karşı saldırınız bizi gafil avlamış olabilir, ama bu "
+"saat bizim alanımız."
 
 #. [message]: speaker=$found_unit.id
 #. speaker is a random lich, almost certainly a different one than the previous speaker
@@ -11604,7 +12208,7 @@ msgstr ""
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/99_Empire.cfg:1210
 msgid "Get away from my jail cells! Filthy traitors, there goes my income..."
-msgstr ""
+msgstr "Hücrelerimden uzak durun! Pis hainler, gelirim gidiyor..."
 
 #. [message]: speaker=Chief Dra-Nak
 #: data/campaigns/Eastern_Invasion/scenarios/99_Empire.cfg:1214
@@ -11612,6 +12216,8 @@ msgid ""
 "Fine then, I’m done taking prisoners. From here on out, you either submit or "
 "die!"
 msgstr ""
+"Peki o zaman, artık esir almıyorum. Bundan sonra ya boyun eğersiniz ya da "
+"ölürsünüz!"
 
 #. [message]: role=leader
 #: data/campaigns/Eastern_Invasion/scenarios/99_Empire.cfg:1341
@@ -12260,7 +12866,7 @@ msgstr ""
 #. [attacks]: id=stagger
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:152
 msgid "stagger"
-msgstr ""
+msgstr "sendeletme"
 
 #. [attacks]: id=stagger
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:153
@@ -12395,7 +13001,7 @@ msgstr "Bu birim savunma sırasında %50 ateş ve büyü direncine sahiptir."
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:524
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:536
 msgid "arcane blessing"
-msgstr ""
+msgstr "gizemli kutsama"
 
 #. [damage_type]: id=arcane_damage_blessing
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:525
@@ -12403,6 +13009,8 @@ msgid ""
 "All attacks combine the arcane type with the type of the weapon used, so "
 "that resistance to arcane does not penalize the user."
 msgstr ""
+"Bütün saldırılar gizemli türü kullanılan silahın türüyle birleştirir; "
+"böylece gizemli hasara karşı direnç kullanıcıyı cezalandırmaz."
 
 #. [damage_type]: id=arcane_damage_blessing
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:526
@@ -12410,6 +13018,8 @@ msgid ""
 "This unit’s weapons are treated as arcane instead of the declared damage "
 "type if that would increase the damage."
 msgstr ""
+"Bu birimin silahları, hasarı artıracaksa beyan edilen hasar türü yerine "
+"gizemli sayılır."
 
 #. [damage_type]: id=arcane_damage_ranged_blessing
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:537
@@ -12417,6 +13027,8 @@ msgid ""
 "All bow or crossbow attacks combine the arcane type with the type of the "
 "weapon used, so that resistance to arcane does not penalize the user."
 msgstr ""
+"Bütün yay ve arbalet saldırıları gizemli türü kullanılan silahın türüyle "
+"birleştirir; böylece gizemli hasara karşı direnç kullanıcıyı cezalandırmaz."
 
 #. [damage_type]: id=arcane_damage_ranged_blessing
 #: data/campaigns/Eastern_Invasion/utils/abilities.cfg:538
@@ -12424,6 +13036,8 @@ msgid ""
 "This unit’s bow or crossbow attacks are treated as arcane instead of the "
 "declared damage type if that would increase the damage."
 msgstr ""
+"Bu birimin yay ve arbalet saldırıları, hasarı artıracaksa beyan edilen "
+"hasar türü yerine gizemli sayılır."
 
 #. [trait]: id=loyal_dummy
 #: data/campaigns/Eastern_Invasion/utils/character-definitions.cfg:16
@@ -12958,12 +13572,12 @@ msgstr "Ne- neredeyim? Bana neler oluyor?"
 
 #. [message]: speaker=spirit
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:775
-#, fuzzy
-#| msgid "The mage called Dacyn is dying! It is time for you to be reborn!"
 msgid ""
 "The mage called Dacyn is dying! It is time for you to be reborn under a new "
 "name: Mal-Dak‘an."
-msgstr "Dasin adlı büyücü ölüyor! Senin yeniden doğma zamanın geldi!"
+msgstr ""
+"Dasin denen büyücü ölüyor! Yeni bir adla yeniden doğma zamanın geldi: "
+"Mal-Dak’an."
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:779
@@ -12971,6 +13585,7 @@ msgid ""
 "—I... —I am no necromancer! Everything I have done is for the good of "
 "Wesnoth."
 msgstr ""
+"—Ben... —ben kara büyücü değilim! Yaptığım her şey Vesnot’un iyiliği içindi."
 
 #. [message]: speaker=spirit
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:783
@@ -12978,6 +13593,8 @@ msgid ""
 "Was it? Was it for the good of all Wesnoth when you took Iliah-Malal’s "
 "Amulet of the Veil, turning to the darkness and letting us into your soul?"
 msgstr ""
+"Öyle miydi? İliah-Malal’ın Peçe Muskası’nı alıp karanlığa dönerek ruhuna "
+"girmemize izin verdiğinde bütün Vesnot’un iyiliği için miydi?"
 
 #. [message]: speaker=spirit
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:787
@@ -12985,15 +13602,17 @@ msgid ""
 "Was it for the good of Wesnoth when you enslaved the seer Eryssa’s senile "
 "mind, so the King would choose you as his advisor over Ravan?"
 msgstr ""
+"Kral seni Ravan yerine danışmanı seçsin diye kâhin Erissa’nın bunamış "
+"zihnini köleleştirdiğinde Vesnot’un iyiliği için miydi?"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:791
-#, fuzzy
-#| msgid "I... I needed this power! I had to safeguard Irdya!"
 msgid ""
 "I... I needed that power! I was the only one who could be trusted to "
 "safeguard Irdya!"
-msgstr "Ben... Bu güce ihtiyacım vardı! İridya'yı korumam gerekiyordu!"
+msgstr ""
+"Ben... o güce ihtiyacım vardı! İrdya’yı korumak için güvenilebilecek tek "
+"kişi bendim!"
 
 #. [message]: speaker=spirit
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:795
@@ -13024,10 +13643,8 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:816
-#, fuzzy
-#| msgid "Mak-Dak’an"
 msgid "Mal-Dak’an"
-msgstr "Mak-Dakkan"
+msgstr "Mal-Dak’an"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:836
@@ -13082,19 +13699,15 @@ msgstr "<i>KARANLIK RUHU TÜKETİR.</i>"
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:40
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:1117
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:1273
-#, fuzzy
-#| msgid "Take it."
 msgid "Take"
-msgstr "Al onu."
+msgstr "Al"
 
 #. [item_dialog]: description={ITEM_DESC}
 #. Button label for 'leave an item'
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:42
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:1118
-#, fuzzy
-#| msgid "Leave it."
 msgid "Leave"
-msgstr "Bırak onu."
+msgstr "Bırak"
 
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:128
 msgid ""
@@ -13111,13 +13724,6 @@ msgstr ""
 "<b></b>"
 
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:133
-#, fuzzy
-#| msgid ""
-#| "<span size='small'><i>This item can <b>NOT</b> be dropped, and can "
-#| "<b>NOT</b> be reused if its user dies.</i></span>\n"
-#| "<span size='small'><i>  Picking up an item consumes your moves and attack."
-#| "</i></span>\n"
-#| "<b></b>"
 msgid ""
 "<span size='small'><i>This item <b>CANNOT</b> be dropped, and <b>CANNOT</b> "
 "be reused if its user dies.</i></span>\n"
@@ -13125,9 +13731,9 @@ msgid ""
 "i></span>\n"
 "<b></b>"
 msgstr ""
-"<span size='small'><i>..Bu eşya düşürülemez ve kullanıcısı ölürse tekrar "
-"kullanılamaz.</i></span>\n"
-"<span size='small'><i>  Bir eşyanın alınması hareketleri ve saldırıları "
+"<span size='small'><i>Bu eşya <b>BIRAKILAMAZ</b> ve kullanıcısı ölürse "
+"<b>YENİDEN KULLANILAMAZ</b>.</i></span>\n"
+"<span size='small'><i>  Bir eşyayı almak hareketini ve saldırını "
 "tüketir.</i></span>\n"
 "<b></b>"
 
@@ -13245,13 +13851,6 @@ msgid "Baneblade"
 msgstr "Lanet Kılıcı"
 
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:643
-#, fuzzy
-#| msgid ""
-#| "This incorporeal sword resembles those wielded by undead wraiths. Any "
-#| "mortal brave enough to wield it becomes <i><b>chaotic</b></i> and lashes "
-#| "out at their foes with reckless abandon.\n"
-#| "<i><b>6x4 arcane</b></i> damage, <i><b>drains</b></i>, <i><b>berserk</b></"
-#| "i>."
 msgid ""
 "This incorporeal sword resembles those wielded by undead wraiths. Any mortal "
 "brave enough to wield it becomes <i><b>chaotic</b></i> and lashes out at "
@@ -13259,10 +13858,11 @@ msgid ""
 "<i><b>6x4 arcane</b></i> damage, <i><b>drains</b></i>, <i><b>berserk</b></"
 "i>. Always used on defense."
 msgstr ""
-"Bu cisimsiz kılıç, öcülerin kullandığı kılıçlara benzer. Onu kullanacak "
-"kadar cesur olan herhangi bir ölümlü <i><b>kaypak</b></i> duruma gelir ve "
-"düşmanlarına pervasızca saldırır.\n"
-"<i><b>6x4 gizemli</b></i> hasar, <i><b>cinnet</b></i>, <i><b>sömürür</b></i>."
+"Bu cisimsiz kılıç yarı ölü hortlakların kullandıklarına benziyor. Onu "
+"kullanacak kadar cesur her ölümlü <i><b>kaypak</b></i> olur ve düşmanlarına "
+"pervasızca saldırır.\n"
+"<i><b>6x4 gizemli</b></i> hasar, <i><b>sömürür</b></i>, <i><b>gözü "
+"dönmüş</b></i>. Savunmada her zaman kullanılır."
 
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:693
 msgid "Drop Baneblade"
@@ -13332,6 +13932,7 @@ msgstr ""
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:807
 msgid "Do not insult me! No clansman will ever stoop to such black magic."
 msgstr ""
+"Bana hakaret etme! Hiçbir Kabile adamı böyle bir kara büyüye tenezzül etmez."
 
 #. [message]: speaker=Gweddry
 #. said by Gweddry, when the player tries to give them a necromancer's staff
@@ -13340,6 +13941,8 @@ msgid ""
 "I already have an army of human soldiers — living soldiers. Let someone else "
 "use this staff."
 msgstr ""
+"Zaten insan askerlerinden — yaşayan askerlerden — bir ordum var. Bu asayı "
+"başkası kullansın."
 
 #. [message]: speaker=Dacyn
 #. said by Dacyn, when the player tries to give them a necromancer's staff
@@ -13348,6 +13951,8 @@ msgid ""
 "Tempting! Most tempting... but I fear it would be unwise for me to wield "
 "such a thing. That privilege passes onto another."
 msgstr ""
+"Cezbedici! Çok cezbedici... ama korkarım böyle bir şeyi kullanmam akıllıca "
+"olmaz. Bu ayrıcalık başkasına geçsin."
 
 #. [message]: speaker=Hahid al-Ali
 #. said by Hahid al-Ali, a Dune Herbalist, when the player tries to give them a necromancer's staff
@@ -13356,6 +13961,8 @@ msgid ""
 "Ha! Good joke! I’m not about to mess around with any of your foul northerner "
 "magic; necromancy was the cause of all this trouble in the first place."
 msgstr ""
+"Ha! İyi şaka! Sizin o iğrenç kuzeyli büyülerinizle uğraşacak değilim; zaten "
+"bütün bu belanın sebebi ölü çağırmaydı."
 
 #. [message]: speaker=Terraent
 #. said by Terraent, a Paladin, when the player tries to give them a necromancer's staff
@@ -13364,6 +13971,8 @@ msgid ""
 "I serve the light, not this staff of foul darkness! We should cast away this "
 "thing and be done with it."
 msgstr ""
+"Ben ışığa hizmet ederim, bu iğrenç karanlığın asasına değil! Bu şeyi atıp "
+"işimizi bitirmeliyiz."
 
 #. [message]: speaker=Konrad
 #. said by King Konrad, when the player tries to give them a necromancer's staff
@@ -13372,6 +13981,8 @@ msgid ""
 "...what foul thing is this? Remove it from my presence; necromancy shall not "
 "take root in Wesnoth, not under my watch."
 msgstr ""
+"...bu iğrenç şey de ne? Gözümün önünden kaldırın; benim nöbetimde ölü "
+"çağırma Vesnot’ta kök salmayacak."
 
 #. [message]: speaker=unit
 #. said by a White Mage, Mage of Light, or Paladin, when the player tries to give them a necromancer's staff
@@ -13380,6 +13991,8 @@ msgid ""
 "No. I serve that which is good and light, and will not wield such a dark "
 "magical artifact."
 msgstr ""
+"Hayır. Ben iyi ve aydınlık olana hizmet ederim ve böyle karanlık bir büyülü "
+"eseri kullanmam."
 
 #. [message]: speaker=unit
 #. said by a dunefolk, when the player tries to give them a necromancer's staff
@@ -13388,6 +14001,8 @@ msgid ""
 "Fighting your northerners’ foul magic is bad enough. Don’t expect me to "
 "wield that — civilized cultures don’t mess around with magic."
 msgstr ""
+"Sizin kuzeylilerin iğrenç büyüsüyle savaşmak yeterince kötü. Benim bunu "
+"kullanmamı beklemeyin — medeni kültürler büyüyle uğraşmaz."
 
 #. [message]: speaker=unit
 #. said by one of the player's units, when the player tries to give them a necromancer's staff
@@ -13661,17 +14276,12 @@ msgstr ""
 
 #. [trait]: id=mercenary
 #: data/campaigns/Eastern_Invasion/utils/traits.cfg:129
-#, fuzzy
-#| msgid ""
-#| "<span color='#00FF00'>+30%</span> base damage when gold is positive.\n"
-#| "<span color='#FF0000'>-30%</span> base damage when gold is 0 or negative."
 msgid ""
 "+30% base damage when gold is positive.\n"
 "-30% base damage when gold is 0 or negative."
 msgstr ""
-"Altın varsa <span color='#00FF00'>+30%</span> temel hasar.\n"
-"Altın kalmamışsa ya da eksiye düşmüşse <span color='#FF0000'>-30%</span> "
-"temel hasar."
+"Altın artıdayken +%30 temel hasar.\n"
+"Altın 0 veya eksideyken -%30 temel hasar."
 
 #. [trait]: id=survivor
 #: data/campaigns/Eastern_Invasion/utils/traits.cfg:158
@@ -13705,15 +14315,6 @@ msgstr ""
 
 #. [trait]: id=survivor
 #: data/campaigns/Eastern_Invasion/utils/traits.cfg:163
-#, fuzzy
-#| msgid ""
-#| "<span color='#00FF00'>+1</span> damage to and <span color='#00FF00'>-1</"
-#| "span> damage from undead, necromancers, and bats.\n"
-#| "\n"
-#| "Against all odds, this unit has endured the terrors and tortures of Mal-"
-#| "Ravanal’s prisons and lived to tell the tale. Survivors bear a heavy "
-#| "burden from their time in captivity, but have also learned much of the "
-#| "strengths and weaknesses of their former captors."
 msgid ""
 "+1 damage to and -1 damage from undead, necromancers, and bats.\n"
 "\n"
@@ -13722,14 +14323,13 @@ msgid ""
 "from their time in captivity, but have also learned much of the strengths "
 "and weaknesses of their former captors."
 msgstr ""
-"Yarı ölü, yarasa ve kara büyücülerden <span color='#00FF00'>-1</span> hasar, "
-"onlara karşı <span color='#00FF00'>+1</span> hasar.\n"
+"Yarı ölülere, kara büyücülere ve yarasalara +1 hasar verir, onlardan -1 "
+"hasar alır.\n"
 "\n"
-"Tüm zorluklara rağmen, bu birim Mal-Ravanal hapishanelerinin dehşetine ve "
-"işkencelerine katlandı ve hikayeyi anlatmak için hayatta kaldı. Hayatta "
-"kalanlar esaret altında geçirdikleri zamandan ağır bir yük taşıyorlar, ancak "
-"aynı zamanda onları orada tutanların güçlü ve zayıf yönlerinin çoğunu da "
-"öğrendiler."
+"Her şeye rağmen bu birim Mal-Ravanal’ın zindanlarının dehşetine ve "
+"işkencelerine dayandı ve hikâyesini anlatmak için yaşadı. Hayatta kalanlar "
+"esaretteki zamanlarından ağır bir yük taşır, ama eski esir alanlarının "
+"güçlü ve zayıf yanları hakkında da çok şey öğrenmişlerdir."
 
 #~ msgid ""
 #~ "Alas, I have failed in my mission! The undead scout has already reported "
