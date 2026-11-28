@@ -1627,7 +1627,7 @@ msgid ""
 msgstr ""
 "Methor artık kraliyet ordusunda bir asker ve Vesnot’un 1. seviye "
 "piyadelerinin tam kadrosuna erişimi var. Büyücülere ek olarak Mızrakçı, "
-"Yaycı, Eskirimci ve Ağır Piyade alabilirsin."
+"Okçu, Eskirimci ve Ağır Piyade alabilirsin."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:355
@@ -3971,16 +3971,16 @@ msgid ""
 "\n"
 "Rogue Mages are fragile fighters with both physical and magical attacks."
 msgstr ""
-"Normal askerlerin seninle kuzeye sızamaz, ama onların yerine Yol Kesen, "
-"Hırsız ve Haydut Büyücü alabilirsin!\n"
+"Normal askerlerin seninle kuzeye sızamaz, ama onların yerine Kapkaççı, "
+"Hırsız ve Kaçak Büyücü alabilirsin!\n"
 "\n"
-"Yol Kesenler hızlı ama kırılgan keşif birimleridir; yakın dövüş ve menzilli "
+"Kapkaççılar hızlı ama kırılgan keşif birimleridir; yakın dövüş ve menzilli "
 "saldırıları eşit derecede zayıftır.\n"
 "\n"
-"Hırsızlar yol kesenin menzilli saldırısı yerine daha güçlü yakın dövüş "
+"Hırsızlar kapkaççının menzilli saldırısı yerine daha güçlü yakın dövüş "
 "hasarına sahiptir ve bir düşmana arkadan saldırırken özellikle ölümcüldür.\n"
 "\n"
-"Haydut Büyücüler hem fiziksel hem büyülü saldırıları olan kırılgan "
+"Kaçak Büyücüler hem fiziksel hem büyülü saldırıları olan kırılgan "
 "dövüşçülerdir."
 
 #. [message]: speaker=Delfador
@@ -6584,7 +6584,7 @@ msgid ""
 "fresh royal soldiers (Spearmen, Bowmen, etc.) while standing on his keep."
 msgstr ""
 "Bu seferberliğin geri kalanında Deoran bir lider — burcunda dururken yeni "
-"kraliyet askerleri (Mızrakçı, Yaycı vb.) alabilir."
+"kraliyet askerleri (Mızrakçı, Okçu vb.) alabilir."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:945
@@ -7250,11 +7250,11 @@ msgid ""
 "deals heavy damage."
 msgstr ""
 "Kıdemli askerlerin Deoran’la birlikte geride bırakıldı <b>(onları bir "
-"sonraki senaryoda yeniden göreceksin)</b>, ama bunun yerine Süvari ve Atlı "
+"sonraki senaryoda yeniden göreceksin)</b>, ama bunun yerine Süvari ve Binici "
 "alabilirsin!\n"
 "\n"
 "Süvariler çok yönlü atlı birliklerdir; orta fiyata orta hasar verirler. "
-"Atlılar daha pahalıdır, ama riskli hücum saldırıları ağır hasar verir."
+"Biniciler daha pahalıdır, ama riskli hücum saldırıları ağır hasar verir."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:462
@@ -7263,7 +7263,7 @@ msgid ""
 "Cavalrymen are well-suited for fighting Arand’s army of Spearmen and "
 "Pikemen. My magic shall have to make up the difference."
 msgstr ""
-"Garard’ın Kraliyet Süvarileri sadık ve yeteneklidir, ama ne Atlılar ne de "
+"Garard’ın Kraliyet Süvarileri sadık ve yeteneklidir, ama ne Biniciler ne de "
 "Süvariler Arand’ın Mızrakçı ve Kargıcı ordusuyla savaşmaya pek uygundur. "
 "Aradaki farkı büyüm kapatmak zorunda kalacak."
 
