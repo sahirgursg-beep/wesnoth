@@ -1,0 +1,30 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-concept-check/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-concept-check/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/msvc.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/concept_def.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/borland.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/general.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/backward_compatibility.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/has_constraints.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/detail/concept_undef.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/usage.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/assert.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept/requires.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check/msvc.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check/borland.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check/general.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_check/has_constraints.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/include/boost/concept_archetype.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_concept_check-1.92.0/boost_concept_check-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_concept_check-1.92.0/boost_concept_check-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-concept-check_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_concept_check-1.92.0/boost_concept_check-config-version.cmake
+

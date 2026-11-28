@@ -1,0 +1,12 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-scope-exit/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-scope-exit/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/include/boost/scope_exit.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_scope_exit-1.92.0/boost_scope_exit-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_scope_exit-1.92.0/boost_scope_exit-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-scope-exit_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_scope_exit-1.92.0/boost_scope_exit-config-version.cmake
+

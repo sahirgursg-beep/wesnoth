@@ -1,0 +1,29 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-multi-array/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-multi-array/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/subarray.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/iterator.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/multi_array_ref.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/copy_array.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/range_list.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/base.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/view.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/extent_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/algorithm.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/index_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/extent_gen.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/collection_concept.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/index_gen.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/storage_order.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/concept_checks.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array/types.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/include/boost/multi_array.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_multi_array-1.92.0/boost_multi_array-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_multi_array-1.92.0/boost_multi_array-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multi-array_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_multi_array-1.92.0/boost_multi_array-config-version.cmake
+

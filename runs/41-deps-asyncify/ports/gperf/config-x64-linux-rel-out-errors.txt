@@ -1,0 +1,33 @@
+83-checking for error... yes
+84-checking whether error_at_line is declared... yes
+85-checking for error_at_line... yes
+86:checking for working error function... yes
+87-checking whether strerror_r is declared... yes
+88-checking whether strerror_r returns char *... yes
+89-checking whether ctype.h defines __header_inline... no
+90-checking for working fcntl.h... yes
+91-checking for pid_t... yes
+92-checking for mode_t... yes
+93-checking whether fopen recognizes a trailing slash... yes
+94-checking whether fflush works on input streams... yes
+95-checking whether fclose works on input streams... yes
+96-checking whether stat file-mode macros are broken... no
+97-checking for C/C++ restrict keyword... __restrict__
+98-checking for nlink_t... yes
+--
+183-checking for struct stat.st_birthtimespec.tv_nsec... no
+184-checking for struct stat.st_birthtimensec... no
+185-checking for struct stat.st_birthtim.tv_nsec... no
+186:checking for working strerror function... yes
+187-checking for variable-length arrays... yes
+188-checking for stdint.h... (cached) yes
+189-checking that generated files are newer than configure... done
+190-configure: creating ./config.status
+191-config.status: creating Makefile
+192-config.status: creating config.h
+193-config.status: executing depfiles commands
+194-=== configuring in src (/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/src)
+195-configure: running /bin/bash .././../src/gperf-3-b814f52c10.clean/src/configure --disable-option-checking '--prefix=/home/runner/webbuild/vcpkg/installed/x64-linux'  'lt_cv_deplibs_check_method=pass_all' '--bindir=${prefix}/tools/gperf/bin' '--sbindir=${prefix}/tools/gperf/sbin' '--libdir=${prefix}/lib' '--mandir=${prefix}/share/gperf' '--docdir=${prefix}/share/gperf' '--datarootdir=${prefix}/share/gperf' '--disable-shared' '--enable-static' '--bindir=${prefix}/tools/gperf' --cache-file=/dev/null --srcdir=.././../src/gperf-3-b814f52c10.clean/src
+196-checking whether make sets $(MAKE)... yes
+197-checking for gcc... /usr/bin/cc
+198-checking whether the C compiler works... yes

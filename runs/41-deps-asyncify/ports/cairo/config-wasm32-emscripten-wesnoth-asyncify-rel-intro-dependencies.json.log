@@ -1,0 +1,332 @@
+[
+  {
+    "name": "zlib",
+    "type": "pkgconfig",
+    "version": "1.3.2",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "zlib_dep"
+    ]
+  },
+  {
+    "name": "libpng",
+    "type": "pkgconfig",
+    "version": "1.6.58",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "png_dep"
+    ]
+  },
+  {
+    "name": "fontconfig",
+    "type": "pkgconfig",
+    "version": "2.17.1",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16",
+      "-DXML_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a",
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "fontconfig_dep"
+    ]
+  },
+  {
+    "name": "freetype2",
+    "type": "pkgconfig",
+    "version": "26.6.20",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a",
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "freetype_dep"
+    ]
+  },
+  {
+    "name": "gobject-2.0",
+    "type": "pkgconfig",
+    "version": "2.88.3",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/glib-2.0",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/glib-2.0/include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libgobject-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libglib-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libintl.a",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpcre2-8.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libffi.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gobject_dep"
+    ]
+  },
+  {
+    "name": "glib-2.0",
+    "type": "pkgconfig",
+    "version": "2.88.3",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/glib-2.0",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/glib-2.0/include",
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include",
+      "-DPCRE2_STATIC"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libglib-2.0.a",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libintl.a",
+      "-lm",
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpcre2-8.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "glib_dep"
+    ]
+  },
+  {
+    "name": "pixman-1",
+    "type": "pkgconfig",
+    "version": "0.46.4",
+    "compile_args": [
+      "-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1"
+    ],
+    "link_args": [
+      "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a",
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pixman_dep"
+    ]
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "m_dep"
+    ]
+  },
+  {
+    "name": "dl",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-ldl"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dl_dep"
+    ]
+  },
+  {
+    "name": "rt",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lrt"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "rt_dep"
+    ]
+  },
+  {
+    "name": "dep8070664515807111892072260184234334762",
+    "type": "internal",
+    "version": "1.18.4",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/src/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/src/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "dl",
+      "zlib",
+      "libpng",
+      "fontconfig",
+      "freetype2",
+      "pixman-1"
+    ],
+    "depends": [
+      "25a6634@@cairo@sta"
+    ],
+    "meson_variables": [
+      "libcairo_dep"
+    ]
+  },
+  {
+    "name": "dep98589072153909213285251825591868162343",
+    "type": "internal",
+    "version": "1.18.4",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/boilerplate/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/boilerplate/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "9ae3ebf@@cairoboilerplate@sta"
+    ],
+    "meson_variables": [
+      "cairoboilerplate_dep"
+    ]
+  },
+  {
+    "name": "dep175567272532775160232992709668926447560",
+    "type": "internal",
+    "version": "1.18.4",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/util/cairo-missing/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/util/cairo-missing/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "42a6c14@@cairo-missing@sta"
+    ],
+    "meson_variables": [
+      "libcairomissing_dep"
+    ]
+  },
+  {
+    "name": "dep27582164440359915693043223324937330554",
+    "type": "internal",
+    "version": "1.18.4",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/util/cairo-gobject/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/util/cairo-gobject/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep8070664515807111892072260184234334762"
+    ],
+    "depends": [
+      "c15b7c9@@cairo-gobject@sta"
+    ],
+    "meson_variables": [
+      "libcairogobject_dep"
+    ]
+  },
+  {
+    "name": "dep306597404020855365546088002180455389498",
+    "type": "internal",
+    "version": "1.18.4",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/util/cairo-script/.",
+      "/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/util/cairo-script/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep8070664515807111892072260184234334762"
+    ],
+    "depends": [
+      "737a7e8@@cairo-script-interpreter@sta"
+    ],
+    "meson_variables": [
+      "libcairoscript_dep"
+    ]
+  }
+]

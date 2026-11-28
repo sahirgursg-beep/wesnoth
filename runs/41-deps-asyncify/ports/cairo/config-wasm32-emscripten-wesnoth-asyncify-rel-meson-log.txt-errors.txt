@@ -1,0 +1,894 @@
+163------------
+164-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpgnf29j3m/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpgnf29j3m/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wunsafe-loop-optimizations` -> 1
+165-stderr:
+166:error: unknown warning option '-Wunsafe-loop-optimizations'; did you mean '-Winvalid-specialization'? [-Werror,-Wunknown-warning-option]
+167:1 error generated.
+168------------
+169-Compiler for C supports arguments -Wunsafe-loop-optimizations: NO 
+170-Running compile:
+171-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpyuh74w4y
+172-Code:
+173-extern int i;
+174-int i;
+175-
+176------------
+177-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpyuh74w4y/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpyuh74w4y/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -Wmissing-field-initializers -Wno-missing-field-initializers` -> 0
+178-Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+179-Running compile:
+--
+275-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpst4j2qfp/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpst4j2qfp/output.js -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Wl,--fatal-warnings -Wl,-Bsymbolic-functions -fuse-ld=/usr/bin/ld` -> 1
+276-stderr:
+277-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+278:wasm-ld: error: unknown argument: -Bsymbolic-functions
+279:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpst4j2qfp/output.wasm /tmp/tmpx0dyy266libemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=setThrew --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib /tmp/emscripten_temp_xw5vasx7/testfile.o --fatal-warnings -Bsymbolic-functions -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc -lclang_rt.builtins -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (returned 1)
+280------------
+281-Compiler for C supports link arguments -Wl,-Bsymbolic-functions: NO 
+282-Running compile:
+283-Working directory:  /tmp/tmp50z2ynzu
+284-Code:
+285-
+286-        
+287-        #ifndef __FLOAT_WORD_ORDER__
+288-        # define __FLOAT_WORD_ORDER__ "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+289-        #endif
+290-        "MESON_GET_DEFINE_DELIMITER_START"
+291-__FLOAT_WORD_ORDER__
+--
+424------------
+425-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps9ifgnr9/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps9ifgnr9/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 1
+426-stderr:
+427:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps9ifgnr9/testfile.c:3:39: error: 'a' declared as an array with a negative size
+428-    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+429-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+430:1 error generated.
+431------------
+432-Running compile:
+433-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp7tfluklc
+434-Code:
+435-
+436-        #include <stddef.h>
+437-        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+438------------
+439-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp7tfluklc/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp7tfluklc/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+440-Running compile:
+441-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp8sliu6jy
+442-Code:
+--
+620-char *strstr (const char *, const char *);
+621-char *strtok (char *restrict, const char *restrict);
+622-size_t strlen (const char *);
+623:char *strerror (int);
+624-int bcmp (const void *, const void *, size_t);
+625-void bcopy (const void *, void *, size_t);
+626-void bzero (void *, size_t);
+627-char *index (const char *, int);
+628-char *rindex (const char *, int);
+629-int ffs (int);
+630-int ffsl (long);
+631-int ffsll (long long);
+632-int strcasecmp (const char *, const char *);
+633-int strncasecmp (const char *, const char *, size_t);
+634-int strcasecmp_l (const char *, const char *, locale_t);
+635-int strncasecmp_l (const char *, const char *, size_t, locale_t);
+--
+1883-  FT_Err_DEF_In_Glyf_Bytecode = 0x9C + 0,
+1884-  FT_Err_Missing_Bitmap = 0x9D + 0,
+1885-  FT_Err_Missing_SVG_Hooks = 0x9E + 0,
+1886:  FT_Err_Syntax_Error = 0xA0 + 0,
+1887-  FT_Err_Stack_Underflow = 0xA1 + 0,
+1888-  FT_Err_Ignore = 0xA2 + 0,
+1889-  FT_Err_No_Unicode_Glyph_Name = 0xA3 + 0,
+1890-  FT_Err_Glyph_Too_Big = 0xA4 + 0,
+1891-  FT_Err_Missing_Startfont_Field = 0xB0 + 0,
+1892-  FT_Err_Missing_Font_Field = 0xB1 + 0,
+1893-  FT_Err_Missing_Size_Field = 0xB2 + 0,
+1894-  FT_Err_Missing_Fontboundingbox_Field = 0xB3 + 0,
+1895-  FT_Err_Missing_Chars_Field = 0xB4 + 0,
+1896-  FT_Err_Missing_Startchar_Field = 0xB5 + 0,
+1897-  FT_Err_Missing_Encoding_Field = 0xB6 + 0,
+1898-  FT_Err_Missing_Bbx_Field = 0xB7 + 0,
+--
+1901-  FT_Err_Corrupted_Font_Glyphs = 0xBA + 0,
+1902- FT_Err_Max };
+1903-  __attribute__(( visibility( "default" ) )) extern const char*
+1904:  FT_Error_String( FT_Error error_code );
+1905- typedef struct FT_Glyph_Metrics_
+1906-  {
+1907-    FT_Pos width;
+1908-    FT_Pos height;
+1909-    FT_Pos horiBearingX;
+1910-    FT_Pos horiBearingY;
+1911-    FT_Pos horiAdvance;
+1912-    FT_Pos vertBearingX;
+1913-    FT_Pos vertBearingY;
+1914-    FT_Pos vertAdvance;
+1915-  } FT_Glyph_Metrics;
+1916-  typedef struct FT_Bitmap_Size_
+--
+2488------------
+2489-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp93x7bvv1/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp93x7bvv1/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+2490-stderr:
+2491:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp93x7bvv1/testfile.c:3:39: error: 'a' declared as an array with a negative size
+2492-    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+2493-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+2494:1 error generated.
+2495------------
+2496-Running compile:
+2497-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpov0yun56
+2498-Code:
+2499-
+2500-        #include <stddef.h>
+2501-        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+2502------------
+2503-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpov0yun56/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpov0yun56/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+2504-Running compile:
+2505-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpmfr9ts6y
+2506-Code:
+--
+2562------------
+2563-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpmjhcv49f/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpmjhcv49f/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+2564-stderr:
+2565:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpmjhcv49f/testfile.c:3:39: error: 'a' declared as an array with a negative size
+2566-    3 |         int main(void) { static int a[1-2*!(sizeof(int) > 7)]; a[0]=0; return 0; }
+2567-      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+2568:1 error generated.
+2569------------
+2570-Running compile:
+2571-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1rj4cx8z
+2572-Code:
+2573-
+2574-        #include <stddef.h>
+2575-        int main(void) { static int a[1-2*!(sizeof(int) <= 5)]; a[0]=0; return 0; }
+2576------------
+2577-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1rj4cx8z/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1rj4cx8z/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+2578-Running compile:
+2579-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpuq6a670y
+2580-Code:
+--
+2636------------
+2637-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4hw4vn8t/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4hw4vn8t/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+2638-stderr:
+2639:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4hw4vn8t/testfile.c:3:39: error: 'a' declared as an array with a negative size
+2640-    3 |         int main(void) { static int a[1-2*!(sizeof(long) > 7)]; a[0]=0; return 0; }
+2641-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~
+2642:1 error generated.
+2643------------
+2644-Running compile:
+2645-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppey262cb
+2646-Code:
+2647-
+2648-        #include <stddef.h>
+2649-        int main(void) { static int a[1-2*!(sizeof(long) <= 5)]; a[0]=0; return 0; }
+2650------------
+2651-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppey262cb/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppey262cb/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+2652-Running compile:
+2653-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpl4f5k212
+2654-Code:
+--
+2718------------
+2719-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmphviefkm2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmphviefkm2/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+2720-stderr:
+2721:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmphviefkm2/testfile.c:3:39: error: 'a' declared as an array with a negative size
+2722-    3 |         int main(void) { static int a[1-2*!(sizeof(long long) > 15)]; a[0]=0; return 0; }
+2723-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2724:1 error generated.
+2725------------
+2726-Running compile:
+2727-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpc8zjlyjn
+2728-Code:
+2729-
+2730-        #include <stddef.h>
+2731-        int main(void) { static int a[1-2*!(sizeof(long long) <= 11)]; a[0]=0; return 0; }
+2732------------
+2733-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpc8zjlyjn/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpc8zjlyjn/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+2734-Running compile:
+2735-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp98bx4kru
+2736-Code:
+--
+2800------------
+2801-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5q75rdo2/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5q75rdo2/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+2802-stderr:
+2803:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5q75rdo2/testfile.c:3:39: error: 'a' declared as an array with a negative size
+2804-    3 |         int main(void) { static int a[1-2*!(sizeof(size_t) > 7)]; a[0]=0; return 0; }
+2805-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+2806:1 error generated.
+2807------------
+2808-Running compile:
+2809-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpnxul0f2t
+2810-Code:
+2811-
+2812-        #include <stddef.h>
+2813-        int main(void) { static int a[1-2*!(sizeof(size_t) <= 5)]; a[0]=0; return 0; }
+2814------------
+2815-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpnxul0f2t/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpnxul0f2t/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+2816-Running compile:
+2817-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppl15rq91
+2818-Code:
+--
+2828-
+2829-        #ifdef __has_include
+2830-         #if !__has_include("stdint.h")
+2831:          #error "Header 'stdint.h' could not be found"
+2832-         #endif
+2833-        #else
+2834-         #include <stdint.h>
+2835-        #endif
+2836------------
+2837-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptrreng9u/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2838-Has header "stdint.h" : YES 
+2839-Running compile:
+2840-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwpoz_4om
+2841-Code:
+2842-
+2843-        #ifdef __has_include
+2844-         #if !__has_include("inttypes.h")
+2845:          #error "Header 'inttypes.h' could not be found"
+2846-         #endif
+2847-        #else
+2848-         #include <inttypes.h>
+2849-        #endif
+2850------------
+2851-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwpoz_4om/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2852-Has header "inttypes.h" : YES 
+2853-Running compile:
+2854-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbnws8f9o
+2855-Code:
+2856-
+2857-        #ifdef __has_include
+2858-         #if !__has_include("sys/int_types.h")
+2859:          #error "Header 'sys/int_types.h' could not be found"
+2860-         #endif
+2861-        #else
+2862-         #include <sys/int_types.h>
+2863-        #endif
+2864------------
+2865-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbnws8f9o/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 1
+2866-stderr:
+2867:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbnws8f9o/testfile.c:4:12: error: "Header 'sys/int_types.h' could not be found"
+2868:    4 |           #error "Header 'sys/int_types.h' could not be found"
+2869-      |            ^
+2870:1 error generated.
+2871------------
+2872-Has header "sys/int_types.h" : NO 
+2873-Running compile:
+2874-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppu2v3sw2
+2875-Code:
+2876-
+2877-        #ifdef __has_include
+2878-         #if !__has_include("fcntl.h")
+2879:          #error "Header 'fcntl.h' could not be found"
+2880-         #endif
+2881-        #else
+2882-         #include <fcntl.h>
+2883-        #endif
+2884------------
+2885-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppu2v3sw2/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2886-Has header "fcntl.h" : YES 
+2887-Running compile:
+2888-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9v_r_of1
+2889-Code:
+2890-
+2891-        #ifdef __has_include
+2892-         #if !__has_include("unistd.h")
+2893:          #error "Header 'unistd.h' could not be found"
+2894-         #endif
+2895-        #else
+2896-         #include <unistd.h>
+2897-        #endif
+2898------------
+2899-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9v_r_of1/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2900-Has header "unistd.h" : YES 
+2901-Running compile:
+2902-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp845_yy5
+2903-Code:
+2904-
+2905-        #ifdef __has_include
+2906-         #if !__has_include("signal.h")
+2907:          #error "Header 'signal.h' could not be found"
+2908-         #endif
+2909-        #else
+2910-         #include <signal.h>
+2911-        #endif
+2912------------
+2913-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp845_yy5/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2914-Has header "signal.h" : YES 
+2915-Running compile:
+2916-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpovf98fkv
+2917-Code:
+2918-
+2919-        #ifdef __has_include
+2920-         #if !__has_include("sys/stat.h")
+2921:          #error "Header 'sys/stat.h' could not be found"
+2922-         #endif
+2923-        #else
+2924-         #include <sys/stat.h>
+2925-        #endif
+2926------------
+2927-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpovf98fkv/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2928-Has header "sys/stat.h" : YES 
+2929-Running compile:
+2930-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpb81ryt04
+2931-Code:
+2932-
+2933-        #ifdef __has_include
+2934-         #if !__has_include("sys/socket.h")
+2935:          #error "Header 'sys/socket.h' could not be found"
+2936-         #endif
+2937-        #else
+2938-         #include <sys/socket.h>
+2939-        #endif
+2940------------
+2941-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpb81ryt04/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2942-Has header "sys/socket.h" : YES 
+2943-Running compile:
+2944-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp71ulffhp
+2945-Code:
+2946-
+2947-        #ifdef __has_include
+2948-         #if !__has_include("poll.h")
+2949:          #error "Header 'poll.h' could not be found"
+2950-         #endif
+2951-        #else
+2952-         #include <poll.h>
+2953-        #endif
+2954------------
+2955-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp71ulffhp/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2956-Has header "poll.h" : YES 
+2957-Running compile:
+2958-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpvx_9422f
+2959-Code:
+2960-
+2961-        #ifdef __has_include
+2962-         #if !__has_include("sys/poll.h")
+2963:          #error "Header 'sys/poll.h' could not be found"
+2964-         #endif
+2965-        #else
+2966-         #include <sys/poll.h>
+2967-        #endif
+2968------------
+2969-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpvx_9422f/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2970-Has header "sys/poll.h" : YES 
+2971-Running compile:
+2972-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp8sc5kr3s
+2973-Code:
+2974-
+2975-        #ifdef __has_include
+2976-         #if !__has_include("sys/un.h")
+2977:          #error "Header 'sys/un.h' could not be found"
+2978-         #endif
+2979-        #else
+2980-         #include <sys/un.h>
+2981-        #endif
+2982------------
+2983-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp8sc5kr3s/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2984-Has header "sys/un.h" : YES 
+2985-Running compile:
+2986-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpj6i7rxzt
+2987-Code:
+2988-
+2989-        #ifdef __has_include
+2990-         #if !__has_include("sched.h")
+2991:          #error "Header 'sched.h' could not be found"
+2992-         #endif
+2993-        #else
+2994-         #include <sched.h>
+2995-        #endif
+2996------------
+2997-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpj6i7rxzt/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+2998-Has header "sched.h" : YES 
+2999-Running compile:
+3000-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpsqvj9nk1
+3001-Code:
+3002-
+3003-        #ifdef __has_include
+3004-         #if !__has_include("sys/mman.h")
+3005:          #error "Header 'sys/mman.h' could not be found"
+3006-         #endif
+3007-        #else
+3008-         #include <sys/mman.h>
+3009-        #endif
+3010------------
+3011-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpsqvj9nk1/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3012-Has header "sys/mman.h" : YES 
+3013-Running compile:
+3014-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp879uye1q
+3015-Code:
+3016-
+3017-        #ifdef __has_include
+3018-         #if !__has_include("time.h")
+3019:          #error "Header 'time.h' could not be found"
+3020-         #endif
+3021-        #else
+3022-         #include <time.h>
+3023-        #endif
+3024------------
+3025-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp879uye1q/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3026-Has header "time.h" : YES 
+3027-Running compile:
+3028-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbazsn9el
+3029-Code:
+3030-
+3031-        #ifdef __has_include
+3032-         #if !__has_include("libgen.h")
+3033:          #error "Header 'libgen.h' could not be found"
+3034-         #endif
+3035-        #else
+3036-         #include <libgen.h>
+3037-        #endif
+3038------------
+3039-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbazsn9el/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3040-Has header "libgen.h" : YES 
+3041-Running compile:
+3042-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp83hzpu6t
+3043-Code:
+3044-
+3045-        #ifdef __has_include
+3046-         #if !__has_include("byteswap.h")
+3047:          #error "Header 'byteswap.h' could not be found"
+3048-         #endif
+3049-        #else
+3050-         #include <byteswap.h>
+3051-        #endif
+3052------------
+3053-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp83hzpu6t/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3054-Has header "byteswap.h" : YES 
+3055-Using cached compile:
+3056-Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp845_yy5/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11 
+3057-
+3058-Code:
+3059- 
+3060-        #ifdef __has_include
+3061-         #if !__has_include("signal.h")
+3062:          #error "Header 'signal.h' could not be found"
+3063-         #endif
+3064-        #else
+3065-         #include <signal.h>
+3066-        #endif
+3067-Cached compiler stdout:
+3068- 
+3069-
+3070-Cached compiler stderr:
+3071- 
+3072-Has header "signal.h" : YES (cached)
+3073-Running compile:
+3074-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwphz9bqh
+--
+3076-
+3077-        #ifdef __has_include
+3078-         #if !__has_include("setjmp.h")
+3079:          #error "Header 'setjmp.h' could not be found"
+3080-         #endif
+3081-        #else
+3082-         #include <setjmp.h>
+3083-        #endif
+3084------------
+3085-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwphz9bqh/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3086-Has header "setjmp.h" : YES 
+3087-Running compile:
+3088-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprvh2ejho
+3089-Code:
+3090-
+3091-        #ifdef __has_include
+3092-         #if !__has_include("fenv.h")
+3093:          #error "Header 'fenv.h' could not be found"
+3094-         #endif
+3095-        #else
+3096-         #include <fenv.h>
+3097-        #endif
+3098------------
+3099-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprvh2ejho/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3100-Has header "fenv.h" : YES 
+3101-Running compile:
+3102-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppp9a52f9
+3103-Code:
+3104-
+3105-        #ifdef __has_include
+3106-         #if !__has_include("sys/wait.h")
+3107:          #error "Header 'sys/wait.h' could not be found"
+3108-         #endif
+3109-        #else
+3110-         #include <sys/wait.h>
+3111-        #endif
+3112------------
+3113-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppp9a52f9/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3114-Has header "sys/wait.h" : YES 
+3115-Using cached compile:
+3116-Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpovf98fkv/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11 
+3117-
+3118-Code:
+3119- 
+3120-        #ifdef __has_include
+3121-         #if !__has_include("sys/stat.h")
+3122:          #error "Header 'sys/stat.h' could not be found"
+3123-         #endif
+3124-        #else
+3125-         #include <sys/stat.h>
+3126-        #endif
+3127-Cached compiler stdout:
+3128- 
+3129-
+3130-Cached compiler stderr:
+3131- 
+3132-Has header "sys/stat.h" : YES (cached)
+3133-Running compile:
+3134-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp2iunlpn5
+--
+3136-
+3137-        #ifdef __has_include
+3138-         #if !__has_include("io.h")
+3139:          #error "Header 'io.h' could not be found"
+3140-         #endif
+3141-        #else
+3142-         #include <io.h>
+3143-        #endif
+3144------------
+3145-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp2iunlpn5/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 1
+3146-stderr:
+3147:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp2iunlpn5/testfile.c:4:12: error: "Header 'io.h' could not be found"
+3148:    4 |           #error "Header 'io.h' could not be found"
+3149-      |            ^
+3150:1 error generated.
+3151------------
+3152-Has header "io.h" : NO 
+3153-Using cached compile:
+3154-Cached command line:  /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprvh2ejho/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11 
+3155-
+3156-Code:
+3157- 
+3158-        #ifdef __has_include
+3159-         #if !__has_include("fenv.h")
+3160:          #error "Header 'fenv.h' could not be found"
+3161-         #endif
+3162-        #else
+3163-         #include <fenv.h>
+3164-        #endif
+3165-Cached compiler stdout:
+3166- 
+3167-
+3168-Cached compiler stderr:
+3169- 
+3170-Has header "fenv.h" : YES (cached)
+3171-Running compile:
+3172-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpo67zg30g
+--
+3174-
+3175-        #ifdef __has_include
+3176-         #if !__has_include("xlocale.h")
+3177:          #error "Header 'xlocale.h' could not be found"
+3178-         #endif
+3179-        #else
+3180-         #include <xlocale.h>
+3181-        #endif
+3182------------
+3183-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpo67zg30g/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3184-Has header "xlocale.h" : YES 
+3185-Running compile:
+3186-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1e1zz9i3
+3187-Code:
+3188-
+3189-        #ifdef __has_include
+3190-         #if !__has_include("sys/ioctl.h")
+3191:          #error "Header 'sys/ioctl.h' could not be found"
+3192-         #endif
+3193-        #else
+3194-         #include <sys/ioctl.h>
+3195-        #endif
+3196------------
+3197-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1e1zz9i3/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3198-Has header "sys/ioctl.h" : YES 
+3199-Running compile:
+3200-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpviljv1m2
+3201-Code:
+3202-
+3203-        #ifdef __has_include
+3204-         #if !__has_include("intsafe.h")
+3205:          #error "Header 'intsafe.h' could not be found"
+3206-         #endif
+3207-        #else
+3208-         #include <intsafe.h>
+3209-        #endif
+3210------------
+3211-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpviljv1m2/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 1
+3212-stderr:
+3213:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpviljv1m2/testfile.c:4:12: error: "Header 'intsafe.h' could not be found"
+3214:    4 |           #error "Header 'intsafe.h' could not be found"
+3215-      |            ^
+3216:1 error generated.
+3217------------
+3218-Has header "intsafe.h" : NO 
+3219-Running compile:
+3220-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpvztwqwo6
+3221-Code:
+3222-
+3223-        #ifdef __has_include
+3224-         #if !__has_include("alloca.h")
+3225:          #error "Header 'alloca.h' could not be found"
+3226-         #endif
+3227-        #else
+3228-         #include <alloca.h>
+3229-        #endif
+3230------------
+3231-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpvztwqwo6/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3232-Has header "alloca.h" : YES 
+3233-Running compile:
+3234-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp038ba0ex
+3235-Code:
+3236-
+3237-        #ifdef __has_include
+3238-         #if !__has_include("termios.h")
+3239:          #error "Header 'termios.h' could not be found"
+3240-         #endif
+3241-        #else
+3242-         #include <termios.h>
+3243-        #endif
+3244------------
+3245-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp038ba0ex/testfile.c -E -P -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -P -O0 -Werror=implicit-function-declaration -std=gnu11` -> 0
+3246-Has header "termios.h" : YES 
+3247-Running compile:
+3248-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpr3y8ev5g
+3249-Code:
+3250-#include <stdint.h>
+3251-
+--
+3266------------
+3267-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbw0wczth/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbw0wczth/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 1
+3268-stderr:
+3269:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbw0wczth/testfile.c:4:27: error: use of undeclared identifier 'uint128_t'
+3270-    4 |             (void) sizeof(uint128_t);
+3271-      |                           ^~~~~~~~~
+3272:1 error generated.
+3273------------
+3274-Checking for type "uint128_t" : NO 
+3275-Running compile:
+3276-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4kmp9x4c
+3277-Code:
+3278-
+3279-        void bar(void) {
+3280-            (void) sizeof(__uint128_t);
+3281-        }
+3282------------
+3283-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4kmp9x4c/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4kmp9x4c/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=gnu11` -> 0
+3284-Checking for type "__uint128_t" : YES 
+--
+3724-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpuwk_f2qi/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpuwk_f2qi/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3725-stderr:
+3726-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3727:wasm-ld: error: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a(pngerror.c.o): undefined symbol: __resumeException
+3728:wasm-ld: error: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a(png.c.o): undefined symbol: __resumeException
+3729:wasm-ld: error: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a(sfnt.c.o): undefined symbol: __resumeException
+3730:wasm-ld: error: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a(sfnt.c.o): undefined symbol: __resumeException
+3731:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpuwk_f2qi/output.wasm /tmp/tmpt8yeudbtlibemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=setThrew --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib /tmp/emscripten_temp_j7cc113w/testfile.o /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc -lclang_rt.builtins -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (returned 1)
+3732------------
+3733-Running compile:
+3734-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw
+3735-Code:
+3736-
+3737-        int main(void) {
+3738-
+3739-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3740-         * provides various builtins which are not really implemented and
+3741-         * fall back to the stdlib where they aren't provided and fail at
+3742-         * build/link time. In case the user provides a header, including
+3743-         * the header didn't lead to the function being defined, and the
+3744-         * function we are checking isn't a builtin itself we assume the
+3745:         * builtin is not functional and we just error out. */
+3746-        #if !1 && !defined(FcInit) && !0
+3747:            #error "No definition for __builtin_FcInit found in the prefix"
+3748-        #endif
+3749-
+3750-        #ifdef __has_builtin
+3751-            #if !__has_builtin(__builtin_FcInit)
+3752:                #error "__builtin_FcInit not found"
+3753-            #endif
+3754-        #elif ! defined(FcInit)
+3755-            __builtin_FcInit;
+3756-        #endif
+3757-        return 0;
+3758-        }
+3759------------
+3760-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3761-stderr:
+3762-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3763:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw/testfile.c:17:18: error: "__builtin_FcInit not found"
+3764:   17 |                 #error "__builtin_FcInit not found"
+3765-      |                  ^
+3766:1 error generated.
+3767:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -femscripten-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fexceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -DXML_STATIC -fexceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw/testfile.c -o /tmp/emscripten_temp_el2rkaoc/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpwcrsooiw/output.js-' failed (returned 1)
+3768------------
+3769-Checking for function "FcInit" with dependencies -lm, -ldl, zlib, libpng, fontconfig, freetype2, pixman-1: NO 
+3770-Running compile:
+3771-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp1hu7p7vj
+3772-Code:
+3773-
+3774-        #define FcFini meson_disable_define_of_FcFini
+3775-        
+3776-        #include <limits.h>
+3777-        #undef FcFini
+3778-        
+3779-        #ifdef __cplusplus
+--
+3822-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptpg3r089/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptpg3r089/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3823-stderr:
+3824-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3825:wasm-ld: error: /tmp/emscripten_temp_0i2j7866/testfile.o: undefined symbol: sched_getaffinity
+3826:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptpg3r089/output.wasm /tmp/tmp8i6rr9ehlibemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=setThrew --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib /tmp/emscripten_temp_0i2j7866/testfile.o /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc -lclang_rt.builtins -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (returned 1)
+3827------------
+3828-Running compile:
+3829-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0
+3830-Code:
+3831-
+3832-        int main(void) {
+3833-
+3834-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3835-         * provides various builtins which are not really implemented and
+3836-         * fall back to the stdlib where they aren't provided and fail at
+3837-         * build/link time. In case the user provides a header, including
+3838-         * the header didn't lead to the function being defined, and the
+3839-         * function we are checking isn't a builtin itself we assume the
+3840:         * builtin is not functional and we just error out. */
+3841-        #if !1 && !defined(sched_getaffinity) && !0
+3842:            #error "No definition for __builtin_sched_getaffinity found in the prefix"
+3843-        #endif
+3844-
+3845-        #ifdef __has_builtin
+3846-            #if !__has_builtin(__builtin_sched_getaffinity)
+3847:                #error "__builtin_sched_getaffinity not found"
+3848-            #endif
+3849-        #elif ! defined(sched_getaffinity)
+3850-            __builtin_sched_getaffinity;
+3851-        #endif
+3852-        return 0;
+3853-        }
+3854------------
+3855-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3856-stderr:
+3857-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3858:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0/testfile.c:17:18: error: "__builtin_sched_getaffinity not found"
+3859:   17 |                 #error "__builtin_sched_getaffinity not found"
+3860-      |                  ^
+3861:1 error generated.
+3862:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -femscripten-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fexceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -DXML_STATIC -fexceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0/testfile.c -o /tmp/emscripten_temp_pcoplmkp/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpk25x5no0/output.js-' failed (returned 1)
+3863------------
+3864-Checking for function "sched_getaffinity" with dependencies -lm, -ldl, zlib, libpng, fontconfig, freetype2, pixman-1: NO 
+3865-Running compile:
+3866-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpui15egjv
+3867-Code:
+3868-
+3869-        #define mmap meson_disable_define_of_mmap
+3870-        
+3871-        #include <limits.h>
+3872-        #undef mmap
+3873-        
+3874-        #ifdef __cplusplus
+--
+3947-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdl8aatai/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdl8aatai/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3948-stderr:
+3949-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3950:wasm-ld: error: /tmp/emscripten_temp_1kvwi83p/testfile.o: undefined symbol: feenableexcept
+3951:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdl8aatai/output.wasm /tmp/tmphuz9j0zhlibemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=setThrew --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib /tmp/emscripten_temp_1kvwi83p/testfile.o /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc -lclang_rt.builtins -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (returned 1)
+3952------------
+3953-Running compile:
+3954-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa
+3955-Code:
+3956-
+3957-        int main(void) {
+3958-
+3959-        /* With some toolchains (MSYS2/mingw for example) the compiler
+3960-         * provides various builtins which are not really implemented and
+3961-         * fall back to the stdlib where they aren't provided and fail at
+3962-         * build/link time. In case the user provides a header, including
+3963-         * the header didn't lead to the function being defined, and the
+3964-         * function we are checking isn't a builtin itself we assume the
+3965:         * builtin is not functional and we just error out. */
+3966-        #if !1 && !defined(feenableexcept) && !0
+3967:            #error "No definition for __builtin_feenableexcept found in the prefix"
+3968-        #endif
+3969-
+3970-        #ifdef __has_builtin
+3971-            #if !__has_builtin(__builtin_feenableexcept)
+3972:                #error "__builtin_feenableexcept not found"
+3973-            #endif
+3974-        #elif ! defined(feenableexcept)
+3975-            __builtin_feenableexcept;
+3976-        #endif
+3977-        return 0;
+3978-        }
+3979------------
+3980-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+3981-stderr:
+3982-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+3983:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa/testfile.c:17:18: error: "__builtin_feenableexcept not found"
+3984:   17 |                 #error "__builtin_feenableexcept not found"
+3985-      |                  ^
+3986:1 error generated.
+3987:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -femscripten-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fexceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -DXML_STATIC -fexceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa/testfile.c -o /tmp/emscripten_temp_p13zzgrg/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpdv00z6sa/output.js-' failed (returned 1)
+3988------------
+3989-Checking for function "feenableexcept" with dependencies -lm, -ldl, zlib, libpng, fontconfig, freetype2, pixman-1: NO 
+3990-Running compile:
+3991-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbj4tzz6o
+3992-Code:
+3993-
+3994-        #define fedisableexcept meson_disable_define_of_fedisableexcept
+3995-        
+3996-        #include <limits.h>
+3997-        #undef fedisableexcept
+3998-        
+3999-        #ifdef __cplusplus
+--
+4012-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbj4tzz6o/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbj4tzz6o/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+4013-stderr:
+4014-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+4015:wasm-ld: error: /tmp/emscripten_temp_5lv5hjyo/testfile.o: undefined symbol: fedisableexcept
+4016:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/wasm-ld -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpbj4tzz6o/output.wasm /tmp/tmp9yyp18mslibemscripten_js_symbols.so -Bstatic --strip-debug --export=__rodata_start --export=__rodata_end --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=setThrew --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__start_em_embind --export-if-defined=__stop_em_embind --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1 -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib /tmp/emscripten_temp_5lv5hjyo/testfile.o /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -L/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/runner/webbuild/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lemcc -lclang_rt.builtins -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (returned 1)
+4017------------
+4018-Running compile:
+4019-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686
+4020-Code:
+4021-
+4022-        int main(void) {
+4023-
+4024-        /* With some toolchains (MSYS2/mingw for example) the compiler
+4025-         * provides various builtins which are not really implemented and
+4026-         * fall back to the stdlib where they aren't provided and fail at
+4027-         * build/link time. In case the user provides a header, including
+4028-         * the header didn't lead to the function being defined, and the
+4029-         * function we are checking isn't a builtin itself we assume the
+4030:         * builtin is not functional and we just error out. */
+4031-        #if !1 && !defined(fedisableexcept) && !0
+4032:            #error "No definition for __builtin_fedisableexcept found in the prefix"
+4033-        #endif
+4034-
+4035-        #ifdef __has_builtin
+4036-            #if !__has_builtin(__builtin_fedisableexcept)
+4037:                #error "__builtin_fedisableexcept not found"
+4038-            #endif
+4039-        #elif ! defined(fedisableexcept)
+4040-            __builtin_fedisableexcept;
+4041-        #endif
+4042-        return 0;
+4043-        }
+4044------------
+4045-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686/output.js -DXML_STATIC -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group -lm -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a -Wl,--end-group -fuse-ld=/usr/bin/ld` -> 1
+4046-stderr:
+4047-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+4048:/home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686/testfile.c:17:18: error: "__builtin_fedisableexcept not found"
+4049:   17 |                 #error "__builtin_fedisableexcept not found"
+4050-      |                  ^
+4051:1 error generated.
+4052:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -femscripten-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fexceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -DXML_STATIC -fexceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686/testfile.c -o /tmp/emscripten_temp_zkztjwq4/testfile.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmps6s1h686/output.js-' failed (returned 1)
+4053------------
+4054-Checking for function "fedisableexcept" with dependencies -lm, -ldl, zlib, libpng, fontconfig, freetype2, pixman-1: NO 
+4055-Running compile:
+4056-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpyg2extpi
+4057-Code:
+4058-
+4059-        #define feclearexcept meson_disable_define_of_feclearexcept
+4060-        
+4061-        #include <limits.h>
+4062-        #undef feclearexcept
+4063-        
+4064-        #ifdef __cplusplus
+--
+4128-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/meson-cc-tests/mkdir-variant-1.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp6q74f959/output.js -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -DHAVE_SYS_STAT_H -fuse-ld=/usr/bin/ld` -> 1
+4129-stderr:
+4130-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+4131:/home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/meson-cc-tests/mkdir-variant-1.c:10:22: error: too few arguments to function call, expected 2, have 1
+4132-   10 |   mkdir("hello.world");
+4133-      |   ~~~~~              ^
+4134-/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/include/sys/stat.h:88:5: note: 'mkdir' declared here
+4135-   88 | int mkdir(const char *, mode_t);
+4136-      |     ^     ~~~~~~~~~~~~~~~~~~~~
+4137:1 error generated.
+4138:emcc: error: '/home/runner/webbuild/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -femscripten-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -fexceptions -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -fexceptions -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -DHAVE_SYS_STAT_H -fuse-ld=/usr/bin/ld -c /home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/meson-cc-tests/mkdir-variant-1.c -o /tmp/emscripten_temp_8d11kayn/mkdir-variant-1.o -dumpdir /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp6q74f959/output.js-' failed (returned 1)
+4139------------
+4140-Running compile:
+4141-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppsp1a_fa
+4142-Source file: /home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/meson-cc-tests/mkdir-variant-2.c
+4143------------
+4144-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean/meson-cc-tests/mkdir-variant-2.c -o /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmppsp1a_fa/output.js -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -DHAVE_SYS_STAT_H -fuse-ld=/usr/bin/ld` -> 0
+4145-stderr:
+4146-clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+4147------------
+4148-Running compile:
+4149-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpezvpmm4s
+4150-Code:

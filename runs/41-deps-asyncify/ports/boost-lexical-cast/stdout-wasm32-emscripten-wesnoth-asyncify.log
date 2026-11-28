@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/lexical_cast/archive/boost-1.92.0.tar.gz -> boostorg-lexical_cast-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-lexical_cast-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-lexical_cast-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-lexical-cast/src/ost-1.92.0-58e700ee8a.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/share/boost-lexical-cast/copyright
+-- Performing post-build validation

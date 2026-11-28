@@ -1,0 +1,2 @@
+configure: WARNING: libattr development library was not found or not usable.
+configure: WARNING: gettext-tools will be built without xattr support.

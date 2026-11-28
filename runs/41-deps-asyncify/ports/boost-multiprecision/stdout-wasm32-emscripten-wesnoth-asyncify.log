@@ -1,0 +1,9 @@
+Downloading https://github.com/boostorg/multiprecision/archive/boost-1.92.0.tar.gz -> boostorg-multiprecision-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-multiprecision-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-multiprecision-boost-1.92.0.tar.gz
+-- Applying patch optional-random.diff
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-multiprecision/src/ost-1.92.0-c20812d277.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-multiprecision_wasm32-emscripten-wesnoth-asyncify/share/boost-multiprecision/copyright
+-- Performing post-build validation

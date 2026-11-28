@@ -1,0 +1,246 @@
+85-checking whether the compiler supports GNU C++... yes
+86-checking whether /usr/bin/c++ accepts -g... yes
+87-checking for /usr/bin/cc option to enable large file support... none needed
+88:checking whether C compiler handles -Werror -Wunknown-warning-option... no
+89-checking how to print strings... printf
+90-checking for a sed that does not truncate output... /usr/bin/sed
+91-checking for grep that handles long lines and -e... /usr/bin/grep
+92-checking for egrep... /usr/bin/grep -E
+93-checking for fgrep... /usr/bin/grep -F
+94-checking for ld used by /usr/bin/cc... /usr/bin/ld
+95-checking if the linker (/usr/bin/ld) is GNU ld... yes
+96-checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+97-checking the name lister (/usr/bin/nm) interface... BSD nm
+98-checking whether ln -s works... yes
+99-checking the maximum length of command line arguments... 3145728
+100-checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+--
+203-checking for error... yes
+204-checking whether error_at_line is declared... yes
+205-checking for error_at_line... yes
+206:checking for working error function... yes
+207-checking whether strerror_r is declared... yes
+208-checking whether strerror_r returns char *... yes
+209-checking whether ctype.h defines __header_inline... no
+210-checking for working fcntl.h... yes
+211-checking for pid_t... yes
+212-checking for mode_t... yes
+213-checking whether stat file-mode macros are broken... no
+214-checking for nlink_t... yes
+215-checking whether getdtablesize is declared... yes
+216-checking for getopt.h... (cached) yes
+217-checking for getopt_long_only... yes
+218-checking whether getopt is POSIX compatible... yes
+--
+388-checking for struct stat.st_birthtimensec... no
+389-checking for struct stat.st_birthtim.tv_nsec... no
+390-checking for bool, true, false... yes
+391:checking for working strerror function... yes
+392-checking for working strnlen... yes
+393-checking for strtoul... yes
+394-checking whether strtoul works... yes
+395-checking for sys/single_threaded.h... yes
+396-checking for variable-length arrays... yes
+397-checking whether wcwidth is declared... yes
+398-checking whether wcwidth works reasonably in UTF-8 locales... yes
+399-checking for size_t... (cached) yes
+400-checking for setlocale... yes
+401-checking for perl... /usr/bin/perl
+402-checking whether the C++ compiler (/usr/bin/c++ -fPIC -O3 -L/home/runner/webbuild/vcpkg/installed/x64-linux/lib) works... yes
+403-checking whether the C++ compiler supports namespaces... yes
+--
+482-checking for sys/param.h... (cached) yes
+483-checking whether it is safe to define __EXTENSIONS__... (cached) yes
+484-checking whether _XOPEN_SOURCE should be defined... (cached) no
+485:checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+486-checking how to print strings... printf
+487-checking for a sed that does not truncate output... (cached) /usr/bin/sed
+488-checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+489-checking for egrep... (cached) /usr/bin/grep -E
+490-checking for fgrep... (cached) /usr/bin/grep -F
+491-checking for ld used by /usr/bin/cc... (cached) /usr/bin/ld
+492-checking if the linker (/usr/bin/ld) is GNU ld... (cached) yes
+493-checking for BSD- or MS-compatible name lister (nm)... (cached) /usr/bin/nm
+494-checking the name lister (/usr/bin/nm) interface... (cached) BSD nm
+495-checking whether ln -s works... yes
+496-checking the maximum length of command line arguments... (cached) 3145728
+497-checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... (cached) func_convert_file_noop
+--
+682-checking whether isnan(float) works... yes
+683-checking whether isnan(long double) can be used without linking with libm... yes
+684-checking whether isnanl works... yes
+685:checking whether the -Werror option is usable... yes
+686-checking for simple visibility declarations... yes
+687-checking for newlocale... (cached) yes
+688-checking for duplocale... (cached) yes
+689-checking for freelocale... (cached) yes
+690-checking for pthread_rwlock_t... (cached) yes
+691-checking whether pthread_rwlock_rdlock prefers a writer to a reader... (cached) no
+692-checking whether mbrtowc handles a NULL pwc argument... (cached) guessing yes
+693-checking whether mbrtowc handles a NULL string argument... (cached) guessing yes
+694-checking whether mbrtowc has a correct return value... (cached) guessing yes
+695-checking whether mbrtowc returns 0 when parsing a NUL character... (cached) guessing yes
+696-checking whether mbrtowc stores incomplete characters... (cached) guessing no
+697-checking whether mbrtowc works on empty input... (cached) yes
+--
+820-checking for Minix Amsterdam compiler... (cached) no
+821-checking for ar... (cached) /usr/bin/ar
+822-checking for /usr/bin/cc option to enable large file support... (cached) none needed
+823:checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+824-checking for C compiler option to inhibit all warnings... -w
+825-checking whether C compiler handles -fno-analyzer... yes
+826-checking how to print strings... printf
+827-checking for a sed that does not truncate output... (cached) /usr/bin/sed
+828-checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+829-checking for egrep... (cached) /usr/bin/grep -E
+830-checking for fgrep... (cached) /usr/bin/grep -F
+831-checking for ld used by /usr/bin/cc... (cached) /usr/bin/ld
+832-checking if the linker (/usr/bin/ld) is GNU ld... (cached) yes
+833-checking for BSD- or MS-compatible name lister (nm)... (cached) /usr/bin/nm
+834-checking the name lister (/usr/bin/nm) interface... (cached) BSD nm
+835-checking whether ln -s works... yes
+--
+897-checking for error... (cached) yes
+898-checking whether error_at_line is declared... (cached) yes
+899-checking for error_at_line... (cached) yes
+900:checking for working error function... (cached) yes
+901-checking whether strerror_r is declared... (cached) yes
+902-checking whether strerror_r returns char *... (cached) yes
+903-checking whether ctype.h defines __header_inline... (cached) no
+904-checking for sig_atomic_t... yes
+905-checking for working fcntl.h... (cached) yes
+906-checking for pid_t... (cached) yes
+907-checking for mode_t... (cached) yes
+908-checking whether frexp() can be used without linking with libm... (cached) yes
+909-checking whether alarm is declared... (cached) yes
+910-checking whether long double and double are the same... (cached) no
+911-checking whether stat file-mode macros are broken... (cached) no
+912-checking for C/C++ restrict keyword... (cached) __restrict__
+--
+1148-checking for va_copy... yes
+1149-checking for bool, true, false... (cached) yes
+1150-checking for stpcpy... yes
+1151:checking for working strerror function... (cached) yes
+1152-checking for tcgetattr... yes
+1153-checking for sys/single_threaded.h... (cached) yes
+1154-checking for variable-length arrays... (cached) yes
+1155-checking for ptrdiff_t... (cached) yes
+1156-checking for vasprintf... (cached) yes
+1157-checking for ptrdiff_t... (cached) yes
+1158-checking for vsnprintf... yes
+1159-checking whether snprintf respects a size of 1... (cached) yes
+1160-checking for stdint.h... (cached) yes
+1161-checking for gawk... (cached) gawk
+1162-checking for texi2dvi... /usr/bin/texi2dvi
+1163-checking for dvips... /home/runner/webbuild/vcpkg/buildtrees/gettext/src/gettext-0-8aeafea7a1.clean/libtextstyle/build-aux/missing dvips
+--
+1269-checking whether the compiler supports GNU C++... (cached) yes
+1270-checking whether /usr/bin/c++ accepts -g... (cached) yes
+1271-checking for /usr/bin/cc option to enable large file support... (cached) none needed
+1272:checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+1273-checking for C compiler option to inhibit all warnings... (cached) -w
+1274-checking whether C compiler handles -fno-analyzer... (cached) yes
+1275-checking how to print strings... printf
+1276-checking for a sed that does not truncate output... (cached) /usr/bin/sed
+1277-checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+1278-checking for egrep... (cached) /usr/bin/grep -E
+1279-checking for fgrep... (cached) /usr/bin/grep -F
+1280-checking for ld used by /usr/bin/cc... (cached) /usr/bin/ld
+1281-checking if the linker (/usr/bin/ld) is GNU ld... (cached) yes
+1282-checking for BSD- or MS-compatible name lister (nm)... (cached) /usr/bin/nm
+1283-checking the name lister (/usr/bin/nm) interface... (cached) BSD nm
+1284-checking whether ln -s works... yes
+--
+1436-checking for error... (cached) yes
+1437-checking whether error_at_line is declared... (cached) yes
+1438-checking for error_at_line... (cached) yes
+1439:checking for working error function... (cached) yes
+1440-checking whether strerror_r is declared... (cached) yes
+1441-checking whether strerror_r returns char *... (cached) yes
+1442-checking for mode_t... (cached) yes
+1443-checking whether ctype.h defines __header_inline... (cached) no
+1444-checking for sig_atomic_t... (cached) yes
+1445-checking whether fchdir is declared... yes
+1446-checking for working fcntl.h... (cached) yes
+1447-checking for pid_t... (cached) yes
+1448-checking for eaccess... yes
+1449-checking whether fopen recognizes a trailing slash... yes
+1450-checking whether fflush works on input streams... yes
+1451-checking whether fclose works on input streams... yes
+--
+1712-checking whether ftello works... (cached) yes
+1713-checking for library containing getaddrinfo... none required
+1714-checking for getaddrinfo... yes
+1715:checking whether gai_strerror is declared... yes
+1716-checking whether gai_strerrorA is declared... no
+1717:checking for gai_strerror with POSIX signature... yes
+1718-checking for struct sockaddr.sa_len... no
+1719-checking whether getaddrinfo is declared... yes
+1720-checking whether freeaddrinfo is declared... yes
+1721-checking whether getnameinfo is declared... yes
+1722-checking for struct addrinfo... yes
+1723-checking whether getcwd handles long file names properly... yes
+1724-checking for getpagesize... yes
+1725-checking whether getcwd succeeds when 4k < cwd_length < 16k... yes
+1726-checking for getdelim... yes
+1727-checking for working getdelim function... yes
+1728-checking whether getdtablesize works... (cached) yes
+1729-checking for getline... yes
+--
+1885-checking for strchrnul... yes
+1886-checking whether strchrnul works... yes
+1887-checking for strcspn... yes
+1888:checking for working strerror function... (cached) yes
+1889-checking for working strnlen... (cached) yes
+1890-checking for strpbrk... yes
+1891-checking whether strstr works in linear time... yes
+1892-checking whether strstr works... (cached) yes
+1893-checking for strtol... yes
+1894-checking whether strtol works... yes
+1895-checking for strtoul... (cached) yes
+1896-checking whether strtoul works... (cached) yes
+1897-checking for chown... (cached) yes
+1898-checking for sys/single_threaded.h... (cached) yes
+1899-checking whether unlink honors trailing slashes... yes
+1900-checking whether unlink of a parent directory fails as it should... guessing yes
+--
+1945-checking for newlocale... (cached) yes
+1946-checking for library containing nanosleep... none required
+1947-checking for working nanosleep... no (mishandles large arguments)
+1948:checking whether perror matches strerror... yes
+1949-checking for getppriv... no
+1950-checking whether signature of pselect conforms to POSIX... yes
+1951-checking whether pselect detects invalid fds... yes
+1952-checking whether pthread_create exists as a global function... yes
+1953-checking whether pthread_sigmask is a macro... no
+1954-checking whether pthread_sigmask works without -lpthread... yes
+1955:checking whether pthread_sigmask returns error numbers... yes
+1956-checking whether pthread_sigmask unblocks signals correctly... guessing yes
+1957-checking for putenv compatible with GNU and SVID... yes
+1958-checking for random... yes
+1959-checking for initstate... yes
+1960-checking for setstate... yes
+1961-checking for random.h... no
+1962-checking for struct random_data... yes
+1963-checking for random_r... yes
+1964-checking whether sched_yield is declared... yes
+1965-checking whether select supports a 0 argument... yes
+1966-checking whether select detects invalid fds... yes
+1967-checking whether sleep is declared... yes
+--
+2065-checking for working stpncpy... (cached) yes
+2066-checking for strchrnul... (cached) yes
+2067-checking whether strchrnul works... (cached) yes
+2068:checking for working strerror function... (cached) yes
+2069-checking whether strstr works in linear time... (cached) yes
+2070-checking whether strstr works... (cached) yes
+2071-checking for variable-length arrays... (cached) yes
+2072-checking for ptrdiff_t... (cached) yes
+2073-checking for vasprintf... (cached) yes
+2074-checking whether wcwidth is declared... (cached) yes
+2075-checking whether wcwidth works reasonably in UTF-8 locales... (cached) yes
+2076-checking for stdint.h... (cached) yes
+2077-checking for pwd.h... yes
+2078-checking for inline... (cached) inline
+2079-checking for unsigned long long int... (cached) yes
+2080-checking for size_t... (cached) yes

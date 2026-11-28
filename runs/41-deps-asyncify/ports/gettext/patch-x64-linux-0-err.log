@@ -1,0 +1,6 @@
+Checking patch gettext-runtime/configure...
+Hunk #1 succeeded at 36149 (offset 701 lines).
+Checking patch gettext-tools/configure...
+Hunk #1 succeeded at 49566 (offset 960 lines).
+Applied patch gettext-runtime/configure cleanly.
+Applied patch gettext-tools/configure cleanly.

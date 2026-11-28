@@ -1,0 +1,326 @@
+5734-        
+5735-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_37b39
+5736-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_CXX20_ATOMIC_REF -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_37b39.dir/src.cxx.o -MF CMakeFiles/cmTC_37b39.dir/src.cxx.o.d -o CMakeFiles/cmTC_37b39.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-PunAXc/src.cxx
+5737:        FAILED: [code=1] CMakeFiles/cmTC_37b39.dir/src.cxx.o 
+5738-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_CXX20_ATOMIC_REF -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_37b39.dir/src.cxx.o -MF CMakeFiles/cmTC_37b39.dir/src.cxx.o.d -o CMakeFiles/cmTC_37b39.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-PunAXc/src.cxx
+5739-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-PunAXc/src.cxx:1:
+5740:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:15:10: error: no member named 'atomic_ref' in namespace 'std'
+5741-           15 |     std::atomic_ref< func_t* > ref(func);
+5742-              |          ^~~~~~~~~~
+5743:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:15:22: error: unexpected type name 'func_t': expected expression
+5744-           15 |     std::atomic_ref< func_t* > ref(func);
+5745-              |                      ^
+5746:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:15:30: error: expected expression
+5747-           15 |     std::atomic_ref< func_t* > ref(func);
+5748-              |                              ^
+5749:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:15:32: error: use of undeclared identifier 'ref'
+5750-           15 |     std::atomic_ref< func_t* > ref(func);
+5751-              |                                ^~~
+5752:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:16:5: error: use of undeclared identifier 'ref'
+5753-           16 |     ref.load(std::memory_order_relaxed);
+5754-              |     ^~~
+5755:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_cxx20_atomic_ref.cpp:17:5: error: use of undeclared identifier 'ref'
+5756-           17 |     ref.store((func_t*)0, std::memory_order_relaxed);
+5757-              |     ^~~
+5758-        6 errors generated.
+5759-        ninja: build stopped: subcommand failed.
+5760-        
+5761-      exitCode: 1
+5762-  -
+5763-    kind: "try_compile-v1"
+5764-    backtrace:
+5765-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+5766-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+5767-      - "libs/filesystem/CMakeLists.txt:36 (check_cxx_source_compiles)"
+--
+5803-        
+5804-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_95895
+5805-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BLKSIZE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_95895.dir/src.cxx.o -MF CMakeFiles/cmTC_95895.dir/src.cxx.o.d -o CMakeFiles/cmTC_95895.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-DZ3fTy/src.cxx
+5806:        FAILED: [code=1] CMakeFiles/cmTC_95895.dir/src.cxx.o 
+5807-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BLKSIZE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_95895.dir/src.cxx.o -MF CMakeFiles/cmTC_95895.dir/src.cxx.o.d -o CMakeFiles/cmTC_95895.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-DZ3fTy/src.cxx
+5808-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-DZ3fTy/src.cxx:1:
+5809-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_blksize.cpp:8:
+5810-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+5811:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+5812-           19 | #include <boost/config.hpp>
+5813-              |          ^~~~~~~~~~~~~~~~~~
+5814:        1 error generated.
+5815-        ninja: build stopped: subcommand failed.
+5816-        
+5817-      exitCode: 1
+5818-  -
+5819-    kind: "try_compile-v1"
+5820-    backtrace:
+5821-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+5822-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+5823-      - "libs/filesystem/CMakeLists.txt:37 (check_cxx_source_compiles)"
+5824-    checks:
+5825-      - "Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIM"
+5826-    directories:
+--
+5859-        
+5860-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_6d5bb
+5861-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIM -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_6d5bb.dir/src.cxx.o -MF CMakeFiles/cmTC_6d5bb.dir/src.cxx.o.d -o CMakeFiles/cmTC_6d5bb.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-mVduof/src.cxx
+5862:        FAILED: [code=1] CMakeFiles/cmTC_6d5bb.dir/src.cxx.o 
+5863-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIM -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_6d5bb.dir/src.cxx.o -MF CMakeFiles/cmTC_6d5bb.dir/src.cxx.o.d -o CMakeFiles/cmTC_6d5bb.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-mVduof/src.cxx
+5864-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-mVduof/src.cxx:1:
+5865-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_mtim.cpp:8:
+5866-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+5867:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+5868-           19 | #include <boost/config.hpp>
+5869-              |          ^~~~~~~~~~~~~~~~~~
+5870:        1 error generated.
+5871-        ninja: build stopped: subcommand failed.
+5872-        
+5873-      exitCode: 1
+5874-  -
+5875-    kind: "try_compile-v1"
+5876-    backtrace:
+5877-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+5878-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+5879-      - "libs/filesystem/CMakeLists.txt:38 (check_cxx_source_compiles)"
+5880-    checks:
+5881-      - "Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC"
+5882-    directories:
+--
+5915-        
+5916-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_51361
+5917-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_51361.dir/src.cxx.o -MF CMakeFiles/cmTC_51361.dir/src.cxx.o.d -o CMakeFiles/cmTC_51361.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cEHF5D/src.cxx
+5918:        FAILED: [code=1] CMakeFiles/cmTC_51361.dir/src.cxx.o 
+5919-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_51361.dir/src.cxx.o -MF CMakeFiles/cmTC_51361.dir/src.cxx.o.d -o CMakeFiles/cmTC_51361.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cEHF5D/src.cxx
+5920-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cEHF5D/src.cxx:1:
+5921-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_mtimensec.cpp:8:
+5922-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+5923:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+5924-           19 | #include <boost/config.hpp>
+5925-              |          ^~~~~~~~~~~~~~~~~~
+5926:        1 error generated.
+5927-        ninja: build stopped: subcommand failed.
+5928-        
+5929-      exitCode: 1
+5930-  -
+5931-    kind: "try_compile-v1"
+5932-    backtrace:
+5933-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+5934-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+5935-      - "libs/filesystem/CMakeLists.txt:39 (check_cxx_source_compiles)"
+5936-    checks:
+5937-      - "Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC"
+5938-    directories:
+--
+5971-        
+5972-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_c77fc
+5973-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_c77fc.dir/src.cxx.o -MF CMakeFiles/cmTC_c77fc.dir/src.cxx.o.d -o CMakeFiles/cmTC_c77fc.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kj3fzL/src.cxx
+5974:        FAILED: [code=1] CMakeFiles/cmTC_c77fc.dir/src.cxx.o 
+5975-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_c77fc.dir/src.cxx.o -MF CMakeFiles/cmTC_c77fc.dir/src.cxx.o.d -o CMakeFiles/cmTC_c77fc.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kj3fzL/src.cxx
+5976-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kj3fzL/src.cxx:1:
+5977-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_mtimespec.cpp:8:
+5978-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+5979:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+5980-           19 | #include <boost/config.hpp>
+5981-              |          ^~~~~~~~~~~~~~~~~~
+5982:        1 error generated.
+5983-        ninja: build stopped: subcommand failed.
+5984-        
+5985-      exitCode: 1
+5986-  -
+5987-    kind: "try_compile-v1"
+5988-    backtrace:
+5989-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+5990-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+5991-      - "libs/filesystem/CMakeLists.txt:40 (check_cxx_source_compiles)"
+5992-    checks:
+5993-      - "Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMENSEC"
+5994-    directories:
+--
+6027-        
+6028-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_0e0d9
+6029-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMENSEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_0e0d9.dir/src.cxx.o -MF CMakeFiles/cmTC_0e0d9.dir/src.cxx.o.d -o CMakeFiles/cmTC_0e0d9.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cMAcuJ/src.cxx
+6030:        FAILED: [code=1] CMakeFiles/cmTC_0e0d9.dir/src.cxx.o 
+6031-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMENSEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_0e0d9.dir/src.cxx.o -MF CMakeFiles/cmTC_0e0d9.dir/src.cxx.o.d -o CMakeFiles/cmTC_0e0d9.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cMAcuJ/src.cxx
+6032-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-cMAcuJ/src.cxx:1:
+6033-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_birthtimensec.cpp:8:
+6034-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6035:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6036-           19 | #include <boost/config.hpp>
+6037-              |          ^~~~~~~~~~~~~~~~~~
+6038:        1 error generated.
+6039-        ninja: build stopped: subcommand failed.
+6040-        
+6041-      exitCode: 1
+6042-  -
+6043-    kind: "try_compile-v1"
+6044-    backtrace:
+6045-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6046-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6047-      - "libs/filesystem/CMakeLists.txt:41 (check_cxx_source_compiles)"
+6048-    checks:
+6049-      - "Performing Test BOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMESPEC"
+6050-    directories:
+--
+6083-        
+6084-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_6b52f
+6085-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMESPEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_6b52f.dir/src.cxx.o -MF CMakeFiles/cmTC_6b52f.dir/src.cxx.o.d -o CMakeFiles/cmTC_6b52f.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kb88DR/src.cxx
+6086:        FAILED: [code=1] CMakeFiles/cmTC_6b52f.dir/src.cxx.o 
+6087-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STAT_ST_BIRTHTIMESPEC -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_6b52f.dir/src.cxx.o -MF CMakeFiles/cmTC_6b52f.dir/src.cxx.o.d -o CMakeFiles/cmTC_6b52f.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kb88DR/src.cxx
+6088-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Kb88DR/src.cxx:1:
+6089-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_stat_st_birthtimespec.cpp:8:
+6090-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6091:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6092-           19 | #include <boost/config.hpp>
+6093-              |          ^~~~~~~~~~~~~~~~~~
+6094:        1 error generated.
+6095-        ninja: build stopped: subcommand failed.
+6096-        
+6097-      exitCode: 1
+6098-  -
+6099-    kind: "try_compile-v1"
+6100-    backtrace:
+6101-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6102-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6103-      - "libs/filesystem/CMakeLists.txt:43 (check_cxx_source_compiles)"
+6104-    checks:
+6105-      - "Performing Test BOOST_FILESYSTEM_HAS_STATX"
+6106-    directories:
+--
+6139-        
+6140-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_a81e5
+6141-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STATX -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_a81e5.dir/src.cxx.o -MF CMakeFiles/cmTC_a81e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_a81e5.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nohfXi/src.cxx
+6142:        FAILED: [code=1] CMakeFiles/cmTC_a81e5.dir/src.cxx.o 
+6143-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STATX -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_a81e5.dir/src.cxx.o -MF CMakeFiles/cmTC_a81e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_a81e5.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nohfXi/src.cxx
+6144-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nohfXi/src.cxx:1:
+6145-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_statx.cpp:8:
+6146-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6147:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6148-           19 | #include <boost/config.hpp>
+6149-              |          ^~~~~~~~~~~~~~~~~~
+6150:        1 error generated.
+6151-        ninja: build stopped: subcommand failed.
+6152-        
+6153-      exitCode: 1
+6154-  -
+6155-    kind: "try_compile-v1"
+6156-    backtrace:
+6157-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6158-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6159-      - "libs/filesystem/CMakeLists.txt:45 (check_cxx_source_compiles)"
+6160-    checks:
+6161-      - "Performing Test BOOST_FILESYSTEM_HAS_STATX_SYSCALL"
+6162-    directories:
+--
+6195-        
+6196-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_777ff
+6197-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STATX_SYSCALL -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_777ff.dir/src.cxx.o -MF CMakeFiles/cmTC_777ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_777ff.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-j0zRJH/src.cxx
+6198:        FAILED: [code=1] CMakeFiles/cmTC_777ff.dir/src.cxx.o 
+6199-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_STATX_SYSCALL -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_777ff.dir/src.cxx.o -MF CMakeFiles/cmTC_777ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_777ff.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-j0zRJH/src.cxx
+6200-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-j0zRJH/src.cxx:1:
+6201-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_statx_syscall.cpp:8:
+6202-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6203:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6204-           19 | #include <boost/config.hpp>
+6205-              |          ^~~~~~~~~~~~~~~~~~
+6206:        1 error generated.
+6207-        ninja: build stopped: subcommand failed.
+6208-        
+6209-      exitCode: 1
+6210-  -
+6211-    kind: "try_compile-v1"
+6212-    backtrace:
+6213-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6214-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6215-      - "libs/filesystem/CMakeLists.txt:48 (check_cxx_source_compiles)"
+6216-    checks:
+6217-      - "Performing Test BOOST_FILESYSTEM_HAS_FDOPENDIR_NOFOLLOW"
+6218-    directories:
+--
+6251-        
+6252-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_c2825
+6253-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_FDOPENDIR_NOFOLLOW -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_c2825.dir/src.cxx.o -MF CMakeFiles/cmTC_c2825.dir/src.cxx.o.d -o CMakeFiles/cmTC_c2825.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nF2zEK/src.cxx
+6254:        FAILED: [code=1] CMakeFiles/cmTC_c2825.dir/src.cxx.o 
+6255-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_FDOPENDIR_NOFOLLOW -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_c2825.dir/src.cxx.o -MF CMakeFiles/cmTC_c2825.dir/src.cxx.o.d -o CMakeFiles/cmTC_c2825.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nF2zEK/src.cxx
+6256-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-nF2zEK/src.cxx:1:
+6257-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_fdopendir_nofollow.cpp:8:
+6258-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6259:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6260-           19 | #include <boost/config.hpp>
+6261-              |          ^~~~~~~~~~~~~~~~~~
+6262:        1 error generated.
+6263-        ninja: build stopped: subcommand failed.
+6264-        
+6265-      exitCode: 1
+6266-  -
+6267-    kind: "try_compile-v1"
+6268-    backtrace:
+6269-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6270-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6271-      - "libs/filesystem/CMakeLists.txt:49 (check_cxx_source_compiles)"
+6272-    checks:
+6273-      - "Performing Test BOOST_FILESYSTEM_HAS_DIRENT_D_TYPE"
+6274-    directories:
+--
+6307-        
+6308-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_f1157
+6309-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_DIRENT_D_TYPE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_f1157.dir/src.cxx.o -MF CMakeFiles/cmTC_f1157.dir/src.cxx.o.d -o CMakeFiles/cmTC_f1157.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-xNzcnz/src.cxx
+6310:        FAILED: [code=1] CMakeFiles/cmTC_f1157.dir/src.cxx.o 
+6311-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_DIRENT_D_TYPE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_f1157.dir/src.cxx.o -MF CMakeFiles/cmTC_f1157.dir/src.cxx.o.d -o CMakeFiles/cmTC_f1157.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-xNzcnz/src.cxx
+6312-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-xNzcnz/src.cxx:1:
+6313-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_dirent_d_type.cpp:8:
+6314-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6315:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6316-           19 | #include <boost/config.hpp>
+6317-              |          ^~~~~~~~~~~~~~~~~~
+6318:        1 error generated.
+6319-        ninja: build stopped: subcommand failed.
+6320-        
+6321-      exitCode: 1
+6322-  -
+6323-    kind: "try_compile-v1"
+6324-    backtrace:
+6325-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6326-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6327-      - "libs/filesystem/CMakeLists.txt:50 (check_cxx_source_compiles)"
+6328-    checks:
+6329-      - "Performing Test BOOST_FILESYSTEM_HAS_POSIX_AT_APIS"
+6330-    directories:
+--
+6363-        
+6364-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_650a0
+6365-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_POSIX_AT_APIS -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_650a0.dir/src.cxx.o -MF CMakeFiles/cmTC_650a0.dir/src.cxx.o.d -o CMakeFiles/cmTC_650a0.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-LNulhI/src.cxx
+6366:        FAILED: [code=1] CMakeFiles/cmTC_650a0.dir/src.cxx.o 
+6367-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_POSIX_AT_APIS -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_650a0.dir/src.cxx.o -MF CMakeFiles/cmTC_650a0.dir/src.cxx.o.d -o CMakeFiles/cmTC_650a0.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-LNulhI/src.cxx
+6368-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-LNulhI/src.cxx:1:
+6369-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_posix_at_apis.cpp:8:
+6370-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6371:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6372-           19 | #include <boost/config.hpp>
+6373-              |          ^~~~~~~~~~~~~~~~~~
+6374:        1 error generated.
+6375-        ninja: build stopped: subcommand failed.
+6376-        
+6377-      exitCode: 1
+6378-  -
+6379-    kind: "try_compile-v1"
+6380-    backtrace:
+6381-      - "/usr/local/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake:84 (try_compile)"
+6382-      - "/usr/local/share/cmake-4.5/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+6383-      - "libs/filesystem/CMakeLists.txt:51 (check_cxx_source_compiles)"
+6384-    checks:
+6385-      - "Performing Test BOOST_FILESYSTEM_HAS_FALLOCATE"
+6386-    directories:
+--
+6419-        
+6420-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_88fd7
+6421-        [1/2] /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_FALLOCATE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_88fd7.dir/src.cxx.o -MF CMakeFiles/cmTC_88fd7.dir/src.cxx.o.d -o CMakeFiles/cmTC_88fd7.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Hy984w/src.cxx
+6422:        FAILED: [code=1] CMakeFiles/cmTC_88fd7.dir/src.cxx.o 
+6423-        /home/runner/webbuild/emsdk/upstream/emscripten/em++ -DBOOST_FILESYSTEM_HAS_FALLOCATE -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src -I/home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include -fexceptions -sSUPPORT_LONGJMP=emscripten -MD -MT CMakeFiles/cmTC_88fd7.dir/src.cxx.o -MF CMakeFiles/cmTC_88fd7.dir/src.cxx.o.d -o CMakeFiles/cmTC_88fd7.dir/src.cxx.o -c /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Hy984w/src.cxx
+6424-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/wasm32-emscripten-wesnoth-asyncify-rel/CMakeFiles/CMakeScratch/TryCompile-Hy984w/src.cxx:1:
+6425-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/config/has_fallocate.cpp:8:
+6426-        In file included from /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/src/platform_config.hpp:84:
+6427:        /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean/libs/filesystem/include/boost/filesystem/config.hpp:19:10: fatal error: 'boost/config.hpp' file not found
+6428-           19 | #include <boost/config.hpp>
+6429-              |          ^~~~~~~~~~~~~~~~~~
+6430:        1 error generated.
+6431-        ninja: build stopped: subcommand failed.
+6432-        
+6433-      exitCode: 1
+6434-...

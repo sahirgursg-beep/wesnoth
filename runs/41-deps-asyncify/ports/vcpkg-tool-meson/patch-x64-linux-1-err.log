@@ -1,0 +1,6 @@
+Checking patch mesonbuild/dependencies/python.py...
+Hunk #1 succeeded at 236 (offset 4 lines).
+Hunk #2 succeeded at 256 (offset 4 lines).
+Hunk #3 succeeded at 373 (offset 19 lines).
+Hunk #4 succeeded at 443 (offset 22 lines).
+Applied patch mesonbuild/dependencies/python.py cleanly.

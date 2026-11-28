@@ -1,0 +1,25 @@
+-- Found Python version '3.14.4 at /usr/bin/python3'
+-- Using meson: /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-3db708/meson.py
+Downloading https://gitlab.freedesktop.org/cairo/cairo/-/archive/1.18.4/cairo-1.18.4.tar.gz -> cairo-cairo-1.18.4.tar.gz
+Successfully downloaded cairo-cairo-1.18.4.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/cairo-cairo-1.18.4.tar.gz
+-- Applying patch msvc-convenience.diff
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/cairo/src/1.18.4-6aebacea82.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify-rel
+-- Getting CMake variables for wasm32-emscripten-wesnoth-asyncify
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/cairo/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth-asyncify.cmake.log
+-- Configuring wasm32-emscripten-wesnoth-asyncify-rel done
+-- Package wasm32-emscripten-wesnoth-asyncify-rel
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /usr/local/bin/ninja install -v
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/cairo/wasm32-emscripten-wesnoth-asyncify-rel
+    Error code: 1
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/cairo/package-wasm32-emscripten-wesnoth-asyncify-rel-out.log
+
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-tool-meson/vcpkg_install_meson.cmake:33 (vcpkg_execute_required_process)
+  ports/cairo/portfile.cmake:61 (vcpkg_install_meson)
+  scripts/ports.cmake:209 (include)
+
+

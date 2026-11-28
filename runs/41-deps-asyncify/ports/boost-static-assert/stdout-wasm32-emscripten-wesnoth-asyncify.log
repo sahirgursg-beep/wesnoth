@@ -1,0 +1,24 @@
+Downloading https://github.com/boostorg/static_assert/archive/boost-1.92.0.tar.gz -> boostorg-static_assert-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-static_assert-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-static_assert-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-static-assert/src/ost-1.92.0-04f3234f05.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+CMake Warning at installed/x64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:346 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-boost/boost-install.cmake:54 (vcpkg_cmake_configure)
+  ports/boost-static-assert/portfile.cmake:12 (boost_configure_and_install)
+  scripts/ports.cmake:209 (include)
+
+
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/share/boost-static-assert/copyright
+-- Performing post-build validation

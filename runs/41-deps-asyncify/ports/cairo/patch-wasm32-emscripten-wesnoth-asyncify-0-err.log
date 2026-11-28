@@ -1,0 +1,3 @@
+Checking patch src/win32/cairo-win32-private.h...
+Hunk #1 succeeded at 46 (offset -7 lines).
+Applied patch src/win32/cairo-win32-private.h cleanly.

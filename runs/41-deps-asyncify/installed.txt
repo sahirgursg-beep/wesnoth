@@ -1,0 +1,164 @@
+boost-algorithm:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost algorithm module
+boost-align:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost align module
+boost-any:wasm32-emscripten-wesnoth-asyncify      1.92.0              Boost any module
+boost-array:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost array module
+boost-asio:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost asio module
+boost-asio[deadline-timer]:wasm32-emscripten-we...                    Build with deadline_timer support
+boost-assert:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost assert module
+boost-atomic:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost atomic module
+boost-bimap:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost bimap module
+boost-bind:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost bind module
+boost-charconv:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost charconv module
+boost-chrono:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost chrono module
+boost-circular-buffer:wasm32-emscripten-wesnoth...1.92.0              Boost circular_buffer module
+boost-cmake:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost cmake module
+boost-compat:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost compat module
+boost-concept-check:wasm32-emscripten-wesnoth-a...1.92.0              Boost concept_check module
+boost-config:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost config module
+boost-container-hash:wasm32-emscripten-wesnoth-...1.92.0              Boost container_hash module
+boost-container:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost container module
+boost-conversion:wasm32-emscripten-wesnoth-asyn...1.92.0              Boost conversion module
+boost-core:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost core module
+boost-date-time:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost date_time module
+boost-describe:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost describe module
+boost-detail:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost detail module
+boost-dynamic-bitset:wasm32-emscripten-wesnoth-...1.92.0              Boost dynamic_bitset module
+boost-endian:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost endian module
+boost-exception:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost exception module
+boost-filesystem:wasm32-emscripten-wesnoth-asyn...1.92.0              Boost filesystem module
+boost-foreach:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost foreach module
+boost-format:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost format module
+boost-function-types:wasm32-emscripten-wesnoth-...1.92.0              Boost function_types module
+boost-function:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost function module
+boost-functional:wasm32-emscripten-wesnoth-asyn...1.92.0              Boost functional module
+boost-fusion:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost fusion module
+boost-graph:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost graph module
+boost-headers:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost headers module
+boost-integer:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost integer module
+boost-intrusive:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost intrusive module
+boost-io:wasm32-emscripten-wesnoth-asyncify       1.92.0              Boost io module
+boost-iostreams:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost iostreams module
+boost-iostreams[bzip2]:wasm32-emscripten-wesnot...                    Support bzip2 filters
+boost-iostreams[lzma]:wasm32-emscripten-wesnoth...                    Support LZMA/xz filters
+boost-iostreams[zlib]:wasm32-emscripten-wesnoth...                    Support zlib filters
+boost-iostreams[zstd]:wasm32-emscripten-wesnoth...                    Support zstd filters
+boost-iterator:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost iterator module
+boost-lambda:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost lambda module
+boost-lexical-cast:wasm32-emscripten-wesnoth-as...1.92.0              Boost lexical_cast module
+boost-locale:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost locale module
+boost-locale[icu]:wasm32-emscripten-wesnoth-asy...                    ICU backend for Boost.Locale
+boost-logic:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost logic module
+boost-math:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost math module
+boost-move:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost move module
+boost-mp11:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost mp11 module
+boost-mpl:wasm32-emscripten-wesnoth-asyncify      1.92.0              Boost mpl module
+boost-multi-array:wasm32-emscripten-wesnoth-asy...1.92.0              Boost multi_array module
+boost-multi-index:wasm32-emscripten-wesnoth-asy...1.92.0              Boost multi_index module
+boost-multiprecision:wasm32-emscripten-wesnoth-...1.92.0              Boost multiprecision module
+boost-numeric-conversion:wasm32-emscripten-wesn...1.92.0              Boost numeric_conversion module
+boost-optional:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost optional module
+boost-parameter:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost parameter module
+boost-phoenix:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost phoenix module
+boost-pool:wasm32-emscripten-wesnoth-asyncify     1.92.0              Boost pool module
+boost-predef:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost predef module
+boost-preprocessor:wasm32-emscripten-wesnoth-as...1.92.0              Boost preprocessor module
+boost-process:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost process module
+boost-program-options:wasm32-emscripten-wesnoth...1.92.0              Boost program_options module
+boost-property-map:wasm32-emscripten-wesnoth-as...1.92.0              Boost property_map module
+boost-property-tree:wasm32-emscripten-wesnoth-a...1.92.0              Boost property_tree module
+boost-proto:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost proto module
+boost-ptr-container:wasm32-emscripten-wesnoth-a...1.92.0              Boost ptr_container module
+boost-random:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost random module
+boost-range:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost range module
+boost-ratio:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost ratio module
+boost-regex:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost regex module
+boost-regex[icu]:wasm32-emscripten-wesnoth-asyn...                    ICU backend for Boost.Regex
+boost-scope-exit:wasm32-emscripten-wesnoth-asyn...1.92.0              Boost scope_exit module
+boost-scope:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost scope module
+boost-serialization:wasm32-emscripten-wesnoth-a...1.92.0              Boost serialization module
+boost-smart-ptr:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost smart_ptr module
+boost-spirit:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost spirit module
+boost-static-assert:wasm32-emscripten-wesnoth-a...1.92.0              Boost static_assert module
+boost-system:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost system module
+boost-thread:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost thread module
+boost-throw-exception:wasm32-emscripten-wesnoth...1.92.0              Boost throw_exception module
+boost-tokenizer:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost tokenizer module
+boost-tti:wasm32-emscripten-wesnoth-asyncify      1.92.0              Boost tti module
+boost-tuple:wasm32-emscripten-wesnoth-asyncify    1.92.0              Boost tuple module
+boost-type-index:wasm32-emscripten-wesnoth-asyn...1.92.0              Boost type_index module
+boost-type-traits:wasm32-emscripten-wesnoth-asy...1.92.0              Boost type_traits module
+boost-typeof:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost typeof module
+boost-uninstall:wasm32-emscripten-wesnoth-asyncify1.92.0              Internal vcpkg port used to uninstall Boost
+boost-unordered:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost unordered module
+boost-utility:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost utility module
+boost-variant2:wasm32-emscripten-wesnoth-asyncify 1.92.0              Boost variant2 module
+boost-variant:wasm32-emscripten-wesnoth-asyncify  1.92.0              Boost variant module
+boost-winapi:wasm32-emscripten-wesnoth-asyncify   1.92.0              Boost winapi module
+boost-xpressive:wasm32-emscripten-wesnoth-asyncify1.92.0              Boost xpressive module
+brotli:wasm32-emscripten-wesnoth-asyncify         1.2.0               a generic-purpose lossless compression algorithm...
+bzip2:wasm32-emscripten-wesnoth-asyncify          1.0.8#6             bzip2 is a freely available, patent free, high-q...
+bzip2[tool]:wasm32-emscripten-wesnoth-asyncify                        Builds bzip2 executable
+curl:wasm32-emscripten-wesnoth-asyncify           8.22.0              A library for transferring data with URLs
+curl[openssl]:wasm32-emscripten-wesnoth-asyncify                      TLS support (OpenSSL)
+dirent:wasm32-emscripten-wesnoth-asyncify         1.26                Dirent is a C/C++ programming interface that all...
+dirent:x64-linux                                  1.26                Dirent is a C/C++ programming interface that all...
+expat:wasm32-emscripten-wesnoth-asyncify          2.8.3               XML parser library written in C
+fontconfig:wasm32-emscripten-wesnoth-asyncify     2.17.1#2            Library for configuring and customizing font acc...
+fontconfig[iconv]:wasm32-emscripten-wesnoth-asy...                    Iconv support
+freetype:wasm32-emscripten-wesnoth-asyncify       2.14.3              A library to render fonts.
+freetype[brotli]:wasm32-emscripten-wesnoth-asyn...                    Support decompression of WOFF2 streams
+freetype[bzip2]:wasm32-emscripten-wesnoth-asyncify                    Support bzip2 compressed fonts.
+freetype[png]:wasm32-emscripten-wesnoth-asyncify                      Support PNG compressed OpenType embedded bitmaps.
+freetype[zlib]:wasm32-emscripten-wesnoth-asyncify                     Use zlib instead of internal library for DEFLATE
+fribidi:wasm32-emscripten-wesnoth-asyncify        1.0.16              GNU FriBidi is an implementation of the Unicode ...
+fribidi:x64-linux                                 1.0.16              GNU FriBidi is an implementation of the Unicode ...
+gettext-libintl:wasm32-emscripten-wesnoth-asyncify0.22.5#4            The libintl C library from GNU gettext-runtime.
+gettext-libintl:x64-linux                         0.22.5#4            The libintl C library from GNU gettext-runtime.
+gettext:x64-linux                                 0.22.5#4            A GNU framework to help produce multi-lingual me...
+gettext[tools]:x64-linux                                              Build gettext tools
+glib:wasm32-emscripten-wesnoth-asyncify           2.88.3              Portable, general-purpose utility library.
+glib:x64-linux                                    2.88.3              Portable, general-purpose utility library.
+gperf:x64-linux                                   3.3                 GNU perfect hash function generator
+harfbuzz:wasm32-emscripten-wesnoth-asyncify       14.4.0              HarfBuzz OpenType text shaping engine
+harfbuzz[freetype]:wasm32-emscripten-wesnoth-as...                    Enable FreeType support
+icu:wasm32-emscripten-wesnoth-asyncify            78.3#2              Mature and widely used Unicode and localization ...
+icu:x64-linux                                     78.3#2              Mature and widely used Unicode and localization ...
+icu[tools]:x64-linux                                                  Build tools
+libffi:wasm32-emscripten-wesnoth-asyncify         3.8.0               Portable, high level programming interface to va...
+libffi:x64-linux                                  3.8.0               Portable, high level programming interface to va...
+libiconv:wasm32-emscripten-wesnoth-asyncify       1.19                iconv() text conversion.
+libiconv:x64-linux                                1.19                iconv() text conversion.
+libjpeg-turbo:wasm32-emscripten-wesnoth-asyncify  3.2.0               libjpeg-turbo is a JPEG image codec that uses SI...
+liblzma:wasm32-emscripten-wesnoth-asyncify        5.8.3               Compression library with an API similar to that ...
+libogg:wasm32-emscripten-wesnoth-asyncify         1.3.6#1             Ogg is a multimedia container format, and the na...
+libpng:wasm32-emscripten-wesnoth-asyncify         1.6.58              libpng is a library implementing an interface fo...
+libuuid:wasm32-emscripten-wesnoth-asyncify        1.0.3#17            Universally unique id library
+libvorbis:wasm32-emscripten-wesnoth-asyncify      1.3.7#4             Ogg Vorbis is a fully open, non-proprietary, pat...
+libwebp:wasm32-emscripten-wesnoth-asyncify        1.6.0#3             WebP codec: library to encode and decode images ...
+libwebp[libwebpmux]:wasm32-emscripten-wesnoth-a...                    Build the libwebpmux library
+libwebp[nearlossless]:wasm32-emscripten-wesnoth...                    Enable near-lossless encoding
+openssl:wasm32-emscripten-wesnoth-asyncify        3.6.4               OpenSSL is an open source project that provides ...
+pcre2:wasm32-emscripten-wesnoth-asyncify          10.47#1             Regular Expression pattern matching using the sa...
+pcre2:x64-linux                                   10.47#1             Regular Expression pattern matching using the sa...
+pcre2[jit]:x64-linux                                                  Enable support for Just-In-Time compiling regex ...
+pcre2[platform-default-features]:wasm32-emscrip...                    Enable default features
+pcre2[platform-default-features]:x64-linux                            Enable default features
+pixman:wasm32-emscripten-wesnoth-asyncify         0.46.4#1            Pixman is a low-level software library for pixel...
+pthread:wasm32-emscripten-wesnoth-asyncify        3.0.0#2             empty package, linking to other port
+pthreads:wasm32-emscripten-wesnoth-asyncify       3.0.0#14            Meta-package that provides PThreads4W on Windows...
+sdl3-image:wasm32-emscripten-wesnoth-asyncify     3.4.4#1             SDL_image is an image file loading library. It l...
+sdl3-image[jpeg]:wasm32-emscripten-wesnoth-asyn...                    Support for JPEG image format
+sdl3-image[png]:wasm32-emscripten-wesnoth-asyncify                    Support for PNG image format
+sdl3-image[webp]:wasm32-emscripten-wesnoth-asyn...                    Support for WEBP image format.
+sdl3-mixer:wasm32-emscripten-wesnoth-asyncify     3.2.4               An audio mixer that supports various file format...
+sdl3-mixer[libvorbis]:wasm32-emscripten-wesnoth...                    Use libvorbis to play Vorbis audio format.
+sdl3:wasm32-emscripten-wesnoth-asyncify           3.4.16              Simple DirectMedia Layer is a cross-platform dev...
+vcpkg-boost:x64-linux                             2026-08-21          
+vcpkg-cmake-config:x64-linux                      2026-07-21          
+vcpkg-cmake-get-vars:x64-linux                    2025-05-29          
+vcpkg-cmake:x64-linux                             2025-08-07          
+vcpkg-make:x64-linux                              2026-07-09          
+vcpkg-tool-meson:x64-linux                        1.9.0#10            Meson build system
+zlib:wasm32-emscripten-wesnoth-asyncify           1.3.2#2             A compression library
+zlib:x64-linux                                    1.3.2#2             A compression library
+zstd:wasm32-emscripten-wesnoth-asyncify           1.5.7               Zstandard - Fast real-time compression algorithm

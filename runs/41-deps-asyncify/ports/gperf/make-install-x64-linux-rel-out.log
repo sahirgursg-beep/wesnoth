@@ -1,0 +1,40 @@
+Makefile:44: update target 'install' due to: target does not exist
+cd lib; /usr/bin/make install
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+Makefile:2521: update target 'install' due to: target is .PHONY
+/usr/bin/make  install-am
+make[2]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+Makefile:1614: update target 'config.h' due to: stamp-h1
+test -f config.h || rm -f stamp-h1
+test -f config.h || /usr/bin/make  stamp-h1
+Makefile:2528: update target 'install-am' due to: target is .PHONY
+/usr/bin/make  install-exec-am install-data-am
+make[3]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+make[2]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/lib'
+cd src; /usr/bin/make install
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/src'
+Makefile:138: update target 'install' due to: target does not exist
+/bin/sh .././../src/gperf-3-b814f52c10.clean/src/../build-aux/mkinstalldirs /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gperf
+mkdir -p -- /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gperf
+/usr/bin/install -c gperf /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/tools/gperf/gperf
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/src'
+cd tests; /usr/bin/make install
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/tests'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/tests'
+cd doc; /usr/bin/make install
+make[1]: Entering directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/doc'
+Makefile:124: update target 'install' due to: target does not exist
+/bin/sh .././../src/gperf-3-b814f52c10.clean/doc/../build-aux/mkinstalldirs /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/info
+mkdir -p -- /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/info
+/usr/bin/install -c -m 644 .././../src/gperf-3-b814f52c10.clean/doc/gperf.info /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/info/gperf.info
+/bin/sh .././../src/gperf-3-b814f52c10.clean/doc/../build-aux/mkinstalldirs /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/man1
+mkdir -p -- /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/man1
+/usr/bin/install -c -m 644 .././../src/gperf-3-b814f52c10.clean/doc/gperf.1 /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/man1/gperf.1
+/bin/sh .././../src/gperf-3-b814f52c10.clean/doc/../build-aux/mkinstalldirs /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf
+/usr/bin/install -c -m 644 .././../src/gperf-3-b814f52c10.clean/doc/gperf.html /home/runner/webbuild/vcpkg/packages/gperf_x64-linux/home/runner/webbuild/vcpkg/installed/x64-linux/share/gperf/gperf.html
+make[1]: Leaving directory '/home/runner/webbuild/vcpkg/buildtrees/gperf/x64-linux-rel/doc'
