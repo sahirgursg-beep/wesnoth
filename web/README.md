@@ -59,7 +59,11 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 
 - [x] dependencies build for wasm32
 - [x] game client compiles
-- [ ] game starts and shows the main menu
-- [ ] tutorial is playable
+- [x] published on GitHub Pages
+- [x] game starts and shows the main menu
+- [x] a campaign scenario loads and responds to input (A Tale of Two Brothers)
+- [ ] canvas follows the browser window size
+- [ ] translations (Turkish first), music, more campaigns
+- [ ] smaller download (lazy data loading)
+- [ ] browsers without JSPI (Asyncify build)
 - [ ] saves persist across reloads
-- [ ] published on GitHub Pages
