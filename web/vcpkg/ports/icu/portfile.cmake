@@ -32,28 +32,12 @@ if(VCPKG_TARGET_IS_EMSCRIPTEN)
         message(FATAL_ERROR "wesnoth-web: icudt*.dat or host icupkg not found (${ICU_DATA_FILE} / ${ICUPKG})")
     endif()
     list(GET ICUPKG 0 ICUPKG)
-    set(ICU_ITEMS "${CURRENT_BUILDTREES_DIR}/icudata-items.txt")
-    set(ICU_REMOVE "${CURRENT_BUILDTREES_DIR}/icudata-remove.txt")
-    vcpkg_execute_required_process(
-        COMMAND "${ICUPKG}" -l -o "${ICU_ITEMS}" "${ICU_DATA_FILE}"
-        WORKING_DIRECTORY "${CURRENT_BUILDTREES_DIR}"
-        LOGNAME "icudata-list-${TARGET_TRIPLET}"
-    )
-    vcpkg_execute_required_process(
-        COMMAND "${PYTHON3}" "${CMAKE_CURRENT_LIST_DIR}/prune-icu-data.py" "${ICU_ITEMS}"
-        WORKING_DIRECTORY "${CURRENT_BUILDTREES_DIR}"
-        LOGNAME "icudata-filter-${TARGET_TRIPLET}"
-    )
-    file(COPY_FILE "${CURRENT_BUILDTREES_DIR}/icudata-filter-${TARGET_TRIPLET}-out.log" "${ICU_REMOVE}")
     file(SIZE "${ICU_DATA_FILE}" ICU_DATA_SIZE_BEFORE)
-    set(ICU_DATA_PRUNED "${CURRENT_BUILDTREES_DIR}/icudata-pruned.dat")
-    file(REMOVE "${ICU_DATA_PRUNED}")
     vcpkg_execute_required_process(
-        COMMAND "${ICUPKG}" -r "${ICU_REMOVE}" "${ICU_DATA_FILE}" "${ICU_DATA_PRUNED}"
+        COMMAND "${PYTHON3}" "${CMAKE_CURRENT_LIST_DIR}/prune-icu-data.py" "${ICUPKG}" "${ICU_DATA_FILE}" "${CURRENT_BUILDTREES_DIR}"
         WORKING_DIRECTORY "${CURRENT_BUILDTREES_DIR}"
         LOGNAME "icudata-prune-${TARGET_TRIPLET}"
     )
-    file(RENAME "${ICU_DATA_PRUNED}" "${ICU_DATA_FILE}")
     file(SIZE "${ICU_DATA_FILE}" ICU_DATA_SIZE_AFTER)
     message(STATUS "wesnoth-web: ICU data ${ICU_DATA_SIZE_BEFORE} -> ${ICU_DATA_SIZE_AFTER} bytes")
 endif()
