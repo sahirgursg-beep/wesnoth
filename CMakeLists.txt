@@ -63,6 +63,11 @@ if(EMSCRIPTEN)
 	list(REMOVE_ITEM BOOST_REQ_COMPONENTS coroutine)
 	# The browser build is single threaded; Asio must not expect pthreads.
 	add_compile_definitions(BOOST_ASIO_DISABLE_THREADS)
+	# Native wasm exceptions and setjmp/longjmp, matching the vcpkg triplet.
+	# Set here because CMAKE_CXX_FLAGS is replaced further down; without
+	# -fwasm-exceptions, emcc silently drops every catch block.
+	add_compile_options(-fwasm-exceptions -sSUPPORT_LONGJMP=wasm)
+	add_link_options(-fwasm-exceptions -sSUPPORT_LONGJMP=wasm)
 endif()
 
 if(ENABLE_TESTS)
