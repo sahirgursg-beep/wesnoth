@@ -239,8 +239,10 @@ campaigns = json.load(open(campaign_map))
 startup = packages[:1]
 background = [p for p in packages[1:] if not p.startswith("campaign-")]
 tags = "\n".join('<script src="%s.js"></script>' % p for p in startup)
-config = "<script>window.wesnothBackgroundPackages = %s;\nwindow.wesnothCampaignPackages = %s;</script>" % (
-    json.dumps(background), json.dumps(campaigns))
+import os
+sizes = {p: os.path.getsize(os.path.join(os.path.dirname(dst), p + ".data")) for p in packages}
+config = ("<script>window.wesnothBackgroundPackages = %s;\nwindow.wesnothCampaignPackages = %s;\n"
+          "window.wesnothPackageSizes = %s;</script>") % (json.dumps(background), json.dumps(campaigns), json.dumps(sizes))
 assert "<!-- PACKAGES -->" in html and "</head>" in html
 # the list must exist before the page script runs, so it goes into <head>
 html = html.replace("</head>", config + "\n</head>", 1)

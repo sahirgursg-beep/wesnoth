@@ -109,7 +109,7 @@
     st.resolve();
     Module.wesnothDataVersion = (Module.wesnothDataVersion | 0) + 1;
     logLine("data", "unpacked " + name);
-    updateProgress(null);
+    updateProgress();
   }
 
   function backgroundDone() {
@@ -122,21 +122,34 @@
     }
   }
 
-  function percentOf(text) {
-    // file_packager status: "Downloading data... (12345/67890)"
-    const m = text && text.match(/\((\d+(?:\.\d+)?)\/(\d+)\)/);
-    return m ? Math.floor(100 * Number(m[1]) / Number(m[2])) : null;
+  // Progress in bytes of the unpacked package (GitHub Pages serves the
+  // .data files gzipped, so file_packager's own totals are the compressed
+  // sizes while its byte counts are not). Sizes come from package.sh.
+  const packageSizes = window.wesnothPackageSizes || {};
+  function packagePercent(names) {
+    let loaded = 0, total = 0;
+    for (const name of names) {
+      const size = packageSizes[name] || 1;
+      total += size;
+      if (packageState(name).done) {
+        loaded += size;
+      } else {
+        const d = Module.dataFileDownloads && Module.dataFileDownloads[name + ".data"];
+        loaded += d ? Math.min(d.loaded, size) : 0;
+      }
+    }
+    return total ? Math.min(99, Math.floor(100 * loaded / total)) : 100;
   }
 
-  function updateProgress(pct) {
+  function updateProgress() {
     const n = packages.background.length;
     const done = backgroundDone();
-    const total = n ? Math.min(100, Math.floor(((done + (done < n ? (pct || 0) / 100 : 0)) / n) * 100)) : 100;
     badgeEl.style.display = done >= n ? "none" : "block";
-    badgeEl.textContent = "Oyun verileri arka planda indiriliyor… %" + total;
+    badgeEl.textContent = "Oyun verileri arka planda indiriliyor… %" + packagePercent(packages.background);
     if (packages.waiting) {
-      barEl.style.width = (pct === null ? total : pct) + "%";
-      statusEl.textContent = packages.waiting + (pct === null ? "" : " %" + pct);
+      const pct = packagePercent(packages.needed);
+      barEl.style.width = pct + "%";
+      statusEl.textContent = packages.waiting + " %" + pct;
     }
   }
 
@@ -147,15 +160,13 @@
     printErr: (text) => { logLine("err", text); console.warn(text); },
     setStatus: (text) => {
       if (!text) { return; }
-      const pct = percentOf(text);
       if (window.wesnothStarted) {
-        updateProgress(pct);
+        updateProgress();
         return;
       }
-      if (pct !== null) {
-        barEl.style.width = pct + "%";
-        statusEl.textContent = "Oyun verileri indiriliyor… %" + pct;
-      }
+      const pct = packagePercent(["core"]);
+      barEl.style.width = pct + "%";
+      statusEl.textContent = "Oyun verileri indiriliyor… %" + pct;
     },
     wesnothDataVersion: 0,
     wesnothWaitForData: async (campaignId) => {
@@ -164,9 +175,10 @@
       if (campaignPackage) { needed.push(campaignPackage); }
       if (needed.every((n) => packageState(n).done)) { return; }
       packages.waiting = campaignPackage ? "Seferberlik verileri indiriliyor…" : "Harita için oyun verileri indiriliyor…";
+      packages.needed = needed;
       overlay.classList.add("translucent");
       overlay.style.display = "flex";
-      updateProgress(null);
+      updateProgress();
       // the campaign first, then whatever background data is still missing
       if (campaignPackage) { await loadPackage(campaignPackage); }
       await Promise.all(packages.background.map((n) => loadPackage(n)));
