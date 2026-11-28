@@ -119,6 +119,8 @@ pack core
 
 # --- background packages, in the order they are fetched
 stage terrain data/core/images/terrain data/core/images/maps data/core/images/scenery data/core/images/halo
+# already in core
+rm -f "$STAGE_DIR/terrain/data/core/images/maps/background.webp" "$STAGE_DIR/terrain/data/core/images/maps/titlescreen.webp"
 pack terrain
 
 stage units data/core/images/units data/core/images/unit_env data/core/images/attacks data/core/images/projectiles
