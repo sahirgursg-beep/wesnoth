@@ -173,8 +173,10 @@ html = open(src, encoding="utf-8").read()
 startup, background = packages[:1], packages[1:]
 tags = "\n".join('<script src="%s.js"></script>' % p for p in startup)
 config = "<script>window.wesnothBackgroundPackages = %s;</script>" % json.dumps(background)
-assert "<!-- PACKAGES -->" in html
-open(dst, "w", encoding="utf-8").write(html.replace("<!-- PACKAGES -->", config + "\n" + tags))
+assert "<!-- PACKAGES -->" in html and "</head>" in html
+# the list must exist before the page script runs, so it goes into <head>
+html = html.replace("</head>", config + "\n</head>", 1)
+open(dst, "w", encoding="utf-8").write(html.replace("<!-- PACKAGES -->", tags))
 EOF
 cp "$REPO_DIR/COPYING" "$SITE_DIR/COPYING.txt"
 touch "$SITE_DIR/.nojekyll"
