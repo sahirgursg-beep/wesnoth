@@ -1,0 +1,24 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-functional/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-functional/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/identity.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/factory.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/forward_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function/config.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function/detail/function_type.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/overloaded_function/detail/base.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/lightweight_forward_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/value_factory.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/include/boost/functional.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_functional-1.92.0/boost_functional-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_functional-1.92.0/boost_functional-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-functional_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_functional-1.92.0/boost_functional-config-version.cmake
+

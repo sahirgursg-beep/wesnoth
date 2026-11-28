@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/serialization/archive/boost-1.92.0.tar.gz -> boostorg-serialization-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-serialization-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-serialization-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-serialization/src/ost-1.92.0-e4bbea7e9e.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-serialization_wasm32-emscripten-wesnoth-asyncify/share/boost-serialization/copyright
+-- Performing post-build validation

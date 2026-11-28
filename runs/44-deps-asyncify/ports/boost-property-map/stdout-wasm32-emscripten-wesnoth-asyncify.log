@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/property_map/archive/boost-1.92.0.tar.gz -> boostorg-property_map-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-property_map-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-property_map-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-property-map/src/ost-1.92.0-70e8ecdda8.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-property-map_wasm32-emscripten-wesnoth-asyncify/share/boost-property-map/copyright
+-- Performing post-build validation

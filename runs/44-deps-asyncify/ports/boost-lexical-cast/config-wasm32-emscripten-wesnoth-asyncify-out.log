@@ -1,0 +1,22 @@
+[1/1] "/usr/local/bin/cmake" -E chdir ".." "/usr/local/bin/cmake" "/home/runner/webbuild/vcpkg/buildtrees/boost-lexical-cast/src/ost-1.92.0-58e700ee8a.clean" "-G" "Ninja" "-DCMAKE_BUILD_TYPE=Release" "-DCMAKE_INSTALL_PREFIX=/home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify" "-DFETCHCONTENT_FULLY_DISCONNECTED=ON" "-DBOOST_INCLUDE_LIBRARIES=lexical_cast" "-DBOOST_RUNTIME_LINK=dynamic" "-DBOOST_INSTALL_INCLUDE_SUBDIR=" "-DCMAKE_MSVC_DEBUG_INFORMATION_FORMAT=" "-DCMAKE_MAKE_PROGRAM=/usr/local/bin/ninja" "-DCMAKE_SYSTEM_NAME=Emscripten" "-DBUILD_SHARED_LIBS=OFF" "-DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/toolchains/emscripten.cmake" "-DVCPKG_TARGET_TRIPLET=wasm32-emscripten-wesnoth-asyncify" "-DVCPKG_SET_CHARSET_FLAG=ON" "-DVCPKG_PLATFORM_TOOLSET=external" "-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON" "-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=ON" "-DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=TRUE" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DVCPKG_APPLOCAL_DEPS=OFF" "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake" "-DCMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION=ON" "-DVCPKG_CXX_FLAGS=-fexceptions -sSUPPORT_LONGJMP=emscripten" "-DVCPKG_CXX_FLAGS_RELEASE=" "-DVCPKG_CXX_FLAGS_DEBUG=" "-DVCPKG_C_FLAGS=-sSUPPORT_LONGJMP=emscripten" "-DVCPKG_C_FLAGS_RELEASE=" "-DVCPKG_C_FLAGS_DEBUG=" "-DVCPKG_CRT_LINKAGE=dynamic" "-DVCPKG_LINKER_FLAGS=-fexceptions -sSUPPORT_LONGJMP=emscripten -sDEFAULT_TO_CXX" "-DVCPKG_LINKER_FLAGS_RELEASE=" "-DVCPKG_LINKER_FLAGS_DEBUG=" "-DVCPKG_TARGET_ARCHITECTURE=wasm32" "-DCMAKE_INSTALL_LIBDIR:STRING=lib" "-DCMAKE_INSTALL_BINDIR:STRING=bin" "-D_VCPKG_ROOT_DIR=/home/runner/webbuild/vcpkg" "-D_VCPKG_INSTALLED_DIR=/home/runner/webbuild/vcpkg/installed" "-DVCPKG_MANIFEST_INSTALL=OFF"
+-- Boost: using system layout: include, bin, lib, lib/cmake, share
+-- Boost: using CMake 4.5.1
+-- Boost: Release build, static libraries, MPI OFF, Python OFF, testing OFF
+-- Boost: libraries included: lexical_cast
+-- boost required: configcontainercorethrow_exception
+-- boost optional: 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+CMake Warning (unused-cli):
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_FULLY_DISCONNECTED
+    VCPKG_PLATFORM_TOOLSET
+    VCPKG_SET_CHARSET_FLAG
+    _VCPKG_ROOT_DIR
+
+
+-- Build files have been written to: /home/runner/webbuild/vcpkg/buildtrees/boost-lexical-cast/wasm32-emscripten-wesnoth-asyncify-rel
