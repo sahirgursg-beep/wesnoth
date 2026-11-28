@@ -544,10 +544,11 @@ msgid ""
 "to use them next turn. For this scenario, you have only one type of unit to "
 "choose from: the Elvish Fighter."
 msgstr ""
-"Bir <i>içkale</i>de iken kale altıgenlerine sağ tıklayarak birimleri "
-"<i>Askere al</i> seçeneği ile <i>askere alabilirsiniz<i>. Yeni alınmış "
-"askerler o el bir şey yapamazlar; bir sonraki el onları kullanabilirsiniz. "
-"Bu senaryoda askere alabileceğiniz tek çeşit birim var: Elf Savaşçı."
+"Bir <i>burç</i>tayken etrafındaki kale altıgenlerine sağ tıklayıp <b>Askere "
+"Al</b>’ı seçerek birimleri <i>askere alabilirsiniz</i>. Yeni alınan "
+"askerlerin alındıkları el bir şey yapamayacağını unutmayın; onları bir "
+"sonraki el kullanabileceksiniz. Bu senaryoda seçebileceğiniz tek bir birim "
+"türü var: Elf Savaşçı."
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/00_Tutorial_part_1.cfg:785

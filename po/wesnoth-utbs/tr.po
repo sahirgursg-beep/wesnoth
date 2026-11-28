@@ -6055,8 +6055,8 @@ msgstr ""
 "Duvarları kaplayan motiflere bakarsak burası bir cücenin mezarı olmalı. Bu "
 "süslü taş tabut dışında mezar boş görünüyor. Tabutun içindeki iskelet toz "
 "haline gelmiş. Şu parlak altın kemer ve bir kaç süs eşyasından başka bir şey "
-"yok. Kemerde bir yazı var, şöyle diyor: </i>\"Düşmanlarını yendikten sonra "
-"uzun süre güçlü kalasın\"<i>. Mezar soygunculuğu iyi birşey değildir ama bu "
+"yok. Kemerde bir yazı var, şöyle diyor: <i>“Düşmanlarını yendikten sonra "
+"uzun süre güçlü kalasın.”</i> Mezar soygunculuğu iyi birşey değildir ama bu "
 "kemer sihirli görünüyor ve sahibi de onu yitirmek istemezdi herhalde."
 
 #. [option]
