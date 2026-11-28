@@ -184,7 +184,7 @@ if(ENABLE_GAME)
 			-sFORCE_FILESYSTEM=1
 			-sEXIT_RUNTIME=0
 			-sENVIRONMENT=web
-			-sEXPORTED_RUNTIME_METHODS=FS,IDBFS,callMain,addRunDependency,removeRunDependency
+			-sEXPORTED_RUNTIME_METHODS=FS,IDBFS,ENV,callMain,addRunDependency,removeRunDependency
 			-sEXPORT_EXCEPTION_HANDLING_HELPERS=1
 			-sEXCEPTION_STACK_TRACES=1
 			--profiling-funcs

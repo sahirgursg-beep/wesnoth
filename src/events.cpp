@@ -42,6 +42,7 @@
 #include <SDL3/SDL_events.h>
 
 #ifdef __EMSCRIPTEN__
+#include "picture.hpp"
 #include <chrono>
 #include <emscripten.h>
 #endif
@@ -497,6 +498,16 @@ void yield_to_browser()
 	if(now - last_yield >= std::chrono::milliseconds(12)) {
 		emscripten_sleep(0);
 		last_yield = std::chrono::steady_clock::now();
+
+		// The page bumps Module.wesnothDataVersion each time a background data
+		// package has been unpacked; images that were missing until then are
+		// cached as missing, so drop the image caches.
+		static int seen_data_version = 0;
+		const int data_version = EM_ASM_INT({ return Module.wesnothDataVersion | 0; });
+		if(data_version != seen_data_version) {
+			seen_data_version = data_version;
+			image::flush_cache();
+		}
 	}
 }
 } // namespace

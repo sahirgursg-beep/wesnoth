@@ -80,6 +80,30 @@
 #include "gui/widgets/debug.hpp"
 #endif
 
+#ifdef __EMSCRIPTEN__
+#include "picture.hpp"
+#include <emscripten.h>
+
+/**
+ * Browser build: only the data needed for the title screen is downloaded
+ * before the game starts; the rest (unit/terrain images, sounds, ...) is
+ * fetched in the background by the page. Anything that shows a map waits
+ * here until that is done (the page shows a progress overlay meanwhile).
+ */
+EM_ASYNC_JS(void, web_wait_for_game_data_js, (), {
+	if (Module.wesnothWaitForData) {
+		await Module.wesnothWaitForData();
+	}
+});
+
+static void web_wait_for_game_data()
+{
+	web_wait_for_game_data_js();
+	// Images looked up before their package arrived were cached as missing.
+	image::flush_cache();
+}
+#endif
+
 static lg::log_domain log_config("config");
 #define ERR_CONFIG LOG_STREAM(err, log_config)
 #define WRN_CONFIG LOG_STREAM(warn, log_config)
@@ -851,6 +875,9 @@ void game_launcher::start_wesnothd()
 
 bool game_launcher::play_multiplayer(mp_mode mode)
 {
+#ifdef __EMSCRIPTEN__
+	web_wait_for_game_data();
+#endif
 	game_config::set_debug(game_config::mp_debug);
 	try {
 		if(mode == mp_mode::HOST) {
@@ -996,6 +1023,9 @@ bool game_launcher::change_language()
 
 void game_launcher::launch_game(reload_mode reload)
 {
+#ifdef __EMSCRIPTEN__
+	web_wait_for_game_data();
+#endif
 	assert(!load_data_);
 	if(play_replay_) {
 		play_replay();
@@ -1045,6 +1075,9 @@ void game_launcher::play_replay()
 
 editor::EXIT_STATUS game_launcher::start_editor(const std::string& filename)
 {
+#ifdef __EMSCRIPTEN__
+	web_wait_for_game_data();
+#endif
 	editor::EXIT_STATUS res = editor::EXIT_STATUS::EXIT_NORMAL;
 	while(true) {
 		config_manager_.load_game_config_for_editor();

@@ -22,7 +22,7 @@ WebAssembly with Emscripten, so the game runs in a web browser.
 | Threads | none; places that use `std::thread`/`std::async` (loading screen, spritesheet generator) get a single-threaded path |
 | Blocking main loop | JSPI (Asyncify as fallback for browsers without JSPI) |
 | Saves and preferences | IDBFS (IndexedDB) |
-| Game data | packaged separately and loaded on demand; size reduction is a later step |
+| Game data | `core` package (config, UI, fonts, Turkish translation) before start; terrain, units, portraits, story art and sounds download in the background; the game waits for them before showing a map |
 | Network | disabled for the single-player release |
 
 ## CI
@@ -63,7 +63,8 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 - [x] game starts and shows the main menu
 - [x] a campaign scenario loads and responds to input (A Tale of Two Brothers)
 - [ ] canvas follows the browser window size
-- [ ] translations (Turkish first), music, more campaigns
-- [ ] smaller download (lazy data loading)
+- [x] Turkish translation (default language; `?lang=en` for English)
+- [x] faster start: only the core package before the title screen
+- [ ] music, more campaigns
 - [ ] browsers without JSPI (Asyncify build)
 - [ ] saves persist across reloads
