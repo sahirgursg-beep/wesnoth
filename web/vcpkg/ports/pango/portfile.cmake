@@ -10,6 +10,7 @@ vcpkg_extract_source_archive(SOURCE_PATH
     ARCHIVE "${SOURCE_ARCHIVE}"
     PATCHES
         relax-gi-requirement.diff
+        emscripten-fnptr.patch # wesnoth-web: exact function signatures (wasm)
 )
 
 if("introspection" IN_LIST FEATURES)

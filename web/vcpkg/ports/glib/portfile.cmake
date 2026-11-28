@@ -19,6 +19,7 @@ vcpkg_extract_source_archive(SOURCE_PATH
         use-libiconv-on-windows.patch
         libintl.patch
         emscripten.patch # wesnoth-web: Emscripten support
+        emscripten-fnptr.patch # wesnoth-web: exact function signatures (wasm)
 )
 
 set(LANGUAGES C CXX)

@@ -1,0 +1,256 @@
+diff --git a/pango/fonts.c b/pango/fonts.c
+index 1833ef9..ab3ef3d 100644
+--- a/pango/fonts.c
++++ b/pango/fonts.c
+@@ -2823,7 +2823,8 @@ pango_font_family_get_item (GListModel *list,
+ }
+ 
+ static void
+-pango_font_family_list_model_init (GListModelInterface *iface)
++pango_font_family_list_model_init (GListModelInterface *iface,
++                                   gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->get_item_type = pango_font_family_get_item_type;
+   iface->get_n_items = pango_font_family_get_n_items;
+diff --git a/pango/pango-context.c b/pango/pango-context.c
+index 6b5cf7d..26200bd 100644
+--- a/pango/pango-context.c
++++ b/pango/pango-context.c
+@@ -722,7 +722,7 @@ pango_context_get_metrics (PangoContext               *context,
+ 
+   update_metrics_from_items (metrics, language, sample_str, text_len, items);
+ 
+-  g_list_foreach (items, (GFunc)pango_item_free, NULL);
++  { GList *_wasm_l; for (_wasm_l = items; _wasm_l; _wasm_l = _wasm_l->next) pango_item_free (_wasm_l->data); }
+   g_list_free (items);
+ 
+   g_object_unref (current_fonts);
+diff --git a/pango/pango-fontmap.c b/pango/pango-fontmap.c
+index 89d627f..ec38435 100644
+--- a/pango/pango-fontmap.c
++++ b/pango/pango-fontmap.c
+@@ -52,7 +52,8 @@ static gboolean pango_font_map_real_add_font_file (PangoFontMap  *fontmap,
+ 
+ static guint pango_font_map_get_n_items (GListModel *list);
+ 
+-static void pango_font_map_list_model_init (GListModelInterface *iface);
++static void pango_font_map_list_model_init (GListModelInterface *iface,
++                                gpointer iface_data G_GNUC_UNUSED);
+ 
+ typedef struct {
+   guint n_families;
+@@ -667,7 +668,8 @@ pango_font_map_get_item (GListModel *list,
+ }
+ 
+ static void
+-pango_font_map_list_model_init (GListModelInterface *iface)
++pango_font_map_list_model_init (GListModelInterface *iface,
++                                gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->get_item_type = pango_font_map_get_item_type;
+   iface->get_n_items = pango_font_map_get_n_items;
+diff --git a/pango/pango-item.c b/pango/pango-item.c
+index 6077988..e33a1e8 100644
+--- a/pango/pango-item.c
++++ b/pango/pango-item.c
+@@ -101,7 +101,7 @@ pango_item_free (PangoItem *item)
+ 
+   if (item->analysis.extra_attrs)
+     {
+-      g_slist_foreach (item->analysis.extra_attrs, (GFunc)pango_attribute_destroy, NULL);
++      { GSList *_wasm_l; for (_wasm_l = item->analysis.extra_attrs; _wasm_l; _wasm_l = _wasm_l->next) pango_attribute_destroy (_wasm_l->data); }
+       g_slist_free (item->analysis.extra_attrs);
+     }
+ 
+diff --git a/pango/pango-markup.c b/pango/pango-markup.c
+index 8ce0c7f..349f313 100644
+--- a/pango/pango-markup.c
++++ b/pango/pango-markup.c
+@@ -193,7 +193,7 @@ scale_factor (int scale_level, double base)
+ static void
+ open_tag_free (OpenTag *ot)
+ {
+-  g_slist_foreach (ot->attrs, (GFunc) pango_attribute_destroy, NULL);
++  { GSList *_wasm_l; for (_wasm_l = ot->attrs; _wasm_l; _wasm_l = _wasm_l->next) pango_attribute_destroy (_wasm_l->data); }
+   g_slist_free (ot->attrs);
+   g_slice_free (OpenTag, ot);
+ }
+diff --git a/pango/pangocairo-coretextfont.c b/pango/pangocairo-coretextfont.c
+index 8f42bd2..11ee4d4 100644
+--- a/pango/pangocairo-coretextfont.c
++++ b/pango/pangocairo-coretextfont.c
+@@ -51,7 +51,8 @@ static PangoFontMetrics  *pango_cairo_core_text_font_create_base_metrics_for_con
+                                                                                       PangoContext    *context);
+ 
+ static void
+-cairo_font_iface_init (PangoCairoFontIface *iface)
++cairo_font_iface_init (PangoCairoFontIface *iface,
++                       gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->create_font_face = pango_cairo_core_text_font_create_font_face;
+   iface->create_base_metrics_for_context = pango_cairo_core_text_font_create_base_metrics_for_context;
+diff --git a/pango/pangocairo-coretextfontmap.c b/pango/pangocairo-coretextfontmap.c
+index b37917d..e4a2131 100644
+--- a/pango/pangocairo-coretextfontmap.c
++++ b/pango/pangocairo-coretextfontmap.c
+@@ -79,7 +79,8 @@ pango_cairo_core_text_font_map_get_font_type (PangoCairoFontMap *cfontmap)
+ }
+ 
+ static void
+-cairo_font_map_iface_init (PangoCairoFontMapIface *iface)
++cairo_font_map_iface_init (PangoCairoFontMapIface *iface,
++                           gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->set_resolution = pango_cairo_core_text_font_map_set_resolution;
+   iface->get_resolution = pango_cairo_core_text_font_map_get_resolution_cairo;
+diff --git a/pango/pangocairo-fcfont.c b/pango/pangocairo-fcfont.c
+index 935b855..d20da2b 100644
+--- a/pango/pangocairo-fcfont.c
++++ b/pango/pangocairo-fcfont.c
+@@ -96,7 +96,8 @@ pango_cairo_fc_font_create_base_metrics_for_context (PangoCairoFont *cfont,
+ }
+ 
+ static void
+-cairo_font_iface_init (PangoCairoFontIface *iface)
++cairo_font_iface_init (PangoCairoFontIface *iface,
++                       gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->create_font_face = pango_cairo_fc_font_create_font_face;
+   iface->create_base_metrics_for_context = pango_cairo_fc_font_create_base_metrics_for_context;
+diff --git a/pango/pangocairo-fcfontmap.c b/pango/pangocairo-fcfontmap.c
+index d73e38c..9e63cdc 100644
+--- a/pango/pangocairo-fcfontmap.c
++++ b/pango/pangocairo-fcfontmap.c
+@@ -88,7 +88,8 @@ pango_cairo_fc_font_map_get_font_type (PangoCairoFontMap *cfontmap G_GNUC_UNUSED
+ }
+ 
+ static void
+-cairo_font_map_iface_init (PangoCairoFontMapIface *iface)
++cairo_font_map_iface_init (PangoCairoFontMapIface *iface,
++                           gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->set_resolution = pango_cairo_fc_font_map_set_resolution;
+   iface->get_resolution = pango_cairo_fc_font_map_get_resolution_cairo;
+diff --git a/pango/pangocairo-font.c b/pango/pangocairo-font.c
+index 69afd74..4eda5db 100644
+--- a/pango/pangocairo-font.c
++++ b/pango/pangocairo-font.c
+@@ -1134,7 +1134,7 @@ _pango_cairo_font_private_finalize (PangoCairoFontPrivate *cf_priv)
+     g_free (cf_priv->glyph_extents_cache);
+   cf_priv->glyph_extents_cache = NULL;
+ 
+-  g_slist_foreach (cf_priv->metrics_by_lang, (GFunc)free_metrics_info, NULL);
++  { GSList *_wasm_l; for (_wasm_l = cf_priv->metrics_by_lang; _wasm_l; _wasm_l = _wasm_l->next) free_metrics_info (_wasm_l->data); }
+   g_slist_free (cf_priv->metrics_by_lang);
+   cf_priv->metrics_by_lang = NULL;
+ }
+diff --git a/pango/pangocairo-win32font.c b/pango/pangocairo-win32font.c
+index a46419d..8356229 100644
+--- a/pango/pangocairo-win32font.c
++++ b/pango/pangocairo-win32font.c
+@@ -73,7 +73,8 @@ static PangoFontMetrics  *pango_cairo_win32_font_create_base_metrics_for_context
+ 
+ 
+ static void
+-cairo_font_iface_init (PangoCairoFontIface *iface)
++cairo_font_iface_init (PangoCairoFontIface *iface,
++                       gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->create_font_face = pango_cairo_win32_font_create_font_face;
+   iface->create_base_metrics_for_context = pango_cairo_win32_font_create_base_metrics_for_context;
+diff --git a/pango/pangocairo-win32fontmap.c b/pango/pangocairo-win32fontmap.c
+index 56e4fc7..59f00c3 100644
+--- a/pango/pangocairo-win32fontmap.c
++++ b/pango/pangocairo-win32fontmap.c
+@@ -60,7 +60,8 @@ pango_cairo_win32_font_map_get_font_type (PangoCairoFontMap *cfontmap)
+ }
+ 
+ static void
+-cairo_font_map_iface_init (PangoCairoFontMapIface *iface)
++cairo_font_map_iface_init (PangoCairoFontMapIface *iface,
++                           gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->set_resolution = pango_cairo_win32_font_map_set_resolution;
+   iface->get_resolution = pango_cairo_win32_font_map_get_resolution;
+diff --git a/pango/pangofc-font.c b/pango/pangofc-font.c
+index 6b0b42c..9b70930 100644
+--- a/pango/pangofc-font.c
++++ b/pango/pangofc-font.c
+@@ -167,7 +167,7 @@ pango_fc_font_finalize (GObject *object)
+   PangoFcFontPrivate *priv = fcfont->priv;
+   PangoFontMap *fontmap;
+ 
+-  g_slist_foreach (fcfont->metrics_by_lang, (GFunc)free_metrics_info, NULL);
++  { GSList *_wasm_l; for (_wasm_l = fcfont->metrics_by_lang; _wasm_l; _wasm_l = _wasm_l->next) free_metrics_info (_wasm_l->data); }
+   g_slist_free (fcfont->metrics_by_lang);
+ 
+   fontmap = fcfont->fontmap;
+diff --git a/pango/pangofc-fontmap.c b/pango/pangofc-fontmap.c
+index 0be5b7b..a48943e 100644
+--- a/pango/pangofc-fontmap.c
++++ b/pango/pangofc-fontmap.c
+@@ -1511,7 +1511,8 @@ pango_fc_font_map_get_item (GListModel *list,
+ }
+ 
+ static void
+-pango_fc_font_map_list_model_init (GListModelInterface *iface)
++pango_fc_font_map_list_model_init (GListModelInterface *iface,
++                                   gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->get_item_type = pango_fc_font_map_get_item_type;
+   iface->get_n_items = pango_fc_font_map_get_n_items;
+@@ -3517,7 +3518,8 @@ pango_fc_family_get_item (GListModel *list,
+ }
+ 
+ static void
+-pango_fc_family_list_model_init (GListModelInterface *iface)
++pango_fc_family_list_model_init (GListModelInterface *iface,
++                                 gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->get_item_type = pango_fc_family_get_item_type;
+   iface->get_n_items = pango_fc_family_get_n_items;
+diff --git a/pango/pangowin32-fontmap.c b/pango/pangowin32-fontmap.c
+index aef2aec..b054026 100644
+--- a/pango/pangowin32-fontmap.c
++++ b/pango/pangowin32-fontmap.c
+@@ -142,7 +142,8 @@ pango_win32_font_map_get_item (GListModel *list,
+ }
+ 
+ static void
+-pango_win32_font_map_list_model_init (GListModelInterface *iface)
++pango_win32_font_map_list_model_init (GListModelInterface *iface,
++                                      gpointer iface_data G_GNUC_UNUSED)
+ {
+   iface->get_item_type = pango_win32_font_map_get_item_type;
+   iface->get_n_items = pango_win32_font_map_get_n_items;
+@@ -633,7 +634,7 @@ pango_win32_font_map_init (PangoWin32FontMap *win32fontmap)
+ static void
+ pango_win32_font_map_fini (PangoWin32FontMap *win32fontmap)
+ {
+-  g_list_foreach (win32fontmap->freed_fonts->head, (GFunc)g_object_unref, NULL);
++  { GList *_wasm_l; for (_wasm_l = win32fontmap->freed_fonts->head; _wasm_l; _wasm_l = _wasm_l->next) g_object_unref (_wasm_l->data); }
+   g_queue_free (win32fontmap->freed_fonts);
+ 
+   pango_win32_font_cache_free (win32fontmap->font_cache);
+@@ -1484,7 +1485,7 @@ _pango_win32_fontmap_cache_remove (PangoFontMap   *fontmap,
+ static void
+ pango_win32_fontmap_cache_clear (PangoWin32FontMap *win32fontmap)
+ {
+-  g_list_foreach (win32fontmap->freed_fonts->head, (GFunc)g_object_unref, NULL);
++  { GList *_wasm_l; for (_wasm_l = win32fontmap->freed_fonts->head; _wasm_l; _wasm_l = _wasm_l->next) g_object_unref (_wasm_l->data); }
+   g_queue_free (win32fontmap->freed_fonts);
+   win32fontmap->freed_fonts = g_queue_new ();
+ }
+diff --git a/pango/pangowin32.c b/pango/pangowin32.c
+index 472e597..7982a00 100644
+--- a/pango/pangowin32.c
++++ b/pango/pangowin32.c
+@@ -879,7 +879,7 @@ pango_win32_font_finalize (GObject *object)
+   if (cache != NULL && win32font->hfont != NULL)
+     pango_win32_font_cache_unload (cache, win32font->hfont);
+ 
+-  g_slist_foreach (win32font->metrics_by_lang, (GFunc)free_metrics_info, NULL);
++  { GSList *_wasm_l; for (_wasm_l = win32font->metrics_by_lang; _wasm_l; _wasm_l = _wasm_l->next) free_metrics_info (_wasm_l->data); }
+   g_slist_free (win32font->metrics_by_lang);
+ 
+   pango_win32_font_entry_remove (win32font->win32face, PANGO_FONT (win32font));
