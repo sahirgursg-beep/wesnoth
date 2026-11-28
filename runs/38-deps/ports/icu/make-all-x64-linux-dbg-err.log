@@ -1,0 +1,8 @@
+/usr/bin/ar: creating libicudata.a
+/usr/bin/ar: creating ../lib/libicuuc.a
+/usr/bin/ar: creating ../lib/libicui18n.a
+/usr/bin/ar: creating ../lib/libicuio.a
+/usr/bin/ar: creating ../../lib/libicutu.a
+/usr/bin/ar: creating libicutest.a
+/usr/bin/ar: creating ../lib/libicudata.a
+/usr/bin/ar: creating uconvmsg/libuconvmsg.a

@@ -1,0 +1,16 @@
+18--- Configuring wasm32-emscripten-wesnoth-rel
+19--- Building/Installing wasm32-emscripten-wesnoth-rel
+20--- Making target 'all' for wasm32-emscripten-wesnoth-rel
+21:CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:134 (message):
+22-    Command failed: /usr/bin/bash -c "CC='/home/runner/webbuild/emsdk/upstream/emscripten/emcc' CXX='/home/runner/webbuild/emsdk/upstream/emscripten/em++' CC_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' CPP_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' CXX_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' NM='/home/runner/webbuild/emsdk/upstream/emscripten/emnm' RC='' WINDRES='' DLLTOOL='CMAKE_DLLTOOL-NOTFOUND' STRIP='/usr/bin/strip' OBJDUMP='/usr/bin/objdump' RANLIB='/home/runner/webbuild/emsdk/upstream/emscripten/emranlib' AR='/home/runner/webbuild/emsdk/upstream/emscripten/emar' LD='/usr/bin/ld' /usr/bin/make \"PKGDATA_OPTS=--without-assembly -O ../data/icupkg.inc\" V=1 -j 5 --trace -f Makefile all DESTDIR=/home/runner/webbuild/vcpkg/packages/icu_wasm32-emscripten-wesnoth"
+23-    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/icu/wasm32-emscripten-wesnoth-rel
+24-    See logs for more information:
+25-      /home/runner/webbuild/vcpkg/buildtrees/icu/make-all-wasm32-emscripten-wesnoth-rel-out.log
+26-      /home/runner/webbuild/vcpkg/buildtrees/icu/make-all-wasm32-emscripten-wesnoth-rel-err.log
+27-
+28-Call Stack (most recent call first):
+29-  installed/x64-linux/share/vcpkg-make/vcpkg_make.cmake:68 (vcpkg_execute_build_process)
+30-  installed/x64-linux/share/vcpkg-make/vcpkg_make_install.cmake:110 (vcpkg_run_shell_as_build)
+31-  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu/portfile.cmake:97 (vcpkg_make_install)
+32-  scripts/ports.cmake:209 (include)
+33-

@@ -1,0 +1,241 @@
+83-InstalledDir: /home/runner/webbuild/emsdk/upstream/bin
+84-configure:3486: $? = 0
+85-configure:3475: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -V >&5
+86:emcc: error: no input files
+87-configure:3486: $? = 1
+88-configure:3475: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -qversion >&5
+89:emcc: error: no input files
+90-configure:3486: $? = 1
+91-configure:3475: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -version >&5
+92:emcc: error: no input files
+93-configure:3486: $? = 1
+94-configure:3506: checking whether the C compiler works
+95-configure:3528: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -fwasm-exceptions -sSUPPORT_LONGJMP=wasm conftest.c  >&5
+96-configure:3532: $? = 0
+97-configure:3583: result: yes
+98-configure:3587: checking for C compiler default output file name
+99-configure:3589: result: a.out
+100-configure:3595: checking for suffix of executables
+101-configure:3602: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -o conftest -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  -fwasm-exceptions -sSUPPORT_LONGJMP=wasm conftest.c  >&5
+102-configure:3606: $? = 0
+103-configure:3630: result: 
+104-configure:3654: checking whether we are cross compiling
+--
+135-InstalledDir: /home/runner/webbuild/emsdk/upstream/bin
+136-configure:4186: $? = 0
+137-configure:4175: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -V >&5
+138:em++: error: no input files
+139-configure:4186: $? = 1
+140-configure:4175: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -qversion >&5
+141:em++: error: no input files
+142-configure:4186: $? = 1
+143-configure:4190: checking whether the compiler supports GNU C++
+144-configure:4210: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  conftest.cpp >&5
+145-configure:4210: $? = 0
+146-configure:4222: result: yes
+147-configure:4233: checking whether /home/runner/webbuild/emsdk/upstream/emscripten/em++ accepts -g
+148-configure:4254: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -c -g  conftest.cpp >&5
+149-configure:4254: $? = 0
+150-configure:4301: result: yes
+151-configure:4321: checking for /home/runner/webbuild/emsdk/upstream/emscripten/em++ option to enable C++11 features
+152-configure:4336: /home/runner/webbuild/emsdk/upstream/emscripten/em++  -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG  conftest.cpp >&5
+153-conftest.cpp:175:25: warning: empty parentheses interpreted as a function declaration [-Wvexing-parse]
+--
+186-configure:4727: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -E  conftest.c
+187-configure:4727: $? = 0
+188-configure:4743: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -E  conftest.c
+189:conftest.c:9:10: fatal error: 'ac_nonexistent.h' file not found
+190-    9 | #include <ac_nonexistent.h>
+191-      |          ^~~~~~~~~~~~~~~~~~
+192:1 error generated.
+193-configure:4743: $? = 1
+194-configure: failed program was:
+195-| /* confdefs.h */
+196-| #define PACKAGE_NAME "ICU"
+197-| #define PACKAGE_TARNAME "icu4c"
+198-| #define PACKAGE_VERSION "78.3"
+199-| #define PACKAGE_STRING "ICU 78.3"
+200-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+201-| #define PACKAGE_URL "https://icu.unicode.org/"
+202-| /* end confdefs.h.  */
+203-| #include <ac_nonexistent.h>
+204-configure:4772: result: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -E
+205-configure:4786: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -E  conftest.c
+206-configure:4786: $? = 0
+207-configure:4802: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -E  conftest.c
+208:conftest.c:9:10: fatal error: 'ac_nonexistent.h' file not found
+209-    9 | #include <ac_nonexistent.h>
+210-      |          ^~~~~~~~~~~~~~~~~~
+211:1 error generated.
+212-configure:4802: $? = 1
+213-configure: failed program was:
+214-| /* confdefs.h */
+215-| #define PACKAGE_NAME "ICU"
+216-| #define PACKAGE_TARNAME "icu4c"
+217-| #define PACKAGE_VERSION "78.3"
+218-| #define PACKAGE_STRING "ICU 78.3"
+219-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+220-| #define PACKAGE_URL "https://icu.unicode.org/"
+221-| /* end confdefs.h.  */
+222-| #include <ac_nonexistent.h>
+223-configure:4850: checking for a BSD-compatible install
+--
+274-configure:5287: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+275-configure:5287: $? = 0
+276-configure:5287: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+277:conftest.c:50:24: error: 'test_array' declared as an array with a negative size
+278-   50 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 0)];
+279-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+280:1 error generated.
+281-configure:5287: $? = 1
+282-configure: failed program was:
+283-| /* confdefs.h */
+284-| #define PACKAGE_NAME "ICU"
+285-| #define PACKAGE_TARNAME "icu4c"
+286-| #define PACKAGE_VERSION "78.3"
+287-| #define PACKAGE_STRING "ICU 78.3"
+288-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+289-| #define PACKAGE_URL "https://icu.unicode.org/"
+290-| #define HAVE_STDIO_H 1
+291-| #define HAVE_STDLIB_H 1
+292-| #define HAVE_STRING_H 1
+--
+337-|   return 0;
+338-| }
+339-configure:5287: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+340:conftest.c:50:24: error: 'test_array' declared as an array with a negative size
+341-   50 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 1)];
+342-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+343:1 error generated.
+344-configure:5287: $? = 1
+345-configure: failed program was:
+346-| /* confdefs.h */
+347-| #define PACKAGE_NAME "ICU"
+348-| #define PACKAGE_TARNAME "icu4c"
+349-| #define PACKAGE_VERSION "78.3"
+350-| #define PACKAGE_STRING "ICU 78.3"
+351-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+352-| #define PACKAGE_URL "https://icu.unicode.org/"
+353-| #define HAVE_STDIO_H 1
+354-| #define HAVE_STDLIB_H 1
+355-| #define HAVE_STRING_H 1
+--
+400-|   return 0;
+401-| }
+402-configure:5287: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+403:conftest.c:50:24: error: 'test_array' declared as an array with a negative size
+404-   50 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 3)];
+405-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+406:1 error generated.
+407-configure:5287: $? = 1
+408-configure: failed program was:
+409-| /* confdefs.h */
+410-| #define PACKAGE_NAME "ICU"
+411-| #define PACKAGE_TARNAME "icu4c"
+412-| #define PACKAGE_VERSION "78.3"
+413-| #define PACKAGE_STRING "ICU 78.3"
+414-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+415-| #define PACKAGE_URL "https://icu.unicode.org/"
+416-| #define HAVE_STDIO_H 1
+417-| #define HAVE_STDLIB_H 1
+418-| #define HAVE_STRING_H 1
+--
+566-configure:7048: result: yes
+567-configure:7065: checking whether byte ordering is bigendian
+568-configure:7081: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+569:conftest.c:28:9: error: unknown type name 'not'
+570-   28 |                not a universal capable compiler
+571-      |                ^
+572:conftest.c:28:14: error: expected ';' after top level declarator
+573-   28 |                not a universal capable compiler
+574-      |                     ^
+575-      |                     ;
+576-2 errors generated.
+577-configure:7081: $? = 1
+578-configure: failed program was:
+579-| /* confdefs.h */
+580-| #define PACKAGE_NAME "ICU"
+581-| #define PACKAGE_TARNAME "icu4c"
+582-| #define PACKAGE_VERSION "78.3"
+583-| #define PACKAGE_STRING "ICU 78.3"
+584-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+--
+610-configure:7127: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+611-configure:7127: $? = 0
+612-configure:7146: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+613:conftest.c:34:4: error: use of undeclared identifier 'not'
+614-   34 |                  not big endian
+615-      |                  ^~~
+616:1 error generated.
+617-configure:7146: $? = 1
+618-configure: failed program was:
+619-| /* confdefs.h */
+620-| #define PACKAGE_NAME "ICU"
+621-| #define PACKAGE_TARNAME "icu4c"
+622-| #define PACKAGE_VERSION "78.3"
+623-| #define PACKAGE_STRING "ICU 78.3"
+624-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+625-| #define PACKAGE_URL "https://icu.unicode.org/"
+626-| #define HAVE_STDIO_H 1
+627-| #define HAVE_STDLIB_H 1
+628-| #define HAVE_STRING_H 1
+--
+704-configure:7721: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+705-configure:7721: $? = 0
+706-configure:7721: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+707:conftest.c:41:24: error: 'test_array' declared as an array with a negative size
+708-   41 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 0)];
+709-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+710:1 error generated.
+711-configure:7721: $? = 1
+712-configure: failed program was:
+713-| /* confdefs.h */
+714-| #define PACKAGE_NAME "ICU"
+715-| #define PACKAGE_TARNAME "icu4c"
+716-| #define PACKAGE_VERSION "78.3"
+717-| #define PACKAGE_STRING "ICU 78.3"
+718-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+719-| #define PACKAGE_URL "https://icu.unicode.org/"
+720-| #define HAVE_STDIO_H 1
+721-| #define HAVE_STDLIB_H 1
+722-| #define HAVE_STRING_H 1
+--
+758-|   return 0;
+759-| }
+760-configure:7721: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+761:conftest.c:41:24: error: 'test_array' declared as an array with a negative size
+762-   41 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 1)];
+763-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+764:1 error generated.
+765-configure:7721: $? = 1
+766-configure: failed program was:
+767-| /* confdefs.h */
+768-| #define PACKAGE_NAME "ICU"
+769-| #define PACKAGE_TARNAME "icu4c"
+770-| #define PACKAGE_VERSION "78.3"
+771-| #define PACKAGE_STRING "ICU 78.3"
+772-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+773-| #define PACKAGE_URL "https://icu.unicode.org/"
+774-| #define HAVE_STDIO_H 1
+775-| #define HAVE_STDLIB_H 1
+776-| #define HAVE_STRING_H 1
+--
+812-|   return 0;
+813-| }
+814-configure:7721: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -c -fwasm-exceptions -sSUPPORT_LONGJMP=wasm -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  conftest.c >&5
+815:conftest.c:41:24: error: 'test_array' declared as an array with a negative size
+816-   41 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 3)];
+817-      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+818:1 error generated.
+819-configure:7721: $? = 1
+820-configure: failed program was:
+821-| /* confdefs.h */
+822-| #define PACKAGE_NAME "ICU"
+823-| #define PACKAGE_TARNAME "icu4c"
+824-| #define PACKAGE_VERSION "78.3"
+825-| #define PACKAGE_STRING "ICU 78.3"
+826-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+827-| #define PACKAGE_URL "https://icu.unicode.org/"
+828-| #define HAVE_STDIO_H 1
+829-| #define HAVE_STDLIB_H 1
+830-| #define HAVE_STRING_H 1

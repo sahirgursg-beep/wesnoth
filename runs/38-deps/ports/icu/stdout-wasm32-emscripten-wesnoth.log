@@ -1,0 +1,34 @@
+-- Using cached icu4c-78.3-sources.tgz
+-- Cleaning sources at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/icu4c-78.3-sources.tgz
+-- Applying patch disable-static-prefix.patch
+-- Applying patch fix_bsd_and_solaris.patch
+-- Applying patch fix_parallel_build_on_windows.patch
+-- Applying patch fix-python-path-with-spaces.patch
+-- Applying patch fix-using-install-sh.diff
+-- Applying patch mh-darwin.patch
+-- Applying patch mh-mingw.patch
+-- Applying patch mh-msys-msvc.patch
+-- Applying patch subdirs.patch
+-- Applying patch vcpkg-cross-data.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/icu/src/icu4c-78-81ecdbb0f1.clean
+-- wesnoth-web: ICU data 33107232 -> 7824672 bytes
+-- Getting CMake variables for wasm32-emscripten-wesnoth
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/icu/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth.cmake.log
+-- Configuring wasm32-emscripten-wesnoth-rel
+-- Building/Installing wasm32-emscripten-wesnoth-rel
+-- Making target 'all' for wasm32-emscripten-wesnoth-rel
+CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:134 (message):
+    Command failed: /usr/bin/bash -c "CC='/home/runner/webbuild/emsdk/upstream/emscripten/emcc' CXX='/home/runner/webbuild/emsdk/upstream/emscripten/em++' CC_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' CPP_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' CXX_FOR_BUILD='umask 0 | touch a.out | touch conftest | true' NM='/home/runner/webbuild/emsdk/upstream/emscripten/emnm' RC='' WINDRES='' DLLTOOL='CMAKE_DLLTOOL-NOTFOUND' STRIP='/usr/bin/strip' OBJDUMP='/usr/bin/objdump' RANLIB='/home/runner/webbuild/emsdk/upstream/emscripten/emranlib' AR='/home/runner/webbuild/emsdk/upstream/emscripten/emar' LD='/usr/bin/ld' /usr/bin/make \"PKGDATA_OPTS=--without-assembly -O ../data/icupkg.inc\" V=1 -j 5 --trace -f Makefile all DESTDIR=/home/runner/webbuild/vcpkg/packages/icu_wasm32-emscripten-wesnoth"
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/icu/wasm32-emscripten-wesnoth-rel
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/icu/make-all-wasm32-emscripten-wesnoth-rel-out.log
+      /home/runner/webbuild/vcpkg/buildtrees/icu/make-all-wasm32-emscripten-wesnoth-rel-err.log
+
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-make/vcpkg_make.cmake:68 (vcpkg_execute_build_process)
+  installed/x64-linux/share/vcpkg-make/vcpkg_make_install.cmake:110 (vcpkg_run_shell_as_build)
+  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/icu/portfile.cmake:97 (vcpkg_make_install)
+  scripts/ports.cmake:209 (include)
+
+

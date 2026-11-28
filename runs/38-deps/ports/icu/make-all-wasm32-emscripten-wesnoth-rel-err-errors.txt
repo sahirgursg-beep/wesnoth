@@ -1,0 +1,5 @@
+10-/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating ../lib/libicui18n.a
+11-/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating ../lib/libicuio.a
+12-icupkg: input .dat item name "icudata-pruned/brkitr/burmesedict.dict" does not start with "icudt78l/"
+13:make[1]: *** [Makefile:241: out/tmp/icudata.lst] Error 3
+14:make: *** [Makefile:153: all-recursive] Error 2

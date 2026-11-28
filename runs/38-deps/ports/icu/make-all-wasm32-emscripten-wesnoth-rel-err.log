@@ -1,0 +1,14 @@
+/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating libicudata.a
+.././../src/icu4c-78-81ecdbb0f1.clean/source/common/ustr_wcs.cpp:351:30: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  351 |                 if(remaining < (nulLen * MB_CUR_MAX)){
+      |                    ~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~
+.././../src/icu4c-78-81ecdbb0f1.clean/source/common/ustr_wcs.cpp:404:30: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  404 |                 if(remaining < (nulLen * MB_CUR_MAX)){
+      |                    ~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating ../lib/libicuuc.a
+/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating ../lib/libicui18n.a
+/home/runner/webbuild/emsdk/upstream/bin/llvm-ar: warning: creating ../lib/libicuio.a
+icupkg: input .dat item name "icudata-pruned/brkitr/burmesedict.dict" does not start with "icudt78l/"
+make[1]: *** [Makefile:241: out/tmp/icudata.lst] Error 3
+make: *** [Makefile:153: all-recursive] Error 2

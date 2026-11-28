@@ -1,0 +1,161 @@
+80-OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+81-OFFLOAD_TARGET_DEFAULT=1
+82-Target: x86_64-linux-gnu
+83:Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-arch-64=x86-64-v3 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-Ai7w5W/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-Ai7w5W/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+84-Thread model: posix
+85-Supported LTO compression algorithms: zlib zstd
+86-gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+87-... rest of stderr output deleted ...
+88-configure:3486: $? = 0
+89-configure:3475: /usr/bin/cc -V >&5
+90:cc: error: unrecognized command-line option '-V'
+91:cc: fatal error: no input files
+92-compilation terminated.
+93-configure:3486: $? = 1
+94-configure:3475: /usr/bin/cc -qversion >&5
+95:cc: error: unrecognized command-line option '-qversion'; did you mean '--version'?
+96:cc: fatal error: no input files
+97-compilation terminated.
+98-configure:3486: $? = 1
+99-configure:3475: /usr/bin/cc -version >&5
+100:cc: error: unrecognized command-line option '-version'
+101:cc: fatal error: no input files
+102-compilation terminated.
+103-configure:3486: $? = 1
+104-configure:3506: checking whether the C compiler works
+105-configure:3528: /usr/bin/cc -fPIC -O3 -DNDEBUG   conftest.c  >&5
+106-configure:3532: $? = 0
+107-configure:3583: result: yes
+108-configure:3587: checking for C compiler default output file name
+109-configure:3589: result: a.out
+110-configure:3595: checking for suffix of executables
+111-configure:3602: /usr/bin/cc -o conftest -fPIC -O3 -DNDEBUG   conftest.c  >&5
+112-configure:3606: $? = 0
+113-configure:3630: result: 
+--
+148-OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+149-OFFLOAD_TARGET_DEFAULT=1
+150-Target: x86_64-linux-gnu
+151:Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-arch-64=x86-64-v3 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-Ai7w5W/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-Ai7w5W/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+152-Thread model: posix
+153-Supported LTO compression algorithms: zlib zstd
+154-gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+155-... rest of stderr output deleted ...
+156-configure:4186: $? = 0
+157-configure:4175: /usr/bin/c++ -V >&5
+158:c++: error: unrecognized command-line option '-V'
+159:c++: fatal error: no input files
+160-compilation terminated.
+161-configure:4186: $? = 1
+162-configure:4175: /usr/bin/c++ -qversion >&5
+163:c++: error: unrecognized command-line option '-qversion'; did you mean '--version'?
+164:c++: fatal error: no input files
+165-compilation terminated.
+166-configure:4186: $? = 1
+167-configure:4190: checking whether the compiler supports GNU C++
+168-configure:4210: /usr/bin/c++ -c -fPIC -O3 -DNDEBUG  conftest.cpp >&5
+169-configure:4210: $? = 0
+170-configure:4222: result: yes
+171-configure:4233: checking whether /usr/bin/c++ accepts -g
+172-configure:4254: /usr/bin/c++ -c -g  conftest.cpp >&5
+173-configure:4254: $? = 0
+174-configure:4301: result: yes
+175-configure:4321: checking for /usr/bin/c++ option to enable C++11 features
+176-configure:4336: /usr/bin/c++  -c -fPIC -O3 -DNDEBUG  conftest.cpp >&5
+--
+212-configure:4727: /usr/bin/cc -E  conftest.c
+213-configure:4727: $? = 0
+214-configure:4743: /usr/bin/cc -E  conftest.c
+215:conftest.c:9:10: fatal error: ac_nonexistent.h: No such file or directory
+216-    9 | #include <ac_nonexistent.h>
+217-      |          ^~~~~~~~~~~~~~~~~~
+218-compilation terminated.
+219-configure:4743: $? = 1
+220-configure: failed program was:
+221-| /* confdefs.h */
+222-| #define PACKAGE_NAME "ICU"
+223-| #define PACKAGE_TARNAME "icu4c"
+224-| #define PACKAGE_VERSION "78.3"
+225-| #define PACKAGE_STRING "ICU 78.3"
+226-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+227-| #define PACKAGE_URL "https://icu.unicode.org/"
+--
+231-configure:4786: /usr/bin/cc -E  conftest.c
+232-configure:4786: $? = 0
+233-configure:4802: /usr/bin/cc -E  conftest.c
+234:conftest.c:9:10: fatal error: ac_nonexistent.h: No such file or directory
+235-    9 | #include <ac_nonexistent.h>
+236-      |          ^~~~~~~~~~~~~~~~~~
+237-compilation terminated.
+238-configure:4802: $? = 1
+239-configure: failed program was:
+240-| /* confdefs.h */
+241-| #define PACKAGE_NAME "ICU"
+242-| #define PACKAGE_TARNAME "icu4c"
+243-| #define PACKAGE_VERSION "78.3"
+244-| #define PACKAGE_STRING "ICU 78.3"
+245-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+246-| #define PACKAGE_URL "https://icu.unicode.org/"
+--
+383-configure:7048: result: yes
+384-configure:7065: checking whether byte ordering is bigendian
+385-configure:7081: /usr/bin/cc -c -fPIC -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  -ffunction-sections -fdata-sections conftest.c >&5
+386:conftest.c:28:16: error: unknown type name 'not'
+387-   28 |                not a universal capable compiler
+388-      |                ^~~
+389:conftest.c:28:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'universal'
+390-   28 |                not a universal capable compiler
+391-      |                      ^~~~~~~~~
+392:conftest.c:28:22: error: unknown type name 'universal'
+393-configure:7081: $? = 1
+394-configure: failed program was:
+395-| /* confdefs.h */
+396-| #define PACKAGE_NAME "ICU"
+397-| #define PACKAGE_TARNAME "icu4c"
+398-| #define PACKAGE_VERSION "78.3"
+399-| #define PACKAGE_STRING "ICU 78.3"
+400-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+401-| #define PACKAGE_URL "https://icu.unicode.org/"
+402-| #define HAVE_STDIO_H 1
+403-| #define HAVE_STDLIB_H 1
+404-| #define HAVE_STRING_H 1
+--
+425-| 
+426-configure:7127: /usr/bin/cc -c -fPIC -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  -ffunction-sections -fdata-sections conftest.c >&5
+427-conftest.c: In function 'main':
+428:conftest.c:36:15: error: unknown type name 'bogus'
+429-   36 |               bogus endian macros
+430-      |               ^~~~~
+431:conftest.c:36:28: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'macros'
+432-   36 |               bogus endian macros
+433-      |                            ^~~~~~
+434-configure:7127: $? = 1
+435-configure: failed program was:
+436-| /* confdefs.h */
+437-| #define PACKAGE_NAME "ICU"
+438-| #define PACKAGE_TARNAME "icu4c"
+439-| #define PACKAGE_VERSION "78.3"
+440-| #define PACKAGE_STRING "ICU 78.3"
+441-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+442-| #define PACKAGE_URL "https://icu.unicode.org/"
+443-| #define HAVE_STDIO_H 1
+--
+476-| }
+477-configure:7174: /usr/bin/cc -c -fPIC -O3 -DNDEBUG -std=c11 -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings  -ffunction-sections -fdata-sections conftest.c >&5
+478-conftest.c: In function 'main':
+479:conftest.c:33:15: error: unknown type name 'bogus'
+480-   33 |               bogus endian macros
+481-      |               ^~~~~
+482:conftest.c:33:28: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'macros'
+483-   33 |               bogus endian macros
+484-      |                            ^~~~~~
+485-configure:7174: $? = 1
+486-configure: failed program was:
+487-| /* confdefs.h */
+488-| #define PACKAGE_NAME "ICU"
+489-| #define PACKAGE_TARNAME "icu4c"
+490-| #define PACKAGE_VERSION "78.3"
+491-| #define PACKAGE_STRING "ICU 78.3"
+492-| #define PACKAGE_BUGREPORT "https://icu.unicode.org/bugs"
+493-| #define PACKAGE_URL "https://icu.unicode.org/"
+494-| #define HAVE_STDIO_H 1
