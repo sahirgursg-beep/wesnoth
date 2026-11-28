@@ -34,13 +34,6 @@ msgstr "GK"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:43
-#, fuzzy
-#| msgid ""
-#| "A young knight, Deoran, is dispatched to the southern Wesnoth province of "
-#| "Kerlath to investigate the ravaged towns at the border. Thrust quickly "
-#| "into a hapless conflict against marauding bandits, Deoran must rally the "
-#| "remaining men of the derelict South Guard to defend his country.\n"
-#| "\n"
 msgid ""
 "A young knight, Deoran, is dispatched to the southern frontier town of "
 "Westin. Thrust quickly into a hapless conflict against marauding bandits, "
@@ -50,19 +43,18 @@ msgid ""
 "<i><b>This is the recommended starting campaign.</b></i>\n"
 "\n"
 msgstr ""
-"Genç bir şövalye, Deoran, sınırdaki harabolmuş kasabaları araştırmak için "
-"Vesnot'un güney şehirlerinden biri olan Kerlat'a gönderilir. Yağmacı "
-"haydutlarla gelir gelmez talihsiz bir çatışmaya giren Deoran, ülkesini "
-"savunmak için sahipsiz Güney Karakolunun kalan adamlarını toparlamak "
-"zorunda.\n"
+"Genç bir şövalye olan Deoran, güney sınırındaki Vestin kasabasına "
+"gönderilir. Yağmacı haydutlara karşı umutsuz bir çatışmanın içine çabucak "
+"atılan Deoran, kısa sürede işin içinde daha karanlık güçlerin olduğunu fark "
+"eder. Güney Karakolu’nu toparlayın ve yurdunuzu savunun!\n"
+"\n"
+"<i><b>Önerilen başlangıç seferberliği budur.</b></i>\n"
 "\n"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:47
-#, fuzzy
-#| msgid "(Novice level, 8 scenarios.)"
 msgid "(Novice level, 6 scenarios.)"
-msgstr "(Acemi seviyesi, 8 senaryo)"
+msgstr "(Acemi seviyesi, 6 senaryo.)"
 
 #. [campaign]: id=The_South_Guard
 #. this campaign is not a direct continuation of the story and characters, but is next chronologically and is the recommended next campaign
@@ -71,11 +63,13 @@ msgid ""
 "The saga continues in\n"
 "<i>Of Pearls and Pirates</i>"
 msgstr ""
+"Destan şurada sürüyor:\n"
+"<i>İnciler ve Korsanlar</i>"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:56
 msgid "1x enemies, 70% XP"
-msgstr ""
+msgstr "1 kat düşman, %70 TP"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:56
@@ -85,7 +79,7 @@ msgstr "Kolay"
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:57
 msgid "2x enemies, 90% XP"
-msgstr ""
+msgstr "2 kat düşman, %90 TP"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:57
@@ -95,19 +89,17 @@ msgstr "Normal"
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:58
 msgid "4x enemies, 100% XP"
-msgstr ""
+msgstr "4 kat düşman, %100 TP"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:58
 msgid "Hard"
-msgstr ""
+msgstr "Zor"
 
 #. [about]
 #: data/campaigns/The_South_Guard/_main.cfg:65
-#, fuzzy
-#| msgid "Latest Campaign Revision"
 msgid "Newest Campaign Version Rewrite"
-msgstr "Son Seferberlik Düzeltmesi"
+msgstr "En Yeni Seferberlik Sürümünün Yeniden Yazımı"
 
 #. [about]
 #: data/campaigns/The_South_Guard/_main.cfg:71
@@ -127,62 +119,63 @@ msgstr "Sanatsal ve Çizgesel Tasarım"
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:19
 msgid "Defeat Urza Mathin in <i>Born to the Banner</i>."
-msgstr ""
+msgstr "<i>Bayrağı Dalgalandırmak</i> senaryosunda Urza Matin’i yen."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:19
 msgid "Scenario 1: Thug Beater"
-msgstr ""
+msgstr "Senaryo 1: Haydut Döven"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:20
 msgid "Defeat Urza Fastik in <i>Proven by the Sword</i>."
-msgstr ""
+msgstr "<i>Kılıçla Kanıtlanan</i> senaryosunda Urza Fastik’i yen."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:20
 msgid "Scenario 2: Trapper Trapper"
-msgstr ""
+msgstr "Senaryo 2: Tuzakçıyı Tuzağa Düşüren"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:21
 msgid "Personally defeat Urza Nalmath in <i>Vale of Tears</i>."
-msgstr ""
+msgstr "<i>Keder Vadisi</i> senaryosunda Urza Nalmat’ı bizzat yen."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:21
 msgid "Scenario 3: Thief Slayer"
-msgstr ""
+msgstr "Senaryo 3: Hırsız Avcısı"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:22
 msgid "Defeat all enemy units in <i>Choice in the Fog</i>."
-msgstr ""
+msgstr "<i>Siste Seçim</i> senaryosunda tüm düşman birimlerini yen."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:22
 msgid "Scenario 4: Scorched Earth"
-msgstr ""
+msgstr "Senaryo 4: Kavrulmuş Toprak"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:23
 msgid "Complete <i>The Long March</i> in 10 turns or less."
-msgstr ""
+msgstr "<i>Uzun Yürüyüş</i> senaryosunu 10 elde veya daha kısa sürede tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:23
 msgid "Scenario 5a: A Short March"
-msgstr ""
+msgstr "Senaryo 5a: Kısa Bir Yürüyüş"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:24
 msgid "Defeat any enemy leader in <i>Pebbles in the Flood</i>."
 msgstr ""
+"<i>Taşkındaki Çakıllar</i> senaryosunda herhangi bir düşman liderini yen."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:24
 msgid "Scenario 5b: Probably Improbable"
-msgstr ""
+msgstr "Senaryo 5b: Muhtemelen İmkânsız"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:25
@@ -190,36 +183,38 @@ msgid ""
 "Complete the campaign after playing the secret <i>Into the Depths</i> "
 "scenario."
 msgstr ""
+"Gizli <i>Derinliklere Doğru</i> senaryosunu oynadıktan sonra seferberliği "
+"tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:25
 msgid "Scenario 5c: Rocks Fall, Everyone Dies"
-msgstr ""
+msgstr "Senaryo 5c: Kayalar Düşer, Herkes Ölür"
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:26
 msgid "Lose <i>Vengeance</i> by defeating your enemy."
-msgstr ""
+msgstr "Düşmanını yenerek <i>İntikam</i> senaryosunu kaybet."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:26
 msgid "Scenario 6a: Oops..."
-msgstr ""
+msgstr "Senaryo 6a: Hay Aksi..."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:27
 msgid "Complete <i>The Tides of War</i> before receiving reinforcements."
-msgstr ""
+msgstr "<i>Savaş Eğilimleri</i> senaryosunu takviye gelmeden tamamla."
 
 #. [achievement_group]
 #: data/campaigns/The_South_Guard/achievements.cfg:27
 msgid "Scenario 6b: Man Stands Alone"
-msgstr ""
+msgstr "Senaryo 6b: Tek Başına Duran Adam"
 
 #. [label]
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:58
 msgid "Choose an officer to accompany Deoran:"
-msgstr ""
+msgstr "Deoran’a eşlik edecek bir subay seç:"
 
 #. [widget]: id=name
 #. [event]
@@ -234,7 +229,7 @@ msgstr "Komutan Gerik"
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:124
 #: data/campaigns/The_South_Guard/units/Gerrick2_Veteran_Infantryman.cfg:4
 msgid "Veteran Infantryman"
-msgstr ""
+msgstr "Kıdemli Piyade"
 
 #. [widget]: id=name
 #. [event]
@@ -242,17 +237,15 @@ msgstr ""
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:139
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:419
 #: data/campaigns/The_South_Guard/utils/sg_characters.cfg:89
-#, fuzzy
-#| msgid "Campaign Maintenance"
 msgid "Captain Mari"
-msgstr "Seferberlik Bakımı"
+msgstr "Yüzbaşı Mari"
 
 #. [widget]: id=name
 #. [unit_type]: id=Veteran Fencer, race=human, gender=female
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:137
 #: data/campaigns/The_South_Guard/units/Mari2.cfg:4
 msgid "Veteran Fencer"
-msgstr ""
+msgstr "Kıdemli Eskrimci"
 
 #. [widget]: id=name
 #. [event]
@@ -265,40 +258,32 @@ msgstr "Bakan Haylas"
 #. [widget]: id=name
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:150
 msgid "White Mage"
-msgstr ""
+msgstr "Ak Büyücü"
 
 #. [button]: id=leave_with_gerrick
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:169
-#, fuzzy
-#| msgid "Sir Gerrick"
 msgid "Leave with Sir Gerrick"
-msgstr "Komutan Gerik"
+msgstr "Komutan Gerik ile git"
 
 #. [button]: id=leave_with_mari
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:176
-#, fuzzy
-#| msgid "Campaign Maintenance"
 msgid "Leave with Captain Mari"
-msgstr "Seferberlik Bakımı"
+msgstr "Yüzbaşı Mari ile git"
 
 #. [button]: id=leave_with_hylas
 #: data/campaigns/The_South_Guard/gui/choose_companion.cfg:183
-#, fuzzy
-#| msgid "Minister Hylas"
 msgid "Leave with Minister Hylas"
-msgstr "Bakan Haylas"
+msgstr "Bakan Haylas ile git"
 
 #. [button]
 #: data/campaigns/The_South_Guard/gui/display_tip.cfg:158
-#, fuzzy
-#| msgid "Undead"
 msgid "Understood"
-msgstr "Yarı Ölüler"
+msgstr "Anlaşıldı"
 
 #. [button]
 #: data/campaigns/The_South_Guard/gui/display_tip.cfg:177
 msgid "Disable Tip Popups &amp; Dialogue"
-msgstr ""
+msgstr "İpucu Pencerelerini ve Diyalogları Kapat"
 
 #. [scenario]: id=01_Born_to_the_Banner
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:11
@@ -308,22 +293,16 @@ msgstr "Bayrağı Dalgalandırmak"
 #. [part]
 #. Intro to scenario 1. "orc-forts" are forts that defend against orcs, not forts that are manned by orcs
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:27
-#, fuzzy
-#| msgid ""
-#| "The reign of Haldric VII was a time of great prosperity and peace in "
-#| "Wesnoth. Konrad I had driven off the orcs in the north. The eastern forts "
-#| "were quiet and secure. The elves in the western forest kept to their own "
-#| "affairs. In the south, men built new towns and farms."
 msgid ""
 "Our story begins during a time of great prosperity and peace in Wesnoth. "
 "Royal armies had destroyed the undead tombs in the east. The northern orc-"
 "forts were quiet and secure. The elves in the western forest kept to their "
 "own affairs. In the south, men built new towns and farms."
 msgstr ""
-"VII. Haldrik'in zamanında Vesnot büyük refah içinde güvenli bir yerdi. I. "
-"Konrad orkları kuzeye sürmüştü. Doğudaki kaleler son derece sessiz ve "
-"güvenliydi. Batı ormanlarında elfler kendi işleri ile uğraşıyorlardı. "
-"Güneyde insanlar yeni şehirler ve çiftlikler inşa ediyorlardı."
+"Hikâyemiz Vesnot’ta büyük bir refah ve barış döneminde başlar. Kraliyet "
+"orduları doğudaki yarı ölü mezarlarını yok etmişti. Kuzeydeki ork kaleleri "
+"sessiz ve güvendeydi. Batı ormanındaki elfler kendi işleriyle uğraşıyordu. "
+"Güneyde insanlar yeni kasabalar ve çiftlikler kuruyordu."
 
 #. [part]
 #. Intro to scenario 1
@@ -332,23 +311,11 @@ msgid ""
 "And from those young towns arose a stout-hearted peasant militia: The South "
 "Guard, stewards of peace and order on the southern frontier."
 msgstr ""
+"Ve bu genç kasabalardan yürekli bir köylü milis gücü doğdu: güney sınırında "
+"barışın ve düzenin bekçisi olan Güney Karakolu."
 
 #. [part]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:35
-#, fuzzy
-#| msgid ""
-#| "For eight years, the South Guard had defended the farms and homes "
-#| "surrounding the city of Westin, the capital of Wesnoth’s frontier "
-#| "province of Kerlath in the furthermost south. Under the command of Sir "
-#| "Loris, the South Guard kept Westin free from danger, having only to quash "
-#| "the occasional bandit or wild creature. Perhaps the only real unease came "
-#| "from the Aethenwood to the west, where the elves lived in reserved "
-#| "aloofness, indifferent to the doings of man. Traversing their land "
-#| "without permission was forbidden, but the elves rarely entered the lands "
-#| "of Kerlath in turn. Even further south in the wildlands, the ancient "
-#| "heart forest sprawled out in dense gloominess, ominous enough that even "
-#| "the elves eschewed entering, and only a few, scattered outlaws called it "
-#| "their home."
 msgid ""
 "For eight years all was well, the Guard having only to quash the occasional "
 "bandit or wild creature. Perhaps the only real unease came from the "
@@ -356,36 +323,26 @@ msgid ""
 "indifferent to the doings of man. Traversing their land without permission "
 "was forbidden, but the elves rarely entered the lands of men in turn."
 msgstr ""
-"Güney Karakolu sekiz yıldır Vestin şehrini kuşatan evleri ve çiftlikleri "
-"koruyordu. Vestin, Vesnot’un iyice güneyindeki Kerlat eyaletinin "
-"başkentiydi. En vahşi düşmanları ara sıra karşılarına çıkan haydutlardı. "
-"Komutan Loris komutasındaki Güney Karakolu, Vestin’i tehlikeden uzak tuttu, "
-"bu arada sadece haydutları ya da vahşi yaratıkları öldürmek zorunda kaldı. "
-"Belki de tek gerçek rahatsızlık, Eten ormanından batıya, elflerin, insan "
-"davranışlarına kayıtsız bir şekilde yaşadığı bölgeden geldi. Elf arazilerini "
-"izinsiz geçmek yasaktı, ancak elfler Kerlat topraklarına arasıra giriyordu. "
-"Vahşi bölgelerde daha güneyde, elflerin bile girmekten kaçındığı yoğun "
-"kasvetli eski kalp ormanında dağınık halde bir kaç eşkiya yaşardı."
+"Sekiz yıl boyunca her şey yolundaydı; Karakol’un tek işi arada bir ortaya "
+"çıkan haydutları ya da vahşi yaratıkları bastırmaktı. Belki de tek gerçek "
+"huzursuzluk, elflerin insanların işlerine kayıtsız, mesafeli bir şekilde "
+"yaşadığı batıdaki Eten Ormanı’ndan geliyordu. Onların topraklarından "
+"izinsiz geçmek yasaktı, ama elfler de insanların topraklarına pek nadiren "
+"girerdi."
 
 #. [part]
 #. Intro to scenario 1
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:40
-#, fuzzy
-#| msgid ""
-#| "Over time, in the absence of pressing danger, the South Guard grew "
-#| "complacent and lazy. Reports to King Haldric slowed, and in the spring of "
-#| "the ninth year, ceased altogether. Displeased with Sir Loris’ conduct, "
-#| "the King decided to send someone to investigate."
 msgid ""
 "Over time, in the absence of pressing danger, the South Guard grew "
 "complacent and lazy. Reports to the capital slowed, and in the spring of the "
 "ninth year, ceased altogether. Displeased with the Guard’s conduct, the "
 "Crown decided to send someone to investigate..."
 msgstr ""
-"Zamanla, acil bir tehlike olmadığından, Güney Karakolu, rahat ve tembel bir "
-"şekilde büyüdü. Kral Haldrik'e gönderilen raporlar azaldı ve dokuzuncu yılın "
-"ilkbaharında tamamen sona erdi. Komutan Loris'in davranışlarından memnun "
-"olmayan kral, durumu araştırması için birini göndermeye karar verdi."
+"Zamanla, ortada acil bir tehlike olmayınca Güney Karakolu rehavete kapıldı "
+"ve tembelleşti. Başkente gönderilen raporlar seyrekleşti ve dokuzuncu yılın "
+"baharında tamamen kesildi. Karakol’un tutumundan hoşnut olmayan Taç, durumu "
+"araştırması için birini göndermeye karar verdi..."
 
 #. [side]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:55
@@ -412,10 +369,8 @@ msgstr "Urza Matin"
 
 #. [event]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:133
-#, fuzzy
-#| msgid "The South Guard"
 msgid "The Author"
-msgstr "Güney Karakolu"
+msgstr "Yazar"
 
 #. [message]
 #. notice that appears at the beginning of the scenario if you select Hard difficulty
@@ -424,6 +379,9 @@ msgid ""
 "NOTE: ‘Hard’ difficulty is intended to be a challenge even for experienced "
 "players! If you’re new to Wesnoth, you may want to try a lower difficulty."
 msgstr ""
+"NOT: ‘Zor’ seviye deneyimli oyuncular için bile zorlayıcı olacak şekilde "
+"tasarlanmıştır! Vesnot’ta yeniyseniz daha düşük bir zorluk seviyesi denemek "
+"isteyebilirsiniz."
 
 #. [unit]: id=Deoran, type=Cavalryman Commander
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:145
@@ -433,24 +391,24 @@ msgstr "Deoran"
 #. [trait]: id=loyal_dummy
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:151
 msgid "loyal"
-msgstr ""
+msgstr "sadık"
 
 #. [trait]: id=loyal_dummy
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:152
 msgid "Zero upkeep"
-msgstr ""
+msgstr "Bakım masrafı yok"
 
 #. [message]: speaker=Deoran
 #. deoran is fresh out of training, bright-eyed and eager to prove himself
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:174
 msgid "Lieutenant Deoran, reporting for duty SIR! ...err, ma’am."
-msgstr ""
+msgstr "Teğmen Deoran, göreve hazırım EFENDİM! ...ıı, hanımefendi."
 
 #. [message]: speaker=Mari
 #. "academy" refers to some sort of Wesnoth military academy
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:179
 msgid "Relax, Lieutenant. Fresh from the academy, are we?"
-msgstr ""
+msgstr "Rahat ol, Teğmen. Akademiden yeni çıkmışsın, öyle mi?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:183
@@ -458,6 +416,9 @@ msgid ""
 "Yes ma’am. —sir. And as His Majesty ordered, I’ve brought with me a "
 "contingent of fresh soldiers to reinforce Westin’s faltering South Guard!"
 msgstr ""
+"Evet hanımefendi. —efendim. Ve Majestelerinin emrettiği gibi, Vestin’in "
+"bocalayan Güney Karakolu’nu güçlendirmek için yanımda yeni askerlerden "
+"oluşan bir birlik getirdim!"
 
 #. [message]: speaker=Mari
 #. Mari is somewhat sarcastic and not particularly emotive. She can come across as somewhat cold.
@@ -466,6 +427,9 @@ msgid ""
 "I’m Mari. Got the same orders as you; guess someone wanted an officer with "
 "experience to keep an eye on you and your “fresh” company. Can’t imagine why."
 msgstr ""
+"Ben Mari. Ben de seninle aynı emri aldım; galiba biri senin ve “yeni” "
+"bölüğünün başında deneyimli bir subay olsun istemiş. Nedenini hiç "
+"anlayamıyorum."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:192
@@ -473,22 +437,25 @@ msgid ""
 "Well, orders are orders. Come on over here, Deoran — let’s get a closer look "
 "at you."
 msgstr ""
+"Neyse, emir emirdir. Gel bakalım buraya, Deoran — seni bir yakından görelim."
 
 #. [option]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:197
 msgid "On my way!"
-msgstr ""
+msgstr "Geliyorum!"
 
 #. [option]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:206
 msgid "I know what I’m doing. (Skip tutorial)"
-msgstr ""
+msgstr "Ne yaptığımı biliyorum. (Öğreticiyi atla)"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:226
 msgid ""
 "Suit yourself. I’m sure you won’t need my help against those bandits anyway."
 msgstr ""
+"Nasıl istersen. Eminim o haydutlara karşı benim yardımıma zaten ihtiyacın "
+"olmayacak."
 
 #. [disallow_end_turn]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:267
@@ -496,13 +463,13 @@ msgid ""
 "Move Deoran next to Mari first!\n"
 "(press “u” if you need to undo a move)"
 msgstr ""
+"Önce Deoran’ı Mari’nin yanına götür!\n"
+"(bir hareketi geri almak için “u” tuşuna bas)"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:276
-#, fuzzy
-#| msgid "Move Deoran into Kerlath Province"
 msgid "Move Deoran next to Mari"
-msgstr "Deoran’ı Kerlat Eyaletine götür"
+msgstr "Deoran’ı Mari’nin yanına götür"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:280
@@ -512,12 +479,12 @@ msgstr "Deoran’ı Kerlat Eyaletine götür"
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:654
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:737
 msgid "Get yourself killed"
-msgstr ""
+msgstr "Kendini öldürt"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:301
 msgid "<i>(Bows)</i> A pleasure to make your acquaintance, Captain."
-msgstr ""
+msgstr "<i>(Reverans yapar)</i> Tanıştığımıza memnun oldum, Yüzbaşı."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:309
@@ -526,11 +493,14 @@ msgid ""
 "unit? That’s your soldiers’ terrain defense — their <i><b>chance to evade</"
 "b></i> enemy attacks."
 msgstr ""
+"Bir birimi hareket ettirirken yerde beliren o yüzdeleri mi merak ediyorsun? "
+"Onlar askerlerinin arazi savunması — düşman saldırılarından <i><b>kaçınma "
+"şansları</b></i>."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:312
 msgid "Evading Attacks"
-msgstr ""
+msgstr "Saldırılardan Kaçınma"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:314
@@ -550,6 +520,20 @@ msgid ""
 "terrain</i></b>, and <b><i>attack your enemies while they’re on poor terrain!"
 "</i></b>"
 msgstr ""
+"Vesnot’ta her saldırının ıskalama şansı vardır.\n"
+"\n"
+"Elverişli arazideki (kaleler, köyler, orman veya tepeler gibi)\n"
+"birimler saldırılardan daha kolay kaçınır; kötü arazideki\n"
+"(su, kum veya buz gibi) birimleri vurmak ise çok daha kolaydır.\n"
+"\n"
+"Farklı birimler araziden farklı faydalar sağlar. Örneğin çoğu\n"
+"piyade ormanda %50 kaçınmaya sahiptir — ama süvari yalnızca %30.\n"
+"Ayrıntılar için <b><i>bir birime sağ tıklayıp “Birim Türü Açıklaması”nı "
+"seçin.</i></b>\n"
+"\n"
+"En avantajlı çatışmalar için <b><i>birimlerinizi iyi araziye\n"
+"yerleştirmeye</i></b> ve <b><i>düşmanlarınıza kötü arazideyken "
+"saldırmaya</i></b> çalışın!"
 
 #. [message]: speaker=Mari
 #. Mari is speaking sarcastically, and poking fun at game tutorials. Deoran is a trained soldier and obviously knows how to ride his horse and swing a sword - but the player needs to be taught how to move and attack
@@ -558,16 +542,18 @@ msgid ""
 "Amazing, you know how to ride your horse. Now let’s see if you know how to "
 "swing your sword."
 msgstr ""
+"Harika, atına binmeyi biliyorsun. Bakalım kılıç sallamayı da biliyor musun."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:348
 msgid "Behold!"
-msgstr ""
+msgstr "İşte!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:352
 msgid "...a quintain? You want me to attack a practice dummy?"
 msgstr ""
+"...bir talim kuklası mı? Bir antrenman mankenine saldırmamı mı istiyorsun?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:356
@@ -575,16 +561,18 @@ msgid ""
 "You have fifty pounds of armor and a horse, rookie. I’m fairly sure you’ll "
 "win."
 msgstr ""
+"Üstünde yirmi beş kilo zırh ve altında bir at var, acemi. Kazanacağından "
+"oldukça eminim."
 
 #. [disallow_end_turn]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:363
 msgid "Attack the dummy first!"
-msgstr ""
+msgstr "Önce kuklaya saldır!"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:367
 msgid "Attack the dummy"
-msgstr ""
+msgstr "Kuklaya saldır"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:493
@@ -592,6 +580,8 @@ msgid ""
 "Hey, this quintain fights back! I’m not about to lose to a dummy — let me "
 "attack again!"
 msgstr ""
+"Hey, bu kukla karşılık veriyor! Bir kuklaya yenilecek değilim — bırak "
+"tekrar saldırayım!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:497
@@ -599,11 +589,12 @@ msgid ""
 "Nice try, but you already used up your chance to attack. Now it’s the "
 "<i>quintain’s</i> turn to act."
 msgstr ""
+"İyi deneme, ama saldırı hakkını zaten kullandın. Şimdi sıra <i>kuklada</i>."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:501
 msgid "The <i>dummy</i> gets a turn?"
-msgstr ""
+msgstr "<i>Kuklanın</i> da sırası mı var?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:505
@@ -612,6 +603,9 @@ msgid ""
 "Alduin. It strikes twice per attack, and will sting something fierce if it "
 "hits you. Brace yourself!"
 msgstr ""
+"Neden olmasın? Alduin’deki büyücü akademisinden ödünç alınmış büyülü bir "
+"talim kuklası bu. Her saldırıda iki kez vurur ve isabet ederse fena acıtır. "
+"Kendini hazırla!"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:509
@@ -619,11 +613,13 @@ msgid ""
 "To end your turn, click the <b>“End Turn”</b> button in the bottom-right "
 "corner of the screen, or press <b>Ctrl+Space</b>."
 msgstr ""
+"Elini bitirmek için ekranın sağ alt köşesindeki <b>“Eli Bitir”</b> "
+"düğmesine tıkla ya da <b>Ctrl+Boşluk</b> tuşlarına bas."
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:518
 msgid "End your turn"
-msgstr ""
+msgstr "Elini bitir"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:536
@@ -631,6 +627,8 @@ msgid ""
 "I’m injured; this is more dangerous than I expected. I should retreat to a "
 "village, where I can catch my breath and bandage my wounds."
 msgstr ""
+"Yaralandım; bu beklediğimden daha tehlikeli. Bir köye çekilip soluklanmalı "
+"ve yaralarımı sarmalıyım."
 
 #. [disallow_end_turn]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:541
@@ -638,6 +636,8 @@ msgid ""
 "Move to a village first!\n"
 "(press “u” if you need to undo a move)"
 msgstr ""
+"Önce bir köye git!\n"
+"(bir hareketi geri almak için “u” tuşuna bas)"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:575
@@ -645,11 +645,13 @@ msgid ""
 "I’m already seriously injured! If I attack now, I am sure to be vanquished. "
 "By a dummy, no less."
 msgstr ""
+"Zaten ağır yaralıyım! Şimdi saldırırsam kesinlikle yenilirim. Hem de bir "
+"kuklaya."
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:587
 msgid "End your turn on a village"
-msgstr ""
+msgstr "Elini bir köyde bitir"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:607
@@ -658,6 +660,9 @@ msgid ""
 "banner. Each village we own provides us with some income — and importantly "
 "for you, provides a place to rest and recover."
 msgstr ""
+"Bir köy ele geçirdin; artık sancağımızın kırmızı-beyaz renkleri orada "
+"dalgalanıyor. Sahip olduğumuz her köy bize biraz gelir sağlar — ve senin "
+"için önemlisi, dinlenip toparlanacak bir yer sunar."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:611
@@ -665,6 +670,8 @@ msgid ""
 "Starting your turn in a village will <b><i>heal you for 8 hitpoints</i></b>. "
 "End your turn now."
 msgstr ""
+"Elinize bir köyde başlamak <b><i>8 yaşam puanı iyileştirir</i></b>. Şimdi "
+"elini bitir."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:627
@@ -672,6 +679,8 @@ msgid ""
 "Congratulations, you ran away from the dummy and licked your wounds in a "
 "village. I hope you’re proud."
 msgstr ""
+"Tebrikler, kukladan kaçıp yaralarını bir köyde yaladın. Umarım gurur "
+"duyuyorsundur."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:631
@@ -679,6 +688,8 @@ msgid ""
 "I’ve had enough of being humiliated by this dummy. Time to recruit some "
 "proper soldiers and smash that thing to pieces."
 msgstr ""
+"Bu kukla tarafından aşağılanmaktan bıktım. Düzgün birkaç asker alıp o şeyi "
+"paramparça etmenin zamanı geldi."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:635
@@ -689,6 +700,12 @@ msgid ""
 "In most scenarios, you will lose if your leader is killed. Use Deoran enough "
 "to build his experience, but not so aggressively that he’s at risk of dying!"
 msgstr ""
+"Deoran’ın YP çubuğunun üzerindeki altın taç onun bir lider olduğunu "
+"gösterir: bir kalenin <b>burç</b> altıgeninde dururken yeni birimler "
+"<b>askere alabilir</b>.\n"
+"\n"
+"Çoğu senaryoda liderin ölürse kaybedersin. Deoran’ı tecrübe kazanacak kadar "
+"kullan, ama ölme riskine girecek kadar saldırgan olma!"
 
 #. [disallow_end_turn]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:641
@@ -696,17 +713,21 @@ msgid ""
 "Use “Ctrl+R” to recruit a soldier first!\n"
 "(press “u” if you need to undo a move)"
 msgstr ""
+"Önce “Ctrl+R” ile bir asker al!\n"
+"(bir hareketi geri almak için “u” tuşuna bas)"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:650
 msgid "Recruit some soldiers"
-msgstr ""
+msgstr "Birkaç asker al"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:671
 msgid ""
 "Press <b>Ctrl+R</b> to recruit new soldiers. (Or right-click on a keep hex.)"
 msgstr ""
+"Yeni asker almak için <b>Ctrl+R</b> tuşlarına bas. (Ya da bir burç "
+"altıgenine sağ tıkla.)"
 
 #. [message]: speaker=unit
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:681
@@ -714,11 +735,13 @@ msgid ""
 "At your service, Commander Deoran! You should still have some gold left — I "
 "suggest you keep recruiting more soldiers."
 msgstr ""
+"Emrinizdeyim, Komutan Deoran! Hâlâ biraz altınınız kalmış olmalı — daha "
+"fazla asker almanızı öneririm."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:700
 msgid "The quintain is repairing itself! Come on men, let’s go finish it off!"
-msgstr ""
+msgstr "Kukla kendini onarıyor! Haydi millet, gidip işini bitirelim!"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:704
@@ -729,12 +752,16 @@ msgid ""
 "\n"
 "This “rest-healing” stacks with village healing."
 msgstr ""
+"Bir köyün sağladığı +8 iyileşmeye ek olarak, birimler ellerini dinlenerek — "
+"ne hareket edip ne savaşarak — geçirirlerse 2 yaşam puanı daha yenilerler.\n"
+"\n"
+"Bu “dinlenme iyileşmesi” köy iyileşmesiyle birlikte geçerlidir."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:721
 #: data/campaigns/The_South_Guard/utils/sg_help.cfg:23
 msgid "Undo"
-msgstr ""
+msgstr "Geri Al"
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:723
@@ -742,11 +769,13 @@ msgstr ""
 msgid ""
 "Tip: Press “u” if you ever want to undo a move. Attacks cannot be undone."
 msgstr ""
+"İpucu: Bir hareketi geri almak istersen “u” tuşuna bas. Saldırılar geri "
+"alınamaz."
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:733
 msgid "Destroy Mari’s quintain"
-msgstr ""
+msgstr "Mari’nin talim kuklasını yok et"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:751
@@ -754,12 +783,14 @@ msgid ""
 "...he’s fine. Just out cold, and of no use to you for the rest of our "
 "journey."
 msgstr ""
+"...o iyi. Sadece bayılmış ve yolculuğumuzun geri kalanında sana bir faydası "
+"olmayacak."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:763
 msgid ""
 "Hooray! The dummy is destroyed, and I’ve gained valuable combat experience!"
-msgstr ""
+msgstr "Yaşasın! Kukla yok edildi ve değerli savaş tecrübesi kazandım!"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:767
@@ -770,6 +801,11 @@ msgid ""
 "\n"
 "With enough experience, a soldier will advance to a powerful level 2 unit."
 msgstr ""
+"Birimler saldırırken veya savunurken biraz tecrübe kazanır, ama özellikle "
+"yüksek seviyeli düşmanlara son darbeyi vurarak çok daha fazlasını "
+"kazanırlar.\n"
+"\n"
+"Yeterli tecrübeyle bir asker güçlü bir 2. seviye birime terfi eder."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:773
@@ -778,13 +814,16 @@ msgid ""
 "was supposed to return that after we finished training? Maybe I can find a "
 "replacement once we reach Westin."
 msgstr ""
+"Fena değil, kıymık kıymık ettin. ...eğitimden sonra onu geri vermem "
+"gerektiğini söylemek için çok mu geç? Belki Vestin’e varınca yerine bir "
+"tane bulurum."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:778
 msgid ""
 "Of course before we can reach Westin, we’ll first have to fight our way past "
 "these bandits."
-msgstr ""
+msgstr "Tabii Vestin’e varmadan önce bu haydutları yarıp geçmemiz gerekecek."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:799
@@ -792,20 +831,20 @@ msgid ""
 "Are you... actually trying to fight the quintain? We don’t have all day. "
 "Hurry up and beat it."
 msgstr ""
+"Sen... gerçekten kuklayla dövüşmeye mi çalışıyorsun? Bütün günümüz yok. "
+"Acele et de yen şunu."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:807
 msgid ""
 "We’re going to have to cut things short, rookie. Look: bandits on the south "
 "road!"
-msgstr ""
+msgstr "İşi kısa kesmemiz gerekecek, acemi. Bak: güney yolunda haydutlar!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:823
-#, fuzzy
-#| msgid "Bandits"
 msgid "Bandits! Where?"
-msgstr "Haydutlar"
+msgstr "Haydutlar! Nerede?"
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:860
@@ -814,6 +853,9 @@ msgid ""
 "dangerous road? Tell ya what, we can offer ya protection ’round here for a "
 "small fee."
 msgstr ""
+"Ooo, bu da ne? Bir hanımefendi ve sadık seyisi bu tehlikeli yolda güneye mi "
+"gidiyor? Bakın ne diyeceğim, küçük bir ücret karşılığında size buralarda "
+"koruma sağlayabiliriz."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:874
@@ -821,6 +863,8 @@ msgid ""
 "Do you take us for fools? I ride south to reinforce Westin’s venerable South "
 "Guard, on orders from the King to ensure the region is kept safe and secure!"
 msgstr ""
+"Bizi aptal mı sandınız? Kralın emriyle, bölgenin güvenliğini sağlamak üzere "
+"Vestin’in köklü Güney Karakolu’nu güçlendirmek için güneye gidiyorum!"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:878
@@ -828,6 +872,8 @@ msgid ""
 "The only danger around here is you, and I intend to put an end to it. Men, "
 "raise your spears!"
 msgstr ""
+"Buralardaki tek tehlike sizsiniz ve buna son vermeye niyetliyim. Askerler, "
+"mızrakları kaldırın!"
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:882
@@ -836,6 +882,9 @@ msgid ""
 "Urza brothers, and these are my thugs. Time to show you who the real power "
 "is in these parts!"
 msgstr ""
+"Hah, sanki o kadar kolay olacak, çocuk. Ben Urza Matin, dört Urza kardeşin "
+"en büyüğü, bunlar da benim haydutlarım. Bu topraklarda asıl gücün kimde "
+"olduğunu gösterme zamanı!"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:891
@@ -854,16 +903,14 @@ msgstr "Deoran'ın ölümü"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:899
-#, fuzzy
-#| msgid "Death of Deoran"
 msgid "Death of Mari"
-msgstr "Deoran'ın ölümü"
+msgstr "Mari’nin ölümü"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:929
 msgid ""
 "Are you going to help fight? We must drive these villains from the road!"
-msgstr ""
+msgstr "Savaşa yardım edecek misin? Bu alçakları yoldan temizlemeliyiz!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:936
@@ -872,6 +919,9 @@ msgid ""
 "dangerous — you and your professional soldiers should be able to make short "
 "work of them, even without my sword."
 msgstr ""
+"Resmî olarak burada yalnızca gözlemciyim. Bu serseriler pek tehlikeli "
+"görünmüyor — sen ve profesyonel askerlerin benim kılıcım olmadan da onların "
+"işini kısa sürede bitirebilmelisiniz."
 
 #. [message]: speaker=Mari
 #. sarcasm. $quintain_killers.length is probably between 3 and 5
@@ -880,6 +930,8 @@ msgid ""
 "Besides, it only took $quintain_killers.length of you to deal with my dummy. "
 "What’s a dozen muscly bandits compared to that?"
 msgstr ""
+"Hem benim kuklamın hakkından gelmek sadece $quintain_killers.length "
+"kişinizi aldı. Bir düzine kaslı haydut bunun yanında nedir ki?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:947
@@ -887,6 +939,8 @@ msgid ""
 "Oh, <i><b>now</b></i> you want my help? I thought you were too clever to "
 "listen to my tutorial."
 msgstr ""
+"Ah, <i><b>şimdi</b></i> mi yardımımı istiyorsun? Öğreticimi dinlemeyecek "
+"kadar akıllı olduğunu sanıyordum."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:951
@@ -895,6 +949,9 @@ msgid ""
 "dangerous — you and your professional soldiers should be able to make short "
 "work of them, even without my sword."
 msgstr ""
+"Bak, resmî olarak burada yalnızca gözlemciyim. Bu serseriler pek tehlikeli "
+"görünmüyor — sen ve profesyonel askerlerin benim kılıcım olmadan da onların "
+"işini kısa sürede bitirebilmelisiniz."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:960
@@ -902,6 +959,8 @@ msgid ""
 "You may toggle tips on or off at any time during the campaign by right-"
 "clicking anywhere and selecting “Tips: On/Off” in the menu."
 msgstr ""
+"Seferberlik boyunca istediğin zaman herhangi bir yere sağ tıklayıp menüden "
+"“İpuçları: Açık/Kapalı”yı seçerek ipuçlarını açıp kapatabilirsin."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:966
@@ -911,41 +970,45 @@ msgid ""
 "\n"
 "Because you skipped the tutorial, tips are currently off."
 msgstr ""
+"Seferberlik boyunca istediğin zaman herhangi bir yere sağ tıklayıp menüden "
+"“İpuçları: Açık/Kapalı”yı seçerek ipuçlarını açıp kapatabilirsin.\n"
+"\n"
+"Öğreticiyi atladığın için ipuçları şu anda kapalı."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:997
 msgid "Get out of my face!"
-msgstr ""
+msgstr "Çekil karşımdan!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1003
 msgid "What happened to being a passive observer?"
-msgstr ""
+msgstr "Hani sadece gözlemcidin?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1007
 msgid "...self-defense doesn’t count."
-msgstr ""
+msgstr "...meşru müdafaa sayılmaz."
 
 #. [set_menu_item]: id=tutorial_toggle_on
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1017
 msgid "Tip Dialogue &amp; Popups Are On"
-msgstr ""
+msgstr "İpucu Diyalogları ve Pencereleri Açık"
 
 #. [set_menu_item]: id=tutorial_toggle_off
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1029
 msgid "Tip Dialogue &amp; Popups Are Off"
-msgstr ""
+msgstr "İpucu Diyalogları ve Pencereleri Kapalı"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1049
 msgid "Stop right there! Not one hair further or I’ll bash your head in!"
-msgstr ""
+msgstr "Olduğun yerde dur! Bir adım daha atarsan kafanı ezerim!"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1052
 msgid "Zone of Control"
-msgstr ""
+msgstr "Denetim Alanı"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1054
@@ -963,6 +1026,18 @@ msgid ""
 "To see which hexes enemies can move to\n"
 "on their turn, press <b><i>Ctrl+V</i></b>."
 msgstr ""
+"Bir birimin hemen çevresindeki altıgenler\n"
+"onun <i><b>Denetim Alanı</b></i>nı oluşturur.\n"
+"Bir düşman birimi bu altıgenlerden birine\n"
+"girdiğinde o el daha fazla hareket\n"
+"edemez.\n"
+"\n"
+"Saldırı yapmak veya bir köy ele geçirmek\n"
+"de birimin kalan tüm hareketini tüketir.\n"
+"\n"
+"Düşmanların kendi ellerinde hangi\n"
+"altıgenlere gidebileceğini görmek için\n"
+"<b><i>Ctrl+V</i></b> tuşlarına bas."
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1088
@@ -970,6 +1045,8 @@ msgid ""
 "The sun begins to set! Soon these Wesnoth soldiers will falter in the dark, "
 "while my thugs and I will fight at our best. Press the attack!"
 msgstr ""
+"Güneş batmaya başlıyor! Yakında bu Vesnot askerleri karanlıkta bocalayacak, "
+"bense haydutlarımla en iyi halimizle savaşacağız. Saldırıya devam!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1096
@@ -978,6 +1055,9 @@ msgid ""
 "hunker down and hold a defensive position until dawn. Castles and especially "
 "villages (because they heal) make for good defensive positions."
 msgstr ""
+"Dikkatli ol, Deoran. Ezici bir sayı üstünlüğün yoksa şafağa kadar siper "
+"alıp savunma pozisyonunu korumak isteyebilirsin. Kaleler ve özellikle "
+"köyler (iyileştirdikleri için) iyi savunma mevzileridir."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1098
@@ -985,24 +1065,22 @@ msgid ""
 "Capturing villages will also increase your income, which you can use to "
 "recruit more soldiers."
 msgstr ""
+"Köyleri ele geçirmek gelirini de artırır; bu geliri daha fazla asker almak "
+"için kullanabilirsin."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1113
-#, fuzzy
-#| msgid ""
-#| "The dawn breaks — now is the time for us to attack and drive these "
-#| "bandits from our lands. To me, men of the South Guard!"
 msgid ""
 "Day has come! We will be strongest in the light — now is the time for us to "
 "attack and drive these bandits from our lands. To me, men of the South Guard!"
 msgstr ""
-"Şafak söküyor — tam saldırı zamanı! Sürelim şu haydutları ülkemizden! Güney "
-"Karakolu'nun adamları benimle gelin!"
+"Gün doğdu! Işıkta en güçlü halimizdeyiz — şimdi saldırıp bu haydutları "
+"topraklarımızdan sürmenin zamanı. Bana gelin, Güney Karakolu’nun adamları!"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1125
 msgid "Time of Day"
-msgstr ""
+msgstr "Günün Saati"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1127
@@ -1019,6 +1097,17 @@ msgid ""
 "effects by mousing over the right-side\n"
 "panel."
 msgstr ""
+"Her elde günün saati değişir ve bu,\n"
+"birimlerin verdiği hasarı etkiler.\n"
+"\n"
+"Bu seferberlikte <i><b>birimlerinin çoğu\n"
+"gündüz en ölümcül halindeyken,\n"
+"düşmanlarının çoğu gece en\n"
+"ölümcül halindedir.</b></i>\n"
+"\n"
+"Günün şu anki saatini ve etkilerini\n"
+"sağ taraftaki panelin üzerine gelerek\n"
+"görebilirsin."
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1162
@@ -1026,6 +1115,8 @@ msgid ""
 "Ha, this will be an easy victory! These soldiers’ young commander must be a "
 "fool, for he fights my thugs at night while I am strong and he is weak."
 msgstr ""
+"Ha, bu kolay bir zafer olacak! Bu askerlerin genç komutanı aptal olmalı; "
+"ben güçlüyken o zayıfken, gece vakti haydutlarımla savaşıyor."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1190
@@ -1033,20 +1124,15 @@ msgid ""
 "Get a move on, rookie! I’m sure those bandits have called for reinforcements "
 "— you’re running out of time to finish them off."
 msgstr ""
+"Acele et, acemi! Eminim o haydutlar takviye çağırmıştır — onların işini "
+"bitirmek için zamanın tükeniyor."
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1212
-#, fuzzy
-#| msgid ""
-#| "Reinforcements from my brothers! Excellent. Let us go and crush this "
-#| "vermin boy who fancies himself a knight. These lands belong to the "
-#| "brothers Urza!"
 msgid ""
 "Reinforcements from my brothers! Excellent. These lands belong to the "
 "brothers Urza!"
-msgstr ""
-"Kardeşlerimden takviye! Mükemmel. Haydi gidelim ve kendini şövalye zanneden "
-"şu yaramaz çocuğa haddini bildirelim. Bu topraklar Urza kardeşlere aittir!"
+msgstr "Kardeşlerimden takviye! Harika. Bu topraklar Urza kardeşlere ait!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1216
@@ -1055,6 +1141,9 @@ msgid ""
 "retreat and bring more soldiers some other time. I really thought Deoran "
 "could handle this on his own..."
 msgstr ""
+"Zamanımız tükendi ve şimdi daha fazla düşman geldi! Geri çekilip başka bir "
+"zaman daha fazla askerle gelmemiz gerekecek. Deoran’ın bunun altından tek "
+"başına kalkabileceğini gerçekten düşünmüştüm..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1236
@@ -1063,26 +1152,29 @@ msgid ""
 "between Weldyn and Westin; what is the meaning of this? How have you become "
 "so bold as to strike at even trained soldiers!?"
 msgstr ""
+"Yenildin, seni kana susamış, kel haydut! Weldyn ile Vestin arasında "
+"yolcuları soymak; bunun anlamı ne? Eğitimli askerlere bile saldıracak kadar "
+"nasıl bu kadar cüretkâr oldunuz!?"
 
 #. [message]: speaker=Urza Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1240
 msgid "How... impossible... no! If I die... so will you!"
-msgstr ""
+msgstr "Nasıl... imkânsız... hayır! Ben ölürsem... sen de ölürsün!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1296
 msgid "What the—"
-msgstr ""
+msgstr "Bu da ne—"
 
 #. [message]: speaker=Zombie Mathin
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1300
 msgid "Gruhh..."
-msgstr ""
+msgstr "Grrhh..."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1308
 msgid "Look out!"
-msgstr ""
+msgstr "Dikkat edin!"
 
 #. [message]: speaker=Mari
 #. Mari lost her arm fighting undead in the Estmarks, but don't specify which one because the sprite gets mirrored
@@ -1091,6 +1183,8 @@ msgid ""
 "Undead again. As if losing one arm to these things wasn’t bad enough, now "
 "they’re back for my second."
 msgstr ""
+"Yine yarı ölüler. Bu şeylere bir kolumu kaptırmam yetmezmiş gibi, şimdi de "
+"ikincisi için geri döndüler."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1332
@@ -1098,6 +1192,8 @@ msgid ""
 "I’ve never seen the like before in my life! That man clearly died, then "
 "stood right back up again! You say you’ve fought these things before, Mari?"
 msgstr ""
+"Hayatımda böyle bir şey görmedim! O adam açıkça öldü, sonra dimdik ayağa "
+"kalktı! Bu şeylerle daha önce savaştığını mı söylüyorsun, Mari?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1336
@@ -1105,6 +1201,8 @@ msgid ""
 "Yeah, I have. And no, simple bandits aren’t supposed to know how to create "
 "them. This reeks of black magic; powerful black magic."
 msgstr ""
+"Evet, savaştım. Ve hayır, sıradan haydutların bunları nasıl yaratacağını "
+"bilmemesi gerekir. Bu kara büyü kokuyor; güçlü bir kara büyü."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1340
@@ -1113,6 +1211,9 @@ msgid ""
 "still alive and causing trouble. How did petty outlaws get their hands on "
 "magic like this?"
 msgstr ""
+"Bu kardeş dört kardeşin en büyüğü olduğunu söyledi — diğer üçü hiç şüphesiz "
+"hâlâ hayatta ve başımıza dert açıyor. Adi kanun kaçakları böyle bir büyüyü "
+"nasıl ele geçirdi?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:1344
@@ -1120,6 +1221,8 @@ msgid ""
 "Maybe the locals in town will know something. Come on, let’s hurry onwards "
 "towards Westin, and hope we don’t run into any more trouble on the way."
 msgstr ""
+"Belki kasabadakiler bir şey biliyordur. Hadi, Vestin’e doğru acele edelim "
+"ve umalım ki yolda başka bir belaya çatmayalım."
 
 #. [scenario]: id=02_Proven_by_the_Sword
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:11
@@ -1140,6 +1243,9 @@ msgid ""
 "Mathin is dead! Curses... the master should never have sent him here "
 "alongside me."
 msgstr ""
+"Bu da ne? Tahn yolundan gelen askerler — bu ancak kardeşim Matin’in öldüğü "
+"anlamına gelir! Lanet olsun... efendi onu asla benimle buraya "
+"göndermemeliydi."
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:162
@@ -1147,6 +1253,9 @@ msgid ""
 "I will avenge him. You fools will get no further, for I am second of the "
 "Urza brothers, and much more powerful than my late elder. Behold!"
 msgstr ""
+"Onun intikamını alacağım. Siz aptallar daha ileri gidemeyeceksiniz, çünkü "
+"ben Urza kardeşlerin ikincisiyim ve rahmetli ağabeyimden çok daha güçlüyüm. "
+"Görün!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:220
@@ -1155,6 +1264,9 @@ msgid ""
 "brothers must have been waiting on the road for travelers, ambushing "
 "civilians and raising their corpses as minions."
 msgstr ""
+"Bir Urza kardeş daha, saflarını huzursuz ölülerle güçlendiriyor. Kardeşler "
+"yolda yolcuları beklemiş, sivillere pusu kurup cesetlerini köle olarak "
+"diriltmiş olmalı."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:224
@@ -1162,6 +1274,9 @@ msgid ""
 "I know banditry is not uncommon in the lawless south, but necromancy!? Where "
 "is the rest of the South Guard? How have things gotten so far out of control?"
 msgstr ""
+"Kanunsuz güneyde eşkıyalığın az olmadığını biliyorum, ama ölü çağırma mı!? "
+"Güney Karakolu’nun geri kalanı nerede? İşler nasıl bu kadar kontrolden "
+"çıktı?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:230
@@ -1170,6 +1285,9 @@ msgid ""
 "dies to those zombies will become one themselves, so don’t be stupid and "
 "remember what we practiced:"
 msgstr ""
+"Öğrenelim. Deoran, sen ve adamların bu haydudun icabına bakın. O zombilerin "
+"elinde ölen herkes kendisi de zombiye dönüşür, o yüzden aptallık etmeyin ve "
+"çalıştıklarımızı hatırlayın:"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:232
@@ -1178,6 +1296,9 @@ msgid ""
 "your injured soldiers to villages for healing. And stand on good terrain "
 "like hills, villages, and castles, not bad terrain like water."
 msgstr ""
+"Gece savun, gündüz saldır ve gelir için köyleri elinde tut. Yaralı "
+"askerlerini iyileşmeleri için köylere çek. Ve su gibi kötü arazide değil, "
+"tepe, köy ve kale gibi iyi arazide dur."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:238
@@ -1185,6 +1306,8 @@ msgid ""
 "Let’s find out. Deoran, you and your men deal with this bandit. Anyone who "
 "dies to those zombies will become one themselves, so don’t be stupid."
 msgstr ""
+"Öğrenelim. Deoran, sen ve adamların bu haydudun icabına bakın. O zombilerin "
+"elinde ölen herkes kendisi de zombiye dönüşür, o yüzden aptallık etmeyin."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:245
@@ -1193,12 +1316,16 @@ msgid ""
 "better know what’s going on here. If we’re lucky, I’ll return with "
 "reinforcements."
 msgstr ""
+"Bu arada ben gizlice geçip Vestin’le temas kuracağım — kasabada birileri "
+"burada neler döndüğünü bilse iyi olur. Şansımız yaver giderse takviyeyle "
+"dönerim."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:249
 msgid ""
 "Going alone? That sounds dangerous. What happened to staying an observer?"
 msgstr ""
+"Tek başına mı gideceksin? Tehlikeli görünüyor. Hani gözlemci kalacaktın?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:259
@@ -1207,6 +1334,9 @@ msgid ""
 "shouldn’t count on it. I may only be a junior commander, but this outlaw "
 "underestimates me if he thinks I can’t beat him on my own."
 msgstr ""
+"Pekâlâ. Umarım Mari Güney Karakolu’nun geri kalanıyla döner, ama buna bel "
+"bağlamamalıyım. Belki yalnızca kıdemsiz bir komutanım, ama bu kanun kaçağı "
+"onu tek başıma yenemeyeceğimi sanıyorsa beni hafife alıyor."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:269
@@ -1215,11 +1345,14 @@ msgid ""
 "veteran soldiers from the last battle, I may wish to recall them so they can "
 "continue to gain experience and eventually gain a promotion."
 msgstr ""
+"Çünkü her savaşta tecrübe kazanıp güçleniyoruz! Son savaştan kıdemli "
+"askerlerim varsa, tecrübe kazanmaya devam edip sonunda terfi edebilmeleri "
+"için onları geri çağırmak isteyebilirim."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:272
 msgid "Recalling Veterans"
-msgstr ""
+msgstr "Kıdemlileri Geri Çağırma"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:274
@@ -1229,6 +1362,10 @@ msgid ""
 "from the previous scenario. Recalling a veteran only ever costs\n"
 "20 gold, no matter how powerful (or weak) they are."
 msgstr ""
+"Önceki senaryodaki kıdemli askerleri <i>geri çağırmak</i> için <b>Alt+R</b> "
+"tuşlarına\n"
+"bas (ya da Deoran’a sağ tıkla). Bir kıdemliyi geri çağırmak, ne kadar\n"
+"güçlü (ya da zayıf) olursa olsun her zaman yalnızca 20 altın tutar."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:278
@@ -1237,6 +1374,9 @@ msgid ""
 "veterans every scenario and building up their experience, over\n"
 "time you can create a very powerful army."
 msgstr ""
+"Askerleri geri çağırmak ve seviye atlatmak çok önemlidir. Her senaryoda\n"
+"kıdemlileri geri çağırıp tecrübelerini artırarak zamanla çok güçlü\n"
+"bir ordu kurabilirsin."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:282
@@ -1244,13 +1384,13 @@ msgid ""
 "If you wish to recruit new soldiers, you can still do so by pressing\n"
 "<b>Ctrl+R</b>. <b>Ctrl+R</b> to recruit, <b>Alt+R</b> to recall."
 msgstr ""
+"Yeni asker almak istersen bunu hâlâ <b>Ctrl+R</b> tuşlarıyla yapabilirsin.\n"
+"Askere almak için <b>Ctrl+R</b>, geri çağırmak için <b>Alt+R</b>."
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:294
-#, fuzzy
-#| msgid "Defeat Urza Mathin"
 msgid "Defeat Urza Fastik"
-msgstr "Urza Matin’i öldür"
+msgstr "Urza Fastik’i yen"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:321
@@ -1259,6 +1399,9 @@ msgid ""
 "a reminder that it’s under our control. It will remain that way until an "
 "enemy moves into it."
 msgstr ""
+"Güzel, bir köy ele geçirdik! Üzerinde dalgalanan küçük bayrak, köyün bizim "
+"denetimimizde olduğunu hatırlatacak. Bir düşman içine girene kadar da öyle "
+"kalacak."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:323
@@ -1266,11 +1409,13 @@ msgid ""
 "Each village we control provides upkeep and generates gold, which I can use "
 "to recruit new soldiers."
 msgstr ""
+"Denetimimizdeki her köy bakım masrafını karşılar ve altın üretir; bu "
+"altınla yeni askerler alabilirim."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:327
 msgid "Income and Upkeep"
-msgstr ""
+msgstr "Gelir ve Bakım"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:329
@@ -1283,6 +1428,13 @@ msgid ""
 "To ensure a healthy supply of gold, \n"
 "capture as many villages as you can!"
 msgstr ""
+"Sahip olduğun her köy her elde 1 altın\n"
+"üretir ve 1 birimlik bakım masrafını karşılar.\n"
+"2. seviye birimlerin bakımı 2, 3. seviye\n"
+"birimlerinki 3 tutar, vb.\n"
+"\n"
+"Altın akışını sağlıklı tutmak için\n"
+"olabildiğince çok köy ele geçir!"
 
 #. [message]: speaker=unit
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:348
@@ -1291,6 +1443,9 @@ msgid ""
 "prevents me from moving any further. But this frail, feeble Walking Corpse "
 "is easy to outmaneuver."
 msgstr ""
+"Ha, bu zombi ne kadar yavaş ve zayıf! Normalde bir düşman biriminin yanına "
+"gitmek daha fazla hareket etmemi engeller. Ama bu cılız, çelimsiz Yürüyen "
+"Ceset’i atlatmak kolay."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:352
@@ -1298,6 +1453,8 @@ msgid ""
 "Unlike most units, level 0 units (such as Walking Corpses) do not exert a "
 "Zone of Control. Your units can move freely around them."
 msgstr ""
+"Çoğu birimin aksine 0. seviye birimler (Yürüyen Cesetler gibi) Denetim "
+"Alanı oluşturmaz. Birimlerin onların etrafında serbestçe hareket edebilir."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:364
@@ -1305,6 +1462,8 @@ msgid ""
 "I’m nearly blind in this nighttime gloom... If we don’t keep our distance "
 "from the undead, we’re going to get massacred!"
 msgstr ""
+"Bu gece karanlığında neredeyse kör gibiyim... Yarı ölülerden uzak durmazsak "
+"katliama uğrayacağız!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:372
@@ -1312,6 +1471,8 @@ msgid ""
 "Dawn breaks — the heroes grow strong while the villains grow weak. Men of "
 "the South Guard, now is our time to attack!"
 msgstr ""
+"Şafak sökülüyor — kahramanlar güçlenirken kötüler zayıflıyor. Güney "
+"Karakolu’nun adamları, saldırma zamanı geldi!"
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:404
@@ -1319,6 +1480,8 @@ msgid ""
 "Ah, excellent! The South Guard fights my warriors at night, when we are at "
 "our best! I am fortunate that their commander is so inexperienced."
 msgstr ""
+"Ah, harika! Güney Karakolu savaşçılarımla en güçlü olduğumuz gece vakti "
+"savaşıyor! Komutanlarının bu kadar tecrübesiz olması benim şansım."
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:440
@@ -1326,6 +1489,8 @@ msgid ""
 "Idiot corpses, what are you doing? Don’t fight the South Guard during the "
 "day, when they’re at their best! ...how do I control these blasted things?"
 msgstr ""
+"Aptal cesetler, ne yapıyorsunuz? Güney Karakolu’yla en güçlü oldukları "
+"gündüz savaşmayın! ...bu lanet şeyleri nasıl yöneteceğim ben?"
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:480
@@ -1333,6 +1498,8 @@ msgid ""
 "Yes that’s right, you foolish South Guard commander! Fight waist-deep in the "
 "river while my bandits are safe in their encampments!"
 msgstr ""
+"Evet, işte böyle, seni aptal Güney Karakolu komutanı! Benim haydutlarım "
+"kamplarında güvendeyken sen bele kadar nehirde savaş!"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:484
@@ -1342,16 +1509,20 @@ msgid ""
 "with your units on poor terrain isn’t always a bad idea, but it is often not "
 "worth the disadvantage to your troops."
 msgstr ""
+"Birimlerinin çoğunun sığ suda kaçınma şansı yalnızca %20’dir; haydutların "
+"çoğununki ise kamp arazisinde %60’tır. Birimlerinle kötü arazide savaşmak "
+"her zaman kötü bir fikir değildir, ama birliklerine getirdiği dezavantaja "
+"çoğu zaman değmez."
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:491
 msgid "If only it weren’t daytime, this would be the perfect fight for me..."
-msgstr ""
+msgstr "Keşke gündüz olmasaydı, bu benim için mükemmel bir savaş olurdu..."
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:500
 msgid "And in the middle of the night too! This is the perfect fight for me!"
-msgstr ""
+msgstr "Üstelik gecenin ortasında! Bu benim için mükemmel bir savaş!"
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:529
@@ -1359,6 +1530,8 @@ msgid ""
 "Hey, that’s not fair! I spent ages fortifying the road, you can’t just go "
 "around!"
 msgstr ""
+"Hey, bu haksızlık! Yolu tahkim etmek için uzun zaman harcadım, öylece "
+"etrafından dolaşamazsınız!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:543
@@ -1366,11 +1539,13 @@ msgid ""
 "I had better hurry and finish off this bandit! If I take too long he may "
 "decide to flee, and then I’ll never get the chance to find out what he knows!"
 msgstr ""
+"Acele edip bu haydudun işini bitirsem iyi olur! Çok oyalanırsam kaçmaya "
+"karar verebilir, o zaman da ne bildiğini öğrenme fırsatım hiç olmaz!"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:571
 msgid "We’ve caught you at last, you outlaw! Prepare to meet your end!"
-msgstr ""
+msgstr "Sonunda yakaladık seni, kanun kaçağı! Sonuna hazırlan!"
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:575
@@ -1378,6 +1553,8 @@ msgid ""
 "Gah, more soldiers from Westin... Forget this, I’m getting out of here while "
 "I still have the chance!"
 msgstr ""
+"Of, Vestin’den daha fazla asker... Boş ver, fırsatım varken buradan "
+"sıvışıyorum!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:581
@@ -1385,6 +1562,8 @@ msgid ""
 "He’s gone! Good work defeating these undead, Deoran, but their leader has "
 "escaped..."
 msgstr ""
+"Gitti! Bu yarı ölüleri yenmekle iyi iş çıkardın, Deoran, ama liderleri "
+"kaçtı..."
 
 #. [message]: speaker=unit
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:600
@@ -1392,6 +1571,8 @@ msgid ""
 "Even with the power of darkness at my command... No, I can’t die yet! I— I "
 "can still escape!"
 msgstr ""
+"Karanlığın gücü emrimde olduğu halde... Hayır, henüz ölemem! Ben— hâlâ "
+"kaçabilirim!"
 
 #. [message]: speaker=Sir Gerrick
 #. "clap you in irons" means "put you in jail"
@@ -1399,11 +1580,13 @@ msgstr ""
 msgid ""
 "Not so fast, outlaw — we’ve caught you at last! Time to clap you in irons."
 msgstr ""
+"O kadar hızlı değil, kanun kaçağı — sonunda yakaladık seni! Seni zincire "
+"vurma zamanı."
 
 #. [message]: speaker=Urza Fastik
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:636
 msgid "Urgh! Get these chains... off me..."
-msgstr ""
+msgstr "Ahh! Çıkarın şu zincirleri... üstümden..."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:653
@@ -1411,6 +1594,8 @@ msgid ""
 "Minister, don’t let him die! This is our best chance to finally get some "
 "answers."
 msgstr ""
+"Bakan, ölmesine izin verme! Sonunda bazı cevaplar almak için en iyi "
+"şansımız bu."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:663
@@ -1418,6 +1603,8 @@ msgid ""
 "Mari, you’ve returned! And these must be the South Guard officers we were "
 "sent here to meet."
 msgstr ""
+"Mari, döndün! Bunlar da buluşmak için gönderildiğimiz Güney Karakolu "
+"subayları olmalı."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:667
@@ -1425,6 +1612,8 @@ msgid ""
 "Minister Hylas, archivist and local medic. A pleasure to make your "
 "acquaintance, Lieutenant Deoran."
 msgstr ""
+"Bakan Haylas; arşivci ve yerel hekim. Tanıştığımıza memnun oldum, Teğmen "
+"Deoran."
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:671
@@ -1433,13 +1622,14 @@ msgid ""
 "ain’t the time for talk — let’s get this prisoner back t’ town, and finally "
 "get some answers out o’ him."
 msgstr ""
+"Evet, ben de Komutan Gerik, Güney Karakolu’nun piyade komutanı! Ama şimdi "
+"laf zamanı değil — şu tutsağı kasabaya götürelim de sonunda ağzından bi’ "
+"şeyler alalım."
 
 #. [scenario]: id=02x_Westin
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:5
-#, fuzzy
-#| msgid "Westin"
 msgid "Westin Town"
-msgstr "Vestin"
+msgstr "Vestin Kasabası"
 
 #. [side]
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:46
@@ -1451,7 +1641,7 @@ msgstr "Vestin"
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:139
 msgid "The Vale of Blossoming Trees."
-msgstr ""
+msgstr "Çiçek Açan Ağaçlar Vadisi."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:144
@@ -1463,6 +1653,12 @@ msgid ""
 "powers, the location of another Urza brother, or something else entirely, I "
 "cannot say."
 msgstr ""
+"Bu tek bilgi dışında, Urza Fastik’in ilk geldiğimiz günkü kadar inatçı "
+"kaldığını bildirmekten üzüntü duyuyorum.\n"
+"\n"
+"“Çiçek Açan Ağaçlar Vadisi”nin onun karanlık güçlerinin kaynağını mı, bir "
+"başka Urza kardeşin yerini mi, yoksa bambaşka bir şeyi mi işaret ettiğini "
+"söyleyemem."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:150
@@ -1472,6 +1668,10 @@ msgid ""
 "bandits... I hear they’re aloof even with regards to the king. Can we not "
 "learn more from our captive?"
 msgstr ""
+"Vadi... orası Eten Ormanı’na ait bir toprak parçası değil mi? Eten "
+"elflerinin ölü çağırmayla bir ilgisi olacağını ya da haydutlara yardım "
+"edeceklerini hiç sanmam... Krala karşı bile mesafeli olduklarını duydum. "
+"Tutsağımızdan daha fazlasını öğrenemez miyiz?"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:154
@@ -1480,6 +1680,9 @@ msgid ""
 "roughing it. Lives are at stake, an’ too much coddling ain’t getting us "
 "nowhere."
 msgstr ""
+"Bence ona fazla yumuşak davranıyoruz. Fastik gibi bi’ adam — zorluğa epey "
+"alışkındır. Canlar tehlikede, bu kadar pamuklara sarmak bizi hiçbi’ yere "
+"götürmüyor."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:158
@@ -1488,6 +1691,9 @@ msgid ""
 "illuminate. Now deprived of the dark magic that once suffused him, his very "
 "mind has begun to fade away."
 msgstr ""
+"Korkarım ruhunda, benim ışığımın bile aydınlatamayacağı kadar karanlık bir "
+"bozulma var. Bir zamanlar onu saran kara büyüden yoksun kalınca, aklı da "
+"silinip gitmeye başladı."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:162
@@ -1495,6 +1701,8 @@ msgid ""
 "Even were he willing, I am not sure he remembers anything other than what he "
 "has already told us."
 msgstr ""
+"İstekli olsa bile, bize zaten söylediklerinden başka bir şey "
+"hatırladığından emin değilim."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:176
@@ -1502,6 +1710,8 @@ msgid ""
 "Hey, everyone. I’m done cleaning up the last of Fastik’s mess, but no trace "
 "of the other two brothers."
 msgstr ""
+"Selam millet. Fastik’in bıraktığı son pisliği de temizledim, ama diğer iki "
+"kardeşten iz yok."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:196
@@ -1509,6 +1719,8 @@ msgid ""
 "Thanks, Hylas. Shouldn’t there be a duke or prince or something around here? "
 "How did things get this bad?"
 msgstr ""
+"Teşekkürler, Haylas. Buralarda bir dük ya da prens filan olması gerekmez "
+"mi? İşler nasıl bu kadar kötüleşti?"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:200
@@ -1517,6 +1729,10 @@ msgid ""
 "brother. Arand’s been tryin’ to build the place up. Last time he visited, "
 "His Highness said our home might someday be called the Jewel of the South!"
 msgstr ""
+"Evet, resmen bu topraklar Prens Arand’a ait; Kral Garard’ın küçük "
+"kardeşine. Arand burayı kalkındırmaya çalışıyor. Son ziyaretinde "
+"Ekselansları bir gün yurdumuza Güneyin Mücevheri diyebileceklerini "
+"söylemişti!"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:204
@@ -1525,6 +1741,9 @@ msgid ""
 "but a small town. These Urza outlaws ha’ always been a nuisance, but once "
 "they somehow started raisin’ the dead things got out of hand, fast."
 msgstr ""
+"Ama krallık büyük, prensin bir sürü mülkü var, Vestin de bugün küçük bi’ "
+"kasaba sadece. Bu Urza kanun kaçakları hep baş belasıydı, ama bi’ şekilde "
+"ölüleri diriltmeye başlayınca işler çabucak çığırından çıktı."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:208
@@ -1534,6 +1753,10 @@ msgid ""
 "contact we have had with the crown in some time, sirs Mari and Deoran. With "
 "your aid, we can defeat these outlaws and cleanse their undead."
 msgstr ""
+"Durumumuzu bildirmek için ulaklar gönderdik, ama yolda yakalandılar ya da "
+"nehir geçitlerinde pusuya düşürüldüler. Bir süredir Taç’la kurduğumuz ilk "
+"temas sizsiniz, sayın Mari ve Deoran. Sizin yardımınızla bu kanun "
+"kaçaklarını yenip yarı ölülerini temizleyebiliriz."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:216
@@ -1542,6 +1765,10 @@ msgid ""
 "“Vale of Blossoming Trees” and hope it’s neither misdirection nor a trap. "
 "Sirs, do I have your permissions to take the infantry on a sortie?"
 msgstr ""
+"Pekâlâ, başka bir ipucumuz yoksa bu “Çiçek Açan Ağaçlar Vadisi”ni "
+"araştırmamız ve bunun ne bir yanıltma ne de bir tuzak olduğunu ummamız "
+"gerekecek. Efendiler, piyadeyi bir akına götürmem için izninizi alabilir "
+"miyim?"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:222
@@ -1550,6 +1777,9 @@ msgid ""
 "Two o’ us officers will need to stay here and watch th’ town, but at least "
 "one o’ us should come with ye to help fight."
 msgstr ""
+"Göreve komuta etmeyi mi öneriyorsun? Cesur delikanlı, ama yalnız gitmen "
+"gerekmeyecek. Biz subaylardan ikimizin burada kalıp kasabaya göz kulak "
+"olması lazım, ama en az birimiz savaşa yardım için seninle gelmeli."
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:226
@@ -1557,6 +1787,8 @@ msgid ""
 "Take yer pick — either me, Minister Hylas, or tha’ Mari o’ yers. You don’t "
 "know much about how each of us fight yet, so ask and we’ll tell!"
 msgstr ""
+"Seç bakalım — ya ben, ya Bakan Haylas, ya da senin şu Mari. Her birimizin "
+"nasıl savaştığını pek bilmiyorsun daha, o yüzden sor, anlatalım!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:245
@@ -1564,6 +1796,8 @@ msgid ""
 "Hey, rookie. I’m all out of quintains, so if you want more bruises you’ll "
 "have to find another inanimate object to fight."
 msgstr ""
+"Selam, acemi. Talim kuklam kalmadı, o yüzden daha fazla bere istiyorsan "
+"dövüşecek başka cansız bir şey bulman lazım."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:250
@@ -1571,11 +1805,13 @@ msgid ""
 "...but I guess you’re asking about my skills, not yours. You never did get a "
 "chance to see me fight."
 msgstr ""
+"...ama sanırım benim yeteneklerimi soruyorsun, kendininkileri değil. Beni "
+"dövüşürken görme fırsatın hiç olmadı."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:256
 msgid "Hey, rookie. Yeah, you never did get a chance to see me fight."
-msgstr ""
+msgstr "Selam, acemi. Evet, beni dövüşürken görme fırsatın hiç olmadı."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:262
@@ -1583,6 +1819,8 @@ msgid ""
 "Well, I’m a survivor. Fast-moving, light on my feet; good at evading, good "
 "at stabbing. Hard to pin down, whether in an attack or in an escape."
 msgstr ""
+"Ben bir hayatta kalma ustasıyım. Hızlı, ayağı hafif; kaçınmada iyi, "
+"bıçaklamada iyi. Saldırıda da kaçışta da köşeye sıkıştırılması zor biri."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:266
@@ -1591,6 +1829,10 @@ msgid ""
 "attacks). Her <i><b>skirmisher</b></i> ability lets her ignore enemies’ Zone "
 "of Control — she can move freely around enemy units without being stopped."
 msgstr ""
+"Mari’nin arazi savunmaları (düşman saldırılarından kaçınma şansı) "
+"alışılmadık derecede yüksektir. <i><b>Avcı</b></i> yeteneği, düşmanların "
+"Denetim Alanı’nı yok saymasını sağlar — düşman birimlerinin çevresinde "
+"durdurulmadan serbestçe hareket edebilir."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:270
@@ -1599,6 +1841,10 @@ msgid ""
 "be loaded one-handed. Altogether, I’ll bet I could outlast both Hylas and "
 "Gerrick in a 1-on-1. And you too, but that goes without saying."
 msgstr ""
+"Ayrıca epey iyi bir sapanım var, çünkü tek elle doldurulabilen pek fazla "
+"menzilli silah yok. Hepsi bir arada, bire bir dövüşte hem Haylas’tan hem de "
+"Gerik’ten daha uzun dayanırım, bahse girerim. Senden de, ama orası "
+"söylemeye bile gerek yok."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:274
@@ -1606,6 +1852,8 @@ msgid ""
 "And... if you come with me you’ll actually help fight? No more training, or "
 "observing, or running off right before the battle starts?"
 msgstr ""
+"Ve... benimle gelirsen gerçekten savaşa yardım edecek misin? Artık eğitim, "
+"gözlemcilik ya da savaş başlamadan hemen önce ortadan kaybolmak yok mu?"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:278
@@ -1614,6 +1862,9 @@ msgid ""
 "just thought... well, after losing one arm to undead in the Estmarks, I "
 "hoped I was done dealing with this sort of thing."
 msgstr ""
+"Elbette. Yol kesiciler bir şey, ama ölü çağırma ciddi iş. Ben sadece... "
+"şey, Doğu Sınırları’nda yarı ölülere bir kolumu kaptırdıktan sonra bu tür "
+"işlerle işimin bittiğini ummuştum."
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:287
@@ -1622,6 +1873,9 @@ msgid ""
 "sling, skill at evading attacks, and can move freely around enemies without "
 "being stopped."
 msgstr ""
+"Zaten söyledim, değil mi? Bu sefer dikkatini ver — bir kılıcım ve sapanım "
+"var, saldırılardan kaçınmada ustayım ve düşmanların etrafında durdurulmadan "
+"serbestçe hareket edebilirim."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:312
@@ -1631,6 +1885,10 @@ msgid ""
 "village. This doesn’t stack with healing from villages or other healers, "
 "however."
 msgstr ""
+"Ben bir hekimim, Teğmen Deoran. İçimdeki ışık, <i><b>bitişik "
+"birimleri</b></i> bir köyde dinlenmek kadar hızlı "
+"<i><b>iyileştirebilir</b></i>. Ancak bu, köylerden ya da diğer şifacılardan "
+"gelen iyileşmeyle birleşmez."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:316
@@ -1639,6 +1897,10 @@ msgid ""
 "attack. Magical attacks always have a high chance to hit and are unaffected "
 "by terrain, making them ideal against evasive or fortified enemies."
 msgstr ""
+"Menzilli dövüşte ayrıca isabet oranı çok yüksek <i><b>büyülü</b></i> bir "
+"saldırım var. Büyülü saldırıların isabet şansı her zaman yüksektir ve "
+"araziden etkilenmez; bu da onları kaçamak veya tahkim edilmiş düşmanlara "
+"karşı ideal kılar."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:320
@@ -1646,6 +1908,8 @@ msgid ""
 "I don’t mean to be rude, but... your leg looks badly injured. If you have "
 "healing magic, shouldn’t you have been able to cure it?"
 msgstr ""
+"Kaba olmak istemem ama... bacağınız kötü yaralı görünüyor. İyileştirme "
+"büyünüz varsa onu iyileştirebilmeniz gerekmez miydi?"
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:324
@@ -1657,6 +1921,11 @@ msgid ""
 "Alduin and studying the arcane arts — an opportunity to return home and "
 "offer to others the services that I never had."
 msgstr ""
+"Korkarım doğuştan çarpık. O zamanlar Vestin’de şifacı yoktu ve kemikler "
+"kötü kaynadı.\n"
+"\n"
+"Alduin Adası’na gidip gizem sanatlarını çalışmamın asıl nedeni de buydu — "
+"yurda dönüp benim hiç alamadığım hizmeti başkalarına sunma fırsatı."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:330
@@ -1665,6 +1934,9 @@ msgid ""
 "should know that it does somewhat slow my movement on the battlefield, even "
 "more so than is Sir Gerrick by his armor."
 msgstr ""
+"Bu engelimi uzun zaman önce kabullendim. Ama müstakbel komutanım olarak "
+"bilmelisiniz ki savaş alanında hareketimi biraz yavaşlatıyor; hem de "
+"Komutan Gerik’i zırhının yavaşlattığından daha fazla."
 
 #. [message]: speaker=Minister Hylas
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:339
@@ -1673,6 +1945,9 @@ msgid ""
 "turn. I wield a ranged magical attack that is highly accurate, irrespective "
 "of the terrain my opponent occupies."
 msgstr ""
+"Unuttunuz mu bile? Her elde bitişik birimleri orta derecede "
+"iyileştirebilirim. Rakibim hangi arazide olursa olsun isabet oranı çok "
+"yüksek, menzilli, büyülü bir saldırım var."
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:364
@@ -1681,6 +1956,9 @@ msgid ""
 "hits harder than any spear, an’ my crushin’ shield bash can <i><b>slow</b></"
 "i> enemies."
 msgstr ""
+"Eh delikanlı, yakın dövüşte canavarım; böbürlenmemi bağışla. Kılıcım her "
+"mızraktan sert vurur, ezici kalkan darbem de düşmanları "
+"<i><b>yavaşlatabilir</b></i>."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:368
@@ -1688,6 +1966,8 @@ msgid ""
 "Slowed enemies move at <i><b>half speed</b></i> and deal <i><b>half damage</"
 "b></i>."
 msgstr ""
+"Yavaşlatılmış düşmanlar <i><b>yarı hızla</b></i> hareket eder ve <i><b>yarı "
+"hasar</b></i> verir."
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:372
@@ -1696,11 +1976,14 @@ msgid ""
 "<i><b>resistance</b></i> against bladed or piercing weapons. If you need "
 "someone t’ break an enemy line, I’m your man."
 msgstr ""
+"Zırhım ağır ve hantal olabilir, ama bana kesici ya da delici silahlara "
+"karşı büyük bir <i><b>direnç</b></i> de sağlıyor. Bir düşman hattını yarmak "
+"için birine ihtiyacın varsa, aradığın adam benim."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:375
 msgid "Resistances and Damage Types"
-msgstr ""
+msgstr "Dirençler ve Hasar Türleri"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:377
@@ -1715,6 +1998,15 @@ msgid ""
 "To see a unit’s resistances, <b><i>right-click on it\n"
 "and select “Unit Type Description.”</i></b>"
 msgstr ""
+"Vesnot’taki her saldırının bir hasar türü vardır:\n"
+"kesme, delme, darbe, ateş, soğuk veya gizemli.\n"
+"\n"
+"Bazı birimlerin belirli hasar türlerine karşı\n"
+"dirençleri veya zaafları vardır. Örneğin Yürüyen\n"
+"Cesetler gizemli hasara karşı savunmasızdır.\n"
+"\n"
+"Bir birimin dirençlerini görmek için <b><i>ona sağ\n"
+"tıklayıp “Birim Türü Açıklaması”nı seçin.</i></b>"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:394
@@ -1723,6 +2015,9 @@ msgid ""
 "armor, an’ I can slow enemies t’ halve both their speed an’ damage. Try not "
 "t’ forget this time!"
 msgstr ""
+"Dediğim gibi, ağır zırhım sayesinde büyük hasar direncim var ve düşmanları "
+"yavaşlatıp hem hızlarını hem hasarlarını yarıya indirebilirim. Bu sefer "
+"unutmamaya çalış!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:412
@@ -1730,6 +2025,8 @@ msgid ""
 "I’ve decided: Captain Mari, I’d like you to accompany me on our mission to "
 "the elven vale. Make ready the men — we leave at next dawn!"
 msgstr ""
+"Kararımı verdim: Yüzbaşı Mari, elf vadisine yapacağımız görevde bana eşlik "
+"etmenizi istiyorum. Adamları hazırlayın — ilk şafakta yola çıkıyoruz!"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:416
@@ -1737,6 +2034,8 @@ msgid ""
 "Good luck, Deoran an’ Mari. We’re countin’ on you to stop the bandits an’ "
 "undead!"
 msgstr ""
+"İyi şanslar, Deoran ve Mari. Haydutları ve yarı ölüleri durdurmanız için "
+"size güveniyoruz!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:436
@@ -1744,6 +2043,8 @@ msgid ""
 "I’ve decided: Minister Hylas, I’d like you to accompany me on our mission to "
 "the elven vale. Make ready the men — we leave at next dawn!"
 msgstr ""
+"Kararımı verdim: Bakan Haylas, elf vadisine yapacağımız görevde bana eşlik "
+"etmenizi istiyorum. Adamları hazırlayın — ilk şafakta yola çıkıyoruz!"
 
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:440
@@ -1751,6 +2052,8 @@ msgid ""
 "Good luck, Deoran an’ Hylas. We’re countin’ on you to stop the bandits an’ "
 "undead!"
 msgstr ""
+"İyi şanslar, Deoran ve Haylas. Haydutları ve yarı ölüleri durdurmanız için "
+"size güveniyoruz!"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:460
@@ -1758,12 +2061,16 @@ msgid ""
 "I’ve decided: Sir Gerrick, I’d like you to accompany me on our mission to "
 "the elven vale. Make ready the men — we leave at next dawn!"
 msgstr ""
+"Kararımı verdim: Komutan Gerik, elf vadisine yapacağımız görevde bana eşlik "
+"etmenizi istiyorum. Adamları hazırlayın — ilk şafakta yola çıkıyoruz!"
 
 #. [message]: speaker=Mari
 #: data/campaigns/The_South_Guard/scenarios/02x_Westin.cfg:464
 msgid ""
 "Good luck, rookie. We’re counting on you to stop the bandits and undead!"
 msgstr ""
+"İyi şanslar, acemi. Haydutları ve yarı ölüleri durdurman için sana "
+"güveniyoruz!"
 
 #. [scenario]: id=03_Vale_of_Tears
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:12
@@ -1783,6 +2090,8 @@ msgid ""
 "This magical rune must have triggered the illusions we saw earlier. Whatever "
 "magic it once held is now gone."
 msgstr ""
+"Daha önce gördüğümüz yanılsamaları bu büyülü rün tetiklemiş olmalı. İçinde "
+"bir zamanlar ne büyü varsa artık tükenmiş."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:155
@@ -1790,6 +2099,8 @@ msgid ""
 "Whatever runic magic once guarded this side of the isthmus, it has already "
 "been exhausted."
 msgstr ""
+"Bir zamanlar kıstağın bu yanını hangi rün büyüsü koruyorduysa, çoktan "
+"tükenmiş."
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:197
@@ -1797,6 +2108,8 @@ msgid ""
 "Captain Mari, are we going in the right direction? I can hardly see a thing "
 "through this fog..."
 msgstr ""
+"Yüzbaşı Mari, doğru yöne mi gidiyoruz? Bu sisin içinde neredeyse hiçbir şey "
+"göremiyorum..."
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:198
@@ -1804,6 +2117,8 @@ msgid ""
 "Sir Gerrick, are we going in the right direction? I can hardly see a thing "
 "through this fog..."
 msgstr ""
+"Komutan Gerik, doğru yöne mi gidiyoruz? Bu sisin içinde neredeyse hiçbir "
+"şey göremiyorum..."
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:199
@@ -1811,6 +2126,8 @@ msgid ""
 "Minister Hylas, are we going in the right direction? I can hardly see a "
 "thing through this fog..."
 msgstr ""
+"Bakan Haylas, doğru yöne mi gidiyoruz? Bu sisin içinde neredeyse hiçbir şey "
+"göremiyorum..."
 
 #. [event]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:234
@@ -1821,12 +2138,12 @@ msgstr "Itelden"
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:235
 #: data/campaigns/The_South_Guard/scenarios/06a_Vengeance.cfg:974
 msgid "Galdrad"
-msgstr ""
+msgstr "Galdrad"
 
 #. [event]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:236
 msgid "Vaenuith"
-msgstr ""
+msgstr "Vaenuit"
 
 #. [event]
 #. [unit]: type=Elvish Shyde, id=Ethiliel
@@ -1843,46 +2160,38 @@ msgstr "Talçar"
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:244
-#, fuzzy
-#| msgid "Halt! Who enters our sacred grove without leave?"
 msgid "Halt! Who enters our sacred vale without leave?"
-msgstr "Dur! İzin almadan kutsal korumuza giren kim?"
+msgstr "Dur! Kutsal vadimize izinsiz giren kim?"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:247
 msgid "Deoran, I’m gonna say... yes."
-msgstr ""
+msgstr "Deoran, ben... evet diyeceğim."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:248
 msgid "...aye, Deoran, looks to be that way."
-msgstr ""
+msgstr "...evet Deoran, öyle görünüyor."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:249
 msgid "Given the evidence at hand, Deoran, I believe the answer is “yes.”"
-msgstr ""
+msgstr "Eldeki kanıtlara bakılırsa Deoran, sanırım cevap “evet.”"
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:254
-#, fuzzy
-#| msgid ""
-#| "Choose your words wisely, human. Know that the penalty for trespassing on "
-#| "our lands is death. What is your name?"
 msgid ""
 "Choose your words wisely, bandits. Speak, knowing that the penalty for "
 "trespassing on our lands is death."
 msgstr ""
-"Biirsin ki, topraklarımıza girmenin cezası ölümdür, onun için dikkatli "
-"konuş. Adın ne?"
+"Sözlerinizi dikkatle seçin, haydutlar. Konuşun, ama topraklarımıza izinsiz "
+"girmenin cezasının ölüm olduğunu bilerek."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:258
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:274
-#, fuzzy
-#| msgid "De—"
 msgid "I—"
-msgstr "Deor—"
+msgstr "Ben—"
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:262
@@ -1891,13 +2200,14 @@ msgid ""
 "those rags of the Urzas. Though it remains to be seen whether this proves an "
 "improvement — why do you enter the hallowed isle of Elrath?"
 msgstr ""
+"Bu bir haydut değil, çünkü bu insanlar Urzaların o paçavralarını değil, "
+"Güney Karakolu’nun sancağını taşıyor. Ancak bunun daha iyi olup olmadığı "
+"henüz belli değil — Elrat’ın kutsal adasına neden giriyorsunuz?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:266
-#, fuzzy
-#| msgid "Deora—"
 msgid "To—"
-msgstr "Deora—"
+msgstr "Şey—"
 
 #. [message]: speaker=Vaenuith
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:270
@@ -1907,6 +2217,10 @@ msgid ""
 "it is you humans who first brought this perverse sorcery to our great "
 "continent, when you arrived here centuries ago."
 msgstr ""
+"Yardımımızı istemek için, hiç şüphesiz. Havada bir karanlık, toprakta bir "
+"bozulma var. Biri kara büyüyle oynuyor. Unutmayalım ki bu sapkın büyücülüğü "
+"büyük kıtamıza ilk getiren, yüzyıllar önce buraya geldiğinizde siz "
+"insanlardınız."
 
 #. [message]: speaker=Talchar
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:278
@@ -1915,11 +2229,14 @@ msgid ""
 "the mystic arts is much more likely to be corrupted by such a force than to "
 "have the knowledge or ability to banish it."
 msgstr ""
+"Geçmiş, ırkınıza güvenilemeyeceğini göstermiştir. Gizem sanatlarında "
+"eğitimsiz bir insanın böyle bir güç tarafından yozlaştırılması, onu kovacak "
+"bilgi ya da yeteneğe sahip olmasından çok daha olasıdır."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:282
 msgid "But—"
-msgstr ""
+msgstr "Ama—"
 
 #. [message]: speaker=Vaenuith
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:286
@@ -1928,6 +2245,9 @@ msgid ""
 "allowed this blight to grow unchecked? Begone with you, mayfly, and leave to "
 "us our peace."
 msgstr ""
+"Bu belanın denetimsizce büyümesine sizin türünüzün eylemsizliği izin "
+"vermişken, neden şimdi sizinle müzakere edelim? Defol, bir günlük sinek, ve "
+"huzurumuzu bize bırak."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:291
@@ -1936,11 +2256,14 @@ msgid ""
 "something that began before my arrival! And besides, this is not the fault "
 "of “my kind” but of the Urza brothe—"
 msgstr ""
+"—ama, ama, buraya geleli daha bir ay bile olmadı! Ben gelmeden önce "
+"başlamış bir şey hakkında harekete geçemezdim ki! Üstelik bu “benim "
+"türümün” değil, Urza kardeşle—"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:296
 msgid "(deep breath)"
-msgstr ""
+msgstr "(derin bir nefes)"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:301
@@ -1948,6 +2271,8 @@ msgid ""
 "...honorable elves, I am Commander Deoran, of Westin’s South Guard. I cannot "
 "speak for the past, but in the present we need your help."
 msgstr ""
+"...saygıdeğer elfler, ben Vestin Güney Karakolu’ndan Komutan Deoran. Geçmiş "
+"adına konuşamam, ama şu an yardımınıza ihtiyacımız var."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:305
@@ -1956,6 +2281,9 @@ msgid ""
 "defiling the dead. We learned that this vale is a place of importance to "
 "them, and came seeking answers."
 msgstr ""
+"Çiftliklerimiz ve köylerimiz, kara büyüler yapıp ölüleri kirleten suçlular "
+"tarafından yağmalanıyor. Bu vadinin onlar için önemli bir yer olduğunu "
+"öğrendik ve cevap aramaya geldik."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:309
@@ -1964,6 +2292,9 @@ msgid ""
 "this spreading corruption, so that we may destroy it? Good elves of the "
 "vale, can you not aid us in our plight?"
 msgstr ""
+"Düşmanlarımız bu korkunç gücü nereden öğrendi? Bu yayılan bozulmanın "
+"kaynağını nasıl bulup yok edebiliriz? Vadinin iyi elfleri, bu zor "
+"durumumuzda bize yardım edemez misiniz?"
 
 #. [message]: speaker=Ithelden
 #. [message]: speaker=Ethiliel
@@ -1983,13 +2314,13 @@ msgid ""
 "...very well, outlander. The challenge is passed. Enter, and greet us as we "
 "are in life."
 msgstr ""
+"...pekâlâ, yabancı. Sınavı geçtin. İçeri gir ve bizi hayattaki halimizle "
+"selamla."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:325
-#, fuzzy
-#| msgid "?"
 msgid "!?"
-msgstr "?"
+msgstr "!?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:382
@@ -1998,26 +2329,29 @@ msgid ""
 "Half-alive echo? Was this something to help protect the valley from "
 "intruders?"
 msgstr ""
+"Bunlar hiç de gerçek elfler değildi! Bir tür... önceden kaydedilmiş bir "
+"yanılsama mıydı? Yarı canlı bir yankı mı? Vadiyi davetsiz misafirlerden "
+"korumaya yardım eden bir şey miydi bu?"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:385
 msgid "If that’s what it was, it didn’t work. Look!"
-msgstr ""
+msgstr "Öyleyse bile işe yaramamış. Bak!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:386
 msgid "If that’s what it were, it dinnae work. Look there!"
-msgstr ""
+msgstr "Öyleyse bile işe yaramamış. Şuraya bak!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:387
 msgid "If such was the intent, it does not seem to have worked. Look."
-msgstr ""
+msgstr "Amaç buysa bile işe yaramış gibi görünmüyor. Bakın."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:398
 msgid "Undead! In an elven valley?? And a caged elf, too!"
-msgstr ""
+msgstr "Yarı ölüler! Bir elf vadisinde mi?? Bir de kafese kapatılmış bir elf!"
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:402
@@ -2025,6 +2359,8 @@ msgid ""
 "The elven prisoner must have answers about what’s happened here. We shall "
 "break her free at once — make ready, Captain Mari!"
 msgstr ""
+"Elf tutsak burada neler olduğuna dair cevaplara sahip olmalı. Onu hemen "
+"kurtaracağız — hazırlan, Yüzbaşı Mari!"
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:403
@@ -2032,6 +2368,8 @@ msgid ""
 "The elven prisoner must have answers about what’s happened here. We shall "
 "break her free at once — make ready, Sir Gerrick!"
 msgstr ""
+"Elf tutsak burada neler olduğuna dair cevaplara sahip olmalı. Onu hemen "
+"kurtaracağız — hazırlan, Komutan Gerik!"
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:404
@@ -2039,11 +2377,13 @@ msgid ""
 "The elven prisoner must have answers about what’s happened here. We shall "
 "break her free at once — make ready, Minister Hylas!"
 msgstr ""
+"Elf tutsak burada neler olduğuna dair cevaplara sahip olmalı. Onu hemen "
+"kurtaracağız — hazırlanın, Bakan Haylas!"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:412
 msgid "Break the trapped elf out of her cage"
-msgstr ""
+msgstr "Kapana kısılmış elfi kafesinden kurtar"
 
 #. [note]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:421
@@ -2051,6 +2391,8 @@ msgid ""
 "To recruit units, you must first move Deoran onto a keep.\n"
 "    There are two elven keeps near the center of the map."
 msgstr ""
+"Birim almak için önce Deoran’ı bir burca götürmelisin.\n"
+"    Haritanın ortasına yakın iki elf burcu var."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:434
@@ -2059,6 +2401,10 @@ msgid ""
 "reduces performance, you can disable it by opening the Preferences menu "
 "(Ctrl-P), by selecting “Display” and unchecking “Animate Map.”</i>"
 msgstr ""
+"<i>Yağmur ya da karın oyuna hiçbir etkisi yoktur. Hava durumu dikkatini "
+"dağıtıyor ya da performansı düşürüyorsa, Tercihler menüsünü açıp (Ctrl-P) "
+"“Görüntü”yü seçerek ve “Haritayı Canlandır” seçeneğinin işaretini "
+"kaldırarak kapatabilirsin.</i>"
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:447
@@ -2066,6 +2412,8 @@ msgid ""
 "The humans return, but this time bearing the banners of Westin... If you’re "
 "here to help, attack this foul cage and smash it open!"
 msgstr ""
+"İnsanlar geri döndü, ama bu kez Vestin’in sancaklarıyla... Yardım etmek "
+"için buradaysanız, bu iğrenç kafese saldırın ve kırıp açın!"
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:478
@@ -2073,6 +2421,8 @@ msgid ""
 "Oh, the joy of once more spreading my wings! And to be saved by humans, of "
 "all things... who are you? Is this not some new deceit of the Urzas?"
 msgstr ""
+"Ah, kanatlarımı yeniden açmanın sevinci! Hem de insanlar tarafından "
+"kurtarılmak... siz kimsiniz? Bu Urzaların yeni bir hilesi değil mi?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:482
@@ -2081,6 +2431,9 @@ msgid ""
 "South Guard, and my allegiance lies with Westin, not those deplorable Urza "
 "brothers. But by Haldric, will you please tell what has happened here!?"
 msgstr ""
+"Seni yanılsamadan tanıyorum! Sakin ol dostum, ben Güney Karakolu’ndan "
+"Deoran’ım ve bağlılığım o alçak Urza kardeşlere değil, Vestin’e. Ama "
+"Haldrik aşkına, lütfen burada ne olduğunu anlatır mısın!?"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:486
@@ -2089,6 +2442,9 @@ msgid ""
 "imprisoned me here these long and terrible moons! ...but if you truly are of "
 "the South Guard, then you are not to blame."
 msgstr ""
+"Ne mi oldu? Siz çamur çocukları dostlarımı katlettiniz, bilgemizi "
+"götürdünüz, beni bu uzun ve korkunç aylar boyunca burada hapsettiniz! "
+"...ama gerçekten Güney Karakolu’ndansanız, suç sizde değil."
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:491
@@ -2098,6 +2454,11 @@ msgid ""
 "scholars, no match for your clubs and axes! My mentor, our great sage "
 "Mebrin, was taken away in chains; a foul insult for such a wise old elf."
 msgstr ""
+"Bir mevsimden daha uzun zaman önce, gece geldiler. Olanların hepsini "
+"görmedim, ama çığlıkları duydum... Çoğumuz zanaatkâr ve âlimdik; sizin "
+"sopalarınıza ve baltalarınıza denk değildik! Hocam, büyük bilgemiz Mebrin "
+"zincirlere vurulup götürüldü; böylesine bilge, yaşlı bir elf için ne iğrenç "
+"bir hakaret."
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:495
@@ -2107,6 +2468,11 @@ msgid ""
 "bodies began to be defiled by wicked undeath, raised anew by the outlaw "
 "brothers to do their dark bidding..."
 msgstr ""
+"Ben de canlı bırakıldım — belki de yüksek konumum sayesinde — ama hayatta "
+"kalanların geri kalanı soğukkanlılıkla tek tek idam edildi. Çok geçmeden "
+"bedenleri kötücül bir ölümsüzlükle kirletilmeye başlandı; kanun kaçağı "
+"kardeşler onları karanlık emirlerini yerine getirsinler diye yeniden "
+"diriltti..."
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:570
@@ -2115,6 +2481,9 @@ msgid ""
 "the master’s magic whispers promises of life eternal, whispers beautiful "
 "secrets..."
 msgstr ""
+"Ah, parmak uçlarımdaki şu güzel karıncalanma! Sarhoş edici, coşturucu... "
+"efendinin büyüsü sonsuz yaşam vaatleri fısıldıyor, güzel sırlar "
+"fısıldıyor..."
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:576
@@ -2124,6 +2493,10 @@ msgid ""
 "nary a living soul since the last of my living followers joined the hordes "
 "of eternal unlife."
 msgstr ""
+"Ama bu da ne? Tam zamanında geldim, çünkü misafirlerimiz var, insan "
+"misafirler! Hoş geldiniz, hoş geldiniz. Ziyaretçiler beni çok mutlu etti, "
+"çünkü yaşayan son takipçim de sonsuz ölümsüzlük ordularına katıldığından "
+"beri tek bir canlı görmedim."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:583
@@ -2131,6 +2504,8 @@ msgid ""
 "Vermin! Scum! You black-souled degenerate! Where is your younger brother? "
 "What have you done with my sage Mebrin?"
 msgstr ""
+"Haşere! Pislik! Seni kara ruhlu soysuz! Küçük kardeşin nerede? Bilgem "
+"Mebrin’e ne yaptınız?"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:587
@@ -2139,6 +2514,9 @@ msgid ""
 "many good memories... if only the master hadn’t instructed me to leave you "
 "intact, we could have had even more!"
 msgstr ""
+"Etiliyel, dehşete düştüm! Birlikte geçirdiğimiz güzel zamanlardan "
+"hoşlanmadın mı? Ne çok güzel anı... keşke efendi seni sağ salim bırakmamı "
+"emretmeseydi, daha da fazlasını yaşayabilirdik!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:591
@@ -2146,6 +2524,8 @@ msgid ""
 "But that command was so many moons ago... now that the little bird has "
 "slipped her cage, perhaps the rules can be different, hmm?"
 msgstr ""
+"Ama o emir aylar önceydi... şimdi küçük kuş kafesinden kaçtığına göre belki "
+"kurallar değişebilir, hmm?"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:595
@@ -2153,6 +2533,8 @@ msgid ""
 "You always were the cruelest of my captors, Urza Nalmath. May your creator "
 "have mercy on you now that I am free, for I will not!"
 msgstr ""
+"Beni esir tutanların içinde her zaman en zalimi sendin, Urza Nalmat. Artık "
+"özgür olduğuma göre yaratıcın sana merhamet etsin, çünkü ben etmeyeceğim!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:599
@@ -2162,6 +2544,10 @@ msgid ""
 "village. You and I and all your new human friends are going to have such "
 "<b><i>fun</i></b> together..."
 msgstr ""
+"Etiliyel, seni zavallı, aldanmış kız. Senin küçük köyünün yıkıntılarından "
+"<b><i>ne kadar çok</i></b> yarı ölü dirilttiğimi en iyi sen bilmelisin. "
+"Sen, ben ve yeni insan dostlarının hepsi birlikte <b><i>çok "
+"eğleneceğiz</i></b>..."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:606
@@ -2170,6 +2556,9 @@ msgid ""
 "my captors, Urza Nalmath. May your creator have mercy on you once I get "
 "free, for I will not!"
 msgstr ""
+"Haşere! Pislik! Seni kara ruhlu soysuz! Beni esir tutanların içinde her "
+"zaman en zalimi sendin, Urza Nalmat. Kurtulduğumda yaratıcın sana merhamet "
+"etsin, çünkü ben etmeyeceğim!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:610
@@ -2178,6 +2567,9 @@ msgid ""
 "So many good memories... if only the master hadn’t instructed me to leave "
 "you intact, we could have had even more!"
 msgstr ""
+"Etiliyel, dehşete düştüm! Birlikte geçirdiğimiz güzel zamanlardan "
+"hoşlanmıyor muydun? Ne çok güzel anı... keşke efendi seni sağ salim "
+"bırakmamı emretmeseydi, daha da fazlasını yaşayabilirdik!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:614
@@ -2187,6 +2579,10 @@ msgid ""
 "from the ruins of your little village. You and I and all your new human "
 "friends are going to have such <b><i>fun</i></b> together..."
 msgstr ""
+"Ama bu insan ziyaretçilerin seni kurtarmasına kesinlikle izin veremem. "
+"Senin küçük köyünün yıkıntılarından <b><i>ne kadar çok</i></b> yarı ölü "
+"dirilttiğimi en iyi sen bilmelisin. Sen, ben ve yeni insan dostlarının "
+"hepsi birlikte <b><i>çok eğleneceğiz</i></b>..."
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:637
@@ -2195,6 +2591,10 @@ msgid ""
 "so close to my camp, not supposed to be here at all... No, this simply won’t "
 "do. I’ll have to raise a few more of my beauties to slow you down."
 msgstr ""
+"Bir dakika, siz insanlar geleceğimi biliyor muydunuz? Kampıma bu kadar "
+"yakın olmamanız gerekiyordu, hiç burada olmamanız gerekiyordu... Hayır, bu "
+"hiç olmaz. Sizi yavaşlatmak için güzellerimden birkaçını daha diriltmem "
+"gerekecek."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:720
@@ -2202,16 +2602,19 @@ msgid ""
 "It’s an ambush! I’d hoped to never again see undead in these terrible "
 "numbers..."
 msgstr ""
+"Bu bir pusu! Yarı ölüleri bir daha asla bu korkunç sayılarda görmemeyi "
+"ummuştum..."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:721
 msgid "’tis an ambush! I’ve never e’en heard o’ so many elven undead!"
-msgstr ""
+msgstr "Bu bir pusu! Bu kadar çok elf yarı ölüsünü daha önce duymadım bile!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:722
 msgid "We are ambushed! Never-before have I seen so many elven undead."
 msgstr ""
+"Pusuya düşürüldük! Daha önce hiç bu kadar çok elf yarı ölüsü görmemiştim."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:726
@@ -2220,12 +2623,15 @@ msgid ""
 "this bandit’s magic runs low! Prepare for battle, soldiers of the South "
 "Guard, and brace for incoming attack!"
 msgstr ""
+"En büyük orduların bile sınırı vardır — bu haydudun büyüsü tükenene kadar "
+"bu yıkıntıları savunmalıyız! Savaşa hazırlanın, Güney Karakolu askerleri, "
+"gelecek saldırıya karşı sağlam durun!"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:729
 #: data/campaigns/The_South_Guard/utils/sg_help.cfg:92
 msgid "Turn Limits"
-msgstr ""
+msgstr "El Sınırları"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:731
@@ -2245,25 +2651,36 @@ msgid ""
 "<i><b>In this scenario, your objective is \n"
 "to survive until turns run out.</b></i>"
 msgstr ""
+"Çoğu senaryonun sol üst köşede gösterilen\n"
+"bir el sınırı vardır. Genellikle ellerin\n"
+"tükenmesi yenilgiyle sonuçlanır —\n"
+"sol üst köşedeki <i><b>“Menü”</b></i> düğmesine\n"
+"tıklayarak (ya da <i><b>Ctrl+J</b></i> kısayoluyla)\n"
+"<i><b>hedeflerini</b></i> kontrol et.\n"
+"\n"
+"Erken bitirmek genellikle sonraki\n"
+"senaryoda ek altınla (“erken bitirme\n"
+"bonusu”) ödüllendirilir, o yüzden oyalanma!\n"
+"\n"
+"<i><b>Bu senaryoda hedefin, eller\n"
+"bitene kadar hayatta kalmak.</b></i>"
 
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:752
 #: data/campaigns/The_South_Guard/scenarios/06a_Vengeance.cfg:569
 #: data/campaigns/The_South_Guard/scenarios/06a_Vengeance.cfg:703
-#, fuzzy
-#| msgid "Survive until end of turns"
 msgid "Survive until turns run out"
-msgstr "Eller bitene kadar dayan"
+msgstr "Eller bitene kadar hayatta kal"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:779
 msgid "I’m not used to fighting in fog like this! What a mess..."
-msgstr ""
+msgstr "Böyle bir siste savaşmaya alışık değilim! Ne karmaşa..."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:782
 msgid "Fog and Vision"
-msgstr ""
+msgstr "Sis ve Görüş"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:784
@@ -2277,11 +2694,19 @@ msgid ""
 "from using “undo”, so be careful \n"
 "where you move!"
 msgstr ""
+"Siste <b><i>birimler hareket menzillerinden\n"
+"1 altıgen daha uzağı görebilir</i></b>.\n"
+"Deoran gibi hızlı birimler harika\n"
+"gözcülerdir.\n"
+"\n"
+"Siste keşif yapmak “geri al”ı\n"
+"kullanmanı engeller, o yüzden\n"
+"nereye gittiğine dikkat et!"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:802
 msgid "Bluffs and Gulches"
-msgstr ""
+msgstr "Yarlar ve Vadiler"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:804
@@ -2295,11 +2720,19 @@ msgid ""
 "do look pretty! <i>(or at\n"
 "least we devs think so)</i>"
 msgstr ""
+"Bu uçurumların oyuna ne\n"
+"etkisi olduğunu merak\n"
+"ettin mi?\n"
+"\n"
+"Aslında... hiçbir şey\n"
+"yapmıyorlar. Ama güzel\n"
+"görünüyorlar! <i>(en azından\n"
+"biz geliştiriciler öyle düşünüyoruz)</i>"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:823
 msgid "Useful Options"
-msgstr ""
+msgstr "Faydalı Seçenekler"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:825
@@ -2309,6 +2742,10 @@ msgid ""
 "<b><i>Menu</i></b> or <b><i>Actions</i></b> buttons in the top-left corner. "
 "Here are some of the most useful:"
 msgstr ""
+"Vesnot’un pek çok ayarı ve kısayol tuşu var. Tüm seçenekleri görmek için "
+"sol üst\n"
+"köşedeki <b><i>Menü</i></b> ya da <b><i>Eylemler</i></b> düğmelerini seç. "
+"İşte en faydalılardan bazıları:"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:828
@@ -2316,6 +2753,8 @@ msgid ""
 "• Before ending your turn, press <b><i>N</i></b> to find units that can "
 "still move or attack."
 msgstr ""
+"• Elini bitirmeden önce, hâlâ hareket edebilen ya da saldırabilen birimleri "
+"bulmak için <b><i>N</i></b> tuşuna bas."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:830
@@ -2323,6 +2762,8 @@ msgid ""
 "• To see which hexes enemies may be able to move to on their turn, press "
 "<b><i>Ctrl+V</i></b>."
 msgstr ""
+"• Düşmanların kendi ellerinde hangi altıgenlere gidebileceğini görmek için "
+"<b><i>Ctrl+V</i></b> tuşlarına bas."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:832
@@ -2332,6 +2773,10 @@ msgid ""
 "may also receive additional gold or units as part of scripted events (not "
 "shown)."
 msgstr ""
+"• Düşmanlarının ne kadar altını ve geliri olduğunu görmek için "
+"<b><i>Alt+S</i></b> tuşlarına bas. Düşmanlar\n"
+"senaryo olaylarının parçası olarak ek altın veya birim de alabilir "
+"(gösterilmez)."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:835
@@ -2344,11 +2789,18 @@ msgid ""
 "Tears.gz”</i>,\n"
 "not <i>“TSG-Vale of Tears-Auto-Save7.gz”</i>"
 msgstr ""
+"• Bütün seferberliği yeniden başlatmadan bir senaryonun zorluğunu "
+"değiştirmek için bir\n"
+"oyun yükle ve <b><i>Zorluğu Değiştir</i></b> seçeneğini işaretle. Bu "
+"seçenek yalnızca bir senaryonun\n"
+"başından yüklerken kullanılabilir — <i>“TSG-Vale of Tears.gz”</i> adlı "
+"kayıt dosyası,\n"
+"<i>“TSG-Vale of Tears-Auto-Save7.gz”</i> değil."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:849
 msgid "The sun is our ally! They’re afraid to fight in the light."
-msgstr ""
+msgstr "Güneş bizim müttefikimiz! Işıkta savaşmaktan korkuyorlar."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:905
@@ -2357,6 +2809,9 @@ msgid ""
 "should first move to a keep, then press <b>Ctrl+R</b> to recruit or "
 "<b>Alt+R</b> to recall."
 msgstr ""
+"Yarı ölü saldırısını atlatmak istiyorsam birim almam gerekecek! Önce bir "
+"burca gitmeli, sonra askere almak için <b>Ctrl+R</b>’ye ya da geri çağırmak "
+"için <b>Alt+R</b>’ye basmalıyım."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:922
@@ -2364,6 +2819,8 @@ msgid ""
 "I have recruited fresh soldiers, but not yet recalled any of my veterans! "
 "Without recalling I’ll struggle to build a strong army."
 msgstr ""
+"Yeni askerler aldım, ama henüz kıdemlilerimden hiçbirini geri çağırmadım! "
+"Geri çağırmadan güçlü bir ordu kurmakta zorlanacağım."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:926
@@ -2372,11 +2829,14 @@ msgid ""
 "<b>Alt+R</b> and recall them so they can continue gaining experience and be "
 "promoted to higher levels."
 msgstr ""
+"Önceki savaşlardan yüksek TP’li hayatta kalanların varsa, tecrübe kazanmaya "
+"devam edip daha yüksek seviyelere terfi edebilmeleri için <b>Alt+R</b>’ye "
+"basıp onları geri çağırmayı unutma."
 
 #. [message]: type=Ghoul
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:957
 msgid "Guuuhhh..."
-msgstr ""
+msgstr "Guuuhhh..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:961
@@ -2385,6 +2845,8 @@ msgid ""
 "worse than the walking corpses we’ve already fought, if such a thing is "
 "possible."
 msgstr ""
+"Bu zavallı elfe nasıl bir ölümsüzlük reva gördün! Mümkünse, şimdiye kadar "
+"savaştığımız yürüyen cesetlerden bile beter bu."
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:965
@@ -2393,11 +2855,14 @@ msgid ""
 "although come to think of it, she might wish she weren’t. Such a supple "
 "body; such an alluring voice. Isn’t she charming?"
 msgstr ""
+"Ölümsüzlük mü!? Beni gücendiriyorsunuz, efendim — bu güzel hanım hâlâ "
+"hayatta... gerçi düşününce, keşke ölmüş olsaydım diyordur belki. Ne esnek "
+"bir beden; ne çekici bir ses. Büyüleyici değil mi?"
 
 #. [message]: type=Ghoul
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:972
 msgid "Graaahhh..."
-msgstr ""
+msgstr "Graaahhh..."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:975
@@ -2406,6 +2871,10 @@ msgid ""
 "miss the smell. But the worst part is their claws — one scratch and you’ll "
 "be poisoned until healed at a village, or by a healer like Ethiliel."
 msgstr ""
+"Tam da ihtiyacımız olan şey: gulyabaniler. Bunlarla daha önce savaştım ve "
+"kokularını hiç özlemedim. Ama en kötüsü pençeleri — tek bir çizik ve bir "
+"köyde ya da Etiliyel gibi bir şifacı tarafından iyileştirilene kadar "
+"zehirlenirsin."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:976
@@ -2415,6 +2884,10 @@ msgid ""
 "to poison a man half-dead, unless healed at a village or by a healer like "
 "Ethiliel."
 msgstr ""
+"Haldrik aşkına, bunlar gerçek! Eskiler şişkin, yarı ölü yarı diri "
+"“gulyabanilerle” savaştıklarını anlatırdı... bir adamı yarı ölü hale "
+"getirecek kadar zehirlemek için tek bir çizik yetermiş, bir köyde ya da "
+"Etiliyel gibi bir şifacı tarafından iyileştirilmedikçe."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:977
@@ -2423,11 +2896,15 @@ msgid ""
 "carefully. Be wary of their claws, Deoran — one scratch and you’ll be "
 "poisoned until healed at a village, or by a healer like me or Ethiliel."
 msgstr ""
+"Pek iğrenç bir yaratık: gulyabaniler. Bozulma yayılıyor; dikkatli "
+"davranmalıyız. Pençelerine karşı tetikte ol, Deoran — tek bir çizik ve bir "
+"köyde ya da benim veya Etiliyel gibi bir şifacı tarafından iyileştirilene "
+"kadar zehirlenirsin."
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:982
 msgid "Poison"
-msgstr ""
+msgstr "Zehir"
 
 #. [display_tip]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:984
@@ -2442,6 +2919,14 @@ msgid ""
 "a healer (such as Ethiliel) will\n"
 "<i><b>cure poison.</b></i>"
 msgstr ""
+"Gulyabaniler birimlerinden birine her hasar\n"
+"verdiklerinde <i><b>zehirler</b></i>. Zehirlenmiş bir\n"
+"birim her elin başında <i><b>8 yaşam puanı</b></i>\n"
+"kaybeder. Zehir bir birimi asla öldüremez,\n"
+"ama 1 yaşam puanına kadar düşürebilir!\n"
+"\n"
+"Bir köyden ya da bir şifacıdan (Etiliyel gibi)\n"
+"<i><b>iyileşme almak zehri tedavi eder.</b></i>"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1010
@@ -2449,11 +2934,13 @@ msgid ""
 "So many of my soldiers are poisoned! I should position them on a village or "
 "next to Ethiliel, so they can begin to recover."
 msgstr ""
+"Askerlerimin çoğu zehirlendi! İyileşmeye başlayabilmeleri için onları bir "
+"köye ya da Etiliyel’in yanına yerleştirmeliyim."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1021
 msgid "Look! The fog is fading! I think we’ve survived the attack!"
-msgstr ""
+msgstr "Bakın! Sis dağılıyor! Sanırım saldırıyı atlattık!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1057
@@ -2462,6 +2949,8 @@ msgid ""
 "my face sweats; I need you back, please... I can’t bear to experience the "
 "world like this!"
 msgstr ""
+"Hayır, büyüm azalıyor! Güzel fısıltılar sönüyor! Ellerim titriyor, yüzüm "
+"terliyor; seni geri istiyorum, lütfen... dünyayı böyle yaşamaya dayanamam!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1061
@@ -2470,23 +2959,24 @@ msgid ""
 "intoxicate me again! The others warned me not to, but the master always told "
 "me what I needed to know. Yes, yes!"
 msgstr ""
+"Daha fazla güç, daha güçlü kölelere ihtiyacım var. Daha fazla güç beni "
+"yeniden coşturacak, yeniden sarhoş edecek! Diğerleri beni uyarmıştı, ama "
+"efendi bana bilmem gerekeni hep söylerdi. Evet, evet!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1068
 msgid "Skeletons! Watch out, Deoran, these things are nasty!"
-msgstr ""
+msgstr "İskeletler! Dikkat et Deoran, bunlar çok tehlikeli!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1069
 msgid "Look sharp, skeletons! Those old bones are comin’ straight for us!"
-msgstr ""
+msgstr "Gözünüzü dört açın, iskeletler! O kuru kemikler doğruca bize geliyor!"
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1070
-#, fuzzy
-#| msgid "The darkness beckons..."
 msgid "Skeletons. The darkness grows."
-msgstr "Karanlık çağırıyor..."
+msgstr "İskeletler. Karanlık büyüyor."
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1098
@@ -2494,6 +2984,8 @@ msgid ""
 "Nnrrgh!! No, I created you! Attack them, not me! The master never taught me "
 "how to control these things!"
 msgstr ""
+"Nnrrgh!! Hayır, sizi ben yarattım! Onlara saldırın, bana değil! Efendi bana "
+"bu şeyleri nasıl kontrol edeceğimi hiç öğretmedi!"
 
 #. [message]: speaker=Urza Nalmath
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1112
@@ -2501,16 +2993,18 @@ msgid ""
 "You won’t even exist without me! My power is what keeps you standing! You’re "
 "sealing your own re-deaths!"
 msgstr ""
+"Ben olmasam var bile olmazsınız! Sizi ayakta tutan benim gücüm! Kendi "
+"ikinci ölümünüzü hazırlıyorsunuz!"
 
 #. [message]: type=Revenant # because its portrait is pretty
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1116
 msgid "More... power..."
-msgstr ""
+msgstr "Daha fazla... güç..."
 
 #. [message]: type=Deathblade # because its portrait is pretty
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1120
 msgid "More... death..."
-msgstr ""
+msgstr "Daha fazla... ölüm..."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1147
@@ -2518,6 +3012,8 @@ msgid ""
 "Slain by his own creations; a fitting end for such a villain! Good riddance "
 "to him."
 msgstr ""
+"Kendi yarattıkları tarafından öldürüldü; böyle bir kötüye yakışır bir son! "
+"Kurtulduk ondan."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1151
@@ -2526,6 +3022,9 @@ msgid ""
 "settlement in comparison to the great elven forests, but they were still "
 "your friends."
 msgstr ""
+"Sana gelince Etiliyel, çok şey çektin. Büyük elf ormanlarıyla "
+"karşılaştırıldığında burası küçük bir yerleşimdi, biliyorum, ama yine de "
+"onlar senin dostlarındı."
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1159
@@ -2533,6 +3032,8 @@ msgid ""
 "Ethiliel, you have endured much. I know this was just a small settlement in "
 "comparison to the great elven forests, but they were still your friends."
 msgstr ""
+"Etiliyel, çok şey çektin. Büyük elf ormanlarıyla karşılaştırıldığında "
+"burası küçük bir yerleşimdi, biliyorum, ama yine de onlar senin dostlarındı."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1165
@@ -2541,14 +3042,17 @@ msgid ""
 "to escort you north to the Aethenwood, where you will be among more of your "
 "kind and safe from any further harm."
 msgstr ""
+"Gel, seni bu lanetli yerden uzaklaştıralım. Adamlarım ve ben seni kuzeyde "
+"Eten Ormanı’na seve seve götürürüz; orada kendi türünden daha çok kişinin "
+"arasında olur, her türlü zarardan uzak olursun."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1170
-#, fuzzy
-#| msgid "... Ethiliel? I know you must be distraught, but—"
 msgid ""
 "...Ethiliel? I know you must be distraught to be the last of your town, but—"
-msgstr "... Etiliyel? Biliyorum, perişan durumda olmalısın ama—"
+msgstr ""
+"...Etiliyel? Kasabandan geriye kalan son kişi olmanın seni perişan ettiğini "
+"biliyorum, ama—"
 
 #. [message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1174
@@ -2557,6 +3061,10 @@ msgid ""
 "the valefolk — do not forget that our great sage Mebrin yet lives. I saw him "
 "dragged off in chains, taken south from here towards the Black Forest."
 msgstr ""
+"Perişan mı? <b><i>Perişan mı!?</i></b> Ben intikam peşindeyim! Vadi "
+"halkının sonuncusu değilim — büyük bilgemiz Mebrin’in hâlâ yaşadığını "
+"unutma. Zincirler içinde sürüklenip buradan güneye, Kara Orman’a doğru "
+"götürüldüğünü gördüm."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1177
@@ -2566,6 +3074,10 @@ msgid ""
 "and neither the Urza brothers nor their mysterious “master” seem the type to "
 "take prisoners — present company excluded."
 msgstr ""
+"Kabullenmesi zor, biliyorum Etiliyel, ama bilgen Kara Orman’a götürüldüyse "
+"büyük ihtimalle bir daha çıkmayacak. Aylar oldu diyorsun; ne Urza kardeşler "
+"ne de onların gizemli “efendisi” tutsak alacak tipler gibi görünüyor — "
+"burada bulunanlar hariç."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1178
@@ -2574,6 +3086,9 @@ msgid ""
 "you say it’s been months? Neither th’ Urza brothers nor tha’ mysterious "
 "“master” seem th’ type t’ take prisoners — present company aside, o’ course."
 msgstr ""
+"Evet, o zaman hayattaymış, ama şimdi de öyle mi? Kara Orman, Etiliyel... "
+"hem aylar oldu diyorsun? Ne Urza kardeşler ne de o gizemli “efendi” tutsak "
+"alacak tipler gibi görünüyor — burada bulunanlar hariç tabii."
 
 #. [companion_message]
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1179
@@ -2582,6 +3097,9 @@ msgid ""
 "attracts evil, and neither the Urza brothers nor their mysterious “master” "
 "have shown an inclination for prisoners — present company excluded."
 msgstr ""
+"Korkarım şans bilgenden yana değil, Etiliyel. Kara Orman sık sık kötülüğü "
+"cezbeder ve ne Urza kardeşler ne de onların gizemli “efendisi” tutsak "
+"almaya bir eğilim göstermiştir — burada bulunanlar hariç."
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1183
@@ -2592,6 +3110,11 @@ msgid ""
 "Aethenwood. We must not abandon the last of my friends to an uncertain fate "
 "— shall you not help me find him and rescue him?"
 msgstr ""
+"Anlamadığın şey hakkında kötü konuşma, insan. Hocam yaşlı olabilir, ama "
+"onun zeki ve dayanıklı olduğunu biliyorum: hem ışığın hem karanlığın "
+"büyüsünde usta ve Eten Ormanı’nda herkesin en yüksek saygısını kazanmış "
+"biri. Son dostumu belirsiz bir kadere terk etmemeliyiz — onu bulup "
+"kurtarmam için bana yardım etmeyecek misiniz?"
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1188
@@ -2600,6 +3123,9 @@ msgid ""
 "would be a great risk for us to venture so far afield, isolated from Westin "
 "and in unknown territories."
 msgstr ""
+"Bu Mebrin’in şansının zayıf olduğu konusunda Yüzbaşı Mari’ye "
+"katılmalıyım... Vestin’den uzak, bilinmeyen topraklarda bu kadar uzağa "
+"gitmek gerçekten de bizim için büyük bir risk olur."
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1189
@@ -2608,6 +3134,9 @@ msgid ""
 "would be a great risk for us to venture so far afield, isolated from Westin "
 "and in unknown territories."
 msgstr ""
+"Bu Mebrin’in şansının zayıf olduğu konusunda Komutan Gerik’e "
+"katılmalıyım... Vestin’den uzak, bilinmeyen topraklarda bu kadar uzağa "
+"gitmek gerçekten de bizim için büyük bir risk olur."
 
 #. [companion_message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1190
@@ -2616,6 +3145,9 @@ msgid ""
 "truly would be a great risk for us to venture so far afield, isolated from "
 "Westin and in unknown territories."
 msgstr ""
+"Bu Mebrin’in şansının zayıf olduğu konusunda Bakan Haylas’a katılmalıyım... "
+"Vestin’den uzak, bilinmeyen topraklarda bu kadar uzağa gitmek gerçekten de "
+"bizim için büyük bir risk olur."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1194
@@ -2625,11 +3157,15 @@ msgid ""
 "put an end to all this necromancy! And if Mebrin really does still live, "
 "then rescuing him is simply the right thing to do."
 msgstr ""
+"Ama tehlikeye rağmen içgüdüm yardım etmek yönünde. Bir Urza kardeş daha "
+"kaldı. Onu Kara Orman’da bulup yakalayabilirsek, bütün bu ölü çağırma işine "
+"sonunda bir son verebiliriz! Ve Mebrin gerçekten hâlâ yaşıyorsa, onu "
+"kurtarmak yapılması gereken doğru şeydir."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/03_Vale_of_Tears.cfg:1198
 msgid "Ethiliel, we’ll go."
-msgstr ""
+msgstr "Etiliyel, gidiyoruz."
 
 #. [scenario]: id=04_Choice_in_the_Fog
 #: data/campaigns/The_South_Guard/scenarios/04_Choice_in_the_Fog.cfg:14
@@ -2666,17 +3202,17 @@ msgstr "Gerd"
 #. [scenario]: id=04_Choice_in_the_Fog
 #: data/campaigns/The_South_Guard/scenarios/04_Choice_in_the_Fog.cfg:121
 msgid "Gral"
-msgstr ""
+msgstr "Gral"
 
 #. [scenario]: id=04_Choice_in_the_Fog
 #: data/campaigns/The_South_Guard/scenarios/04_Choice_in_the_Fog.cfg:122
 msgid "Grish"
-msgstr ""
+msgstr "Griş"
 
 #. [scenario]: id=04_Choice_in_the_Fog
 #: data/campaigns/The_South_Guard/scenarios/04_Choice_in_the_Fog.cfg:123
 msgid "Gart"
-msgstr ""
+msgstr "Gart"
 
 #. [side]: type={ON_DIFFICULTY Necrophage Necrophage Ghast}, id=Gruu
 #: data/campaigns/The_South_Guard/scenarios/04_Choice_in_the_Fog.cfg:134
