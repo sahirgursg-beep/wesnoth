@@ -13924,7 +13924,7 @@ msgid ""
 msgstr ""
 "Ölmüş bir kara büyücüden yağmalanan bu tuhaf asa kullanıcısına <i><b>kaypak</"
 "b></i> özelliği ile  Yürüyen Cesetleri ve Ruhsuzları <i><b>askere alma ve "
-"geri çağırma</i></b> yeteneği kazandırır.\n"
+"geri çağırma</b></i> yeteneği kazandırır.\n"
 "<i><b>6x3 darbe</b></i> hasarı, <i>veba</i>."
 
 #. [message]: speaker=Owaec
