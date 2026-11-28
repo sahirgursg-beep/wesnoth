@@ -205,6 +205,20 @@
     }
   }).observe(document.body, { childList: true });
 
+  // The game only writes its preferences on exit, which never happens in a
+  // tab; ask it to write them whenever the tab is hidden or closed.
+  function savePreferences() {
+    if (!window.wesnothStarted) { return; }
+    try {
+      if (Module._wesnoth_web_save_preferences) { Module._wesnoth_web_save_preferences(); }
+      Module.FS.syncfs(false, (err) => { if (err) { console.warn("syncfs:", err); } });
+    } catch (e) {
+      logLine("js-error", "saving preferences: " + e);
+    }
+  }
+  document.addEventListener("visibilitychange", () => { if (document.hidden) { savePreferences(); } });
+  window.addEventListener("pagehide", savePreferences);
+
   // Fallback persistence in case autoPersist is not available.
   setInterval(() => {
     if (window.wesnothStarted && Module.FS) {

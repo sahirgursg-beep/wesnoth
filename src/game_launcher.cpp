@@ -102,6 +102,20 @@ static void web_wait_for_game_data()
 	// Images looked up before their package arrived were cached as missing.
 	image::flush_cache();
 }
+
+/**
+ * Browser build: the game is never shut down normally (the tab is just
+ * closed), so the preferences, which are mostly written on exit, would be
+ * lost. The page calls this when the tab is hidden or closed.
+ */
+extern "C" EMSCRIPTEN_KEEPALIVE void wesnoth_web_save_preferences()
+{
+	try {
+		prefs::get().write_preferences();
+	} catch(...) {
+		// the page keeps running; nothing useful to do here
+	}
+}
 #endif
 
 static lg::log_domain log_config("config");

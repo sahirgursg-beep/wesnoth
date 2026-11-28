@@ -67,4 +67,4 @@ Preview: https://sahirgursg-beep.github.io/wesnoth/ (Chrome/Edge with JSPI)
 - [x] faster start: only the core package before the title screen
 - [ ] music, more campaigns
 - [ ] browsers without JSPI (Asyncify build)
-- [ ] saves persist across reloads
+- [x] saves persist across reloads (IDBFS); preferences are written when the tab is hidden or closed
