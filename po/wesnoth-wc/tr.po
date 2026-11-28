@@ -330,8 +330,6 @@ msgstr "Harita Ayarları"
 
 #. [grid]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:57
-#, fuzzy
-#| msgid " players: "
 msgid "Players:"
 msgstr " oyuncular: "
 
@@ -400,8 +398,6 @@ msgid "Close"
 msgstr ""
 
 #: data/campaigns/World_Conquest/lua/campaign/enemy_themed.lua:5
-#, fuzzy
-#| msgid "$name|'s pet"
 msgid "$name|’s pet"
 msgstr "$name için evcil hayvan"
 
@@ -2662,8 +2658,6 @@ msgstr "Başlangıç"
 
 #. [lua]: wc_ii_generate_scenario
 #: data/campaigns/World_Conquest/lua/map/main.lua:127
-#, fuzzy
-#| msgid "Scenario"
 msgid "Scenario "
 msgstr "Senaryo"
 

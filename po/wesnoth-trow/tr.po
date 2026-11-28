@@ -64,12 +64,6 @@ msgstr "Lider"
 
 #. [campaign]: id=The_Rise_of_Wesnoth
 #: data/campaigns/The_Rise_Of_Wesnoth/_main.cfg:24
-#, fuzzy
-#| msgid ""
-#| "Lead Prince Haldric through the destruction of the Green Isle and across "
-#| "the Ocean to establish the very kingdom of Wesnoth itself. The "
-#| "confrontation with Lich-Lord Jevyan awaits...\n"
-#| "\n"
 msgid ""
 "Lead Prince Haldric through the destruction of the Green Isle and across the "
 "Ocean to establish the very Kingdom of Wesnoth itself. The confrontation "
@@ -77,8 +71,8 @@ msgid ""
 "\n"
 msgstr ""
 "Yeşil adanın harap olmasından sonra Okyanusu geçmesi ve Vesnot Krallığını "
-"kurması için Prens Haldrik’e rehberlik edin. Umacı Lord Jevyan’la karşılaşma "
-"seni bekliyor...\n"
+"kurması için Prens Haldrik’e rehberlik edin. Umacı Lord Jevyan’la "
+"karşılaşma seni bekliyor...\n"
 "\n"
 
 #. [campaign]: id=The_Rise_of_Wesnoth
@@ -7022,19 +7016,14 @@ msgstr ""
 
 #. [unit_type]: id=Familiar, race=undead
 #: data/campaigns/The_Rise_Of_Wesnoth/units/Familiar.cfg:17
-#, fuzzy
-#| msgid ""
-#| "Powerful magic users sometimes have familiars, creatures which have had a "
-#| "spirit or minor demon drawn into them. A familiar may act as a spy or "
-#| "messenger for its master."
 msgid ""
 "Powerful magic users sometimes have Familiars, creatures which have had a "
 "spirit or minor demon drawn into them. A familiar may act as a spy or "
 "messenger for its master."
 msgstr ""
 "Güçlü sihir kullanıcılarının bazen kendilerine sadık, bir ruhu veya küçük "
-"bir iblisi olan yaratıkları olabilir. Bu yaratıklar, sahipleri için casusluk "
-"veya habercilik yapabilir."
+"bir iblisi olan yaratıkları olabilir. Bu yaratıklar, sahipleri için "
+"casusluk veya habercilik yapabilir."
 
 #. [unit_type]: id=Jevyan, race=undead
 #. [unit_type]: id=Jevyan Cloaked, race=undead

@@ -290,21 +290,16 @@ msgstr "Geçmişi Yadetmek"
 
 #. [part]
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/02_Reclaiming_the_Past.cfg:27
-#, fuzzy
-#| msgid ""
-#| "Following the victory against the orcs, Aiglondur was summoned to the "
-#| "audience hall of Hamel, lord of Knalga and Lord Companion of the Northern "
-#| "Alliance. Beside the dais stood a stranger in the robes of the Order of "
-#| "Loremasters..."
 msgid ""
 "Following the victory against the orcs, Aiglondur was summoned to the "
 "audience hall of Hamel, Lord of Knalga and Lord Companion of the Northern "
 "Alliance. Beside the dais stood a stranger in the robes of the Order of "
 "Loremasters..."
 msgstr ""
-"Orklara karşı zaferin ardından, Aglondur, Kanalga Lordu ve Kuzey İttifakının "
-"Kurucu Lordu Hamel’in kabul salonuna davet edildi. Kürsünün yanında "
-"Oymacılar Loncasının cübbesini giymiş bir yabancı ayakta duruyordu..."
+"Orklara karşı zaferin ardından, Aglondur, Kanalga Lordu ve Kuzey "
+"İttifakının Kurucu Lordu Hamel’in kabul salonuna davet edildi. Kürsünün "
+"yanında Oymacılar Loncasının cübbesini giymiş bir yabancı ayakta "
+"duruyordu..."
 
 #. [side]: type=Dwarvish Lord, id=Hamel
 #. [side]: type=Orcish Warrior, id=Marth-Tak

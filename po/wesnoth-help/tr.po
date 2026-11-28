@@ -949,11 +949,6 @@ msgstr "Arazi Yükseklik Grafikleri"
 
 #. [topic]: id=editor_terrain_elevation
 #: data/core/editor/help.cfg:165
-#, fuzzy
-#| msgid ""
-#| "A cosmetic elevation effect that looks a little different in the editor "
-#| "than in the game due to visual aids in the editor; all the overlays "
-#| "described here are found in the terrain palette’s “elevation” group."
 msgid ""
 "A cosmetic elevation effect that looks a little different in the editor than "
 "in the game due to visual aids in the editor; all the overlays described "
@@ -2049,22 +2044,16 @@ msgstr ""
 
 #. [topic]: id=editor_palette
 #: data/core/editor/help.cfg:461
-#, fuzzy
-#| msgid "Show all kinds of terrain"
 msgid "Show all kinds of terrain"
 msgstr "Tüm arazi türlerini göster"
 
 #. [topic]: id=editor_palette
 #: data/core/editor/help.cfg:462
-#, fuzzy
-#| msgid "Show only water terrains"
 msgid "Show only water terrains"
 msgstr "Yalnız sulu arazileri göster"
 
 #. [topic]: id=editor_palette
 #: data/core/editor/help.cfg:463
-#, fuzzy
-#| msgid "Show only villages"
 msgid "Show only villages"
 msgstr "Yalnız köyleri göster"
 
@@ -3457,12 +3446,6 @@ msgstr "Bilinmeyen Birim"
 
 #. [topic]: id=.unknown_unit
 #: data/core/help.cfg:158
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "This unit is unknown for the moment. You must discover it in the game to "
-#| "be allowed to see its description."
 msgid ""
 "This unit is unknown for the moment. You must discover it in the game to be "
 "allowed to see its description."
@@ -3710,15 +3693,6 @@ msgstr ""
 
 #. [topic]: id=recruit_and_recall
 #: data/core/help.cfg:200
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "If you right-clicked on a castle hex and selected recruit, the new unit "
-#| "will appear in that hex. Otherwise, it will appear in a free hex near the "
-#| "keep. You may only recruit as many units as you have free hexes in your "
-#| "castle, and you cannot spend more gold than you actually have on "
-#| "recruiting."
 msgid ""
 "If you right-clicked on a castle hex and selected recruit, the new unit will "
 "appear in that hex. Otherwise, it will appear in a free hex near the keep. "
@@ -3751,13 +3725,6 @@ msgstr ""
 
 #. [topic]: id=recruit_and_recall
 #: data/core/help.cfg:204
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "In later scenarios, you may also Recall survivors from earlier battles. "
-#| "Recalling costs a standard 20 gold and presents you with a list of all "
-#| "surviving units from previous scenarios."
 msgid ""
 "In later scenarios, you may also Recall survivors from earlier battles. "
 "Recalling costs a standard 20 gold and presents you with a list of all "
@@ -3815,14 +3782,6 @@ msgstr ""
 
 #. [topic]: id=income_and_upkeep
 #: data/core/help.cfg:216
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Income is simple. You have a base income of 2 gold per turn. For every "
-#| "village you control, you gain one additional gold each turn. Thus, if you "
-#| "have ten villages, you would normally gain 12 gold each turn. Your upkeep "
-#| "costs are subtracted from this income, as detailed below."
 msgid ""
 "Income is simple. You have a base income of 2 gold per turn. For every "
 "village you control, you gain one additional gold each turn. Thus, if you "
@@ -3831,24 +3790,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Gelir basittir. Temel geliriniz her el için 2 altındır. Ayrıca, her el sahip "
-"olduğunuz her köy için bir altın daha kazanırsınız. (Genelde bu "
+"Gelir basittir. Temel geliriniz her el için 2 altındır. Ayrıca, her el "
+"sahip olduğunuz her köy için bir altın daha kazanırsınız. (Genelde bu "
 "yapılandırılabilir fakat seferberliklerde hemen hemen daima köy başına bir "
 "altındır.) Yani, eğer 10 tane köyünüz varsa normalde 12 altın kazanırsınız. "
 "Aşağıda açıklandığı gibi gideriniz bu gelirden çıkartılır."
 
 #. [topic]: id=income_and_upkeep
 #: data/core/help.cfg:219
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Upkeep is also fairly simple. Each unit requires an amount of Upkeep "
-#| "equal to its level. You can support as many levels worth of units as you "
-#| "have villages, without paying any upkeep. However, for each level of unit "
-#| "beyond the number of villages you have, you must pay one gold per turn. "
-#| "For example, if you have twelve level one units and ten villages, you "
-#| "would have to pay two gold each turn in upkeep."
 msgid ""
 "Upkeep is also fairly simple. Each unit requires an amount of Upkeep equal "
 "to its level. You can support as many levels worth of units as you have "
@@ -3861,21 +3810,14 @@ msgstr ""
 "\n"
 "Gider de oldukça basittir. Her birimin kendi seviyesine denk gideri vardır. "
 "Köyleriniz olduğu sürece altınınız harcanmadan birçok seviyeden birimi "
-"destekleyebilirsiniz. Bunun için birimlerinizin seviye toplamına denk sayıda "
-"köyünüz olması gerekir. Sahip olduğunuz köy sayısından fazla her birim "
-"seviyesi için, her el bir altın hesabınızdan düşürülür. Örneğin, eğer on iki "
-"adet birinci seviyeden biriminiz ve on adet köyünüz var ise, gider olarak "
-"her el iki altın hesabınızdan düşürülür."
+"destekleyebilirsiniz. Bunun için birimlerinizin seviye toplamına denk "
+"sayıda köyünüz olması gerekir. Sahip olduğunuz köy sayısından fazla her "
+"birim seviyesi için, her el bir altın hesabınızdan düşürülür. Örneğin, eğer "
+"on iki adet birinci seviyeden biriminiz ve on adet köyünüz var ise, gider "
+"olarak her el iki altın hesabınızdan düşürülür."
 
 #. [topic]: id=income_and_upkeep
 #: data/core/help.cfg:221
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Upkeep costs are subtracted from your income, so in the case of twelve "
-#| "levels of units and ten villages, your resultant Income would be 10 gold "
-#| "per turn."
 msgid ""
 "Upkeep costs are subtracted from your income, so in the case of twelve "
 "levels of units and ten villages, your resultant Income would be 10 gold per "
@@ -3987,14 +3929,6 @@ msgstr ""
 
 #. [topic]: id=advancement
 #: data/core/help.cfg:248
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Units have a certain amount of experience required to advance (this is "
-#| "20% less for units with the Intelligent trait). Once they achieve this "
-#| "amount, they immediately advance to the next level, healing fully in the "
-#| "process. In some cases, you will be given a choice of advancement options."
 msgid ""
 "Units have a certain amount of experience required to advance (this is 20% "
 "less for units with the Intelligent trait). Once they achieve this amount, "
@@ -4003,10 +3937,10 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Birimler bir üst seviye çıkmak için belirli bir tecrübeye gerek duyarlar (bu "
-"zeki mizaçlı birimlerde %20 daha azdır). Bir kere bu tecrübeye ulaştılar mı, "
-"hemen bir üst seviyeye terfi ederler, bu işlem sırasında tamamen "
-"iyileşirler. Bazı durumlarda, üst seviyeye erişmek seçeneklidir."
+"Birimler bir üst seviye çıkmak için belirli bir tecrübeye gerek duyarlar "
+"(bu zeki mizaçlı birimlerde %20 daha azdır). Bir kere bu tecrübeye "
+"ulaştılar mı, hemen bir üst seviyeye terfi ederler, bu işlem sırasında "
+"tamamen iyileşirler. Bazı durumlarda, üst seviyeye erişmek seçeneklidir."
 
 #. [topic]: id=advancement
 #: data/core/help.cfg:250
@@ -4172,13 +4106,6 @@ msgstr ""
 
 #. [topic]: id=movement
 #: data/core/help.cfg:264
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "To see where the enemy can move to during their next turn, press Ctrl-v "
-#| "or Cmd-v. Ctrl-b or Cmd-b shows where the enemy could move, if your units "
-#| "were not on the map to block their progress."
 msgid ""
 "To see where the enemy can move to during their next turn, press Ctrl-v or "
 "Cmd-v. Ctrl-b or Cmd-b shows where the enemy could move, if your units were "
@@ -4187,8 +4114,9 @@ msgstr ""
 "\n"
 "\n"
 "Bir sonraki el düşmanın nerelere hareket edebileceğini görmek için Ctrl-v "
-"veya Cmd-v’ye basınız. Ctrl-b veya Cmd-b ise birimlerinizin haritada olmayıp "
-"onları engellemese düşmanın nereye kadar hareket edebileceğini gösterir."
+"veya Cmd-v’ye basınız. Ctrl-b veya Cmd-b ise birimlerinizin haritada "
+"olmayıp onları engellemese düşmanın nereye kadar hareket edebileceğini "
+"gösterir."
 
 #. [topic]: id=vision
 #: data/core/help.cfg:271
@@ -4435,11 +4363,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:317
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Some common reasons for losing a scenario are:"
 msgid "Some common reasons for losing a scenario are:"
 msgstr ""
 "\n"
@@ -4488,14 +4411,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:323
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "• Missing clues. Often there will be hints in the campaign’s story and "
-#| "dialog about what to expect from a difficult scenario and how to prepare "
-#| "for it. If you have a loyal mage on your side, take the time to listen to "
-#| "its advice; it may save your life."
 msgid ""
 "• Missing clues. Often there will be hints in the campaign’s story and "
 "dialog about what to expect from a difficult scenario and how to prepare for "
@@ -4552,16 +4467,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:327
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "• Poor gold management. At higher difficulties, managing gold — capturing "
-#| "villages to increase the income, and using low-level units and fresh "
-#| "recruits to reduce the spending — becomes important. If you use many high-"
-#| "level units, you might win a scenario easily but have not enough gold "
-#| "carryover for the next scenario. (This would be an example of “barely "
-#| "scraping a victory”.)"
 msgid ""
 "• Poor gold management. At higher difficulties, managing gold — capturing "
 "villages to increase the income, and using low-level units and fresh "
@@ -4575,9 +4480,9 @@ msgstr ""
 "Kötü altın yönetimi. Yüksek zorluk seviyelerinde, altın yönetimi  — köyleri "
 "ele geçirmek geliri arttırırken düşük seviyeli ve taze birimleri kullanmak "
 "da gideri azaltır  — önemli duruma gelebilir. Çok sayıda yüksek seviyeli "
-"birim kullanırsanız bir senaryoyu kolayca kazanırsınız ama sonraki senaryoya "
-"yeterince altın aktaramazsınız. (Bu, \"Önceki senaryolardan zaferi kazımak\" "
-"konusuna çok iyi bir örnek olurdu.)"
+"birim kullanırsanız bir senaryoyu kolayca kazanırsınız ama sonraki "
+"senaryoya yeterince altın aktaramazsınız. (Bu, \"Önceki senaryolardan "
+"zaferi kazımak\" konusuna çok iyi bir örnek olurdu.)"
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:329
@@ -4594,12 +4499,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:331
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "In addition to the common reasons, listed above, there are a few other "
-#| "reasons which are unlikely, though not impossible. They are:"
 msgid ""
 "In addition to the common reasons, listed above, there are a few other "
 "reasons which are unlikely, though not impossible. They are:"
@@ -4611,13 +4510,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:333
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "• You may have played a strategy that the campaign developer did not "
-#| "anticipate, and ended up with a set of high-level units not suitable for "
-#| "the next scenario."
 msgid ""
 "• You may have played a strategy that the campaign developer did not "
 "anticipate, and ended up with a set of high-level units not suitable for the "
@@ -4631,16 +4523,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:335
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "• You may have found a scenario that can only be won on the second or "
-#| "third time through, whether by requiring above-average luck or by "
-#| "expecting the players to have foreknowledge — to know what surprises are "
-#| "coming up before they happen. (It is under discussion whether "
-#| "foreknowledge is expected at the highest difficulties. Requiring above-"
-#| "average luck, however, would qualify as a bug.)"
 msgid ""
 "• You may have found a scenario that can only be won on the second or third "
 "time through, whether by requiring above-average luck or by expecting the "
@@ -4653,8 +4535,8 @@ msgstr ""
 "\n"
 "• Ortalamanın üzerinde şans gerektirerek ya da oyuncuların önceden tahmin "
 "etmesini umarak - hangi sürprizlerin ortaya çıktığını gerçekleşmeden önce "
-"bilmek için - sadece ikinci veya üçüncü denemede kazanılabilecek bir senaryo "
-"bulmuş olabilirsiniz. (En yüksek zorluklarda öngörünün beklenip "
+"bilmek için - sadece ikinci veya üçüncü denemede kazanılabilecek bir "
+"senaryo bulmuş olabilirsiniz. (En yüksek zorluklarda öngörünün beklenip "
 "beklenmeyeceği tartışılmaktadır. Ancak, ortalamanın üzerinde şans "
 "gerektirdiğinden bir yazılım hatası olarak ele alınır.)"
 
@@ -4732,15 +4614,6 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:341
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "The “Damage Calculations” dialog shows some statistics that can help "
-#| "determine whether a match was very lucky or very unlucky. However, "
-#| "reading the statistics is no substitute to watching the replay and "
-#| "looking for strategic mistakes, or small bits of luck at critical points "
-#| "in the engagement."
 msgid ""
 "The “Damage Calculations” dialog shows some statistics that can help "
 "determine whether a match was very lucky or very unlucky. However, reading "
@@ -4813,17 +4686,6 @@ msgstr ""
 
 #. [topic]: id=combat
 #: data/core/help.cfg:353
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "The attacker gets the first strike, then the defender retaliates. Each "
-#| "strike either hits, doing a given amount of damage, or misses, doing no "
-#| "damage at all. Strikes alternate until each unit has used up all of its "
-#| "strikes. The number of strikes a unit has varies; for instance, an elvish "
-#| "fighter with a 5×4 attack may strike 4 times, each successful strike "
-#| "dealing 5 damage, while an orcish grunt with a 9×2 attack can only strike "
-#| "twice (but at 9 damage for each hit)."
 msgid ""
 "The attacker gets the first strike, then the defender retaliates. Each "
 "strike either hits, doing a given amount of damage, or misses, doing no "
@@ -4998,15 +4860,6 @@ msgstr ""
 
 #. [topic]: id=damage_types_and_resistance
 #: data/core/help.cfg:374
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Resistances work very simply: if a unit has 40% resistance against a "
-#| "damage type, then it will suffer 40% less damage when hit with that "
-#| "damage type. It is also possible for a unit to be vulnerable against some "
-#| "damage types. If a unit has −100% resistance against a damage type, it "
-#| "will suffer 100% more damage when hit by that type."
 msgid ""
 "Resistances work very simply: if a unit has 40% resistance against a damage "
 "type, then it will suffer 40% less damage when hit with that damage type. It "
@@ -5024,13 +4877,6 @@ msgstr ""
 
 #. [topic]: id=damage_types_and_resistance
 #: data/core/help.cfg:376
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "For example, skeletons are highly resistant to blade and pierce damage, "
-#| "but are vulnerable to impact and fire damage, and extremely vulnerable to "
-#| "arcane damage."
 msgid ""
 "For example, skeletons are highly resistant to blade and pierce damage, but "
 "are vulnerable to impact and fire damage, and extremely vulnerable to arcane "
@@ -5044,13 +4890,6 @@ msgstr ""
 
 #. [topic]: id=damage_types_and_resistance
 #: data/core/help.cfg:378
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "If a strike is determined to hit, it will always do at least 1 point of "
-#| "damage. This applies even if the defender has 100% resistance to the "
-#| "damage type."
 msgid ""
 "If a strike is determined to hit, it will always do at least 1 point of "
 "damage. This applies even if the defender has 100% resistance to the damage "
@@ -5331,14 +5170,6 @@ msgstr ""
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:472
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "The current time of day can be observed under the minimap in the status "
-#| "pane. For the usual day/night cycle, morning and afternoon count as day, "
-#| "first and second watch count as night:\n"
-#| "\n"
 msgid ""
 "The current time of day can be observed under the minimap in the status "
 "pane. For the usual day/night cycle, morning and afternoon count as day, "
@@ -5346,9 +5177,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Günün saati durum çubuğundaki mini haritadan takip edilebilir. Normal gündüz/"
-"gece döngüsü için, sabah ve öğle gündüz; gece ve sabaha karşı ise gece "
-"sayılır.\n"
+"Günün saati durum çubuğundaki mini haritadan takip edilebilir. Normal "
+"gündüz/gece döngüsü için, sabah ve öğle gündüz; gece ve sabaha karşı ise "
+"gece sayılır.\n"
 
 #. [topic]: id=time_of_day
 #. [time]: id=dawn
@@ -5392,23 +5223,15 @@ msgstr "Sabaha Karşı"
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:493
-#, fuzzy
-#| msgid ""
-#| "Keep in mind that some scenarios take place underground, where it is "
-#| "perpetually night!\n"
 msgid ""
 "Keep in mind that some scenarios take place underground, where it is "
 "perpetually night!"
 msgstr ""
-"Bazı senaryoların daima vaktin gece olarak kabul edildiği yeraltında geçtiği "
-"aklınızda bulunsun!\n"
+"Bazı senaryoların daima vaktin gece olarak kabul edildiği yeraltında "
+"geçtiği aklınızda bulunsun!\n"
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:495
-#, fuzzy
-#| msgid ""
-#| "Some underground locations are illuminated. They are perpetually "
-#| "intermediate between day and night.\n"
 msgid ""
 "Some underground locations are illuminated. They are perpetually "
 "intermediate between day and night."
@@ -5418,10 +5241,6 @@ msgstr ""
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:497
-#, fuzzy
-#| msgid ""
-#| "Some role-playing scenarios take place indoors — these regions are "
-#| "similarly intermediate.\n"
 msgid ""
 "Some role-playing scenarios take place indoors — these regions are similarly "
 "intermediate."
@@ -5577,13 +5396,6 @@ msgstr ""
 
 #. [topic]: id=healing
 #: data/core/help.cfg:516
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Resting can be combined with other forms of healing, but villages, "
-#| "regeneration, healing and curing cannot combine with each other: the best "
-#| "option will be used. Finally, units heal fully between scenarios."
 msgid ""
 "Resting can be combined with other forms of healing, but villages, "
 "regeneration, healing and curing cannot combine with each other: the best "
@@ -5592,8 +5404,8 @@ msgstr ""
 "\n"
 "\n"
 "Dinlenme diğer iyileşme eylemleri ile birleşebilir, ama köyler, yenilenme, "
-"tedavi ve ilaç verme bir arada uygulanamaz, en iyi seçenek uygulanır. Ayrıca "
-"birimler senaryolar arasında tamamen iyileşir."
+"tedavi ve ilaç verme bir arada uygulanamaz, en iyi seçenek uygulanır. "
+"Ayrıca birimler senaryolar arasında tamamen iyileşir."
 
 #. [topic]: id=healing
 #: data/core/help.cfg:518
@@ -5604,16 +5416,6 @@ msgstr "Terfi"
 
 #. [topic]: id=healing
 #: data/core/help.cfg:520
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Unlike other forms of healing, the heals ability will not take effect on "
-#| "the healed unit’s turn, but on the healer’s turn. This means that while a "
-#| "unit surrounded by several healers on the same side will only receive "
-#| "healing from one healer per turn, a unit surrounded by healers from "
-#| "several allied sides will be healed once on each of said allied sides’ "
-#| "turns."
 msgid ""
 "Unlike other forms of healing, the heals ability will not take effect on the "
 "healed unit’s turn, but on the healer’s turn. This means that while a unit "
@@ -5623,11 +5425,11 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Diğer iyileştirme biçimlerinin aksine, iyileştirme yeteneği iyileşen birimin "
-"sırası geldiğinde değil, şifacının sırası geldiğinde etkili olacaktır. Aynı "
-"taraftaki birkaç şifacıyla çevrili bir birim sadece bir şifacıdan şifa "
-"alırken, birkaç müttefik taraftan gelen şifacılarla çevrili bir birim "
-"müttefik tarafların sırası geldikçe her şifacıdan şifa alır."
+"Diğer iyileştirme biçimlerinin aksine, iyileştirme yeteneği iyileşen "
+"birimin sırası geldiğinde değil, şifacının sırası geldiğinde etkili "
+"olacaktır. Aynı taraftaki birkaç şifacıyla çevrili bir birim sadece bir "
+"şifacıdan şifa alırken, birkaç müttefik taraftan gelen şifacılarla çevrili "
+"bir birim müttefik tarafların sırası geldikçe her şifacıdan şifa alır."
 
 #. [topic]: id=wrap_up
 #: data/core/help.cfg:526
@@ -5789,14 +5591,6 @@ msgstr "Temel Arazi: "
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:563
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Basic terrain types include Flat, Hills, Mountains, Sands, Water and "
-#| "Swamps. There are many more besides these — a list of the terrain types "
-#| "you have discovered can be found at the end of this page.\n"
-#| "\n"
 msgid ""
 "Basic terrain types include Flat, Hills, Mountains, Sands, Water and Swamps. "
 "There are many more besides these — a list of the terrain types you have "
@@ -5811,14 +5605,6 @@ msgstr ""
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:566
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Every unit has a defense rating and a movement cost for each of the basic "
-#| "terrain types, and these values are listed in the unit’s help page. Basic "
-#| "terrain types may have unique properties like illumination effects as "
-#| "well."
 msgid ""
 "Every unit has a defense rating and a movement cost for each of the basic "
 "terrain types, and these values are listed in the unit’s help page. Basic "
@@ -5910,14 +5696,6 @@ msgstr ""
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:576
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Land-based villages generally give the best defense and movement as well. "
-#| "These villages are mixed terrains, based on the village terrain type, "
-#| "together with hill, swamp, and cave, respectively.\n"
-#| "\n"
 msgid ""
 "Land-based villages generally give the best defense and movement as well. "
 "These villages are mixed terrains, based on the village terrain type, "
@@ -5932,14 +5710,6 @@ msgstr ""
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:579
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Finally, water villages are generally inhospitable to land units, and do "
-#| "not give defense or movement benefits associated with the village terrain "
-#| "type. Instead, they count only as water tiles.\n"
-#| "\n"
 msgid ""
 "Finally, water villages are generally inhospitable to land units, and do not "
 "give defense or movement benefits associated with the village terrain type. "
@@ -5954,13 +5724,6 @@ msgstr ""
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:582
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "You can see what basic types a mixed terrain is comprised of by mousing "
-#| "over its hex and checking the terrain type icons displayed in the upper "
-#| "right (under the default theme)."
 msgid ""
 "You can see what basic types a mixed terrain is comprised of by mousing over "
 "its hex and checking the terrain type icons displayed in the upper right "
@@ -5968,9 +5731,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Farenizi karma bir arazi altıgenin üzerine getirdiğinizde karma bir arazinin "
-"hangi temel arazilerden oluştuğunu, üstte sağda (öntanımlı temanın altında) "
-"gösterilen arazi türü simgelerini inceleyerek görebilirsiniz."
+"Farenizi karma bir arazi altıgenin üzerine getirdiğinizde karma bir "
+"arazinin hangi temel arazilerden oluştuğunu, üstte sağda (öntanımlı temanın "
+"altında) gösterilen arazi türü simgelerini inceleyerek görebilirsiniz."
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:584
@@ -6046,12 +5809,6 @@ msgstr ""
 
 #. [topic]: id=..terrains_section
 #: data/core/help.cfg:592
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "If a unit has a defense cap for some terrain, it is always the same as "
-#| "its defense rating on that terrain (it cannot be larger)."
 msgid ""
 "If a unit has a defense cap for some terrain, it is always the same as its "
 "defense rating on that terrain (it cannot be larger)."
@@ -6234,13 +5991,6 @@ msgstr ""
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:636
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Modifications are optional scenario- and era-independent scripts that can "
-#| "alter the default ruleset in various ways. You can choose and configure "
-#| "modifications when creating a new game."
 msgid ""
 "Modifications are optional scenario- and era-independent scripts that can "
 "alter the default ruleset in various ways. You can choose and configure "
@@ -6334,15 +6084,6 @@ msgstr ""
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:646
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Content authors can use resource packs available on the add-ons server to "
-#| "enrich their own content with existing assets such as images, music, and "
-#| "code. These are not generally intended for direct use in-game; however, "
-#| "other playable add-ons may depend on them and suggest or require their "
-#| "installation during download."
 msgid ""
 "Content authors can use resource packs available on the add-ons server to "
 "enrich their own content with existing assets such as images, music, and "
@@ -6482,30 +6223,18 @@ msgstr "Genel Komutlar"
 #. [topic]: id=mp_commands
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:684 data/core/help.cfg:731 data/core/help.cfg:771
-#, fuzzy
-#| msgid ""
-#| "These commands can either be issued via the command line by prefixing "
-#| "them with ‘:’ (as shown here) or via the chat by prefixing them with "
-#| "‘/’ (press ‘m’ first to open the chat line).\n"
-#| "\n"
 msgid ""
 "These commands can either be issued via the command line by prefixing them "
 "with ‘:’ (as shown here) or via the chat by prefixing them with ‘/’ (press "
 "‘m’ first to open the chat line)."
 msgstr ""
 "Bu komutlar, komut satırı üzerinden ':' ile (burada gösterildiği gibi) "
-"öncelenerek veya sohbet satırında '/' ile öncelenerek (sohbet satırını açmak "
-"için önce 'm' ye basılmalıdır) kullanılabilir.\n"
+"öncelenerek veya sohbet satırında '/' ile öncelenerek (sohbet satırını "
+"açmak için önce 'm' ye basılmalıdır) kullanılabilir.\n"
 "\n"
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:687
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Similar to the ‘fps’ command, but also forces everything to redraw "
-#| "instead of only things that have changed.\n"
-#| "\n"
 msgid ""
 "Similar to the ‘fps’ command, but also forces everything to redraw instead "
 "of only things that have changed."
@@ -6517,11 +6246,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:690
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Clear chat messages.\n"
-#| "\n"
 msgid "Clear chat messages."
 msgstr ""
 "\n"
@@ -6555,16 +6279,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:699
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Switch a side between human and AI control. The second parameter can be "
-#| "‘off’ to bring the side under human control, ‘on’ to watch the AI make "
-#| "its moves, or ‘full’ to make the AI’s turn behave similarly to another "
-#| "player‘s turn. If no second parameter is supplied, it toggles between "
-#| "‘on’ and ‘off’. Defaults to toggling the currently active side if no "
-#| "parameters are supplied.\n"
-#| "\n"
 msgid ""
 "Switch a side between human and AI control. The second parameter can be "
 "‘off’ to bring the side under human control, ‘on’ to watch the AI make its "
@@ -6583,11 +6297,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:702
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Display the controller status of a side.\n"
-#| "\n"
 msgid "Display the controller status of a side."
 msgstr ""
 "\n"
@@ -6596,12 +6305,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:705
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle the display of the current frames per second. Also writes these "
-#| "values to a file in the userdata directory.\n"
-#| "\n"
 msgid ""
 "Toggle the display of the current frames per second. Also writes these "
 "values to a file in the userdata directory."
@@ -6613,11 +6316,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:708
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Switch a log domain to a different log level.\n"
-#| "\n"
 msgid "Switch a log domain to a different log level."
 msgstr ""
 "\n"
@@ -6626,11 +6324,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:711
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Redraws the screen and reloads any image files that have been changed.\n"
-#| "\n"
 msgid "Redraws the screen and reloads any image files that have been changed."
 msgstr ""
 "\n"
@@ -6639,11 +6332,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:714
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Bring up theme selection menu.\n"
-#| "\n"
 msgid "Bring up theme selection menu."
 msgstr ""
 "\n"
@@ -6652,11 +6340,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:717
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Quit the scenario (without prompting).\n"
-#| "\n"
 msgid "Quit the scenario (without prompting)."
 msgstr ""
 "\n"
@@ -6665,11 +6348,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:720
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Save the game (without prompting).\n"
-#| "\n"
 msgid "Save the game (without prompting)."
 msgstr ""
 "\n"
@@ -6678,10 +6356,6 @@ msgstr ""
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:723
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Save the game and quit the scenario (without prompting)."
 msgid "Save the game and quit the scenario (without prompting)."
 msgstr ""
 "\n"
@@ -6694,13 +6368,6 @@ msgstr "Çok Oyuncu Komutları"
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:734
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Ban a user in a multiplayer game by the IP address used by that username "
-#| "and kick him. Can be used on users not in the game but on the server. (Of "
-#| "course they won’t be kicked then.)\n"
-#| "\n"
 msgid ""
 "Ban a user in a multiplayer game by the IP address used by that username and "
 "kick him. Can be used on users not in the game but on the server. (Of course "
@@ -6743,12 +6410,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:740
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Launch a dialog to assist the host in changing the human controllers of "
-#| "sides.\n"
-#| "\n"
 msgid ""
 "Launch a dialog to assist the host in changing the human controllers of "
 "sides."
@@ -6760,12 +6421,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:743
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle the idle state for a side. The host may make a side idle after a "
-#| "network disconnection.\n"
-#| "\n"
 msgid ""
 "Toggle the idle state for a side. The host may make a side idle after a "
 "network disconnection."
@@ -6778,13 +6433,6 @@ msgstr ""
 #. [topic]: id=mp_commands
 #. ':control' is a command and should not be translated
 #: data/core/help.cfg:748
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Kick a user in multiplayer. They will be able to rejoin the game. If you "
-#| "just want to change control of their side(s) use the :control command "
-#| "instead.\n"
-#| "\n"
 msgid ""
 "Kick a user in multiplayer. They will be able to rejoin the game. If you "
 "just want to change control of their side(s) use the :control command "
@@ -6799,13 +6447,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:751
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Send a private message to a user. When in a game, it is not possible to "
-#| "send private messages to players who are currently controlling a side in "
-#| "the same game.\n"
-#| "\n"
 msgid ""
 "Send a private message to a user. When in a game, it is not possible to send "
 "private messages to players who are currently controlling a side in the same "
@@ -6818,12 +6459,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:754
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Mute a specific observer. If no username is supplied the muted usernames "
-#| "are displayed.\n"
-#| "\n"
 msgid ""
 "Mute a specific observer. If no username is supplied the muted usernames are "
 "displayed."
@@ -6835,11 +6470,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:757
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle muting/silencing of all observers on/off.\n"
-#| "\n"
 msgid "Toggle muting/silencing of all observers on/off."
 msgstr ""
 "\n"
@@ -6848,12 +6478,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:760
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Unban a user in a multiplayer game by the IP address used by that "
-#| "username. Can be used on users not in the game but on the server.\n"
-#| "\n"
 msgid ""
 "Unban a user in a multiplayer game by the IP address used by that username. "
 "Can be used on users not in the game but on the server."
@@ -6865,11 +6489,6 @@ msgstr ""
 
 #. [topic]: id=mp_commands
 #: data/core/help.cfg:763
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Unmute a specific observer. If no username is supplied the list of muted "
-#| "observers is cleared."
 msgid ""
 "Unmute a specific observer. If no username is supplied the list of muted "
 "observers is cleared."
@@ -6885,12 +6504,6 @@ msgstr "Hata Ayıklama Kipi Komutları"
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:774
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Brings up a menu for choosing a scenario to immediately advance to in a "
-#| "campaign.\n"
-#| "\n"
 msgid ""
 "Brings up a menu for choosing a scenario to immediately advance to in a "
 "campaign."
@@ -6902,11 +6515,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:777
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Create a unit of the specified type on the selected hex.\n"
-#| "\n"
 msgid "Create a unit of the specified type on the selected hex."
 msgstr ""
 "\n"
@@ -6915,11 +6523,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:780
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle fog/shroud for the current side.\n"
-#| "\n"
 msgid "Toggle fog/shroud for the current side."
 msgstr ""
 "\n"
@@ -6928,11 +6531,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:783
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Adds the specified amount to the current side’s gold.\n"
-#| "\n"
 msgid "Adds the specified amount to the current side’s gold."
 msgstr ""
 "\n"
@@ -6941,11 +6539,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:786
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Immediately advances to the next scenario in a campaign.\n"
-#| "\n"
 msgid "Immediately advances to the next scenario in a campaign."
 msgstr ""
 "\n"
@@ -6954,11 +6547,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:789
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Manually set a gamestate variable to value.\n"
-#| "\n"
 msgid "Manually set a gamestate variable to value."
 msgstr ""
 "\n"
@@ -6967,11 +6555,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:792
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Show a gamestate variable.\n"
-#| "\n"
 msgid "Show a gamestate variable."
 msgstr ""
 "\n"
@@ -6980,11 +6563,6 @@ msgstr ""
 
 #. [topic]: id=debug_commands
 #: data/core/help.cfg:795
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Manually fire the specified event.\n"
-#| "\n"
 msgid "Manually fire the specified event."
 msgstr ""
 "\n"
@@ -6994,28 +6572,19 @@ msgstr ""
 #. [topic]: id=debug_commands
 #. The example text is a command and should not be translated.
 #: data/core/help.cfg:800
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Modifies the specified property of the selected unit. Example: :unit "
-#| "hitpoints=100\n"
-#| "\n"
 msgid ""
 "Modifies the specified property of the selected unit. Example: :unit "
 "hitpoints=100"
 msgstr ""
 "\n"
-"Seçili birimin belirtilen özelliğini değiştirir. Örnek: :unit hitpoints=100\n"
+"Seçili birimin belirtilen özelliğini değiştirir. Örnek: :unit "
+"hitpoints=100\n"
 "\n"
 "\n"
 
 #. [topic]: id=debug_commands
 #. The example text is a command and should not be translated.
 #: data/core/help.cfg:805
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Makes the selected unit level up N times. Example: :unit advances=2"
 msgid "Makes the selected unit level up N times. Example: :unit advances=2"
 msgstr ""
 "\n"
@@ -7803,16 +7372,6 @@ msgstr ""
 
 #. [trait]: id=loyal
 #: data/core/macros/traits.cfg:17
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "During campaigns, certain units may opt to join the player’s forces of "
-#| "their own volition. These units are marked with the loyal trait. Although "
-#| "they may require payment to be recalled, they never incur any upkeep "
-#| "costs. This can make them invaluable during a long campaign, when gold is "
-#| "in short supply. This trait is never given to recruited units, so it may "
-#| "be unwise to dismiss such units or to send them to a foolish death."
 msgid ""
 "During campaigns, certain units may opt to join the player’s forces of their "
 "own volition. These units are marked with the loyal trait. Although they may "
@@ -7825,10 +7384,11 @@ msgstr ""
 "\n"
 "Seferberlikler sırasında, bazı birimler kendi istekleriyle oyuncunun "
 "kuvvetlerine katılırlar. Bu birimler sadık mizaçlıdır. Her ne kadar "
-"çağrılmak için ödenek isterlerse de, asla herhangi bir bakım masrafına sebep "
-"olmazlar. Bu onları uzun seferberliklerde paranın kıt olduğu zamanlarda paha "
-"biçilmez yapar. Bu mizaç asla askere alınan birimlere verilmez, bu yüzden "
-"onları aptalca bir ölüme göndermek veya azletmek akıllıca bir iş değildir."
+"çağrılmak için ödenek isterlerse de, asla herhangi bir bakım masrafına "
+"sebep olmazlar. Bu onları uzun seferberliklerde paranın kıt olduğu "
+"zamanlarda paha biçilmez yapar. Bu mizaç asla askere alınan birimlere "
+"verilmez, bu yüzden onları aptalca bir ölüme göndermek veya azletmek "
+"akıllıca bir iş değildir."
 
 #. [trait]: id=undead
 #: data/core/macros/traits.cfg:56
@@ -7855,14 +7415,6 @@ msgstr ""
 
 #. [trait]: id=undead
 #: data/core/macros/traits.cfg:60
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Undead units generally have undead as their only trait. Since undead "
-#| "units are the bodies of the dead, risen to fight again, poison has no "
-#| "effect upon them. This can make them invaluable in dealing with foes who "
-#| "use poison in conjunction with their attacks."
 msgid ""
 "Undead units generally have undead as their only trait. Since undead units "
 "are the bodies of the dead, risen to fight again, poison has no effect upon "
@@ -7899,13 +7451,6 @@ msgstr ""
 
 #. [trait]: id=mechanical
 #: data/core/macros/traits.cfg:86
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Mechanical units generally have mechanical as their only trait. Since "
-#| "mechanical units don’t really have life, drain, poison, and plague have "
-#| "no effect upon them."
 msgid ""
 "Mechanical units generally have mechanical as their only trait. Since "
 "mechanical units don’t really have life, drain, poison, and plague have no "
@@ -7913,8 +7458,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Mekanik birimlerin tek yeteneği ‘Mekanik’ olmaktır. Mekanik birimler yaşayan "
-"birimler olmadıklarından sömürü, zehir ve vebaya bağışıktır."
+"Mekanik birimlerin tek yeteneği ‘Mekanik’ olmaktır. Mekanik birimler "
+"yaşayan birimler olmadıklarından sömürü, zehir ve vebaya bağışıktır."
 
 #. [trait]: id=elemental
 #: data/core/macros/traits.cfg:107
@@ -7939,13 +7484,6 @@ msgstr ""
 
 #. [trait]: id=elemental
 #: data/core/macros/traits.cfg:112
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Elemental units generally have elemental as their only trait. Since "
-#| "elemental units are energy-based beings, drain, poison, and plague have "
-#| "no effect upon them."
 msgid ""
 "Elemental units generally have elemental as their only trait. Since "
 "elemental units are energy-based beings, drain, poison, and plague have no "
@@ -7953,8 +7491,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Elemental birimlerin genellikle tek yeteneği ‘Elemental’ olmaktır. Elemental "
-"birimler enerji temelli oluşumlar olup, sömürü, zehir ve vebadan etkilenmez."
+"Elemental birimlerin genellikle tek yeteneği ‘Elemental’ olmaktır. "
+"Elemental birimler enerji temelli oluşumlar olup, sömürü, zehir ve vebadan "
+"etkilenmez."
 
 #. [trait]: id=strong
 #: data/core/macros/traits.cfg:132
@@ -7981,14 +7520,6 @@ msgstr ""
 
 #. [trait]: id=strong
 #: data/core/macros/traits.cfg:136
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "While useful for any close-combat unit, strong is most effective for "
-#| "units who have a high number of swings such as the elvish fighter. Strong "
-#| "units can be very useful when a tiny bit of extra damage is all that is "
-#| "needed to turn a damaging stroke into a killing blow."
 msgid ""
 "While useful for any close-combat unit, strong is most effective for units "
 "who have a high number of swings such as the elvish fighter. Strong units "
@@ -7997,10 +7528,10 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Herhangi bir yakın dövüş birimi için kullanışlı olmasına karşın güçlülük elf "
-"savaşçısı gibi fazla sayıda vuruş yapan birimlerde daha etkilidir. Güçlü "
-"birimler bir birimi öldürmek için verilebilecek hasardan biraz fazla hasar "
-"gerektiği zaman çok faydalıdır."
+"Herhangi bir yakın dövüş birimi için kullanışlı olmasına karşın güçlülük "
+"elf savaşçısı gibi fazla sayıda vuruş yapan birimlerde daha etkilidir. "
+"Güçlü birimler bir birimi öldürmek için verilebilecek hasardan biraz fazla "
+"hasar gerektiği zaman çok faydalıdır."
 
 #. [trait]: id=dextrous
 #: data/core/macros/traits.cfg:153
@@ -8027,14 +7558,6 @@ msgstr ""
 
 #. [trait]: id=dextrous
 #: data/core/macros/traits.cfg:157
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Dextrous is a trait possessed only by elves. The elven people are known "
-#| "for their uncanny grace, and their great facility with the bow. Some, "
-#| "however, are gifted with natural talent that exceeds their brethren. "
-#| "These elves inflict an additional point of damage with each arrow."
 msgid ""
 "Dextrous is a trait possessed only by elves. The elven people are known for "
 "their uncanny grace, and their great facility with the bow. Some, however, "
@@ -8043,10 +7566,10 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Becerikli mizacı sadece elflere aittir. Elf bireyleri esrarengiz zerafetleri "
-"ve okçuluktaki yetenekleri ile bilinir. İçlerinden bazıları diğerlerini çok "
-"aşan doğal bir yeteneğe sahiptir. Bu elfler attığı her ok ile ek bir hasara "
-"sebebiyet verir."
+"Becerikli mizacı sadece elflere aittir. Elf bireyleri esrarengiz "
+"zerafetleri ve okçuluktaki yetenekleri ile bilinir. İçlerinden bazıları "
+"diğerlerini çok aşan doğal bir yeteneğe sahiptir. Bu elfler attığı her ok "
+"ile ek bir hasara sebebiyet verir."
 
 #. [trait]: id=quick
 #: data/core/macros/traits.cfg:170
@@ -8073,16 +7596,6 @@ msgstr ""
 
 #. [trait]: id=quick
 #: data/core/macros/traits.cfg:174
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Quick is the most noticeable trait, particularly in slower moving units "
-#| "such as trolls or heavy infantry. Units with the quick trait often have "
-#| "greatly increased mobility in rough terrain, which can be important to "
-#| "consider when deploying your forces. Also, quick units aren’t quite as "
-#| "tough as units without this trait and are subsequently less good at "
-#| "holding contested positions."
 msgid ""
 "Quick is the most noticeable trait, particularly in slower moving units such "
 "as trolls or heavy infantry. Units with the quick trait often have greatly "
@@ -8167,15 +7680,6 @@ msgstr ""
 
 #. [trait]: id=resilient
 #: data/core/macros/traits.cfg:210
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Resilient units can be useful at all stages of a campaign, and this is a "
-#| "useful trait for all units. Resilient is often most helpful as a trait "
-#| "when it occurs in a unit that has some combination of low hitpoints, good "
-#| "defense, or high resistances. Resilient units are especially useful for "
-#| "holding strategic positions against opponents."
 msgid ""
 "Resilient units can be useful at all stages of a campaign, and this is a "
 "useful trait for all units. Resilient is often most helpful as a trait when "
@@ -8325,13 +7829,6 @@ msgstr ""
 
 #. [trait]: id=slow
 #: data/core/macros/traits.cfg:327
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Thick-bodied and clumsy, slow individuals of goblins and other species "
-#| "take a movement penalty but are compensated for it with a slight increase "
-#| "in endurance."
 msgid ""
 "Thick-bodied and clumsy, slow individuals of goblins and other species take "
 "a movement penalty but are compensated for it with a slight increase in "
@@ -8367,12 +7864,6 @@ msgstr ""
 
 #. [trait]: id=dim
 #: data/core/macros/traits.cfg:347
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Dim is a trait all too common in goblins and other lesser species. There "
-#| "are reasons these species are lesser, and this is one of them."
 msgid ""
 "Dim is a trait all too common in goblins and other lesser species. There are "
 "reasons these species are lesser, and this is one of them."
@@ -9628,73 +9119,6 @@ msgstr "Sürüngenler"
 
 #. [race]: id=lizard
 #: data/core/units.cfg:224
-#, fuzzy
-#| msgid ""
-#| "Saurians are lizard-like creatures. Smaller and more slender than humans, "
-#| "they rarely stand taller than a ten year old child, though from tip of "
-#| "snout to end of tail a Saurian can be as long as the average man is tall. "
-#| "Light and nimble, the warriors prefer to fight as they hunt — slipping "
-#| "through enemy lines to target the weak and the injured while evading "
-#| "their attackers.\n"
-#| "\n"
-#| "<header>text='Society'</header>\n"
-#| "Saurians are very mysterious creatures due to their tendency to live in "
-#| "areas inhospitable to others, such as swamps. Fatalistic in the extreme, "
-#| "Saurians believe all the events in a life can be predicted by the use of "
-#| "a complex form of astrology.\n"
-#| "\n"
-#| "Saurian culture is sharply segregated between the genders. Within each "
-#| "gender the members compete, and through skill, determination, and "
-#| "reputation establish a clear pecking order, with a chief at the top. On "
-#| "those occasions when the two genders interact they do not contest for "
-#| "dominance; instead, the situation determines the dominant gender. The "
-#| "chief of the males is alpha within the clan's village or encampment while "
-#| "the chief of females is dominant anywhere else. This continues down the "
-#| "rank structure with each male or female being dominant over any member of "
-#| "the opposite gender with lower rank and submitting to members of the "
-#| "opposite gender with higher rank.\n"
-#| "\n"
-#| "The segregation and alternating gender-dominance of Saurian society is an "
-#| "outgrowth of their clearly defined gender roles. It is the responsibility "
-#| "of the female to hunt and find food, skills which ultimately train them "
-#| "to be warriors: the skirmishers, flankers, and ambushers other races so "
-#| "fear. Males, meanwhile, are responsible for guarding the clutch — the "
-#| "eggs left by the females. While this leaves time for the males to develop "
-#| "and hone the arts of astrology, healing, and magic, it also exposes them "
-#| "to significant danger, as they are stationary targets for a Saurian "
-#| "clan's number one enemy — other Saurian clans.\n"
-#| "\n"
-#| "New Saurian clans are started when the proper astrological signs are "
-#| "read. Called a “hatching,” each female indicated by the conjunction "
-#| "selects a group of individuals with lower rank and leave their source "
-#| "clan. Frequently all females with a specific trait will be indicated, "
-#| "causing multiple clans to “hatch” at the same time. Selection is a simple "
-#| "process: no group leaving can be larger than any other, all the groups "
-#| "together cannot be larger than the group being left, and higher ranking "
-#| "allows a female to overrule another female's choice of who they take.\n"
-#| "\n"
-#| "Because of their rapid population growth, frequent splits in clans, and "
-#| "the fact that cannibalism is not taboo, violence is one of the defining "
-#| "features of Saurian life. This limits the growth of the Saurian culture "
-#| "to fits and starts, as much of their knowledge is passed by oral "
-#| "tradition and their possessions must be mobile.\n"
-#| "\n"
-#| "<header>text='Geography'</header>\n"
-#| "Saurians can live in many different areas, though swamps are by far their "
-#| "most common habitat.\n"
-#| "\n"
-#| "<header>text='Biology'</header>\n"
-#| "Saurians live spectacularly short lives by comparison to most of the "
-#| "other races of Wesnoth, reaching full adulthood within three years and "
-#| "often dying by the time they are 10 to 15 years old. By far, the most "
-#| "common cause of death is violence. Saurian females produce clutches of "
-#| "about 20 eggs roughly once a year, which creates constant population "
-#| "pressure and would stress most carnivores' food supply. Hunters and "
-#| "scavengers, Saurians have extremely strong jaws and have a very powerful "
-#| "digestive system with highly acidic fluids, making them capable of eating "
-#| "and digesting all of their prey including skin, teeth, horns and bones. "
-#| "Further, they have no aversion to eating carrion and even committing "
-#| "cannibalism, which are both regular occurrences."
 msgid ""
 "Saurians are lizard-like creatures. Smaller and more slender than humans, "
 "they rarely stand taller than a ten year old child, though from tip of snout "
@@ -9762,8 +9186,8 @@ msgid ""
 "eating carrion and even committing cannibalism, which are both regular "
 "occurrences."
 msgstr ""
-"Sürüngenler kertenkele benzeri yaratıklardır. İnsanlardan daha küçük ve daha "
-"narin görünürler ve on yaşındaki bir çocuktan biraz daha uzun boylu "
+"Sürüngenler kertenkele benzeri yaratıklardır. İnsanlardan daha küçük ve "
+"daha narin görünürler ve on yaşındaki bir çocuktan biraz daha uzun boylu "
 "dururlar; bununla birlikte burun ucundan kuyruk ucuna kadar bir Sürüngenin "
 "uzunluğu ortalama bir insan uzunluğu kadar olabilir. Hafif ve çevik "
 "savaşçılar avlanır gibi savaşmayı tercih eder — saldırganlardan kaçınarak "
@@ -9780,28 +9204,28 @@ msgstr ""
 "itibar yoluyla elde edilen şeflik, açık bir hiyerarşi düzeni olduğunu "
 "gösterir. İki cinsiyet etkileşime girdiğinde, egemenlik için yarışmazlar; "
 "bunun yerine, durumu baskın cinsiyet belirler. Erkeklerin şefi klanın köyü "
-"veya kampı içinde baskın iken, diğer tüm alanlarda dişilerin şefi baskındır. "
-"Bu, her bir erkek veya dişinin karşıt cinsiyetin rütbece düşük herhangi bir "
-"üyesi üzerinde baskın olduğu bir kadro yapısı oluşturur.\n"
+"veya kampı içinde baskın iken, diğer tüm alanlarda dişilerin şefi "
+"baskındır. Bu, her bir erkek veya dişinin karşıt cinsiyetin rütbece düşük "
+"herhangi bir üyesi üzerinde baskın olduğu bir kadro yapısı oluşturur.\n"
 "\n"
 "Sürüngen toplumunun cinsiyetler arası hakimiyet paylaşımı, cinsel rolleri "
 "açıkça tanımlar. Dişilerin sorumluluğu yiyecekleri avlamak ve bulmak, diğer "
 "ırkların korktuğu avcıları, kuşatmacıları  ve pusucuları yeteneklerini "
-"kazanmaları için eğitmektir. Bu arada erkekler, dişiler tarafından bırakılan "
-"yumurtaları ve kuluçkaları korumaktan sorumludur. Bu, erkeklere astroloji, "
-"şifa ve sihir sanatlarını geliştirme ve bilemeleri için zaman kazandırırken, "
-"aynı zamanda Sürüngen bir klanın bir numaralı düşmanı olan diğer Sürüngen "
-"klanlarının sürekli hedefleri olmaları nedeniyle onları önemli bir tehlikeye "
-"maruz bırakır.\n"
+"kazanmaları için eğitmektir. Bu arada erkekler, dişiler tarafından "
+"bırakılan yumurtaları ve kuluçkaları korumaktan sorumludur. Bu, erkeklere "
+"astroloji, şifa ve sihir sanatlarını geliştirme ve bilemeleri için zaman "
+"kazandırırken, aynı zamanda Sürüngen bir klanın bir numaralı düşmanı olan "
+"diğer Sürüngen klanlarının sürekli hedefleri olmaları nedeniyle onları "
+"önemli bir tehlikeye maruz bırakır.\n"
 "\n"
 "Yeni Sürüngen klanları uygun astrolojik işaretler oluştuğunda kurulur. "
-"\"Yumurtadan çıkma\" olarak adlandırılan yöntemle her dişi düşük rütbeli bir "
-"grup birey seçer ve eski klanlarını terk eder. Sıklıkla, belirli bir "
+"\"Yumurtadan çıkma\" olarak adlandırılan yöntemle her dişi düşük rütbeli "
+"bir grup birey seçer ve eski klanlarını terk eder. Sıklıkla, belirli bir "
 "özelliğe sahip tüm dişiler belirlenir ve aynı anda birden fazla klanın "
-"“yavrulanması” sağlanır. Seçim basit bir işlemdir: klanı bırakan hiçbir grup "
-"diğerlerinden daha büyük olamaz, tüm grupların toplamı terkedilen gruptan "
-"daha büyük olamaz ve rütbece yüksek bir dişi başka bir dişinin seçtiği gruba "
-"komuta edebilir.\n"
+"“yavrulanması” sağlanır. Seçim basit bir işlemdir: klanı bırakan hiçbir "
+"grup diğerlerinden daha büyük olamaz, tüm grupların toplamı terkedilen "
+"gruptan daha büyük olamaz ve rütbece yüksek bir dişi başka bir dişinin "
+"seçtiği gruba komuta edebilir.\n"
 "\n"
 "Hızlı nüfus artışı, klanlarda sık rastlanan bölünmeler ve yamyamlığın tabu "
 "olmadığı gerçeği  —  zorbalığı  — Sürüngen yaşamının belirleyici "
@@ -9820,10 +9244,10 @@ msgstr ""
 "Sürüngen dişiler yılda kabaca bir kez yaklaşık 20 yumurtalık kuluçkalar "
 "üretir, bu da sürekli nüfus artışı yaratıp ve etçil gıda arzının çoğuna "
 "tehdit oluşturur. Avcı ve çöpçü olan Sürüngenler, çok güçlü çenelere ve "
-"yüksek asidik akışkanlara sahip çok güçlü bir sindirim sistemine sahip olup, "
-"deri, dişler, boynuzlar ve kemikler de dahil tüm avlarını yeme ve sindirme "
-"kabiliyetine sahiptir. Dahası, leş yemekten nefret etmezler ve hatta "
-"yamyamlık yapmak da hoşlarına gider."
+"yüksek asidik akışkanlara sahip çok güçlü bir sindirim sistemine sahip "
+"olup, deri, dişler, boynuzlar ve kemikler de dahil tüm avlarını yeme ve "
+"sindirme kabiliyetine sahiptir. Dahası, leş yemekten nefret etmezler ve "
+"hatta yamyamlık yapmak da hoşlarına gider."
 
 #. [race]: id=mechanical
 #: data/core/units.cfg:250
@@ -10129,12 +9553,6 @@ msgstr ""
 
 #. [race]: id=orc
 #: data/core/units.cfg:330
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "\n"
-#| "Orcs who were not the strongest of their litter tend to specialize in "
-#| "other skills, like archery or assassination."
 msgid ""
 "Orcs who were not the strongest of their litter tend to specialize in other "
 "skills, like archery or assassination."
@@ -10598,32 +10016,22 @@ msgid "Level"
 msgstr "Seviye"
 
 #: src/help/help_topic_generators.cpp:415
-#, fuzzy
-#| msgid "Advances from: "
 msgid "Advances from:"
 msgstr "Şundan terfi eder: "
 
 #: src/help/help_topic_generators.cpp:417
-#, fuzzy
-#| msgid "Advances to: "
 msgid "Advances to:"
 msgstr "Şuna terfi eder: "
 
 #: src/help/help_topic_generators.cpp:447
-#, fuzzy
-#| msgid "Base unit: "
 msgid "Base unit:"
 msgstr "Temel birim: "
 
 #: src/help/help_topic_generators.cpp:452
-#, fuzzy
-#| msgid "Base units: "
 msgid "Base units:"
 msgstr "Temel birimler: "
 
 #: src/help/help_topic_generators.cpp:470
-#, fuzzy
-#| msgid "Variations: "
 msgid "Variations:"
 msgstr "Çeşitleri: "
 
@@ -10632,8 +10040,6 @@ msgid "race^Miscellaneous"
 msgstr "Çeşitli"
 
 #: src/help/help_topic_generators.cpp:499
-#, fuzzy
-#| msgid "Race: "
 msgid "Race:"
 msgstr "Irk: "
 
@@ -10645,14 +10051,10 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/help/help_topic_generators.cpp:559
-#, fuzzy
-#| msgid "Abilities: "
 msgid "Abilities:"
 msgstr "Yetenekler: "
 
 #: src/help/help_topic_generators.cpp:585
-#, fuzzy
-#| msgid "Ability Upgrades: "
 msgid "Ability Upgrades:"
 msgstr "Yetenek Yükseltmeleri: "
 

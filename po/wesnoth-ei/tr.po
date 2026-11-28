@@ -781,8 +781,6 @@ msgstr ""
 #. [message]: speaker=Gweddry
 #. a huge number of undead are spawning
 #: data/campaigns/Eastern_Invasion/scenarios/01_Eastern_Invasion.cfg:676
-#, fuzzy
-#| msgid "Wha- How did so many of them flank us? We’re cut off from Wesnoth!"
 msgid "Wha— How did so many of them flank us? We’re cut off from Wesnoth!"
 msgstr "Ne- Nasıl bu kadar kuşatıldık? Vesnot'tan koptuk!"
 
@@ -2504,8 +2502,6 @@ msgstr ""
 
 #. [message]: id=$|unit.id
 #: data/campaigns/Eastern_Invasion/scenarios/05_Northern_Outpost.cfg:378
-#, fuzzy
-#| msgid "They're here!"
 msgid "They’re here!"
 msgstr "Buradalar!"
 
@@ -7239,8 +7235,6 @@ msgstr ""
 #. [message]: speaker=$found_unit.id
 #. Speaker is an orc, and Mortic is flying towards them. "What? Hey!" *gets killed by Mortic*
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:805
-#, fuzzy
-#| msgid "Wha- hey!"
 msgid "Wha— hey!"
 msgstr "Ne- hey!"
 
@@ -11128,12 +11122,6 @@ msgstr "Kraliçe Karınca"
 
 #. [unit_type]: id=Ant Queen, gender=female, race=monster
 #: data/campaigns/Eastern_Invasion/units/Ant_Queen.cfg:20
-#, fuzzy
-#| msgid ""
-#| "At the heart of each giant ant burrow lies a queen. Much like their "
-#| "miniature cousins, a well-fed giant ant queen will continually lay eggs, "
-#| "ensuring that the colony never lacks workers for scavenging or soldiers "
-#| "for defense."
 msgid ""
 "At the heart of each giant ant burrow lies a queen. Much like their "
 "miniature cousins, a well-fed giant Ant Queen will continually lay eggs, "
@@ -11142,8 +11130,8 @@ msgid ""
 msgstr ""
 "Her dev karınca yuvasının merkezinde bir kraliçe bulunur. Tıpkı minyatür "
 "kuzenleri gibi, iyi beslenmiş dev bir karınca kraliçesi sürekli olarak "
-"yumurta bırakır ve koloninin asla temizlik için işçi veya savunma için asker "
-"eksikliği çekmemesini sağlar."
+"yumurta bırakır ve koloninin asla temizlik için işçi veya savunma için "
+"asker eksikliği çekmemesini sağlar."
 
 #. [dummy]
 #: data/campaigns/Eastern_Invasion/units/Ant_Queen.cfg:26
@@ -11162,12 +11150,6 @@ msgstr "yumurta kesesi"
 
 #. [unit_type]: id=Egg Sac, race=monster
 #: data/campaigns/Eastern_Invasion/units/Egg_Sac.cfg:17
-#, fuzzy
-#| msgid ""
-#| "Each of these enormous egg sacs contains up to a dozen ant larvae, "
-#| "sheltering and nourishing them while they develop into worker drones. "
-#| "When the burrow is threatened, an ant queen can release pheromones that "
-#| "cause each sac to rapidly develop into a single large warrior ant."
 msgid ""
 "Each of these enormous Egg Sacs contains up to a dozen ant larvae, "
 "sheltering and nourishing them while they develop into worker drones. When "
@@ -11460,13 +11442,6 @@ msgstr "Naga Yüzbaşı"
 
 #. [unit_type]: id=Naga Centurion, race=naga, gender=male,female
 #: data/campaigns/Eastern_Invasion/units/Naga_Centurion.cfg:20
-#, fuzzy
-#| msgid ""
-#| "The leaders of the naga have mastered the serpentine arts of their kind, "
-#| "striking faster than a lightning bolt and dancing away more gracefully "
-#| "than a forest brook. Undisputed masters of both swordsmanship and "
-#| "leadership, these Naga are honored by their clutch and bestowed the rare "
-#| "title of Centurion."
 msgid ""
 "The leaders of the naga have mastered the serpentine arts of their kind, "
 "striking faster than a lightning bolt and dancing away more gracefully than "
@@ -11502,19 +11477,14 @@ msgstr "Yaşlı Tepegöz"
 
 #. [unit_type]: id=Ancient Ogre, race=ogre
 #: data/campaigns/Eastern_Invasion/units/Ogre_Ancient.cfg:30
-#, fuzzy
-#| msgid ""
-#| "Ancient ogres possess legendary strength and stand taller than even many "
-#| "woses. They usually live among their own kind in the wilderness, but can "
-#| "be highly loyal to those few they trust."
 msgid ""
 "Ancient Ogres possess legendary strength and stand taller than even many "
 "woses. They usually live among their own kind in the wilderness, but can be "
 "highly loyal to those few they trust."
 msgstr ""
-"Yaşlı Tepegözler efsanevi bir güce sahiptir ve birçok Ulu Ağaç'dan bile daha "
-"uzun boyludur. Genellikle vahşi doğada kendi türleri arasında yaşar, ancak "
-"güvendikleri birkaç kişiye oldukça sadık olabilirler."
+"Yaşlı Tepegözler efsanevi bir güce sahiptir ve birçok Ulu Ağaç'dan bile "
+"daha uzun boyludur. Genellikle vahşi doğada kendi türleri arasında yaşar, "
+"ancak güvendikleri birkaç kişiye oldukça sadık olabilirler."
 
 #. [unit_type]: id=Great Ogre, race=ogre
 #: data/campaigns/Eastern_Invasion/units/Ogre_Great.cfg:4
@@ -11928,8 +11898,6 @@ msgstr "Işık sönüyor... Vesnot, seni hayal kırıklığına uğrattım..."
 
 #. [message]: speaker=Dolburras
 #: data/campaigns/Eastern_Invasion/utils/deaths.cfg:121
-#, fuzzy
-#| msgid "Watch out behind ye- ach!"
 msgid "Watch out behind ye— ach!"
 msgstr "Arkanı kolla- ağh!"
 
@@ -12314,22 +12282,16 @@ msgstr ""
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:502
-#, fuzzy
-#| msgid "You escaped me once before-"
 msgid "You escaped me once before—"
 msgstr "Daha önce bir kez benden kurtulmuştun-"
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:550
-#, fuzzy
-#| msgid "-but NEVER AGAIN!!!"
 msgid "—but NEVER AGAIN!!!"
 msgstr "-ama BİR DAHA ASLA!!!"
 
 #. [message]: speaker=Mal-Ravanal
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:561
-#, fuzzy
-#| msgid "Wha- what is this?!"
 msgid "Wha— what is this?!"
 msgstr "B-Bu neydi?!"
 
@@ -12389,8 +12351,6 @@ msgstr "Şimdi gücümüzü kucakla! ​​İridya'nın şampiyonu olarak yaşay
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:771
-#, fuzzy
-#| msgid "Wha- where am I? What’s happening to me?"
 msgid "Wha— where am I? What’s happening to me?"
 msgstr "Ne- neredeyim? Bana neler oluyor?"
 
@@ -12444,8 +12404,6 @@ msgstr ""
 
 #. [message]: speaker=Dacyn
 #: data/campaigns/Eastern_Invasion/utils/final_battle/final_battle.cfg:799
-#, fuzzy
-#| msgid "I... but... I could never choose to-"
 msgid "I... but... I could never choose to—"
 msgstr "Ben... ama... asla bunu seçemezdim..."
 

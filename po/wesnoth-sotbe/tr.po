@@ -3664,8 +3664,6 @@ msgstr "Göle at. Donarak ölsün."
 
 #. [message]
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/14_Back_Home.cfg:768
-#, fuzzy
-#| msgid "You retrieve $amount_gold of Grüü's leftover gold."
 msgid "You retrieve $amount_gold of Grüü’s leftover gold."
 msgstr "Gürü'nün artan altınından $amount_gold altın aldınız."
 

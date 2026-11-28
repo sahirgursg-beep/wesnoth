@@ -54,12 +54,6 @@ msgstr "Büyük Şövalye"
 
 #. [campaign]: id=Two_Brothers
 #: data/campaigns/Two_Brothers/_main.cfg:21
-#, fuzzy
-#| msgid ""
-#| "An evil mage is threatening the small village of Maghre and its "
-#| "inhabitants. The village’s mage sends to his warrior brother for help, "
-#| "but not all goes as planned. Can you help?\n"
-#| "\n"
 msgid ""
 "An evil mage is threatening the small village of Maghre and its inhabitants. "
 "The village’s mage sends to his warrior brother for help, but not all goes "

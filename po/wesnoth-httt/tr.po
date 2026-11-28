@@ -36,11 +36,6 @@ msgstr "TV"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:23
-#, fuzzy
-#| msgid ""
-#| "Fight to regain the throne of Wesnoth, of which you are the legitimate "
-#| "heir.\n"
-#| "\n"
 msgid ""
 "Fight to regain the throne of Wesnoth, of which you are the legitimate heir."
 msgstr ""
@@ -8465,10 +8460,6 @@ msgstr ""
 
 #. [message]: speaker=Li'sar
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/24_Battle_for_Wesnoth.cfg:237
-#, fuzzy
-#| msgid ""
-#| "Surrender, mother. The land’s blood is spent. I have come to take my "
-#| "rightful place."
 msgid ""
 "Surrender, Mother. The land’s blood is spent. I have come to take my "
 "rightful place."

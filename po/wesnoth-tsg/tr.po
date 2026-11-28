@@ -5921,10 +5921,6 @@ msgstr ""
 
 #. [message]: speaker=Mebrin
 #: data/campaigns/The_South_Guard/scenarios/06b_The_Tides_of_War.cfg:541
-#, fuzzy
-#| msgid ""
-#| "So, the fleshbags have managed to mount a defense. It would seem that the "
-#| "pesky fly turned out to be more than a minor annoyance after all."
 msgid ""
 "So, the fleshbags have managed to mount a defense. It would seem that the "
 "pesky fly turned out to be more than a minor annoyance after all."

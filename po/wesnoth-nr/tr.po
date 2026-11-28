@@ -860,10 +860,6 @@ msgstr "(<i>Tökezler</i>) <i>Oof!</i>"
 #. [message]: role=Supporter
 #. sarcasm about the idea of entering the mines where this scenario takes place
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:300
-#, fuzzy
-#| msgid ""
-#| "Great idea, Tallin. It's so dark I probably couldn’t even fight a bat "
-#| "down here."
 msgid ""
 "Great idea, Tallin. It’s so dark I probably couldn’t even fight a bat down "
 "here."
