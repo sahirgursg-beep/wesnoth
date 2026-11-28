@@ -187,6 +187,7 @@ if(ENABLE_GAME)
 			-sEXPORTED_RUNTIME_METHODS=FS,IDBFS,callMain,addRunDependency,removeRunDependency
 			-sEXPORT_EXCEPTION_HANDLING_HELPERS=1
 			-sEXCEPTION_STACK_TRACES=1
+			--profiling-funcs
 			-lidbfs.js
 		)
 	endif()
