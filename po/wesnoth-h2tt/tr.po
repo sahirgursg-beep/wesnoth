@@ -23089,6 +23089,9 @@ msgid ""
 "even untrained they have talent for swords and bows. However, if you are "
 "hurling civilians at your foes, you’re clearly out of superior forces."
 msgstr ""
+"Elfler doğası gereği savaşçı olmasa da doğal zarafetleri eğitimsizken bile "
+"kılıç ve yay yeteneği taşımalarını sağlar. Ancak düşmanlarına siviller "
+"fırlatıyorsan üstün kuvvetlerin açıkça tükenmiş demektir."
 
 #. [attack]: type=blade
 #: data/campaigns/Heir_To_The_Throne/units/Elvish_Civilian.cfg:22
@@ -23105,12 +23108,12 @@ msgstr "yay"
 #. [male]: gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Elvish_Civilian.cfg:42
 msgid "male^Elvish Civilian"
-msgstr ""
+msgstr "Elf Sivil"
 
 #. [female]: gender=female
 #: data/campaigns/Heir_To_The_Throne/units/Elvish_Civilian.cfg:90
 msgid "female^Elvish Civilian"
-msgstr ""
+msgstr "Elf Sivil"
 
 #. [unit_type]: id=Dark Queen, gender=female, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Dark_Queen.cfg:4
@@ -23124,6 +23127,8 @@ msgid ""
 "knowledge of magic makes her a worthy foe in combat, although her power is "
 "mostly derived from those she commands."
 msgstr ""
+"Kötü Kraliçe Aşivye yıllardır Vesnot’ta terör estiriyor. Büyü bilgisi onu "
+"dövüşte layık bir düşman yapsa da gücü çoğunlukla emrettiklerinden gelir."
 
 #. [attack]: type=impact
 #: data/campaigns/Heir_To_The_Throne/units/Human_Dark_Queen.cfg:32
@@ -23133,7 +23138,7 @@ msgstr "asa"
 #. [attack]: type=blade
 #: data/campaigns/Heir_To_The_Throne/units/Human_Dark_Queen.cfg:43
 msgid "stiletto"
-msgstr ""
+msgstr "stiletto"
 
 #. [attack]: type=cold
 #: data/campaigns/Heir_To_The_Throne/units/Human_Dark_Queen.cfg:58
@@ -23159,11 +23164,16 @@ msgid ""
 "retains a dominating presence on the battlefield, calling devastating blasts "
 "of lightning down upon their foes."
 msgstr ""
+"Yıllarca süren dikkatli çalışma ve zor kazanılmış tecrübenin ardından bir "
+"Kıdemli Büyücünün bilgisi ve bilgeliği eşsiz hâle gelir. Zamanın tahribatı "
+"güçlerini biraz azaltmış olsa da bir Kıdemli Büyücü savaş alanında hâkim "
+"bir varlık olmayı sürdürür ve düşmanlarının üzerine yıkıcı yıldırımlar "
+"indirir."
 
 #. [dummy]
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:71
 msgid "levitate"
-msgstr ""
+msgstr "havalanma"
 
 #. [dummy]
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:72
@@ -23171,11 +23181,13 @@ msgid ""
 "This unit ignores most movement costs, bypasses Zone of Control, and always "
 "has at least 50% defense."
 msgstr ""
+"Bu birim çoğu hareket maliyetini yok sayar, Denetim Alanını aşar ve her "
+"zaman en az %50 savunmaya sahiptir."
 
 #. [leadership]: id=summoner
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:84
 msgid "summoner"
-msgstr ""
+msgstr "çağırıcı"
 
 #. [leadership]: id=summoner
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:85
@@ -23183,11 +23195,13 @@ msgid ""
 "This unit is a skilled summoner. Adjacent allied elementals deal +100% "
 "damage and gain +100% experience."
 msgstr ""
+"Bu birim yetenekli bir çağırıcıdır. Yanındaki müttefik elementaller +%100 "
+"hasar verir ve +%100 tecrübe kazanır."
 
 #. [leadership]: id=summoner
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:87
 msgid "Recruited elementals dissipate at the end of each scenario."
-msgstr ""
+msgstr "Alınan elementaller her senaryonun sonunda dağılır."
 
 #. [attack]: type=impact
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:146
@@ -23202,7 +23216,7 @@ msgstr "yıldırım"
 #. [dummy]: id=chain
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:163
 msgid "chain"
-msgstr ""
+msgstr "zincir"
 
 #. [dummy]: id=chain
 #: data/campaigns/Heir_To_The_Throne/units/Human_Delfador_Elder_Mage.cfg:164
@@ -23210,6 +23224,8 @@ msgid ""
 "This attack can be used multiple times on offense, but consecutive uses "
 "strike one fewer time."
 msgstr ""
+"Bu saldırı saldırırken birden çok kez kullanılabilir, ama art arda her "
+"kullanımda bir vuruş eksik yapar."
 
 #. [unit_type]: id=Injured Lieutenant
 #: data/campaigns/Heir_To_The_Throne/units/Human_Injured_Lieutenant.cfg:7
@@ -23219,7 +23235,7 @@ msgstr "Yaralı Teğmen"
 #. [dummy]: id=smoke
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:264
 msgid "smoke"
-msgstr ""
+msgstr "duman"
 
 #. [dummy]: id=smoke
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:265
@@ -23229,11 +23245,15 @@ msgid ""
 "enforce a zone of control. The cloud lasts until the start of this unit’s "
 "next turn."
 msgstr ""
+"İsabet etsin etmesin bu saldırı hedeflenen altıgende boğucu, yakıcı bir "
+"duman bulutu oluşturur. İçindeki her birimin isabet şansı yarıya iner ve "
+"artık denetim alanı uygulayamaz. Bulut bu birimin bir sonraki elinin başına "
+"kadar sürer."
 
 #. [dummy]: id=smoke
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:267
 msgid "<i>Magical</i> attacks are unaffected by smoke."
-msgstr ""
+msgstr "<i>Büyülü</i> saldırılar dumandan etkilenmez."
 
 #. [dummy]: id=smoke
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:268
@@ -23241,11 +23261,13 @@ msgid ""
 "This unit’s attacks create clouds of caustic smoke, halving chance-to-hit "
 "and nullifying zone of control for any unit caught inside."
 msgstr ""
+"Bu birimin saldırıları yakıcı duman bulutları oluşturur; içinde kalan her "
+"birimin isabet şansını yarıya indirir ve denetim alanını geçersiz kılar."
 
 #. [unit_type]: id=Alchemist, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:274
 msgid "Alchemist"
-msgstr ""
+msgstr "Simyacı"
 
 #. [unit_type]: id=Alchemist, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:290
@@ -23254,6 +23276,9 @@ msgid ""
 "of alchemy are concerned with the study of physical matter — especially "
 "herbs, minerals, and the four humors."
 msgstr ""
+"Daha açıkça büyülü âlimlik alanlarının aksine simya uygulayıcıları fiziksel "
+"maddenin — özellikle otların, minerallerin ve dört sıvının — incelenmesiyle "
+"ilgilenir."
 
 #. [unit_type]: id=Alchemist, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:292
@@ -23264,21 +23289,26 @@ msgid ""
 "as a whole is often derided as the pastime of frauds — at least in the eye "
 "of the more traditional orders of magery."
 msgstr ""
+"Böyle bir uygulamanın nihai amacı elbette kurşunun altına "
+"dönüştürülmesidir. Geçmişte bazıları bu aşamaya ulaştığını iddia etmiş olsa "
+"da hiçbir zaman kesin bir kanıt sunulmamıştır ve bu uygulama bir bütün "
+"olarak çoğu zaman sahtekârların uğraşı diye küçümsenir — en azından daha "
+"geleneksel büyücülük tarikatlarının gözünde."
 
 #. [dummy]: id=transmutation
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:299
 msgid "transmutation"
-msgstr ""
+msgstr "dönüşüm"
 
 #. [dummy]: id=transmutation
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:300
 msgid "This unit generates 5 gold each turn."
-msgstr ""
+msgstr "Bu birim her el 5 altın üretir."
 
 #. [attack]: type=fire
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:307
 msgid "flashpowder"
-msgstr ""
+msgstr "şimşek tozu"
 
 #. [attack]: type=pierce
 #: data/campaigns/Heir_To_The_Throne/units/Human_Jeniver.cfg:321
@@ -23294,6 +23324,8 @@ msgid ""
 "Young and brash, Fighters attack with a sword, and are vulnerable to more "
 "seasoned enemies. At this early age, their greatest value is their potential."
 msgstr ""
+"Genç ve atılgan Savaşçılar kılıçla saldırır ve daha deneyimli düşmanlara "
+"karşı savunmasızdır. Bu erken yaşta en büyük değerleri potansiyelleridir."
 
 #. [variation]
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L1.cfg:87
@@ -23301,7 +23333,7 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L3.cfg:135
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L4.cfg:145
 msgid "with axe"
-msgstr ""
+msgstr "baltayla"
 
 #. [variation]
 #. [variation]: race=human
@@ -23320,21 +23352,21 @@ msgstr "asa ile"
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L3.cfg:143
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L4.cfg:153
 msgid "with axe and sceptre"
-msgstr ""
+msgstr "balta ve asayla"
 
 #. [unit_type]: id=Sleeping_Fighter, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L1_Sleeping.cfg:5
 msgid "Sleeping Fighter"
-msgstr ""
+msgstr "Uyuyan Savaşçı"
 
 #. [unit_type]: id=Unarmed_Fighter, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L1_Unarmed.cfg:5
 msgid "Unarmed Fighter"
-msgstr ""
+msgstr "Silahsız Savaşçı"
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L2.cfg:4
 msgid "Captain"
-msgstr ""
+msgstr "Yüzbaşı"
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L2.cfg:21
 msgid ""
@@ -23346,10 +23378,17 @@ msgid ""
 "body alike, the most capable of these elf-trained leaders complement their "
 "improved swordsmanship with an uncanny accuracy at archery."
 msgstr ""
+"Elf düşünce okuluna göre Yüzbaşılar büyük ölçekli savaşlardan çok küçük "
+"çatışmaları yönetmek üzere eğitilmeli ve çoğu zaman zorlamadan çok "
+"yoldaşlıkla önderlik ettikleri gözlenir. Bu komutanlar genellikle uzun süre "
+"bir arada kalan küçük birlikleri yönetir; bu da askerlerine bizzat akıl "
+"hocalığı yapıp onlarla dost olmalarına olanak tanır. Hem zihinlerini hem "
+"bedenlerini geliştiren bu elf eğitimli liderlerin en yetenekli olanları "
+"gelişmiş kılıç ustalıklarını okçulukta şaşırtıcı bir isabetle tamamlar."
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L3.cfg:4
 msgid "Prince"
-msgstr ""
+msgstr "Prens"
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L3.cfg:22
 msgid ""
@@ -23360,10 +23399,17 @@ msgid ""
 "victorious. Outfitted in finely-made weapons and armor, these leaders are a "
 "force to be reckoned with in both warfare and single combat."
 msgstr ""
+"En yetenekli yüzbaşılar elflerinki ve orklarınki de dahil olmak üzere "
+"çeşitli askerî tarzlarda kapsamlı bir eğitimden geçer. Savaş sanatında iyi "
+"pişmiş olan bu kişiler en acemi askerleri bile ezici oranlara karşı "
+"stratejik olarak saldırıp galip gelmeye yönlendirebilen alışılmadık ama "
+"parlak stratejistlerdir. İnce işçilikli silahlar ve zırhlarla donanmış bu "
+"liderler hem savaşta hem de teke tek dövüşte hesaba katılması gereken bir "
+"güçtür."
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L4.cfg:4
 msgid "Warrior Prince"
-msgstr ""
+msgstr "Savaşçı Prens"
 
 #: data/campaigns/Heir_To_The_Throne/units/Human_Konrad_L4.cfg:22
 msgid ""
@@ -23373,6 +23419,11 @@ msgid ""
 "commanders have survived many trials by fire, proving both their tactical "
 "wit and their considerable mettle at personal combat."
 msgstr ""
+"Prensler insan toplumunun en saygın unvanlarından birini taşır. Barış "
+"zamanlarında bile dövüş sanatlarında sıkı biçimde eğitilen bir prens, savaş "
+"zamanında savaş alanında hayranlık uyandıran bir manzaradır. Bu kraliyet "
+"komutanları pek çok ateşten sınavdan sağ çıkmış, hem taktik zekâlarını hem "
+"de teke tek dövüşteki kayda değer cesaretlerini kanıtlamıştır."
 
 #. [variation]: race=human
 #. [unit_type]: id=Princess, gender=female, race=human
@@ -23399,7 +23450,7 @@ msgstr ""
 #. [unit_type]: id=Bound Princess, gender=female, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Lisar_Princess_Bound.cfg:4
 msgid "female^Bound Princess"
-msgstr ""
+msgstr "Bağlı Prenses"
 
 #. [unit_type]: id=Bound Princess, gender=female, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Lisar_Princess_Bound.cfg:30
@@ -23407,13 +23458,15 @@ msgid ""
 "Asheviere’s fearless princess now marches in chains, a prisoner of Konrad "
 "and his rebels."
 msgstr ""
+"Aşivye’nin korkusuz prensesi artık Konrad ve isyancılarının tutsağı olarak "
+"zincirler içinde yürüyor."
 
 #. [variation]: race=human
 #. [unit_type]: id=Warrior Princess, gender=female, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Lisar_Warrior_Princess.cfg:4
 #: data/campaigns/Heir_To_The_Throne/units/Human_Lisar_Warrior_Princess.cfg:103
 msgid "female^Warrior Princess"
-msgstr ""
+msgstr "Savaşçı Prenses"
 
 #. [variation]: race=human
 #. [unit_type]: id=Warrior Princess, gender=female, race=human
@@ -23433,7 +23486,7 @@ msgstr ""
 #. [unit_type]: id=Shackled Mage, gender=male, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Mage_Shackled.cfg:7
 msgid "Shackled Mage"
-msgstr ""
+msgstr "Prangalı Büyücü"
 
 #. [unit_type]: id=Shackled Mage, gender=male, race=human
 #: data/campaigns/Heir_To_The_Throne/units/Human_Mage_Shackled.cfg:15
@@ -23441,6 +23494,8 @@ msgid ""
 "These mages have heavy manacles on their wrists and ankles, slowing their "
 "movement and restricting their magic."
 msgstr ""
+"Bu büyücülerin bileklerinde ve ayak bileklerinde hareketlerini yavaşlatan "
+"ve büyülerini kısıtlayan ağır kelepçeler var."
 
 #. [attack]: type=impact
 #: data/campaigns/Heir_To_The_Throne/units/Human_Mage_Shackled.cfg:26
@@ -23450,12 +23505,12 @@ msgstr "tekme"
 #. [female]: gender=female
 #: data/campaigns/Heir_To_The_Throne/units/Human_Mage_Shackled.cfg:35
 msgid "female^Shackled Mage"
-msgstr ""
+msgstr "Prangalı Büyücü"
 
 #. [unit_type]: id=Warrior of Light, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_Warrior_of_Light.cfg:4
 msgid "Warrior of Light"
-msgstr ""
+msgstr "Işık Savaşçısı"
 
 #. [unit_type]: id=Warrior of Light, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_Warrior_of_Light.cfg:21
@@ -23464,6 +23519,9 @@ msgid ""
 "spiritual powers. By strict devotion to the path of the light, they can call "
 "upon its aid to chase away the shadows of the night."
 msgstr ""
+"Yıllarca süren tecrübenin ardından savaşçıların en dindarları büyük ruhani "
+"güçler geliştirir. Işığın yoluna sıkı bağlılıkları sayesinde gecenin "
+"gölgelerini kovmak için onun yardımını çağırabilirler."
 
 #. [unit_type]: id=Warrior of Light, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_Warrior_of_Light.cfg:23
@@ -23472,6 +23530,9 @@ msgid ""
 "find these champions of light working tirelessly to cleanse evil from the "
 "troubled world in which they live."
 msgstr ""
+"Karanlığın sürünerek çıktığı çukur ne kadar iğrenç olursa olsun, orada da "
+"içinde yaşadıkları sıkıntılı dünyayı kötülükten temizlemek için yorulmadan "
+"çalışan bu ışık şampiyonlarını bulursunuz."
 
 #. [attack]: type=arcane
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_Warrior_of_Light.cfg:44
@@ -23482,7 +23543,7 @@ msgstr "ışık hüzmesi"
 #. [unit_type]: id=White Warrior, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_White_Warrior.cfg:4
 msgid "White Warrior"
-msgstr ""
+msgstr "Ak Savaşçı"
 
 #. [unit_type]: id=White Warrior, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_White_Warrior.cfg:20
@@ -23492,6 +23553,9 @@ msgid ""
 "out villainy wherever it lies, delving into dark places and cleansing them "
 "of evil."
 msgstr ""
+"Her ak büyücü dünyayı dolaşıp hastalık ve yaralanmalara bakmakla yetinmez. "
+"Daha savaşçı eğilimli büyücüler çoğu zaman kötülüğü nerede olursa olsun "
+"aramaya, karanlık yerlere dalıp onları kötülükten temizlemeye yönelir."
 
 #. [unit_type]: id=White Warrior, race=human, gender=male
 #: data/campaigns/Heir_To_The_Throne/units/Human_Moremirmu_White_Warrior.cfg:22
@@ -23500,11 +23564,14 @@ msgid ""
 "their own wounds, such a warrior proves a potent ally against all things "
 "unnatural."
 msgstr ""
+"Kutsanmış bir kılıçla donanmış ve ışığını kendi yaralarını onarmaya "
+"yönelten böyle bir savaşçı doğaya aykırı her şeye karşı güçlü bir müttefik "
+"olur."
 
 #. [unit_type]: id=Caravan, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Caravan.cfg:5
 msgid "Caravan"
-msgstr ""
+msgstr "Kervan"
 
 #. [unit_type]: id=Caravan, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Caravan.cfg:19
@@ -23513,16 +23580,19 @@ msgid ""
 "of the immense weight of the cargo this caravan carries, it is not nimble, "
 "but the driver can still try to drive off attackers with his whip."
 msgstr ""
+"Kervanlar altın ya da erzakı uzun mesafelere taşımak için kullanılır. Bu "
+"kervanın taşıdığı yükün muazzam ağırlığı nedeniyle çevik değildir, ama "
+"arabacı yine de kırbacıyla saldırganları kovmaya çalışabilir."
 
 #. [attack]: type=impact
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Caravan.cfg:29
 msgid "whip"
-msgstr ""
+msgstr "kırbaç"
 
 #. [unit_type]: id=Granite Golem, race=monster
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Golem.cfg:4
 msgid "Granite Golem"
-msgstr ""
+msgstr "Granit Golem"
 
 #. [unit_type]: id=Granite Golem, race=monster
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Golem.cfg:21
@@ -23532,6 +23602,10 @@ msgid ""
 "transport across long distances, their vast bulk renders them nigh-immune to "
 "most forms of damage."
 msgstr ""
+"Savaş alanının üzerinde yükselen bu devasa toprak yapılar elemental büyünün "
+"zirvesini temsil eder. Acı verici derecede hantal ve uzun mesafelere "
+"taşınması imkânsız olsalar da devasa kütleleri onları çoğu hasar türüne "
+"karşı neredeyse bağışık kılar."
 
 #. [attack]: type=impact
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Golem.cfg:63
@@ -23541,17 +23615,17 @@ msgstr "yumruk"
 #. [unit_type]: id=Quintain, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Quintain.cfg:4
 msgid "Quintain"
-msgstr ""
+msgstr "Talim Mankeni"
 
 #. [unit_type]: id=Quintain, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Quintain.cfg:15
 msgid "Quintains are used to practice swordplay and jousting on."
-msgstr ""
+msgstr "Talim mankenleri kılıç ve mızrak dövüşü alıştırması için kullanılır."
 
 #. [unit_type]: id=Wagon, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Wagon.cfg:5
 msgid "Wagon"
-msgstr ""
+msgstr "Araba"
 
 #. [unit_type]: id=Wagon, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Wagon.cfg:22
@@ -23559,6 +23633,9 @@ msgid ""
 "Caravans are used to carry gold or supplies across long distances. This one "
 "is laden only lightly with hay, instead concealing Konrad and his soldiers."
 msgstr ""
+"Kervanlar altın ya da erzakı uzun mesafelere taşımak için kullanılır. Bu "
+"araba yalnızca hafifçe samanla yüklü, onun yerine Konrad’ı ve askerlerini "
+"gizliyor."
 
 #. [unit_type]: id=Cave Wall, race=mechanical
 #: data/campaigns/Heir_To_The_Throne/units/Mechanical_Wall.cfg:5
@@ -23571,11 +23648,13 @@ msgid ""
 "A crudely hewn cave wall, weakened by recent cave-ins. Experience gathered "
 "from mining is of little use on the battlefield."
 msgstr ""
+"Son göçüklerle zayıflamış, kabaca oyulmuş bir mağara duvarı. Madencilikten "
+"kazanılan tecrübe savaş alanında pek işe yaramaz."
 
 #. [unit_type]: id=Gryphlet, race=gryphon
 #: data/campaigns/Heir_To_The_Throne/units/Monster_Gryphlet.cfg:4
 msgid "Gryphlet"
-msgstr ""
+msgstr "Grifin Yavrusu"
 
 #. [unit_type]: id=Gryphlet, race=gryphon
 #: data/campaigns/Heir_To_The_Throne/units/Monster_Gryphlet.cfg:18
@@ -23585,6 +23664,10 @@ msgid ""
 "fly, most have already grown larger than a wolf, and are more than capable "
 "of defending their nests from intruders."
 msgstr ""
+"Genç grifinler yetişkin akrabalarınınkinden daha yumuşak ve daha gösterişli "
+"beyaz ve gri tüylerle kaplıdır. Uçmayı öğrendiklerinde çoğu zaten bir "
+"kurttan büyük olmuştur ve yuvalarını davetsiz misafirlere karşı savunmaya "
+"fazlasıyla yeteneklidir."
 
 #. [unit_type]: id=Sleeping Gryphon, race=gryphon
 #: data/campaigns/Heir_To_The_Throne/units/Monster_Sleeping_Gryphon.cfg:4
@@ -23599,7 +23682,7 @@ msgstr "Şşşş! Grifin uyuyor! Uyandırmanı pek tavsiye etmem!"
 #. [unit_type]: id=Barrow Wight, race=undead
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Horse_Barrow_Wight.cfg:4
 msgid "Barrow Wight"
-msgstr ""
+msgstr "Höyük Hortlağı"
 
 #. [unit_type]: id=Barrow Wight, race=undead
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Horse_Barrow_Wight.cfg:18
@@ -23608,46 +23691,49 @@ msgid ""
 "wanders aimlessly in a delirium of darkness and despair. Their chill essence "
 "is shrouded behind cloak and bone, shielding them from most magic."
 msgstr ""
+"Eski hayatının solan hatırasının sürekli musallat olduğu bir Höyük Hortlağı "
+"karanlık ve umutsuzluk sayıklaması içinde amaçsızca dolaşır. Soğuk özleri "
+"pelerin ve kemiğin ardına gizlenmiştir; bu da onları çoğu büyüden korur."
 
 #. [resistance]: id=shroud
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Horse_Barrow_Wight.cfg:33
 msgid "shroud"
-msgstr ""
+msgstr "kefen"
 
 #. [resistance]: id=shroud
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Horse_Barrow_Wight.cfg:34
 msgid "While defending, this unit has 50% fire and arcane resistance."
-msgstr ""
+msgstr "Savunurken bu birimin %50 ateş ve gizemli direnci vardır."
 
 #. [unit_type]: id=Vampire Lady, gender=female, race=undead, description=
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Vampire_Lady.cfg:4
 msgid "female^Vampire Lady"
-msgstr ""
+msgstr "Vampir Hanım"
 
 #. [attack]: type=blade
 #: data/campaigns/Heir_To_The_Throne/units/Undead_Vampire_Lady.cfg:27
 msgid "blood kiss"
-msgstr ""
+msgstr "kan öpücüğü"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/utils/bigmap.cfg:22
 msgid "It is spring; the next scenario will have normal days and nights."
-msgstr ""
+msgstr "İlkbahar; bir sonraki senaryoda normal gündüzler ve geceler olacak."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/utils/bigmap.cfg:28
 msgid "It is summer; the next scenario will have unusually long days."
-msgstr ""
+msgstr "Yaz; bir sonraki senaryoda alışılmadık derecede uzun gündüzler olacak."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/utils/bigmap.cfg:34
 msgid "It is autumn; the next scenario will have normal days and nights."
-msgstr ""
+msgstr "Sonbahar; bir sonraki senaryoda normal gündüzler ve geceler olacak."
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/utils/bigmap.cfg:40
 msgid "It is winter; the next scenario will have unusually short days."
-msgstr ""
+msgstr "Kış; bir sonraki senaryoda alışılmadık derecede kısa gündüzler olacak."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/bigmap.cfg:67
@@ -23655,26 +23741,28 @@ msgid ""
 "This port has many small boats for us to use! I won’t be able to travel "
 "through deep water, but I can certainly reach the coastal islands and reef."
 msgstr ""
+"Bu limanda kullanabileceğimiz pek çok küçük tekne var! Derin sularda "
+"yolculuk edemem, ama kıyıdaki adalara ve resife kesinlikle ulaşabilirim."
 
 #. [time]: id=spring{NOWEATHER}
 #: data/campaigns/Heir_To_The_Throne/utils/schedule.cfg:176
 msgid "Spring"
-msgstr ""
+msgstr "İlkbahar"
 
 #. [time]: id=summer{NOWEATHER}
 #: data/campaigns/Heir_To_The_Throne/utils/schedule.cfg:188
 msgid "Summer"
-msgstr ""
+msgstr "Yaz"
 
 #. [time]: id=autumn{NOWEATHER}
 #: data/campaigns/Heir_To_The_Throne/utils/schedule.cfg:201
 msgid "Autumn"
-msgstr ""
+msgstr "Sonbahar"
 
 #. [time]: id=winter{NOWEATHER}
 #: data/campaigns/Heir_To_The_Throne/utils/schedule.cfg:213
 msgid "Winter"
-msgstr ""
+msgstr "Kış"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:50
@@ -23682,6 +23770,8 @@ msgid ""
 "I hope Delfador is well. We could have used his help in this battle, but I "
 "know what he’s doing is important."
 msgstr ""
+"Umarım Delfador iyidir. Bu savaşta yardımına ihtiyacımız olabilirdi, ama "
+"yaptığı işin önemli olduğunu biliyorum."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:54
@@ -23689,6 +23779,8 @@ msgid ""
 "The attack on the Aethenwood was bad enough. Elensefar must surely be even "
 "more fierce..."
 msgstr ""
+"Eten Ormanı’na saldırı yeterince kötüydü. Elensefar kesinlikle daha da "
+"şiddetli olmalı..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:71
@@ -23697,11 +23789,14 @@ msgid ""
 "fight it. We may have plenty of time to roam the Great Continent right now, "
 "but we won’t always. We should make every battle count."
 msgstr ""
+"Umarım bu savaştan alacağımız ödüller onunla savaşmak için harcadığımız "
+"zamana değer. Şu an Büyük Kıta’da dolaşmak için bol vaktimiz olabilir, ama "
+"her zaman olmayacak. Her savaşı değerli kılmalıyız."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:86
 msgid "My hand tingles with power... Burn in the name of the kings of Wesnoth!"
-msgstr ""
+msgstr "Elim güçle karıncalanıyor... Vesnot kralları adına yan!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:102
@@ -23709,6 +23804,8 @@ msgid ""
 "I am glad to see that you have been taking good care of my familiar, Konrad. "
 "Blackwing and I have been through many trials together."
 msgstr ""
+"Yardımcı ruhuma iyi baktığını görmekten memnunum, Konrad. Karakanat’la "
+"birlikte pek çok sınavdan geçtik."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:106
@@ -23716,6 +23813,7 @@ msgid ""
 "Thank you for entrusting me with him! He has become a valuable member of our "
 "team."
 msgstr ""
+"Onu bana emanet ettiğin için teşekkürler! Ekibimizin değerli bir üyesi oldu."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:119
@@ -23723,17 +23821,19 @@ msgid ""
 "Seimus, I am glad that you still stand with us. I fear you would have gone "
 "down a dark path had Konrad and I not come to Alduin that day."
 msgstr ""
+"Seimus, hâlâ yanımızda olmana sevindim. Korkarım Konrad ve ben o gün "
+"Alduin’e gelmeseydik karanlık bir yola sapardın."
 
 #. [message]: speaker=Seimus
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:123
 msgid ""
 "Oh yes, don’t remind me. I’m trying not to think too much about all that."
-msgstr ""
+msgstr "Ah evet, hatırlatma. Bütün bunları fazla düşünmemeye çalışıyorum."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:141
 msgid "Fool girl! You shall meet the same fate as did your brother!"
-msgstr ""
+msgstr "Ahmak kız! Kardeşinin uğradığı kaderle sen de karşılaşacaksın!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:162
@@ -23742,6 +23842,9 @@ msgid ""
 "come join me, could you not have brought an elvish army along with you? I "
 "know you’re a powerful lord and greatly loved by your people."
 msgstr ""
+"Lord Kalenz, yardımın için minnettarım. Ama bana katılmak için yolculuğa "
+"çıktığında yanında bir elf ordusu getiremez miydin? Güçlü bir lord olduğunu "
+"ve halkın tarafından çok sevildiğini biliyorum."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:166
@@ -23750,6 +23853,8 @@ msgid ""
 "quest! Your kin are many, and I know firsthand their great skill at sword "
 "and bow."
 msgstr ""
+"Sadece birkaç elf savaşçısı bile görevimizde büyük bir fark yaratabilirdi! "
+"Akrabaların çok ve kılıç ile yaydaki büyük becerilerini ilk elden biliyorum."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:170
@@ -23757,6 +23862,9 @@ msgid ""
 "Not so many as we once were, Konrad. And one elf alone can quietly travel "
 "through human lands far easier than can an army or war-band."
 msgstr ""
+"Bir zamanlar olduğumuz kadar çok değiliz, Konrad. Hem tek bir elf insan "
+"topraklarında bir ordudan ya da savaş çetesinden çok daha kolay sessizce "
+"yolculuk edebilir."
 
 #. [message]: speaker=Kalenz
 #. this is a hint that there's a special reward if you bringing Kalenz to Lintanir forest
@@ -23767,6 +23875,9 @@ msgid ""
 "after Asheviere’s crimes in the Aethenwood. A victory for you is a victory "
 "for all elves."
 msgstr ""
+"Ama bir gün doğuya, Lintanir’deki yurduma dönersek uyruklarım kesinlikle "
+"altın ve erzak sunmaya hazır olacak. Özellikle Aşivye’nin Eten Ormanı’ndaki "
+"suçlarından sonra. Senin için bir zafer bütün elfler için bir zaferdir."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:189
@@ -23775,6 +23886,9 @@ msgid ""
 "Prince Arand, and Delfador’s regrets regarding him. I feel I would very much "
 "have liked to have met him."
 msgstr ""
+"Kalenz, babamı hiç tanıdın mı? Delfador bana Prens Arand hakkında ve onunla "
+"ilgili pişmanlıkları hakkında çok şey anlattı. Onunla tanışmayı çok "
+"isterdim gibi hissediyorum."
 
 #. [message]: speaker=Kalenz
 #. Kalenz knows that Arand is not Konrad's father. Konrad does not. Technically, everything Kalenz says here is true.
@@ -23784,6 +23898,8 @@ msgid ""
 "Delfador and I have spoken about your parentage, and there is nothing for me "
 "to add."
 msgstr ""
+"Babanı mı? Hayır, babanı da ailenden kimseyi de tanımadım. Delfador’la "
+"soyun hakkında konuştuk ve benim ekleyecek bir şeyim yok."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23792,6 +23908,8 @@ msgid ""
 "It is sad to see what Wesnoth has fallen to, Konrad. Do not make the same "
 "mistakes as did my people."
 msgstr ""
+"Vesnot’un düştüğü hâli görmek üzücü, Konrad. Halkımın yaptığı hataları "
+"yapma."
 
 #. [message]: speaker=Konrad
 #. Konrad speaks about the events of LoW
@@ -23801,6 +23919,9 @@ msgid ""
 "lived as if in a dream, untroubled by even the rumor of strife. That sounds "
 "an envious life."
 msgstr ""
+"Elflerin tarihi hakkında biraz bilgim var. Delfador bir zamanlar çatışma "
+"söylentisinden bile rahatsız olmadan bir rüyadaymış gibi yaşadığınızı "
+"söylüyor. Kulağa imrenilecek bir hayat gibi geliyor."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23809,6 +23930,8 @@ msgid ""
 "Indeed. But then man came. And with man came the orcs, chasing after the "
 "very sceptre that your cousin now holds."
 msgstr ""
+"Gerçekten. Ama sonra insan geldi. Ve insanla birlikte, kuzeninin şimdi "
+"tuttuğu o asanın peşinde orklar geldi."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23817,6 +23940,8 @@ msgid ""
 "Indeed. But then man came. And with man came the orcs, chasing after that "
 "very sceptre you now hold."
 msgstr ""
+"Gerçekten. Ama sonra insan geldi. Ve insanla birlikte, şimdi tuttuğun o "
+"asanın peşinde orklar geldi."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23826,6 +23951,9 @@ msgid ""
 "across the open plain to make war, first against the orcs, then against each "
 "other. Now so few of us remain."
 msgstr ""
+"O günlerde büyük ve korkunç savaşlar verdik. Elf orduları savaşmak için "
+"açık ovalarda yürüdü, önce orklara karşı, sonra birbirlerine karşı. Şimdi "
+"çok azımız kaldı."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23835,6 +23963,9 @@ msgid ""
 "you, Konrad. But some scars do not heal. I hope your civil war will end "
 "better than did mine."
 msgstr ""
+"Eten Ormanı daha genç; pek çoğunun seninle birlikte yürümesine sevindim, "
+"Konrad. Ama bazı yaralar iyileşmez. Umarım iç savaşınız benimkinden daha "
+"iyi biter."
 
 #. [message]: speaker=Kalenz
 #. Kalenz speaks about the events of LoW
@@ -23844,6 +23975,8 @@ msgid ""
 "Konrad. But some scars do not heal. I hope your civil war will end better "
 "than did mine."
 msgstr ""
+"Eten Ormanı daha genç; onların arasında büyümene sevindim, Konrad. Ama bazı "
+"yaralar iyileşmez. Umarım iç savaşınız benimkinden daha iyi biter."
 
 #. [message]: speaker=Delfador
 #. Delfador and Chantal first met in The Deceiver's Gambit
@@ -23852,6 +23985,8 @@ msgid ""
 "Chantal, it has been a long time since we first met in the Lintanir. I have "
 "grown old. You are as young as ever."
 msgstr ""
+"Şantal, Lintanir’de ilk tanışmamızın üzerinden uzun zaman geçti. Ben "
+"yaşlandım. Sen her zamanki gibi gençsin."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:270
@@ -23859,6 +23994,9 @@ msgid ""
 "I am young in body, at least. Do I detect a hint of jealousy in the voice of "
 "Delfador the Great? Hah — I am glad to have your company once again."
 msgstr ""
+"En azından bedenen gencim. Yüce Delfador’un sesinde bir kıskançlık izi mi "
+"seziyorum? Hah — bir kez daha senin arkadaşlığına sahip olduğum için "
+"mutluyum."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:274
@@ -23866,17 +24004,22 @@ msgid ""
 "Jealousy? Banish the thought. It is good to travel with you as well. I am "
 "sure you will enjoy getting to know our lively band of warriors."
 msgstr ""
+"Kıskançlık mı? Aklından bile geçirme. Seninle yolculuk etmek de güzel. "
+"Hareketli savaşçı topluluğumuzu tanımaktan keyif alacağından eminim."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:290
 msgid ""
 "Haldiel, you fought in Garard’s war against the orcs. Did you know my father?"
 msgstr ""
+"Haldiel, Garard’ın orklara karşı savaşında savaştın. Babamı tanır mıydın?"
 
 #. [message]: speaker=Haldiel
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:294
 msgid "Prince Arand? No, I was a member of King Garard’s Royal Cavalry."
 msgstr ""
+"Prens Arand’ı mı? Hayır, ben Kral Garard’ın Kraliyet Süvarileri’nin bir "
+"üyesiydim."
 
 #. [message]: speaker=Haldiel
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:298
@@ -23885,11 +24028,14 @@ msgid ""
 "bestowed much favor upon the Horse Clans, but only so long as we trained "
 "ever-greater numbers of young men for his cavalry."
 msgstr ""
+"Baban düştüğünde ancak genç bir adamdım, daha yeni reşit olmuştum. Garard "
+"At Klanlarına çok lütufta bulundu, ama yalnızca süvarileri için giderek "
+"daha fazla genç adam eğittiğimiz sürece."
 
 #. [message]: id=Haldiel,Simyr
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:317
 msgid "Sir Kaylan sends his regards, Lords of the Clans."
-msgstr ""
+msgstr "Sör Kaylan selamlarını gönderiyor, Klanların Beyleri."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:321
@@ -23897,6 +24043,8 @@ msgid ""
 "We do not send ours. Kaylan defies the will of the Horse Clans by supporting "
 "the upstart prince. What of his duty to his kin?"
 msgstr ""
+"Biz seninkileri göndermiyoruz. Kaylan türedi prensi destekleyerek At "
+"Klanlarının iradesine karşı geliyor. Akrabalarına karşı görevi ne olacak?"
 
 #. [message]: id=Haldiel,Simyr
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:325
@@ -23904,11 +24052,13 @@ msgid ""
 "What of justice for Garard? What of our honor? Once, the Clans stood for "
 "those ideals. How far you have fallen."
 msgstr ""
+"Garard için adalet ne olacak? Onurumuz ne olacak? Bir zamanlar Klanlar bu "
+"idealleri savunurdu. Ne kadar düşmüşsünüz."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:329
 msgid "Bah! Impudence! We have nothing more to speak about."
-msgstr ""
+msgstr "Bah! Küstahlık! Konuşacak başka bir şeyimiz yok."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:349
@@ -23916,6 +24066,9 @@ msgid ""
 "I’m grateful for your commitment, Elrian. Few are accepted into Alduin, and "
 "even fewer choose to leave it. You gave up everything to fight alongside me."
 msgstr ""
+"Bağlılığın için minnettarım, Elrian. Alduin’e çok az kişi kabul edilir ve "
+"oradan ayrılmayı seçen daha da az kişi vardır. Benimle birlikte savaşmak "
+"için her şeyden vazgeçtin."
 
 #. [message]: speaker=Elrian
 #. this is a hint that there's a special event if Konrad brings Elrian to Tath
@@ -23925,6 +24078,9 @@ msgid ""
 "grandparents are “new money”; wealthy merchants from the east side of Tath. "
 "(As an aside — we should visit them if we’re ever in the area.)"
 msgstr ""
+"Doğrusunu söylemek gerekirse büyü çalışmak benden çok ailemin hayaliydi. "
+"Büyükannem ve büyükbabam “sonradan görme”; Tath’ın doğu yakasından zengin "
+"tüccarlar. (Bu arada — o civarda olursak onları ziyaret etmeliyiz.)"
 
 #. [message]: speaker=Elrian
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:363
@@ -23933,6 +24089,9 @@ msgid ""
 "grandparents are “new money”; wealthy merchants from the east side of Tath. "
 "You’ve already been there and met them."
 msgstr ""
+"Doğrusunu söylemek gerekirse büyü çalışmak benden çok ailemin hayaliydi. "
+"Büyükannem ve büyükbabam “sonradan görme”; Tath’ın doğu yakasından zengin "
+"tüccarlar. Oraya zaten gittin ve onlarla tanıştın."
 
 #. [message]: speaker=Elrian
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:369
@@ -23941,6 +24100,9 @@ msgid ""
 "connections and making inroads with Wesnoth’s more established elites. I "
 "suppose that hasn’t really worked out, seeing as I’m now a rebel and all."
 msgstr ""
+"En büyük torunlarını — beni — bağlantılar kurmak ve Vesnot’un daha köklü "
+"seçkinleri arasında yol açmak umuduyla Alduin’e gönderdiler. Sanırım şimdi "
+"bir isyancı falan olduğuma göre bu pek işe yaramadı."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:386
@@ -23949,6 +24111,9 @@ msgid ""
 "a shame he decided to side with Asheviere instead of joining us as you did, "
 "Elrian."
 msgstr ""
+"Alduin’de savaştığımız o “Rektör Seimus” güçlü bir büyücüye benziyordu. "
+"Senin gibi bize katılmak yerine Aşivye’nin tarafını seçmesi ne yazık, "
+"Elrian."
 
 #. [message]: speaker=Elrian
 #. this is a hint that Konrad can recruit Seimus if he brings Delfador to speak with him. That can't happen in this playthrough anymore; only on a future playthrough.
@@ -23958,12 +24123,17 @@ msgid ""
 "only way Alduin can survive is by bending the knee. It would probably take a "
 "talking-to from Delfador himself to convince him otherwise..."
 msgstr ""
+"Bence Seimus özünde iyi bir adam. Ama Alduin’in hayatta kalmasının tek "
+"yolunun diz çökmek olduğuna kendini ikna etmiş. Onu başka türlü ikna etmek "
+"muhtemelen bizzat Delfador’un konuşmasını gerektirir..."
 
 #. [message]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:407
 msgid ""
 "Hello Seimus, my old master. I’ll bet you regret expelling me now, don’t you!"
 msgstr ""
+"Merhaba Seimus, eski ustam. Bahse girerim şimdi beni okuldan attığına "
+"pişmansındır!"
 
 #. [message]: speaker=Seimus
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:411
@@ -23971,6 +24141,8 @@ msgid ""
 "Err, are you— who are you again? Many aspire to join the ranks of the magi, "
 "but few have the skill."
 msgstr ""
+"Şey, sen— sen kimdin? Pek çoğu büyücülerin saflarına katılmaya hevesli, ama "
+"çok azının becerisi var."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:434
@@ -23978,6 +24150,8 @@ msgid ""
 "Moremirmu, I’ve met White Mages before, but never someone quite like you. "
 "Where do you hail from?"
 msgstr ""
+"Moremirmu, daha önce Ak Büyücülerle tanıştım, ama hiç senin gibi biriyle "
+"değil. Nerelisin?"
 
 #. [message]: speaker=Moremirmu
 #. this is a hint that there's a special event for bringing Moremirmu to the monastery in the Gryphon Mountains
@@ -23987,6 +24161,9 @@ msgid ""
 "Light that I was rescued and raised there, high in the Gryphon Mountains. We "
 "ought to visit there someday."
 msgstr ""
+"Mührün büyük manastırından, iyi Konrad! Grifin Dağları’nın yükseklerinde, "
+"Işığın lütfuyla kurtarılıp orada büyütüldüm. Bir gün orayı ziyaret "
+"etmeliyiz."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:443
@@ -23995,6 +24172,9 @@ msgid ""
 "smite. And lo! You and I united, and lo! Now we quest together against the "
 "evils of Asheviere."
 msgstr ""
+"Şimdi kılıcı kuşanıp yere serilecek kötülük aramak için yola çıktım. Ve "
+"işte! Sen ve ben birleştik ve işte! Şimdi Aşivye’nin kötülüklerine karşı "
+"birlikte görev yapıyoruz."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:459
@@ -24002,6 +24182,8 @@ msgid ""
 "What strange magic you wield, Kalenz. It is light, yet it is not of the "
 "Light! What manner of unhallowed spells do you weave?"
 msgstr ""
+"Ne tuhaf bir büyü kullanıyorsun, Kalenz. Işık, ama Işıktan değil! Ne tür "
+"kutsal olmayan büyüler örüyorsun?"
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:463
@@ -24010,6 +24192,9 @@ msgid ""
 "it is natural to the elves. Few are the male elves permitted to learn it. "
 "And no outsiders, for it is an art inherited only by my kind."
 msgstr ""
+"Bu peri büyüsü. Bazı yönlerden senin Işığına benziyor, ama elflere "
+"doğaldır. Çok az erkek elfin onu öğrenmesine izin verilir. Yabancılara ise "
+"hiç, çünkü yalnızca benim türümün miras aldığı bir sanattır."
 
 #. [message]: speaker=Kalenz
 #. this is a reference to the events of LoW, where Kalenz gained his magic after drinking an invisibility potion brewed by Crelanu
@@ -24018,6 +24203,8 @@ msgid ""
 "Although I gained my magic in a different manner than do most of my kind, it "
 "is now as much a part of me as is my blood."
 msgstr ""
+"Büyümü türümün çoğundan farklı bir şekilde kazanmış olsam da artık kanım "
+"kadar benim bir parçam."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:481
@@ -24025,6 +24212,8 @@ msgid ""
 "You wield your lightning with a nigh-supernatural skill, Delfador. Truly you "
 "have been blessed by the Light."
 msgstr ""
+"Yıldırımını neredeyse doğaüstü bir beceriyle kullanıyorsun, Delfador. "
+"Gerçekten Işık tarafından kutsanmışsın."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:485
@@ -24033,6 +24222,8 @@ msgid ""
 "a distance and await their destruction. Enemies of evil must stand ready to "
 "fight with steel!"
 msgstr ""
+"Peki ya kılıç becerin? Düşmanlarımız uzakta oyalanıp yok edilmeyi "
+"beklemekle yetinmez. Kötülüğün düşmanları çelikle savaşmaya hazır olmalı!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:490
@@ -24040,6 +24231,8 @@ msgid ""
 "I need little strength of body, Moremirmu, for I wield the magical flaming "
 "sword of the Lintanir. A mighty boon, and one I am well grateful for."
 msgstr ""
+"Bedensel güce pek ihtiyacım yok, Moremirmu, çünkü Lintanir’in büyülü alevli "
+"kılıcını kullanıyorum. Büyük bir nimet ve bunun için çok minnettarım."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:495
@@ -24047,6 +24240,9 @@ msgid ""
 "I am an old man, Moremirmu. My magic serves me where my body has failed. I "
 "shall trust in you, Konrad, and our allies to carry the steel."
 msgstr ""
+"Ben yaşlı bir adamım, Moremirmu. Bedenimin yetmediği yerde büyüm bana "
+"hizmet eder. Çeliği taşımak için sana, Konrad’a ve müttefiklerimize "
+"güveneceğim."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:514
@@ -24054,6 +24250,8 @@ msgid ""
 "Accede not your souls to the unclean, my fellow warriors! We shall cleanse "
 "these dead in holy fire!"
 msgstr ""
+"Ruhlarınızı murdarlara teslim etmeyin, savaşçı dostlarım! Bu ölüleri kutsal "
+"ateşte arındıracağız!"
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:533
@@ -24062,6 +24260,9 @@ msgid ""
 "your crimes! Return to the Light, or soon shall come the black soot over "
 "Weldyn and the death of all men!"
 msgstr ""
+"Işıktan yüz çevirdiniz, Vesnot insanları! Sözlerime kulak verin! "
+"Suçlarınızın kefaretini ödeyin! Işığa dönün, yoksa yakında Weldyn’in "
+"üzerine kara is ve bütün insanların ölümü gelecek!"
 
 #. [message]: speaker=Harper
 #. Harper and Konrad discuss the events of Liberty
@@ -24071,6 +24272,9 @@ msgid ""
 "Three Sisters? It be a powerful story, an’ one that matters for how you’re "
 "fightin’ Asheviere too! I’ve been excited to tell you!"
 msgstr ""
+"Konrad, neden hiç bana hepimizin Üç Kızkardeş’te yaşamaya nasıl geldiğimizi "
+"sormadın? Güçlü bir hikâye, hem de Aşivye’yle nasıl savaştığın için de "
+"önemli! Sana anlatmak için sabırsızlanıyordum!"
 
 #. [message]: speaker=Konrad
 #. Harper and Konrad discuss the events of Liberty
@@ -24080,6 +24284,8 @@ msgid ""
 "your homes, destroyed Halstead, and ended up on the islands. Just like that, "
 "right?"
 msgstr ""
+"Ah, diğerleri bana zaten anlattı! Aşivye yönetimi aldı, evlerinizden "
+"kaçtınız, Halstead’i yıktınız ve adalara düştünüz. İşte bu kadar, değil mi?"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:561
@@ -24087,6 +24293,8 @@ msgid ""
 "... err, but you can still tell me again. Your parts especially, Harper! I’d "
 "always be happy to listen."
 msgstr ""
+"... şey, ama yine de bana tekrar anlatabilirsin. Özellikle senin "
+"kısımlarını, Harper! Dinlemekten her zaman mutlu olurum."
 
 #. [message]: speaker=Somf
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:574
@@ -24095,6 +24303,9 @@ msgid ""
 "get away from th’ queen. Why’re you fightin’ for this “Konrad” now, an’ "
 "draggin’ me into it too?"
 msgstr ""
+"Hiç prenslerden ya da krallardan hoşlanan biri gibi görünmezdin, Harper. "
+"Kraliçeden kurtulmak için epey savaştık. Neden şimdi bu “Konrad” için "
+"savaşıyorsun, hem de beni de işin içine sürüklüyorsun?"
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:578
@@ -24102,6 +24313,8 @@ msgid ""
 "We never fought just to get away. Baldras fought fer a better life fer all "
 "of us, an’ fer everyone!"
 msgstr ""
+"Biz hiçbir zaman sadece kurtulmak için savaşmadık. Baldras hepimiz ve "
+"herkes için daha iyi bir hayat için savaştı!"
 
 #. [message]: speaker=Harper
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:582
@@ -24109,25 +24322,27 @@ msgid ""
 "Konrad’s a good person. He wants what’s best fer everyone too. And he saved "
 "my life from a lich! That’s gotta be worth somethin’."
 msgstr ""
+"Konrad iyi biri. O da herkes için en iyisini istiyor. Hem beni bir umacıdan "
+"kurtardı! Bunun bir değeri olmalı."
 
 #. [message]: speaker=Ulfdain
 #. stay in your graves, you rotting heaps of bones
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:603
 msgid "Stay in yer graves, ye rottin’ heaps o’ bones!"
-msgstr ""
+msgstr "Mezarlarınızda kalın, sizi çürüyen kemik yığınları!"
 
 #. [message]: speaker=Ulfdain
 #. ah, insulting these dead ones is just no fun. They can't understand me...
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:610
 msgid ""
 "Ah, insultin’ these dead’uns is jus’ no fun. They cannae understand me..."
-msgstr ""
+msgstr "Ah, bu ölülere hakaret etmek hiç eğlenceli değil. Beni anlamıyorlar..."
 
 #. [message]: speaker=Ulfdain
 #. And stay down!
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:629
 msgid "An’ stay down!"
-msgstr ""
+msgstr "Ve yerde kal!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:641
@@ -24136,6 +24351,9 @@ msgid ""
 "the dwarves preferred to keep their own company in Knalga, except for their "
 "human friends at the Doors."
 msgstr ""
+"Ulfdain, kendini Vesnot’ta nasıl buldun? Delfador bana hep cücelerin "
+"Kapılar’daki insan dostları dışında Knalga’da kendi aralarında kalmayı "
+"tercih ettiğini söylerdi."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:645
@@ -24145,6 +24363,10 @@ msgid ""
 "the truth, there ain’t much hope left in Knalga, least not that I’ve heard "
 "about."
 msgstr ""
+"Evet, doğru. Biz cüceler pek dışa dönük insanlar değiliz. Çoğu zaman "
+"kafalarımız bir trolünkinden sert, inatçılığımız da daha fazla! Ama sana "
+"doğrusunu söyleyeyim, Knalga’da pek umut kalmadı, en azından benim duyduğum "
+"kadarıyla."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:649
@@ -24154,6 +24376,10 @@ msgid ""
 "friends dyin’ one by one? I fled our dyin’ home in search o’ a better life "
 "elsewhere."
 msgstr ""
+"İtiraf etmekten utanıyorum, Konrad, ama ayrıldım. Bir Deli Cüce ne trolden "
+"ne orktan korkar, ama yurdumun etrafımda yavaş yavaş parçalanışını izlemek? "
+"Dostlarımın tek tek ölüşünü? Başka yerde daha iyi bir hayat aramak için "
+"ölmekte olan yurdumuzdan kaçtım."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:653
@@ -24161,6 +24387,8 @@ msgid ""
 "An ye see how that ended up. A great galumphing gallow-fool I’ve been. If ye "
 "hadn’t helped me miners and I when ye did..."
 msgstr ""
+"Ve sonunun nasıl olduğunu gördün. Koca hantal bir darağacı ahmağı oldum. "
+"Sen o zaman bana ve madencilerime yardım etmeseydin..."
 
 #. [message]: speaker=Ulfdain
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:666
@@ -24169,6 +24397,9 @@ msgid ""
 "to show tha’ dew-beatin’ gobermouch excuse for a queen exactly what I think "
 "o’ her!"
 msgstr ""
+"Bu dövüş güzel falan, ama Weldyn’e ne zaman varıyoruz? O sabah çiyi "
+"çiğneyen dedikoducu kraliçe bozuntusuna onun hakkında tam olarak ne "
+"düşündüğümü göstermek için sabırsızlanıyorum!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:671
@@ -24177,6 +24408,9 @@ msgid ""
 "have come a long way together since you first joined us, Ulfdain — now even "
 "the princess is on our side!"
 msgstr ""
+"Sanırım kendimizi Weldyn’de bulmamız uzun sürmeyecek. Bize ilk "
+"katıldığından beri birlikte uzun bir yol geldik, Ulfdain — şimdi prenses "
+"bile bizim tarafımızda!"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:676
@@ -24185,6 +24419,8 @@ msgid ""
 "anytime soon! For now we should focus on surviving and building up our "
 "strength."
 msgstr ""
+"Hevesini takdir ediyorum, ama yakın zamanda Aşivye’yle yüzleşecek durumda "
+"değiliz! Şimdilik hayatta kalmaya ve gücümüzü artırmaya odaklanmalıyız."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:693
@@ -24193,6 +24429,8 @@ msgid ""
 "looked kindly upon by Alduin. There are some who think it hogwash and "
 "superstition."
 msgstr ""
+"Simyacı mısın, Jeniver? Bu cesur bir seçim, çünkü zanaatına Alduin iyi "
+"gözle bakmaz. Onu saçmalık ve batıl inanç sayanlar var."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:697
@@ -24201,6 +24439,9 @@ msgid ""
 "ignorance! Alchemy is just— it’s the future! There’s so much for us to "
 "learn, it’s—"
 msgstr ""
+"Batıl inanç mı?! Hayır, hayır, hayır! Bu yaygın bir yanılgı, şeyden— "
+"şeyden— aptal cehaletten doğmuş! Simya sadece— o gelecek! Öğrenecek o kadar "
+"çok şey var ki—"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:701
@@ -24208,6 +24449,8 @@ msgid ""
 "No offense meant, my lady. Perhaps we can discuss your studies in more depth "
 "at another time."
 msgstr ""
+"Kırmak istemedim, hanımefendi. Belki çalışmalarınızı başka bir zaman daha "
+"ayrıntılı konuşabiliriz."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:731
@@ -24216,31 +24459,38 @@ msgid ""
 "venom — I suppose it’s not really poison — for my blowdarts. Can you kill "
 "one for me?"
 msgstr ""
+"Ah! O başka bir dev örümcek mi? Üfleme oklarım için biraz daha örümcek "
+"zehrine, şey, salgısına — sanırım gerçekten zehir değil — ihtiyacım var. "
+"Benim için birini öldürebilir misin?"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:739
 msgid "Wonderful, the spider is dead! Just, ah, just give me a moment here..."
-msgstr ""
+msgstr "Harika, örümcek öldü! Sadece, ah, bana biraz zaman ver..."
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:821
 msgid "Improved Blowgun"
-msgstr ""
+msgstr "Gelişmiş Üfleme Borusu"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:822
 msgid "Jeniver’s “<i>blowgun</i>” attack can now be used twice each turn!"
 msgstr ""
+"Jeniver’in “<i>üfleme borusu</i>” saldırısı artık her el iki kez "
+"kullanılabilir!"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:842
 msgid "Improved Flashpowder"
-msgstr ""
+msgstr "Gelişmiş Şimşek Tozu"
 
 #. [object]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:843
 msgid "Jeniver’s “<i>flashpowder</i>” attack can now be used twice each turn!"
 msgstr ""
+"Jeniver’in “<i>şimşek tozu</i>” saldırısı artık her el iki kez "
+"kullanılabilir!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:860
@@ -24248,11 +24498,13 @@ msgid ""
 "Konrad, I had no idea you had a troll with you! What was his name? Dosh? "
 "Dosh, CAN. YOU. UNDERSTAND. ME?"
 msgstr ""
+"Konrad, yanında bir trol olduğundan haberim yoktu! Adı neydi? Dosh mu? "
+"Dosh, BENİ. ANLIYOR. MUSUN?"
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:864
 msgid "Dere sometin’ wrong wit’ your head, girl? You talkin’ real funny."
-msgstr ""
+msgstr "Kafanda bir sorun mu var, kız? Çok tuhaf konuşuyorsun."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:868
@@ -24261,6 +24513,9 @@ msgid ""
 "It’ll grow back, I’m sure. I have this, err, theory I want to try with "
 "regeneration, you see..."
 msgstr ""
+"Ah! Ah, o zaman, Dosh, etinden birkaç parça istemem seni rahatsız eder mi? "
+"Eminim yeniden çıkar. Yenilenmeyle denemek istediğim, şey, bir kuramım var, "
+"anlarsın ya..."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:872
@@ -24268,6 +24523,8 @@ msgid ""
 "You want some pieces of Dosh? Dere definitely sometin’ wrong wit’ your head. "
 "But okay. Here you go."
 msgstr ""
+"Dosh’tan birkaç parça mı istiyorsun? Kafanda kesinlikle bir sorun var. Ama "
+"tamam. Al bakalım."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:896
@@ -24276,6 +24533,9 @@ msgid ""
 "regeneration... in fact, I have something of a theory about the curative "
 "properties of troll-flesh..."
 msgstr ""
+"Ah, bir trol! Şey, Konrad, biliyor musun, trollerin inanılmaz yenilenme "
+"güçleri olduğu söylenir... hatta trol etinin iyileştirici özellikleri "
+"hakkında bir kuramım var..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:907
@@ -24283,6 +24543,8 @@ msgid ""
 "The troll’s dead? Oh, wonderful— yes, yes there’s something I’ve been "
 "meaning to try with regeneration..."
 msgstr ""
+"Trol öldü mü? Ah, harika— evet, evet yenilenmeyle denemek istediğim bir şey "
+"var..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:922
@@ -24290,11 +24552,13 @@ msgid ""
 "Mix with one vial of frostbone... infusion of boar... heat over an open "
 "flame..."
 msgstr ""
+"Bir şişe ayaz kemiği ile karıştır... yaban domuzu demlemesi... açık alevde "
+"ısıt..."
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:935
 msgid "Oh! Oh Light, that’s foul! That stings! It blew up in my face!"
-msgstr ""
+msgstr "Ah! Ah Işık, bu iğrenç! Yakıyor! Yüzümde patladı!"
 
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:939
@@ -24303,6 +24567,9 @@ msgid ""
 "curation of venoms; the curing of poison and bolstering of the body and so-"
 "on. But trollish regeneration seems, err, well— incompatible with my methods."
 msgstr ""
+"Ben— şey, zehirlerin hızlı iyileştirilmesinin sırlarını çözmeye "
+"<b><i>çalışıyordum</i></b>; zehrin tedavisi ve bedenin güçlendirilmesi "
+"falan. Ama trol yenilenmesi, şey, eh— yöntemlerimle uyumsuz görünüyor."
 
 #. [message]: speaker=Jeniver
 #. this is a hint that Jeniver will get a bonus if you bring her to Underground Channels (with Woses)
@@ -24311,6 +24578,8 @@ msgid ""
 "Although, if you could someday find some other species of regenerating "
 "creature for me to take a sample of..."
 msgstr ""
+"Gerçi bir gün benim için örnek alabileceğim başka bir yenilenen yaratık "
+"türü bulabilirsen..."
 
 #. [message]: speaker=Ulfdain
 #. "from below" implying that dwarves believe that they end up in some underworld after death
@@ -24320,13 +24589,16 @@ msgid ""
 "bog-handed, mumblecrest o’ a troll, Konrad. I kin feel my ancestors laughin’ "
 "at me from below!"
 msgstr ""
+"Konrad, beni yarım akıllı, beceriksiz, ahmak bir trolle omuz omuza "
+"savaşmamı beklediğine inanamıyorum. Atalarımın aşağıdan bana güldüğünü "
+"hissedebiliyorum!"
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:978
 msgid ""
 "Hey, who you calling... uhh... thing. Not like Dosh been killin’ hundred "
 "dwarves or nothin’ like that."
-msgstr ""
+msgstr "Hey, kime diyorsun... ee... şey. Dosh yüz cüce falan öldürmüş değil ya."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:982
@@ -24334,6 +24606,8 @@ msgid ""
 "Dosh only ever kill two, small ones, an’ dey not even fight back. Dwarves "
 "not hard to kill. You probably not hard either."
 msgstr ""
+"Dosh sadece iki tane öldürdü, küçük olanlar, onlar da karşılık vermedi "
+"bile. Cüceleri öldürmek zor değil. Sen de muhtemelen zor değilsin."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:986
@@ -24341,6 +24615,7 @@ msgid ""
 "Enough, both of you! Behave, or you’ll find yourselves needing to fight me, "
 "too."
 msgstr ""
+"Yeter, ikiniz de! Uslu durun, yoksa benimle de savaşmak zorunda kalırsınız."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:999
@@ -24349,6 +24624,8 @@ msgid ""
 "have fought against your kind instead. I hope there will be no tension "
 "between us."
 msgstr ""
+"Trollerle yan yana savaşmaya pek alışkın değilim, Dosh. Geçmişte senin "
+"türünle bunun yerine savaştım. Umarım aramızda gerginlik olmaz."
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1003
@@ -24357,11 +24634,14 @@ msgid ""
 "telling stories about all da big battles you fought back when. Now soon dey "
 "telling stories about Dosh too!"
 msgstr ""
+"Yok, Dosh Delfador’la birlikte savaştığı için heyecanlı. Orklar ve troller "
+"senin eskiden verdiğin bütün büyük savaşlar hakkında hikâyeler anlatıyor. "
+"Şimdi yakında Dosh hakkında da hikâyeler anlatacaklar!"
 
 #. [message]: speaker=Dosh
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1018
 msgid "You bad troll, bad! Bad trolls be getting hit with big sticks!"
-msgstr ""
+msgstr "Seni kötü trol, kötü! Kötü troller büyük sopalarla dayak yer!"
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1035
@@ -24369,6 +24649,8 @@ msgid ""
 "I never thought I’d be fighting alongside the very wizard who killed my "
 "brother. I never had a chance to meet him. Thanks to you."
 msgstr ""
+"Kardeşimi öldüren büyücünün ta kendisiyle yan yana savaşacağım hiç aklıma "
+"gelmezdi. Onunla tanışma şansım hiç olmadı. Senin sayende."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1039
@@ -24376,6 +24658,8 @@ msgid ""
 "You never had a chance to meet your father, either. I think Garard would be "
 "proud of you. You have his skill with the sword."
 msgstr ""
+"Babanla tanışma şansın da hiç olmadı. Bence Garard seninle gurur duyardı. "
+"Onun kılıç becerisine sahipsin."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1043
@@ -24384,6 +24668,9 @@ msgid ""
 "with flattery and lies, but it was his hand and his hand alone that slew the "
 "old king. Your brother sealed his own fate that day, Li’sar."
 msgstr ""
+"Ama kardeşine gelince... Aşivye’nin Eldred’i dalkavukluk ve yalanlarla "
+"şişirdiğinden hiç şüphem yok, ama yaşlı kralı öldüren onun eli ve yalnızca "
+"onun eliydi. O gün kardeşin kendi kaderini mühürledi, Lisar."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1047
@@ -24391,48 +24678,50 @@ msgid ""
 "Save your breath. You’re not making this any easier. Let’s just do what "
 "needs to be done."
 msgstr ""
+"Boşuna nefes tüketme. Bunu hiç kolaylaştırmıyorsun. Sadece yapılması "
+"gerekeni yapalım."
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1062
 msgid "A powerful magic awakens in my hands. Behold the Sceptre of Fire!"
-msgstr ""
+msgstr "Ellerimde güçlü bir büyü uyanıyor. Ateş Asası’na bakın!"
 
 #. [message]: id=$defector1.id
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1184
 msgid "Is that... the Sceptre of Fire?! Ye gods, it’s real!"
-msgstr ""
+msgstr "Bu... Ateş Asası mı?! Tanrılar, gerçekmiş!"
 
 #. [then]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1191
 msgid "The legends are true! The true queen has come!"
-msgstr ""
+msgstr "Efsaneler doğru! Gerçek kraliçe geldi!"
 
 #. [then]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1192
 msgid "Spare me, madam, and I will pledge myself into your service!"
-msgstr ""
+msgstr "Beni bağışlayın, hanımefendi, kendimi hizmetinize adayayım!"
 
 #. [then]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1194
 msgid "The legends are true! The true king has come!"
-msgstr ""
+msgstr "Efsaneler doğru! Gerçek kral geldi!"
 
 #. [then]
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1195
 msgid "Spare me, sir, and I will pledge myself into your service!"
-msgstr ""
+msgstr "Beni bağışlayın, efendim, kendimi hizmetinize adayayım!"
 
 #. [message]: id=$defector2.id
 #. [message]: id=$defector1.id
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1213
 #: data/campaigns/Heir_To_The_Throne/utils/smalltalk.cfg:1218
 msgid "And I!"
-msgstr ""
+msgstr "Ben de!"
 
 #. [dummy]: id=exacting
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:9
 msgid "exacting"
-msgstr ""
+msgstr "titiz"
 
 #. [dummy]: id=exacting
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:10
@@ -24440,6 +24729,8 @@ msgid ""
 "Li’sar has drilled her infantry to perfection. Though few in number, each of "
 "her soldiers possesses skills not usually seen on others of their type."
 msgstr ""
+"Lisar piyadesini mükemmel biçimde eğitmiş. Sayıları az olsa da askerlerinin "
+"her biri kendi türlerinde genellikle görülmeyen becerilere sahip."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:62
@@ -24448,6 +24739,9 @@ msgid ""
 "large in number, they are exactingly trained — each of them possesses one "
 "ability not usually seen on others of their type."
 msgstr ""
+"Eten Ormanı’ndayken Lisar’ı inceledim. Şahsi bölüğü kalabalık olmasa da "
+"titizlikle eğitilmiş — her biri kendi türlerinde genellikle görülmeyen bir "
+"yeteneğe sahip."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:77
@@ -24456,11 +24750,14 @@ msgid ""
 "Aethenwood. Though not large in number, they are exactingly trained — each "
 "of them possesses one ability not usually seen on others of their type."
 msgstr ""
+"Bakın: Lisar’ın şahsi bölüğünden biri! Eten Ormanı’ndayken onları "
+"inceledim. Kalabalık olmasalar da titizlikle eğitilmişler — her biri kendi "
+"türlerinde genellikle görülmeyen bir yeteneğe sahip."
 
 #. [dummy]: id=rejuvenate
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:92
 msgid "rejuvenates"
-msgstr ""
+msgstr "gençleştirir"
 
 #. [dummy]: id=rejuvenate
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:93
@@ -24468,11 +24765,13 @@ msgid ""
 "This unit will heal itself and adjacent allied units for 4 HP each turn. "
 "This ability cannot cure poison, however, only delay its effect."
 msgstr ""
+"Bu birim her el kendisini ve yanındaki müttefik birimleri 4 YP iyileştirir. "
+"Ancak bu yetenek zehri iyileştiremez, sadece etkisini geciktirir."
 
 #. [dummy]: id=smite
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:160
 msgid "smite"
-msgstr ""
+msgstr "çarpma"
 
 #. [dummy]: id=smite
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:161
@@ -24480,6 +24779,8 @@ msgid ""
 "Each time this unit strikes a finishing blow, it deals 30 arcane damage to "
 "adjacent enemies."
 msgstr ""
+"Bu birim her son darbeyi vurduğunda yanındaki düşmanlara 30 gizemli hasar "
+"verir."
 
 #. [object]: id=sceptre_of_fire, type=fire, type=fire, type=fire, type=fire
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:197
@@ -24489,6 +24790,9 @@ msgid ""
 "Continent. Among its many powers is the ability to hurl fireballs of great "
 "size."
 msgstr ""
+"Kral II. Haldrik’in isteği üzerine Knalga cüceleri tarafından dövülen bu "
+"asanın kalbindeki büyü gizemli Eski Kıta’ya kadar uzanır. Pek çok gücü "
+"arasında büyük ateş topları fırlatma yeteneği de vardır."
 
 #. [object]: id=sceptre_of_fire, type=fire, type=fire, type=fire, type=fire
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:202
@@ -24501,32 +24805,33 @@ msgstr "ateş asası"
 #. [object]: id=royal_chainmail
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:281
 msgid "Royal Chainmail"
-msgstr ""
+msgstr "Kraliyet Zincir Zırhı"
 
 #. [dummy]: id=chainmail
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:293
 msgid "chainmail"
-msgstr ""
+msgstr "zincir zırh"
 
 #. [object]: id=moonbow
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:319
 msgid "moonbow"
-msgstr ""
+msgstr "ay yayı"
 
 #. [dummy]: id=sandals
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:340
 msgid "sandals"
-msgstr ""
+msgstr "sandaletler"
 
 #. [dummy]: id=sandals
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:341
 msgid "This unit has 40% defense and full movement on water, swamp, and snow."
 msgstr ""
+"Bu birim suda, bataklıkta ve karda %40 savunmaya ve tam harekete sahiptir."
 
 #. [dummy]: id=horn
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:396
 msgid "orc-horn"
-msgstr ""
+msgstr "ork borusu"
 
 #. [dummy]: id=horn
 #. "ally" includes both the player's units and allied units. "living" excludes Delfador's elementals. When one ally dies, other allies gain the "regenerates" ability for one turn.
@@ -24534,22 +24839,24 @@ msgstr ""
 msgid ""
 "Whenever one living ally dies, all others gain regeneration for one turn."
 msgstr ""
+"Bir canlı müttefik öldüğünde diğerlerinin hepsi bir el boyunca yenilenme "
+"kazanır."
 
 #. [floating_text]
 #. this is floating text, to be shown above a unit that's temporarily gained the "regeneration" ability
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:451
 msgid "+regen"
-msgstr ""
+msgstr "+yenilenme"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:486
 msgid "Take heart, men! Rally and avenge the fallen!"
-msgstr ""
+msgstr "Yüreklenin, adamlar! Toplanın ve düşenlerin intikamını alın!"
 
 #. [object]: id=amulet
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:499
 msgid "Artificer’s Amulet"
-msgstr ""
+msgstr "Zanaatkârın Muskası"
 
 #. [object]: id=amulet
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:500
@@ -24558,6 +24865,9 @@ msgid ""
 "Konrad for 1 HP each turn. This value doubles (2, 4, 8, etc) for each other "
 "magic item that Konrad wields."
 msgstr ""
+"Bu tuhaf biçimli tılsım yakındaki büyülü eşyalardan enerji emerek Konrad’ı "
+"her el 1 YP iyileştirir. Bu değer Konrad’ın taşıdığı her diğer büyülü eşya "
+"için iki katına çıkar (2, 4, 8 vb.)."
 
 #. $magic_item_count controls gettext's plural selection. $regen will equal 2^$magic_item_count
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:546
@@ -24569,12 +24879,16 @@ msgid_plural ""
 "himself $regen HP per turn. If poisoned, he will remove the poison instead "
 "of healing."
 msgstr[0] ""
+"Konrad’ın şu an 1 başka büyülü eşyası var ve her el kendini $regen YP "
+"iyileştirecek. Zehirlenirse iyileşmek yerine zehri temizleyecek."
 msgstr[1] ""
+"Konrad’ın şu an $magic_item_count başka büyülü eşyası var ve her el kendini "
+"$regen YP iyileştirecek. Zehirlenirse iyileşmek yerine zehri temizleyecek."
 
 #. [regenerate]: id=amulet_regen
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:568
 msgid "artifice"
-msgstr ""
+msgstr "zanaat"
 
 #. [regenerate]: id=amulet_regen
 #: data/campaigns/Heir_To_The_Throne/utils/specials_and_abilities.cfg:569
@@ -24582,179 +24896,181 @@ msgid ""
 "Regenerate 1 HP each turn. This value doubles (2, 4, 8, etc) for each other "
 "magic item that Konrad wields."
 msgstr ""
+"Her el 1 YP yenile. Bu değer Konrad’ın taşıdığı her diğer büyülü eşya için "
+"iki katına çıkar (2, 4, 8 vb.)."
 
 #. [menu]: id=menu-main
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:34
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:112
 msgid "Autumn, Year 517"
-msgstr ""
+msgstr "Sonbahar, 517 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:113
 msgid "Winter, Year 517"
-msgstr ""
+msgstr "Kış, 517 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:114
 msgid "Spring, Year 518"
-msgstr ""
+msgstr "İlkbahar, 518 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:115
 msgid "Summer, Year 518"
-msgstr ""
+msgstr "Yaz, 518 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:116
 msgid "Autumn, Year 518"
-msgstr ""
+msgstr "Sonbahar, 518 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:117
 msgid "Winter, Year 518"
-msgstr ""
+msgstr "Kış, 518 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:118
 msgid "Spring, Year 519"
-msgstr ""
+msgstr "İlkbahar, 519 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:119
 msgid "Summer, Year 519"
-msgstr ""
+msgstr "Yaz, 519 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:120
 msgid "Autumn, Year 519"
-msgstr ""
+msgstr "Sonbahar, 519 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:121
 msgid "Winter, Year 519"
-msgstr ""
+msgstr "Kış, 519 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:122
 msgid "Spring, Year 520"
-msgstr ""
+msgstr "İlkbahar, 520 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:123
 msgid "Summer, Year 520"
-msgstr ""
+msgstr "Yaz, 520 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:124
 msgid "Autumn, Year 520"
-msgstr ""
+msgstr "Sonbahar, 520 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:125
 msgid "Winter, Year 520"
-msgstr ""
+msgstr "Kış, 520 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:126
 msgid "Spring, Year 521"
-msgstr ""
+msgstr "İlkbahar, 521 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:127
 msgid "Summer, Year 521"
-msgstr ""
+msgstr "Yaz, 521 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:128
 msgid "Autumn, Year 521"
-msgstr ""
+msgstr "Sonbahar, 521 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:129
 msgid "Winter, Year 521"
-msgstr ""
+msgstr "Kış, 521 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:130
 msgid "Spring, Year 522"
-msgstr ""
+msgstr "İlkbahar, 522 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:131
 msgid "Summer, Year 522"
-msgstr ""
+msgstr "Yaz, 522 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:132
 msgid "Autumn, Year 522"
-msgstr ""
+msgstr "Sonbahar, 522 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:133
 msgid "Winter, Year 522"
-msgstr ""
+msgstr "Kış, 522 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:134
 msgid "Spring, Year 523"
-msgstr ""
+msgstr "İlkbahar, 523 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:135
 msgid "Summer, Year 523"
-msgstr ""
+msgstr "Yaz, 523 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:136
 msgid "Autumn, Year 523"
-msgstr ""
+msgstr "Sonbahar, 523 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:137
 msgid "Winter, Year 523"
-msgstr ""
+msgstr "Kış, 523 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:138
 msgid "Spring, Year 524"
-msgstr ""
+msgstr "İlkbahar, 524 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:139
 msgid "Summer, Year 524"
-msgstr ""
+msgstr "Yaz, 524 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:140
 msgid "Autumn, Year 524"
-msgstr ""
+msgstr "Sonbahar, 524 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:141
 msgid "Winter, Year 524"
-msgstr ""
+msgstr "Kış, 524 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:142
 msgid "Spring, Year 525"
-msgstr ""
+msgstr "İlkbahar, 525 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:143
 msgid "Summer, Year 525"
-msgstr ""
+msgstr "Yaz, 525 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:144
 msgid "Autumn, Year 525"
-msgstr ""
+msgstr "Sonbahar, 525 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:145
 msgid "Winter, Year 525"
-msgstr ""
+msgstr "Kış, 525 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:146
 msgid "Spring, Year 526"
-msgstr ""
+msgstr "İlkbahar, 526 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:147
 msgid "Summer, Year 526"
-msgstr ""
+msgstr "Yaz, 526 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:148
 msgid "Autumn, Year 526"
-msgstr ""
+msgstr "Sonbahar, 526 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:149
 msgid "Winter, Year 526"
-msgstr ""
+msgstr "Kış, 526 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:150
 msgid "Spring, Year 527"
-msgstr ""
+msgstr "İlkbahar, 527 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:151
 msgid "Summer, Year 527"
-msgstr ""
+msgstr "Yaz, 527 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:152
 msgid "Autumn, Year 527"
-msgstr ""
+msgstr "Sonbahar, 527 Yılı"
 
 #: data/campaigns/Heir_To_The_Throne/utils/themes.cfg:153
 msgid "Winter, Year 527"
-msgstr ""
+msgstr "Kış, 527 Yılı"
 
 #. [message]: speaker=Lisar
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:184
@@ -24763,17 +25079,20 @@ msgid ""
 "learn to work together. If you believe we’ll fight better by your taking "
 "direct command of my army, I’m willing to allow it."
 msgstr ""
+"Artık müttefikiz, kuzen, ve bundan memnun olmasam da birlikte çalışmayı "
+"öğrenmeliyiz. Ordumun doğrudan komutasını almanla daha iyi savaşacağımıza "
+"inanıyorsan buna izin vermeye razıyım."
 
 #. [option]
 #. $stored_side.base_income  will be between 4 and 32
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:255
 msgid "Leave Li’sar under AI control ($stored_side.base_income bonus income)"
-msgstr ""
+msgstr "Lisar’ı YZ denetiminde bırak ($stored_side.base_income ek gelir)"
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:266
 msgid "Take manual control of Li’sar’s army (no bonus income)"
-msgstr ""
+msgstr "Lisar’ın ordusunun denetimini elle al (ek gelir yok)"
 
 #. [trait]: id=loyal_dummy
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:444
@@ -24793,7 +25112,7 @@ msgstr "Komutan Kaylan"
 #. [unit]: id=Maddock, type=Lord of Elensefar
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:499
 msgid "Lord Maddock"
-msgstr ""
+msgstr "Lord Maddok"
 
 #. [unit]: id=Reglok, type=Rogue
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:513
@@ -24803,7 +25122,7 @@ msgstr "Reglok"
 #. [unit]: id=Ethiliel, type=Elvish Shyde
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:524
 msgid "Ethiliel"
-msgstr ""
+msgstr "Ethiliel"
 
 #. [unit]: id=Galdrad, type=Elvish Champion
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:538
@@ -24813,12 +25132,12 @@ msgstr "Galdrad"
 #. [unit]: id=Isolde, type=General, gender=female
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:566
 msgid "Isolde"
-msgstr ""
+msgstr "Isolde"
 
 #. [unit]: id=Mirya, type=Silver Mage, gender=female
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:579
 msgid "Mirya"
-msgstr ""
+msgstr "Mirya"
 
 #. [unit]: id=Warven, type=Lieutenant
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:590
@@ -24843,7 +25162,7 @@ msgstr "Ulfdain"
 #. [unit]: id=Harper, type=Fugitive, gender=female
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:644
 msgid "Harper"
-msgstr ""
+msgstr "Harper"
 
 #. [unit]: id=Somf, type=Bandit
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:658
@@ -24858,12 +25177,12 @@ msgstr "Moremirmu"
 #. [unit]: id=Jeniver, type=Alchemist
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:682
 msgid "Jeniver"
-msgstr ""
+msgstr "Jeniver"
 
 #. [unit]: id=Dosh, type=Troll
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:693
 msgid "Dosh"
-msgstr ""
+msgstr "Dosh"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:788
 msgid "We are vanquished, for I have been defeated!"
@@ -24871,102 +25190,106 @@ msgstr "Beni yendiklerine göre mağlup olduk!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:789
 msgid "This is the end! Without me, who will guide the prince?"
-msgstr ""
+msgstr "Bu son! Ben olmadan prense kim yol gösterecek?"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:790
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:791
 msgid "Fight on without me, friends! The Light shall always prevail!"
-msgstr ""
+msgstr "Bensiz savaşmaya devam edin, dostlar! Işık her zaman galip gelecek!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:792
 msgid "Ah’m not wounded! Jus’ need a moment... ta catch my breath..."
-msgstr ""
+msgstr "Yaralı değilim! Sadece biraz... nefesimi toplamam gerek..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:793
 msgid "Well, this is a new experience..."
-msgstr ""
+msgstr "Eh, bu yeni bir deneyim..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:794
 msgid "Harper! No!"
-msgstr ""
+msgstr "Harper! Hayır!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:794
 msgid "Unngh... Sorry Baldras..."
-msgstr ""
+msgstr "Iıh... Özür dilerim Baldras..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:795
 msgid "Ack! I tried my best..."
-msgstr ""
+msgstr "Ah! Elimden geleni yaptım..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:795
 msgid "Somf! No!"
-msgstr ""
+msgstr "Somf! Hayır!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:796
 msgid "Chantal! A dark shadow falls upon my soul..."
-msgstr ""
+msgstr "Şantal! Ruhuma karanlık bir gölge düşüyor..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:796
 msgid "—Oh!"
-msgstr ""
+msgstr "—Ah!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:797
 msgid "Dosh don’ feel so good..."
-msgstr ""
+msgstr "Dosh kendini pek iyi hissetmiyor..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:798
 msgid "Krawww..."
-msgstr ""
+msgstr "Kraaav..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:800
 msgid "Send word of my fall to Sir Kaylan, Konrad! I fought my best..."
 msgstr ""
+"Düştüğümü Sör Kaylan’a bildir, Konrad! Elimden gelenin en iyisiyle "
+"savaştım..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:801
 msgid ""
 "Tell Sir Kaylan of my demise, Konrad... I have served you as best I could..."
 msgstr ""
+"Ölümümü Sör Kaylan’a anlat, Konrad... Sana elimden geldiğince hizmet "
+"ettim..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:802
 msgid "Oh... I suppose I deserve this..."
-msgstr ""
+msgstr "Ah... sanırım bunu hak ettim..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:803
 msgid "Ow!"
-msgstr ""
+msgstr "Ay!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:804
 msgid "Jotha regrets nothing..."
-msgstr ""
+msgstr "Jotha hiçbir şeyden pişman değil..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:805
 msgid "Bury me back home in the Dulatus..."
-msgstr ""
+msgstr "Beni Dulatus’taki yurduma gömün..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:809
 msgid "At least I die an honorable death..."
-msgstr ""
+msgstr "En azından onurlu bir ölümle ölüyorum..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:811
 msgid "Gah! At least I die a death worthy of the Horse Lords of old..."
-msgstr ""
+msgstr "Ah! En azından eski At Beylerine layık bir ölümle ölüyorum..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:812
 msgid "Argh! I may fall, but the Clans shall always endure!"
-msgstr ""
+msgstr "Argh! Ben düşebilirim, ama Klanlar her zaman var olacak!"
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:813
 msgid "Ack! Bury me under the Horse Plains..."
-msgstr ""
+msgstr "Ah! Beni At Ovaları’nın altına gömün..."
 
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:814
 msgid "Bah! Tell the Clans I died fighting..."
-msgstr ""
+msgstr "Bah! Klanlara savaşarak öldüğümü söyleyin..."
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:822
 msgid "I have met my match..."
-msgstr ""
+msgstr "Dengimle karşılaştım..."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:828
@@ -24974,23 +25297,27 @@ msgid ""
 "Tie him up and bind his wounds. The queen will want to make an example of "
 "this one."
 msgstr ""
+"Onu bağlayın ve yaralarını sarın. Kraliçe bunu ibret olsun diye "
+"cezalandırmak isteyecek."
 
 #. [message]: speaker=Ethiliel
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:838
 msgid "I have given all in defense of my home..."
-msgstr ""
+msgstr "Yurdumu savunmak için her şeyimi verdim..."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:844
 msgid "Bind her arms and wings! The queen wants their leaders taken alive."
 msgstr ""
+"Kollarını ve kanatlarını bağlayın! Kraliçe liderlerinin canlı ele "
+"geçirilmesini istiyor."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:858
 msgid ""
 "Argh! I am nearly finished! But if I were to die here, my people would be "
 "left leaderless."
-msgstr ""
+msgstr "Argh! İşim neredeyse bitti! Ama burada ölürsem halkım lidersiz kalır."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:862
@@ -24998,6 +25325,8 @@ msgid ""
 "I have aided you in what ways I could, Konrad. Now I must leave your party, "
 "and retreat eastwards to Lintanir Forest. May we someday meet again there."
 msgstr ""
+"Sana elimden geldiğince yardım ettim, Konrad. Şimdi grubundan ayrılıp "
+"doğuya, Lintanir Ormanı’na çekilmeliyim. Bir gün orada yeniden karşılaşalım."
 
 #. [message]: speaker=Lisar {LISAR_VARIATION defeat}
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:880
@@ -25007,7 +25336,7 @@ msgstr "Bu şekilde bittiğine inanamıyorum!"
 #. [message]: speaker=Warven
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:894
 msgid "At least I die alongside my princess..."
-msgstr ""
+msgstr "En azından prensesimle birlikte ölüyorum..."
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:910
@@ -25017,20 +25346,20 @@ msgstr "Konrad’ın ölümü"
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:918
 msgid "Death of Konrad or Delfador"
-msgstr ""
+msgstr "Konrad’ın ya da Delfador’un ölümü"
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:926
 msgid "Death of Konrad or Li’sar"
-msgstr ""
+msgstr "Konrad’ın ya da Lisar’ın ölümü"
 
 #. [objective]: condition=lose
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:934
 msgid "Death of Konrad, Delfador, or Li’sar"
-msgstr ""
+msgstr "Konrad’ın, Delfador’un ya da Lisar’ın ölümü"
 
 #. [note]
 #: data/campaigns/Heir_To_The_Throne/utils/unified_characters.cfg:947
 msgid ""
 "Delfador is a leader, and can recruit elementals when standing on a keep."
-msgstr ""
+msgstr "Delfador bir lider ve bir burçta dururken elemental alabilir."
