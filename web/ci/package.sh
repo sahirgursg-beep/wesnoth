@@ -94,6 +94,8 @@ done
 TITLE_BG=(landscape-battlefield.webp landscape-mountains-04.webp landscape-mountains-03.webp
 	landscape-bridge_sun.webp landscape-castle.webp swamp-02.jpg wesmere.webp)
 for n in "${TITLE_BG[@]}"; do CORE+=("data/core/images/story/$n"); done
+# the title screen map itself (data/gui/themes/*/dialogs/title_screen.cfg)
+CORE+=(data/core/images/maps/background.webp data/core/images/maps/titlescreen.webp)
 # campaign WML, maps and scripts (their art and sounds come later)
 for f in "$REPO_DIR"/data/campaigns/*.cfg; do [ -f "$f" ] && CORE+=("data/campaigns/$(basename "$f")"); done
 for c in "${CAMPAIGNS[@]}"; do
