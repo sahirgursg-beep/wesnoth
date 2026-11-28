@@ -1,0 +1,3 @@
+  BUILD_FAILED: 1
+  pango:wasm32-emscripten-wesnoth-asyncify: BUILD_FAILED: 15 s
+error: building pango:wasm32-emscripten-wesnoth-asyncify failed with: BUILD_FAILED

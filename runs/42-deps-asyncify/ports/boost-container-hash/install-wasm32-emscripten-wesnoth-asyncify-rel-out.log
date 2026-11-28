@@ -1,0 +1,35 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash_fwd.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash/hash_fwd.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash/hash.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/functional/hash/extensions.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/is_contiguous_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/hash_is_avalanching.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/hash_fwd.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/hash.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/is_described_class.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/mulx.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/limits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/hash_integral.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/hash_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/hash_tuple_like.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/detail/hash_mix.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/is_unordered_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/is_tuple_like.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/extensions.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/include/boost/container_hash/is_range.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_container_hash-1.92.0/boost_container_hash-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_container_hash-1.92.0/boost_container_hash-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-container-hash_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_container_hash-1.92.0/boost_container_hash-config-version.cmake
+

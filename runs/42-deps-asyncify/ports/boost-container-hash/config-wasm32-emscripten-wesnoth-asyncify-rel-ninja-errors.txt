@@ -1,0 +1,23 @@
+135-# Custom command for CMakeFiles/check
+136-
+137-build CMakeFiles/check | ${cmake_ninja_workdir}CMakeFiles/check: CUSTOM_COMMAND || tests
+138:  COMMAND = cd /home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/ctest --output-on-failure --no-tests=error -C Release
+139-
+140-
+141-#############################################
+142-# Custom command for CMakeFiles/check-quick
+143-
+144-build CMakeFiles/check-quick | ${cmake_ninja_workdir}CMakeFiles/check-quick: CUSTOM_COMMAND || tests-quick
+145:  COMMAND = cd /home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/ctest --output-on-failure --no-tests=error -C Release -R quick
+146-
+147-# =============================================================================
+148-# Write statements declared in CMakeLists.txt:
+149-# /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake
+150-# =============================================================================
+151-
+152-
+153-#############################################
+154-# Utility command for edit_cache
+155-
+156-build libs/container_hash/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+157-  COMMAND = cd /home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel/libs/container_hash && /usr/local/bin/ccmake -S/home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/src/ost-1.92.0-fa6aa6bddd.clean -B/home/runner/webbuild/vcpkg/buildtrees/boost-container-hash/wasm32-emscripten-wesnoth-asyncify-rel

@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/program_options/archive/boost-1.92.0.tar.gz -> boostorg-program_options-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-program_options-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-program_options-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-program-options/src/ost-1.92.0-b53453c318.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-program-options_wasm32-emscripten-wesnoth-asyncify/share/boost-program-options/copyright
+-- Performing post-build validation

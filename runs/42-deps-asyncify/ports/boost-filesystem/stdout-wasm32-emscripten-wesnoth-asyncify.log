@@ -1,0 +1,8 @@
+Downloading https://github.com/boostorg/filesystem/archive/boost-1.92.0.tar.gz -> boostorg-filesystem-boost-1.92.0.tar.gz
+Successfully downloaded boostorg-filesystem-boost-1.92.0.tar.gz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/boostorg-filesystem-boost-1.92.0.tar.gz
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/boost-filesystem/src/ost-1.92.0-d7df1f3224.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify
+-- Building wasm32-emscripten-wesnoth-asyncify-rel
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-filesystem_wasm32-emscripten-wesnoth-asyncify/share/boost-filesystem/copyright
+-- Performing post-build validation

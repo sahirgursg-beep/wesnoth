@@ -1,0 +1,16 @@
+42-cpu = 'wasm32'
+43-[built-in options]
+44-default_library = 'static'
+45:werror = false
+46-c_args = ['-sSUPPORT_LONGJMP=emscripten', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include']
+47-c_link_args = ['-fexceptions', '-sSUPPORT_LONGJMP=emscripten', '-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib']
+48-
+49-cpp_args = ['-fexceptions', '-sSUPPORT_LONGJMP=emscripten', '-O3', '-DNDEBUG', '-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include']
+50-cpp_link_args = ['-fexceptions', '-sSUPPORT_LONGJMP=emscripten', '-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib']
+51-
+52-
+53-
+54-
+55-# b_vscrt
+56-
+57-# c_winlibs/cpp_winlibs

@@ -1,0 +1,751 @@
+Build started at 2026-11-28T12:44:04.707393
+Main binary: /usr/bin/python3
+Build Options: -Ddocumentation=false -Dman-pages=false -Dbuild-testsuite=false -Dbuild-examples=false -Dfontconfig=enabled -Dsysprof=disabled -Dlibthai=disabled -Dcairo=enabled -Dxft=disabled -Dfreetype=enabled -Dintrospection=disabled -Doptimization=plain -Ddebug=false '-Dcmake_prefix_path=['"'"'/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify'"'"','"'"'/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug'"'"']' -Dprefix=/home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify -Dlibdir=lib -Dbackend=ninja -Dwrap_mode=nodownload -Dpkgconfig.relocatable=True '-Dpkg_config_path=['"'"'/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig'"'"','"'"'/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig'"'"']' --cross-file=/home/runner/webbuild/vcpkg/buildtrees/pango/meson-wasm32-emscripten-wesnoth-asyncify-rel.log --native-file=/home/runner/webbuild/vcpkg/scripts/buildsystems/meson/none.txt
+Python system: Linux
+The Meson build system
+Version: 1.9.0
+Source dir: /home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-9d5c910730.clean
+Build dir: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel
+Build type: cross build
+Project name: pango
+Project version: 1.58.0
+-----------
+Detecting compiler via: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG --version` -> 0
+stdout:
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)
+Copyright (C) 2026 the Emscripten authors (see AUTHORS.txt)
+This is free and open source software under the MIT license.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Sanity testing C compiler: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG
+Is cross compiler: True.
+Sanity check compiler command line: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG sanitycheckc.c -o sanitycheckc_cross.exe -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG (emscripten 7.0.1 "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)")
+C linker for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG ld.wasm 24.0.0
+-----------
+Detecting archiver via: `/home/runner/webbuild/emsdk/upstream/emscripten/emar --version` -> 0
+stdout:
+LLVM (http://llvm.org/):
+  LLVM version 24.0.0git
+  Optimized build.
+-----------
+-----------
+Detecting compiler via: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG --version` -> 0
+stdout:
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)
+Copyright (C) 2026 the Emscripten authors (see AUTHORS.txt)
+This is free and open source software under the MIT license.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Sanity testing C++ compiler: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG
+Is cross compiler: True.
+Sanity check compiler command line: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG sanitycheckcpp.cc -o sanitycheckcpp_cross.exe -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C++ compiler for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG (emscripten 7.0.1 "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 7.0.1 (ac0578743420bcbe9a4f77d0b6599c25f8d43702)")
+C++ linker for the host machine: /home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG ld.wasm 24.0.0
+-----------
+Detecting compiler via: `false --version` -> 1
+stdout:
+false (uutils coreutils) 0.10.0
+-----------
+Compiler for language c for the build machine not found.
+-----------
+Detecting compiler via: `false --version` -> 1
+stdout:
+false (uutils coreutils) 0.10.0
+-----------
+Compiler for language cpp for the build machine not found.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: wasm32
+Host machine cpu: wasm32
+Target machine cpu family: wasm32
+Target machine cpu: wasm32
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9dt43_a8
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9dt43_a8/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9dt43_a8/output.js -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -lm -sERROR_ON_UNDEFINED_SYMBOLS=0 -fuse-ld=/usr/bin/ld -fexceptions` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Library m found: YES
+Pkg-config binary for host machine specified from cross file, native file, or env var as ['/bin/pkg-config']
+Found pkg-config: YES (/bin/pkg-config) 2.5.1
+Determining dependency 'glib-2.0' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.88.3
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/glib-2.0 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/glib-2.0/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -DPCRE2_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lglib-2.0 -lintl -lm -lpcre2-8
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lglib-2.0 -lintl -lm -lpcre2-8
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpshjybl2l
+Code:
+
+        #include <stddef.h>
+        int main(void) {
+            void * something;
+            return 0;
+        }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpshjybl2l/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpshjybl2l/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4l4wwhsx
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4l4wwhsx/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp4l4wwhsx/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp6_ptbs7
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp6_ptbs7/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpp6_ptbs7/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpxr6dt99y
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpxr6dt99y/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpxr6dt99y/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprezpg113
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprezpg113/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprezpg113/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 1
+stderr:
+/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/testfile.cpp:3:39: error: 'a' declared as an array with a negative size
+    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_c2qwev1
+Code:
+
+        #include <stddef.h>
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_c2qwev1/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_c2qwev1/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9iqzzuuk
+Code:
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9iqzzuuk/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp9iqzzuuk/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/home/runner/webbuild/emsdk/upstream/bin
+libraries: =/home/runner/webbuild/emsdk/upstream/lib/clang/24:/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp880gka2m
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp880gka2m/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp880gka2m/output.js -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -lm -sERROR_ON_UNDEFINED_SYMBOLS=0 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang++: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Run-time dependency glib-2.0 found: YES 2.88.3
+Determining dependency 'gobject-2.0' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion gobject-2.0` -> 0
+stdout:
+2.88.3
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags gobject-2.0` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/glib-2.0 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/glib-2.0/include -DPCRE2_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lgobject-2.0 -lglib-2.0 -lintl -lm -lpcre2-8 -lffi
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lgobject-2.0 -lglib-2.0 -lintl -lm -lpcre2-8 -lffi
+-----------
+Run-time dependency gobject-2.0 found: YES 2.88.3
+Determining dependency 'gio-2.0' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.88.3
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/glib-2.0 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/glib-2.0/include -DPCRE2_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lgio-2.0 -lgobject-2.0 -lffi -lgmodule-2.0 -lglib-2.0 -lintl -lm -lpcre2-8 -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lgio-2.0 -lgobject-2.0 -lffi -lgmodule-2.0 -lglib-2.0 -lintl -lm -lpcre2-8 -lz
+-----------
+Run-time dependency gio-2.0 found: YES 2.88.3
+Determining dependency 'gobject-introspection-1.0' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion gobject-introspection-1.0` -> 1
+stderr:
+Package gobject-introspection-1.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `gobject-introspection-1.0.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'gobject-introspection-1.0' not found
+-----------
+CMake binary for host machine is not cached
+CMake binary for host machine specified from cross file, native file, or env var as ['/usr/local/bin/cmake']
+Found CMake: /usr/local/bin/cmake (4.5.1)
+Extracting basic cmake information
+CMake Toolchain: Calling CMake once to generate the compiler state
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__ with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__/CMakeMesonTempToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-xQExtw/CMakeLists.txt:24 add_executable(['cmTC_2a2db'])
+CMake trace warning: target_link_libraries() TARGET cmTC_2a2db not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-xQExtw/CMakeLists.txt:30 target_link_libraries(['cmTC_2a2db', ''])
+CMake trace warning: add_executable() non imported executables are not supported
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-NbwnEV/CMakeLists.txt:24 add_executable(['cmTC_475ec'])
+CMake trace warning: target_link_libraries() TARGET cmTC_475ec not found
+CMake TRACE: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/__CMake_compiler_info__/CMakeFiles/CMakeScratch/TryCompile-NbwnEV/CMakeLists.txt:30 target_link_libraries(['cmTC_475ec', ''])
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/cmake_gobject-introspection-1.0/CMakeMesonToolchainFile.cmake"
+Try CMake generator: auto
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/cmake_gobject-introspection-1.0/CMakeLists.txt"
+Calling CMake (['/usr/local/bin/cmake']) in /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/cmake_gobject-introspection-1.0 with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/cmake_gobject-introspection-1.0/CMakeMesonToolchainFile.cmake"
+  - "."
+  - "-DCMAKE_PREFIX_PATH=/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+  -- Module search paths:    ['/', '/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot', '/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify']
+  -- CMake root:             /usr/local/share/cmake-4.5
+  -- CMake architectures:    []
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', '']
+Preliminary CMake check failed. Aborting.
+Run-time dependency gobject-introspection-1.0 found: NO (tried pkgconfig and cmake)
+Determining dependency 'fribidi' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion fribidi` -> 0
+stdout:
+1.0.16
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags fribidi` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/fribidi
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs fribidi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfribidi
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs fribidi` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfribidi
+-----------
+Run-time dependency fribidi found: YES 1.0.16
+Dependency libthai skipped: feature libthai disabled
+Determining dependency 'harfbuzz' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion harfbuzz` -> 0
+stdout:
+14.4.0
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags harfbuzz` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/harfbuzz -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs harfbuzz` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lharfbuzz -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs harfbuzz` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lharfbuzz -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+Run-time dependency harfbuzz found: YES 14.4.0
+Determining dependency 'fontconfig' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion fontconfig` -> 0
+stdout:
+2.17.1
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags fontconfig` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -DXML_STATIC
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs fontconfig` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfontconfig -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lexpat -lm
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs fontconfig` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfontconfig -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lexpat -lm
+-----------
+Run-time dependency fontconfig found: YES 2.17.1
+Determining dependency 'freetype2' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion freetype2` -> 0
+stdout:
+26.6.20
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags freetype2` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs freetype2` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs freetype2` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+Run-time dependency freetype2 found: YES 26.6.20
+Dependency xft skipped: feature xft disabled
+Determining dependency 'cairo' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags cairo` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -DXML_STATIC -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lpixman-1 -lm
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lpixman-1 -lm
+-----------
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprx08e3_i
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprx08e3_i/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmprx08e3_i/output.js -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -ldl -sERROR_ON_UNDEFINED_SYMBOLS=0 -fuse-ld=/usr/bin/ld` -> 0
+stderr:
+clang++: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Run-time dependency cairo found: YES 1.18.4
+Determining dependency 'cairo-ft' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-ft` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags cairo-ft` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -DXML_STATIC -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-ft` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lpixman-1 -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-ft` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lpixman-1 -lfreetype -lbz2 -lpng16 -lz -lbrotlidec -lbrotlicommon -lm
+-----------
+Run-time dependency cairo-ft found: YES 1.18.4
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_47gmfik
+Code:
+
+#include <cairo-ft.h>
+int main() {
+  FcPattern *p = NULL;
+  cairo_ft_font_face_create_for_pattern (p);
+  return 0;
+}
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_47gmfik/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_47gmfik/output.js -DXML_STATIC -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -std=gnu11 -Wl,--start-group /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libcairo.a -ldl /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfontconfig.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libexpat.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpixman-1.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libfreetype.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbz2.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libpng16.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libz.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlidec.a /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib/libbrotlicommon.a -lm -Wl,--end-group -fuse-ld=/usr/bin/ld -fexceptions` -> 0
+stderr:
+clang: warning: argument unused during compilation: '-fuse-ld=/usr/bin/ld' [-Wunused-command-line-argument]
+-----------
+Checking if "Cairo is built with FreeType and FontConfig support" with dependency cairo-ft links: YES 
+Determining dependency 'cairo-win32' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-win32` -> 1
+stderr:
+Package cairo-win32 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `cairo-win32.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'cairo-win32' not found
+-----------
+CMake binary for host machine is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency cairo-win32 found: NO (tried pkgconfig and cmake)
+Determining dependency 'cairo-quartz' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-quartz` -> 1
+stderr:
+Package cairo-quartz was not found in the pkg-config search path.
+Perhaps you should add the directory containing `cairo-quartz.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'cairo-quartz' not found
+-----------
+CMake binary for host machine is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency cairo-quartz found: NO (tried pkgconfig and cmake)
+Determining dependency 'cairo-png' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-png` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags cairo-png` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -DXML_STATIC -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-png` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lpng16 -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-png` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lpng16 -lz
+-----------
+Run-time dependency cairo-png found: YES 1.18.4
+Determining dependency 'cairo-ps' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-ps` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags cairo-ps` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -DXML_STATIC -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-ps` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-ps` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lz
+-----------
+Run-time dependency cairo-ps found: YES 1.18.4
+Determining dependency 'cairo-pdf' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-pdf` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --cflags cairo-pdf` -> 0
+stdout:
+-I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/cairo -DXML_STATIC -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/libpng16 -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../include/pixman-1
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-pdf` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lz
+-----------
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --libs cairo-pdf` -> 0
+stdout:
+-L/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig/../../lib -lcairo -ldl -lfontconfig -lexpat -lfreetype -lbz2 -lpng16 -lbrotlidec -lbrotlicommon -lpixman-1 -lm -lz
+-----------
+Run-time dependency cairo-pdf found: YES 1.18.4
+Determining dependency 'cairo-xlib' with pkg-config executable '/bin/pkg-config'
+env[PKG_CONFIG]: /bin/pkg-config
+env[PKG_CONFIG_PATH]: /home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig:/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig
+-----------
+Called: `/bin/pkg-config --modversion cairo-xlib` -> 1
+stderr:
+Package cairo-xlib was not found in the pkg-config search path.
+Perhaps you should add the directory containing `cairo-xlib.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'cairo-xlib' not found
+-----------
+CMake binary for host machine is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency cairo-xlib found: NO (tried pkgconfig and cmake)
+Program g-ir-scanner skipped: feature introspection disabled
+Dependency sysprof-capture-4 skipped: feature sysprof disabled
+Configuring config.h using configuration
+Configuring pango-features.h using configuration
+Program gi-docgen found: NO
+Program rst2man rst2man.py found: NO
+Program rst2html5 rst2html5.py found: NO
+Build targets in project: 9
+
+pango 1.58.0
+
+  Font backends
+    Fontconfig           : true
+    DirectWrite          : false
+    CoreText             : false
+
+  Features
+    Cairo                : true
+    Thai                 : false
+    Sysprof              : false
+
+  Toolchain
+    Compiler             : emscripten
+    Linker               : ld.wasm
+
+  Build
+    Debugging            : false
+    Optimization         : plain
+    Introspection        : false
+    Documentation        : false
+    Man pages            : false
+    Tests                : false
+    Examples             : false
+
+  Directories
+    prefix               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify
+    includedir           : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify/include
+    libdir               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify/lib
+    datadir              : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify/share
+
+  User defined options
+    Cross files          : /home/runner/webbuild/vcpkg/buildtrees/pango/meson-wasm32-emscripten-wesnoth-asyncify-rel.log
+    Native files         : /home/runner/webbuild/vcpkg/scripts/buildsystems/meson/none.txt
+    backend              : ninja
+    build-examples       : false
+    build-testsuite      : false
+    cairo                : enabled
+    cmake_prefix_path    : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug']
+    debug                : false
+    documentation        : false
+    fontconfig           : enabled
+    freetype             : enabled
+    introspection        : disabled
+    libdir               : lib
+    libthai              : disabled
+    man-pages            : false
+    optimization         : plain
+    pkg_config_path      : ['/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/pkgconfig','/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/pkgconfig']
+    pkgconfig.relocatable: true
+    prefix               : /home/runner/webbuild/vcpkg/packages/pango_wasm32-emscripten-wesnoth-asyncify
+    sysprof              : disabled
+    wrap_mode            : nodownload
+    xft                  : disabled
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpl1d8x_4l
+Code:
+
+-----------
+Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/emcc -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpl1d8x_4l/testfile.c -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmpl1d8x_4l/output.o -c -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/home/runner/webbuild/emsdk/upstream/bin
+libraries: =/home/runner/webbuild/emsdk/upstream/lib/clang/24:/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten
+-----------
+WARNING: Cross file does not specify strip binary, result will not be stripped.
+!meson_ci!/ci_include "/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/build.ninja"
+WARNING: Cross file does not specify strip binary, result will not be stripped.

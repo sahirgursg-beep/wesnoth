@@ -1,0 +1,27 @@
+-- Found Python version '3.14.4 at /usr/bin/python3'
+-- Using meson: /home/runner/webbuild/vcpkg/downloads/tools/meson-1.9.0-3db708/meson.py
+Downloading pango-1.58.0.tar.xz, trying https://download.gnome.org/sources/pango/1.58/pango-1.58.0.tar.xz
+Successfully downloaded pango-1.58.0.tar.xz
+-- Extracting source /home/runner/webbuild/vcpkg/downloads/pango-1.58.0.tar.xz
+-- Applying patch relax-gi-requirement.diff
+-- Applying patch emscripten-fnptr.patch
+-- Applying patch emscripten-no-threads.patch
+-- Using source at /home/runner/webbuild/vcpkg/buildtrees/pango/src/pango-1-9d5c910730.clean
+-- Configuring wasm32-emscripten-wesnoth-asyncify-rel
+-- Getting CMake variables for wasm32-emscripten-wesnoth-asyncify
+-- Loading CMake variables from /home/runner/webbuild/vcpkg/buildtrees/pango/cmake-get-vars_C_CXX-wasm32-emscripten-wesnoth-asyncify.cmake.log
+-- Configuring wasm32-emscripten-wesnoth-asyncify-rel done
+-- Package wasm32-emscripten-wesnoth-asyncify-rel
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: /usr/local/bin/ninja install -v
+    Working Directory: /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel
+    Error code: 1
+    See logs for more information:
+      /home/runner/webbuild/vcpkg/buildtrees/pango/package-wasm32-emscripten-wesnoth-asyncify-rel-out.log
+
+Call Stack (most recent call first):
+  installed/x64-linux/share/vcpkg-tool-meson/vcpkg_install_meson.cmake:33 (vcpkg_execute_required_process)
+  /home/runner/work/wesnoth/wesnoth/web/vcpkg/ports/pango/portfile.cmake:49 (vcpkg_install_meson)
+  scripts/ports.cmake:209 (include)
+
+

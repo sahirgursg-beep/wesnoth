@@ -1,0 +1,19 @@
+167------------
+168-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 1
+169-stderr:
+170:/home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp5_nbnxbh/testfile.cpp:3:39: error: 'a' declared as an array with a negative size
+171-    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+172-      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+173:1 error generated.
+174------------
+175-Running compile:
+176-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey
+177-Code:
+178-
+179-        #include <stddef.h>
+180-        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+181------------
+182-Command line: `/home/runner/webbuild/emsdk/upstream/emscripten/em++ -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -I/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/include /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey/testfile.cpp -o /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmptfj192ey/output.o -c -fexceptions -sSUPPORT_LONGJMP=emscripten -O3 -DNDEBUG -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+183-Running compile:
+184-Working directory:  /home/runner/webbuild/vcpkg/buildtrees/pango/wasm32-emscripten-wesnoth-asyncify-rel/meson-private/tmp_c2qwev1
+185-Code:

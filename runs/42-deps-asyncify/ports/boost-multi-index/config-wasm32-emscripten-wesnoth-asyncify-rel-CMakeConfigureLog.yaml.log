@@ -1,0 +1,3356 @@
+s/llvm-objdump"
+      - "/bin/llvm-objdump"
+      - "/sbin/llvm-objdump"
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/objdump"
+      - "/home/runner/webbuild/emsdk/objdump"
+      - "/snap/bin/objdump"
+      - "/home/runner/.local/bin/objdump"
+      - "/opt/pipx_bin/objdump"
+      - "/home/runner/.cargo/bin/objdump"
+      - "/home/runner/.config/composer/vendor/bin/objdump"
+      - "/usr/local/.ghcup/bin/objdump"
+      - "/home/runner/.dotnet/tools/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/"
+      - "/home/runner/webbuild/emsdk/"
+      - "/snap/bin/"
+      - "/home/runner/.local/bin/"
+      - "/opt/pipx_bin/"
+      - "/home/runner/.cargo/bin/"
+      - "/home/runner/.config/composer/vendor/bin/"
+      - "/usr/local/.ghcup/bin/"
+      - "/home/runner/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/llvm-objcopy"
+      - "/home/runner/webbuild/emsdk/llvm-objcopy"
+      - "/snap/bin/llvm-objcopy"
+      - "/home/runner/.local/bin/llvm-objcopy"
+      - "/opt/pipx_bin/llvm-objcopy"
+      - "/home/runner/.cargo/bin/llvm-objcopy"
+      - "/home/runner/.config/composer/vendor/bin/llvm-objcopy"
+      - "/usr/local/.ghcup/bin/llvm-objcopy"
+      - "/home/runner/.dotnet/tools/llvm-objcopy"
+      - "/usr/local/sbin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/sbin/llvm-objcopy"
+      - "/usr/bin/llvm-objcopy"
+      - "/sbin/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/usr/games/llvm-objcopy"
+      - "/usr/local/games/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/sbin/llvm-objcopy"
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/objcopy"
+      - "/home/runner/webbuild/emsdk/objcopy"
+      - "/snap/bin/objcopy"
+      - "/home/runner/.local/bin/objcopy"
+      - "/opt/pipx_bin/objcopy"
+      - "/home/runner/.cargo/bin/objcopy"
+      - "/home/runner/.config/composer/vendor/bin/objcopy"
+      - "/usr/local/.ghcup/bin/objcopy"
+      - "/home/runner/.dotnet/tools/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/"
+      - "/home/runner/webbuild/emsdk/"
+      - "/snap/bin/"
+      - "/home/runner/.local/bin/"
+      - "/opt/pipx_bin/"
+      - "/home/runner/.cargo/bin/"
+      - "/home/runner/.config/composer/vendor/bin/"
+      - "/usr/local/.ghcup/bin/"
+      - "/home/runner/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/llvm-readelf"
+      - "/home/runner/webbuild/emsdk/llvm-readelf"
+      - "/snap/bin/llvm-readelf"
+      - "/home/runner/.local/bin/llvm-readelf"
+      - "/opt/pipx_bin/llvm-readelf"
+      - "/home/runner/.cargo/bin/llvm-readelf"
+      - "/home/runner/.config/composer/vendor/bin/llvm-readelf"
+      - "/usr/local/.ghcup/bin/llvm-readelf"
+      - "/home/runner/.dotnet/tools/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/sbin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/usr/games/llvm-readelf"
+      - "/usr/local/games/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/readelf"
+      - "/home/runner/webbuild/emsdk/readelf"
+      - "/snap/bin/readelf"
+      - "/home/runner/.local/bin/readelf"
+      - "/opt/pipx_bin/readelf"
+      - "/home/runner/.cargo/bin/readelf"
+      - "/home/runner/.config/composer/vendor/bin/readelf"
+      - "/usr/local/.ghcup/bin/readelf"
+      - "/home/runner/.dotnet/tools/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/"
+      - "/home/runner/webbuild/emsdk/"
+      - "/snap/bin/"
+      - "/home/runner/.local/bin/"
+      - "/opt/pipx_bin/"
+      - "/home/runner/.cargo/bin/"
+      - "/home/runner/.config/composer/vendor/bin/"
+      - "/usr/local/.ghcup/bin/"
+      - "/home/runner/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/llvm-dlltool"
+      - "/home/runner/webbuild/emsdk/llvm-dlltool"
+      - "/snap/bin/llvm-dlltool"
+      - "/home/runner/.local/bin/llvm-dlltool"
+      - "/opt/pipx_bin/llvm-dlltool"
+      - "/home/runner/.cargo/bin/llvm-dlltool"
+      - "/home/runner/.config/composer/vendor/bin/llvm-dlltool"
+      - "/usr/local/.ghcup/bin/llvm-dlltool"
+      - "/home/runner/.dotnet/tools/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/sbin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/usr/games/llvm-dlltool"
+      - "/usr/local/games/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/dlltool"
+      - "/home/runner/webbuild/emsdk/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/runner/.local/bin/dlltool"
+      - "/opt/pipx_bin/dlltool"
+      - "/home/runner/.cargo/bin/dlltool"
+      - "/home/runner/.config/composer/vendor/bin/dlltool"
+      - "/usr/local/.ghcup/bin/dlltool"
+      - "/home/runner/.dotnet/tools/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/bin/dlltool"
+      - "/sbin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/"
+      - "/home/runner/webbuild/emsdk/"
+      - "/snap/bin/"
+      - "/home/runner/.local/bin/"
+      - "/opt/pipx_bin/"
+      - "/home/runner/.cargo/bin/"
+      - "/home/runner/.config/composer/vendor/bin/"
+      - "/usr/local/.ghcup/bin/"
+      - "/home/runner/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/llvm-addr2line"
+      - "/home/runner/webbuild/emsdk/llvm-addr2line"
+      - "/snap/bin/llvm-addr2line"
+      - "/home/runner/.local/bin/llvm-addr2line"
+      - "/opt/pipx_bin/llvm-addr2line"
+      - "/home/runner/.cargo/bin/llvm-addr2line"
+      - "/home/runner/.config/composer/vendor/bin/llvm-addr2line"
+      - "/usr/local/.ghcup/bin/llvm-addr2line"
+      - "/home/runner/.dotnet/tools/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/sbin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/usr/games/llvm-addr2line"
+      - "/usr/local/games/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/addr2line"
+      - "/home/runner/webbuild/emsdk/addr2line"
+      - "/snap/bin/addr2line"
+      - "/home/runner/.local/bin/addr2line"
+      - "/opt/pipx_bin/addr2line"
+      - "/home/runner/.cargo/bin/addr2line"
+      - "/home/runner/.config/composer/vendor/bin/addr2line"
+      - "/usr/local/.ghcup/bin/addr2line"
+      - "/home/runner/.dotnet/tools/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/"
+      - "/home/runner/webbuild/emsdk/"
+      - "/snap/bin/"
+      - "/home/runner/.local/bin/"
+      - "/opt/pipx_bin/"
+      - "/home/runner/.cargo/bin/"
+      - "/home/runner/.config/composer/vendor/bin/"
+      - "/usr/local/.ghcup/bin/"
+      - "/home/runner/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/tapi"
+      - "/home/runner/webbuild/emsdk/tapi"
+      - "/snap/bin/tapi"
+      - "/home/runner/.local/bin/tapi"
+      - "/opt/pipx_bin/tapi"
+      - "/home/runner/.cargo/bin/tapi"
+      - "/home/runner/.config/composer/vendor/bin/tapi"
+      - "/usr/local/.ghcup/bin/tapi"
+      - "/home/runner/.dotnet/tools/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/bin/tapi"
+      - "/sbin/tapi"
+    found: false
+    search_context:
+      CMAKE_PROGRAM_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/tools/icu/bin"
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.5/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/runner/webbuild/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/runner/webbuild/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:97 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_headers"
+    configs:
+      -
+        filename: "boost_headers.cps"
+        kind: "cps"
+      -
+        filename: "boost_headersConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_headers-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_headers"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_headers/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_headers/boost_headers-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/boost_assert-config.cmake:10 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_config"
+    configs:
+      -
+        filename: "boost_config.cps"
+        kind: "cps"
+      -
+        filename: "boost_configConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_config-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/.."
+      names:
+        - "boost_config"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_configConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_config-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_config.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_config.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_config.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_config/boost_configConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_config/boost_config-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_assert"
+    configs:
+      -
+        filename: "boost_assert.cps"
+        kind: "cps"
+      -
+        filename: "boost_assertConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_assert-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_assert"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_assertConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_assert-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_assert.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_assert.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_assert.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/boost_assertConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/boost_assert-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/boost_core-config.cmake:16 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/boost_bind-config.cmake:13 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_throw_exception"
+    configs:
+      -
+        filename: "boost_throw_exception.cps"
+        kind: "cps"
+      -
+        filename: "boost_throw_exceptionConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_throw_exception-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/.."
+      names:
+        - "boost_throw_exception"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_throw_exceptionConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_throw_exception-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_throw_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_throw_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_throw_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_throw_exception/boost_throw_exceptionConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_throw_exception/boost_throw_exception-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/boost_bind-config.cmake:13 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_core"
+    configs:
+      -
+        filename: "boost_core.cps"
+        kind: "cps"
+      -
+        filename: "boost_coreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/.."
+      names:
+        - "boost_core"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_coreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/boost_coreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/boost_core-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_bind"
+    configs:
+      -
+        filename: "boost_bind.cps"
+        kind: "cps"
+      -
+        filename: "boost_bindConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_bind-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_bind"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_bindConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_bind-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_bind.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_bind.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_bind.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/boost_bindConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/boost_bind-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/boost_describe-config.cmake:10 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/boost_container_hash-config.cmake:13 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_mp11"
+    configs:
+      -
+        filename: "boost_mp11.cps"
+        kind: "cps"
+      -
+        filename: "boost_mp11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_mp11-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/.."
+      names:
+        - "boost_mp11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_mp11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_mp11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_mp11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_mp11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_mp11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mp11/boost_mp11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mp11/boost_mp11-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/boost_container_hash-config.cmake:13 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_describe"
+    configs:
+      -
+        filename: "boost_describe.cps"
+        kind: "cps"
+      -
+        filename: "boost_describeConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_describe-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/.."
+      names:
+        - "boost_describe"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_describeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_describe-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_describe.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_describe.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_describe.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/boost_describeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/boost_describe-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_container_hash"
+    configs:
+      -
+        filename: "boost_container_hash.cps"
+        kind: "cps"
+      -
+        filename: "boost_container_hashConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_container_hash-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_container_hash"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_container_hashConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_container_hash-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_container_hash.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_container_hash.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_container_hash.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/boost_container_hashConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/boost_container_hash-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/boost_integer-config.cmake:22 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_type_traits"
+    configs:
+      -
+        filename: "boost_type_traits.cps"
+        kind: "cps"
+      -
+        filename: "boost_type_traitsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_type_traits-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/.."
+      names:
+        - "boost_type_traits"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_type_traitsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_type_traits-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_type_traits.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_type_traits.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_type_traits.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_traits/boost_type_traitsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_traits/boost_type_traits-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_integer"
+    configs:
+      -
+        filename: "boost_integer.cps"
+        kind: "cps"
+      -
+        filename: "boost_integerConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_integer-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_integer"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_integerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_integer-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_integer.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_integer.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_integer.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/boost_integerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/boost_integer-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_preprocessor"
+    configs:
+      -
+        filename: "boost_preprocessor.cps"
+        kind: "cps"
+      -
+        filename: "boost_preprocessorConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_preprocessor-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_preprocessor"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_preprocessorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_preprocessor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_preprocessor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_preprocessor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_preprocessor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_preprocessor/boost_preprocessorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_preprocessor/boost_preprocessor-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_smart_ptr"
+    configs:
+      -
+        filename: "boost_smart_ptr.cps"
+        kind: "cps"
+      -
+        filename: "boost_smart_ptrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_smart_ptr-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_smart_ptr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_smart_ptrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_smart_ptr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_smart_ptr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_smart_ptr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_smart_ptr.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_smart_ptr/boost_smart_ptrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_smart_ptr/boost_smart_ptr-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_tuple"
+    configs:
+      -
+        filename: "boost_tuple.cps"
+        kind: "cps"
+      -
+        filename: "boost_tupleConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_tuple-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_tuple"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_tupleConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_tuple-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_tuple.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_tuple.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_tuple.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tuple/boost_tupleConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tuple/boost_tuple-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/local/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/boost_utility-config.cmake:16 (find_dependency)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_io"
+    configs:
+      -
+        filename: "boost_io.cps"
+        kind: "cps"
+      -
+        filename: "boost_ioConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_io-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/.."
+      names:
+        - "boost_io"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_ioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_io-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_io.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_io.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_io.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_io/boost_ioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_io/boost_io-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:939 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "boost_utility"
+    configs:
+      -
+        filename: "boost_utility.cps"
+        kind: "cps"
+      -
+        filename: "boost_utilityConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_utility-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share"
+      names:
+        - "boost_utility"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_utilityConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost_utility-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost_utility.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost_utility.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost_utility.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/boost_utilityConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/boost_utility-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "/home/runner/webbuild/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (include)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:311 (find_package)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:381 (__boost_scan_dependencies)"
+      - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/cmake-build/BoostRoot.cmake:410 (__boost_gather_dependencies)"
+      - "CMakeLists.txt:6 (include)"
+    name: "Boost"
+    components:
+      -
+        name: "assert"
+        required: true
+        found: true
+      -
+        name: "bind"
+        required: true
+        found: true
+      -
+        name: "config"
+        required: true
+        found: true
+      -
+        name: "container_hash"
+        required: true
+        found: true
+      -
+        name: "core"
+        required: true
+        found: true
+      -
+        name: "integer"
+        required: true
+        found: true
+      -
+        name: "mp11"
+        required: true
+        found: true
+      -
+        name: "preprocessor"
+        required: true
+        found: true
+      -
+        name: "smart_ptr"
+        required: true
+        found: true
+      -
+        name: "throw_exception"
+        required: true
+        found: true
+      -
+        name: "tuple"
+        required: true
+        found: true
+      -
+        name: "type_traits"
+        required: true
+        found: true
+      -
+        name: "utility"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "Boost.cps"
+        kind: "cps"
+      -
+        filename: "boost.cps"
+        kind: "cps"
+      -
+        filename: "BoostConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Boost"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/wasm32-emscripten/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_winapi/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_winapi/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_variant2/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_variant2/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_utility/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_unordered/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_unordered/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_typeof/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_typeof/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_traits/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_traits/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_index/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_type_index/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tuple/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tuple/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tokenizer/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_tokenizer/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_throw_exception/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_throw_exception/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_system/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_system/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_static_assert/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_static_assert/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_smart_ptr/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_smart_ptr/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_regex/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_regex/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_range/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_range/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_preprocessor/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_preprocessor/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_predef/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_predef/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_optional/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_optional/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_numeric_conversion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_numeric_conversion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mpl/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mpl/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mp11/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_mp11/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_move/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_move/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_lexical_cast/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_lexical_cast/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_lambda/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_lambda/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_iterator/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_iterator/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_io/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_io/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_intrusive/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_intrusive/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_integer/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_headers/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_headers/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_fusion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_fusion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_function_types/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_function_types/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_function/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_function/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_exception/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_exception/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_detail/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_detail/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_describe/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_date_time/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_date_time/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_core/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_conversion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_conversion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container_hash/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_container/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_config/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_config/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_concept_check/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_concept_check/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_compat/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_compat/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_bind/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_atomic/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_atomic/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_assert/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio_deadline_timer/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio_deadline_timer/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio_core/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio_core/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_asio/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_array/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_array/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_any/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_any/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_align/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_align/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_algorithm/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost_algorithm/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-winapi/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-winapi/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-variant2/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-variant2/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-utility/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-utility/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-unordered/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-unordered/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-uninstall/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-uninstall/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-typeof/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-typeof/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-type-traits/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-type-traits/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-type-index/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-type-index/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-tuple/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-tuple/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-tokenizer/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-tokenizer/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-throw-exception/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-throw-exception/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-system/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-system/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-static-assert/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-static-assert/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-smart-ptr/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-smart-ptr/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-regex/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-regex/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-range/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-range/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-preprocessor/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-preprocessor/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-predef/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-predef/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-optional/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-optional/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-numeric-conversion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-numeric-conversion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-mpl/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-mpl/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-mp11/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-mp11/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-move/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-move/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-lexical-cast/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-lexical-cast/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-lambda/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-lambda/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-iterator/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-iterator/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-io/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-io/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-intrusive/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-intrusive/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-integer/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-integer/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-headers/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-headers/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-fusion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-fusion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-function-types/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-function-types/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-function/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-function/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-exception/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-exception/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-detail/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-detail/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-describe/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-describe/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-date-time/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-date-time/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-core/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-core/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-conversion/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-conversion/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-container-hash/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-container-hash/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-container/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-container/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-config/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-config/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-concept-check/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-concept-check/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-compat/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-compat/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-cmake/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-cmake/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-bind/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-bind/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-atomic/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-atomic/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-assert/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-assert/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-asio/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-asio/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-array/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-array/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-any/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-any/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-align/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-align/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-algorithm/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-algorithm/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/share/boost/BoostConfig.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify"
+        - "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug"
+        - "/"
+      ENV{PATH}:
+        - "/home/runner/webbuild/emsdk"
+        - "/home/runner/webbuild/emsdk/upstream/emscripten"
+        - "/snap/bin"
+        - "/home/runner/.local/bin"
+        - "/opt/pipx_bin"
+        - "/home/runner/.cargo/bin"
+        - "/home/runner/.config/composer/vendor/bin"
+        - "/usr/local/.ghcup/bin"
+        - "/home/runner/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+      CMAKE_INSTALL_PREFIX: "/home/runner/webbuild/vcpkg/packages/boost-multi-index_wasm32-emscripten-wesnoth-asyncify"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify;/home/runner/webbuild/vcpkg/installed/wasm32-emscripten-wesnoth-asyncify/debug;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot;/home/runner/webbuild/emsdk/upstream/emscripten/cache/sysroot"
+...

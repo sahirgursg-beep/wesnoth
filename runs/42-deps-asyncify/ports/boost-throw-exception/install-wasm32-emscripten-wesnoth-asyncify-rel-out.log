@@ -1,0 +1,14 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-throw-exception/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-throw-exception/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/include/boost/exception
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/include/boost/exception/exception.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/include/boost/throw_exception.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_throw_exception-1.92.0/boost_throw_exception-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_throw_exception-1.92.0/boost_throw_exception-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-throw-exception_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_throw_exception-1.92.0/boost_throw_exception-config-version.cmake
+

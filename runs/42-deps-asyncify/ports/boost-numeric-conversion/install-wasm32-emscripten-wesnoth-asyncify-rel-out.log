@@ -1,0 +1,41 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-numeric-conversion/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-numeric-conversion/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/bounds.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/converter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/numeric_cast_traits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/bounds.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/converter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/meta.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/int_float_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/is_subranged.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/sign_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/conversion_traits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/old_numeric_cast.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/preprocessed
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/int_float_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/is_subranged.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/sign_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/conversion_traits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/cast.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/sign_mixture_enum.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/udt_builtin_mixture.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/converter_policies.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/numeric/conversion/int_float_mixture_enum.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/include/boost/cast.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_numeric_conversion-1.92.0/boost_numeric_conversion-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_numeric_conversion-1.92.0/boost_numeric_conversion-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-numeric-conversion_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_numeric_conversion-1.92.0/boost_numeric_conversion-config-version.cmake
+

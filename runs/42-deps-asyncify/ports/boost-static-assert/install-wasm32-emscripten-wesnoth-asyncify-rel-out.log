@@ -1,0 +1,14 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-static-assert/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-static-assert/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/include/boost/static_assert
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/include/boost/static_assert/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/include/boost/static_assert/detail/backward.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_static_assert-1.92.0/boost_static_assert-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_static_assert-1.92.0/boost_static_assert-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-static-assert_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_static_assert-1.92.0/boost_static_assert-config-version.cmake
+

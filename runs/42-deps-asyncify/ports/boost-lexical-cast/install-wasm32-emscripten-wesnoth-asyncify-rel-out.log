@@ -1,0 +1,31 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-lexical-cast/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-lexical-cast/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/detail/basic_pointerbuf.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/try_lexical_convert.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/config.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/lcast_basic_unlockedbuf.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/widest_char.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/converter_lexical_streams.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/lcast_char_constants.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/converter_numeric.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/lcast_precision.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/inf_nan.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/type_traits.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/converter_lexical.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/is_character.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/detail/buffer_view.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/include/boost/lexical_cast/bad_lexical_cast.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_lexical_cast-1.92.0/boost_lexical_cast-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_lexical_cast-1.92.0/boost_lexical_cast-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-lexical-cast_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_lexical_cast-1.92.0/boost_lexical_cast-config-version.cmake
+

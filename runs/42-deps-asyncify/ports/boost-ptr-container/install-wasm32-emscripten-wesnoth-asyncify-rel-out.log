@@ -1,0 +1,56 @@
+Change Dir: '/home/runner/webbuild/vcpkg/buildtrees/boost-ptr-container/wasm32-emscripten-wesnoth-asyncify-rel'
+
+Run Build Command(s): /usr/local/bin/ninja -v -v -j5 install
+[0/1] cd /home/runner/webbuild/vcpkg/buildtrees/boost-ptr-container/wasm32-emscripten-wesnoth-asyncify-rel && /usr/local/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/exception.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_list.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_deque.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_container.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_set.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/clone_allocator.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_vector.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/map_iterator.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/meta_functions.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/reversible_ptr_container.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/ptr_container_disable_deprecated.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/serialize_xml_names.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/static_move_ptr.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/scoped_deleter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/serialize_reversible_cont.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/serialize_ptr_map_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/throw_exception.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/move.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/is_convertible.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/void_ptr_iterator.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/associative_ptr_container.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/detail/default_deleter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_vector.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_sequence_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_map.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_unordered_map.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_array.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_set_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_array.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_circular_buffer.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_unordered_map.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_list.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_unordered_set.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_map_adapter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_deque.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_map.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/nullable.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_inserter.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/indirect_fun.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_unordered_set.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_set.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/serialize_ptr_container.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/include/boost/ptr_container/ptr_circular_buffer.hpp
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_ptr_container-1.92.0/boost_ptr_container-targets.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_ptr_container-1.92.0/boost_ptr_container-config.cmake
+-- Installing: /home/runner/webbuild/vcpkg/packages/boost-ptr-container_wasm32-emscripten-wesnoth-asyncify/lib/cmake/boost_ptr_container-1.92.0/boost_ptr_container-config-version.cmake
+
