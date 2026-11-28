@@ -20,6 +20,7 @@ vcpkg_extract_source_archive(SOURCE_PATH
         libintl.patch
         emscripten.patch # wesnoth-web: Emscripten support
         emscripten-fnptr.patch # wesnoth-web: exact function signatures (wasm)
+        emscripten-callbacks.patch # wesnoth-web: free_full/sort/foreach call callbacks with their real arity
 )
 
 set(LANGUAGES C CXX)

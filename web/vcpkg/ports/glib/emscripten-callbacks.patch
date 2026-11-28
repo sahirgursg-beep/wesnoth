@@ -1,0 +1,138 @@
+diff --git a/glib/gasyncqueue.c b/glib/gasyncqueue.c
+index c8b914c..1a793ad 100644
+--- a/glib/gasyncqueue.c
++++ b/glib/gasyncqueue.c
+@@ -182,7 +182,7 @@ g_async_queue_unref (GAsyncQueue *queue)
+       g_mutex_clear (&queue->mutex);
+       g_cond_clear (&queue->cond);
+       if (queue->item_free_func)
+-        g_queue_foreach (&queue->queue, (GFunc) queue->item_free_func, NULL);
++        { GList *_l; for (_l = queue->queue.head; _l != NULL; _l = _l->next) queue->item_free_func (_l->data); } /* wasm: exact signature */
+       g_queue_clear (&queue->queue);
+       g_free (queue);
+     }
+diff --git a/glib/glist.c b/glib/glist.c
+index 8ba2f84..1e42cc7 100644
+--- a/glib/glist.c
++++ b/glib/glist.c
+@@ -159,7 +159,10 @@ void
+ g_list_free_full (GList          *list,
+                   GDestroyNotify  free_func)
+ {
+-  g_list_foreach (list, (GFunc) free_func, NULL);
++  /* wasm: call free_func with exactly one argument (no GFunc cast) */
++  GList *l;
++  for (l = list; l != NULL; l = l->next)
++    free_func (l->data);
+   g_list_free (list);
+ }
+ 
+@@ -1081,12 +1084,24 @@ g_list_insert_sorted_real (GList    *list,
+  *
+  * Returns: the (possibly changed) start of the #GList
+  */
++
++/* wasm: GCompareFunc takes two arguments; the *_real helpers call their
++ * function as a three-argument GCompareDataFunc. Go through an adapter
++ * that carries the real compare function as user_data. */
++static gint
++g_list_compare_func_adapter (gconstpointer a,
++                         gconstpointer b,
++                         gpointer      compare_func)
++{
++  return ((GCompareFunc) compare_func) (a, b);
++}
++
+ GList *
+ g_list_insert_sorted (GList        *list,
+                       gpointer      data,
+                       GCompareFunc  func)
+ {
+-  return g_list_insert_sorted_real (list, data, (GFunc) func, NULL);
++  return g_list_insert_sorted_real (list, data, (GFunc) g_list_compare_func_adapter, (gpointer) func);
+ }
+ 
+ /**
+@@ -1217,7 +1232,7 @@ GList *
+ g_list_sort (GList        *list,
+              GCompareFunc  compare_func)
+ {
+-  return g_list_sort_real (list, (GFunc) compare_func, NULL);
++  return g_list_sort_real (list, (GFunc) g_list_compare_func_adapter, (gpointer) compare_func);
+ }
+ 
+ /**
+diff --git a/glib/gqueue.c b/glib/gqueue.c
+index 07805ff..7ebca05 100644
+--- a/glib/gqueue.c
++++ b/glib/gqueue.c
+@@ -81,7 +81,7 @@ void
+ g_queue_free_full (GQueue        *queue,
+                   GDestroyNotify  free_func)
+ {
+-  g_queue_foreach (queue, (GFunc) free_func, NULL);
++  { GList *_l; for (_l = queue->head; _l != NULL; _l = _l->next) free_func (_l->data); }
+   g_queue_free (queue);
+ }
+ 
+@@ -140,7 +140,7 @@ g_queue_clear_full (GQueue          *queue,
+   g_return_if_fail (queue != NULL);
+ 
+   if (free_func != NULL)
+-    g_queue_foreach (queue, (GFunc) free_func, NULL);
++    { GList *_l; for (_l = queue->head; _l != NULL; _l = _l->next) free_func (_l->data); }
+ 
+   g_queue_clear (queue);
+ }
+diff --git a/glib/gslist.c b/glib/gslist.c
+index 4ca7338..aed74df 100644
+--- a/glib/gslist.c
++++ b/glib/gslist.c
+@@ -146,7 +146,10 @@ void
+ g_slist_free_full (GSList         *list,
+ 		   GDestroyNotify  free_func)
+ {
+-  g_slist_foreach (list, (GFunc) free_func, NULL);
++  /* wasm: call free_func with exactly one argument (no GFunc cast) */
++  GSList *l;
++  for (l = list; l != NULL; l = l->next)
++    free_func (l->data);
+   g_slist_free (list);
+ }
+ 
+@@ -893,6 +896,17 @@ g_slist_insert_sorted_real (GSList   *list,
+     }
+ }
+ 
++/* wasm: GCompareFunc takes two arguments; the *_real helpers call their
++ * function as a three-argument GCompareDataFunc. Go through an adapter
++ * that carries the real compare function as user_data. */
++static gint
++g_slist_compare_func_adapter (gconstpointer a,
++                              gconstpointer b,
++                              gpointer      compare_func)
++{
++  return ((GCompareFunc) compare_func) (a, b);
++}
++
+ /**
+  * g_slist_insert_sorted:
+  * @list: a #GSList
+@@ -911,7 +925,7 @@ g_slist_insert_sorted (GSList       *list,
+                        gpointer      data,
+                        GCompareFunc  func)
+ {
+-  return g_slist_insert_sorted_real (list, data, (GFunc) func, NULL);
++  return g_slist_insert_sorted_real (list, data, (GFunc) g_slist_compare_func_adapter, (gpointer) func);
+ }
+ 
+ /**
+@@ -1018,7 +1032,7 @@ GSList *
+ g_slist_sort (GSList       *list,
+               GCompareFunc  compare_func)
+ {
+-  return g_slist_sort_real (list, (GFunc) compare_func, NULL);
++  return g_slist_sort_real (list, (GFunc) g_slist_compare_func_adapter, (gpointer) compare_func);
+ }
+ 
+ /**
