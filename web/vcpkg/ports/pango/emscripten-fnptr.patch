@@ -12,6 +12,34 @@ index 1833ef9..ab3ef3d 100644
  {
    iface->get_item_type = pango_font_family_get_item_type;
    iface->get_n_items = pango_font_family_get_n_items;
+diff --git a/pango/pango-attributes.c b/pango/pango-attributes.c
+index b04c5e1..e66e301 100644
+--- a/pango/pango-attributes.c
++++ b/pango/pango-attributes.c
+@@ -1965,6 +1965,14 @@ pango_attr_list_unref (PangoAttrList *list)
+     }
+ }
+ 
++/* wasm: GCopyFunc takes (src, data); pango_attribute_copy takes one argument. */
++static gpointer
++pango_attribute_copy_func (gconstpointer src,
++                           gpointer      data G_GNUC_UNUSED)
++{
++  return pango_attribute_copy ((const PangoAttribute *) src);
++}
++
+ /**
+  * pango_attr_list_copy:
+  * @list: (nullable): a `PangoAttrList`
+@@ -1988,7 +1996,7 @@ pango_attr_list_copy (PangoAttrList *list)
+   if (!list->attributes || list->attributes->len == 0)
+     return new;
+ 
+-  new->attributes = g_ptr_array_copy (list->attributes, (GCopyFunc)pango_attribute_copy, NULL);
++  new->attributes = g_ptr_array_copy (list->attributes, pango_attribute_copy_func, NULL);
+ 
+   return new;
+ }
 diff --git a/pango/pango-context.c b/pango/pango-context.c
 index 6b5cf7d..26200bd 100644
 --- a/pango/pango-context.c
