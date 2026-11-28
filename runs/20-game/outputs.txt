@@ -1,0 +1,2 @@
+-rw-r--r-- 1 runner runner   226618 Nov 28 07:21 /home/runner/webbuild/build/wesnoth.js
+-rwxr-xr-x 1 runner runner 62528588 Nov 28 07:21 /home/runner/webbuild/build/wesnoth.wasm
